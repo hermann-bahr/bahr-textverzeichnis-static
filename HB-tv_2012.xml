@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="HB-tv_2012.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_2011.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_2013.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Theater, Kunst und Literatur. Raimund-Theater</title>
+            <title type="iso-date">1901-12-22</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-02+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/HB-tv_2012.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliografische-angabe">
+            <biblStruct xml:id="HB-tv_2012" type="Journal-Article" subtype="Nachtkritik" status="checked">
+               <analytic>
+                  <author ref="#10815">H. B.</author>
+                  <title level="a">Theater, Kunst und Literatur. Raimund-Theater</title>
+               </analytic>
+               <monogr>
+                  <title level="j" ref="#41321">Neues Wiener Tagblatt</title>
+                  <imprint>
+                     <biblScope unit="jg">35</biblScope>
+                     <biblScope unit="issue">351</biblScope>
+                     <biblScope unit="pages">8–9</biblScope>
+                     <date when="1901-12-22">22.12.1901</date>
+                  </imprint>
+               </monogr>
+               <note type="review-of">»Der Kellermeister«, Operette von Carl Zeller, Text von Moritz
+                  West und Ignaz Schnitzer</note>
+               <note type="incipit">Vergrämte Leute, die den ganzen Tag Raimund hüten, damit ihm
+                  nichts geschieht, werden zetern und wimmern, daß jetzt auch in sein Haus die
+                  Operette eingedrungen ist</note>
+               <ref type="personenindex">
+                  <listRef>
+                     <ptr type="pmb" target="#10659"/>
+                     <ptr type="pmb" target="#24403"/>
+                     <ptr type="pmb" target="#12468"/>
+                     <ptr type="pmb" target="#11441"/>
+                     <ptr type="HB-tv" target="HB-tv_2012_p1"/>
+                     <ptr type="HB-tv" target="HB-tv_2012_p2"/>
+                     <ptr type="HB-tv" target="HB-tv_2012_p3"/>
+                     <ptr type="HB-tv" target="HB-tv_2012_p4"/>
+                  </listRef>
+               </ref>
+               <ref type="URL">http://anno.onb.ac.at/cgi-content/anno?aid=nwg</ref>
+            </biblStruct>
+         </div>
+      </body>
+   </text>
+</TEI>

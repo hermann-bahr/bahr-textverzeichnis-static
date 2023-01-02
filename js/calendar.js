@@ -14,7 +14,7 @@ function getYear(item) {
     endDate: new Date(r.startDate),
     name: r.name,
     linkId: r.id,
-    color: '#B43C9C'
+    color: '#8E4162'
   })).filter(r => r.startDate.getFullYear() === 1929);
   
   
@@ -101,7 +101,7 @@ function getYear(item) {
       endDate: new Date(r.startDate),
       name: r.name,
       linkId: r.id,
-      color: '#B43C9C'
+      color: '#8E4162'
     })).filter(r => r.startDate.getFullYear() === parseInt(year));
     calendar.setDataSource(dataSource);
   }
