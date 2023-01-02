@@ -95,26 +95,7 @@
                             </div>
                             <div class="card-footer">
                                 <p style="text-align:center;">
-                                    <xsl:for-each select=".//tei:note[not(./tei:p)]">
-                                        <div class="footnotes" id="{local:makeId(.)}">
-                                            <xsl:element name="a">
-                                                <xsl:attribute name="name">
-                                                    <xsl:text>fn</xsl:text>
-                                                    <xsl:number level="any" format="1" count="tei:note"/>
-                                                </xsl:attribute>
-                                                <a>
-                                                    <xsl:attribute name="href">
-                                                        <xsl:text>#fna_</xsl:text>
-                                                        <xsl:number level="any" format="1" count="tei:note"/>
-                                                    </xsl:attribute>
-                                                    <span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">
-                                                        <xsl:number level="any" format="1" count="tei:note"/>
-                                                    </span>
-                                                </a>
-                                            </xsl:element>
-                                            <xsl:apply-templates/>
-                                        </div>
-                                    </xsl:for-each>
+                                    <!-- Hier personenindex her -->
                                 </p>
                             </div>
                         </div>                       
@@ -571,4 +552,28 @@
                 select="foo:autor-rekursion($monogr, $autor-count + 1, $autor-count-gesamt)"/>
         </xsl:if>
     </xsl:function>
+    
+    <xsl:template match="tei:note[not(@type='incipit')]">
+        <p/>
+        <p style="font-style=italic">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
+    <xsl:template match="tei:note[(@type='incipit')]">
+        <p/>
+        <p>
+        <xsl:choose>
+            <xsl:when test="ends-with(normalize-space(.), '|')">
+                <b>Volltext: </b>
+                <xsl:apply-templates/>
+            </xsl:when>
+            <xsl:otherwise>
+                <b>Textanfang: </b>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose>
+        </p>
+    </xsl:template>
+    
 </xsl:stylesheet>
