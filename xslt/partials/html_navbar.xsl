@@ -11,7 +11,7 @@
                 <div class="container-fluid">
                     <!-- Your site title as branding in the menu -->
                     <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url">
-                        <img src="img/logo.svg" class="img-fluid" alt="{$project_short_title}" itemprop="logo"/>
+                        <img src="img/bahr-textverzeichnis.svg" class="img-fluid" alt="{$project_short_title}" itemprop="logo"/>
                     </a><!-- end custom logo -->
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"/>
@@ -24,19 +24,11 @@
                                 </a>
                                 <div class="dropdown-menu">
                                     <a class="dropdown-item" href="projekt.html">Zur Edition</a>
-                                    <a class="dropdown-item" href="editionsprinzipien.html">Editionsprinzipien</a>
-                                    <a class="dropdown-item" href="mithilfe.html">Mithilfe</a>
-                                    <a class="dropdown-item" href="zitat.html">Zitieren</a>
-                                    <a title="Links" href="https://de.wikipedia.org/wiki/Clara_Katharina_Pollaczek"
-                                        class="nav-link">C. K. Pollaczek (Wikipedia)</a>
                                     <a title="Links" href="https://schnitzler.acdh.oeaw.ac.at"
                                         class="nav-link">Schnitzler am ACDH-CH</a>
                                     <a title="Links"
-                                        href="https://github.com/arthur-schnitzler/pollaczek-data"
+                                        href="https://github.com/hermann-bahr/bahr-textverzeichnis-data"
                                         class="nav-link">Daten auf gitHub</a>
-                                    <a title="GND-Beacon"
-                                        href="beacon.txt"
-                                        class="nav-link">GND-Beacon</a>
                                 </div>
                             </li>
                             <li class="nav-item">

@@ -13,7 +13,7 @@ for x in tqdm(files, total=len(files)):
     head, tail = os.path.split(x)
     doc = TeiReader(x)
     counter = 0
-    for date in doc.any_xpath(".//tei:title[@when-iso]"):
+    for date in doc.any_xpath(".//tei:titleStmt/tei:title[@when-iso]"):
         item = {}
         counter += 1
         item["name"] = doc.any_xpath('//tei:title[@level="a"]/text()')[0]
