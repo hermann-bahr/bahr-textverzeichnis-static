@@ -70,7 +70,7 @@
                                         </h1>
                                         <h3 align="center">
                                             <a href="{$teiSource}">
-                                                <i class="fas fa-download" title="show TEI source"/>
+                                                <i class="fas fa-code" title="zeige TEI"/>
                                             </a>
                                         </h3>
                                     </div>
@@ -277,6 +277,7 @@
                 </tr>
             </tbody>
         </table>
+        <xsl:apply-templates select="tei:note"/>
     </xsl:template>
     
     <xsl:function name="foo:monogr-angabe">
