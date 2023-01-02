@@ -29,7 +29,7 @@ function getYear(item) {
   //document.getElementById("ybtn1929").classList.add("focus");
   
   const calendar = new Calendar('#calendar', {
-    startYear: 1929,
+    startYear: 1885,
     language: "de",
     dataSource: data,
     displayHeader: false,
