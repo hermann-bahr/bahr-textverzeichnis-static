@@ -268,6 +268,13 @@
                             />
                         </xsl:if>
                         <xsl:if
+                            test="not(empty(./tei:monogr//tei:biblScope[@unit = 'pages']))">
+                            <xsl:text>, S. </xsl:text>
+                            <xsl:value-of
+                                select="./tei:monogr//tei:biblScope[@unit = 'pages']"
+                            />
+                        </xsl:if>
+                        <xsl:if
                             test="not(empty(./tei:monogr//tei:biblScope[@unit = 'col']))">
                             <xsl:text>, Sp. </xsl:text>
                             <xsl:value-of
@@ -371,6 +378,10 @@
                 <xsl:if test="$monogr/tei:biblScope/@unit = 'vol'">
                     <xsl:text>, </xsl:text>
                     <xsl:value-of select="$monogr/tei:biblScope[@unit = 'vol']"/>
+                </xsl:if>
+                <xsl:if test="$monogr/tei:biblScope/@unit = 'issue'">
+                    <xsl:text>, </xsl:text>
+                    <xsl:value-of select="$monogr/tei:biblScope[@unit = 'issue']"/>
                 </xsl:if>
             </xsl:otherwise>
         </xsl:choose>
