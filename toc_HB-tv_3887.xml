@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_3887.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_3886.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_3888.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Austriaca. 8</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_3887.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_3887" type="Book_Section" subtype="Buchtext" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="a">Austriaca. 8</title>
+            <author ref="#10815">Bahr, Hermann</author>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="m">Austriaca. Essays</title>
+            <imprint>
+               <pubPlace>Berlin</pubPlace>
+               <publisher>S. Fischer</publisher>
+               <date when="1911">1911</date>
+               <biblScope unit="pages">71–77</biblScope>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="first-printing">Als »Die Renner Buben« in: Berliner Tageblatt, 38 (1909)
+                  #534, Abend–Ausgabe, 1–2. (20.10.1909)</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Wunderlich ist es, wie wir Österreicher immer in Erwartung leben
+                  und es dann aber doch verpassen, wenn es in Erfüllung geht.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Die jungen Brüder Renner bauen in Graz ein funktionierendes
+                  Fluggerät; Bahr zeigt sich überrascht darüber, dass sie dafür nicht mehr
+                  Bewunderung bekommen und meint in der Reserviertheit nationaler Erfolge gegenüber
+                  eine österreichische Besonderheit zu erkennen.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#23270"/>
+               <ptr type="pmb" target="#23274"/>
+               <ptr type="pmb" target="#15229"/>
+               <ptr type="pmb" target="#2566"/>
+               <ptr type="HB-tv" target="HB-tv_3887_p1"/>
+               <ptr type="HB-tv" target="HB-tv_3887_p2"/>
+               <ptr type="HB-tv" target="HB-tv_3887_p3"/>
+               <ptr type="HB-tv" target="HB-tv_3887_p4"/>
+               <ptr type="HB-tv" target="HB-tv_5329_p2"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">http://www.univie.ac.at/bahr/sites/all/ks/11-austriaca.pdf</ref>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,68 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_1498.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1497.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1499.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">[Gerhart Hauptmann]</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_1498.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_1498" type="Book_Section" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="a">[Gerhart Hauptmann]</title>
+            <author ref="#10815">Bahr, Hermann</author>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="m">Festschrift zum 60. Geburtstag Gerhart Hauptmanns. Im Auftrage
+                     der Genossenschaft deutscher Bühnenangehöriger</title>
+            <editor>Hollaender, Felix</editor>
+            <imprint>
+               <pubPlace>Berlin</pubPlace>
+               <publisher>Rudolf Mosse</publisher>
+               <date when="1922">1922</date>
+               <biblScope unit="pages">4</biblScope>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Erscheinungsjahr eigentlich [1922]. Ankündigung in: Vossische Zeitung, 1922
+                     #358, Abend-Ausgabe, 3 (31.7.1922). Bahr teilt sich die Seite mit Arthur
+                     Schnitzler und Walter Rathenau. Sein Exemplar in der Universitätsbibliothek
+                     Salzburg, Signatur 39.140-III.</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Als wir aufwuchsen, war keine deutsche Literatur am
+                  Leben.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Bahr würdigt Hauptmann dafür, die neue deutsche Literatur
+                  begründet zu haben, sie beständig weiter getrieben zu haben und dabei das Elend
+                  der Menschen nie aus den Augen verloren zu haben.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#13194"/>
+               <ptr type="pmb" target="#11798"/>
+               <ptr type="pmb" target="#12664"/>
+               <ptr type="pmb" target="#11763"/>
+               <ptr type="pmb" target="#11617"/>
+               <ptr type="pmb" target="#11461"/>
+               <ptr type="pmb" target="#12654"/>
+            </listRef>
+         </ref>
+      </body>
+   </text>
+</TEI>

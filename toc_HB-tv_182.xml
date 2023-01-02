@@ -1,0 +1,49 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_182.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1819.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1820.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Die treue Adele. Eine vergeßliche
+                     Geschichte</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_182.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_182" type="Journal-Article" subtype="Dichtung" status="checked" sameAs="pmb30187">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a" ref="pmb30187">Die treue Adele. Eine vergeßliche
+                     Geschichte</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="pmb30187">Die Gesellschaft</title>
+            <imprint>
+               <biblScope unit="jg">5</biblScope>
+               <biblScope unit="issue">11 (November)</biblScope>
+               <biblScope unit="pages">1556–1564</biblScope>
+               <date when="1889">1889</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="other-prints">Fin de Siècle, 71-88</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Ja, gleich um die Ecke! Rechts, wenn man hinuntergeht</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/gesellschaft/1890_adele.pdf</ref>
+      </body>
+   </text>
+</TEI>

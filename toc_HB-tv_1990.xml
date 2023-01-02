@@ -1,0 +1,69 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_1990.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_199.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1991.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Coquelin. (Als Gast im Carl-Theater vom 30. Oktober bis 1.
+                     November 1903)</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_1990.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_1990" type="Journal-Article" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Coquelin. (Als Gast im Carl-Theater vom 30. Oktober bis 1.
+                     November 1903)</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="#41321">Neues Wiener Tagblatt</title>
+            <imprint>
+               <biblScope unit="jg">37</biblScope>
+               <biblScope unit="issue">299</biblScope>
+               <biblScope unit="pages">11</biblScope>
+               <date when="1903-10-31">31.10.1903</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Am 7. März 1898 war im Theater der Porte-Saint-Martin</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Bahr findet den Jüngeren Cadet in Deutschland unterschätzt, hält
+                  ihn aber zugleich für einen Handwerker, dem teilweise das Herz fehlt.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#12567"/>
+               <ptr type="pmb" target="#7633"/>
+               <ptr type="pmb" target="#5359"/>
+               <ptr type="pmb" target="#9484"/>
+               <ptr type="pmb" target="#11157"/>
+               <ptr type="pmb" target="#4120"/>
+               <ptr type="pmb" target="#11851"/>
+               <ptr type="HB-tv" target="HB-tv_1990_p1"/>
+               <ptr type="HB-tv" target="HB-tv_2173_p2"/>
+               <ptr type="HB-tv" target="HB-tv_1990_p3"/>
+               <ptr type="HB-tv" target="HB-tv_1990_p4"/>
+               <ptr type="HB-tv" target="HB-tv_1191_p2"/>
+               <ptr type="HB-tv" target="HB-tv_2135_p1"/>
+               <ptr type="HB-tv" target="HB-tv_1990_p7"/>
+               <ptr type="HB-tv" target="HB-tv_1990_p8"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">http://anno.onb.ac.at/cgi-content/anno?aid=nwg</ref>
+      </body>
+   </text>
+</TEI>

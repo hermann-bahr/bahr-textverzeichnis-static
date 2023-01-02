@@ -1,0 +1,69 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_1987.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1986.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1988.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Theater, Kunst und Literatur. Deutsches
+                     Volkstheater</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_1987.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_1987" type="Journal-Article" subtype="Nachtkritik" sameAs="pmb30099" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">H. B.</author>
+            <title level="a" ref="pmb30099">Theater, Kunst und Literatur. Deutsches
+                     Volkstheater</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="#41321">Neues Wiener Tagblatt</title>
+            <imprint>
+               <biblScope unit="jg">37</biblScope>
+               <biblScope unit="issue">272</biblScope>
+               <biblScope unit="pages">10</biblScope>
+               <date when="1903-10-04">4.10.1903</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Die Kontroverse, die sich an dieser Rezension entbrannt hat, ist in den
+                     Tagebüchern (Csáky), Band III, 395-397 nachzulesen. Kraus Kommentar findet sich
+                     in der Fackel, 5 (1903) #144, 26.</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="review-of">»Der Tugendhof« von Richard Skowronnek</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Ich habe mich gestern geschämt, daß ich einst im Volkstheater
+                  aufgeführt worden bin. Ein so grimmig, abgrundschlechtes und infernalisch
+                  langweiliges Stück ist dieser »Tugendhof«. Mit Leo Leipziger fing es an, nun sind
+                  wir heuer hier angekommen, wie weit noch?… Und sonderbar, wie Herr Weisse ist: Vor
+                  »Literatur« hat er eine Todesangst, weil solche Stücke, wie er es nennt, nicht
+                  »sicher« sind, sondern auch durchfallen können. Nun fällt ihm aber ein schlechtes
+                  Stück um das andere durch, jede Woche, und er schließt daraus nur, daß es offenbar
+                  immer noch nicht schlecht genug war. So schätzt er sein Publikum. Es wird ihm
+                  schon antworten. |</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#26880"/>
+               <ptr type="pmb" target="#2827"/>
+               <ptr type="HB-tv" target="HB-tv_2543_p1"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">http://anno.onb.ac.at/cgi-content/anno?aid=nwg</ref>
+      </body>
+   </text>
+</TEI>

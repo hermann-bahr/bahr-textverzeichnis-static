@@ -1,0 +1,64 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_1970.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_197.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1971.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Theater, Kunst und Literatur. Theater in der Josephstadt</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_1970.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_1970" type="Journal-Article" subtype="Nachtkritik_Zweifelhafte_Zuschreibung" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="a">Theater, Kunst und Literatur. Theater in der Josephstadt</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="#41321">Neues Wiener Tagblatt</title>
+            <imprint>
+               <biblScope unit="jg">34</biblScope>
+               <biblScope unit="issue">209</biblScope>
+               <biblScope unit="pages">9</biblScope>
+               <date when="1900-08-01">1.8.1900</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Dieser im Nachlass Bahrs in der Kiste ZMBa 9 aufbewahrte Text stammt aller
+                     Wahrscheinlichkeit nach nicht von Bahr, der am 25. Juli nach Darmstadt gereist
+                     war und von dort weiter nach Paris zum internationalen Pressekongress und sich
+                     also zum betreffenden Zeitpunkt nicht in Wien aufhielt. Er ist nicht namentlich
+                     gezeichnet und stilistisch ohne die für Bahr typischen Extravaganzen.</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="review-of">»Brand« von Henrik Ibsen</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Die Berliner Secessionsbühne versuchte gestern im Theater in der
+                  Josephstadt eine Aufführung von Ibsen’s dramatischen Gedichte »Brand«, an das sich
+                  noch keine Wiener Bühne gewagt hat</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#11798"/>
+               <ptr type="pmb" target="#7528"/>
+               <ptr type="pmb" target="#12504"/>
+               <ptr type="pmb" target="#26973"/>
+               <ptr type="HB-tv" target="HB-tv_1970_p1"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">http://anno.onb.ac.at/cgi-content/anno?aid=nwg</ref>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,69 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_1400.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_140.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1401.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Erinnerung an Burckhard</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_1400.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_1400" type="Book" sameAs="pmb29945" status="checked">
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="m" ref="pmb29945">Erinnerung an Burckhard</title>
+            <imprint>
+               <pubPlace>Berlin</pubPlace>
+               <publisher>S. Fischer</publisher>
+               <date when="1913">1913</date>
+            </imprint>
+            <extent>136 Seiten</extent>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Mit drei Porträts von Burckhard. Am 28.6.1913 teilt Bahr Fischer mit, dass das
+                     Manuskript fast fertig ist. Im 1. Juli-Heft des »Merkers« ist das 2. Kapitel
+                     vorabgedruckt, das Buch wird für Herbst angekündigt. Am 18. August ist es
+                     ausgedruckt und soll Mitte September fertig sein (Bahr/Redlich, 88). Die
+                     Widmung in Gerhart Hauptmanns Exemplar datiert vom 7. Oktober 1913. Schnitzler
+                     nennt es am 7.12.1925 in einem Brief an Anton Bettelheim »Das beste, was über
+                     Max Burckhard bisher geschrieben wurde« (Schnitzler: Briefe 1913–1931, 420).
+                     Rezensionen : Paul Zifferer in: Neue Freie Presse, #17643, 31-32. (5.10.1913)
+                     [O. N.:] Hermann Bahr: Erinnerungen an Burckhard (S. Fischer, Berlin). In:
+                     Breslauer Morgen-Zeitung, 1913 #316, Literarische Beilage, 2. (17.11.1913)
+                     Berliner Tageblatt, zwischen 6. und 9.12.1913 Peter Alexander Kleimann: Hermann
+                     Bahr: Erinnerungen an Burkhard. In: Hamburgischer Correspondent. Zeitung für
+                     Literatur, Kunst und Wissenschaft, 1913 #26, 206. (21.12.1913) Albert Zippert:
+                     Hermann Bahr: Erinnerungen an Burckhard. In: Die Persönlichkeit, 1 (1914) #2
+                     (Februar), 141–142.</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="first-printing">Als »Burckhards Burgtheater« in: Der Merker 4 (1913),
+                  496–507 Als »Burckhards Karriere« in: Neue Freie Presse, 30.7.1913 Als »Erinnerung
+                  an Burckhard« in: Die neue Rundschau, 24 (1913) #2, 943–956.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="other-prints">Auszug in: Das 27. Jahr. Berlin: S. Fischer 1913,
+                  52-57.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#11036"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">http://www.archive.org/search.php?query=hermann%20bahr%20burckhard</ref>
+      </body>
+   </text>
+</TEI>

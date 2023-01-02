@@ -1,0 +1,60 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_301.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_3009.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_3010.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Der Abonnent</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_301.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_301" type="Journal-Article" sameAs="pmb32211" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Caph</author>
+            <title level="a" ref="pmb32211">Der Abonnent</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="#36340">Die Zeit</title>
+            <imprint>
+               <biblScope unit="jg">1</biblScope>
+               <biblScope unit="issue">1</biblScope>
+               <biblScope unit="pages">6–7</biblScope>
+               <date when="1894-10-06">6.10.1894</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Besprechung in Neue Deutsche Rundschau, 5 (1894) #11, 1169.</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">In vielen Redactionen kehrt eine wunderliche Scene immer
+                  wieder.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Eine Satire darüber, dass der Abonnent den Inhalt der Zeitung
+                  bestimmt, indem er nur lesen will, was er schon kennt, neue Gedanken aber nicht
+                  gedruckt werden können. »Die Zeit« will demgegenüber den Abonennten führen.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#2702"/>
+               <ptr type="pmb" target="#12358"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1-6.pdf</ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1-7.pdf</ref>
+      </body>
+   </text>
+</TEI>

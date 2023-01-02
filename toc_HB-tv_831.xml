@@ -1,0 +1,63 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_831.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_830.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_832.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Das deutsche Problem</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_831.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_831" type="Journal-Article" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Das deutsche Problem</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j">März</title>
+            <imprint>
+               <biblScope unit="jg">5</biblScope>
+               <biblScope unit="issue">2</biblScope>
+               <biblScope unit="pages">4–6</biblScope>
+               <date when="1911-04-04">4.4.1911</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="review-of">Franz Oppenheimer: Theorie der reinen und politischen
+                  Ökonomie. Teil 1: Grundlegung. Berlin: Reimer 1910</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="first-printing">Nachdruck als: Hermann Bahr über Arbeitslosigkeit. »Das
+                  deutsche Problem«. In: Neues Wiener Journal, 19 (1911) #6269, 3. (5.4.1911)</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Immer mehr scheint mir jetzt das deutsche Problem zu sein, daß
+                  zwei große Strecken der deutschen Nation politisch nicht angebaut sind, nämlich
+                  das Gebiet des Bürgertums und die ganze Region der Landwirtschaft.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Bürgertum und Landarbeiter nehmen zuwenig teil an der
+                  Politik.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#11461"/>
+               <ptr type="pmb" target="#12053"/>
+               <ptr type="pmb" target="#12654"/>
+               <ptr type="pmb" target="#3975"/>
+               <ptr type="HB-tv" target="HB-tv_1445_p1"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/maerz/1911-5-2_das-deutsche-problem.pdf</ref>
+      </body>
+   </text>
+</TEI>

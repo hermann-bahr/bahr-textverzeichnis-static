@@ -1,0 +1,77 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_420.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_42.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_4200.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Die Wolter. (Gestorben am 14. Juni 1897)</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_420.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_420" type="Journal-Article" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Die Wolter. (Gestorben am 14. Juni 1897)</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="#36340">Die Zeit</title>
+            <imprint>
+               <biblScope unit="jg">11</biblScope>
+               <biblScope unit="issue">142</biblScope>
+               <biblScope unit="pages">186–187</biblScope>
+               <date when="1897-06-19">19.6.1897</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Vgl. das Interview mit Charlotte Wolter in: Studien zur Kritik der Moderne,
+                     309-313.</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="other-prints">Wiener Theater, 150–156 H. B.: Kritiken. Hg. Kindermann.
+                  Wien: Bauer 1963, 343-347</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Es ist jetzt fünf Jahre her, dass ich einmal bei der Wolter saß,
+                  sie um Fragen ihrer Kunst verhörend.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Bahr verfasst einen skeptischen Nachruf, der Wolters Bedeutung
+                  für das Theater anerkennt, ihren Verlust für das gegenwärtige Theater aber gering
+                  schätzt.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#13166"/>
+               <ptr type="pmb" target="#12816"/>
+               <ptr type="pmb" target="#2702"/>
+               <ptr type="pmb" target="#11518"/>
+               <ptr type="pmb" target="#19980"/>
+               <ptr type="pmb" target="#11687"/>
+               <ptr type="pmb" target="#6704"/>
+               <ptr type="pmb" target="#12167"/>
+               <ptr type="pmb" target="#4142"/>
+               <ptr type="pmb" target="#8931"/>
+               <ptr type="HB-tv" target="HB-tv_1402_p29"/>
+               <ptr type="HB-tv" target="HB-tv_420_p2"/>
+               <ptr type="HB-tv" target="HB-tv_3285_p10"/>
+               <ptr type="HB-tv" target="HB-tv_420_p4"/>
+               <ptr type="HB-tv" target="HB-tv_420_p5"/>
+               <ptr type="HB-tv" target="HB-tv_420_p6"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1897-11/142-186.pdf</ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1897-11/142-187.pdf</ref>
+      </body>
+   </text>
+</TEI>

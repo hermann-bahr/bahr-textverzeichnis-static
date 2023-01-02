@@ -1,0 +1,67 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_5958.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_5957.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_5959.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Hinter den Coulissen</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_5958.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_5958" type="Journal-Article" subtype="Leserbrief" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Hinter den Coulissen</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="#41289">Berliner Börsen-Courier</title>
+            <imprint>
+               <biblScope unit="jg">30</biblScope>
+               <biblScope unit="issue">611, Morgen-Ausgabe</biblScope>
+               <biblScope unit="pages">[1]</biblScope>
+               <date when="1897-12-31">31.12.1897</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Den Angriff Carl Bleibtreus auf Bahr, der am 28. Dezember 1897 im Berliner
+                     Börsen-Courier (#605, Morgen-Ausgabe, 1. Beilage, [1-2]) behauptet hatte,
+                     dieser wäre mit »Josephine« ein Plagiator seines Stücks »Schicksal«, will Bahr
+                     nicht öffentlich parieren. Der Wiener Korrespondent zitiert deswegen aus einem
+                     Privatbrief Bahrs an ihn, aus einem Interview Bahrs mit dem Wiener Tagblatt und
+                     in Anschluss daran ein Brief Bleibtreus, in dem er seine Vorwürfe noch einmal
+                     spezifiert.</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="first-printing">Die Gesellschaft, 14 (1898) #4 (Fasching), 292.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Mein Gefühl ist, daß ich durch eine Antwort nur auf sein Niveau
+                  herabsteigen würde.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Bahrs gründet seine Argumente doppelt, einerseits bräuchte man
+                  nie Bleibtreu um über Napoleon zu schreiben, andererseits hätte man ihm (H. B.)
+                  vorgeworfen, sich in Napoleon selber zu porträtieren und er hätte es nicht nötig,
+                  für sich selbst bei Bleibtreu nachzulesen.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#14281"/>
+               <ptr type="HB-tv" target="HB-tv_5958_p1"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/boersen-courier/1897_bleibtreu.pdf</ref>
+      </body>
+   </text>
+</TEI>

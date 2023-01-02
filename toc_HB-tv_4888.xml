@@ -1,0 +1,59 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_4888.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_4887.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_4889.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Welche Bücher schenken Sie zu Weihnachten?. Stichproben des
+                     Leipziger Tageblatts</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_4888.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_4888" type="Journal-Article" subtype="Umfrage" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Welche Bücher schenken Sie zu Weihnachten?. Stichproben des
+                     Leipziger Tageblatts</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j">Leipziger Tageblatt und Handelszeitung</title>
+            <imprint>
+               <biblScope unit="jg">119</biblScope>
+               <biblScope unit="issue">329</biblScope>
+               <biblScope unit="pages">3–4, hier: 4</biblScope>
+               <date when="1925-11-29">29.11.1925</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="first-printing">Prager Tagblatt, 50 (1925) #278, 3. (29.11.1925)</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Auf Ihre Anfrage, welches Buch ich einer Frau, einem Kinde und
+                  meinem Freunde zu Weihnachten schenken würde, antworte ich: dem Kinde den
+                  »Robinson«, der Frau Goethes »Wahlverwandschaften« und dem Freunde Stifters
+                  »Witiko«.|</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#12851"/>
+               <ptr type="pmb" target="#11461"/>
+               <ptr type="HB-tv" target="HB-tv_4428_p1"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/leipziger-tageblatt/1925_weihnachten.pdf</ref>
+      </body>
+   </text>
+</TEI>

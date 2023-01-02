@@ -1,0 +1,64 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_2965.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_2964.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_2966.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Unsere Secession</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_2965.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_2965" type="Book_Section" subtype="Buchtext" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="a">Unsere Secession</title>
+            <author ref="#10815">Bahr, Hermann</author>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="m">Secession</title>
+            <imprint>
+               <pubPlace>Wien</pubPlace>
+               <publisher>Wiener Verlag</publisher>
+               <date when="1900">1900</date>
+               <biblScope unit="pages">6–10</biblScope>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="first-printing">Die Zeit, 11 (1897) #139, 139–40. (29.5.1897)</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">In der letzten Versammlung der Wiener Künstler ist es zu einer
+                  hässlichen Scene gekommen. Man hat gelärmt, man hat geschrien, es fehlte nicht
+                  viel und man wäre thätlich geworden.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Anders als in Paris oder München, wo die Secession die
+                  Abspaltung der jungen von der alten Kunst bedeutete, stellte sich nach Bahr die
+                  Sache in Wien als eine Abspaltung der Kunst von der Fabrikation unkünstlerischer
+                  Dekorationen dar.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#3527"/>
+               <ptr type="pmb" target="#3904"/>
+               <ptr type="pmb" target="#12277"/>
+               <ptr type="pmb" target="#11257"/>
+               <ptr type="HB-tv" target="HB-tv_2972_p2"/>
+               <ptr type="HB-tv" target="HB-tv_4852_p24"/>
+               <ptr type="HB-tv" target="HB-tv_3543_p14"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">http://www.univie.ac.at/bahr/sites/all/ks/6-secession.pdf</ref>
+      </body>
+   </text>
+</TEI>

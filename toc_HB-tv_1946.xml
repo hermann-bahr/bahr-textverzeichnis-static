@@ -1,0 +1,53 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_1946.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1945.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1947.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Brief an Arthur Schnitzler</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_1946.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_1946" type="Journal-Article" status="checked" sameAs="pmb30049">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a" ref="pmb30049">Brief an Arthur Schnitzler</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="pmb89471">Moderne Welt. Kunst-Literatur-Mode</title>
+            <imprint>
+               <biblScope unit="jg">3</biblScope>
+               <biblScope unit="issue">12</biblScope>
+               <biblScope unit="pages">3–6</biblScope>
+               <date when="1922-05-01">Mai 1922</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Mit acht Fotoportraits</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Lieber Arthur! 1889 in Paris, als ich eben über den Winter nach
+                  Spanien und Marokko ging, erhielt ich einen Brief mit der erstaunlichen Nachricht,
+                  auch Wien fange jetzt von neuem zu dichten an, wenn auch zunächst nur in
+                  Brünn.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/moderne-welt/1921_schnitzler.pdf</ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://anno.onb.ac.at/cgi-content/anno-plus?aid=dmw&amp;datum=1922&amp;page=227&amp;size=45</ref>
+      </body>
+   </text>
+</TEI>

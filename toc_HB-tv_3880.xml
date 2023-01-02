@@ -1,0 +1,64 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_3880.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_388.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_3881.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Graf Aehrenthal. 2</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_3880.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_3880" type="Book_Section" subtype="Buchtext" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="a">Graf Aehrenthal. 2</title>
+            <author ref="#10815">Bahr, Hermann</author>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="m">Austriaca. Essays</title>
+            <imprint>
+               <pubPlace>Berlin</pubPlace>
+               <publisher>S. Fischer</publisher>
+               <date when="1911">1911</date>
+               <biblScope unit="pages">122–135</biblScope>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="first-printing">Als »Aehrenthal« in: Die Zukunft, 19 (1911) #75, 256–257.
+                  (20.5.1911)</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Man kann aus den Zeitungen nicht klug werden</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Im Frühling 1911 muss Bahr eine jüngst ausgebrochene »böse
+                  Stimmung« gegen Aehrenthal konstatieren, und den Kritikern des Ministers zumindest
+                  teilweise Recht geben.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#10943"/>
+               <ptr type="pmb" target="#5178"/>
+               <ptr type="HB-tv" target="HB-tv_3884_p4"/>
+               <ptr type="HB-tv" target="HB-tv_3880_p2"/>
+               <ptr type="HB-tv" target="HB-tv_3880_p3"/>
+               <ptr type="HB-tv" target="HB-tv_6349_p23"/>
+               <ptr type="HB-tv" target="HB-tv_3880_p5"/>
+               <ptr type="HB-tv" target="HB-tv_3880_p6"/>
+               <ptr type="HB-tv" target="HB-tv_3880_p7"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">http://www.univie.ac.at/bahr/sites/all/ks/11-austriaca.pdf</ref>
+      </body>
+   </text>
+</TEI>

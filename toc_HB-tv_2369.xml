@@ -1,0 +1,69 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_2369.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_2368.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_237.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Theater, Kunst und Literatur. Theater in der Josephstadt</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_2369.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_2369" type="Journal-Article" subtype="Nachtkritik" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">H. B.</author>
+            <title level="a">Theater, Kunst und Literatur. Theater in der Josephstadt</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="#41321">Neues Wiener Tagblatt</title>
+            <imprint>
+               <biblScope unit="jg">35</biblScope>
+               <biblScope unit="issue">23</biblScope>
+               <biblScope unit="pages">12</biblScope>
+               <date when="1901-01-23">23.1.1901</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="review-of">»Ohne Geläut« von Fedor von Zobelitz</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Literarischer Abend: »Ohne Geläut«, Schauspiel in fünf Acten von
+                  Fedor v. Zobeltitz – offenbar um mit dem Volkstheater zu wetteifern, das ja heute
+                  die »Jugend« bringt, der dieses Stück nachempfunden ist.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#5684"/>
+               <ptr type="pmb" target="#11565"/>
+               <ptr type="pmb" target="#11763"/>
+               <ptr type="pmb" target="#11617"/>
+               <ptr type="pmb" target="#10772"/>
+               <ptr type="pmb" target="#7966"/>
+               <ptr type="pmb" target="#25220"/>
+               <ptr type="pmb" target="#23838"/>
+               <ptr type="pmb" target="#2601"/>
+               <ptr type="HB-tv" target="HB-tv_2369_p1"/>
+               <ptr type="HB-tv" target="HB-tv_2369_p2"/>
+               <ptr type="HB-tv" target="HB-tv_1917_p8"/>
+               <ptr type="HB-tv" target="HB-tv_2369_p4"/>
+               <ptr type="HB-tv" target="HB-tv_2369_p5"/>
+               <ptr type="HB-tv" target="HB-tv_2369_p6"/>
+               <ptr type="HB-tv" target="HB-tv_2369_p7"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">http://anno.onb.ac.at/cgi-content/anno?aid=nwg</ref>
+      </body>
+   </text>
+</TEI>

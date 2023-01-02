@@ -1,0 +1,65 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_3560.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_356.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_3561.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Wie stehst du zu Kleist?</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_3560.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_3560" type="Journal-Article" subtype="Umfrage" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Wie stehst du zu Kleist?</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j">Oder-Zeitung</title>
+            <imprint>
+               <biblScope unit="issue">Sonderbeilage der Oder-Zeitung zum 150. Geburtstag
+                        Heinrich v. Kleists</biblScope>
+               <biblScope unit="pages">[3–4, hier: 3]</biblScope>
+               <date when="1927-10-18">18.10.1927</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Neben Bahr antworten Carl Heinrich Becker, Thomas Mann, Heinrich Mann,
+                     Friedrich Castelle, Hugo Kinne, Leopold Jessner, Hans Pfitzner, Raoul
+                     Auernheimer, Arnold Zweig, Rob. F. Arnold, Ferdinand Gregori, Hans Roselieb,
+                     Hans Wildermann und Walter O. Stahl. Im Nachlass der Brief der Oder-Zeitung
+                     durch Dr. Fritz Chlodwig Lange (29.9.1927, AM 21629 Ba) mit handschriftlichen
+                     Textnotizen Bahrs.</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">In meiner Kindheit war das Andenken Kleists fast
+                  erloschen</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Kleist ist erst nach dem 1. Weltkrieg bekannt und zugleich zum
+                  »Motor deutscher Zuversicht« geworden.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#11933"/>
+               <ptr type="pmb" target="#9680"/>
+               <ptr type="pmb" target="#10986"/>
+               <ptr type="pmb" target="#11461"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/oder-zeitung/1927_kleist.pdf</ref>
+      </body>
+   </text>
+</TEI>

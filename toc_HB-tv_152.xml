@@ -1,0 +1,82 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_152.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1519.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1520.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">A Letter from Germany. Salzburg, March, 1921</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_152.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_152" type="Journal-Article" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">A Letter from Germany. Salzburg, March, 1921</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="pmb89478">The London Mercury</title>
+            <imprint>
+               <biblScope unit="jg">4</biblScope>
+               <biblScope unit="issue">19 (May)</biblScope>
+               <biblScope unit="pages">81–83</biblScope>
+               <date when="1921-05-01">Mai 1921</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">In 1885 Goethe’s last surviving descendant, Walther Wolfgang von
+                  Goethe died at Leipzig</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Der Anfang ist eine Kürzung von »Goethebild« (Sendung des
+                  Künstlers), das Ende bildet ein Hinweis auf die Goethelektüre Rosa
+                  Luxemburgs.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#11461"/>
+               <ptr type="pmb" target="#12358"/>
+               <ptr type="pmb" target="#10943"/>
+               <ptr type="pmb" target="#2566"/>
+               <ptr type="pmb" target="#12228"/>
+               <ptr type="pmb" target="#13177"/>
+               <ptr type="pmb" target="#6761"/>
+               <ptr type="pmb" target="#12126"/>
+               <ptr type="pmb" target="#11740"/>
+               <ptr type="pmb" target="#13024"/>
+               <ptr type="pmb" target="#8625"/>
+               <ptr type="pmb" target="#8736"/>
+               <ptr type="pmb" target="#13152"/>
+               <ptr type="pmb" target="#13115"/>
+               <ptr type="pmb" target="#2381"/>
+               <ptr type="pmb" target="#11398"/>
+               <ptr type="pmb" target="#12323"/>
+               <ptr type="pmb" target="#12654"/>
+               <ptr type="HB-tv" target="HB-tv_3492_p4"/>
+               <ptr type="HB-tv" target="HB-tv_3369_p2"/>
+               <ptr type="HB-tv" target="HB-tv_152_p3"/>
+               <ptr type="HB-tv" target="HB-tv_152_p4"/>
+               <ptr type="HB-tv" target="HB-tv_3369_p6"/>
+               <ptr type="HB-tv" target="HB-tv_152_p6"/>
+               <ptr type="HB-tv" target="HB-tv_152_p7"/>
+               <ptr type="HB-tv" target="HB-tv_3520_p2"/>
+               <ptr type="HB-tv" target="HB-tv_3369_p19"/>
+               <ptr type="HB-tv" target="HB-tv_152_p10"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/london-mercury/1921-19.pdf</ref>
+      </body>
+   </text>
+</TEI>

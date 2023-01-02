@@ -1,0 +1,77 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_2946.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_2945.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_2947.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Anzengruber</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_2946.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_2946" type="Book_Section" subtype="Buchtext" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="a">Anzengruber</title>
+            <author ref="#10815">Bahr, Hermann</author>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="m">Bildung</title>
+            <imprint>
+               <pubPlace>Berlin und Leipzig</pubPlace>
+               <publisher>Insel</publisher>
+               <date when="1900">1900</date>
+               <biblScope unit="pages">133–139</biblScope>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Eine eigenwillige Veränderung wurde für die Drucklegung des Zeitungsartikels am
+                     ersten Satz des Texts vorgenommen: Aus »Übermorgen sind es zehn Jahre« wird
+                     »Morgen sind es zehn Jahre«. Hingegen wurde der überraschende Punkt vor »Früh«,
+                     der in der ersten Druckfassung nicht zu finden ist, hier ergänzt.</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="first-printing">Neues Wiener Tagblatt, 33 (1899) #338, 1–2.
+                  (8.12.1899)</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Morgen sind es zehn Jahre, dass Anzengruber todt ist: am 10.
+                  December 1889 um dreiviertel acht Uhr. Früh ist er gestorben.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Anzengruber gilt Bahr als das Beispiel eines Literaten, der
+                  Kraft genug besitze, seine »moralische Lehre« in wirksame und künstlerisch
+                  wertvolle Texte zu übersetzen.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#10772"/>
+               <ptr type="pmb" target="#12468"/>
+               <ptr type="pmb" target="#10912"/>
+               <ptr type="pmb" target="#4927"/>
+               <ptr type="pmb" target="#3622"/>
+               <ptr type="pmb" target="#12851"/>
+               <ptr type="pmb" target="#25217"/>
+               <ptr type="pmb" target="#11461"/>
+               <ptr type="pmb" target="#6050"/>
+               <ptr type="pmb" target="#12551"/>
+               <ptr type="HB-tv" target="HB-tv_2946_p1"/>
+               <ptr type="HB-tv" target="HB-tv_2946_p2"/>
+               <ptr type="HB-tv" target="HB-tv_2946_p3"/>
+               <ptr type="HB-tv" target="HB-tv_2946_p4"/>
+               <ptr type="HB-tv" target="HB-tv_2946_p5"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">http://www.univie.ac.at/bahr/sites/all/ks/7-bildung.pdf</ref>
+      </body>
+   </text>
+</TEI>

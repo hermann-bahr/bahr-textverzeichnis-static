@@ -1,0 +1,64 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_2358.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_2357.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_2359.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Theater, Kunst und Literatur. *</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_2358.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_2358" type="Journal-Article" subtype="Nachtkritik" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">H. B.</author>
+            <title level="a">Theater, Kunst und Literatur. *</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j"/>
+            <imprint>
+               <biblScope unit="jg">36</biblScope>
+               <biblScope unit="issue">336</biblScope>
+               <biblScope unit="pages">8</biblScope>
+               <date when="1902-12-09">9.12.1902</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="review-of">»Der Naz« von Franz Kranewitter. »Die drei Reiter«,
+                  »Rococoschlößchen« (Gedichte) und »Der Teufelstriller« von Arnold Hagenauer »Das
+                  glückliche Jahr« und »Mariä Himmelfahrt« von Franz Himmelbauer »Wiener Skizzen«
+                  von F. St. Gunther Lieder von J. G. Frimberger</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Von den fünf Autoren, die Sonntag im Saale des
+                  Niederösterreichischen Gewerbevereins zu Gunsten des Stelzhamer-Denkmalschatzes
+                  lasen, hat mir den stärksten Eindruck Franz Kranewitter, der Dichter des Andre
+                  Hofer, mit seiner Geschichte »Der Naz« gemacht.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#11984"/>
+               <ptr type="pmb" target="#3622"/>
+               <ptr type="pmb" target="#11740"/>
+               <ptr type="HB-tv" target="HB-tv_2358_p1"/>
+               <ptr type="HB-tv" target="HB-tv_2358_p2"/>
+               <ptr type="HB-tv" target="HB-tv_2358_p3"/>
+               <ptr type="HB-tv" target="HB-tv_2358_p4"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">http://anno.onb.ac.at/cgi-content/anno?aid=nwg</ref>
+      </body>
+   </text>
+</TEI>

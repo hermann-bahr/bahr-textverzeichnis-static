@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_4881.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_4880.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_4882.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Tagebuch. 10. Februar</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_4881.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_4881" type="Journal-Article" subtype="Tagebuch" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Tagebuch. 10. Februar</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="36376">Neues Wiener Journal</title>
+            <imprint>
+               <biblScope unit="jg">39</biblScope>
+               <biblScope unit="issue">13375</biblScope>
+               <biblScope unit="pages">16</biblScope>
+               <date when="1931-02-15">15.2.1931</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="review-of">Richard Coudenhove-Kalergi: Los vom Materialismus. Wien,
+                  Leipzig: Paneuropa Verlag [1930].</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Bei meiner ersten Begegnung mit Richard Coudenhove war er
+                  von</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Bahr ist verwundert, dass Coudenhove-Kalergi das Ende der
+                  katholischen Kirche ankündigt, wo diese doch mächtiger sei als je.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#11113"/>
+               <ptr type="pmb" target="#19132"/>
+               <ptr type="pmb" target="#11036"/>
+               <ptr type="HB-tv" target="HB-tv_4881_p1"/>
+               <ptr type="HB-tv" target="HB-tv_4881_p2"/>
+               <ptr type="HB-tv" target="HB-tv_4881_p3"/>
+               <ptr type="HB-tv" target="HB-tv_4881_p4"/>
+               <ptr type="HB-tv" target="HB-tv_4881_p5"/>
+               <ptr type="HB-tv" target="HB-tv_4881_p6"/>
+               <ptr type="HB-tv" target="HB-tv_4881_p7"/>
+               <ptr type="HB-tv" target="HB-tv_4881_p8"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">http://anno.onb.ac.at/cgi-content/anno?aid=nwj</ref>
+      </body>
+   </text>
+</TEI>

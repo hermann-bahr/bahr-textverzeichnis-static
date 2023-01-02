@@ -1,0 +1,67 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_737.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_736.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_738.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Malerei. (Böcklin-Hagenbund)</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_737.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_737" type="Journal-Article" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Malerei. (Böcklin-Hagenbund)</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="#41552">Österreichische Volks-Zeitung</title>
+            <imprint>
+               <biblScope unit="jg">47</biblScope>
+               <biblScope unit="issue">38</biblScope>
+               <biblScope unit="pages">1</biblScope>
+               <date when="1901-02-08">8.2.1901</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Nicht in 2 Kreuzer-Ausgabe aufgenommen.</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Als am 16. Jänner die Nachricht vom Tode Böcklin’s kam</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Bahr erinnert daran, dass Böcklin verstehen nicht darin besteht,
+                  seine Motive aufzunehmen, sondern wie er Stimmungen wahrzunehmen. Für den in Wien
+                  entstandenen »Hagenbund« hat er, wenn nicht ein Meister unter ihnen hervorgeht
+                  oder sie sich mit der Sezession vereinigen, wenig Hoffnung.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#4579"/>
+               <ptr type="pmb" target="#13024"/>
+               <ptr type="pmb" target="#12870"/>
+               <ptr type="pmb" target="#11941"/>
+               <ptr type="HB-tv" target="HB-tv_737_p1"/>
+               <ptr type="HB-tv" target="HB-tv_737_p2"/>
+               <ptr type="HB-tv" target="HB-tv_737_p3"/>
+               <ptr type="HB-tv" target="HB-tv_737_p4"/>
+               <ptr type="HB-tv" target="HB-tv_4053_p6"/>
+               <ptr type="HB-tv" target="HB-tv_737_p6"/>
+               <ptr type="HB-tv" target="HB-tv_1319_p1"/>
+            </listRef>
+         </ref>
+      </body>
+   </text>
+</TEI>

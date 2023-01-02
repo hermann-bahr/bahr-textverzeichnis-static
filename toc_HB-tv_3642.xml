@@ -1,0 +1,64 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_3642.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_3641.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_3643.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Elektra</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_3642.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_3642" type="Book_Section" subtype="Buchtext" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="a">Elektra</title>
+            <author ref="#10815">Bahr, Hermann</author>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="m">Das Hermann-Bahr-Buch. Zum 19. Juli 1913</title>
+            <imprint>
+               <pubPlace>Berlin</pubPlace>
+               <publisher>S. Fischer</publisher>
+               <date when="1913">1913</date>
+               <biblScope unit="pages">208–214</biblScope>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="first-printing">Neues Wiener Tagblatt, 39 (1905) #132, 11.
+                  (14.5.1905)</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="other-prints">Glossen, 269-277 H. B.: Kritiken. Hg. Kindermann. Wien:
+                  Bauer 1963, 238-242</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Im zweiten Saale des Athenischen Museums sind die mykenischen
+                  Funde</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#28465"/>
+               <ptr type="pmb" target="#4107"/>
+               <ptr type="pmb" target="#13473"/>
+               <ptr type="pmb" target="#11461"/>
+               <ptr type="pmb" target="#11617"/>
+               <ptr type="pmb" target="#11040"/>
+               <ptr type="pmb" target="#12358"/>
+               <ptr type="pmb" target="#11740"/>
+               <ptr type="HB-tv" target="HB-tv_3642_p1"/>
+               <ptr type="HB-tv" target="HB-tv_3368_p7"/>
+            </listRef>
+         </ref>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_702.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_701.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_703.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Burgtheater. Reprise von Kleist’s Prinz Friedrich von Homburg am
+                     1. Dezember 1899</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_702.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_702" type="Journal-Article" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Burgtheater. Reprise von Kleist’s Prinz Friedrich von Homburg am
+                     1. Dezember 1899</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="#41552">Österreichische Volks-Zeitung</title>
+            <imprint>
+               <biblScope unit="jg">45</biblScope>
+               <biblScope unit="issue">332</biblScope>
+               <biblScope unit="pages">1–2 (2 Kreuzer–Ausgabe: 1–5)</biblScope>
+               <date when="1899-12-02">2.12.1899</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Zum erstenmal wurde der »Prinz von Homburg« im Burgtheater am 3.
+                  Oktober 1821</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Die Reprise des »Prinzen von Homburg« kann laut Bahr auf die
+                  geänderte, die »neue Psychologie« setzen, dass es 100 Jahre nach der Uraufführung
+                  angenommen wird.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#11933"/>
+               <ptr type="pmb" target="#11461"/>
+               <ptr type="pmb" target="#11851"/>
+               <ptr type="pmb" target="#28476"/>
+               <ptr type="pmb" target="#12809"/>
+               <ptr type="pmb" target="#2252"/>
+               <ptr type="pmb" target="#2446"/>
+               <ptr type="HB-tv" target="HB-tv_2212_p6"/>
+               <ptr type="HB-tv" target="HB-tv_2494_p1"/>
+               <ptr type="HB-tv" target="HB-tv_3826_p5"/>
+               <ptr type="HB-tv" target="HB-tv_702_p4"/>
+            </listRef>
+         </ref>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,67 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_4887.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_4886.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_4888.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Erziehung. V</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_4887.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_4887" type="Book_Section" subtype="Buchtext" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="a">Erziehung. V</title>
+            <author ref="#10815">Bahr, Hermann</author>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="m" ref="pmb30035">Inventur</title>
+            <imprint>
+               <pubPlace>Berlin</pubPlace>
+               <publisher>S. Fischer</publisher>
+               <date when="1912">1912</date>
+               <biblScope unit="pages">116–118</biblScope>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Wir empfinden im Alter, daß wir nicht alles geworden sind, was
+                  wir hätten werden können.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Einer der vielversprechendsten Wege zu einer neuen Form der
+                  Erziehung scheint Bahr in der Eugenik und der Möglichkeit gegeben, die eigenen
+                  Nachkommen zu züchten, anstatt zu erziehen.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#3975"/>
+               <ptr type="pmb" target="#13173"/>
+               <ptr type="pmb" target="#11161"/>
+               <ptr type="pmb" target="#3775"/>
+               <ptr type="pmb" target="#3357"/>
+               <ptr type="pmb" target="#12358"/>
+               <ptr type="HB-tv" target="HB-tv_4887_p1"/>
+               <ptr type="HB-tv" target="HB-tv_3370_p16"/>
+               <ptr type="HB-tv" target="HB-tv_3370_p17"/>
+               <ptr type="HB-tv" target="HB-tv_4887_p4"/>
+               <ptr type="HB-tv" target="HB-tv_3465_p1"/>
+               <ptr type="HB-tv" target="HB-tv_4887_p6"/>
+               <ptr type="HB-tv" target="HB-tv_4887_p7"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">http://www.univie.ac.at/bahr/sites/all/ks/13-inventur.pdf</ref>
+      </body>
+   </text>
+</TEI>

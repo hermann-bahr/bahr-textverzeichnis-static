@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_352.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_3519.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_3520.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Medea. (Zur Aufführung im Deutschen Volkstheater am 29.
+                     September)</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_352.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_352" type="Journal-Article" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Medea. (Zur Aufführung im Deutschen Volkstheater am 29.
+                     September)</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="#36340">Die Zeit</title>
+            <imprint>
+               <biblScope unit="jg">5</biblScope>
+               <biblScope unit="issue">53</biblScope>
+               <biblScope unit="pages">12–13</biblScope>
+               <date when="1895-10-05">5.10.1895</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="review-of">»Medea« von Franz Grillparzer</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="other-prints">Wiener Theater, 288-293</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Man kennt die Geschichte von Grillparzer, der mit Raimund einst
+                  im Schönbrunner Garten gieng</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#11518"/>
+               <ptr type="pmb" target="#12468"/>
+               <ptr type="pmb" target="#19980"/>
+               <ptr type="pmb" target="#4124"/>
+               <ptr type="pmb" target="#11093"/>
+               <ptr type="pmb" target="#26531"/>
+               <ptr type="HB-tv" target="HB-tv_2095_p1"/>
+               <ptr type="HB-tv" target="HB-tv_352_p2"/>
+               <ptr type="HB-tv" target="HB-tv_352_p3"/>
+               <ptr type="HB-tv" target="HB-tv_352_p4"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1895-5/53-12.pdf</ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1895-5/53-13.pdf</ref>
+      </body>
+   </text>
+</TEI>

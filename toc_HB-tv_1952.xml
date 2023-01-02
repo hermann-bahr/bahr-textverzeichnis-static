@@ -1,0 +1,53 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_1952.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1951.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1953.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Die Juden in Österreich. Vortrag</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_1952.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_1952" type="Journal-Article" subtype="Vortrag" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Die Juden in Österreich. Vortrag</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j">Dr. Bloch’s österreichische Wochenschrift</title>
+            <imprint>
+               <biblScope unit="jg">28</biblScope>
+               <biblScope unit="issue">10</biblScope>
+               <biblScope unit="pages">163–165</biblScope>
+               <date when="1911-03-10">10.3.1911</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Erwiderung »An Hermann Bahr« von Ingenieur Joseph Lazarus, Fiume, in der
+                     Ausgabe Nr. 14, S. 931-932(7.4.1911)</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="first-printing">Als »Die Juden« in: Selbstwehr, (1911) 1–4. (24.2.1911)
+                  Neues Wiener Journal, 19 (1911) #6227, 1–3. (21.2.1911)</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Ich möchte hier über das so merkwürdige, für alle Nationen
+                  Europas so bedeutungsvolle Problem des Judentums sprechen</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/dr-bloch/1911_juden.pdf</ref>
+      </body>
+   </text>
+</TEI>

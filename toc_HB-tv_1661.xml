@@ -1,0 +1,61 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_1661.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1660.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1662.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Lob der Schmiere</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_1661.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_1661" type="Journal-Article" subtype="Umfrage" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Lob der Schmiere</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j">Das Nationaltheater. Vierteljahresschrift des
+                     Bühnenvolksbundes</title>
+            <imprint>
+               <biblScope unit="jg">3</biblScope>
+               <biblScope unit="issue">1 (Oktober)</biblScope>
+               <biblScope unit="pages">73–75</biblScope>
+               <date when="1930">1930</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Im Neuen Weg, 1.4.1930, findet sich eine mit E. unterzeichnete Glosse, die auf
+                     Bahrs Stellungnahme aufbaut.</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Schauspielkunst ist geselligen Wesens, der Schauspieler braucht
+                  einen Empfänger, der Schauspieler braucht</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Bahr betont, dass man zum Schauspieler geboren werden muss, dass
+                  nicht bei der Probe sondern erst bei der Aufführung der Schauspieler sein Können
+                  zeigt und bedauert, dass es keine Schmieren mehr gibt. Dazu die Anekdote, wie der
+                  Vater ihn vom Beruf des Schauspielers abhalten wollte.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#7905"/>
+               <ptr type="pmb" target="#2132"/>
+            </listRef>
+         </ref>
+      </body>
+   </text>
+</TEI>

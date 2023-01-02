@@ -1,0 +1,75 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_667.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_6669.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_6670.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Vierzig</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_667.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_667" type="Journal-Article" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Vierzig</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="#41321">Neues Wiener Tagblatt</title>
+            <imprint>
+               <biblScope unit="jg">37</biblScope>
+               <biblScope unit="issue">195</biblScope>
+               <biblScope unit="pages">1–2</biblScope>
+               <date when="1903-07-18">18.7.1903</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Bahr gibt den Namen des erkrankten Redners beim Burschenschafterkommers falsch
+                     an: Horand hieß der spätere Universitätsreformer Hans Schmidkunz, der erkrankte
+                     Redner war aber Ernst Hörner, der als »Dankwart« firmierte.</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Schrecklich, was einem mit der Zeit alles passiert: jetzt werde
+                  ich morgen Vierzig!</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Zum Vierziger gestattet sich Bahr einen ausführlichen Rückblick:
+                  Ausführlich auf die Wagner-Kommers-Rede, aber auch auf einen Dreischritt in seiner
+                  Entwicklung, von der Politik zur Kunst und schließlich, neuerdings als
+                  Konzentration auf das Leben, das sich nach der Sehnsucht zu richten mag.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#11617"/>
+               <ptr type="pmb" target="#2121"/>
+               <ptr type="pmb" target="#12156"/>
+               <ptr type="pmb" target="#2142"/>
+               <ptr type="pmb" target="#11605"/>
+               <ptr type="pmb" target="#12265"/>
+               <ptr type="pmb" target="#13024"/>
+               <ptr type="pmb" target="#13115"/>
+               <ptr type="pmb" target="#3403"/>
+               <ptr type="pmb" target="#2412"/>
+               <ptr type="HB-tv" target="HB-tv_667_p1"/>
+               <ptr type="HB-tv" target="HB-tv_1446_p3"/>
+               <ptr type="HB-tv" target="HB-tv_667_p3"/>
+               <ptr type="HB-tv" target="HB-tv_667_p4"/>
+               <ptr type="HB-tv" target="HB-tv_667_p5"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">http://anno.onb.ac.at/cgi-content/anno?aid=nwg</ref>
+      </body>
+   </text>
+</TEI>

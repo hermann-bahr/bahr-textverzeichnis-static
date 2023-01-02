@@ -1,0 +1,61 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_1251.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1250.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1252.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Shaw über Religion</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_1251.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_1251" type="Journal-Article" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Shaw über Religion</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j">Hannoverscher Courier</title>
+            <imprint>
+               <biblScope unit="jg">59</biblScope>
+               <biblScope unit="issue">29954, Morgen-Ausgabe</biblScope>
+               <biblScope unit="pages">1–2</biblScope>
+               <date when="1912-06-20">20.6.1912</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Bahr, selbst gerade einen Wandel zum Katholizismus durchmachend, erklärt eine
+                     Rede Shaws zur Religion. Darin auch ein eigenes Bekenntnis: »Das Wunder der
+                     Schöpfung dauert immer noch an. Um sich zu erfüllen, braucht die schaffende
+                     Macht Augen und Hände und Hirn. Das sind wir. Durch uns tut sie ihr Werk. Wer
+                     dies begreift, hat Religion. Er wird gewahr, daß das, was man immer Gott
+                     genannt hat, etwas in uns selbst ist, wie Jesus gesagt hat.«</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">In Deutschland wird Shaw ja noch eher ernst genommen als
+                  daheim</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#2381"/>
+               <ptr type="pmb" target="#20987"/>
+               <ptr type="HB-tv" target="HB-tv_1251_p1"/>
+            </listRef>
+         </ref>
+      </body>
+   </text>
+</TEI>

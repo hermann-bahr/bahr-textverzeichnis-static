@@ -1,0 +1,72 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_1227.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1226.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1228.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Rückblick</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_1227.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_1227" type="Journal-Article" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Rückblick</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j">Ave Maria. Dombau-Zeitschrift, Linz</title>
+            <imprint>
+               <biblScope unit="jg">34</biblScope>
+               <biblScope unit="issue">4/5 (April/Mai)</biblScope>
+               <date when="1924">1924</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Der Text ist datiert mit »München, Februar 1924«.</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Um die Wende des 18. zum 19. Jahrhundert schien unter den
+                  Deutschen der alte Glaube verloschen, der Abfall von der Wahrheit, den Luther
+                  begann, vollendet.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Bahr blickt auf die Personen zurück, aus deren Umfeld der Linzer
+                  Dom hervorging. Dieser Dom, so der Text, solle motivieren in Gott zu vertrauen und
+                  zu arbeiten, egal ob man weiß, was rauskommt.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#12136"/>
+               <ptr type="pmb" target="#11024"/>
+               <ptr type="pmb" target="#12851"/>
+               <ptr type="HB-tv" target="HB-tv_3695_p4"/>
+               <ptr type="HB-tv" target="HB-tv_691_p1"/>
+               <ptr type="HB-tv" target="HB-tv_1227_p3"/>
+               <ptr type="HB-tv" target="HB-tv_1227_p4"/>
+               <ptr type="HB-tv" target="HB-tv_1227_p5"/>
+               <ptr type="HB-tv" target="HB-tv_960_p7"/>
+               <ptr type="HB-tv" target="HB-tv_1227_p7"/>
+               <ptr type="HB-tv" target="HB-tv_1227_p8"/>
+               <ptr type="HB-tv" target="HB-tv_1227_p9"/>
+               <ptr type="HB-tv" target="HB-tv_4464_p4"/>
+               <ptr type="HB-tv" target="HB-tv_4053_p1"/>
+               <ptr type="HB-tv" target="HB-tv_1227_p12"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/ave-maria/1924_rueckblick.pdf</ref>
+      </body>
+   </text>
+</TEI>

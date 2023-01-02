@@ -1,0 +1,73 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_5936.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_5935.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_5937.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Erklärung</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_5936.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_5936" type="Journal-Article" subtype="Erklärung" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <author ref="#11763">Holz, Arno</author>
+            <author ref="#12664">Schlaf, Johannes</author>
+            <author ref="#11265">Ernst, Paul</author>
+            <author ref="#43707">Kruse, Iven</author>
+            <author ref="#10928">Bierbaum, Otto Julius</author>
+            <author ref="#12071">Liliencron, Detlev von</author>
+            <author ref="#43810">Mänicke, Bernhard</author>
+            <title level="a">Erklärung</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j">Der Kunstwart</title>
+            <imprint>
+               <biblScope unit="jg">3</biblScope>
+               <biblScope unit="issue">21</biblScope>
+               <biblScope unit="pages">336</biblScope>
+               <date when="1890-08-01">1.8.1890</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="first-printing">Als »Theater, Kunst, Wissenschaft. Erklärung.« in:
+                  Berliner Tageblatt, 19 (1890) #372, Morgen–Ausgabe, 2. (26.7.1890) Vossische
+                  Zeitung, (1890) #343, Morgenausgabe, 4. (26.7.1890) Das Magazin für die Litteratur
+                  des In– und Auslandes, 59 (1890) #31, 488. (2.8.1890) Als »Zur realistischen
+                  Bewegung« in: Die Gesellschaft, 6 (1890) #9 (September), 1367–1368, hier
+                  1367.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Die Unterzeichneten erklären, dass sie jede Verbindung mit der
+                  von Herrn Dr. Otto Brahm in Berlin herausgegebenen Wochenschrift »Freie Bühne für
+                  modernes Leben« abgebrochen haben und dieses Blatt nicht als Organ ihrer
+                  Anschauungen anerkennen. Berlin, 25. Juli 1890 |</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#12664"/>
+               <ptr type="pmb" target="#10986"/>
+               <ptr type="pmb" target="#11763"/>
+               <ptr type="pmb" target="#12071"/>
+               <ptr type="pmb" target="#10928"/>
+               <ptr type="HB-tv" target="HB-tv_5936_p1"/>
+               <ptr type="HB-tv" target="HB-tv_5936_p2"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/der-kunstwart/1890_erklaerung.pdf</ref>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,73 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_669.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_6689.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_6690.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Epigonen</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_669.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_669" type="Journal-Article" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Epigonen</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="#41321">Neues Wiener Tagblatt</title>
+            <imprint>
+               <biblScope unit="jg">37</biblScope>
+               <biblScope unit="issue">207</biblScope>
+               <biblScope unit="pages">1–2</biblScope>
+               <date when="1903-07-30">30.7.1903</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Bahr ist enttäuscht von der jetzt nachkommenden Dichterjugend, der die eigene
+                     Stimme nicht zu finden gelingen will, wobei er Vollmoeller noch mehr zutraut
+                     als Baumfeldt.</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="review-of">Karl Gustav Vollmoeller: Catharina, Gräfin von Armagnac.
+                  Berlin: S. Fischer 1903. Richard Peter Baumfeldt: Eine Königsnacht. Drama.
+                  Leipzig: Szeemann Nachfolger 1903. Richard Peter Baumfeldt: Das klagende Lied.
+                  Märchen. Leipzig: Szeemann Nachfolger 1903.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Als der Connetabel von Armignac einst an das Bett seiner
+                  träumenden Frau trat</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#10825"/>
+               <ptr type="pmb" target="#13707"/>
+               <ptr type="pmb" target="#2437"/>
+               <ptr type="pmb" target="#12156"/>
+               <ptr type="pmb" target="#11740"/>
+               <ptr type="pmb" target="#11798"/>
+               <ptr type="pmb" target="#2142"/>
+               <ptr type="pmb" target="#2121"/>
+               <ptr type="pmb" target="#11461"/>
+               <ptr type="pmb" target="#11220"/>
+               <ptr type="HB-tv" target="HB-tv_669_p1"/>
+               <ptr type="HB-tv" target="HB-tv_3369_p43"/>
+               <ptr type="HB-tv" target="HB-tv_669_p3"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">http://anno.onb.ac.at/cgi-content/anno?aid=nwg</ref>
+      </body>
+   </text>
+</TEI>

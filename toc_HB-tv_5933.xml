@@ -1,0 +1,67 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_5933.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_5932.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_5934.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Vermählung</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_5933.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_5933" type="Journal-Article" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Vermählung</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j">Die Propyläen</title>
+            <imprint>
+               <biblScope unit="jg">31</biblScope>
+               <biblScope unit="issue">47</biblScope>
+               <biblScope unit="pages">369–370</biblScope>
+               <date when="1934-08-24">24.8.1934</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Editorische Einleitung: »Unter unseren vielen der Veröffentlichung harrenden
+                     Manuskripten befindet sich auch diese feinsinnige Studie des am 15. Januar
+                     verstorbenen Hermann Bahr, die wir uns zum Goethetag (28. August) zurückgelegt
+                     haben.«</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">»Das beste deutsche Buch, das es gibt«, hat Nietzsche
+                  Eckermanns</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Bahr erinnert sich daran, was ihn vor der Jahrhundertwende an
+                  Interviews interessierte und reflektiert das Verhältnis Goethes zu Eckermann,
+                  dessen »Gespräche« er nicht stenographisch sondern als platonische Dialoge
+                  verstanden wissen will.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#11461"/>
+               <ptr type="pmb" target="#11220"/>
+               <ptr type="pmb" target="#12358"/>
+               <ptr type="pmb" target="#13177"/>
+               <ptr type="pmb" target="#12654"/>
+               <ptr type="HB-tv" target="HB-tv_5933_p1"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/propylaeen/1934_vermaehlung.pdf</ref>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,70 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_695.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_694.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_696.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Burgtheater. Goethefeier am 8. Oktober, Nachmittags 1 Uhr</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_695.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_695" type="Journal-Article" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Burgtheater. Goethefeier am 8. Oktober, Nachmittags 1 Uhr</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="#41552">Österreichische Volks-Zeitung</title>
+            <imprint>
+               <biblScope unit="jg">45</biblScope>
+               <biblScope unit="issue">278</biblScope>
+               <biblScope unit="pages">1</biblScope>
+               <date when="1899-10-09">9.10.1899</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="review-of">Prolog von Hugo von Hofmannsthal, »Die Geschwister«, »Die
+                  Laune des Verliebten« sowie die Gedichte »Zueignung«, »Der Gott und die Bajadere«,
+                  »Der getreue Eckart«, »Der Totentanz«, »Wirkung in die Ferne« und »Der
+                  Zauberlehrling«, alle von Johann Wolfgang Goethe</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Im Burgtheater ist gestern eine Goethefeier gewesen</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Die Art, wie das Burgtheater Goethe feiert, findet Bahr
+                  unwürdig. Nur Hofmannsthals Prolog und Kainz’ Lesung sind herausragend.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#11461"/>
+               <ptr type="pmb" target="#28476"/>
+               <ptr type="pmb" target="#2850"/>
+               <ptr type="pmb" target="#11740"/>
+               <ptr type="pmb" target="#12809"/>
+               <ptr type="pmb" target="#5150"/>
+               <ptr type="pmb" target="#2252"/>
+               <ptr type="pmb" target="#27259"/>
+               <ptr type="pmb" target="#16458"/>
+               <ptr type="pmb" target="#11851"/>
+               <ptr type="pmb" target="#12671"/>
+               <ptr type="HB-tv" target="HB-tv_1676_p8"/>
+               <ptr type="HB-tv" target="HB-tv_2168_p4"/>
+               <ptr type="HB-tv" target="HB-tv_2270_p1"/>
+               <ptr type="HB-tv" target="HB-tv_4809_p1"/>
+            </listRef>
+         </ref>
+      </body>
+   </text>
+</TEI>

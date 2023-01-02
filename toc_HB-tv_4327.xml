@@ -1,0 +1,63 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_4327.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_4326.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_4328.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Tagebuch. 28. [April]</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_4327.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_4327" type="Journal-Article" subtype="Tagebuch" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Tagebuch. 28. [April]</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j">Der Strom</title>
+            <imprint>
+               <biblScope unit="jg">1</biblScope>
+               <biblScope unit="issue">3, Juni</biblScope>
+               <biblScope unit="pages">82</biblScope>
+               <date when="1911">1911</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Einer der wenigen persönlichen Hinweise von Bahr auf Karl Kraus. Der bringt
+                     seine Sicht in der Fackel, 13 (1911) #326-329, 19.</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Aus einer Gerichtsverhandlung erfährt man: Karl Kraus, ein
+                  Schriftsteller, der mich nicht mag (ich ihn auch nicht sehr), hat in Wien vorlesen
+                  wollen, aber der Saal ist ihm verweigert worden, angeblich aus Angst, weil Kraus
+                  unbeliebt sei. Das ist doch eine solche Niedertracht, daß man darüber alles
+                  vergißt, womit er einen zuweilen geärgert haben mag. Saalsperre, einem Redner
+                  angedroht, weil man nicht seiner Meinung ist! Immer noch die alte pfäffische
+                  Methode: einmauern, wenn einer unbequem wird. Und der alte bureaukratische Kniff
+                  der kleinen Perfidien. Aber die Freiheit des Wortes? Ich höre doch, daß dafür alle
+                  Schriftsteller mannhaft zusammenstehen. |</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#11988"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/strom/der-strom_1911.pdf</ref>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,61 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_1418.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1417.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1419.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Unamuno</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_1418.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_1418" type="Journal-Article" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Unamuno</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j">Münchner Neueste Nachrichten</title>
+            <imprint>
+               <biblScope unit="jg">83</biblScope>
+               <biblScope unit="issue">59</biblScope>
+               <biblScope unit="pages">1–2</biblScope>
+               <date when="1930-03-01">1.3.1930</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">In einer Anmerkung zur Anthropologie versucht Kant scherzend die
+                  Länder Europas nach</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Eine allgemeinen Würdigung Unamunos, der wieder einmal zum
+                  Rektor der Universität Salamancas ernannt wurde.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#11871"/>
+               <ptr type="pmb" target="#14905"/>
+               <ptr type="pmb" target="#2412"/>
+               <ptr type="pmb" target="#19317"/>
+               <ptr type="pmb" target="#13102"/>
+               <ptr type="pmb" target="#4907"/>
+               <ptr type="pmb" target="#4084"/>
+               <ptr type="HB-tv" target="HB-tv_1418_p1"/>
+               <ptr type="HB-tv" target="HB-tv_1418_p2"/>
+            </listRef>
+         </ref>
+      </body>
+   </text>
+</TEI>

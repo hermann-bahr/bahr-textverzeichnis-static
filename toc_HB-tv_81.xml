@@ -1,0 +1,71 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_81.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_809.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_810.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Buchgemeinschaften</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_81.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_81" type="Journal-Article" subtype="Unveröffentlicht_Nicht_nachgewiesen" status="notLocated">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Buchgemeinschaften</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j">Münchner Neueste Nachrichten</title>
+            <imprint>
+               <biblScope unit="jg">78</biblScope>
+               <date when="1925-11-09">9.11.1925</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Laut Anna Bahr-Mildenburgs (unzuverlässiger) Auswertung des Tagebuchs ihres
+                     Mannes arbeitete Bahr am 4. und 19. Oktober 1925 an dem Text und wurde er Text
+                     am 9. November an Walter Behrend von den Münchner neuesten Nachrichten
+                     geschickt. Am 8. November 1925 wurde die Buch- und Musikwoche in München
+                     eröffnet, möglicherweise war der Artikel in diesem Zusammenhang vorgesehen. Im
+                     Nachlass von Bahr ist eine Druckfahne erhalten, ein Abdruck lässt sich aber
+                     nicht nachweisen.</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Sich nur ja nirgends »einschachteln« zu lassen</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Bahr wirft den Buchhändlern vor, selbst an der Konkurrenz schuld
+                  zu haben, denn sie hätten aufgehört, Berater der Kunden zu sein.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#15229"/>
+               <ptr type="pmb" target="#11153"/>
+               <ptr type="pmb" target="#11640"/>
+               <ptr type="pmb" target="#13115"/>
+               <ptr type="pmb" target="#8422"/>
+               <ptr type="pmb" target="#11327"/>
+               <ptr type="HB-tv" target="HB-tv_1300_p1"/>
+               <ptr type="HB-tv" target="HB-tv_3510_p6"/>
+               <ptr type="HB-tv" target="HB-tv_81_p3"/>
+               <ptr type="HB-tv" target="HB-tv_81_p4"/>
+               <ptr type="HB-tv" target="HB-tv_4053_p4"/>
+               <ptr type="HB-tv" target="HB-tv_81_p6"/>
+               <ptr type="HB-tv" target="HB-tv_81_p7"/>
+            </listRef>
+         </ref>
+      </body>
+   </text>
+</TEI>

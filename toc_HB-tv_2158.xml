@@ -1,0 +1,57 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_2158.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_2157.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_2159.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Theater und Kunst. Burgtheater</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_2158.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_2158" type="Journal-Article" subtype="Nachtkritik" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">H. B.</author>
+            <title level="a">Theater und Kunst. Burgtheater</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="#41552">Österreichische Volks-Zeitung</title>
+            <imprint>
+               <biblScope unit="jg">46</biblScope>
+               <biblScope unit="issue">349</biblScope>
+               <biblScope unit="pages">4 und 7 (2 Kreuzer–Ausgabe: 6)</biblScope>
+               <date when="1900-12-21">21.12.1900</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="review-of">»Dorf und Stadt« von Charlotte Birch-Pfeiffer</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">»Dorf und Stadt«, neu besetzt. Wozu? fragt man sich
+                  unwillkürlich.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#10937"/>
+               <ptr type="pmb" target="#2404"/>
+               <ptr type="pmb" target="#12129"/>
+               <ptr type="pmb" target="#11518"/>
+               <ptr type="pmb" target="#10854"/>
+               <ptr type="pmb" target="#2249"/>
+            </listRef>
+         </ref>
+      </body>
+   </text>
+</TEI>

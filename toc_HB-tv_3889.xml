@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_3889.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_3888.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_389.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Austriaca. 10</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_3889.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_3889" type="Book_Section" subtype="Buchtext" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="a">Austriaca. 10</title>
+            <author ref="#10815">Bahr, Hermann</author>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="m">Austriaca. Essays</title>
+            <imprint>
+               <pubPlace>Berlin</pubPlace>
+               <publisher>S. Fischer</publisher>
+               <date when="1911">1911</date>
+               <biblScope unit="pages">91–101</biblScope>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="first-printing">Als »Österreichisches. 8« in: März, 4 (1910) #3, 350–356.
+                  Als »Österreichische Ordnung« in: Prager Tagblatt 28 (1913) #183, 3. (6.7.1913)
+                  Als »Österreichische Ordnung« in: Die Bühne. Zeitschrift für Theater und
+                  Gesellschaft, (1934) #369 (1. Februarheft), 38–40.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="other-prints">Als »Österreichische Ordnung« in: Das Hermann-Bahr-Buch,
+                  297-306.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Voriges Jahr war ich genötigt, manchmal von Innsbruck nach
+                  Salzburg zu fahren.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Nicht nur, dass sich die österreichische Bürokratie nicht an
+                  Gesetze hält, sie hält sich auch nicht an die Realität: v. a. am Beispiel der Bahn
+                  ließe sich das erkennen.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#13079"/>
+               <ptr type="pmb" target="#3287"/>
+               <ptr type="pmb" target="#3490"/>
+               <ptr type="pmb" target="#12481"/>
+               <ptr type="HB-tv" target="HB-tv_3889_p1"/>
+               <ptr type="HB-tv" target="HB-tv_3889_p2"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">http://www.univie.ac.at/bahr/sites/all/ks/11-austriaca.pdf</ref>
+      </body>
+   </text>
+</TEI>

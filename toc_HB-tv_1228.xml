@@ -1,0 +1,63 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_1228.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1227.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1229.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Die ruhelose Königin</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_1228.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_1228" type="Journal-Article" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Die ruhelose Königin</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j">Münchner Neueste Nachrichten</title>
+            <imprint>
+               <biblScope unit="jg">84</biblScope>
+               <biblScope unit="issue">220</biblScope>
+               <biblScope unit="pages">3</biblScope>
+               <date when="1931-08-15">15.8.1931</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="review-of">Maurice Baring: My End is my Beginning. London: Heinemann
+                  1931.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Es gibt Gestalten von solchem Glanze, daß ihr Andenken niemals
+                  erlischt</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Bahr las neuere Literatur zu Maria Stuart und kehrt zur älteren
+                  zurück: Erst Schiller macht ihn die Königin begreifen.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#3912"/>
+               <ptr type="pmb" target="#5202"/>
+               <ptr type="pmb" target="#12654"/>
+               <ptr type="HB-tv" target="HB-tv_1228_p1"/>
+               <ptr type="HB-tv" target="HB-tv_1228_p2"/>
+               <ptr type="HB-tv" target="HB-tv_1228_p3"/>
+               <ptr type="HB-tv" target="HB-tv_1228_p4"/>
+               <ptr type="HB-tv" target="HB-tv_1228_p5"/>
+               <ptr type="HB-tv" target="HB-tv_1228_p6"/>
+            </listRef>
+         </ref>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,74 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_3465.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_3464.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_3466.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Das Auge des Geistes</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_3465.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_3465" type="Book_Section" subtype="Buchtext" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="a">Das Auge des Geistes</title>
+            <author ref="#10815">Bahr, Hermann</author>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="m">Expressionismus</title>
+            <imprint>
+               <pubPlace>München</pubPlace>
+               <publisher>Delphin</publisher>
+               <date when="1916">1916</date>
+               <biblScope unit="pages">83–104</biblScope>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="first-printing">Neue Freie Presse (1914) #1773, Morgenausgabe, 1–3.
+                  (17.2.1914) Ausschnitt als: »Expressionismus« in: Masken. Zeitschrift für deutsche
+                  Theaterkultur, 12 (1916) #1, 9–14, hier: 10–11.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="other-prints">H. B.: Essays. Hg. Kindermann. Wien: Bauer 1962,
+                  209-216</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Also: je nach dem der Mensch zur Erscheinung steht...</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Bahr referiert die Konzepte des »inneren Sehens« von Francis
+                  Galton, um sie auf den Expressionismus zu beziehen.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#3357"/>
+               <ptr type="pmb" target="#9257"/>
+               <ptr type="pmb" target="#11461"/>
+               <ptr type="pmb" target="#5787"/>
+               <ptr type="pmb" target="#12217"/>
+               <ptr type="pmb" target="#15199"/>
+               <ptr type="pmb" target="#3892"/>
+               <ptr type="pmb" target="#11941"/>
+               <ptr type="pmb" target="#7886"/>
+               <ptr type="HB-tv" target="HB-tv_3465_p1"/>
+               <ptr type="HB-tv" target="HB-tv_3726_p9"/>
+               <ptr type="HB-tv" target="HB-tv_3465_p3"/>
+               <ptr type="HB-tv" target="HB-tv_5256_p4"/>
+               <ptr type="HB-tv" target="HB-tv_3466_p1"/>
+               <ptr type="HB-tv" target="HB-tv_3465_p6"/>
+               <ptr type="HB-tv" target="HB-tv_3465_p7"/>
+               <ptr type="HB-tv" target="HB-tv_3465_p8"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">http://www.univie.ac.at/bahr/sites/all/ks/14-expressionismus.pdf</ref>
+      </body>
+   </text>
+</TEI>

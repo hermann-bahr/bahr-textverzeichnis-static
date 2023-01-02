@@ -1,0 +1,76 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_158.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1579.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1580.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">A Letter from Germany. Munich</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_158.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_158" type="Journal-Article" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">A Letter from Germany. Munich</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="pmb89478">The London Mercury</title>
+            <imprint>
+               <biblScope unit="jg">8</biblScope>
+               <biblScope unit="issue">46 (August)</biblScope>
+               <biblScope unit="pages">424–426</biblScope>
+               <date when="1923-08-01">August 1923</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Thomas Mann, the author of Buddenbrooks and of Der Tod in
+                  Venedig (Death in Venice), has long been highly regarded by lovers of
+                  literature.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#12176"/>
+               <ptr type="pmb" target="#12170"/>
+               <ptr type="pmb" target="#2566"/>
+               <ptr type="pmb" target="#11461"/>
+               <ptr type="pmb" target="#12358"/>
+               <ptr type="pmb" target="#11617"/>
+               <ptr type="pmb" target="#13094"/>
+               <ptr type="pmb" target="#11205"/>
+               <ptr type="pmb" target="#12993"/>
+               <ptr type="pmb" target="#11965"/>
+               <ptr type="pmb" target="#6927"/>
+               <ptr type="pmb" target="#11327"/>
+               <ptr type="pmb" target="#13474"/>
+               <ptr type="pmb" target="#2412"/>
+               <ptr type="pmb" target="#12126"/>
+               <ptr type="pmb" target="#11740"/>
+               <ptr type="pmb" target="#10943"/>
+               <ptr type="pmb" target="#13024"/>
+               <ptr type="pmb" target="#12756"/>
+               <ptr type="pmb" target="#12624"/>
+               <ptr type="pmb" target="#12303"/>
+               <ptr type="HB-tv" target="HB-tv_158_p1"/>
+               <ptr type="HB-tv" target="HB-tv_158_p2"/>
+               <ptr type="HB-tv" target="HB-tv_158_p3"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/london-mercury/1923-46.pdf</ref>
+      </body>
+   </text>
+</TEI>

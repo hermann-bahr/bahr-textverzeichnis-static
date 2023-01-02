@@ -1,0 +1,73 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_2048.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_2047.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_2049.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Theater, Kunst und Literatur. Raimund-Theater</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_2048.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_2048" type="Journal-Article" subtype="Nachtkritik" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">H. B.</author>
+            <title level="a">Theater, Kunst und Literatur. Raimund-Theater</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="#41321">Neues Wiener Tagblatt</title>
+            <imprint>
+               <biblScope unit="jg">38</biblScope>
+               <biblScope unit="issue">333</biblScope>
+               <biblScope unit="pages">12</biblScope>
+               <date when="1904-12-01">1.12.1904</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Bahr empfiehlt, Paul Wiecke nach Wien zu holen: Während Berlin viele große
+                     Schauspieler habe, gäbe es Wien gerade noch Kainz und Jarno.</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="review-of">»Herodes und Mariamne« von Friedrich Hebbel</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="other-prints">Glossen, 439-440</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Herrn Paul Wiecke vom Dresdnener Hoftheater, der gestern den
+                  Herodes gab, haben wir schon vor zwei Jahren in einer Vorstellung des seitdem
+                  leider zerfallenen Akademischen Vereines gesehen</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#2404"/>
+               <ptr type="pmb" target="#11798"/>
+               <ptr type="pmb" target="#11851"/>
+               <ptr type="pmb" target="#11518"/>
+               <ptr type="pmb" target="#2743"/>
+               <ptr type="pmb" target="#2601"/>
+               <ptr type="pmb" target="#28414"/>
+               <ptr type="pmb" target="#12530"/>
+               <ptr type="pmb" target="#10844"/>
+               <ptr type="pmb" target="#12491"/>
+               <ptr type="pmb" target="#10627"/>
+               <ptr type="pmb" target="#12504"/>
+               <ptr type="pmb" target="#12837"/>
+               <ptr type="HB-tv" target="HB-tv_2048_p1"/>
+               <ptr type="HB-tv" target="HB-tv_2440_p3"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">http://anno.onb.ac.at/cgi-content/anno?aid=nwg</ref>
+      </body>
+   </text>
+</TEI>

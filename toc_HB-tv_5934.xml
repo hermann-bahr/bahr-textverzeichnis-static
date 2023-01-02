@@ -1,0 +1,63 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_5934.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_5933.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_5935.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Zur sozialen Frage</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_5934.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_5934" type="Journal-Article" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Zur sozialen Frage</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j">Kyffhäuser-Zeitung. Wochenschrift für alle Hochschulen-Angehörige
+                     deutschen Stammes und deutscher Zunge</title>
+            <imprint>
+               <biblScope unit="jg">3.6</biblScope>
+               <biblScope unit="issue">51</biblScope>
+               <biblScope unit="pages">515–516</biblScope>
+               <date when="1884-09-15">15.9.1884</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Editorische Fußnote: »Anmerkung der Schriftleitung: Von verschiedenen Seiten zu
+                     wiederholten Malen dazu aufgefordert, haben wir uns entschlossen, in einer
+                     Reihe von Artikeln unsere Stellung zur sozialen Frage und den einzelnen
+                     sozialen Parteien eingehender zu beleuchten. Der nachfolgende Aufsatz versucht
+                     nur die allgemeinsten Gesichtspunkte hierfür freizustellen und soll
+                     gewissermaßen Vorbote und Vorwort der späteren sein.«</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Die sozialen Fragen stehen heute im Vordergrunde.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">In allgemeiner Weise bestimmt Bahr die »soziale Frage« und macht
+                  ihre Beantwortung zur Überlebensvoraussetzung der Nation.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="HB-tv" target="HB-tv_5934_p1"/>
+               <ptr type="HB-tv" target="HB-tv_5934_p2"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/kyffhaeuser/1884-frage.pdf</ref>
+      </body>
+   </text>
+</TEI>

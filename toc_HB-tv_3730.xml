@@ -1,0 +1,63 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_3730.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_373.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_3731.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">[Romain Rolland]</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_3730.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_3730" type="Book_Section" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="a">[Romain Rolland]</title>
+            <author ref="#10815">Bahr, Hermann</author>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="m" ref="pmb61170">Liber Amicorum Romain Rolland</title>
+            <editor>Gorki, Maxim</editor>
+            <editor>Duhamel, Georges</editor>
+            <editor>Zweig, Stefan</editor>
+            <imprint>
+               <pubPlace>Zürich, Leipzig</pubPlace>
+               <publisher>Holzapfel</publisher>
+               <date when="1926">1926</date>
+               <biblScope unit="pages">38–39</biblScope>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Hundert numerierte Exemplare in Halbleder.</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="first-printing">Als »Dichter und Denker über Romain Rolland. Huldigungen
+                  zum sechzigsten Geburtstage. 29. Januar 1926« in: Neue Freie Presse (1926) #22041,
+                  Morgenblatt, 29. (24.1.1926)</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Romain Rolland, mir dichterisch so lieb, menschlich so wert,
+                  nicht bloß Verheißung, sondern selber durch sein bloßes Dasein schon Gewähr</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#12543"/>
+               <ptr type="pmb" target="#11461"/>
+               <ptr type="pmb" target="#9379"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/buchbeitraege/1926_liber-amicorum-romain-rolland.pdf</ref>
+      </body>
+   </text>
+</TEI>

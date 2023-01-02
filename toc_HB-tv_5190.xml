@@ -1,0 +1,69 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_5190.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_519.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_5191.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">26. April [1919]</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_5190.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_5190" type="Book_Section" subtype="Tagebuch_Buchtext" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="a">26. April [1919]</title>
+            <author ref="#10815">Bahr, Hermann</author>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="m" ref="pmb119073">1919</title>
+            <imprint>
+               <pubPlace>Leipzig, Wien, Zürich</pubPlace>
+               <publisher>E. P. Tal</publisher>
+               <date when="1920">1920</date>
+               <biblScope unit="pages">141–146</biblScope>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="review-of">Max Pirker: Die Zukunft der österreichischen Alpenländer.
+                  Zürich: Amalthea 1919.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="first-printing">Neues Wiener Journal</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">An Herrn Dr. Max Pirker: »Was Sie, lieber Herr Doktor, in der
+                  ’Österreichischen Revue’</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Bahr sieht seine Differenz zu Max Pirker in der großen
+                  Ähnlichkeit zwischen beiden, indem beide Nadler verpflichtet sind. Er erinnert
+                  auch an seinen Aufsatz »Die Entdeckung der Provinz« von 1899.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#9277"/>
+               <ptr type="pmb" target="#4776"/>
+               <ptr type="pmb" target="#19430"/>
+               <ptr type="pmb" target="#4996"/>
+               <ptr type="pmb" target="#11461"/>
+               <ptr type="pmb" target="#15229"/>
+               <ptr type="pmb" target="#2412"/>
+               <ptr type="pmb" target="#13102"/>
+               <ptr type="HB-tv" target="HB-tv_5190_p1"/>
+               <ptr type="HB-tv" target="HB-tv_5190_p2"/>
+               <ptr type="HB-tv" target="HB-tv_5190_p3"/>
+               <ptr type="HB-tv" target="HB-tv_3356_p2"/>
+               <ptr type="HB-tv" target="HB-tv_1300_p1"/>
+            </listRef>
+         </ref>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,76 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_4524.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_4523.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_4525.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Bühnenschriftsteller und Publikum</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_4524.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_4524" type="Journal-Article" subtype="Nachdruck_Erklärung" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <author ref="#2150">Bauer, Julius</author>
+            <author ref="#2425">Dörmann, Felix</author>
+            <author ref="#11402">Ganghofer, Ludwig</author>
+            <author ref="#11673">Herzl, Theodor</author>
+            <author ref="#13082">Karlweis, Carl</author>
+            <author ref="#2334">Langmann, Philipp</author>
+            <author ref="#2337">Léon, Victor</author>
+            <author ref="#24702">Schönthan, Franz von</author>
+            <author ref="#13118">Wildenbruch, Ernst von</author>
+            <title level="a">Bühnenschriftsteller und Publikum</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j">Rigasche Rundschau</title>
+            <imprint>
+               <biblScope unit="jg">33</biblScope>
+               <biblScope unit="issue">39</biblScope>
+               <biblScope unit="pages">3</biblScope>
+               <date when="1899-02-17">17.2.1899</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Editorische Einleitung: »Die Wiener ’Zeit’ veröffentlicht folgende
+                     Erklärung:«</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="first-printing">Die Zeit, 18 (1899) #230, 120. (25.2.1899) Neue Freie
+                  Presse, (1899) #12397, 8. (25.2.1899) Prager Tagblatt, 23 (1899) #57, 11.
+                  (26.2.1899)</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Wir haben beschlossen, uns fortan bei den Premièren unserer
+                  Stücke dem Publikum nicht mehr zu zeigen. [Alphabetische Liste der Unterzeichner]
+                  Wien, am 23. Februar 1899. |</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#2150"/>
+               <ptr type="pmb" target="#2425"/>
+               <ptr type="pmb" target="#11402"/>
+               <ptr type="pmb" target="#11673"/>
+               <ptr type="pmb" target="#2334"/>
+               <ptr type="pmb" target="#2337"/>
+               <ptr type="pmb" target="#13118"/>
+               <ptr type="HB-tv" target="HB-tv_2402_p2"/>
+               <ptr type="HB-tv" target="HB-tv_4466_p1"/>
+            </listRef>
+         </ref>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,64 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_1718.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1717.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1719.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Debutanten</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_1718.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_1718" type="Journal-Article" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Debutanten</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="#36340">Die Zeit</title>
+            <imprint>
+               <biblScope unit="jg">9</biblScope>
+               <biblScope unit="issue">107</biblScope>
+               <biblScope unit="pages">48–49</biblScope>
+               <date when="1896-10-17">17.10.1896</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="other-prints">Wiener Theater, 113–118</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Im Burgtheater hat Samstag Fräulein Littitz als Wildfeuer
+                  debutiert, Sonntag hat Herr Treßler den Herrn von Felsen in den Magnetischen Curen
+                  gespielt, Montag ist Fräulein Schönchen als Bärbel eingezogen.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Gegen die Sitte, Debütanten in alten Rollen auftreten zu lassen,
+                  anstatt ihnen neue Rollen in neuen Stücken zu geben.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#11441"/>
+               <ptr type="pmb" target="#2121"/>
+               <ptr type="pmb" target="#2157"/>
+               <ptr type="pmb" target="#12061"/>
+               <ptr type="HB-tv" target="HB-tv_1676_p8"/>
+               <ptr type="HB-tv" target="HB-tv_4809_p1"/>
+               <ptr type="HB-tv" target="HB-tv_1918_p1"/>
+               <ptr type="HB-tv" target="HB-tv_3427_p12"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1896-9/107-48.pdf</ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1896-9/107-49.pdf</ref>
+      </body>
+   </text>
+</TEI>

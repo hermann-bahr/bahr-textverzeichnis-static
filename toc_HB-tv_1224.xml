@@ -1,0 +1,71 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_1224.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1223.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1225.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Rosegger und Hausegger</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_1224.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_1224" type="Journal-Article" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Rosegger und Hausegger</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j">Frankfurter Zeitung</title>
+            <imprint>
+               <biblScope unit="jg">69</biblScope>
+               <biblScope unit="issue">959, 1. Morgenblatt</biblScope>
+               <biblScope unit="pages">1–2</biblScope>
+               <date when="1924-12-24">24.12.1924</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="review-of">Siegmund von Hausegger (Hg.): Briefwechsel zwischen Peter
+                  Rosegger und Friedrich von Hausegger. Leipzig: L. Staackmann 1924.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Der »Briefwechsel zwischen Peter Rosegger und Friedrich von
+                  Hausegger«, herausgegeben von des edlen Friedrich würdigen Sohn Siegmund von
+                  Hausegger</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Bahr sieht die Relevanz des Briefwechsels nicht zuletzt in dem
+                  Umstand, dass Österreich nur Bedeutendes im Adel und im Bauernstand hervorgebracht
+                  habe, und erläutert das in einer historischen Betrachtung.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#12551"/>
+               <ptr type="pmb" target="#7737"/>
+               <ptr type="pmb" target="#3561"/>
+               <ptr type="pmb" target="#10943"/>
+               <ptr type="pmb" target="#14905"/>
+               <ptr type="pmb" target="#19136"/>
+               <ptr type="pmb" target="#3892"/>
+               <ptr type="pmb" target="#3622"/>
+               <ptr type="pmb" target="#13024"/>
+               <ptr type="pmb" target="#11145"/>
+               <ptr type="HB-tv" target="HB-tv_1224_p1"/>
+               <ptr type="HB-tv" target="HB-tv_1224_p2"/>
+               <ptr type="HB-tv" target="HB-tv_1224_p3"/>
+               <ptr type="HB-tv" target="HB-tv_4466_p6"/>
+               <ptr type="HB-tv" target="HB-tv_1224_p5"/>
+            </listRef>
+         </ref>
+      </body>
+   </text>
+</TEI>

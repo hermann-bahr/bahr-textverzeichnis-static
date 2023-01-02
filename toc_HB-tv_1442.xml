@@ -1,0 +1,75 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_1442.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1441.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1443.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">In der Hölle. (Eine Burleske)</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_1442.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_1442" type="Journal-Article" subtype="Dichtung_Unsichere_Zuschreibung" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">–hr</author>
+            <title level="a">In der Hölle. (Eine Burleske)</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="#41471">Deutsche Zeitung</title>
+            <imprint>
+               <biblScope unit="jg">22</biblScope>
+               <biblScope unit="issue">7457, Sonntags-Ausgabe</biblScope>
+               <biblScope unit="pages">3</biblScope>
+               <date when="1892-10-02">2.10.1892</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Zur Zuschreibung, die Aufgrund der im Nachlass aufbewahrten Kiste »Artikel mit
+                     Pseudonym« erfolgt, ist anzumerken, dass dies der einzige Fall im Nachlass ist,
+                     dass »-hr« für Bahr steht, hingegen »hr« taucht öfter auf. Das zweite Mal, dass
+                     »-hr« auftaucht, ist als Verfasser einer Kurzkritik (30.11.1892, 8), direkt
+                     unter der ersten Bahrs für die »Deutsche Zeitung«, die mit »H. B.«
+                     gekennzeichnet und durch den Briefwechsel mit dem Vater abgesichert ist. Das
+                     dritte Mal (9.12.1892, 4) handelt es sich um die Rezension eines Buches, das
+                     von Bahrs Verleger herausgegeben wurde. Wenngleich textimmanente und externe
+                     Hinweise eine Zuschreibung an Bahr nahelegen, so lässt sich auch umgekehrt der
+                     Umstand, dass am 30.11. H.B. und -hr nebeneinander stehen, als Indiz nehmen,
+                     dass es keine Identität der Verfasser gibt und dass »In der Hölle«
+                     versehentlich im Nachlass landete.</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Der Mörder Szemeredy pocht an das Thor der Hölle.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Die »Burleske« handelt davon, dass der laut Zeugenaussagen
+                  überführte Mörder und Räuber Szemeredy, der vor einer Verurteilung Selbsttötung
+                  beging, in der Hölle zum Star wird, weil ihm alle nur erdenklichen Verbrechen
+                  zugeschrieben werden.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#11201"/>
+               <ptr type="pmb" target="#16501"/>
+               <ptr type="HB-tv" target="HB-tv_3921_p2"/>
+               <ptr type="HB-tv" target="HB-tv_1990_p1"/>
+               <ptr type="HB-tv" target="HB-tv_1442_p3"/>
+               <ptr type="HB-tv" target="HB-tv_1442_p4"/>
+               <ptr type="HB-tv" target="HB-tv_1442_p5"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/deutsche-zeitung/74573.pdf</ref>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,64 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_2216.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_2215.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_2217.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Tagebuch. Sankt Veit bei Wien, 8. April</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_2216.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_2216" type="Journal-Article" subtype="Tagebuch" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Tagebuch. Sankt Veit bei Wien, 8. April</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j">Der Strom</title>
+            <imprint>
+               <biblScope unit="jg">1</biblScope>
+               <biblScope unit="issue">3, Juni</biblScope>
+               <biblScope unit="pages">80</biblScope>
+               <date when="1911">1911</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Strauss’ Kommentar zu dieser Kritik findet sich im Brief an Hofmannsthal,
+                     24.7.1911 und Hofmannsthal antwortet am 26.7.[1911].</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Rosenkavalier. Wenn einem kein Stück einfällt, macht man daraus
+                  einen Operntext.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Bahr findet den »Rosenkavalier« musikalisch hervorragend, vom
+                  Libretto her aber erbärmlich und überlegt, wer für Strauss ein Libretto schreiben
+                  könnte.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#12870"/>
+               <ptr type="pmb" target="#11740"/>
+               <ptr type="pmb" target="#12303"/>
+               <ptr type="pmb" target="#12056"/>
+               <ptr type="pmb" target="#10210"/>
+               <ptr type="HB-tv" target="HB-tv_1195_p2"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/strom/der-strom_1911.pdf</ref>
+      </body>
+   </text>
+</TEI>

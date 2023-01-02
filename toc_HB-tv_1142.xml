@@ -1,0 +1,75 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_1142.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1141.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_1143.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">München – Wien</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_1142.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_1142" type="Journal-Article" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">München – Wien</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j">Münchner Neueste Nachrichten</title>
+            <imprint>
+               <biblScope unit="jg">80</biblScope>
+               <biblScope unit="issue">351</biblScope>
+               <biblScope unit="pages">1–2</biblScope>
+               <date when="1927-12-25">25.12.1927</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Ob sich denn ein Wiener jemals in München behaglich fühlen, ob
+                  er es hier dauernd aushalten kann, fragen mich Münchner gern</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">Bahr unternimmt es in aller Kürze seine Relegierung abzuhandeln,
+                  als den Moment, der ihn zwischen den zwei Stammes-Polen in ihm schwanken machte um
+                  dann auf den Unterschied der Pariser Gesellschaft und der Münchner (es gibt keine,
+                  nur Geselligkeit) einzugehen.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#13024"/>
+               <ptr type="pmb" target="#10943"/>
+               <ptr type="pmb" target="#5864"/>
+               <ptr type="pmb" target="#3892"/>
+               <ptr type="pmb" target="#11740"/>
+               <ptr type="pmb" target="#2121"/>
+               <ptr type="pmb" target="#10863"/>
+               <ptr type="pmb" target="#12816"/>
+               <ptr type="pmb" target="#3622"/>
+               <ptr type="pmb" target="#4971"/>
+               <ptr type="pmb" target="#4336"/>
+               <ptr type="pmb" target="#14796"/>
+               <ptr type="HB-tv" target="HB-tv_4451_p4"/>
+               <ptr type="HB-tv" target="HB-tv_4469_p2"/>
+               <ptr type="HB-tv" target="HB-tv_1308_p2"/>
+               <ptr type="HB-tv" target="HB-tv_1142_p4"/>
+               <ptr type="HB-tv" target="HB-tv_1142_p5"/>
+               <ptr type="HB-tv" target="HB-tv_3498_p4"/>
+               <ptr type="HB-tv" target="HB-tv_1142_p7"/>
+               <ptr type="HB-tv" target="HB-tv_1235_p1"/>
+               <ptr type="HB-tv" target="HB-tv_1142_p9"/>
+            </listRef>
+         </ref>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,59 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_3.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_2999.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_30.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Sozial-politische Rundschau. XIX. »Der vierte Stand und der
+                     Staatssocialismus. Zur Signatur der deutschen Gegenwart von einem
+                     Nichtpolitiker«</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_3.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_3" type="Journal-Article" subtype="Rezension" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Sozial-politische Rundschau. XIX. »Der vierte Stand und der
+                     Staatssocialismus. Zur Signatur der deutschen Gegenwart von einem
+                     Nichtpolitiker«</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j">Deutsche Wochenschrift</title>
+            <imprint>
+               <biblScope unit="jg">2</biblScope>
+               <biblScope unit="issue">24</biblScope>
+               <biblScope unit="pages">9–10</biblScope>
+               <date when="1884-06-15">15.6.1884</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="review-of">Der vierte Stand und der Staatssozialismus. Zur Signatur des
+                  deutschen Gegenwart. Von einem Nichtpolitiker. Leipzig: Hirzel 1884.</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Unter dem etwas anspruchsvollen Titel: »Der vierte Stand und der
+                  Staatssocialismus. Zur Signatur der deutschen Gegegnwart von einem Nichtpolitiker«
+                  bietet uns Hirzel’s Verlag (Leipzig) ein anziehend geschriebenes Werkchen</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#10943"/>
+               <ptr type="HB-tv" target="HB-tv_4858_p3"/>
+            </listRef>
+         </ref>
+      </body>
+   </text>
+</TEI>

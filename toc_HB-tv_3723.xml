@@ -1,0 +1,60 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_3723.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_3722.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_3724.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Klimt</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_3723.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_3723" type="Journal-Article" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Klimt</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="36374">Neue Freie Presse</title>
+            <imprint>
+               <biblScope unit="issue">20789, Morgenblatt</biblScope>
+               <biblScope unit="pages">1–2</biblScope>
+               <date when="1922-07-16">16.7.1922</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="other-prints">Als Vorwort in: Gustav Klimt, Hg.: Fünfzig Handzeichnungen.
+                  Wien, Leipzig: Thyrsos 1922, [2-7].</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Klimt kam am 14. Juli 1862 zur Welt. Er, dem jede Feierlichkeit
+                  verhaßt war, hätte heute, von allerhand hohen</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#11941"/>
+               <ptr type="pmb" target="#11461"/>
+               <ptr type="pmb" target="#12167"/>
+               <ptr type="pmb" target="#11518"/>
+               <ptr type="HB-tv" target="HB-tv_3723_p1"/>
+               <ptr type="HB-tv" target="HB-tv_3723_p2"/>
+               <ptr type="HB-tv" target="HB-tv_1929_p3"/>
+               <ptr type="HB-tv" target="HB-tv_3723_p4"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/neue-freie-presse/1922-7-16_klimt.pdf</ref>
+      </body>
+   </text>
+</TEI>

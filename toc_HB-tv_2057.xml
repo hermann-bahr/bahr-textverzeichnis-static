@@ -1,0 +1,64 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_2057.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_2056.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_2058.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Schriftstellerprotest gegen Wiener Zensurverfügungen</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_2057.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_2057" type="Journal-Article" subtype="Aufruf" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <author ref="#10955">Blei, Franz</author>
+            <author ref="#2121">Schnitzler, Arthur</author>
+            <author ref="#13055">Wassermann, Jakob</author>
+            <author ref="#13094">Werfel, Franz</author>
+            <title level="a">Schriftstellerprotest gegen Wiener Zensurverfügungen</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="#41289">Berliner Börsen-Courier</title>
+            <imprint>
+               <biblScope unit="jg">50</biblScope>
+               <biblScope unit="issue">59, Morgen-Ausgabe, Beilage</biblScope>
+               <biblScope unit="pages">6</biblScope>
+               <date when="1918-02-05">5.2.1918</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Editorische Einleitung: »Hermann Bahr, Franz Blei, Artur [!] Schnitzler, Jakob
+                     Wassermann, Franz Werfel u.a. haben nachstehenen Protest gegen die Wiener
+                     Zensurverbote der Stücke von Schickele und Claudel den dortigen Blättern
+                     übermittelt:«</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Wir unterzeichneten Schriftsteller fühlen uns zu einem Protest
+                  gegen das amtliche Verbot veranlaßt, mit dem man die Aufführungen der Werke von
+                  Schickele und Claudel belegt hat.</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#12640"/>
+               <ptr type="pmb" target="#6660"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/boersen-courier/1918_protest.pdf</ref>
+      </body>
+   </text>
+</TEI>

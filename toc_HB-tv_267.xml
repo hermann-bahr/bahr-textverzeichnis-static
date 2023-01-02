@@ -1,0 +1,67 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:foo="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="toc_HB-tv_267.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_2669.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/toc_HB-tv_2670.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Textverzeichnis</title>
+            <title level="a">Burgtheater</title>
+            <title when-iso=""/>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-01+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/toc_HB-tv_267.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:id="HB-tv_267" type="Journal-Article" status="checked">
+         <analytic xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <author ref="#10815">Bahr, Hermann</author>
+            <title level="a">Burgtheater</title>
+         </analytic>
+         <monogr xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <title level="j" ref="#41471">Deutsche Zeitung</title>
+            <imprint>
+               <biblScope unit="jg">23</biblScope>
+               <biblScope unit="issue">7740, Sonntags-Ausgabe</biblScope>
+               <biblScope unit="pages">1–2</biblScope>
+               <date when="1893-07-16">16.7.1893</date>
+            </imprint>
+         </monogr>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <p>Bahr rechnet mit den Kritikern der Direktion Burckhard ab, denen er
+                     Unehrlichkeit vorwirft, ohne eine Alternative fabrizieren zu können.</p>
+         </note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="other-prints">Als »Direktion Burckhard« in: Wiener Theater, 1-6</note>
+         <note xmlns:tei="http://www.tei-c.org/ns/1.0" type="incipit">Heute schließt die Burg. Da schaut man gerne eine Weile</note>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="personenindex">
+            <listRef>
+               <ptr type="pmb" target="#11036"/>
+               <ptr type="pmb" target="#11617"/>
+               <ptr type="pmb" target="#12756"/>
+               <ptr type="pmb" target="#5591"/>
+               <ptr type="pmb" target="#9138"/>
+               <ptr type="pmb" target="#11860"/>
+               <ptr type="pmb" target="#2412"/>
+               <ptr type="pmb" target="#10883"/>
+               <ptr type="HB-tv" target="HB-tv_267_p1"/>
+               <ptr type="HB-tv" target="HB-tv_2154_p2"/>
+               <ptr type="HB-tv" target="HB-tv_1450_p2"/>
+            </listRef>
+         </ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/deutsche-zeitung/77401.pdf</ref>
+         <ref xmlns:tei="http://www.tei-c.org/ns/1.0" type="URL">https://bahr.univie.ac.at/sites/all/txt/deutsche-zeitung/77402.pdf</ref>
+      </body>
+   </text>
+</TEI>
