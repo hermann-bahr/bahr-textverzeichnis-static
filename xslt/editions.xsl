@@ -200,7 +200,7 @@
             <tbody>
                 <tr>
                     <th/>
-                    <td style="text-style='bold'">
+                    <th>
                         <xsl:choose>
                             <!-- Zuerst Analytic -->
                             <xsl:when test="./tei:analytic">
@@ -249,7 +249,7 @@
                             <xsl:text>)</xsl:text>
                         </xsl:if>
                         <xsl:text>.</xsl:text>
-                    </td>
+                    </th>
                 </tr>
                 <tr>
                     <td> </td>
@@ -603,5 +603,12 @@
                 </xsl:element>
             </td>
         </tr>
+    </xsl:template>
+    
+    <xsl:template match="tei:note/tei:bibl">
+        <xsl:apply-templates/>
+        <xsl:if test="not(position()=last())">
+            <br/>
+        </xsl:if>
     </xsl:template>
 </xsl:stylesheet>
