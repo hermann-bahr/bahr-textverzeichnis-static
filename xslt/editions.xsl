@@ -200,7 +200,7 @@
             <tbody>
                 <tr>
                     <th/>
-                    <td>
+                    <td style="text-style='bold'">
                         <xsl:choose>
                             <!-- Zuerst Analytic -->
                             <xsl:when test="./tei:analytic">
@@ -251,7 +251,9 @@
                         <xsl:text>.</xsl:text>
                     </td>
                 </tr>
-                <tr/>
+                <tr>
+                    <td> </td>
+                </tr>
                 <xsl:apply-templates select="tei:note"/>
                 <xsl:apply-templates select="tei:ref[@type = 'URL']"/>
             </tbody>
@@ -544,11 +546,11 @@
                     <xsl:when test="@type = 'summary'">
                         <b>Zusammenfassung:</b>
                     </xsl:when>
-                    <xsl:when test="@type = 'first-printing'">
-                        <b>Erstdruck:</b>
+                    <xsl:when test="@type = 'periodica'">
+                        <b>Drucke in Periodika:</b>
                     </xsl:when>
-                    <xsl:when test="@type = 'other-prints'">
-                        <b>Drucke:</b>
+                    <xsl:when test="@type = 'monographies'">
+                        <b>Drucke in Monografien:</b>
                     </xsl:when>
                     <xsl:when test="@type = 'translations'">
                         <b>Übersetzungen:</b>
