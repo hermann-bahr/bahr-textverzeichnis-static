@@ -271,9 +271,9 @@
                 <xsl:text>: </xsl:text>
             </xsl:when>
         </xsl:choose>
-        <i>
-            <xsl:value-of select="$monogr/tei:title"/>
-        </i>
+        <span style="font-style=italic">
+            <xsl:value-of select="normalize-space($monogr/tei:title)"/>
+        </span>
         <xsl:if test="$monogr/tei:editor[1]">
             <xsl:text>. </xsl:text>
             <xsl:choose>
