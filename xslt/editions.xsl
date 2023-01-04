@@ -141,12 +141,8 @@
         </div>
     </xsl:template>
     <xsl:template match="tei:biblStruct">
-        <table class="table table-striped">
-            <tbody>
-                <tr>
-                    <th/>
-                    <th>
-                        <xsl:choose>
+        <xsl:element name="h2">
+            <xsl:choose>
                             <!-- Zuerst Analytic -->
                             <xsl:when test="./tei:analytic">
                                 <xsl:value-of select="foo:analytic-angabe(.)"/>
@@ -194,13 +190,12 @@
                             <xsl:text>)</xsl:text>
                         </xsl:if>
                         <xsl:text>.</xsl:text>
-                    </th>
-                </tr>
-                <tr>
-                    <td> </td>
-                </tr>
+        </xsl:element>
+        <p/>
+        <table class="table table-striped">
+            <tbody>
                 <xsl:apply-templates select="child::tei:note"/>
-                <xsl:apply-templates select="tei:ref[@type = 'URL']"/>
+                <xsl:apply-templates select="child::tei:ref[@type = 'URL']"/>
             </tbody>
         </table>
     </xsl:template>
@@ -475,24 +470,24 @@
                 select="foo:autor-rekursion($monogr, $autor-count + 1, $autor-count-gesamt)"/>
         </xsl:if>
     </xsl:function>
-    <xsl:template match="tei:biblStruct/tei:note[not(tei:bibl)]">
+    <xsl:template match="tei:biblStruct/tei:note[not(child::tei:bibl)]">
         <tr>
-            <td>
+            <th>
                 <xsl:choose>
                     <xsl:when test="@type = 'incipit' and ends-with(normalize-space(.), '|')">
-                        <b>Volltext:</b>
+                        <xsl:text>Volltext</xsl:text>
                     </xsl:when>
                     <xsl:when test="@type = 'incipit'">
-                        <b>Textanfang:</b>
+                        <xsl:text>Textanfang</xsl:text>
                     </xsl:when>
                     <xsl:when test="@type = 'summary'">
-                        <b>Zusammenfassung:</b>
+                        <xsl:text>Zusammenfassung</xsl:text>
                     </xsl:when>
                     <xsl:otherwise>
-                        <b>Allgemein:</b>
+                        <xsl:text>Allgemein</xsl:text>
                     </xsl:otherwise>
                 </xsl:choose>
-            </td>
+            </th>
             <td>
                 <xsl:choose>
                     <xsl:when test="@type">
@@ -507,23 +502,23 @@
             </td>
         </tr>
     </xsl:template>
-    <xsl:template match="tei:biblStruct/tei:note[(tei:bibl)]">
+    <xsl:template match="tei:biblStruct/tei:note[child::tei:bibl]">
         <tr>
             <th>
             <xsl:choose>
-                <xsl:when test="parent::tei:note/@type = 'periodica'">
+                <xsl:when test="@type = 'periodica'">
                     <xsl:text>Weitere Drucke (Periodika)</xsl:text>
                 </xsl:when>
-                <xsl:when test="parent::tei:note/@type = 'monographies'">
+                <xsl:when test="@type = 'monographies'">
                     <xsl:text>Weitere Drucke (Bücher)</xsl:text>
                 </xsl:when>
-                <xsl:when test="parent::tei:note/@type = 'translations'">
+                <xsl:when test="@type = 'translations'">
                     <xsl:text>Übersetzungen</xsl:text>
                 </xsl:when>
-                <xsl:when test="parent::tei:note/@type = 'review-of'">
+                <xsl:when test="@type = 'review-of'">
                     <xsl:text>Rezensiert</xsl:text>
                 </xsl:when>
-                <xsl:when test="parent::tei:note/@type = 'review'">
+                <xsl:when test="@type = 'review'">
                     <xsl:text>Besprochen in</xsl:text>
                 </xsl:when>
                 <xsl:otherwise>
@@ -533,14 +528,24 @@
             </th>
             <td>
                 <ul>
-        <xsl:for-each select="tei:bibl">
-       <li>
-           <xsl:apply-templates/>
-        </li>
-        </xsl:for-each>
+        <xsl:apply-templates/>
                 </ul>
             </td></tr>
                     
+    </xsl:template>
+    <xsl:template match="tei:note/tei:bibl">
+        <xsl:element name="li">
+            <xsl:if test="child::tei:title[@level='a']">
+                <xsl:text>Als »</xsl:text>
+                <xsl:apply-templates select="child::tei:title[@level='a']"/>
+                <xsl:text>« in: </xsl:text>
+            </xsl:if>
+            <xsl:if test="child::tei:title[@level='m' or @level='j']">
+                <xsl:apply-templates select="child::tei:title[@level='m' or @level='j']"/>
+            </xsl:if>
+            <xsl:apply-templates select="*[not(self::tei:title or self::tei:note)]"/>
+            <xsl:apply-templates select="child::tei:note"/>
+        </xsl:element>
     </xsl:template>
     <xsl:template match="tei:note[not(parent::tei:biblStruct)]">
         <xsl:text> [</xsl:text>
