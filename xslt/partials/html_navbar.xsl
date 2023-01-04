@@ -24,8 +24,10 @@
                                 </a>
                                 <div class="dropdown-menu">
                                     <a class="dropdown-item" href="projekt.html">Zur Edition</a>
-                                    <a title="Links" href="https://schnitzler.acdh.oeaw.ac.at"
-                                        class="nav-link">Schnitzler am ACDH-CH</a>
+                                    <a class="dropdown-item" href="hinweise.html">Hinweise</a>
+                                    <a class="dropdown-item" href="pseudonyme.html">Pseudonyme</a>
+                                    <a title="Links" href="https://bahr.univie.ac.at"
+                                        class="nav-link">Projektwebsite</a>
                                     <a title="Links"
                                         href="https://github.com/hermann-bahr/bahr-textverzeichnis-data"
                                         class="nav-link">Daten auf gitHub</a>
