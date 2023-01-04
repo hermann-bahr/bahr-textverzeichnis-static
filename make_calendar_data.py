@@ -3,6 +3,7 @@ import os
 import json
 from acdh_tei_pyutils.tei import TeiReader
 from tqdm import tqdm
+os.makedirs('./html/js-data', exist_ok=True)
 files = glob.glob('./data/editions/*xml')
 out_file = "./html/js-data/calendarData.js"
 data = []
