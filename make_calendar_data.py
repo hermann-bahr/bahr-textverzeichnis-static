@@ -13,16 +13,16 @@ for x in tqdm(files, total=len(files)):
     head, tail = os.path.split(x)
     doc = TeiReader(x)
     counter = 0
-    for date in doc.any_xpath(".//tei:title[@when-iso]"):
+    for date in doc.any_xpath(".//tei:titleStmt/tei:title[@iso-date]"):
         item = {}
         counter += 1
-        item["name"] = doc.any_xpath('//tei:title[@level="a"]/text()')[0]
-        date_str = f"{date.attrib['when-iso']}"
+        item["name"] = doc.any_xpath('//tei:titleStmt/tei:title[@level="a"]/text()')[0]
+        date_str = f"{date.attrib['iso-date']}"
         try:
             datetime.fromisoformat(date_str)
         except ValueError:
             continue
-        item["startDate"] = date.attrib["when-iso"]
+        item["startDate"] = date.attrib["iso-date"]
         item["tageszaehler"] = counter
         item["id"] = tail.replace(".xml", ".html")
         data.append(item)
