@@ -163,7 +163,6 @@
                             </xsl:when>
                             <!-- Ansonsten ist es eine einzelne monogr -->
                             <xsl:otherwise>
-                                <xsl:text>SEX</xsl:text>
                                 <xsl:value-of select="foo:monogr-angabe(./tei:monogr[last()])"/>
                             </xsl:otherwise>
                         </xsl:choose>
@@ -200,13 +199,14 @@
                 <tr>
                     <td> </td>
                 </tr>
-                <xsl:apply-templates select="tei:note"/>
+                <xsl:apply-templates select="child::tei:note"/>
                 <xsl:apply-templates select="tei:ref[@type = 'URL']"/>
             </tbody>
         </table>
     </xsl:template>
     <xsl:function name="foo:monogr-angabe">
         <xsl:param name="monogr" as="node()"/>
+        <xsl:text>ARSCH</xsl:text>        
         <xsl:choose>
             <xsl:when test="$monogr/tei:author[2]">
                 <xsl:value-of select="foo:autor-rekursion($monogr, 1, count($monogr/tei:author))"/>
@@ -217,7 +217,7 @@
                 <xsl:text>: </xsl:text>
             </xsl:when>
         </xsl:choose>
-        <span style="font-style=italic">
+        <span style="font-style=italic"><xsl:text>ARSH</xsl:text>
             <xsl:value-of select="normalize-space($monogr/tei:title)"/>
         </span>
         <xsl:if test="$monogr/tei:editor[1]">
@@ -292,6 +292,9 @@
                 </xsl:if>
             </xsl:otherwise>
         </xsl:choose>
+        <xsl:if test="$monogr/tei:extent">
+            <xsl:value-of select="concat(' (', normalize-space($monogr/tei:extent), ')')"/> 
+        </xsl:if>
     </xsl:function>
     <xsl:function name="foo:imprint-in-index">
         <xsl:param name="monogr" as="node()"/>
@@ -479,7 +482,7 @@
                 select="foo:autor-rekursion($monogr, $autor-count + 1, $autor-count-gesamt)"/>
         </xsl:if>
     </xsl:function>
-    <xsl:template match="tei:note[not(tei:bibl)]">
+    <xsl:template match="tei:biblStruct/tei:note[not(tei:bibl)]">
         <tr>
             <td>
                 <xsl:choose>
@@ -511,7 +514,7 @@
             </td>
         </tr>
     </xsl:template>
-    <xsl:template match="tei:note[(tei:bibl)]">
+    <xsl:template match="tei:biblStruct/tei:note[(tei:bibl)]">
         <xsl:for-each select="tei:bibl">
         <tr>
             <td>
@@ -552,6 +555,11 @@
             </td>
         </tr>
         </xsl:for-each>
+    </xsl:template>
+    <xsl:template match="tei:note[not(parent::tei:biblStruct)]">
+        <xsl:text> [</xsl:text>
+        <xsl:apply-templates/>
+        <xsl:text>] </xsl:text>
     </xsl:template>
     <xsl:template match="tei:ref[@type = 'URL']">
         <tr>
