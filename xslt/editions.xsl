@@ -90,31 +90,6 @@
                             </div>
                         </div>
                     </div>
-                    <xsl:for-each select=".//tei:back//tei:org[@xml:id]">
-                        <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-                            <xsl:attribute name="id">
-                                <xsl:value-of select="./@xml:id"/>
-                            </xsl:attribute>
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">
-                                            <xsl:value-of select=".//tei:orgName[1]/text()"/>
-                                        </h5>
-                                    </div>
-                                    <div class="modal-body">
-                                        <xsl:call-template name="org_detail">
-                                            <xsl:with-param name="showNumberOfMentions" select="5"/>
-                                        </xsl:call-template>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-dismiss="modal">Schließen</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </xsl:for-each>
                     <xsl:for-each select=".//tei:back//tei:person[@xml:id]">
                         <xsl:variable name="xmlId">
                             <xsl:value-of select="data(./@xml:id)"/>
@@ -146,37 +121,7 @@
                             </div>
                         </div>
                     </xsl:for-each>
-                    <xsl:for-each select=".//tei:back//tei:place[@xml:id]">
-                        <xsl:variable name="xmlId">
-                            <xsl:value-of select="data(./@xml:id)"/>
-                        </xsl:variable>
-                        <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"
-                            id="{$xmlId}">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">
-                                            <xsl:value-of
-                                                select="normalize-space(string-join(.//tei:placeName[1]/text()))"/>
-                                            <xsl:text> </xsl:text>
-                                            <a href="{concat($xmlId, '.html')}">
-                                                <i class="fas fa-external-link-alt"/>
-                                            </a>
-                                        </h5>
-                                    </div>
-                                    <div class="modal-body">
-                                        <xsl:call-template name="place_detail">
-                                            <xsl:with-param name="showNumberOfMentions" select="5"/>
-                                        </xsl:call-template>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-dismiss="modal">Schließen</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </xsl:for-each>
+                    
                     <xsl:call-template name="html_footer"/>
                 </div>
             </body>
@@ -218,6 +163,7 @@
                             </xsl:when>
                             <!-- Ansonsten ist es eine einzelne monogr -->
                             <xsl:otherwise>
+                                <xsl:text>SEX</xsl:text>
                                 <xsl:value-of select="foo:monogr-angabe(./tei:monogr[last()])"/>
                             </xsl:otherwise>
                         </xsl:choose>
@@ -533,7 +479,7 @@
                 select="foo:autor-rekursion($monogr, $autor-count + 1, $autor-count-gesamt)"/>
         </xsl:if>
     </xsl:function>
-    <xsl:template match="tei:note">
+    <xsl:template match="tei:note[not(tei:bibl)]">
         <tr>
             <td>
                 <xsl:choose>
@@ -546,22 +492,9 @@
                     <xsl:when test="@type = 'summary'">
                         <b>Zusammenfassung:</b>
                     </xsl:when>
-                    <xsl:when test="@type = 'periodica'">
-                        <b>Drucke in Periodika:</b>
-                    </xsl:when>
-                    <xsl:when test="@type = 'monographies'">
-                        <b>Drucke in Monografien:</b>
-                    </xsl:when>
-                    <xsl:when test="@type = 'translations'">
-                        <b>Übersetzungen:</b>
-                    </xsl:when>
-                    <xsl:when test="@type = 'review-of'">
-                        <b>Rezension von:</b>
-                    </xsl:when>
-                    <xsl:when test="@type = 'review'">
-                        <b>Rezensionen:</b>
-                    </xsl:when>
-                    <xsl:otherwise/>
+                    <xsl:otherwise>
+                        <b>Allgemein:</b>
+                    </xsl:otherwise>
                 </xsl:choose>
             </td>
             <td>
@@ -577,6 +510,48 @@
                 </xsl:choose>
             </td>
         </tr>
+    </xsl:template>
+    <xsl:template match="tei:note[(tei:bibl)]">
+        <xsl:for-each select="tei:bibl">
+        <tr>
+            <td>
+            <xsl:if test="position()=1">
+                <xsl:choose>
+                    <xsl:when test="@type = 'periodica'">
+                        <b>Drucke in Periodika:</b>
+                    </xsl:when>
+                    <xsl:when test="@type = 'monographies'">
+                        <b>Drucke in Monografien:</b>
+                    </xsl:when>
+                    <xsl:when test="@type = 'translations'">
+                        <b>Übersetzungen:</b>
+                    </xsl:when>
+                    <xsl:when test="@type = 'review-of'">
+                        <b>Rezension von:</b>
+                    </xsl:when>
+                    <xsl:when test="@type = 'review'">
+                        <b>Rezensiert durch:</b>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <b>Allgemein:</b>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:if>
+            </td>
+            <td>
+                <xsl:choose>
+                    <xsl:when test="@type">
+                        <i>
+                            <xsl:apply-templates/>
+                        </i>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:apply-templates/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </td>
+        </tr>
+        </xsl:for-each>
     </xsl:template>
     <xsl:template match="tei:ref[@type = 'URL']">
         <tr>
@@ -608,10 +583,12 @@
         </tr>
     </xsl:template>
     
-    <xsl:template match="tei:note/tei:bibl">
-        <xsl:apply-templates/>
-        <xsl:if test="not(position()=last())">
-            <br/>
-        </xsl:if>
+    
+    <xsl:template match="tei:title[@level='a' or @level='m']/text()">
+        <span style="text-style:italic"><xsl:value-of select="normalize-space(.)"/></span>
     </xsl:template>
+    <xsl:template match="tei:title[@level='j']/text()">
+        <xsl:value-of select="normalize-space(.)"/>
+    </xsl:template>
+    
 </xsl:stylesheet>
