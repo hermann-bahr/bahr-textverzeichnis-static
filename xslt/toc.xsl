@@ -27,8 +27,9 @@
                                     style="width:100%">
                                     <thead>
                                         <tr>
-                                            <th scope="col">Text</th>
-                                            <th scope="col">Dateiname</th>
+                                            <th scope="col">Titel</th>
+                                            <th scope="col">Enthalten in</th>
+                                            <th scope="col">Datum</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -40,7 +41,7 @@
                                             <tr>
                                                 <td>
                                                     <span hidden="hidden">
-                                                        <xsl:value-of select="@xml:id"/>
+                                                        <xsl:value-of select="descendant::tei:titleStmt/tei:title[@type='iso-date']/text()"/>
                                                     </span>
                                                     <a>
                                                         <xsl:attribute name="href">                                                
@@ -50,14 +51,15 @@
                                                     </a>
                                                 </td>
                                                 <td>
-                                                    <span hidden="hidden">
-                                                        <xsl:value-of select="@xml:id"/>
-                                                    </span>
+                                                        <xsl:value-of select="descendant::tei:biblStruct[1]/tei:monogr[1]/tei:title[1]/text()"/>
+                                                    
+                                                </td>
+                                                <td>
                                                     <a>
                                                         <xsl:attribute name="href">                                                
                                                             <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
                                                         </xsl:attribute>
-                                                        <xsl:value-of select="@xml:id"/>
+                                                        <xsl:value-of select="descendant::tei:titleStmt/tei:title[@type='iso-date']/text()"/>
                                                     </a>
                                                 </td>
                                             </tr>

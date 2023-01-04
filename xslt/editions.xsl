@@ -554,13 +554,11 @@
     </xsl:template>
     <xsl:template match="tei:ref[@type = 'URL']">
         <tr>
-            <td>
+            <th>
                 <xsl:if test="not(preceding-sibling::tei:ref[@type = 'URL'])">
-                    <b>
-                        <xsl:text>Link:</xsl:text>
-                    </b>
+                        <xsl:text>Link</xsl:text>
                 </xsl:if>
-            </td>
+            </th>
             <td>
                 <xsl:element name="a">
                     <xsl:attribute name="href">

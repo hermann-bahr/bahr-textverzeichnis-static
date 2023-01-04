@@ -15,7 +15,7 @@ function getYear(item) {
     name: r.name,
     linkId: r.id,
     color: '#1e81b0'
-  })).filter(r => r.startDate.getFullYear() === 1896);
+  })).filter(r => r.startDate.getFullYear() === 1881);
   
   
   
@@ -29,7 +29,7 @@ function getYear(item) {
   //document.getElementById("ybtn1910").classList.add("focus");
   
   const calendar = new Calendar('#calendar', {
-    startYear: 1896,
+    startYear: 1881,
     language: "de",
     dataSource: data,
     displayHeader: false,
@@ -101,7 +101,7 @@ function getYear(item) {
       endDate: new Date(r.startDate),
       name: r.name,
       linkId: r.id,
-      color: '#1e81b0'
+      color: '#8E4162'
     })).filter(r => r.startDate.getFullYear() === parseInt(year));
     calendar.setDataSource(dataSource);
   }
