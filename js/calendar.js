@@ -15,7 +15,7 @@ function getYear(item) {
     name: r.name,
     linkId: r.id,
     color: '#1e81b0'
-  })).filter(r => r.startDate.getFullYear() === 1881);
+  })).filter(r => r.startDate.getFullYear() === 1891);
   
   
   
@@ -29,7 +29,7 @@ function getYear(item) {
   //document.getElementById("ybtn1910").classList.add("focus");
   
   const calendar = new Calendar('#calendar', {
-    startYear: 1881,
+    startYear: 1891,
     language: "de",
     dataSource: data,
     displayHeader: false,
