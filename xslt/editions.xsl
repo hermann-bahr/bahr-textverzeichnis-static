@@ -206,7 +206,6 @@
     </xsl:template>
     <xsl:function name="foo:monogr-angabe">
         <xsl:param name="monogr" as="node()"/>
-        <xsl:text>ARSCH</xsl:text>        
         <xsl:choose>
             <xsl:when test="$monogr/tei:author[2]">
                 <xsl:value-of select="foo:autor-rekursion($monogr, 1, count($monogr/tei:author))"/>
@@ -216,11 +215,7 @@
                 <xsl:value-of select="foo:vorname-vor-nachname($monogr/tei:author/text())"/>
                 <xsl:text>: </xsl:text>
             </xsl:when>
-        </xsl:choose>
-        <span style="font-style=italic"><xsl:text>ARSH</xsl:text>
-            <xsl:value-of select="normalize-space($monogr/tei:title)"/>
-        </span>
-        <xsl:if test="$monogr/tei:editor[1]">
+        </xsl:choose><xsl:value-of select="normalize-space($monogr/tei:title)"/><xsl:if test="$monogr/tei:editor[1]">
             <xsl:text>. </xsl:text>
             <xsl:choose>
                 <xsl:when test="$monogr/tei:editor[2]">
@@ -266,12 +261,10 @@
                     </xsl:choose>
                 </xsl:otherwise>
             </xsl:choose>
-        </xsl:if>
-        <xsl:if test="$monogr/tei:edition">
+        </xsl:if><xsl:if test="$monogr/tei:edition">
             <xsl:text>. </xsl:text>
             <xsl:value-of select="$monogr/tei:edition"/>
-        </xsl:if>
-        <xsl:choose>
+        </xsl:if><xsl:choose>
             <!-- Hier Abfrage, ob es ein Journal ist -->
             <xsl:when test="$monogr/tei:title[@level = 'j']">
                 <xsl:value-of select="foo:jg-bd-nr($monogr)"/>
@@ -515,46 +508,39 @@
         </tr>
     </xsl:template>
     <xsl:template match="tei:biblStruct/tei:note[(tei:bibl)]">
-        <xsl:for-each select="tei:bibl">
         <tr>
+            <th>
+            <xsl:choose>
+                <xsl:when test="parent::tei:note/@type = 'periodica'">
+                    <xsl:text>Weitere Drucke (Periodika)</xsl:text>
+                </xsl:when>
+                <xsl:when test="parent::tei:note/@type = 'monographies'">
+                    <xsl:text>Weitere Drucke (Bücher)</xsl:text>
+                </xsl:when>
+                <xsl:when test="parent::tei:note/@type = 'translations'">
+                    <xsl:text>Übersetzungen</xsl:text>
+                </xsl:when>
+                <xsl:when test="parent::tei:note/@type = 'review-of'">
+                    <xsl:text>Rezensiert</xsl:text>
+                </xsl:when>
+                <xsl:when test="parent::tei:note/@type = 'review'">
+                    <xsl:text>Besprochen in</xsl:text>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:text>Allgemein:</xsl:text>
+                </xsl:otherwise>
+            </xsl:choose>
+            </th>
             <td>
-            <xsl:if test="position()=1">
-                <xsl:choose>
-                    <xsl:when test="@type = 'periodica'">
-                        <b>Drucke in Periodika:</b>
-                    </xsl:when>
-                    <xsl:when test="@type = 'monographies'">
-                        <b>Drucke in Monografien:</b>
-                    </xsl:when>
-                    <xsl:when test="@type = 'translations'">
-                        <b>Übersetzungen:</b>
-                    </xsl:when>
-                    <xsl:when test="@type = 'review-of'">
-                        <b>Rezension von:</b>
-                    </xsl:when>
-                    <xsl:when test="@type = 'review'">
-                        <b>Rezensiert durch:</b>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <b>Allgemein:</b>
-                    </xsl:otherwise>
-                </xsl:choose>
-            </xsl:if>
-            </td>
-            <td>
-                <xsl:choose>
-                    <xsl:when test="@type">
-                        <i>
-                            <xsl:apply-templates/>
-                        </i>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:apply-templates/>
-                    </xsl:otherwise>
-                </xsl:choose>
-            </td>
-        </tr>
+                <ul>
+        <xsl:for-each select="tei:bibl">
+       <li>
+           <xsl:apply-templates/>
+        </li>
         </xsl:for-each>
+                </ul>
+            </td></tr>
+                    
     </xsl:template>
     <xsl:template match="tei:note[not(parent::tei:biblStruct)]">
         <xsl:text> [</xsl:text>
