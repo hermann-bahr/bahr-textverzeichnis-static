@@ -527,7 +527,7 @@
             </xsl:choose>
             </th>
             <td>
-                <ul>
+                <ul style="margin:0; list-style-type: '- '">
         <xsl:apply-templates/>
                 </ul>
             </td></tr>
@@ -543,7 +543,7 @@
             <xsl:if test="child::tei:title[@level='m' or @level='j']">
                 <xsl:apply-templates select="child::tei:title[@level='m' or @level='j']"/>
             </xsl:if>
-            <xsl:apply-templates select="*[not(self::tei:title or self::tei:note)]"/>
+            <xsl:apply-templates select="text()|*[not(self::tei:title or self::tei:note)]"/>
             <xsl:apply-templates select="child::tei:note"/>
         </xsl:element>
     </xsl:template>
