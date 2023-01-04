@@ -229,9 +229,9 @@
                             <xsl:text>, S. </xsl:text>
                             <xsl:value-of select="./tei:monogr//tei:biblScope[@unit = 'pp']"/>
                         </xsl:if>
-                        <xsl:if test="not(empty(./tei:monogr//tei:biblScope[@unit = 'pages']))">
+                        <xsl:if test="not(empty(./tei:monogr//tei:biblScope[@unit = 'page']))">
                             <xsl:text>, S. </xsl:text>
-                            <xsl:value-of select="./tei:monogr//tei:biblScope[@unit = 'pages']"/>
+                            <xsl:value-of select="./tei:monogr//tei:biblScope[@unit = 'page']"/>
                         </xsl:if>
                         <xsl:if test="not(empty(./tei:monogr//tei:biblScope[@unit = 'col']))">
                             <xsl:text>, Sp. </xsl:text>
@@ -557,6 +557,9 @@
                     </xsl:when>
                     <xsl:when test="@type = 'review-of'">
                         <b>Rezension von:</b>
+                    </xsl:when>
+                    <xsl:when test="@type = 'review'">
+                        <b>Rezensionen:</b>
                     </xsl:when>
                     <xsl:otherwise/>
                 </xsl:choose>

@@ -4,14 +4,14 @@ import json
 from acdh_tei_pyutils.tei import TeiReader
 from tqdm import tqdm
 files = glob.glob('./data/editions/*xml')
-out_file = "./html/js-data/calendarData.js"
+out_file = "./html/calendarData.js"
 data = []
 for x in tqdm(files, total=len(files)):
     item = {}
     head, tail = os.path.split(x)
     doc = TeiReader(x)
-    item['name'] = doc.any_xpath('descendant::tei:titleStmt/tei:title[@level="a"]/text()')[0]
-    item['startDate'] = doc.any_xpath('descendant::tei:titleStmt/tei:title[@type="iso-date"]/text()')[0]
+    item['name'] = doc.any_xpath('//tei:titleStmt/tei:title[@level="a"]/text()')[0]
+    item['startDate'] = doc.any_xpath('//tei:titleStmt/tei:title[@type="iso-date"]/text()')[0]
     item['id'] = tail.replace('.xml', '.html')
     data.append(item)
 
