@@ -527,28 +527,42 @@
             </xsl:choose>
             </th>
             <td>
-                <table>
-                    <tbody>
                 <xsl:apply-templates select="child::tei:bibl"/>
-                    </tbody>
-                </table>
             </td>
         </tr>
     </xsl:template>
     <xsl:template match="tei:note/tei:bibl">
         <xsl:element name="tr">
-            <td>
+            <p>
             <xsl:if test="child::tei:title[@level='a']">
                 <xsl:text>Als »</xsl:text>
                 <xsl:apply-templates select="child::tei:title[@level='a']"/>
                 <xsl:text>« in: </xsl:text>
             </xsl:if>
+            <xsl:if test="child::tei:author">
+                <xsl:value-of select="tei:author"/><xsl:text>: </xsl:text>
+            </xsl:if>
             <xsl:if test="child::tei:title[@level='m' or @level='j']">
                 <xsl:apply-templates select="child::tei:title[@level='m' or @level='j']"/>
             </xsl:if>
-            <xsl:apply-templates select="text()|*[not(self::tei:title or self::tei:note)]"/>
-            <xsl:apply-templates select="child::tei:note"/>
-            </td>
+            <xsl:if test="child::tei:biblScope[@unit='jg']">
+                <xsl:text>, Jg. </xsl:text><xsl:value-of select="child::tei:biblScope[@unit='jg']"/>
+            </xsl:if>    
+                <xsl:if test="child::tei:biblScope[@unit='vol']">
+                    <xsl:text>, Band </xsl:text><xsl:value-of select="child::tei:biblScope[@unit='vol']"/>
+                </xsl:if>   
+                <xsl:if test="child::tei:date[@type='year']">
+                    <xsl:text> (</xsl:text><xsl:value-of select="child::tei:date[@type='year']"/><xsl:text>)</xsl:text>
+                </xsl:if>
+                <xsl:if test="child::tei:biblScope[@unit='issue']">
+                    <xsl:text> #</xsl:text><xsl:value-of select="child::tei:biblScope[@unit='issue']"/>
+                </xsl:if>
+                <xsl:apply-templates select="text()"/>
+                <xsl:if test="child::tei:date[@when]">
+                    <xsl:text> (</xsl:text><xsl:value-of select="child::tei:date[@when]"/><xsl:text>)</xsl:text>
+                </xsl:if>
+                <xsl:apply-templates select="child::tei:note"/>
+            </p>
         </xsl:element>
     </xsl:template>
     <xsl:template match="tei:note[not(parent::tei:biblStruct)]">
