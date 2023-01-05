@@ -522,19 +522,22 @@
                     <xsl:text>Besprochen in</xsl:text>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:text>Allgemein:</xsl:text>
+                    <xsl:text>Allgemein</xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
             </th>
             <td>
-                <ul style="margin:0; list-style-type: '- '">
-        <xsl:apply-templates/>
-                </ul>
-            </td></tr>
-                    
+                <table>
+                    <tbody>
+                <xsl:apply-templates select="child::tei:bibl"/>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
     </xsl:template>
     <xsl:template match="tei:note/tei:bibl">
-        <xsl:element name="li">
+        <xsl:element name="tr">
+            <td>
             <xsl:if test="child::tei:title[@level='a']">
                 <xsl:text>Als »</xsl:text>
                 <xsl:apply-templates select="child::tei:title[@level='a']"/>
@@ -545,6 +548,7 @@
             </xsl:if>
             <xsl:apply-templates select="text()|*[not(self::tei:title or self::tei:note)]"/>
             <xsl:apply-templates select="child::tei:note"/>
+            </td>
         </xsl:element>
     </xsl:template>
     <xsl:template match="tei:note[not(parent::tei:biblStruct)]">
