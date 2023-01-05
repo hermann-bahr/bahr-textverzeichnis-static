@@ -532,7 +532,7 @@
         </tr>
     </xsl:template>
     <xsl:template match="tei:note/tei:bibl">
-        <xsl:element name="tr">
+        
             <p>
             <xsl:if test="child::tei:title[@level='a']">
                 <xsl:text>Als »</xsl:text>
@@ -563,7 +563,7 @@
                 </xsl:if>
                 <xsl:apply-templates select="child::tei:note"/>
             </p>
-        </xsl:element>
+        
     </xsl:template>
     <xsl:template match="tei:note[not(parent::tei:biblStruct)]">
         <xsl:text> [</xsl:text>
