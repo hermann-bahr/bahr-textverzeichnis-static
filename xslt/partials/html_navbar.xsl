@@ -37,11 +37,11 @@
                                 <a class="nav-link" href="calendar.html">Kalender</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="toc.html">Inhaltsverzeichnis</a>
+                                <a class="nav-link" href="toc.html">Verzeichnis</a>
                             </li>
-                            <li class="nav-item">
+                            <!--<li class="nav-item">
                                 <a class="nav-link" href="listperson.html">Personen</a>
-                            </li>
+                            </li>-->
                             <!--<li class="nav-item">
                                 <a class="nav-link isDisabled" href="#">Werke</a>
                             </li> 
