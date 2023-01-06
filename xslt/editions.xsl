@@ -141,12 +141,12 @@
     </xsl:template>
     <xsl:template match="tei:biblStruct">
         <xsl:element name="h2">
-            <xsl:value-of select="tei:note[@type = 'biographical-statement']"/>
+            <xsl:value-of select="tei:note[@type = 'bibliographical-statement']"/>
         </xsl:element>
         <p/>
         <table class="table table-striped">
             <tbody>
-                <xsl:apply-templates select="child::tei:note[not(@type = 'biographical-statement')]"/>
+                <xsl:apply-templates select="child::tei:note[not(@type = 'bibliographical-statement')]"/>
                 <xsl:apply-templates select="child::tei:ref[@type = 'URL']"/>
             </tbody>
         </table>
