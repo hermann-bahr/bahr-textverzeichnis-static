@@ -91,9 +91,7 @@
         </dl>
     </xsl:template>
     <xsl:template match="tei:item[child::tei:term or child::tei:note]">
-        <dl>
             <xsl:apply-templates/>
-        </dl>
     </xsl:template>
     <xsl:template match="tei:term">
         <dt>
