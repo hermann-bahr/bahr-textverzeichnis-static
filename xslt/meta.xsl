@@ -21,7 +21,8 @@
             <body class="page">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
-                    <div class="container-fluid">
+                    <div class="container-fluid" style="max-width= 700px; margin: 0 auto !important; 
+                        float: none !important;">
                         <div class="card">
                             <div class="card-header">
                                 <h1>
@@ -89,7 +90,7 @@
             <xsl:apply-templates/>
         </dl>
     </xsl:template>
-    <xsl:template match="tei:item[tei:term and tei:note]">
+    <xsl:template match="tei:item[child::tei:term or child::tei:note]">
         <dl>
             <xsl:apply-templates/>
         </dl>
@@ -104,7 +105,7 @@
             <xsl:apply-templates/>
         </dd>
     </xsl:template>
-    <xsl:template match="tei:item[not(child::tei:item[tei:term and tei:note])]">
+    <xsl:template match="tei:item[not(child::tei:term or tei:note)]">
         <li>
             <xsl:apply-templates/>
         </li>
