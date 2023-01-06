@@ -60,7 +60,12 @@ dt {
     font-size: 80%;
     font-family: sans-serif}
 
-
+.h2, h2 {
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    font-weight: bold;
+    font-family: sans-serif;
+}
 
 
 .h3,
@@ -134,6 +139,9 @@ quote {
     border-width: 1px;
     border-color: rgba(0, 0, 0, 0.1);
     border-top-width: 5px !important}
+    
+    
+    
 td li {
     list-style-type: none}
 
@@ -801,14 +809,14 @@ border-bottom-style: solid;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%}
-.card-body-meta {
+.card-body-meta{
     max-width: 750px;
     min-height: 270px;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.7rem;
-    font-size: 1.1rem}
-
+    font-size: 1.1rem;
+}
 code {
     background-color: #D3D3D3;
     color: black}

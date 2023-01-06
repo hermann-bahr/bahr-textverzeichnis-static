@@ -29,7 +29,7 @@
                                     <xsl:value-of select="$doc_title"/>
                                 </h1>
                             </div>
-                            <div class="card-body">
+                            <div class="card-body-meta">
                                 <xsl:apply-templates select=".//tei:body"/>
                             </div>
                         </div>
