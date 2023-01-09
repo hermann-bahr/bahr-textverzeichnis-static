@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="HB-tv_1556.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1555.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1557.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="HB-tv_1556.xml" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1555.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1557.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -15,12 +15,14 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
-            <date>2023-01-06+01:00</date>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                    Heritage (ACDH-CH)</publisher>
+            <date>2023-01-09+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/HB-tv_1556.xml</idno>
          </publicationStmt>
          <sourceDesc>
-            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von
+                                    Bahr</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -50,45 +52,77 @@
                   <bibl>
                      <title level="j" ref="pmb36344">Frankfurter Zeitung</title>
                      <date when="1910-12-24">24.12.1910</date>
-                     <biblScope unit="page">3</biblScope> Morgenblatt. <note>Uraufführung</note>
+                     <biblScope unit="page">3, Morgenblatt</biblScope>. <note>Uraufführung</note>
                   </bibl>
                   <bibl>
                      <title level="j" ref="pmb36376">Neues Wiener Journal</title>
-                     <date when="1910-12-21">21.12.1910</date>, 8 sowie <date when="1910-12-24">24.12.1910</date>
+                     <date when="1910-12-21">21.12.1910</date>, <biblScope unit="page">8</biblScope>
+                  </bibl>
+                  <bibl>
+                     <title level="j" ref="pmb36376">Neues Wiener Journal</title>
+                     <date when="1910-12-24">24.12.1910</date>
                      <biblScope unit="page">11</biblScope>
                   </bibl>
-                  <bibl>Headlines aus Deutschen Zeitungen bringt das <title level="j" ref="pmb41531">Berliner Tageblatt</title>
+                  <bibl>
+                     <note>Headlines aus Deutschen Zeitungen</note>
+                     <title level="j" ref="pmb41531">Berliner Tageblatt</title>
                      <biblScope unit="jg">39</biblScope>
                      <date type="year">1910</date>
-                     <biblScope unit="issue">652</biblScope>, Morgen-Ausgabe <biblScope unit="page">2–3</biblScope>
+                     <biblScope unit="issue">652, Morgen-Ausgabe</biblScope>
+                     <biblScope unit="page">2–3</biblScope>
                      <date when="1910-12-24">24.12.1910</date>
                   </bibl>
-                  <bibl>Hannoverscher Kourier, <date when="1910-12-24">24.12.1910</date>
+                  <bibl>
+                     <title level="j">Hannoverscher Kourier</title>, <date when="1910-12-24">24.12.1910</date>
                   </bibl>
-                  <bibl>Die New York Times <date when="1910-12-25">25.12.1910</date> berichtet, dass
-                     The Shuberts die amerikanischen Rechte erwarb</bibl>
-                  <bibl>Die Berliner Zeitung kündigte am <date when="1910-10-07">7.10.1910</date>
-                     (39 <date type="year">1910</date>
-                     <biblScope unit="issue">510</biblScope>, Abend-Ausgabe, 2) eine Aufführung im
-                     »Neuen Theater« New Yorks an.</bibl>
-                  <bibl>Fr.[itz] S.[chweynert]: Der neue Bahr (Über Hermann Bahrs Komödie »Die
-                     Kinder« am Lessing-Theater). In: Die Zeit am Montag <biblScope unit="jg">9</biblScope>
+                  <bibl>
+                     <title level="j">New York Times</title>
+                     <date when="1910-12-25">25.12.1910</date>
+                     <note>Notiz, dass The Shuberts die amerikanischen Rechte erwarb</note>
+                  </bibl>
+                  <bibl>
+                     <title level="j">Berliner Zeitung</title>
+                     <date when="1910-10-07">7.10.1910</date>
+                     <biblScope unit="jg">39</biblScope>
+                     <date type="year">1910</date>
+                     <biblScope unit="issue">510, Abend-Ausgabe</biblScope>
+                     <biblScope unit="page">2</biblScope>
+                     <note>geplante Aufführung im »Neuen Theater« New York</note>
+                  </bibl>
+                  <bibl>
+                     <author>Fr.[itz] S.[chweynert]</author>
+                     <title level="a">Der neue Bahr (Über Hermann Bahrs Komödie »Die Kinder« am
+                        Lessing-Theater)</title>
+                     <title level="j">Die Zeit am Montag</title>
+                     <biblScope unit="jg">9</biblScope>
                      <date type="year">1911</date>
                      <biblScope unit="issue">9</biblScope>
                      <date when="1911-02-27">27.2.1911</date>
                   </bibl>
-                  <bibl>Siegfried Jacobsohn in: Deutsche Montags-Zeitung, <date when="1911-02-27">27.2.1911</date>
+                  <bibl>
+                     <author>Siegfried Jacobsohn</author>
+                     <title level="j">Deutsche Montags-Zeitung</title>
+                     <date when="1911-02-27">27.2.1911</date>
                   </bibl>
-                  <bibl>Herbert Ihering in: Schaubühne, <date when="1911-03-02">2.3.1911</date>,
-                     249-250.</bibl>
-                  <bibl> Franz Theodor Csokor in: Ton und Wort <biblScope unit="jg">1</biblScope>
+                  <bibl>
+                     <author>Herbert Ihering</author>
+                     <title level="j">Schaubühne</title>, <date when="1911-03-02">2.3.1911</date>,
+                        <biblScope unit="page">249–250</biblScope>.</bibl>
+                  <bibl>
+                     <author>Franz Theodor Csokor</author>
+                     <title level="j">Ton und Wort</title>
+                     <biblScope unit="jg">1</biblScope>
                      <date type="year">1911</date>
                      <biblScope unit="issue">7</biblScope>
                      <biblScope unit="page">18–20</biblScope>
                      <date when="1911-06-01">1.6.1911</date>
                      <note>Zur Auff. in Mödling, 1.6 [!]</note>
                   </bibl>
-                  <bibl>Heinrich Eduard Jacob: Bahr’s Kinder. In: Die Aktion <biblScope unit="jg">1</biblScope>
+                  <bibl>
+                     <author>Heinrich Eduard Jacob</author>
+                     <title level="a">Bahr’s Kinder</title>
+                     <title level="j">Die Aktion</title>
+                     <biblScope unit="jg">1</biblScope>
                      <date type="year">1911</date>
                      <biblScope unit="issue">5</biblScope>
                      <biblScope unit="page">141–142</biblScope>
@@ -99,7 +133,9 @@
                      <title level="j" ref="pmb36376">Neues Wiener Journal</title>
                      <biblScope unit="jg">20</biblScope>
                      <date type="year">1912</date>
-                     <biblScope unit="issue">6654</biblScope>, 8 <date when="1912-05-03">3.5.1912</date>
+                     <biblScope unit="issue">6654</biblScope>
+                     <biblScope unit="page">8</biblScope>
+                     <date when="1912-05-03">3.5.1912</date>
                   </bibl>
                   <bibl>
                      <title level="j" ref="pmb36376">Neues Wiener Journal</title>
@@ -114,7 +150,8 @@
                      <biblScope unit="issue">11 (1. Juni-Heft)</biblScope>
                      <biblScope unit="page">435</biblScope>
                   </bibl>
-                  <bibl>Wiener Abendpost, 1917 <biblScope unit="issue">190</biblScope>
+                  <bibl>Wiener Abendpost, <date type="year">1917</date>
+                     <biblScope unit="issue">190</biblScope>
                      <biblScope unit="page">7</biblScope>
                      <date when="1917-08-20">20.8.1917</date>
                   </bibl>
@@ -124,10 +161,12 @@
                   <bibl>K..r [Alfred Kerr], <title level="j" ref="pmb41531">Berliner
                         Tageblatt</title>
                      <date when="1923-10-11">11.10.1923</date>
-                     <biblScope unit="issue">478</biblScope>, Abend-Ausgabe <biblScope unit="page">2</biblScope>
+                     <biblScope unit="issue">478, Abend-Ausgabe</biblScope>
+                     <biblScope unit="page">2</biblScope>
                   </bibl>
-                  <bibl>Vossische Zeitung <biblScope unit="issue">481</biblScope>, Morgen-Ausgabe,
-                     2. <date when="1923-10-11">11.10.1923</date>
+                  <bibl>Vossische Zeitung <biblScope unit="issue">481, Morgen-Ausgabe</biblScope>,
+                        <biblScope unit="page">2</biblScope>
+                     <date when="1923-10-11">11.10.1923</date>
                   </bibl>
                   <bibl>Karl Strecker in: Tägliche Rundschau, <date when="1927-11-04">4.11.1927</date>
                   </bibl>
@@ -139,9 +178,12 @@
                   </bibl>
                </note>
                <note type="translations">
-                  <bibl>Tschechische Übersetzung: Děti. Komedie o třech dějstvích. Přeložila Helena
-                     Malířová. Repertoirní hra Národního Divadla. Praha: Jos. R. Vilímek [1911].
-                     (=Vybrané hry divadelních ochotníků, Řada II, Sv. 1)</bibl>
+                  <bibl>
+                     <note>Tschechisch</note>
+                     <title level="m">Děti. Komedie o třech dějstvích.</title> Přeložila Helena
+                     Malířová. Repertoirní hra Národního Divadla. Praha: Jos. R. Vilímek <supplied>
+                        <date type="year">1911</date>
+                     </supplied>. (=Vybrané hry divadelních ochotníků, Řada II, Sv. 1)</bibl>
                </note>
                <note type="summary">Die Heiratsabsichten eines Paares werden durchkreuzt, weil sich
                   der eine Vater des Bräutigams als unehelicher Vater der Tochter bekennen muss.

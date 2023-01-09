@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="HB-tv_1086.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1085.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1087.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="HB-tv_1086.xml" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1085.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1087.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -15,12 +15,14 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
-            <date>2023-01-06+01:00</date>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                    Heritage (ACDH-CH)</publisher>
+            <date>2023-01-09+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/HB-tv_1086.xml</idno>
          </publicationStmt>
          <sourceDesc>
-            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von
+                                    Bahr</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -48,23 +50,35 @@
                      der Uraufführung von »Einsame Menschen« zu verhindern.</p>
                </note>
                <note type="review">
-                  <bibl>Als erste Rezension dürfte jene Joseph Victor Widmanns am 20. Februar 1887
-                     im Berner Bund zu werten sein. Für weitere Besprechungen vgl. die
-                     Verlagswerbung am Ende von Bahrs »Die große Sünde«: Mackay: Züricher Post
-                        <biblScope unit="page">16</biblScope> 7. 1887</bibl>
-                  <bibl>Blätter der Literarischen Unterhaltung</bibl>
+                  <bibl>Als erste Rezension dürfte jene Joseph Victor Widmanns am
+                        <date>20.2.1887</date> im Berner Bund zu werten sein. Für weitere
+                     Besprechungen vgl. die Verlagswerbung am Ende von Bahrs »Die große Sünde«:
+                     Mackay: Züricher Post <date when="1887-07-16">16.7.1887</date>
+                  </bibl>
                   <bibl>
-                     <title level="j" ref="pmb41531">Berliner Tageblatt</title> v. 10.1.1888</bibl>
-                  <bibl>Deutsche Kunst und Musikzeitung 15.9.1888</bibl>
-                  <bibl>Deutsche Blätter, August 1888.</bibl>
+                     <title level="j">Blätter der Literarischen Unterhaltung</title>
+                  </bibl>
+                  <bibl>
+                     <title level="j" ref="pmb41531">Berliner Tageblatt</title>
+                     <date when="1888-01-10">10.1.1888</date>
+                  </bibl>
+                  <bibl>
+                     <title level="j">Deutsche Kunst und Musikzeitung</title>
+                     <date when="1888-09-15">15.9.1888</date>
+                  </bibl>
+                  <bibl>
+                     <title level="j">Deutsche Blätter</title>
+                     <date when="1888-08">August 1888</date>.</bibl>
                   <bibl>J. R. Ehrlich in der <title level="j" ref="pmb41265">Wiener Zeitung</title>
                      <date when="1887-05-21">21.5.1887</date>
                   </bibl>
                   <bibl>Marie Conrad-Ramlo: Dramatische Litteratur. In: Die Gesellschaft <biblScope unit="jg">3</biblScope>
-                     <date type="year">1887</date>, 673-675</bibl>
+                     <date type="year">1887</date>, <biblScope unit="page">673–675</biblScope>
+                  </bibl>
                   <bibl>Adam Müller-Guttenbrunn in: Die Gesellschaft <biblScope unit="jg">4</biblScope>
                      <date type="year">1888</date>
-                     <biblScope unit="issue">3</biblScope>, 196-201</bibl>
+                     <biblScope unit="issue">3</biblScope>, <biblScope unit="page">196–201</biblScope>
+                  </bibl>
                   <bibl>Bettelheim, Anton: Ein österreichischer Ibsen-Jünger. In: Die Nation
                         <biblScope unit="jg">6</biblScope>
                      <date type="year">1889</date>
@@ -77,7 +91,8 @@
                      <biblScope unit="page">696</biblScope>
                      <date when="1890-07-30">30.7.1890</date>
                   </bibl>
-                  <bibl>Leo Berg: Die freien Bühnen. In: Die Moderne, 1 <date type="year">1890</date>
+                  <bibl>
+                     <author>Leo Berg</author> Die freien Bühnen. In: Die Moderne, 1 <date type="year">1890</date>
                      <biblScope unit="issue">2</biblScope>/3 <biblScope unit="page">53</biblScope>
                      <date when="1891-02-08">8.2.1891</date>
                   </bibl>
@@ -98,10 +113,18 @@
                      <biblScope unit="issue">1</biblScope>
                      <biblScope unit="page">459–461</biblScope>
                   </bibl>
-                  <bibl>o.N.?: Die Gegenwart <biblScope unit="jg">39</biblScope>
+                  <bibl>
+                     <author>o.N.?</author>
+                     <title level="j">Die Gegenwart</title>
+                     <biblScope unit="jg">39</biblScope>
                      <date type="year">1891</date>
-                     <biblScope unit="page">934</biblScope> Steiger, Eduard: Das Werden des neuen
-                     Dramas. Berlin: F. Fontane 1898, II <biblScope unit="page">8–10</biblScope>
+                     <biblScope unit="page">934</biblScope>
+                  </bibl>
+                  <bibl>
+                     <author>Steiger, Eduard</author>: <title level="m">Das Werden des neuen
+                        Dramas</title>
+                     <author> Berlin</author> F. Fontane <date type="year">1898</date>
+                     <biblScope unit="page">II, 8–10</biblScope>
                   </bibl>
                </note>
                <note type="summary">Das Stück handelt von den beiden sozialistischen Agitatoren

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="HB-tv_3581.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_3580.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_3582.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="HB-tv_3581.xml" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_3580.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_3582.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -15,12 +15,14 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
-            <date>2023-01-06+01:00</date>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                    Heritage (ACDH-CH)</publisher>
+            <date>2023-01-09+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/HB-tv_3581.xml</idno>
          </publicationStmt>
          <sourceDesc>
-            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von
+                                    Bahr</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -33,7 +35,7 @@
                   <title level="a">His Beautiful Wife. [Die schöne Frau]</title>
                </analytic>
                <monogr>
-                  <title level="j" ref="HB-tv_periodica_213">Pearson’s Magazine, New York</title>
+                  <title level="j" ref="pmb122231"/>
                   <imprint>
                      <biblScope unit="jg">36</biblScope>
                      <biblScope unit="issue">6</biblScope>
@@ -53,7 +55,8 @@
                   <bibl>
                      <title level="j" ref="HB-tv_periodica_64">Golden Book Magazine</title>
                      <biblScope unit="jg">8</biblScope>
-                     <date type="year">1930</date>, 90–93</bibl>
+                     <date type="year">1930</date>, <biblScope unit="page">90–93</biblScope>
+                  </bibl>
                </note>
                <note type="monographies">
                   <bibl>
@@ -62,11 +65,11 @@
                      <biblScope unit="page">9–29</biblScope>
                   </bibl>
                   <bibl>
-                     <title level="m">Die schöne Frau</title>. Leipzig: Reclam 1924 <biblScope unit="page">3–12</biblScope>
+                     <title level="m">Die schöne Frau</title>. Leipzig: Reclam <date type="year">1924</date>
+                     <biblScope unit="page">3–12</biblScope>
                   </bibl>
                   <bibl>
-                     <title level="m">Selected Austrian Short Stories</title>. Oxford 1928,
-                     280-290.</bibl>
+                     <title level="m">Selected Austrian Short Stories</title>. Oxford <date type="year">1928</date>, <biblScope unit="page">280–290</biblScope>.</bibl>
                </note>
                <note type="incipit">The other day I met my dear old friend Paul Dorn on the
                   street.</note>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="HB-tv_6506.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_6505.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_6507.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="HB-tv_6506.xml" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_6505.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_6507.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -15,12 +15,14 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
-            <date>2023-01-06+01:00</date>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                    Heritage (ACDH-CH)</publisher>
+            <date>2023-01-09+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/HB-tv_6506.xml</idno>
          </publicationStmt>
          <sourceDesc>
-            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von
+                                    Bahr</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -42,9 +44,15 @@
                   </imprint>
                </monogr>
                <note type="review-of">
-                  <bibl>Walther Amelung: »Kolossalstatue einer Göttin aus Arriccia« in: Jahrbuch des
-                     Deutschen Archäologischen Instituts, 37 (1922 erschienen: 1924),
-                     112–137.</bibl>
+                  <bibl>
+                     <author>Walther Amelung</author>
+                     <title level="a">Kolossalstatue einer Göttin aus Arriccia</title>
+                     <title level="j">Jahrbuch des Deutschen Archäologischen Instituts</title>,
+                        <biblScope unit="volume">37</biblScope>
+                     <date type="year">1922</date>
+                     <note>erschienen: <date type="year">1924</date>
+                     </note>
+                     <biblScope unit="page">112–137</biblScope>.</bibl>
                </note>
                <note type="monographies">
                   <bibl>Der <title level="m">Zauberstab</title>

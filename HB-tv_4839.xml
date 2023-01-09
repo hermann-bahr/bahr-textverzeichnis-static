@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="HB-tv_4839.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_4838.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_484.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="HB-tv_4839.xml" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_4838.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_484.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -15,12 +15,14 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
-            <date>2023-01-06+01:00</date>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                    Heritage (ACDH-CH)</publisher>
+            <date>2023-01-09+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/HB-tv_4839.xml</idno>
          </publicationStmt>
          <sourceDesc>
-            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von
+                                    Bahr</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -33,7 +35,7 @@
                   <title level="a">Racine</title>
                </analytic>
                <monogr>
-                  <title level="j" ref="HB-tv_periodica_100">Magdeburgische Zeitung</title>
+                  <title level="j" ref="pmb122129"/>
                   <imprint>
                      <biblScope unit="issue">1. Haupt-)Ausgabe, #149</biblScope>
                      <biblScope unit="page">2–3</biblScope>
@@ -44,11 +46,18 @@
                   <bibl>
                      <title level="j" ref="pmb36374">Neue Freie Presse</title>
                      <date type="year">1926</date>
-                     <biblScope unit="issue">22180</biblScope> Morgenblatt <biblScope unit="page">1–2</biblScope>
-                     <date when="1926-06-15">15.6.1926</date> Literarische Umschau. Wochenschrift
-                     der Badischen Presse <biblScope unit="jg">2</biblScope>
+                     <biblScope unit="issue">22180, Morgenblatt</biblScope>
+                     <biblScope unit="page">1–2</biblScope>
+                     <date when="1926-06-15">15.6.1926</date>
+                  </bibl>
+                  <bibl>
+                     <title level="j">Literarische Umschau. Wochenschrift der Badischen
+                        Presse</title>
+                     <biblScope unit="jg">2</biblScope>
                      <date type="year">1926</date>
-                     <biblScope unit="issue">32</biblScope> 126. <date when="1926-08-11">11.8.1926</date>
+                     <biblScope unit="issue">32</biblScope>
+                     <biblScope unit="page">126</biblScope>
+                     <date when="1926-08-11">11.8.1926</date>
                   </bibl>
                </note>
                <note type="incipit">Der allbelesene Deutsche, so stolz</note>

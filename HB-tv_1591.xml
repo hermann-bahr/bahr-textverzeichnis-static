@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="HB-tv_1591.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1590.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1592.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="HB-tv_1591.xml" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1590.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1592.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -15,12 +15,14 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
-            <date>2023-01-06+01:00</date>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                    Heritage (ACDH-CH)</publisher>
+            <date>2023-01-09+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/HB-tv_1591.xml</idno>
          </publicationStmt>
          <sourceDesc>
-            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von
+                                    Bahr</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -49,34 +51,87 @@
                      Vorbereitung)).</p>
                </note>
                <note type="review">
-                  <bibl>Der Vorabdruck im »Neuen Reich« von F. E.: »Die Juden und der mammonistische
-                     Betrieb«, 1 (1918/1919) <biblScope unit="issue">15</biblScope>
+                  <bibl>
+                     <note>Vorabdruck</note>
+                     <author>F. E.</author>
+                     <title level="a">Die Juden und der mammonistische Betrieb</title>
+                     <title level="j">Neues Reich</title>, <biblScope unit="jg">1</biblScope>
+                     <date type="year">1918/1919</date>
+                     <biblScope unit="issue">15</biblScope>
                      <biblScope unit="page">258</biblScope>
-                     <date when="1919-01-09">9.1.1919</date> Die Buchausgabe im Archiv besprochen ab
-                     dem <date when="1919-04-16">16.4.1919</date>. Max Pirker in der
-                     Österreichischen Rundschau, vor dem 26. April 1919 [vgl. Bahr: 1919.
-                     Tagebücher, 141] [O. N.] im: Hochland, 16 <date type="year">1919</date>
-                     <biblScope unit="issue">10</biblScope>
-                     <biblScope unit="page">425–426</biblScope> Hugo Greinz in: <title level="j" ref="pmb41321">Neues Wiener Tagblatt</title> 1919 <biblScope unit="issue">121</biblScope>. Hugo Bieber in: Der Tag <biblScope unit="jg">19</biblScope>
+                     <date when="1919-01-09">9.1.1919</date>
+                  </bibl>
+                  <bibl>Die Buchausgabe im Archiv besprochen ab dem <date when="1919-04-16">16.4.1919</date>
+                  </bibl>
+                  <bibl>
+                     <author>Max Pirker</author>
+                     <title level="j">Österreichische Rundschau</title>, <date>vor dem 26. April
+                        1919</date>
+                     <note>vgl. Bahr: <title level="m">1919</title>. Tagebücher, 141]</note>
+                  </bibl>
+                  <bibl>
+                     <author>o.V.</author>
+                     <title level="j">Hochland</title>, <biblScope unit="jg">16</biblScope>
                      <date type="year">1919</date>
-                     <biblScope unit="issue">120</biblScope>, Ausgabe A, Literarische Rundschau.
-                        <date when="1919-06-05">5.6.1919</date> Richard Kralik: Die Rotte Korah. In:
-                     Das neue Reich, 1 (1918/1919) <biblScope unit="issue">43</biblScope>
+                     <biblScope unit="issue">10</biblScope>
+                     <biblScope unit="page">425–426</biblScope>
+                  </bibl>
+                  <bibl>
+                     <author>Hugo Greinz</author>
+                     <title level="j" ref="pmb41321">Neues Wiener Tagblatt</title>
+                     <date type="year">1919</date>
+                     <biblScope unit="issue">121</biblScope>
+                  </bibl>
+                  <bibl>
+                     <author>Hugo Bieber</author>
+                     <title level="j">Der Tag</title>
+                     <biblScope unit="jg">19</biblScope>
+                     <date type="year">1919</date>
+                     <biblScope unit="issue">120, Ausgabe A, Literarische Rundschau</biblScope>
+                     <date when="1919-06-05">5.6.1919</date>
+                  </bibl>
+                  <bibl>
+                     <author>Richard Kralik</author>
+                     <title level="a">Die Rotte Korah</title>
+                     <title level="j">Das neue Reich</title>, <biblScope unit="jg">1</biblScope>
+                     <date type="year">1918/1919</date>
+                     <biblScope unit="issue">43</biblScope>
                      <biblScope unit="page">749–750</biblScope>
-                     <date when="1919-07-27">27.7.1919</date> Roland: »Hermann Bahrs
-                     letztveröffentlichter Roman ›Die Rotte Korahs‹« in: Das neue Reich, 1
-                     (1918/1919) <biblScope unit="issue">51</biblScope>
+                     <date when="1919-07-27">27.7.1919</date>
+                  </bibl>
+                  <bibl>
+                     <author>Roland</author>
+                     <title level="a">Hermann Bahrs letztveröffentlichter Roman ›Die Rotte
+                        Korahs‹</title>
+                     <title level="j">Das neue Reich</title>, <biblScope unit="jg">1</biblScope>
+                     <date type="year">1918/1919</date>
+                     <biblScope unit="issue">51</biblScope>
                      <biblScope unit="page">883–885</biblScope>
-                     <date when="1919-09-21">21.9.1919</date> Christoph Flaskamp in: Literarischer
-                     Handweiser <biblScope unit="jg">55</biblScope>
+                     <date when="1919-09-21">21.9.1919</date>
+                  </bibl>
+                  <bibl>
+                     <author>Christoph Flaskamp</author>
+                     <title level="j">Literarischer Handweiser</title>
+                     <biblScope unit="jg">55</biblScope>
                      <date type="year">1919</date>
                      <biblScope unit="issue">11</biblScope>
-                     <biblScope unit="page">551–553</biblScope> [Zusammen mit Tagebuch 1918] Bdr.
-                     [=Fritz Ph. Baader] in: Die Rampe <biblScope unit="jg">1</biblScope>
+                     <biblScope unit="page">551–553</biblScope>
+                     <note>Zusammen mit Tagebuch <title level="m">1918</title>
+                     </note>
+                  </bibl>
+                  <bibl>
+                     <author>Bdr. [=Fritz Ph. Baader]</author>
+                     <title level="j">Die Rampe</title>
+                     <biblScope unit="jg">1</biblScope>
                      <date type="year">1919</date>
                      <biblScope unit="issue">4 (Dezember)</biblScope>
-                     <biblScope unit="page">86</biblScope> Robert Müller in: Werkausgabe in
-                     Einzelbänden. Hg. G. Helmes. Paderborn: Igel 1995, X <biblScope unit="page">387–388</biblScope>
+                     <biblScope unit="page">86</biblScope>
+                  </bibl>
+                  <bibl>
+                     <author>Robert Müller</author>
+                     <title level="m">Werkausgabe in Einzelbänden</title>. Hg. G. Helmes. Paderborn:
+                     Igel <date type="year">1995</date>, <biblScope unit="volume">X</biblScope>
+                     <biblScope unit="page">387–388</biblScope>
                   </bibl>
                </note>
                <note type="periodica">

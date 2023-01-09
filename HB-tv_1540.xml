@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="HB-tv_1540.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_154.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1541.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="HB-tv_1540.xml" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_154.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1541.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -15,12 +15,14 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
-            <date>2023-01-06+01:00</date>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                    Heritage (ACDH-CH)</publisher>
+            <date>2023-01-09+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/HB-tv_1540.xml</idno>
          </publicationStmt>
          <sourceDesc>
-            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von
+                                    Bahr</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -52,14 +54,20 @@
                      <date when="1901-11-24">24.11.1901</date>
                   </bibl>
                   <bibl>E.P. in: Rigasche Rundschau, <date when="1902-10-16">16.10.1902</date>,
-                     1.</bibl>
+                        <biblScope unit="page">1</biblScope>
+                  </bibl>
                   <bibl>Siegfried Jacobsohn in: Die Welt am Montag, <date when="1902-10-27">27.10.1902</date>
                   </bibl>
-                  <bibl>Max Burckhard: Theater. Kritiken, Vorträge und Aufsätze. 1. Band
-                     (1898–1901). Wien: Manz 1905 <biblScope unit="page">344–347</biblScope>
+                  <bibl>
+                     <author>Max Burckhard</author>
+                     <title level="m">Theater. Kritiken, Vorträge und Aufsätze. 1. Band
+                        1898–1901</title>. Wien: Manz <date type="year">1905</date>
+                     <biblScope unit="page">344–347</biblScope>
                   </bibl>
                   <bibl>Raoul Auernheimer in: <title level="j" ref="pmb36374">Neue Freie
-                        Presse</title> 1908 <biblScope unit="issue">15899</biblScope>
+                        Presse</title>
+                     <date type="year">1908</date>
+                     <biblScope unit="issue">15899</biblScope>
                      <biblScope unit="page">1–3</biblScope>
                      <date when="1908-11-04">4.11.1908</date>
                   </bibl>
@@ -74,9 +82,10 @@
                   <bibl>[o.V.:] Hermann Bahr im Königlichen Schauspielhaus. In: National-Zeitung
                      (Berlin) <biblScope unit="jg">63</biblScope>
                      <date type="year">1910</date>
-                     <biblScope unit="issue">393</biblScope>, Beiblatt [1]. <date when="1910-10-18">18.10.1910</date>
+                     <biblScope unit="issue">393, Beiblatt [1]</biblScope>. <date when="1910-10-18">18.10.1910</date>
                   </bibl>
-                  <bibl>Siegfried Jacobsohn in: Deutsche Montags-Zeitung, <date when="1910-10-24">24.10.1910</date>
+                  <bibl>
+                     <author>Siegfried Jacobsohn</author> Deutsche Montags-Zeitung, <date when="1910-10-24">24.10.1910</date>
                   </bibl>
                   <bibl>[o.V.] in Rheinisch-Westfälische Zeitung, <date type="year">1910</date>
                      <biblScope unit="issue">1173</biblScope>, Abend (III) Ausgabe <biblScope unit="page">1</biblScope>
@@ -94,8 +103,9 @@
                   </bibl>
                </note>
                <note type="translations">
-                  <bibl>Tschechische Übersetzung: Pavouk. Veselohra o 3 dějstvích. Přeložil K. H.
-                     Hilar. Prag: Divadlo 1911. (Knihovna Divadla, Sv. 15) [1912?]</bibl>
+                  <bibl>
+                     <note>Tschechisch</note>Pavouk. Veselohra o 3 dějstvích. Přeložil K. H. Hilar.
+                     Prag: Divadlo <date type="year">1911</date>. (Knihovna Divadla, Sv. 15) </bibl>
                </note>
                <note type="summary">Angesiedelt im Wien Maria Theresias handelt das Stück von einem
                   jungen Liebespaar, dem die Zustimmung zur Ehe durch den mächtigen Onkel des

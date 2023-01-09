@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="HB-tv_1352.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1351.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1353.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="HB-tv_1352.xml" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1351.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1353.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -15,12 +15,14 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
-            <date>2023-01-06+01:00</date>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                    Heritage (ACDH-CH)</publisher>
+            <date>2023-01-09+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/HB-tv_1352.xml</idno>
          </publicationStmt>
          <sourceDesc>
-            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von
+                                    Bahr</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -48,11 +50,20 @@
                   </p>
                </note>
                <note type="review">
-                  <bibl>Paul Dobert: »Neue Autoren« in: Moderne Kunst <biblScope unit="jg">5</biblScope>
+                  <bibl>
+                     <author>Paul Dobert</author>
+                     <title level="a">»Neue Autoren«</title>
+                     <title level="j">Moderne Kunst</title>
+                     <biblScope unit="jg">5</biblScope>
                      <date type="year">1891</date>
-                     <biblScope unit="issue">11</biblScope>, Umschlagseite 2 (vorne) und
-                     Umschlagseite 1 (hinten). [Sammelrezension] Positive Erwähnung in: Revue Bleue
-                        <biblScope unit="jg">47</biblScope>
+                     <biblScope unit="issue">11</biblScope>, <biblScope unit="page">Umschlagseite 2
+                        (vorne) und Umschlagseite 1 (hinten)</biblScope>.
+                        <note>Sammelrezension</note>
+                  </bibl>
+                  <bibl>
+                     <note>positive Erwähnung</note>
+                     <title level="j">Revue Bleue</title>
+                     <biblScope unit="jg">47</biblScope>
                      <date type="year">1891</date>
                      <biblScope unit="issue">1</biblScope>
                      <biblScope unit="page">32</biblScope>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="HB-tv_1538.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1537.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1539.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="HB-tv_1538.xml" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1537.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1539.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -15,12 +15,14 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
-            <date>2023-01-06+01:00</date>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                    Heritage (ACDH-CH)</publisher>
+            <date>2023-01-09+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/HB-tv_1538.xml</idno>
          </publicationStmt>
          <sourceDesc>
-            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von
+                                    Bahr</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -52,31 +54,57 @@
                <note type="review">
                   <bibl>L. Fischl: Der Apostel. In: Österreichische Volkszeitung <biblScope unit="jg">47</biblScope>
                      <date type="year">1901</date>
-                     <biblScope unit="issue">308</biblScope>, 2 (2 Kreuzer-Ausgabe: 8-9). <date when="1901-11-09">9.11.1901</date> M. K. [=Max Kalbeck]: <title level="j" ref="pmb41321">Neues Wiener Tagblatt</title>
+                     <biblScope unit="issue">308</biblScope>, 2 (2 Kreuzer-Ausgabe: <biblScope unit="page">8–9</biblScope>). <date when="1901-11-09">9.11.1901</date>
+                  </bibl>
+                  <bibl>M. K. [=Max Kalbeck]: <title level="j" ref="pmb41321">Neues Wiener
+                        Tagblatt</title>
                      <biblScope unit="jg">35</biblScope>
                      <date type="year">1901</date>
                      <biblScope unit="issue">308</biblScope>
                      <biblScope unit="page">7</biblScope>
-                     <date when="1901-11-09">9.11.1901</date> [Kurzrezension] [O. N.:] Wiener
-                     Abendpost, 1901 <biblScope unit="issue">259</biblScope>
+                     <date when="1901-11-09">9.11.1901</date>
+                     <note>Kurzrezension</note>
+                  </bibl>
+                  <bibl>[O. N.:] Wiener Abendpost, <date type="year">1901</date>
+                     <biblScope unit="issue">259</biblScope>
                      <biblScope unit="page">2</biblScope>
-                     <date when="1901-11-09">9.11.1901</date> Max Kalbeck: Burgtheater. In: <title level="j" ref="pmb41321">Neues Wiener Tagblatt</title>
+                     <date when="1901-11-09">9.11.1901</date>
+                  </bibl>
+                  <bibl>
+                     <author>Max Kalbeck</author> Burgtheater. In: <title level="j" ref="pmb41321">Neues Wiener Tagblatt</title>
                      <biblScope unit="jg">35</biblScope>
                      <date type="year">1901</date>
                      <biblScope unit="issue">309</biblScope>
                      <biblScope unit="page">2–3</biblScope>
-                     <date when="1901-11-10">10.11.1901</date> C. S. in: Die Reichspost <biblScope unit="jg">8</biblScope>
+                     <date when="1901-11-10">10.11.1901</date>
+                  </bibl>
+                  <bibl>C. S. in: Die Reichspost <biblScope unit="jg">8</biblScope>
                      <date type="year">1901</date>
                      <biblScope unit="issue">259</biblScope>
                      <biblScope unit="page">9–10</biblScope>
-                     <date when="1901-11-10">10.11.1901</date> W. in: <title level="j" ref="pmb36374">Neue Freie Presse</title> 1901 <biblScope unit="issue">13367</biblScope>
+                     <date when="1901-11-10">10.11.1901</date>
+                  </bibl>
+                  <bibl>W. in: <title level="j" ref="pmb36374">Neue Freie Presse</title>
+                     <date type="year">1901</date>
+                     <biblScope unit="issue">13367</biblScope>
                      <biblScope unit="page">1–3</biblScope>
-                     <date when="1901-11-10">10.11.1901</date> [?]: Hermann Bahr im Burgtheater. Der
-                     Tag, Berlin, <date type="year">1901</date>
+                     <date when="1901-11-10">10.11.1901</date>
+                  </bibl>
+                  <bibl>
+                     <author>[?]</author>
+                     <title level="a">Hermann Bahr im Burgtheater</title>. <title level="j">Der Tag,
+                        Berlin</title>
+                     <date type="year">1901</date>
                      <biblScope unit="issue">501</biblScope>, Illustrierte Unterhaltungs-Beilage,
-                     [2-3]. <date when="1901-11-12">12.11.1901</date> Max Burckhard: Theater.
-                     Kritiken, Vorträge und Aufsätze. 1. Band (1898–1901). Wien: Manz 1905
-                        <biblScope unit="page">328–335</biblScope>
+                        <biblScope unit="page">
+                        <supplied>2–3</supplied>
+                     </biblScope>. <date when="1901-11-12">12.11.1901</date>
+                  </bibl>
+                  <bibl>
+                     <author>Max Burckhard</author>
+                     <title level="m">Theater. Kritiken, Vorträge und Aufsätze. 1. Band
+                        1898–1901</title>. Wien: Manz <date type="year">1905</date>
+                     <biblScope unit="page">328–335</biblScope>
                   </bibl>
                </note>
                <note type="periodica">
@@ -90,7 +118,9 @@
                   </bibl>
                </note>
                <note type="translations">
-                  <bibl>Russisch als: Апостолъ. Переводъ съ нѣмецкаго Е. Эгертъ, Moskau 1903</bibl>
+                  <bibl>
+                     <note>Russisch</note>Апостолъ. Переводъ съ нѣмецкаго Е. Эгертъ, Moskau <date type="year">1903</date>
+                  </bibl>
                </note>
                <ref type="URL">http://books.google.com/books?id=8mQTAAAAYAAJ</ref>
                <ref type="URL">http://books.google.com/books?id=p3cTAAAAQAAJ</ref>

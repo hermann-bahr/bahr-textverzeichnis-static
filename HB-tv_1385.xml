@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="HB-tv_1385.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1384.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1386.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="HB-tv_1385.xml" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1384.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1386.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -15,12 +15,14 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
-            <date>2023-01-06+01:00</date>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                    Heritage (ACDH-CH)</publisher>
+            <date>2023-01-09+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/HB-tv_1385.xml</idno>
          </publicationStmt>
          <sourceDesc>
-            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von
+                                    Bahr</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -60,7 +62,8 @@
                   <bibl>
                      <title level="a">Erinnerungen</title>
                      <title level="j" ref="pmb43848">Das Neue Reich</title>
-                     <date when="1920-10-03">3.10.1920</date>–16.6.1923</bibl>
+                     <date when="1920-10-03">3.10.1920</date>–16.6. <date type="year">1923</date>
+                  </bibl>
                   <bibl>
                      <note>Schlusskapitel</note>
                      <title level="j" ref="pmb36156">Die neue Rundschau</title>
@@ -72,22 +75,29 @@
                   <bibl>
                      <note>Schlusskapitel</note>
                      <title level="j" ref="pmb36344">Frankfurter Zeitung</title>
-                     <date when="1923-06-12">12.6.1923</date>, 1–2</bibl>
+                     <date when="1923-06-12">12.6.1923</date>, <biblScope unit="page">1–2</biblScope>
+                  </bibl>
                   <bibl>
                      <note>Anfang</note>
                      <title level="j" ref="HB-tv_periodica_147">Blätter des Deutschen
                         Theaters</title>
                      <biblScope unit="jg">10</biblScope>
                      <date type="year">1923</date>
-                     <biblScope unit="issue">3 (Oktober)</biblScope> 18–19</bibl>
+                     <biblScope unit="issue">3 (Oktober)</biblScope>
+                     <biblScope unit="page">18–19</biblScope>
+                  </bibl>
                   <bibl>
                      <note>Auszug</note>
                      <title level="a">Erinnerung an Hugo Wolf</title>
-                     <title level="j" ref="pmb46493">Das Tage-Buch</title> 1923</bibl>
+                     <title level="j" ref="pmb46493">Das Tage-Buch</title>
+                     <date type="year">1923</date>
+                  </bibl>
                   <bibl>
                      <title level="a">Zusammenleben mit Hugo Wolf</title>
                      <title level="j" ref="HB-tv_periodica_140">Almanach 1925. S. Fischer Verlag
-                        Berlin</title> 1924, 151–155</bibl>
+                        Berlin</title>
+                     <date type="year">1924</date>, <biblScope unit="page">151–155</biblScope>
+                  </bibl>
                   <bibl>
                      <note>Auszug</note>
                      <title level="a">Einzug in Berlin</title>
@@ -96,12 +106,18 @@
                   </bibl>
                   <bibl>
                      <note>Auszug</note>
-                     <title level="a">Erste Wiener Eindrücke</title> in: <title level="j" ref="pmb36374">Neue Freie Presse</title>
-                     <date when="1923-06-12">12.6.1923</date>, 10–11</bibl>
+                     <title level="a">Erste Wiener Eindrücke</title>
+                     <title level="j" ref="pmb36374">Neue Freie Presse</title>
+                     <date when="1923-06-12">12.6.1923</date>, <biblScope unit="page">10–11</biblScope>
+                  </bibl>
                   <bibl>
                      <note>Auszug</note>
-                     <title level="a">Meine Berliner Zeit</title> in: <title level="j" ref="pmb41531">Berliner Tageblatt</title> 52 <date type="year">1923</date>
-                     <biblScope unit="issue">284</biblScope> Abend–Ausgabe <biblScope unit="page">2–3</biblScope>
+                     <title level="a">Meine Berliner Zeit</title>
+                     <title level="j" ref="pmb41531">Berliner Tageblatt</title>
+                     <biblScope unit="jg">52</biblScope>
+                     <date type="year">1923</date>
+                     <biblScope unit="issue">284, Abend–Ausgabe</biblScope>
+                     <biblScope unit="page">2–3</biblScope>
                      <date when="1923-06-19">19.6.1923</date>
                   </bibl>
                   <bibl>
@@ -133,18 +149,21 @@
                <note type="monographies">
                   <bibl>
                      <note>Auszug</note>Bianca Segantini und Francesco von Mendelssohn, Hgg.: <title level="m">Eleonora Duse. Bildnisse und Worte</title>. Berlin: Rudolf
-                     Kaemmerer 1926 <biblScope unit="page">16–19</biblScope>
+                     Kaemmerer <date type="year">1926</date>
+                     <biblScope unit="page">16–19</biblScope>
                   </bibl>
                   <bibl>
                      <note>Auszug</note>Hugo Hagn, Hg.: <title level="m">Jahrbuch katholischer
                         Dichter 1934</title>. Mit 32 Bildnissen. Saarbrücken: Saarbrücker Druckerei
-                     1934 <biblScope unit="page">11–19</biblScope>
+                        <date type="year">1934</date>
+                     <biblScope unit="page">11–19</biblScope>
                   </bibl>
                   <bibl>
                      <note>Auszug</note>
                      <title level="a">Erinnere dich an Czernowitz</title>Rudolf Wagner (Hg.): <title level="m">Alma Mater Francisco Josephina. Die deutschsprachige
                         Nationalitäten-Universität in Czernowitz</title>. München: Meschendörfer
-                     1975 <biblScope unit="page">330–332</biblScope>
+                        <date type="year">1975</date>
+                     <biblScope unit="page">330–332</biblScope>
                   </bibl>
                   <bibl>
                      <note>dasselbe, erneut</note>Peter Rychlo (Hg.): <title level="m">Europa

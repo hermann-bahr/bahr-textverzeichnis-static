@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" xml:id="HB-tv_1510.xml" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_151.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1511.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="HB-tv_1510.xml" xml:base="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis" prev="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_151.xml" next="https://id.acdh.oeaw.ac.at.at/bahr-textverzeichnis/HB-tv_1511.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -15,12 +15,14 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
-            <date>2023-01-06+01:00</date>
+            <publisher>Austrian Centre for Digital Humanities and Cultural
+                                    Heritage (ACDH-CH)</publisher>
+            <date>2023-01-09+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/HB-tv_1510.xml</idno>
          </publicationStmt>
          <sourceDesc>
-            <p>Bibliografische Angaben eines in Druck erschienen Texts von Bahr</p>
+            <p>Bibliografische Angaben eines in Druck erschienen Texts von
+                                    Bahr</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -54,8 +56,8 @@
                      Die Moderne, <date when="1891-03-24">24.3.1891</date>
                      <biblScope unit="page">123–126</biblScope>
                   </bibl>
-                  <bibl>Theodor Wolff: Ein Verirrter. In: <title level="j" ref="pmb41531">Berliner
-                        Tageblatt</title>
+                  <bibl>
+                     <author>Theodor Wolff</author> Ein Verirrter. In: <title level="j" ref="pmb41531">Berliner Tageblatt</title>
                      <date when="1891-04-04">4.4.1891</date>
                   </bibl>
                   <bibl>
@@ -75,9 +77,14 @@
                      <date type="year">1891</date>
                      <biblScope unit="page">175–176</biblScope>
                   </bibl>
-                  <bibl>Kunstwart, 5 <date type="year">1891</date>
+                  <bibl>
+                     <title level="j">Kunstwart</title>
+                     <biblScope unit="jg">5</biblScope>
+                     <date type="year">1891</date>
                      <biblScope unit="issue">4</biblScope>
-                     <biblScope unit="page">276–277</biblScope> (15. November 1891) </bibl>
+                     <biblScope unit="page">276–277</biblScope>
+                     <date>15.11.1891</date>
+                  </bibl>
                </note>
                <note type="periodica">
                   <bibl>
@@ -85,7 +92,8 @@
                      <title level="j" ref="HB-tv_periodica_344">Die Moderne</title>
                      <biblScope unit="jg">1</biblScope>
                      <date type="year">1891</date>
-                     <biblScope unit="issue">2/3</biblScope>, 31–40</bibl>
+                     <biblScope unit="issue">2/3</biblScope>, <biblScope unit="page">31–40</biblScope>
+                  </bibl>
                </note>
                <note type="summary">Das Stück handelt von der Mutter, einer alternden
                   Schauspielerin, die verhindern will, dass ihr zwanzigjähriger Sohn Edi sich in
