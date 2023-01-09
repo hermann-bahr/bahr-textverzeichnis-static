@@ -30,7 +30,7 @@
                                 </h1>
                             </div>
                             <div class="card-body-meta">
-                                <xsl:apply-templates select=".//tei:body"/>
+                                <xsl:apply-templates select=".//tei:body/tei:div"/>
                             </div>
                         </div>
                     </div>
@@ -45,9 +45,9 @@
         </p>
     </xsl:template>
     <xsl:template match="tei:div">
-        
+        <div class="container">
             <xsl:apply-templates/>
-        
+        </div>
     </xsl:template>
     <xsl:template match="tei:lb">
         <br/>
