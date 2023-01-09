@@ -245,7 +245,17 @@
             </xsl:if>
             <xsl:if test="child::tei:biblScope[@unit = 'page']">
                 <xsl:text>, S. </xsl:text>
-                <xsl:value-of select="child::tei:biblScope[@unit = 'page']"/>
+                <xsl:for-each select="child::tei:biblScope[@unit = 'page']">
+                <xsl:value-of select="."/>
+                    <xsl:choose>
+                        <xsl:when test="position()=last()-1">
+                            <xsl:text> und </xsl:text>
+                        </xsl:when>
+                        <xsl:when test="not(position()=last())">
+                            <xsl:text>, </xsl:text>
+                        </xsl:when>
+                    </xsl:choose>
+                </xsl:for-each>
             </xsl:if>
             <xsl:apply-templates select="text()"/>
             <xsl:if test="child::tei:date[@when]">
@@ -295,5 +305,8 @@
     </xsl:template>
     <xsl:template match="tei:title[@level = 'j']/text()">
         <xsl:value-of select="normalize-space(.)"/>
+    </xsl:template>
+    <xsl:template match="tei:supplied">
+        <xsl:text>[</xsl:text><xsl:apply-templates/><xsl:text>]</xsl:text>
     </xsl:template>
 </xsl:stylesheet>
