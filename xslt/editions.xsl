@@ -255,8 +255,10 @@
         <xsl:choose>
             <xsl:when test=".[normalize-space()]">
                 <p>
-                    <xsl:if test="child::tei:title[@level = 'a']">
-                        <xsl:text>Als »</xsl:text>
+                    <xsl:choose>
+                        <xsl:when test="child::tei:title[@level = 'a'] and child::tei:author">
+                        <xsl:value-of select="tei:author" separator=", "/>
+                        <xsl:text>: </xsl:text>
                         <xsl:choose>
                             <xsl:when test="child::tei:title[@level = 'a']/@ref">
                                 <xsl:element name="a">
@@ -270,12 +272,30 @@
                                 <xsl:apply-templates select="child::tei:title[@level = 'a']"/>
                             </xsl:otherwise>
                         </xsl:choose>
-                        <xsl:text>« in: </xsl:text>
-                    </xsl:if>
-                    <xsl:if test="child::tei:author">
-                        <xsl:value-of select="tei:author"/>
-                        <xsl:text>: </xsl:text>
-                    </xsl:if>
+                        <xsl:text>. In: </xsl:text>
+                        </xsl:when>
+                        <xsl:when test="child::tei:title[@level = 'a']">
+                            <xsl:text>Als »</xsl:text>
+                            <xsl:choose>
+                                <xsl:when test="child::tei:title[@level = 'a']/@ref">
+                                    <xsl:element name="a">
+                                        <xsl:attribute name="href">
+                                            <xsl:value-of select="concat(child::tei:title[@level = 'a']/@ref, '.html')"/>
+                                        </xsl:attribute>
+                                        <xsl:apply-templates select="child::tei:title[@level = 'a']"/>
+                                    </xsl:element>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:apply-templates select="child::tei:title[@level = 'a']"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                            <xsl:text>« in: </xsl:text>
+                        </xsl:when>
+                        <xsl:when test="child::tei:author">
+                            <xsl:value-of select="tei:author" separator=", "/>
+                            <xsl:text>: </xsl:text>
+                        </xsl:when>
+                    </xsl:choose>
                     <xsl:if test="child::tei:title[@level = 'm']">
                         <xsl:choose>
                             <xsl:when test="child::tei:title[@level = 'm']/@ref">
@@ -348,13 +368,17 @@
             </xsl:when>
             <xsl:otherwise>
                 <p>
-                    <xsl:apply-templates/>
+                    <xsl:apply-templates mode="nochNichtFormatiert"/>
                 </p>
             </xsl:otherwise>
         </xsl:choose>
-        
-        
     </xsl:template>
+    <xsl:template mode="nochNichtFormatiert" match="tei:*">
+        <xsl:text> </xsl:text>
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    
     <xsl:template match="tei:note[not(parent::tei:biblStruct)]">
         <xsl:text> [</xsl:text>
         <xsl:apply-templates/>
