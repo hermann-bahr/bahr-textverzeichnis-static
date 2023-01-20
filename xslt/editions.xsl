@@ -225,7 +225,7 @@
                     <xsl:when test="@type = 'review-of'">
                         <xsl:text>Rezensiert</xsl:text>
                     </xsl:when>
-                    <xsl:when test="@type = 'review'">
+                    <xsl:when test="@type = 'reviews'">
                         <xsl:text>Besprochen in</xsl:text>
                     </xsl:when>
                     <xsl:otherwise>
@@ -348,7 +348,7 @@
             </xsl:when>
             <xsl:otherwise>
                 <p>
-                    <xsl:value-of select="descendant-or-self::*/text()"/>
+                    <xsl:apply-templates/>
                 </p>
             </xsl:otherwise>
         </xsl:choose>
