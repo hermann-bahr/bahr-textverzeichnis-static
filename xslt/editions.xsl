@@ -147,6 +147,25 @@
         <table class="table table-striped">
             <tbody>
                 <xsl:apply-templates select="child::tei:note[not(@type = 'bibliographical-statement')]"/>
+                <xsl:choose>
+                    <xsl:when test="tei:title[@level='j' and @ref]">
+                        <xsl:element name="a">
+                            <xsl:attribute name="href">
+                                <xsl:value-of select="concat('toc_', tei:title[@level='j' and @ref]/@ref)"/>
+                            </xsl:attribute>
+                            <xsl:value-of select="tei:title[@level='j' and @ref]"/>
+                        </xsl:element>
+
+                    </xsl:when>
+                    <xsl:when test="tei:monogr/tei:title[@level='m' and @ref]">
+                        <xsl:element name="a">
+                            <xsl:attribute name="href">
+                                <xsl:value-of select="concat('toc_', tei:monogr/tei:title[@level='m' and @ref]/@ref)"/>
+                            </xsl:attribute>
+                            <xsl:value-of select="tei:monogr/tei:title[@level='m' and @ref]"/>
+                        </xsl:element>
+                    </xsl:when>
+                </xsl:choose>
                 <xsl:apply-templates select="child::tei:ref[@type = 'URL']"/>
             </tbody>
         </table>
@@ -209,6 +228,19 @@
             </th>
             <td>
                 <xsl:apply-templates select="child::tei:bibl"/>
+            </td>
+        </tr>
+    </xsl:template>
+    <xsl:template match="tei:biblStruct/tei:noteGrp">
+        <tr>
+            <th>Schlagwörter</th>
+            <td>
+            <xsl:for-each select="tei:note">
+                <xsl:value-of select="."/>
+                <xsl:if test="not(position()=last())">
+                    <xsl:text>, </xsl:text>
+                </xsl:if>
+            </xsl:for-each>
             </td>
         </tr>
     </xsl:template>
