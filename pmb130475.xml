@@ -17,7 +17,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-01-16+01:00</date>
+            <date>2023-01-20+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130475.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -56,8 +56,10 @@
                   </bibl>
                </note>
                <note type="monographies">
-                  <bibl>Als erste Anmerkung der <title level="a">Anmerkungen</title>
-                     <title level="m">Rede über Klimt</title>
+                  <bibl>
+                     <note>erste Anmerkung</note>
+                     <title level="a" ref="pmb132697">Anmerkungen</title>
+                     <title level="m" ref="pmb140984">Rede über Klimt</title>
                      <biblScope unit="page">14–19</biblScope>
                   </bibl>
                </note>
@@ -70,6 +72,11 @@
                </ref>
                <note type="bibliographical-statement">Hermann Bahr: Klimt. In: Das
                   Hermann-Bahr-Buch. Zum 19. Juli 1913. Berlin: S. Fischer 1913, S. 144–149.</note>
+               <noteGrp type="keywords">
+                  <note type="Book">Buch</note>
+                  <note type="Section">Section</note>
+                  <note subtype="Buchtext">Buchtext</note>
+               </noteGrp>
             </biblStruct>
          </div>
       </body>

@@ -17,7 +17,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-01-16+01:00</date>
+            <date>2023-01-20+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/HB-tv_1556.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -52,7 +52,8 @@
                   <bibl>
                      <title level="j" ref="pmb36344">Frankfurter Zeitung</title>
                      <date when="1910-12-24">24.12.1910</date>
-                     <biblScope unit="page">3, Morgenblatt</biblScope>. <note>Uraufführung</note>
+                     <biblScope unit="page">3, Morgenblatt</biblScope>
+                     <note>Uraufführung</note>
                   </bibl>
                   <bibl>
                      <title level="j" ref="pmb36376">Neues Wiener Journal</title>
@@ -110,7 +111,8 @@
                      <author>Herbert Ihering</author>
                      <title level="j">Schaubühne</title>
                      <date when="1911-03-02">2.3.1911</date>
-                     <biblScope unit="page">249–250</biblScope>.</bibl>
+                     <biblScope unit="page">249–250</biblScope>
+                  </bibl>
                   <bibl>
                      <author>Franz Theodor Csokor</author>
                      <title level="j">Ton und Wort</title>
@@ -153,31 +155,45 @@
                      <biblScope unit="issue">11 (1. Juni-Heft)</biblScope>
                      <biblScope unit="page">435</biblScope>
                   </bibl>
-                  <bibl>Wiener Abendpost, <date type="year">1917</date>
+                  <bibl>
+                     <title level="j">Wiener Abendpost</title>
+                     <date type="year">1917</date>
                      <biblScope unit="issue">190</biblScope>
                      <biblScope unit="page">7</biblScope>
                      <date when="1917-08-20">20.8.1917</date>
                   </bibl>
                   <bibl>
-                     <note>Kurzrezension</note> K..r [Alfred Kerr] im <title level="j" ref="pmb41531">Berliner Tageblatt</title>
-                     <date when="1923-10-11">11.10.1923</date>, Morgen-Ausgabe, 3 </bibl>
-                  <bibl>K..r [Alfred Kerr], <title level="j" ref="pmb41531">Berliner
-                        Tageblatt</title>
+                     <note>Kurzrezension</note>
+                     <author>K..r [Alfred Kerr]</author>
+                     <title level="j" ref="pmb41531">Berliner Tageblatt</title>
+                     <date when="1923-10-11">11.10.1923, Morgen-Ausgabe</date>
+                     <biblScope unit="page">3</biblScope>
+                  </bibl>
+                  <bibl>
+                     <author>K..r [Alfred Kerr]</author>
+                     <title level="j" ref="pmb41531">Berliner Tageblatt</title>
                      <date when="1923-10-11">11.10.1923</date>
                      <biblScope unit="issue">478, Abend-Ausgabe</biblScope>
                      <biblScope unit="page">2</biblScope>
                   </bibl>
-                  <bibl>Vossische Zeitung <biblScope unit="issue">481, Morgen-Ausgabe</biblScope>
+                  <bibl>
+                     <title level="j">Vossische Zeitung</title>
+                     <biblScope unit="issue">481, Morgen-Ausgabe</biblScope>
                      <biblScope unit="page">2</biblScope>
                      <date when="1923-10-11">11.10.1923</date>
                   </bibl>
-                  <bibl>Karl Strecker in: Tägliche Rundschau, <date when="1927-11-04">4.11.1927</date>
+                  <bibl>
+                     <author>Karl Strecker</author>
+                     <title level="j">Tägliche Rundschau</title>
+                     <date when="1927-11-04">4.11.1927</date>
                   </bibl>
                   <bibl>
                      <title level="j" ref="pmb122056">Münchner Neueste Nachrichten</title>
                      <biblScope unit="jg">84</biblScope>
                      <date type="year">1931</date>
-                     <biblScope unit="issue">159</biblScope>, 2 <date when="1931-06-15">15.6.1931</date>
+                     <biblScope unit="issue">159</biblScope>
+                     <biblScope unit="page">2</biblScope>
+                     <date when="1931-06-15">15.6.1931</date>
                   </bibl>
                </note>
                <note type="translations">
@@ -195,6 +211,9 @@
                <ref type="URL">http://anno.onb.ac.at/cgi-content/anno-buch?apm=0&amp;aid=74</ref>
                <note type="bibliographical-statement">Hermann Bahr: Die Kinder. Komödie. Berlin: S.
                   Fischer 1911 (140 Seiten).</note>
+               <noteGrp type="keywords">
+                  <note type="Book">Buch</note>
+               </noteGrp>
             </biblStruct>
          </div>
       </body>

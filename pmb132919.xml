@@ -17,7 +17,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-01-16+01:00</date>
+            <date>2023-01-20+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132919.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -54,9 +54,15 @@
                   </bibl>
                </note>
                <note type="monographies">
-                  <bibl>Leicht geändert in: <title level="m">Essays</title>
+                  <bibl>
+                     <note>leicht geändert</note>
+                     <title level="m" ref="pmb141014">Essays</title>
                      <date>1912</date>
-                     <biblScope unit="page">47–50</biblScope> Hermann-Bahr-Buch <biblScope unit="page">281–287</biblScope>
+                     <biblScope unit="page">47–50</biblScope>
+                  </bibl>
+                  <bibl>
+                     <title level="m" ref="pmb30859">Das Hermann-Bahr-Buch</title>
+                     <biblScope unit="page">281–287</biblScope>
                   </bibl>
                </note>
                <note type="incipit">Als wir in die Schule kamen, war an der Wand das Bild einer
@@ -86,6 +92,11 @@
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/7-bildung.pdf</ref>
                <note type="bibliographical-statement">Hermann Bahr: Die Kaiserin. In: Bildung.
                   Berlin und Leipzig: Insel 1900, S. 123–126.</note>
+               <noteGrp type="keywords">
+                  <note type="Book">Buch</note>
+                  <note type="Section">Section</note>
+                  <note subtype="Buchtext">Buchtext</note>
+               </noteGrp>
             </biblStruct>
          </div>
       </body>

@@ -17,7 +17,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-01-16+01:00</date>
+            <date>2023-01-20+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb30461.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -46,21 +46,32 @@
                         Tagblatt</title> 35 (1901) #54, 8. (24.2.1901)). </p>
                </note>
                <note type="review">
-                  <bibl>Vorwärts, Berlin, <date when="1896-09-24">24.9.1896</date>. Die Presse
-                        <biblScope unit="jg">49</biblScope>
+                  <bibl>
+                     <title level="j">Vorwärts, Berlin</title>
+                     <date when="1896-09-24">24.9.1896</date>
+                  </bibl>
+                  <bibl>Die Presse <biblScope unit="jg">49</biblScope>
                      <date type="year">1896</date>
-                     <biblScope unit="issue">262</biblScope>, Morgen-Presse <biblScope unit="page">6</biblScope>
+                     <biblScope unit="issue">262, Morgen-Presse</biblScope>
+                     <biblScope unit="page">6</biblScope>
                      <date when="1896-09-23">23.9.1896</date>
                   </bibl>
-                  <bibl>o.N.? : Dramatische Aufführungen. (»Das Einmaleins« von Blumenthal, »Juana«
-                     von Alessandro Lanza, »Die officielle Frau« von Hans Olden). In: Die Gegenwart
-                        <biblScope unit="jg">50</biblScope>
+                  <bibl>
+                     <author>o.N.?</author>
+                     <title level="a">Dramatische Aufführungen. (»Das Einmaleins« von Blumenthal,
+                        »Juana« von Alessandro Lanza, »Die officielle Frau« von Hans Olden)</title>.
+                        <title level="j">Die Gegenwart</title>
+                     <biblScope unit="jg">50</biblScope>
                      <date type="year">1896</date>
                      <biblScope unit="page">223</biblScope>
                   </bibl>
-                  <bibl>Deutsche Zeitung, <date when="1898-11-19">19.11.1898</date>
+                  <bibl>
+                     <title level="j">Deutsche Zeitung</title>, <date when="1898-11-19">19.11.1898</date>
                   </bibl>
-                  <bibl>Sport und Salon, 1 <date type="year">1898</date>
+                  <bibl>
+                     <title level="j">Sport und Salon</title>
+                     <biblScope unit="jg">1</biblScope>
+                     <date type="year">1898</date>
                      <biblScope unit="issue">25</biblScope>
                      <biblScope unit="page">5–6</biblScope>
                      <date when="1898-11-25">25.11.1898</date>
@@ -74,6 +85,10 @@
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/buch/1896_juana.pdf</ref>
                <note type="bibliographical-statement">Alejandro Lanza: Juana. Drama. München:
                   Brakl’s Rubinverlag 1896 (52 Seiten).</note>
+               <noteGrp type="keywords">
+                  <note type="Book">Buch</note>
+                  <note subtype="Bühnenmanuskript">Bühnenmanuskript</note>
+               </noteGrp>
             </biblStruct>
          </div>
       </body>

@@ -17,7 +17,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-01-16+01:00</date>
+            <date>2023-01-20+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb29887.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -52,9 +52,25 @@
                      als erschienen.</p>
                </note>
                <note type="review">
-                  <bibl>L. Fischl: Der Apostel. In: Österreichische Volkszeitung <biblScope unit="jg">47</biblScope>
+                  <bibl>
+                     <author>L. Fischl</author>
+                     <title level="a">Der Apostel</title>
+                     <title level="j">Österreichische Volkszeitung</title>
+                     <biblScope unit="jg">47</biblScope>
                      <date type="year">1901</date>
-                     <biblScope unit="issue">308</biblScope>, 2 (2 Kreuzer-Ausgabe: <biblScope unit="page">8–9</biblScope>). <date when="1901-11-09">9.11.1901</date>
+                     <biblScope unit="issue">308</biblScope>
+                     <biblScope unit="page">2</biblScope>
+                     <date when="1901-11-09">9.11.1901</date>
+                  </bibl>
+                  <bibl>
+                     <author>L. Fischl</author>
+                     <title level="a">Der Apostel</title>
+                     <title level="j">Österreichische Volkszeitung. 2 Kreuzer-Ausgabe</title>
+                     <biblScope unit="jg">47</biblScope>
+                     <date type="year">1901</date>
+                     <biblScope unit="issue">308</biblScope>
+                     <biblScope unit="page">8–9</biblScope>
+                     <date when="1901-11-09">9.11.1901</date>
                   </bibl>
                   <bibl>M. K. [=Max Kalbeck]: <title level="j" ref="pmb41321">Neues Wiener
                         Tagblatt</title>
@@ -92,13 +108,14 @@
                   </bibl>
                   <bibl>
                      <author>[?]</author>
-                     <title level="a">Hermann Bahr im Burgtheater</title>. <title level="j">Der Tag,
-                        Berlin</title>
+                     <title level="a">Hermann Bahr im Burgtheater</title>
+                     <title level="j">Der Tag, Berlin</title>
                      <date type="year">1901</date>
                      <biblScope unit="issue">501</biblScope>, Illustrierte Unterhaltungs-Beilage,
                         <biblScope unit="page">
                         <supplied>2–3</supplied>
-                     </biblScope>. <date when="1901-11-12">12.11.1901</date>
+                     </biblScope>
+                     <date when="1901-11-12">12.11.1901</date>
                   </bibl>
                   <bibl>
                      <author>Max Burckhard</author>
@@ -127,6 +144,9 @@
                <ref type="URL">http://books.google.com/books?id=7qgqAAAAMAAJ</ref>
                <note type="bibliographical-statement">Hermann Bahr: Der Apostel. Schauspiel in drei
                   Aufzügen. München: Albert Langen 1901 (232 Seiten).</note>
+               <noteGrp type="keywords">
+                  <note type="Book">Buch</note>
+               </noteGrp>
             </biblStruct>
          </div>
       </body>

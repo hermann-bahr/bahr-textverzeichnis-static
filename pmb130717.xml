@@ -17,7 +17,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-01-16+01:00</date>
+            <date>2023-01-20+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130717.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -54,8 +54,12 @@
                   </bibl>
                </note>
                <note type="monographies">
-                  <bibl>Die Fussnote S. <biblScope unit="page">20–21</biblScope>
-                     <title level="a">Wer ist’s?</title>Hermann-Bahr-Buch, <biblScope unit="page">51–52</biblScope>
+                  <bibl>
+                     <note>Fussnote S. 20–21</note>
+                     <title level="a">Wer ist’s?</title>
+                     <title level="m" ref="pmb30859">Das
+                        Hermann-Bahr-Buch</title>
+                     <biblScope unit="page">51–52</biblScope>
                   </bibl>
                </note>
                <note type="incipit">Veni, creator spiritus. Neulich kam ein junger Mensch zu
@@ -92,6 +96,11 @@
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/13-inventur.pdf</ref>
                <note type="bibliographical-statement">Hermann Bahr: Inventur der Zeit. In: Inventur.
                   Berlin: S. Fischer 1912, S. 9–21.</note>
+               <noteGrp type="keywords">
+                  <note type="Book">Buch</note>
+                  <note type="Section">Section</note>
+                  <note subtype="Buchtext">Buchtext</note>
+               </noteGrp>
             </biblStruct>
          </div>
       </body>
