@@ -143,7 +143,6 @@
         <xsl:element name="h2">
             <xsl:value-of select="tei:note[@type = 'bibliographical-statement']"/>
         </xsl:element>
-        <p/>
         <table class="table table-striped">
             <tbody>
                 <xsl:apply-templates select="child::tei:note[not(@type = 'bibliographical-statement')]"/>
@@ -174,6 +173,7 @@
                 </xsl:if>
                 <xsl:apply-templates select="child::tei:noteGrp[@type = 'keywords']"/> 
                 <xsl:apply-templates select="child::tei:ref[@type = 'URL']"/>
+                <xsl:apply-templates select="child::tei:ref[@type = 'abdrucke']"/>
             </tbody>
         </table>
     </xsl:template>
@@ -410,6 +410,25 @@
                 </xsl:element>
             </td>
         </tr>
+    </xsl:template>
+    <xsl:template match="tei:ref[@type = 'abdrucke']">
+        <xsl:for-each select="descendant::tei:ptr">
+        <tr>
+            <th>
+                <xsl:if test="position()=1">
+                    <xsl:text>Alternative Drucke</xsl:text>
+                </xsl:if>
+            </th>
+            <td>
+                <xsl:element name="a">
+                    <xsl:attribute name="href">
+                        <xsl:value-of select="concat(@target, '.html')"/>
+                    </xsl:attribute>
+                    <xsl:value-of select="document(concat('https://raw.githubusercontent.com/hermann-bahr/bahr-textverzeichnis-data/main/data/editions/', @target, '.xml'))/tei:TEI/tei:text[1]/tei:body[1]/tei:div[1]/tei:biblStruct[1]/tei:note[@type='bibliographical-statement']"/>
+                </xsl:element>
+            </td>
+        </tr>
+        </xsl:for-each>
     </xsl:template>
     <xsl:template match="tei:title[@level = 'a' or @level = 'm']/text()">
         <span style="text-style:italic">
