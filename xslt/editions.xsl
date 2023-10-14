@@ -145,8 +145,6 @@
         </xsl:element>
         <table class="table table-striped">
             <tbody>
-                <xsl:apply-templates
-                    select="child::tei:note[not(@type = 'bibliographical-statement')]"/>
                 <xsl:if test="tei:analytic">
                     <xsl:apply-templates select="tei:analytic" mode="table"/>
                 </xsl:if>
@@ -156,10 +154,11 @@
                 <xsl:if test="tei:series">
                     <xsl:apply-templates select="tei:series" mode="table"/>
                 </xsl:if>
-                
-                <xsl:apply-templates select="child::tei:noteGrp[@type = 'keywords']"/>
+                <xsl:apply-templates
+                    select="child::tei:note[not(@type = 'bibliographical-statement')]"/>
                 <xsl:apply-templates select="child::tei:ref[@type = 'URL']"/>
                 <xsl:apply-templates select="child::tei:ref[@type = 'abdrucke']"/>
+                <xsl:apply-templates select="child::tei:noteGrp[@type = 'keywords']"/>
             </tbody>
         </table>
     </xsl:template>
@@ -489,29 +488,36 @@
             </tr>
         </xsl:if>
         <tr>
-            <th>Titel</th>
+            <th>
+                <xsl:choose>
+                    <xsl:when test="tei:title[@level = 'm']">
+                        <xsl:text>Gesamttitel</xsl:text>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:text>Periodikum</xsl:text>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </th>
             <td>
                 <xsl:choose>
-                    <xsl:when test="tei:monogr/tei:title[@level = 'j' and @ref]">
+                    <xsl:when test="tei:title[@level = 'j' and @ref]">
                         <xsl:element name="a">
                             <xsl:attribute name="href">
                                 <xsl:value-of
-                                    select="concat('toc_', tei:monogr/tei:title[@level = 'j' and @ref]/@ref, '.html')"
+                                    select="concat('toc_', tei:title[@level = 'j' and @ref]/@ref, '.html')"
                                 />
                             </xsl:attribute>
-                            <xsl:value-of
-                                select="tei:monogr/tei:title[@level = 'j' and @ref]"/>
+                            <xsl:value-of select="tei:title[@level = 'j' and @ref]"/>
                         </xsl:element>
                     </xsl:when>
-                    <xsl:when test="tei:monogr/tei:title[@level = 'm' and @ref]">
+                    <xsl:when test="tei:title[@level = 'm' and @ref]">
                         <xsl:element name="a">
                             <xsl:attribute name="href">
                                 <xsl:value-of
-                                    select="concat(tei:monogr/tei:title[@level = 'm' and @ref]/@ref, '.html')"
+                                    select="concat(tei:title[@level = 'm' and @ref]/@ref, '.html')"
                                 />
                             </xsl:attribute>
-                            <xsl:value-of
-                                select="tei:monogr/tei:title[@level = 'm' and @ref]"/>
+                            <xsl:value-of select="tei:title[@level = 'm' and @ref]"/>
                         </xsl:element>
                     </xsl:when>
                 </xsl:choose>
@@ -591,11 +597,11 @@
             <th>Reihe</th>
             <td>
                 <xsl:value-of select="tei:title[@level = 's']"/>
-        <xsl:if test="tei:biblScope[@unit='volume']">
-            <xsl:text>, </xsl:text>
-            <xsl:value-of select="tei:biblScope[@unit='volume']"/>
-        </xsl:if>
-              </td>
-            </tr>
+                <xsl:if test="tei:biblScope[@unit = 'volume']">
+                    <xsl:text>, </xsl:text>
+                    <xsl:value-of select="tei:biblScope[@unit = 'volume']"/>
+                </xsl:if>
+            </td>
+        </tr>
     </xsl:template>
 </xsl:stylesheet>
