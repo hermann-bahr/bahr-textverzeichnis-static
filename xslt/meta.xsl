@@ -85,20 +85,25 @@
             <xsl:value-of select="."/>
         </a>
     </xsl:template>
-    <xsl:template match="tei:list[child::tei:item[tei:term and tei:note]]">
+    <xsl:template match="tei:list[descendant::tei:term and descendant::tei:note]">
         <dl>
             <xsl:apply-templates/>
         </dl>
     </xsl:template>
-    <xsl:template match="tei:item[child::tei:term or child::tei:note]">
+    <xsl:template match="tei:list[tei:item and not(descendant::tei:term and descendant::tei:note)]">
+        <ul>
             <xsl:apply-templates/>
+        </ul>
     </xsl:template>
-    <xsl:template match="tei:term">
+    <xsl:template match="tei:item[child::tei:term and child::tei:note]">
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="tei:term[parent::tei:item]">
         <dt>
             <xsl:apply-templates/>
         </dt>
     </xsl:template>
-    <xsl:template match="tei:item/tei:note">
+    <xsl:template match="tei:note[parent::tei:item]">
         <dd>
             <xsl:apply-templates/>
         </dd>

@@ -473,10 +473,23 @@
             </tr>
         </xsl:if>
     </xsl:template>
-    <xsl:template match="tei:monogr[preceding-sibling::tei:analytic]" mode="table">
-        <xsl:if test="tei:author">
+    <xsl:template match="tei:monogr" mode="table">
+        <xsl:if test="tei:author and preceding-sibling::tei:analytic">
             <tr>
                 <th>Gesamtverfasser:in</th>
+                <td>
+                    <xsl:for-each select="tei:author">
+                        <xsl:value-of select="."/>
+                        <xsl:if test="not(position() = last())">
+                            <br/>
+                        </xsl:if>
+                    </xsl:for-each>
+                </td>
+            </tr>
+        </xsl:if>
+        <xsl:if test="tei:author and not(preceding-sibling::tei:analytic)">
+            <tr>
+                <th>Verfasser:in</th>
                 <td>
                     <xsl:for-each select="tei:author">
                         <xsl:value-of select="."/>
@@ -490,8 +503,11 @@
         <tr>
             <th>
                 <xsl:choose>
-                    <xsl:when test="tei:title[@level = 'm']">
+                    <xsl:when test="tei:title[@level = 'm'] and preceding-sibling::tei:analytic">
                         <xsl:text>Gesamttitel</xsl:text>
+                    </xsl:when>
+                    <xsl:when test="tei:title[@level = 'm']">
+                        <xsl:text>Titel</xsl:text>
                     </xsl:when>
                     <xsl:otherwise>
                         <xsl:text>Periodikum</xsl:text>
