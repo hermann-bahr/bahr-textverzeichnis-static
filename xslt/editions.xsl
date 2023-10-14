@@ -153,6 +153,9 @@
                 <xsl:if test="tei:monogr">
                     <xsl:apply-templates select="tei:monogr" mode="table"/>
                 </xsl:if>
+                <xsl:if test="tei:series">
+                    <xsl:apply-templates select="tei:series" mode="table"/>
+                </xsl:if>
                 
                 <xsl:apply-templates select="child::tei:noteGrp[@type = 'keywords']"/>
                 <xsl:apply-templates select="child::tei:ref[@type = 'URL']"/>
@@ -414,10 +417,10 @@
                 <td>
                     <xsl:element name="a">
                         <xsl:attribute name="href">
-                            <xsl:value-of select="concat(@target, '.html')"/>
+                            <xsl:value-of select="concat(., '.html')"/>
                         </xsl:attribute>
                         <xsl:value-of
-                            select="document(concat('https://raw.githubusercontent.com/hermann-bahr/bahr-textverzeichnis-data/main/data/editions/', @target, '.xml'))/tei:TEI/tei:text[1]/tei:body[1]/tei:div[1]/tei:biblStruct[1]/tei:note[@type = 'bibliographical-statement']"
+                            select="document(concat('https://raw.githubusercontent.com/hermann-bahr/bahr-textverzeichnis-data/main/data/editions/', ., '.xml'))/tei:TEI/tei:text[1]/tei:body[1]/tei:div[1]/tei:biblStruct[1]/tei:note[@type = 'bibliographical-statement']"
                         />
                     </xsl:element>
                 </td>
@@ -548,9 +551,9 @@
                             select="concat('Jahrgang ', tei:imprint/tei:biblScope[@unit = 'jg'])"/>
                         <br/>
                     </xsl:if>
-                    <xsl:if test="tei:imprint/tei:biblScope[@unit = 'vol']">
+                    <xsl:if test="tei:imprint/tei:biblScope[@unit = 'volume']">
                         <xsl:value-of
-                            select="concat('Band ', tei:imprint/tei:biblScope[@unit = 'vol'])"/>
+                            select="concat('Band ', tei:imprint/tei:biblScope[@unit = 'volume'])"/>
                         <br/>
                     </xsl:if>
                     <xsl:if test="tei:imprint/tei:biblScope[@unit = 'issue']">
@@ -563,8 +566,36 @@
                             select="concat('Seite ', tei:imprint/tei:biblScope[@unit = 'page'])"/>
                         <br/>
                     </xsl:if>
+                    <xsl:if test="tei:imprint/tei:extent">
+                        <xsl:value-of select="tei:imprint/tei:extent"/>
+                    </xsl:if>
                 </td>
             </tr>
         </xsl:if>
+    </xsl:template>
+    <xsl:template match="tei:series" mode="table">
+        <xsl:if test="tei:editor">
+            <tr>
+                <th>Reihenherausgeber:in</th>
+                <td>
+                    <xsl:for-each select="tei:editor">
+                        <xsl:value-of select="."/>
+                        <xsl:if test="not(position() = last())">
+                            <br/>
+                        </xsl:if>
+                    </xsl:for-each>
+                </td>
+            </tr>
+        </xsl:if>
+        <tr>
+            <th>Reihe</th>
+            <td>
+                <xsl:value-of select="tei:title[@level = 's']"/>
+        <xsl:if test="tei:biblScope[@unit='volume']">
+            <xsl:text>, </xsl:text>
+            <xsl:value-of select="tei:biblScope[@unit='volume']"/>
+        </xsl:if>
+              </td>
+            </tr>
     </xsl:template>
 </xsl:stylesheet>
