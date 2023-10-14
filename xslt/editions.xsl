@@ -412,7 +412,7 @@
         </tr>
     </xsl:template>
     <xsl:template match="tei:ref[@type = 'abdrucke']">
-        <xsl:for-each select="descendant::tei:ptr">
+        <xsl:for-each select="distinct-values(descendant::tei:ptr[@type='textref' and @target!=ancestor::tei:TEI/@xml:id]/@target)">
         <tr>
             <th>
                 <xsl:if test="position()=1">
