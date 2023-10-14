@@ -52,7 +52,7 @@
                                                     </sortdate>
                                                     <a>
                                                         <xsl:attribute name="href">                                                
-                                                            <xsl:value-of select="concat(@corresp, '.html')"/>
+                                                            <xsl:value-of select="(replace(text()[1], '.xml', '.html'))"/>
                                                         </xsl:attribute>
                                                         <xsl:value-of select="tei:title/text()"/>
                                                     </a>
