@@ -145,33 +145,16 @@
         </xsl:element>
         <table class="table table-striped">
             <tbody>
-                <xsl:apply-templates select="child::tei:note[not(@type = 'bibliographical-statement')]"/>
-                <xsl:if test="tei:monogr/tei:title[@level='j' and @ref] or tei:monogr/tei:title[@level='m' and @ref]">
-                    <tr>
-                    <th/>
-                    <td>
-                <xsl:choose>
-                    <xsl:when test="tei:monogr/tei:title[@level='j' and @ref]">
-                        <xsl:element name="a">
-                            <xsl:attribute name="href">
-                                <xsl:value-of select="concat('toc_', tei:monogr/tei:title[@level='j' and @ref]/@ref, '.html')"/>
-                            </xsl:attribute>
-                            <xsl:value-of select="tei:monogr/tei:title[@level='j' and @ref]"/>
-                        </xsl:element>
-                    </xsl:when>
-                    <xsl:when test="tei:monogr/tei:title[@level='m' and @ref]">
-                        <xsl:element name="a">
-                            <xsl:attribute name="href">
-                                <xsl:value-of select="concat(tei:monogr/tei:title[@level='m' and @ref]/@ref, '.html')"/>
-                            </xsl:attribute>
-                            <xsl:value-of select="tei:monogr/tei:title[@level='m' and @ref]"/>
-                        </xsl:element>
-                    </xsl:when>
-                </xsl:choose>
-                    </td>
-                    </tr>
+                <xsl:apply-templates
+                    select="child::tei:note[not(@type = 'bibliographical-statement')]"/>
+                <xsl:if test="tei:analytic">
+                    <xsl:apply-templates select="tei:analytic" mode="table"/>
                 </xsl:if>
-                <xsl:apply-templates select="child::tei:noteGrp[@type = 'keywords']"/> 
+                <xsl:if test="tei:monogr">
+                    <xsl:apply-templates select="tei:monogr" mode="table"/>
+                </xsl:if>
+                
+                <xsl:apply-templates select="child::tei:noteGrp[@type = 'keywords']"/>
                 <xsl:apply-templates select="child::tei:ref[@type = 'URL']"/>
                 <xsl:apply-templates select="child::tei:ref[@type = 'abdrucke']"/>
             </tbody>
@@ -242,12 +225,12 @@
         <tr>
             <th>Schlagwörter</th>
             <td>
-            <xsl:for-each select="tei:note">
-                <xsl:value-of select="."/>
-                <xsl:if test="not(position()=last())">
-                    <xsl:text>, </xsl:text>
-                </xsl:if>
-            </xsl:for-each>
+                <xsl:for-each select="tei:note">
+                    <xsl:value-of select="."/>
+                    <xsl:if test="not(position() = last())">
+                        <xsl:text>, </xsl:text>
+                    </xsl:if>
+                </xsl:for-each>
             </td>
         </tr>
     </xsl:template>
@@ -257,22 +240,25 @@
                 <p>
                     <xsl:choose>
                         <xsl:when test="child::tei:title[@level = 'a'] and child::tei:author">
-                        <xsl:value-of select="tei:author" separator=", "/>
-                        <xsl:text>: </xsl:text>
-                        <xsl:choose>
-                            <xsl:when test="child::tei:title[@level = 'a']/@ref">
-                                <xsl:element name="a">
-                                    <xsl:attribute name="href">
-                                        <xsl:value-of select="concat(child::tei:title[@level = 'a']/@ref, '.html')"/>
-                                    </xsl:attribute>
+                            <xsl:value-of select="tei:author" separator=", "/>
+                            <xsl:text>: </xsl:text>
+                            <xsl:choose>
+                                <xsl:when test="child::tei:title[@level = 'a']/@ref">
+                                    <xsl:element name="a">
+                                        <xsl:attribute name="href">
+                                            <xsl:value-of
+                                                select="concat(child::tei:title[@level = 'a']/@ref, '.html')"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:apply-templates select="child::tei:title[@level = 'a']"
+                                        />
+                                    </xsl:element>
+                                </xsl:when>
+                                <xsl:otherwise>
                                     <xsl:apply-templates select="child::tei:title[@level = 'a']"/>
-                                </xsl:element>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <xsl:apply-templates select="child::tei:title[@level = 'a']"/>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                        <xsl:text>. In: </xsl:text>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                            <xsl:text>. In: </xsl:text>
                         </xsl:when>
                         <xsl:when test="child::tei:title[@level = 'a']">
                             <xsl:text>Als »</xsl:text>
@@ -280,9 +266,12 @@
                                 <xsl:when test="child::tei:title[@level = 'a']/@ref">
                                     <xsl:element name="a">
                                         <xsl:attribute name="href">
-                                            <xsl:value-of select="concat(child::tei:title[@level = 'a']/@ref, '.html')"/>
+                                            <xsl:value-of
+                                                select="concat(child::tei:title[@level = 'a']/@ref, '.html')"
+                                            />
                                         </xsl:attribute>
-                                        <xsl:apply-templates select="child::tei:title[@level = 'a']"/>
+                                        <xsl:apply-templates select="child::tei:title[@level = 'a']"
+                                        />
                                     </xsl:element>
                                 </xsl:when>
                                 <xsl:otherwise>
@@ -301,7 +290,9 @@
                             <xsl:when test="child::tei:title[@level = 'm']/@ref">
                                 <xsl:element name="a">
                                     <xsl:attribute name="href">
-                                        <xsl:value-of select="concat(child::tei:title[@level = 'm']/@ref, '.html')"/>
+                                        <xsl:value-of
+                                            select="concat(child::tei:title[@level = 'm']/@ref, '.html')"
+                                        />
                                     </xsl:attribute>
                                     <xsl:apply-templates select="child::tei:title[@level = 'm']"/>
                                 </xsl:element>
@@ -316,7 +307,9 @@
                             <xsl:when test="child::tei:title[@level = 'j']/@ref">
                                 <xsl:element name="a">
                                     <xsl:attribute name="href">
-                                        <xsl:value-of select="concat('toc_', child::tei:title[@level = 'j']/@ref, '.html')"/>
+                                        <xsl:value-of
+                                            select="concat('toc_', child::tei:title[@level = 'j']/@ref, '.html')"
+                                        />
                                     </xsl:attribute>
                                     <xsl:apply-templates select="child::tei:title[@level = 'j']"/>
                                 </xsl:element>
@@ -348,10 +341,10 @@
                         <xsl:for-each select="child::tei:biblScope[@unit = 'page']">
                             <xsl:value-of select="."/>
                             <xsl:choose>
-                                <xsl:when test="position()=last()-1">
+                                <xsl:when test="position() = last() - 1">
                                     <xsl:text> und </xsl:text>
                                 </xsl:when>
-                                <xsl:when test="not(position()=last())">
+                                <xsl:when test="not(position() = last())">
                                     <xsl:text>, </xsl:text>
                                 </xsl:when>
                             </xsl:choose>
@@ -377,8 +370,6 @@
         <xsl:text> </xsl:text>
         <xsl:apply-templates/>
     </xsl:template>
-    
-    
     <xsl:template match="tei:note[not(parent::tei:biblStruct)]">
         <xsl:text> [</xsl:text>
         <xsl:apply-templates/>
@@ -412,22 +403,25 @@
         </tr>
     </xsl:template>
     <xsl:template match="tei:ref[@type = 'abdrucke']">
-        <xsl:for-each select="distinct-values(descendant::tei:ptr[@type='textref' and @target!=ancestor::tei:TEI/@xml:id]/@target)">
-        <tr>
-            <th>
-                <xsl:if test="position()=1">
-                    <xsl:text>Alternative Drucke</xsl:text>
-                </xsl:if>
-            </th>
-            <td>
-                <xsl:element name="a">
-                    <xsl:attribute name="href">
-                        <xsl:value-of select="concat(@target, '.html')"/>
-                    </xsl:attribute>
-                    <xsl:value-of select="document(concat('https://raw.githubusercontent.com/hermann-bahr/bahr-textverzeichnis-data/main/data/editions/', @target, '.xml'))/tei:TEI/tei:text[1]/tei:body[1]/tei:div[1]/tei:biblStruct[1]/tei:note[@type='bibliographical-statement']"/>
-                </xsl:element>
-            </td>
-        </tr>
+        <xsl:for-each
+            select="distinct-values(descendant::tei:ptr[@type = 'textref' and @target != ancestor::tei:TEI/@xml:id]/@target)">
+            <tr>
+                <th>
+                    <xsl:if test="position() = 1">
+                        <xsl:text>Alternative Drucke</xsl:text>
+                    </xsl:if>
+                </th>
+                <td>
+                    <xsl:element name="a">
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="concat(@target, '.html')"/>
+                        </xsl:attribute>
+                        <xsl:value-of
+                            select="document(concat('https://raw.githubusercontent.com/hermann-bahr/bahr-textverzeichnis-data/main/data/editions/', @target, '.xml'))/tei:TEI/tei:text[1]/tei:body[1]/tei:div[1]/tei:biblStruct[1]/tei:note[@type = 'bibliographical-statement']"
+                        />
+                    </xsl:element>
+                </td>
+            </tr>
         </xsl:for-each>
     </xsl:template>
     <xsl:template match="tei:title[@level = 'a' or @level = 'm']/text()">
@@ -439,6 +433,138 @@
         <xsl:value-of select="normalize-space(.)"/>
     </xsl:template>
     <xsl:template match="tei:supplied">
-        <xsl:text>[</xsl:text><xsl:apply-templates/><xsl:text>]</xsl:text>
+        <xsl:text>[</xsl:text>
+        <xsl:apply-templates/>
+        <xsl:text>]</xsl:text>
+    </xsl:template>
+    <xsl:template match="tei:analytic" mode="table">
+        <xsl:if test="tei:author">
+            <tr>
+                <th>Verfasser:in</th>
+                <td>
+                    <xsl:for-each select="tei:author">
+                        <xsl:value-of select="."/>
+                        <xsl:if test="not(position() = last())">
+                            <br/>
+                        </xsl:if>
+                    </xsl:for-each>
+                </td>
+            </tr>
+        </xsl:if>
+        <tr>
+            <th>Titel</th>
+            <td>
+                <xsl:value-of select="tei:title[@level = 'a']"/>
+            </td>
+        </tr>
+        <xsl:if test="tei:editor">
+            <tr>
+                <th>Herausgeber:in</th>
+                <td>
+                    <xsl:for-each select="tei:editor">
+                        <xsl:value-of select="."/>
+                        <xsl:if test="not(position() = last())">
+                            <br/>
+                        </xsl:if>
+                    </xsl:for-each>
+                </td>
+            </tr>
+        </xsl:if>
+    </xsl:template>
+    <xsl:template match="tei:monogr[preceding-sibling::tei:analytic]" mode="table">
+        <xsl:if test="tei:author">
+            <tr>
+                <th>Gesamtverfasser:in</th>
+                <td>
+                    <xsl:for-each select="tei:author">
+                        <xsl:value-of select="."/>
+                        <xsl:if test="not(position() = last())">
+                            <br/>
+                        </xsl:if>
+                    </xsl:for-each>
+                </td>
+            </tr>
+        </xsl:if>
+        <tr>
+            <th>Titel</th>
+            <td>
+                <xsl:choose>
+                    <xsl:when test="tei:monogr/tei:title[@level = 'j' and @ref]">
+                        <xsl:element name="a">
+                            <xsl:attribute name="href">
+                                <xsl:value-of
+                                    select="concat('toc_', tei:monogr/tei:title[@level = 'j' and @ref]/@ref, '.html')"
+                                />
+                            </xsl:attribute>
+                            <xsl:value-of
+                                select="tei:monogr/tei:title[@level = 'j' and @ref]"/>
+                        </xsl:element>
+                    </xsl:when>
+                    <xsl:when test="tei:monogr/tei:title[@level = 'm' and @ref]">
+                        <xsl:element name="a">
+                            <xsl:attribute name="href">
+                                <xsl:value-of
+                                    select="concat(tei:monogr/tei:title[@level = 'm' and @ref]/@ref, '.html')"
+                                />
+                            </xsl:attribute>
+                            <xsl:value-of
+                                select="tei:monogr/tei:title[@level = 'm' and @ref]"/>
+                        </xsl:element>
+                    </xsl:when>
+                </xsl:choose>
+            </td>
+        </tr>
+        <xsl:if test="tei:editor">
+            <tr>
+                <th>Gesamtherausgeber:in</th>
+                <td>
+                    <xsl:for-each select="tei:editor">
+                        <xsl:value-of select="."/>
+                        <xsl:if test="not(position() = last())">
+                            <br/>
+                        </xsl:if>
+                    </xsl:for-each>
+                </td>
+            </tr>
+        </xsl:if>
+        <xsl:if test="tei:imprint">
+            <tr>
+                <th>Erschienen</th>
+                <td>
+                    <xsl:if test="tei:imprint/tei:pubPlace">
+                        <xsl:value-of select="tei:imprint/tei:pubPlace" separator=", "/>
+                        <br/>
+                    </xsl:if>
+                    <xsl:if test="tei:imprint/tei:publisher">
+                        <xsl:value-of select="tei:imprint/tei:publisher" separator=", "/>
+                        <br/>
+                    </xsl:if>
+                    <xsl:if test="tei:imprint/tei:date">
+                        <xsl:value-of select="tei:imprint/tei:date"/>
+                        <br/>
+                    </xsl:if>
+                    <xsl:if test="tei:imprint/tei:biblScope[@unit = 'jg']">
+                        <xsl:value-of
+                            select="concat('Jahrgang ', tei:imprint/tei:biblScope[@unit = 'jg'])"/>
+                        <br/>
+                    </xsl:if>
+                    <xsl:if test="tei:imprint/tei:biblScope[@unit = 'vol']">
+                        <xsl:value-of
+                            select="concat('Band ', tei:imprint/tei:biblScope[@unit = 'vol'])"/>
+                        <br/>
+                    </xsl:if>
+                    <xsl:if test="tei:imprint/tei:biblScope[@unit = 'issue']">
+                        <xsl:value-of
+                            select="concat('Nummer ', tei:imprint/tei:biblScope[@unit = 'issue'])"/>
+                        <br/>
+                    </xsl:if>
+                    <xsl:if test="tei:imprint/tei:biblScope[@unit = 'page']">
+                        <xsl:value-of
+                            select="concat('Seite ', tei:imprint/tei:biblScope[@unit = 'page'])"/>
+                        <br/>
+                    </xsl:if>
+                </td>
+            </tr>
+        </xsl:if>
     </xsl:template>
 </xsl:stylesheet>
