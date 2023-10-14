@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:foo="whatever"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr - Textverzeichnis</title>
+            <title level="a">Der Strom</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-07+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis-data/tocs/toc_pmb46360.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Verzeichnis von Texten nach Periodikum</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <item>HB-tv_189.xml<title level="a">Campbell</title>
+               <date when="1912-02-01">Februar 1912</date>
+            </item>
+            <item>HB-tv_4329.xml<title level="a">Tagebuch. 5. Juni</title>
+               <date when="1911-09-01">September 1911</date>
+            </item>
+            <item>HB-tv_4328.xml<title level="a">Tagebuch. 29. [April]</title>
+               <date when="1911-06-01">Juni 1911</date>
+            </item>
+            <item>HB-tv_2217.xml<title level="a">Tagebuch. 28. Mai, Venedig, Lido</title>
+               <date when="1911-09-01">September 1911</date>
+            </item>
+            <item>HB-tv_2216.xml<title level="a">Tagebuch. Sankt Veit bei Wien, 8. April</title>
+               <date when="1911-06-01">Juni 1911</date>
+            </item>
+            <item>HB-tv_886.xml<title level="a">Viktor Adler zum Sechzigsten</title>
+               <date when="1912-07-01">Juli 1912</date>
+            </item>
+            <item>HB-tv_4326.xml<title level="a">Tagebuch. 26. [April]</title>
+               <date when="1911-06-01">Juni 1911</date>
+            </item>
+            <item>HB-tv_4327.xml<title level="a">Tagebuch. 28. [April]</title>
+               <date when="1911-06-01">Juni 1911</date>
+            </item>
+            <item>HB-tv_4325.xml<title level="a">Tagebuch. Sankt Veit, 20. [April]</title>
+               <date when="1911-06-01">Juni 1911</date>
+            </item>
+            <item>HB-tv_4330.xml<title level="a">Tagebuch. 20. Juni</title>
+               <date when="1911-09-01">September 1911</date>
+            </item>
+            <item>HB-tv_4324.xml<title level="a">Tagebuch. Triest, 12. [April]</title>
+               <date when="1911-06-01">Juni 1911</date>
+            </item>
+            <item>HB-tv_1414.xml<title level="a">Walt Whitman</title>
+               <date when="1911-04-01">April 1911</date>
+            </item>
+         </list>
+      </body>
+   </text>
+</TEI>

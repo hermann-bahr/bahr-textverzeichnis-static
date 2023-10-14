@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:foo="whatever"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr - Textverzeichnis</title>
+            <title level="a">Wiener Allgemeine Zeitung</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-07+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis-data/tocs/toc_pmb39950.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Verzeichnis von Texten nach Periodikum</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <item>HB-tv_1424.xml<title level="a">Wilson</title>
+               <date when="1924-12-14">14.12.1924</date>
+            </item>
+            <item>HB-tv_1197.xml<title level="a">Das Problem</title>
+               <date when="1923-12-24">24.12.1923</date>
+            </item>
+            <item>HB-tv_953.xml<title level="a">Ein Experiment</title>
+               <date when="1892-04-08">8.4.1892</date>
+            </item>
+            <item>HB-tv_3630.xml<title level="a">Der Symbolismus. Conférence</title>
+               <date when="1892-05-05">5.5.1892</date>
+            </item>
+            <item>HB-tv_1542.xml<title level="a">Hugo Wolf</title>
+               <date when="1898-04-10">10.4.1898</date>
+            </item>
+            <item>HB-tv_1096.xml<title level="a">Eleonora Duse</title>
+               <date when="1892-02-19">19.2.1892</date>
+            </item>
+            <item>HB-tv_1244.xml<title level="a">Seipel</title>
+               <date when="1923-10-08">8.10.1923</date>
+            </item>
+            <item>HB-tv_4468.xml<title level="a">Ein Interview über den Antisemitismus</title>
+               <date when="1893-04-21">21.4.1893</date>
+            </item>
+            <item>HB-tv_4697.xml<title level="a">[Beitrag ?]</title>
+               <date when="1889">1889</date>
+            </item>
+            <item>HB-tv_1428.xml<title level="a">Wörterbuch</title>
+               <date when="1922-12-23">23.12.1922</date>
+            </item>
+         </list>
+      </body>
+   </text>
+</TEI>

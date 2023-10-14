@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:foo="whatever"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr - Textverzeichnis</title>
+            <title level="a">Neues Wiener Abendblatt</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-07+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis-data/tocs/toc_pmb65921.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Verzeichnis von Texten nach Periodikum</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <item>HB-tv_4831.xml<title level="a">Theater und Kunst. Theater an der Wien</title>
+               <date when="1904-10-10">10.10.1904</date>
+            </item>
+            <item>HB-tv_1319.xml<title level="a">Theater und Kunst. [Bei Miethke]</title>
+               <date when="1899-12-20">20.12.1899</date>
+            </item>
+            <item>HB-tv_2025.xml<title level="a">Theater an der Wien</title>
+               <date when="1905-06-09">9.6.1905</date>
+            </item>
+            <item>HB-tv_4654.xml<title level="a">Ein Ehrenbeleidigungsprozess. [Anklageschrift]</title>
+               <date when="1901-02-22">22.2.1901</date>
+            </item>
+            <item>HB-tv_1104.xml<title level="a">Vom Lesetische. Maurice Barrès</title>
+               <date when="1894-02-12">12.2.1894</date>
+            </item>
+         </list>
+      </body>
+   </text>
+</TEI>

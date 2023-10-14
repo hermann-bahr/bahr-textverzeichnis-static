@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:foo="whatever"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr - Textverzeichnis</title>
+            <title level="a">Königsberger Hartungsche
+                  Zeitung</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-07+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis-data/tocs/toc_pmb122125.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Verzeichnis von Texten nach Periodikum</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <item>HB-tv_6798.xml<title level="a">Für die Freiheit der Kunst</title>
+               <date when="1925-10-02">2.10.1925</date>
+            </item>
+            <item>HB-tv_6808.xml<title level="a">Die Lebensbedingungen der Schaubühne im Jahr 1927</title>
+               <date when="1927-01-28">28.1.1927</date>
+            </item>
+            <item>HB-tv_6251.xml<title level="a">Österreich</title>
+               <date when="1915-03-07">7.3.1915</date>
+            </item>
+            <item>HB-tv_6250.xml<title level="a">Hermann Bahr, Die Rahl. Roman. (S. Fischer, Verlag Berlin). Geh.
+                     4 Mk, geb. 5 Mk.</title>
+               <date when="1908-11-15">15.11.1908</date>
+            </item>
+            <item>HB-tv_2055.xml<title level="a">Für Adele Sandrock</title>
+               <date when="1914-11-09">9.11.1914</date>
+            </item>
+            <item>HB-tv_6797.xml<title level="a">Was planen Sie für fürs neue Jahr</title>
+               <date when="1925-03-06">6.3.1925</date>
+            </item>
+         </list>
+      </body>
+   </text>
+</TEI>

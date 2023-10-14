@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:foo="whatever"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr - Textverzeichnis</title>
+            <title level="a">Neue deutsche Rundschau</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-07+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis-data/tocs/toc_pmb36152.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Verzeichnis von Texten nach Periodikum</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <item>HB-tv_3540.xml<title level="a">Anna Helene</title>
+               <date when="1894">1894</date>
+            </item>
+            <item>HB-tv_3586.xml<title level="a">»Gäa«</title>
+               <date when="1896">1896</date>
+            </item>
+            <item>HB-tv_3587.xml<title level="a">Der Umgang mit Rezensenten</title>
+               <date when="1896">1896</date>
+            </item>
+            <item>HB-tv_3585.xml<title level="a">Aufruf</title>
+               <date when="1897">1897</date>
+            </item>
+            <item>HB-tv_1726.xml<title level="a" ref="pmb29895">Dialog vom Tragischen</title>
+               <date when="1903">1903</date>
+            </item>
+            <item>HB-tv_122.xml<title level="a" ref="pmb32498">Wächterl</title>
+               <date when="1894-05-01">Mai 1894</date>
+            </item>
+            <item>HB-tv_2581.xml<title level="a" ref="pmb32073">Wiener Brief</title>
+               <date when="1893-12">Dezember 1893</date>
+            </item>
+            <item>HB-tv_123.xml<title level="a">Niobe</title>
+               <date when="1894">1894</date>
+            </item>
+            <item>HB-tv_124.xml<title level="a">Der liebe Augustin. Pantomime</title>
+               <date when="1902">1902</date>
+            </item>
+         </list>
+      </body>
+   </text>
+</TEI>

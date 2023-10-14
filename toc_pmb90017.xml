@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:foo="whatever"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0        http://diglib.hab.de/rules/schema/tei/P5/v2.3.0/tei-p5-transcr.xsd">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr - Textverzeichnis</title>
+            <title level="a">Wiener Salonblatt</title>
+            <respStmt>
+               <resp>providing the content</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+            <respStmt>
+               <resp>converted to XML encoding</resp>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</publisher>
+            <date>2023-01-07+01:00</date>
+            <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis-data/tocs/toc_pmb90017.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Verzeichnis von Texten nach Periodikum</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <item>HB-tv_1181.xml<title level="a">Pariser Brief. Paris, 11. Juni</title>
+               <date when="1889-06-16">16.6.1889</date>
+            </item>
+            <item>HB-tv_1180.xml<title level="a">Pariser Brief. Paris, 27. Mai</title>
+               <date when="1889-06-02">2.6.1889</date>
+            </item>
+            <item>HB-tv_1182.xml<title level="a">Pariser Brief. 15. Juli</title>
+               <date when="1889-07-21">21.7.1889</date>
+            </item>
+            <item>HB-tv_1178.xml<title level="a">Pariser Brief. Paris, Ende Februar</title>
+               <date when="1889-03-03">3.3.1889</date>
+            </item>
+            <item>HB-tv_1179.xml<title level="a">Pariser Brief. – Mitte April</title>
+               <date when="1889-04-21">21.4.1889</date>
+            </item>
+            <item>HB-tv_1090.xml<title level="a">Pariser Brief. St. Cloud, 1. Juli</title>
+               <date when="1889-07-07">7.7.1889</date>
+            </item>
+            <item>HB-tv_1091.xml<title level="a">Pariser Brief. Paris, 26. Juni</title>
+               <date when="1889-06-30">30.6.1889</date>
+            </item>
+            <item>HB-tv_1088.xml<title level="a">Pariser Brief. – 4. April</title>
+               <date when="1889-04-07">7.4.1889</date>
+            </item>
+            <item>HB-tv_1089.xml<title level="a">Pariser Ausstellungsbrief. Paris, Mitte Mai</title>
+               <date when="1889-05-19">19.5.1889</date>
+            </item>
+            <item>HB-tv_178.xml<title level="a">Pariser Brief. – Anfang März</title>
+               <date when="1889-03-17">17.3.1889</date>
+            </item>
+         </list>
+      </body>
+   </text>
+</TEI>
