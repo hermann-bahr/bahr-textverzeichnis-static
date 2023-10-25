@@ -18,11 +18,14 @@ except ObjectNotFound:
 
 current_schema = {
     "name": "hbtv",
+    "enable_nested_fields": True,
     "fields": [
         {"name": "id", "type": "string"},
         {"name": "rec_id", "type": "string"},
         {"name": "title", "type": "string"},
         {"name": "full_text", "type": "string"},
+        {"name": "authors", "type": "object[]", "facet": True, "optional": True},
+        {"name": "type", "type": "string[]", "facet": True, "optional": True},
         {
             "name": "year",
             "type": "int32",
@@ -45,17 +48,34 @@ for x in tqdm(files, total=len(files)):
     body = doc.any_xpath(".//tei:body")[0]
     record["id"] = os.path.split(x)[-1].replace(".xml", "")
     cfts_record["id"] = record["id"]
-    cfts_record["resolver"] = f"https://hermann-bahr.github.io/hbtv-static/{record['id']}.html"
+    cfts_record[
+        "resolver"
+    ] = f"https://hermann-bahr.github.io/hbtv-static/{record['id']}.html"
     record["rec_id"] = os.path.split(x)[-1]
+    types = []
+    for a in doc.any_xpath(".//tei:biblStruct[@type]"):
+        try:
+            types.append(a.attrib["subtype"])
+        except KeyError:
+            pass
+        types.append(a.attrib["type"])
+    record["type"] = types
+    authors = []
+    for a in doc.any_xpath(".//tei:author[@ref]"):
+        item = {}
+        item["id"] = a.attrib["ref"]
+        item["name"] = a.text
+        authors.append(item)
+    record["authors"] = authors
     cfts_record["rec_id"] = record["rec_id"]
     record["title"] = " ".join(
         " ".join(doc.any_xpath('.//tei:titleStmt/tei:title[@level="a"]/text()')).split()
     )
     cfts_record["title"] = record["title"]
     try:
-        date_str = doc.any_xpath(
-            '//tei:titleStmt/tei:title[@type="iso-date"]/@when-iso'
-        )[0]
+        date_str = doc.any_xpath('//tei:titleStmt/tei:title[@type="iso-date"]/text()')[
+            0
+        ]
     except IndexError:
         date_str = "1000"
 
