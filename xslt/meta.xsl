@@ -364,10 +364,29 @@
             </span>
         </li>
     </xsl:template>
-    <xsl:template match="tei:list">
+    <xsl:template match="tei:list[not(child::tei:item[tei:term and tei:note])]">
         <ul>
             <xsl:apply-templates/>
         </ul>
+    </xsl:template>
+   <xsl:template match="tei:note[parent::tei:item/tei:term]">
+       <dd>
+           <xsl:apply-templates/>
+           
+       </dd>
+       
+   </xsl:template>
+    <xsl:template match="tei:term[parent::tei:item/tei:note]">
+        <dt>
+            <xsl:apply-templates/>
+            
+        </dt>
+        
+    </xsl:template>
+    <xsl:template match="tei:list[(child::tei:item[tei:term and tei:note])]">
+        <dl>
+            <xsl:apply-templates/>
+        </dl>
     </xsl:template>
     <xsl:template match="tei:item">
         <li>
