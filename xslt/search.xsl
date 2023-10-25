@@ -36,9 +36,9 @@
                                             <div id="clear-refinements"></div>
                                              <h2>Zeitraum</h2>
                                             <div id="refinement-range-year"></div>
-                                            <h2>AutorInnen</h2>
+                                            <h2>Autorinnen und Autoren</h2>
                                             <div id="refinement-list-authors"></div>
-                                            <h2>Bibliogaphische Kateogrie</h2>
+                                            <h2>Bibliografische Kategorie</h2>
                                             <div id="refinement-list-type"></div>
                                         </div>
                                         <div class="col-md-8">
