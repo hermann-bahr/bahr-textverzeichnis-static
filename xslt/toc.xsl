@@ -70,6 +70,7 @@
                         </div>
                     </div>
                     <xsl:call-template name="html_footer"/>
+                    <script src="js/dt.js"/>
                     <script>
                         $(document).ready(function () {
                             createDataTable('tocTable')

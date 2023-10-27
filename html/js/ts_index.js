@@ -1,3 +1,5 @@
+var project_collection_name = "hbtv"
+
 const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
   server: {
     apiKey: "scnRoJ47N3f66cPlrivxdDw44hKepDVv",
@@ -18,8 +20,8 @@ const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
 
 const searchClient = typesenseInstantsearchAdapter.searchClient;
 const search = instantsearch({
-  indexName: 'hbtv',
   searchClient,
+  indexName: project_collection_name,
 });
 
 search.addWidgets([
@@ -36,16 +38,26 @@ search.addWidgets([
 
   instantsearch.widgets.hits({
     container: '#hits',
+    cssClasses: {
+      item: "w-100"
+    },
     templates: {
-      empty: 'Keine Ergebnisse',
-      item: `
-              <h4><a href="{{ id }}.html">{{ title }}</a></h4>
-              <p>{{#helpers.snippet}}{ "attribute": "full_text" }{{/helpers.snippet}}</p>
-              <h5><span class="badge badge-primary">{{ project }}</span></h5>
-              <div>
-              </div>
-          `
-    }
+      empty: "Keine Resultate für <q>{{ query }}</q>",
+      item(hit, { html, components }) {
+        var bibl_type = `${hit.type}`.replace("_", " ")
+        return html` 
+      <h3><a href='${hit.id}.html'>${hit.title}</a></h3>
+      <p>${hit._snippetResult.full_text.matchedWords.length > 0 ? components.Snippet({ hit, attribute: 'full_text' }) : ''}</p>
+      ${hit.type.map((item) => html`<span class="badge rounded-pill m-1 bg-info">${item.replace("_", " ")}</span>`)}
+      ${hit.authors.map((item) => html`<a href='https://pmb.acdh.oeaw.ac.at/entity/${item.id.replace("pmb", "")}'><span class="badge rounded-pill m-1 bg-warning">${item.name}</span></a>`)}
+      
+      `;
+      },
+    },
+  }),
+
+  instantsearch.widgets.pagination({
+    container: '#pagination',
   }),
 
   instantsearch.widgets.stats({
@@ -74,35 +86,39 @@ search.addWidgets([
     attribute: "type",
     searchable: true,
     cssClasses: {
-        showMore: "btn btn-secondary btn-sm align-content-center",
-        list: "list-unstyled",
-        count: "badge m-2 badge-secondary hideme",
-        label: "d-flex align-items-center",
-        checkbox: "m-2",
-    },
-}),
-
-instantsearch.widgets.refinementList({
-  container: "#refinement-list-authors",
-  attribute: "authors.name",
-  searchable: true,
-  cssClasses: {
       showMore: "btn btn-secondary btn-sm align-content-center",
       list: "list-unstyled",
       count: "badge m-2 badge-secondary hideme",
       label: "d-flex align-items-center",
       checkbox: "m-2",
-  },
-}),
+    },
+  }),
 
-  instantsearch.widgets.pagination({
-    container: '#pagination',
-    padding: 2,
+  instantsearch.widgets.refinementList({
+    container: "#refinement-list-authors",
+    attribute: "authors.name",
+    searchable: true,
     cssClasses: {
-      list: 'pagination',
-      item: 'page-item',
-      link: 'page-link'
-    }
+      showMore: "btn btn-secondary btn-sm align-content-center",
+      list: "list-unstyled",
+      count: "badge m-2 badge-secondary hideme",
+      label: "d-flex align-items-center",
+      checkbox: "m-2",
+    },
+  }),
+
+  instantsearch.widgets.rangeInput({
+    container: "#refinement-range-year",
+    attribute: "year",
+    templates: {
+      separatorText: "bis",
+      submitText: "Suchen",
+    },
+    cssClasses: {
+      form: "form-inline",
+      input: "form-control",
+      submit: "btn",
+    },
   }),
 
   instantsearch.widgets.clearRefinements({

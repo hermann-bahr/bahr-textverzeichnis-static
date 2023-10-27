@@ -34,7 +34,7 @@
                                             <div id="searchbox"></div>
                                             <div id="current-refinements"></div>
                                             <div id="clear-refinements"></div>
-                                             <h2>Zeitraum</h2>
+                                            <h2>Zeitraum</h2>
                                             <div id="refinement-range-year"></div>
                                             <h2>Autorinnen und Autoren</h2>
                                             <div id="refinement-list-authors"></div>
@@ -54,7 +54,7 @@
                     <xsl:call-template name="html_footer"/>
                     
                 </div>
-               <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/algolia-min.css" /> -->
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/algolia-min.css" /> 
                 <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.46.0"></script>
                 <script
                     src="https://cdn.jsdelivr.net/npm/typesense-instantsearch-adapter@2/dist/typesense-instantsearch-adapter.min.js"></script>

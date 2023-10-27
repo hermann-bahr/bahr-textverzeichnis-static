@@ -15,7 +15,7 @@ function getYear(item) {
     name: r.name,
     linkId: r.id,
     color: '#8E4162'
-  })).filter(r => r.startDate.getFullYear() === 1891);
+  })).filter(r => r.startDate.getFullYear() === 1915);
   
   
   
@@ -26,10 +26,10 @@ function getYear(item) {
     yearsTable.insertAdjacentHTML('beforeend', createyearcell(years[i]));
   }
   
-  //document.getElementById("ybtn1910").classList.add("focus");
+  document.getElementById("ybtn1915").classList.add("focus");
   
   const calendar = new Calendar('#calendar', {
-    startYear: 1891,
+    startYear: 1915,
     language: "de",
     dataSource: data,
     displayHeader: false,
