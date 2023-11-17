@@ -37,7 +37,10 @@
                                     erschienenen Texte von Hermann Bahr (1863–1934) nach. Erstmals <a href="https://asw-verlage.de/katalog/hermann_bahr_____textverzeichnis-801.html" target="_blank">veröffentlicht</a> wurde es 2014 im Verlag
                                 VDG Weimar. Hier wird es in einer digitalen Fassung zugänglich gemacht.</p>
                                 <p/>
-                                <p><span style="color:red">DIESE SEITE IST IN AUFBAU UND SOLLTE ENDE 2023 FERTIG SEIN. Die Daten sind vorhanden. Folgende drei
+                                <p><span style="color:red">DIESE SEITE IST IN AUFBAU UND SOLLTE IN DEN NÄCHSTEN MONATEN FERTIG SEIN. Die Daten sind vorhanden. Die noch bestehenden
+                                    Probleme sind auf <a href="" target="_blank">gitHub</a> zu finden.
+                                    
+                                    Folgende drei
                                     Punkte sind noch zu lösen:</span></p>
                                 <p><span style="color:red">* Bei der Ansicht eines Sammelwerkes sollen die enthaltenen Texte aufgeführt werden.</span></p>
                                 <p><span style="color:red">* Die Verlinkungen

@@ -27,7 +27,11 @@
                                 <h1><xsl:value-of select="descendant::tei:titleStmt/tei:title[@level='a']"/></h1>
                             </div>
                             <div class="card-body">
-                                
+                                <div class="w-100 text-center">
+                                    <div class="spinner-grow table-loader" role="status">
+                                        <span class="sr-only">Wird geladen…</span>
+                                    </div>
+                                </div>
                                 <table class="table table-striped display" id="tocTable" style="width:100%">
                                     <thead>
                                         <tr>
@@ -71,7 +75,8 @@
                     </div>
                     
                     <xsl:call-template name="html_footer"/>
-                    <script src="js/dt.js"/>
+                    <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"/>
+                    <script type="text/javascript" src="js/dt.js"/>
                     <script>
                         $(document).ready(function () {
                         createDataTable('tocTable')
