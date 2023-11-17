@@ -38,15 +38,7 @@
                                 VDG Weimar. Hier wird es in einer digitalen Fassung zugänglich gemacht.</p>
                                 <p/>
                                 <p><span style="color:red">DIESE SEITE IST IN AUFBAU UND SOLLTE IN DEN NÄCHSTEN MONATEN FERTIG SEIN. Die Daten sind vorhanden. Die noch bestehenden
-                                    Probleme sind auf <a href="" target="_blank">gitHub</a> zu finden.
-                                    
-                                    Folgende drei
-                                    Punkte sind noch zu lösen:</span></p>
-                                <p><span style="color:red">* Bei der Ansicht eines Sammelwerkes sollen die enthaltenen Texte aufgeführt werden.</span></p>
-                                <p><span style="color:red">* Die Verlinkungen
-                                    zwischen den einzelnen Abdrucken eines Textes fehlen teilweise.</span></p>
-                                <p><span style="color:red">* Das Personenregister
-                                    fehlt völlig.</span></p>
+                                    Probleme sind auf <a href="https://github.com/hermann-bahr/bahr-textverzeichnis-static/issues" target="_blank">gitHub</a> zu finden.</span></p>
                                 <p><i>Wien, November 2023</i></p>
                                 <p style="text-align: right;"><i>Martin Anton Müller</i></p>
                                 <p/>
