@@ -38,10 +38,13 @@
                                 VDG Weimar. Hier wird es in einer digitalen Fassung zugänglich gemacht.</p>
                                 <p/>
                                 <p><span style="color:red">DIESE SEITE IST IN AUFBAU UND SOLLTE ENDE 2023 FERTIG SEIN. Die Daten sind vorhanden. Folgende drei
-                                    Punkte sind noch zu lösen: * Bei der Ansicht eines Sammelwerkes sollen die enthaltenen Texte aufgeführt werden. * Die Verlinkungen
-                                    zwischen den einzelnen Abdrucken eines Textes fehlen teilweise. * Das Personenregister
+                                    Punkte sind noch zu lösen:</span></p>
+                                <p><span style="color:red">* Bei der Ansicht eines Sammelwerkes sollen die enthaltenen Texte aufgeführt werden.</span></p>
+                                <p><span style="color:red">* Die Verlinkungen
+                                    zwischen den einzelnen Abdrucken eines Textes fehlen teilweise.</span></p>
+                                <p><span style="color:red">* Das Personenregister
                                     fehlt völlig.</span></p>
-                                <p><i>Wien, Oktober 2023</i></p>
+                                <p><i>Wien, November 2023</i></p>
                                 <p style="text-align: right;"><i>Martin Anton Müller</i></p>
                                 <p/>
                             </div>
