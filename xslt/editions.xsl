@@ -17,23 +17,25 @@
     <xsl:variable name="prev">
         <xsl:choose>
             <xsl:when test="ends-with(tokenize(data(tei:TEI/@prev), '/')[last()], '.xml')">
-                <xsl:value-of select="concat(replace(tokenize(data(tei:TEI/@prev), '/')[last()], '.xml', ''), '.html')"
+                <xsl:value-of
+                    select="concat(replace(tokenize(data(tei:TEI/@prev), '/')[last()], '.xml', ''), '.html')"
                 />
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of select="concat(data(tei:TEI/@prev), '.html')"/>
-            </xsl:otherwise>       
+            </xsl:otherwise>
         </xsl:choose>
     </xsl:variable>
     <xsl:variable name="next">
         <xsl:choose>
             <xsl:when test="ends-with(tokenize(data(tei:TEI/@next), '/')[last()], '.xml')">
-                <xsl:value-of select="concat(replace(tokenize(data(tei:TEI/@prev), '/')[last()], '.xml', ''), '.html')"
+                <xsl:value-of
+                    select="concat(replace(tokenize(data(tei:TEI/@prev), '/')[last()], '.xml', ''), '.html')"
                 />
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of select="concat(data(tei:TEI/@next), '.html')"/>
-            </xsl:otherwise>       
+            </xsl:otherwise>
         </xsl:choose>
     </xsl:variable>
     <xsl:variable name="teiSource">
@@ -168,15 +170,16 @@
                 <xsl:if test="tei:series">
                     <xsl:apply-templates select="tei:series" mode="table"/>
                 </xsl:if>
+                <xsl:apply-templates select="tei:note[@type = 'toc']"/>
                 <xsl:apply-templates
-                    select="child::tei:note[not(@type = 'bibliographical-statement')]"/>
+                    select="child::tei:note[not(@type = 'bibliographical-statement') and not(@type = 'toc')]"/>
                 <xsl:apply-templates select="child::tei:ref[@type = 'URL']"/>
                 <xsl:apply-templates select="child::tei:ref[@type = 'abdrucke']"/>
                 <xsl:apply-templates select="child::tei:noteGrp[@type = 'keywords']"/>
             </tbody>
         </table>
     </xsl:template>
-    <xsl:template match="tei:biblStruct/tei:note[not(child::tei:bibl)]">
+    <xsl:template match="tei:biblStruct/tei:note[not(child::tei:bibl) and not(@type = 'toc')]">
         <tr>
             <th>
                 <xsl:choose>
@@ -207,6 +210,32 @@
                 </xsl:choose>
             </td>
         </tr>
+    </xsl:template>
+    <xsl:template match="tei:biblStruct/tei:note[@type = 'toc']">
+        <tr>
+            <th>Inhaltsverzeichnis</th>
+        </tr>
+        <xsl:for-each select="tei:desc">
+            <xsl:variable name="corresp" select="replace(@corresp, '#', '')"/>
+            <tr>
+                <td>
+                    <xsl:element name="a">
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="concat($corresp, '.html')"/>
+                        </xsl:attribute>
+                        <xsl:value-of select="@ana"/>
+                    </xsl:element>
+                </td>
+                <td>
+                    <xsl:element name="a">
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="concat($corresp, '.html')"/>
+                        </xsl:attribute>
+                        <xsl:value-of select="."/>
+                    </xsl:element>
+                </td>
+            </tr>
+        </xsl:for-each>
     </xsl:template>
     <xsl:template match="tei:biblStruct/tei:note[child::tei:bibl]">
         <tr>
