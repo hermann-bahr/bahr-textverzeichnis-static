@@ -17,7 +17,7 @@
     <xsl:variable name="prev">
         <xsl:choose>
             <xsl:when test="ends-with(tokenize(data(tei:TEI/@prev), '/')[last()], '.xml')">
-                <xsl:value-of select="replace(tokenize(data(tei:TEI/@prev), '/')[last()], '.xml', '.html')"
+                <xsl:value-of select="concat(replace(tokenize(data(tei:TEI/@prev), '/')[last()], '.xml', ''), '.html')"
                 />
             </xsl:when>
             <xsl:otherwise>
@@ -28,7 +28,7 @@
     <xsl:variable name="next">
         <xsl:choose>
             <xsl:when test="ends-with(tokenize(data(tei:TEI/@next), '/')[last()], '.xml')">
-                <xsl:value-of select="replace(tokenize(data(tei:TEI/@next), '/')[last()], '.xml', '.html')"
+                <xsl:value-of select="concat(replace(tokenize(data(tei:TEI/@prev), '/')[last()], '.xml', ''), '.html')"
                 />
             </xsl:when>
             <xsl:otherwise>
