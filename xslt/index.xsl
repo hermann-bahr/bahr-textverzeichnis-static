@@ -25,23 +25,31 @@
                             style="background-image: url(img/bahr-textverzeichnis-index.jpg); background-size: 100%;">
                             <div class="carousel-caption"
                                 style="background-image: linear-gradient(rgba(38.0, 35.3, 37.6, 0.5), rgba(38.0, 35.3, 37.6, 0.5));position: static;">
+                                <h2>Martin Anton Müller</h2>
                                 <h1>Hermann Bahr – Textverzeichnis</h1>
-                                <h2>Digitale Ausgabe <span style="color:red">ENTWURF</span></h2>
+                                <h2>Digitale Ausgabe</h2>
                             </div>
                         </div>
                     </div>
                     <div class="container" style="margin-top:1em;">
                         <div class="row">
                             <div class="col-md-8" style="margin: 0 auto; ">
-                                <p style="font-size:18px;line-heigth:27px;">Das »Textverzeichnis« weist alle zu Lebzeiten in Druck
-                                    erschienenen Texte von Hermann Bahr (1863–1934) nach. Erstmals <a href="https://asw-verlage.de/katalog/hermann_bahr_____textverzeichnis-801.html" target="_blank">veröffentlicht</a> wurde es 2014 im Verlag
-                                VDG Weimar. Hier wird es in einer digitalen Fassung zugänglich gemacht.</p>
+                                <p style="font-size:18px;line-heigth:27px;">Das »Textverzeichnis«
+                                    weist alle zu Lebzeiten in Druck erschienenen Texte von Hermann
+                                    Bahr (1863–1934) nach. Die <a
+                                        href="https://asw-verlage.de/katalog/hermann_bahr_____textverzeichnis-801.html"
+                                        target="_blank">Druckfassung</a> erschien 2014 im Verlag VDG
+                                    Weimar.</p>
                                 <p/>
-                                <p><span style="color:red">DIESE SEITE IST IN AUFBAU UND SOLLTE IN DEN NÄCHSTEN MONATEN FERTIG SEIN. Die Daten sind vorhanden. Die noch bestehenden
-                                    Probleme sind auf <a href="https://github.com/hermann-bahr/bahr-textverzeichnis-static/issues" target="_blank">gitHub</a> zu finden.</span></p>
-                                <p><i>Wien, November 2023</i></p>
-                                <p style="text-align: right;"><i>Martin Anton Müller</i></p>
-                                <p/>
+                                <p>
+                                    <span style="color:red">DIESE SEITE IST IN AUFBAU, die fehlenden Funktionen
+                                         sind hier: <a
+                                            href="https://github.com/hermann-bahr/bahr-textverzeichnis-static/issues"
+                                            target="_blank">gitHub</a> gelistet.</span>
+                                </p>
+                                <p>
+                                    <i>Wien, November 2023</i>
+                                </p>
                             </div>
                         </div>
                     </div>
