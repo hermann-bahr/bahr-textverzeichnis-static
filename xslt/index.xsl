@@ -59,10 +59,10 @@
                                 Weimar.</p>
                             <p/>
                             <p class="mt-3">
-                                <span style="color:red">DIESE SEITE IST IN AUFBAU, die fehlenden Funktionen
+                                Diese Seite befindet sich im Aufbau, die fehlenden Funktionen
                                     sind hier: <a
                                         href="https://github.com/hermann-bahr/bahr-textverzeichnis-static/issues"
-                                        target="_blank">gitHub</a> gelistet.</span>
+                                        target="_blank">gitHub</a> gelistet.
                             </p>
                             <p class="mt-3" style="padding-bottom: 50px;">
                                 <i>Wien, November 2023</i>
