@@ -2,14 +2,14 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xml:id="pmb30963.xml"
-     prev="pmb134447"
-     next="pmb134463">
+     prev="pmb134439"
+     next="pmb31945">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Hermann Bahr – Textverzeichnis</title>
-            <title level="a">Die Mutter</title>
-            <title type="iso-date">1891-02-08</title>
+            <title level="a">Die Mutter. Drama in drei Akten</title>
+            <title type="iso-date">1891</title>
             <respStmt>
                <resp>providing the content</resp>
                <name>Martin Anton Müller</name>
@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-11-23+01:00</date>
+            <date>2023-11-24+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb30963.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -34,45 +34,87 @@
    <text>
       <body>
          <div type="bibliografische-angabe">
-            <biblStruct type="Journal-Article"
-                        subtype="Vorabdruck_Dichtung"
+            <biblStruct xml:id="pmb30963"
+                        type="Book"
                         status="checked"
-                        xml:id="pmb30963"
-                        sameAs="HB-tv_2179"
-                        prev="pmb134447"
-                        next="pmb134463">
-               <analytic>
-                  <author ref="pmb10815">Bahr, Hermann</author>
-                  <title level="a" ref="pmb30963">Die Mutter</title>
-               </analytic>
+                        prev="pmb134439"
+                        next="pmb31945">
                <monogr>
-                  <title level="j" ref="pmb122346">Die Moderne</title>
+                  <author ref="pmb10815">Bahr, Hermann</author>
+                  <title level="m" ref="pmb141395">Die Mutter. Drama in drei Akten</title>
                   <imprint>
-                     <biblScope unit="jg">1</biblScope>
-                     <biblScope unit="issue">2/3</biblScope>
-                     <biblScope unit="page">31–40</biblScope>
-                     <date when="1891-02-08">8.2.1891</date>
+                     <pubPlace>Berlin</pubPlace>
+                     <publisher>Sallis’scher Verlag</publisher>
+                     <date when="1891">1891</date>
                   </imprint>
+                  <extent>64 Seiten</extent>
                </monogr>
                <note>
-                  <p>Anm. der Redaktion, S. 40: »Wir bringen in der ›Moderne‹ nur diesen einen Act
-                     der ›Mutter‹. Das ganze Schauspiel erscheint gleichzeitig in Buch-Ausgabe im
-                     Sallis’schen Verlage in Berlin.« Vgl. auch Bahr an Leo Berg, Januar 1891.</p>
+                  <p>»Dem genialen Realisten Emanuel Reicher in dankbarer Treue. Berlin, 18. Januar
+                     1891« Die Münchner Kunst (2 (1890) #51, 352. - 25.12.1890) berichtet, ohne das
+                     Stück zu nennen, dass es fertig gestellt sei und auch ins Französische
+                     übersetzt werden soll. Die nächste Nummer der Zeitschrift (#52, 520 - 1.1.1890)
+                     bezeichnet es als soeben fertiggestellt und erwähnt die französische
+                     Übersetzung. Am 17. Jänner 1891 schreibt Bahr seinem Vater, dass »Ende
+                     nächster, Anfang übernächster« »Die Mutter« erscheinen dürfte, am 3. Februar
+                     berichtet er, dass sie erschienen wäre. Die Bezahlung blieb aus und wurde von
+                     Bahr gerichtlich eingefordert. (Brief an den Vater, 20.12.1891)</p>
                </note>
-               <note type="monographies">
+               <note type="reviews">
                   <bibl>
-                     <title level="m">Die Mutter</title>
+                     <author>Felix Holländer</author>
+                     <title level="a">Glossen zu Hermann Bahr’s Décadence-Drama »Die Mutter«</title>
+                     <title level="j">Die Moderne</title>
+                     <date when="1891-03-24">24.3.1891</date>
+                     <biblScope unit="page">123–126</biblScope>
+                  </bibl>
+                  <bibl>
+                     <author>Theodor Wolff</author>
+                     <title level="a">Ein Verirrter</title>
+                     <title level="j" ref="pmb41531">Berliner Tageblatt</title>
+                     <date when="1891-04-04">4.4.1891</date>
+                  </bibl>
+                  <bibl>
+                     <author>Loris [=Hugo von Hofmannsthal]</author>
+                     <title level="a">Die Mutter</title>
+                     <title level="j">Moderne Rundschau</title>
+                     <biblScope unit="jg">2</biblScope>
+                     <biblScope unit="issue">2</biblScope>
+                     <biblScope unit="page">75–77</biblScope>
+                     <date when="1891-04-15">15.4.1891</date>
+                     <note>mit »Zur Kritik der Moderne«</note>
+                  </bibl>
+                  <bibl>
+                     <author>C- G. [Curt Grottewitz]</author>
+                     <title level="j" ref="pmb40968">Magazin für Litteratur</title>
+                     <biblScope unit="jg">60</biblScope>
+                     <date type="year">1891</date>
+                     <biblScope unit="page">175–176</biblScope>
+                  </bibl>
+                  <bibl>
+                     <title level="j">Kunstwart</title>
+                     <biblScope unit="jg">5</biblScope>
+                     <date type="year">1891</date>
+                     <biblScope unit="issue">4</biblScope>
+                     <biblScope unit="page">276–277</biblScope>
+                     <date>15.11.1891</date>
                   </bibl>
                </note>
-               <note type="incipit">Erster Akt. Großer Salon in dunklen Farben.</note>
-               <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-moderne/1891-2-8_mutter_vorabdruck-exzerpt.pdf</ref>
+               <note type="summary">Das Stück handelt von der Mutter, einer alternden
+                  Schauspielerin, die verhindern will, dass ihr zwanzigjähriger Sohn Edi sich in
+                  Terka verliebt, mit der sie selbst zuvor in einer leidenschaftlichen Beziehung
+                  gestanden ist. Als die Mutter im Hause Terkas bei einem Treffen auftaucht,
+                  verletzt sich Edi durch eine herunterfallende Vorhangsstange. Im letzten Akt
+                  versucht die Mutter, Edi zu pflegen, sei es, indem sie sich als Geliebte anbietet,
+                  sei es, dass sie verrät, den Vater aus Liebe umgebracht zu haben. Die Aufregung
+                  lässt Edi sterben und die Mutter, von einem alternden Clown getröstet, in
+                  wahnsinniges Gelächter ausbrechen.</note>
+               <ref type="URL">https://anno.onb.ac.at/cgi-content/anno-buch?apm=0&amp;aid=45</ref>
                <noteGrp type="keywords">
-                  <note type="Journal-Article">Artikel in einem Periodikum</note>
-                  <note subtype="Vorabdruck">Vorabdruck</note>
-                  <note subtype="Dichtung">Dichtung</note>
+                  <note type="Book">Buch</note>
                </noteGrp>
-               <note type="bibliographical-statement">Hermann Bahr: Die Mutter. In: Die Moderne,
-                  Jg. 1, Nr. 2/3, 8.2.1891, S. 31–40.</note>
+               <note type="bibliographical-statement">Hermann Bahr: Die Mutter. Drama in drei Akten.
+                  Berlin: Sallis’scher Verlag 1891 (64 Seiten).</note>
             </biblStruct>
          </div>
       </body>
