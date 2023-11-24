@@ -6,7 +6,7 @@
         <nav class="navbar navbar-expand-md" style="padding-top:1px;">
             <div class="container-fluid">
                 <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url">
-                    <img src="{$project_logo}" class="img-fluid" title="{$project_short_title}"
+                    <img src="img/bahr-textverzeichnis.svg" class="img-fluid" title="{$project_short_title}"
                         alt="{$project_short_title}" itemprop="logo"/>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
