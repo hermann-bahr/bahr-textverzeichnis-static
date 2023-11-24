@@ -17,42 +17,61 @@
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"/>
             </xsl:call-template>
-            <body class="page">
+            <body class="page" style="background-color:#f1f1f1;">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
-                    <div class="wrapper" id="wrapper-hero">
-                        <div class="jumbotron"
-                            style="background-image: url(img/bahr-textverzeichnis-index.jpg); background-size: 100%;">
-                            <div class="carousel-caption"
-                                style="background-image: linear-gradient(rgba(38.0, 35.3, 37.6, 0.5), rgba(38.0, 35.3, 37.6, 0.5));position: static;">
-                                <h2>Martin Anton Müller</h2>
-                                <h1>Hermann Bahr – Textverzeichnis</h1>
-                                <h2>Digitale Ausgabe</h2>
+                    <div class="container">
+                        <div class="row intro">
+                            <div class="col-md-6 col-lg-6 col-sm-12 wp-intro_left">
+                                <div class="intro_left">
+                                    <h3 class="mt-3">Martin Anton Müller</h3>
+                                    <h1 class="mt-3" style="text-align: left;">Hermann Bahr: Textverzeichnis </h1>
+                                    <div style="text-align: right">
+                                        <a href="#body">
+                                            <button class="btn btn-round"
+                                                style="background-color: #8E4162; color: white;"
+                                                >Weiter</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-sm-12">
+                                <div class="intro_right wrapper">
+                                    <img
+                                        src="img/bahr-textverzeichnis-index.jpg"
+                                        class="d-block w-100" style="max-width=30%;"
+                                        alt="Hermann Bahr, Karikatur mit Secession"/>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="container" style="margin-top:1em;">
-                        <div class="row">
-                            <div class="col-md-8" style="margin: 0 auto; ">
-                                <p style="font-size:18px;line-heigth:27px;">Das »Textverzeichnis«
-                                    weist alle zu Lebzeiten in Druck erschienenen Texte von Hermann
-                                    Bahr (1863–1934) nach. Die <a
-                                        href="https://asw-verlage.de/katalog/hermann_bahr_____textverzeichnis-801.html"
-                                        target="_blank">Druckfassung</a> erschien 2014 im Verlag VDG
-                                    Weimar.</p>
-                                <p/>
-                                <p>
-                                    <span style="color:red">DIESE SEITE IST IN AUFBAU, die fehlenden Funktionen
-                                         sind hier: <a
-                                            href="https://github.com/hermann-bahr/bahr-textverzeichnis-static/issues"
-                                            target="_blank">gitHub</a> gelistet.</span>
-                                </p>
-                                <p>
-                                    <i>Wien, November 2023</i>
-                                </p>
-                            </div>
+                    <div class="container-fluid" style="margin:2em auto;" id="body">
+                        <div style="max-width: 650px; margin: auto;">
+                            <span style="display: block;
+                                position: relative;
+                                top: -250px; visibility: hidden"
+                                id="body"/>
+                            <p class="mt-3" style="font-size:18px;line-heigth:27px;">Das »Textverzeichnis«
+                                weist alle zu Lebzeiten in Druck erschienenen Texte von Hermann
+                                Bahr (1863–1934) nach. Die <a
+                                    href="https://asw-verlage.de/katalog/hermann_bahr_____textverzeichnis-801.html"
+                                    target="_blank">Druckfassung</a> erschien 2014 im Verlag VDG
+                                Weimar.</p>
+                            <p/>
+                            <p class="mt-3">
+                                <span style="color:red">DIESE SEITE IST IN AUFBAU, die fehlenden Funktionen
+                                    sind hier: <a
+                                        href="https://github.com/hermann-bahr/bahr-textverzeichnis-static/issues"
+                                        target="_blank">gitHub</a> gelistet.</span>
+                            </p>
+                            <p class="mt-3" style="padding-bottom: 50px;">
+                                <i>Wien, November 2023</i>
+                            </p>
+                            
+                            
                         </div>
                     </div>
+                    
                     <xsl:call-template name="html_footer"/>
                 </div>
             </body>
