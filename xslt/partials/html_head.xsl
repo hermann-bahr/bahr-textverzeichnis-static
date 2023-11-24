@@ -25,13 +25,12 @@
                 rel="stylesheet"
                 integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
                 crossorigin="anonymous"/>
-            <link rel="stylesheet" href="css/style.css" type="text/css"/>
             <link
                 href="https://cdn.datatables.net/v/bs5/dt-1.13.6/b-2.4.2/b-colvis-2.4.2/b-html5-2.4.2/datatables.min.css"
                 rel="stylesheet"/>
             <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"/>
-            <script src="js/dt.js"/>
-            <script src="js/dt-panes.js"/>
+            <script type="text/javascript" src="js/dt.js"></script>
+            <script type="text/javascript" src="js/dt-panes.js"/>
             <link rel="stylesheet" href="css/style.css" type="text/css"/>
             <!-- Matomo -->
             <!--<script type="text/javascript">

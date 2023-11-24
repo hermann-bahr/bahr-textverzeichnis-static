@@ -74,7 +74,7 @@ const calendar = new Calendar('#calendar', {
       }
       html += "</div>";
       html += "<div class='modal-footer'>";
-      html += "<button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Schließen</button>";
+      html += "<button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>X</button>";
       html += "</div></div></div></div>";
       $('#dialogForLinks').remove();
       $('#loadModal').append(html);
