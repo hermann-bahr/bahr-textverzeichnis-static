@@ -37,7 +37,10 @@
                                 <a class="nav-link" href="calendar.html">Kalender</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="toc.html">Titel</a>
+                                <a class="nav-link" href="toc.html">Verzeichnis</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="bibliografie.html">Selbstständige Schriften</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="tocs.html">Periodika</a>
