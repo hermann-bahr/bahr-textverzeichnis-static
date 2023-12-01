@@ -101,24 +101,25 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb127911"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: X. In: Selbstbildnis. Berlin: S.
                   Fischer 1923, S. 94–103.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Erinnerungen. XI [!]</title>
-                     <title level="j" ref="pmb43848">Das Neue Reich</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb43848">Das Neue
+                        Reich</title>
                      <biblScope unit="jg">3</biblScope>
                      <date type="year">1921</date>
                      <biblScope unit="issue">48</biblScope>
                      <biblScope unit="page">917–919</biblScope>
                      <date when="1921-08-28">28.8.1921</date>
+                     <title level="a" ref="pmb127911">Erinnerungen. XI [!]</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb127911"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

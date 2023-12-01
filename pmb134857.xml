@@ -68,16 +68,11 @@
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                   <note subtype="Nachtkritik">Nachtkritik</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb132249"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">[O.V.]: Theater und Kunst. Burgtheater. In:
                   Österreichische Volks-Zeitung. 2 Kreuzer-Ausgabe, Jg. 48, Nr. 18, 19.1.1902,
                   S. 21.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>vollständig</note>
                      <title level="j" ref="pmb41552">Österreichische Volks-Zeitung</title>
                      <biblScope unit="jg">48</biblScope>
@@ -85,8 +80,18 @@
                      <biblScope unit="issue">18</biblScope>
                      <biblScope unit="page">2–3</biblScope>
                      <date when="1902-01-19">19.1.1902</date>
+                     <title level="a" ref="pmb132601">Troilus und Cressida.
+                        Drama in fünf Akten von Shakespeare, für die Bühne bearbeitet von Adolf
+                        Gelber. – Zum erstenmal aufgeführt im Burgtheater am 18. Jänner
+                     1902</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb132601"/>
+                     <ptr type="textref" target="pmb132249"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

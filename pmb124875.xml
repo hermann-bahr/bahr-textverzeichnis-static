@@ -66,33 +66,38 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb125463"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Dilettant. In: Hamburger
                   Nachrichten, Jg. 136, Nr. 48, Abendausgabe, 3. Beilage (Zeitschrift für
                   Wissenschaft, Literatur und Kunst), 29.1.1927.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41531">Berliner Tageblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41531">Berliner
+                        Tageblatt</title>
                      <biblScope unit="jg">55</biblScope>
                      <date type="year">1926</date>
-                     <biblScope unit="issue">64, Ausgabe für Berlin, Morgen–Ausgabe</biblScope>
+                     <biblScope unit="issue">64, Ausgabe für Berlin,
+                        Morgen–Ausgabe</biblScope>
                      <biblScope unit="page">2–3</biblScope>
                      <date when="1926-02-07">7.2.1926</date>
+                     <title level="a" ref="pmb125463">Dilettant</title>
                   </bibl>
-                  <bibl>
-                     <title level="j" ref="pmb122143">Das Schatzkästlein. Unterhaltungsbeilage der
-                        »Thüringer Allgemeinen Zeitung«</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122143">Das Schatzkästlein.
+                        Unterhaltungsbeilage der »Thüringer Allgemeinen Zeitung«</title>
                      <biblScope unit="jg">3</biblScope>
                      <date type="year">1926</date>
                      <biblScope unit="issue">49</biblScope>
                      <biblScope unit="page">[2–3]</biblScope>
                      <date when="1926-12-24">24.12.1926</date>
+                     <title level="a" ref="pmb125351">Dilettant</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb125463"/>
+                     <ptr type="textref" target="pmb125351"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

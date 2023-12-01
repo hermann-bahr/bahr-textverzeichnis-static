@@ -56,12 +56,12 @@
                   </imprint>
                </monogr>
                <note type="monographies">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="m" ref="pmb141014">Essays</title>
                      <date>1912</date>
                      <biblScope unit="page">235–241</biblScope>
-                     <title level="a" ref="pmb130723">Die Hauptstadt von Europa. Eine Phantasie in
-                        Salzburg</title>
+                     <title level="a" ref="pmb130723">Die Hauptstadt von
+                        Europa. Eine Phantasie in Salzburg</title>
                   </bibl>
                   <bibl>
                      <note>Ausschnitt</note>
@@ -82,11 +82,6 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130851"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Die Hauptstadt von Europa. Eine
                   Phantasie in Salzburg. In: Bildung. Berlin und Leipzig: Insel 1900,
                   S. 116–122.</note>
@@ -99,15 +94,24 @@
                      <biblScope unit="page">1–3</biblScope>
                      <date when="1900-07-15">15.7.1900</date>
                   </bibl>
-                  <bibl>
-                     <title level="j" ref="pmb122151">Salzburger Volksblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122151">Salzburger
+                        Volksblatt</title>
                      <biblScope unit="jg">42</biblScope>
                      <date type="year">1912</date>
                      <biblScope unit="issue">119</biblScope>
                      <biblScope unit="page">1–4</biblScope>
                      <date when="1912-05-26">26.5.1912</date>
+                     <title level="a" ref="pmb130851">Die Hauptstadt von Europa. Eine Phantasie in
+                        Salzburg</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130851"/>
+                     <ptr type="textref" target="pmb130723"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

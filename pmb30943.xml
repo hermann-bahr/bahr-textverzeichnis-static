@@ -74,24 +74,25 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb124665"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Felix Salten zum 60. Geburtstag.
                   In: Neue Freie Presse, Nr. 23340, Morgenblatt, 6.9.1929, S. 1–2.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Dichter und Journalist</title>
-                     <title level="j" ref="pmb122056">Münchner Neueste Nachrichten</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122056">Münchner Neueste
+                        Nachrichten</title>
                      <biblScope unit="jg">82</biblScope>
                      <date type="year">1929</date>
                      <biblScope unit="issue">242</biblScope>
                      <biblScope unit="page">1</biblScope>
                      <date when="1929-09-06">6.9.1929</date>
+                     <title level="a" ref="pmb124665">Dichter und Journalist</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb124665"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

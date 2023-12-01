@@ -89,18 +89,11 @@
                   <note subtype="Buchtext">Buchtext</note>
                   <note subtype="Vortrag">Vortrag</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130159"/>
-                     <ptr type="textref" target="pmb130223"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Das österreichische Wunder. In:
                   Das österreichische Wunder. Einladung nach Salzburg. Stuttgart: Die Lese 1915,
                   S. 3–36.</note>
                <note type="periodica">
                   <bibl>
-                     <title level="a">Die Zukunft Österreichs</title>
                      <title level="j" ref="pmb122232">Die Tat, Jena</title>
                      <biblScope unit="jg">7</biblScope>
                      <date type="year">1915</date>
@@ -109,14 +102,13 @@
                   </bibl>
                   <bibl>
                      <note>Textvariante</note>
-                     <title level="a">Das österreichische Wunder</title>
                      <title level="j" ref="pmb122244">Der Kunstfreund, Berlin</title>
                      <biblScope unit="jg">2</biblScope>
                      <date type="year">1915</date>
                      <biblScope unit="issue">7 (April)</biblScope>
                      <biblScope unit="page">200–204</biblScope>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Dasselbe</note>
                      <title level="j" ref="pmb122056">Münchner Neueste Nachrichten</title>
                      <biblScope unit="jg">68</biblScope>
@@ -124,17 +116,25 @@
                      <biblScope unit="issue">184</biblScope>
                      <biblScope unit="page">2</biblScope>
                      <date when="1915-04-11">11.4.1915</date>
+                     <title level="a" ref="pmb130159">Das österreichische
+                        Wunder</title>
                   </bibl>
                   <bibl>
                      <note>Redemitschrift</note>
-                     <title level="a">Kriegsvorträge der Kriegs–Lese</title>
                      <title level="j" ref="pmb61408">Die Lese</title>
                      <biblScope unit="jg">6</biblScope>
                      <date type="year">1915</date>
                      <biblScope unit="issue">14</biblScope>
                      <biblScope unit="page">222–223</biblScope>
+                     <title ref="pmb130223">Kriegsvorträge der Kriegs-Lese</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130159"/>
+                     <ptr type="textref" target="pmb130223"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

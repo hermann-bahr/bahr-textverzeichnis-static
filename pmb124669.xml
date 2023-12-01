@@ -78,16 +78,11 @@
                   <note type="Book">Buch</note>
                   <note type="Section">Section</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb124455"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Herzls Tat. In: Zeitgenossen
                   über Herzl. Hg. Tulo Nussenblatt. Brünn: Jüdischer Buch- und Kunstverlag 1929,
                   S. 20–21.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Nachdruck</note>
                      <title level="j" ref="pmb122103">Wiener Sonn- und Montags-Zeitung</title>
                      <biblScope unit="jg">67</biblScope>
@@ -95,8 +90,14 @@
                      <biblScope unit="issue">52</biblScope>
                      <biblScope unit="page">7</biblScope>
                      <date when="1929-12-30">30.12.1929</date>
+                     <title level="a" ref="pmb124455">Herzls Tat</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb124455"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

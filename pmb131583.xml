@@ -75,24 +75,22 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb131871"/>
-                     <ptr type="textref" target="pmb131871"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Der verlorene Vater. (Komödie in
                   vier Akten von Bernard Shaw. Deutsch von Siegfried Trebitsch. Zum ersten Mal
                   aufgeführt im Burgtheater am 17. März 1906). In: Glossen. Zum Wiener Theater (1903
                   bis 1906). Berlin: S. Fischer 1907, S. 112–116.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41552">Österreichische Volks-Zeitung</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41552">Österreichische
+                        Volks-Zeitung</title>
                      <biblScope unit="jg">52</biblScope>
                      <date type="year">1906</date>
                      <biblScope unit="issue">76</biblScope>
                      <biblScope unit="page">2</biblScope>
                      <date when="1906-03-18">18.3.1906</date>
+                     <title level="a" ref="pmb131871">Der verlorene Vater. (Komödie in vier Akten von Bernard
+                        Shaw. Deutsch von Siegfried Trebitsch. Zum erstenmal aufgeführt im
+                        Burgtheater am 17. März 1906)</title>
                   </bibl>
                   <bibl>
                      <note>gekürzt</note>
@@ -104,6 +102,11 @@
                      <date when="1906-03-18">18.3.1906</date>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb131871"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

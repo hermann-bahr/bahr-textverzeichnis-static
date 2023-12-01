@@ -79,28 +79,32 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130171"/>
-                     <ptr type="textref" target="pmb130205"/>
-                     <ptr type="textref" target="HB-tv_1046"/>
-                     <ptr type="textref" target="pmb130205"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Das deutsche Wesen ist uns
                   erschienen! In: Berliner Tageblatt, Jg. 43, Nr. 410, Abend-Ausgabe, 14.8.1914,
                   S. 2.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>gekürzt</note>
-                     <title level="j" ref="pmb61441">Die Aktion</title>
+                     <title level="j" ref="pmb61441">Die
+                        Aktion</title>
                      <biblScope unit="jg">5</biblScope>
                      <date type="year">1915</date>
                      <biblScope unit="issue">18/19</biblScope>
                      <biblScope unit="page">236</biblScope>
                      <date when="1915-05-01">1.5.1915</date>
+                     <title level="a" ref="pmb130169 pmb130171">Kitsch Das deutsche Wesen ist uns
+                        erschienen</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130169"/>
+                     <ptr type="textref" target="pmb130171"/>
+                     <ptr type="textref" target="pmb130171"/>
+                     <ptr type="textref" target="pmb130205"/>
+                     <ptr type="textref" target="HB-tv_1046"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

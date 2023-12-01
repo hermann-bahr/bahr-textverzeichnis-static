@@ -70,28 +70,29 @@
                <noteGrp type="keywords">
                   <note type="Book">Buch</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb131859"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Josef Kainz. Wien: Wiener Verlag
                   1906 (53 Seiten).</note>
                <note type="toc">
                   <desc ana="1–53" corresp="#pmb131831">Josef Kainz</desc>
                </note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Auszug</note>
-                     <title level="a">Josef Kainz</title>
-                     <title level="j" ref="pmb41564">Die Schaubühne</title>
+                     <title level="j" ref="pmb41564">Die
+                        Schaubühne</title>
                      <biblScope unit="jg">2</biblScope>
                      <date type="year">1906</date>
                      <biblScope unit="issue">8</biblScope>
                      <biblScope unit="page">221–225</biblScope>
                      <date when="1906-02-22">22.2.1906</date>
+                     <title level="a" ref="pmb131859">Josef Kainz</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb131859"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

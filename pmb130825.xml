@@ -61,21 +61,19 @@
                   <note type="Book">Buch</note>
                   <note type="Section">Section</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130793"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Burckhards Bücher. In:
                   Bibliothek Max Burckhard. Auktionskatalog. Wien: Hugo Heller 1912,
                   S. V–VIII.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb36374">Neue Freie Presse</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36374">Neue Freie
+                        Presse</title>
                      <date type="year">1912</date>
-                     <biblScope unit="issue">17297, Morgenblatt</biblScope>
+                     <biblScope unit="issue">17297,
+                        Morgenblatt</biblScope>
                      <biblScope unit="page">11</biblScope>
                      <date when="1912-10-18">18.10.1912</date>
+                     <title level="a" ref="pmb130793">Burckhards Bücher</title>
                   </bibl>
                   <bibl>
                      <title level="a">Max Burckhard †. Ein Freiluftmensch und Bücherwurm</title>
@@ -83,6 +81,11 @@
                      <biblScope unit="page">117–120</biblScope>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130793"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

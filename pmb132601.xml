@@ -61,27 +61,29 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb132249"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Troilus und Cressida. Drama in
                   fünf Akten von Shakespeare, für die Bühne bearbeitet von Adolf Gelber. – Zum
                   erstenmal aufgeführt im Burgtheater am 18. Jänner 1902. In: Österreichische
                   Volks-Zeitung, Jg. 48, Nr. 18, 19.1.1902, S. 2–3.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>gekürzt</note>
-                     <title level="j" ref="pmb122052">Österreichische Volks-Zeitung. 2
-                        Kreuzer-Ausgabe</title>
+                     <title level="j" ref="pmb122052">Österreichische Volks-Zeitung. 2 Kreuzer-Ausgabe</title>
                      <biblScope unit="jg">48</biblScope>
                      <date type="year">1902</date>
                      <biblScope unit="issue">18</biblScope>
                      <biblScope unit="page">21</biblScope>
                      <date when="1902-01-19">19.1.1902</date>
+                     <title level="a" ref="pmb134857">Theater und Kunst.
+                        Burgtheater</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb134857"/>
+                     <ptr type="textref" target="pmb132249"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

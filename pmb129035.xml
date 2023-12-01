@@ -68,34 +68,39 @@
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                   <note subtype="Tagebuch">Tagebuch</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb128531"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Tagebuch. 16. Februar. In: Neues
                   Wiener Journal, Jg. 27, Nr. 9098, 2.3.1919, S. 5.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Nachdruck</note>
-                     <title level="a">Die Menschen</title>
-                     <title level="j" ref="pmb122206">Neue Hamburger Zeitung</title>
+                     <title level="j" ref="pmb122206">Neue
+                        Hamburger Zeitung</title>
                      <biblScope unit="jg">24</biblScope>
                      <date type="year">1919</date>
-                     <biblScope unit="issue">153, Abendausgabe</biblScope>
+                     <biblScope unit="issue">153,
+                        Abendausgabe</biblScope>
                      <biblScope unit="page">2</biblScope>
                      <date when="1919-03-24">24.3.1919</date>
+                     <title level="a" ref="pmb128771">Die
+                        Menschen</title>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Nachdruck</note>
-                     <title level="a">Die Menschen</title>
                      <title level="j" ref="pmb122207">Leipziger Neueste Nachrichten</title>
                      <date type="year">1919</date>
                      <biblScope unit="issue">71</biblScope>
                      <biblScope unit="page">2</biblScope>
                      <date when="1919-03-25">25.3.1919</date>
+                     <title level="a" ref="pmb129271">Die Menschen</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb128771"/>
+                     <ptr type="textref" target="pmb129271"/>
+                     <ptr type="textref" target="pmb128531"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

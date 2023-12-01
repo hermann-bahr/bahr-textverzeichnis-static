@@ -114,11 +114,6 @@
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                   <note subtype="Spendenaufruf">Spendenaufruf</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb134839"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Leopold Auerbach, Hermann Bahr, Freiherr
                   Eberhard von Bodenhausen, Arnold Böcklin, Richard Dehmel, Marie von
                   Ebner-Eschenbach, Theodor Fontane, Ernst Moritz Geyger, Klaus Groth, Gerhart
@@ -127,13 +122,15 @@
                   Emanuel Reicher, Woldemar von Seidlitz, Richard Strauss, Hans Thoma, Fritz von
                   Uhde: Aufruf. In: Neue deutsche Rundschau, Jg. 8 (1897) Nr. 6, S. 659–660.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb40624">Wiener Rundschau</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb40624">Wiener
+                        Rundschau</title>
                      <biblScope unit="jg">1</biblScope>
                      <date type="year">1897</date>
                      <biblScope unit="issue">2</biblScope>
                      <biblScope unit="page">481</biblScope>
                      <date when="1897-05-15">15.5.1897</date>
+                     <title level="a" ref="pmb134841">Aufruf</title>
                   </bibl>
                   <bibl>
                      <title level="j" ref="pmb50245">Simplicissimus</title>
@@ -150,6 +147,12 @@
                      <biblScope unit="page">440</biblScope>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb134841"/>
+                     <ptr type="textref" target="pmb134839"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

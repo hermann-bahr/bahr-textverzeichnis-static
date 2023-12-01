@@ -108,23 +108,25 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb125223"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Rasse. In: Labyrinth der
                   Gegenwart. Hildesheim: F. Borgmeyer 1929, S. 63–71.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb122056">Münchner Neueste Nachrichten</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122056">Münchner Neueste
+                        Nachrichten</title>
                      <biblScope unit="jg">80</biblScope>
                      <date type="year">1927</date>
                      <biblScope unit="issue">194</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1927-07-19">19.7.1927</date>
+                     <title level="a" ref="pmb125223">Rasse…</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb125223"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

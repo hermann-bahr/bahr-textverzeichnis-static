@@ -90,24 +90,27 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb31055"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Die Chronik von Dirnau.
                   Geschichte eines Dorfes von Gustav Macasy Wien 1903. C. W. Stern. In: Buch der
                   Jugend. Wien und Leipzig: H. Heller 1908, S. 85–90.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41321">Neues Wiener Tagblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41321">Neues Wiener
+                        Tagblatt</title>
                      <biblScope unit="jg">37</biblScope>
                      <date type="year">1903</date>
                      <biblScope unit="issue">282</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1903-10-14">14.10.1903</date>
+                     <title level="a" ref="pmb31055">Die Chronik von Dirnau. Geschichte eines Dorfes von Gustav
+                        Macasy. Wien 1903. C. W. Stern</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb31055"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

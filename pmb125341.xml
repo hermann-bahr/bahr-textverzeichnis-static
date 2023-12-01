@@ -58,29 +58,29 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb124625"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Atlantis. In: Berliner
                   Börsen-Courier, Jg. 59, Nr. 369, Morgen-Ausgabe, 1. Beilage, 11.8.1926,
                   S. 5.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb36374">Neue Freie Presse</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36374">Neue Freie
+                        Presse</title>
                      <date type="year">1926</date>
-                     <biblScope unit="issue">22231, Morgenblatt</biblScope>
+                     <biblScope unit="issue">22231,
+                        Morgenblatt</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1926-08-05">5.8.1926</date>
+                     <title level="a" ref="pmb125365">Atlantis</title>
                   </bibl>
-                  <bibl>
-                     <title level="j" ref="pmb122138">Hannoverscher Kurier</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122138">Hannoverscher
+                        Kurier</title>
                      <biblScope unit="jg">79</biblScope>
                      <date type="year">1927</date>
                      <biblScope unit="issue">320, Abend-Ausgabe</biblScope>
                      <biblScope unit="page">2</biblScope>
                      <date when="1927-07-12">12.7.1927</date>
+                     <title level="a" ref="pmb125267">Atlantis</title>
                   </bibl>
                   <bibl>
                      <title level="j">Luginsland. Beilage der »Nürnberger Zeitung«</title>
@@ -91,6 +91,13 @@
                      <date when="1927-08-06">6.8.1927</date>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb125365"/>
+                     <ptr type="textref" target="pmb125267"/>
+                     <ptr type="textref" target="pmb124625"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

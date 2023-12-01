@@ -82,25 +82,21 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130135"/>
-                     <ptr type="textref" target="pmb130059"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Die Länder. 1. Böhmen. In:
                   Schwarzgelb. Berlin: S. Fischer 1917, S. 79–100.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Variante</note>
                      <title level="j" ref="pmb41531">Berliner Tageblatt</title>
                      <biblScope unit="jg">45</biblScope>
                      <date type="year">1916</date>
-                     <biblScope unit="issue">479, Abend-Ausgabe</biblScope>
+                     <biblScope unit="issue">479,
+                        Abend-Ausgabe</biblScope>
                      <biblScope unit="page">2–3</biblScope>
                      <date when="1916-09-18">18.9.1916</date>
+                     <title level="a" ref="pmb130135">Böhmen</title>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Variante</note>
                      <title level="j" ref="pmb122228">Belgrader Nachrichten</title>
                      <biblScope unit="jg">2</biblScope>
@@ -108,6 +104,7 @@
                      <biblScope unit="issue">242</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1916-10-14">14.10.1916</date>
+                     <title level="a" ref="pmb130059">Böhmen</title>
                   </bibl>
                   <bibl>
                      <title level="j" ref="pmb36156">Die neue Rundschau</title>
@@ -117,6 +114,12 @@
                      <biblScope unit="page">36–49</biblScope>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130135"/>
+                     <ptr type="textref" target="pmb130059"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

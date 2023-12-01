@@ -83,23 +83,25 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130137"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Mach. In: Bilderbuch. Wien,
                   Leipzig: Wila Wiener Literarische Anstalt 1921, S. 35–41.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41531">Berliner Tageblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41531">Berliner
+                        Tageblatt</title>
                      <biblScope unit="jg">45</biblScope>
                      <date type="year">1916</date>
                      <biblScope unit="issue">116, Abend-Ausgabe</biblScope>
                      <biblScope unit="page">2–3</biblScope>
                      <date when="1916-03-03">3.3.1916</date>
+                     <title level="a" ref="pmb130137">Mach</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130137"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

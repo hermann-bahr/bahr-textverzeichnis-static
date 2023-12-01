@@ -63,25 +63,26 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb126547"/>
-                     <ptr type="textref" target="pmb30472"/>
-                     <ptr type="textref" target="pmb30472"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Die schöne Frau. In: Die schöne
                   Frau. Leander. Berlin: S. Fischer 1899, S. 9–29.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb36340">Die Zeit</title>
                      <biblScope unit="jg">11</biblScope>
                      <date type="year">1897</date>
                      <biblScope unit="issue">131</biblScope>
                      <biblScope unit="page">15–16</biblScope>
                      <date when="1897-04-03">3.4.1897</date>
+                     <title level="a" ref="pmb30472">Die schöne
+                        Frau. Eine Anekdote</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb30472"/>
+                     <ptr type="textref" target="pmb126547"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

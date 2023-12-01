@@ -70,24 +70,27 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb123111"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: [Fasnacht / Columbine]. 10.
                   November 1901. In: Rezensionen. Wiener Theater 1901 bis 1903. Berlin: S. Fischer
                   1903, S. 304–309.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41321">Neues Wiener Tagblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41321">Neues Wiener
+                        Tagblatt</title>
                      <biblScope unit="jg">35</biblScope>
                      <date type="year">1901</date>
                      <biblScope unit="issue">309</biblScope>
                      <biblScope unit="page">8</biblScope>
                      <date when="1901-11-10">10.11.1901</date>
+                     <title level="a" ref="pmb123111">Theater, Kunst und Literatur. Deutsches
+                     Volkstheater</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb123111"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

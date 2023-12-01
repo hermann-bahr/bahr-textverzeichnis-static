@@ -82,23 +82,25 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb133495"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: In der Schule. In: Secession.
                   Wien: Wiener Verlag 1900, S. 134–140.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb36340">Die Zeit</title>
                      <biblScope unit="jg">13</biblScope>
                      <date type="year">1897</date>
                      <biblScope unit="issue">167</biblScope>
                      <biblScope unit="page">172–173</biblScope>
                      <date when="1897-12-11">11.12.1897</date>
+                     <title level="a" ref="pmb133495">In der
+                        Schule</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb133495"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

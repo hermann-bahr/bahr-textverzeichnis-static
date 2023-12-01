@@ -61,30 +61,29 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130219"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Gruß an Hofmannsthal. In:
                   Berliner Tageblatt, Jg. 43, Nr. 423, Abend-Ausgabe, 21.8.1914, S. 2.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb36376">Neues Wiener Journal</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36376">Neues Wiener
+                        Journal</title>
                      <biblScope unit="jg">22</biblScope>
                      <date type="year">1914</date>
                      <biblScope unit="issue">7483</biblScope>
                      <biblScope unit="page">6</biblScope>
                      <date when="1914-08-26">26.8.1914</date>
+                     <title level="a" ref="pmb130341">Gruß an Hofmannsthal</title>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>gekürzt</note>
-                     <title level="j" ref="pmb61441">Die Aktion</title>
+                     <title level="j" ref="pmb61441">Die
+                        Aktion</title>
                      <biblScope unit="jg">5</biblScope>
                      <date type="year">1915</date>
                      <biblScope unit="issue">18/19</biblScope>
                      <biblScope unit="page">236–237</biblScope>
                      <date when="1915-05-01">1.5.1915</date>
+                     <title level="a" ref="pmb130219">Gruß an Hofmannsthal</title>
                   </bibl>
                   <bibl>
                      <title level="j" ref="pmb41244">Die Fackel</title>
@@ -94,6 +93,12 @@
                      <biblScope unit="page">41–42</biblScope>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130341"/>
+                     <ptr type="textref" target="pmb130219"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

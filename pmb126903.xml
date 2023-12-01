@@ -60,25 +60,26 @@
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                   <note subtype="Vorabdruck">Vorabdruck</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb126925"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Erinnerungen. XXII. In: Das Neue
                   Reich. Wochenschrift für Kultur, Politik und Volkswirtschaft, Jg. 5, Nr. 28,
                   14.4.1923, S. 603–605.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Meine Berliner Zeit</title>
-                     <title level="j" ref="pmb41531">Berliner Tageblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41531">Berliner
+                        Tageblatt</title>
                      <biblScope unit="jg">52</biblScope>
                      <date type="year">1923</date>
                      <biblScope unit="issue">284, Abend-Ausgabe</biblScope>
                      <biblScope unit="page">2–3</biblScope>
                      <date when="1923-06-19">19.6.1923</date>
+                     <title level="a" ref="pmb126925">Meine Berliner Zeit</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb126925"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

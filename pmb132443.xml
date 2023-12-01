@@ -69,24 +69,26 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb123319"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Novelli. (Gastspiel im
                   Raimundtheater) 15. 6. Mai 1900. In: Premièren. Winter 1900 bis Sommer 1901.
                   München: Albert Langen 1902, S. 166–168.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41321">Neues Wiener Tagblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41321">Neues Wiener
+                        Tagblatt</title>
                      <biblScope unit="jg">34</biblScope>
                      <date type="year">1900</date>
                      <biblScope unit="issue">123</biblScope>
                      <biblScope unit="page">9</biblScope>
                      <date when="1900-05-06">6.5.1900</date>
+                     <title level="a" ref="pmb123319">Theater, Kunst und Literatur. Raimund-Theater</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb123319"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

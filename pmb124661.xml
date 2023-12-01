@@ -125,23 +125,25 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb124867"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Barock. In: Labyrinth der
                   Gegenwart. Hildesheim: F. Borgmeyer 1929, S. 7–14.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb122056">Münchner Neueste Nachrichten</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122056">Münchner Neueste
+                        Nachrichten</title>
                      <biblScope unit="jg">81</biblScope>
                      <date type="year">1928</date>
                      <biblScope unit="issue">194</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1928-07-18">18.7.1928</date>
+                     <title level="a" ref="pmb124867">Barock</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb124867"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

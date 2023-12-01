@@ -83,25 +83,28 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb124637"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Ahnengeist. Ein bayerisches
                   Kapitel. In: Münchner Neueste Nachrichten, Jg. 81, Nr. 117, 29.4.1928,
                   S. 1–2.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Auszug</note>
-                     <title level="j" ref="pmb122082">Schönere Zukunft</title>
+                     <title level="j" ref="pmb122082">Schönere
+                        Zukunft</title>
                      <biblScope unit="jg">4</biblScope>
                      <date type="year">1929</date>
                      <biblScope unit="issue">6</biblScope>
                      <biblScope unit="page">122</biblScope>
                      <date when="1929-11-04">4.11.1929</date>
+                     <title level="a" ref="pmb124575">Ahnengeist</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb124575"/>
+                     <ptr type="textref" target="pmb124637"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

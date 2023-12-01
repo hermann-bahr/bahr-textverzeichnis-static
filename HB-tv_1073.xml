@@ -75,23 +75,19 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb127961"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Vernunft und Glaube. In: Neues
                   Abendland (1946) Nr. 5, S. 14–17.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb58341">Das literarische Echo. Halbmonatsschrift für
-                        Literaturfreunde</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb58341">Das literarische Echo.
+                        Halbmonatsschrift für Literaturfreunde</title>
                      <biblScope unit="jg">20</biblScope>
                      <date type="year">1918</date>
                      <biblScope unit="issue">7</biblScope>
                      <biblScope unit="page">414–415</biblScope>
                      <date when="1918-01-01">1.1.1918</date>
                      <note>Auszug</note>
+                     <title level="a" ref="pmb129729">[Auszug aus Vernunft und Wissenschaft]</title>
                   </bibl>
                   <bibl>
                      <title level="j" ref="pmb122081">Neues Abendland</title>
@@ -100,6 +96,12 @@
                      <biblScope unit="page">14–17</biblScope>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb129729"/>
+                     <ptr type="textref" target="pmb127961"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

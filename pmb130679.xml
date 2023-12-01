@@ -63,21 +63,18 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb131191"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Das Bayreuther Gespräch. In:
                   Bayreuth. Leipzig: E. Rowohlt 1912, S. 63–72.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41531">Berliner Tageblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41531">Berliner
+                        Tageblatt</title>
                      <biblScope unit="jg">38</biblScope>
                      <date type="year">1909</date>
                      <biblScope unit="issue">410, Abend-Ausgabe</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1909-08-14">14.8.1909</date>
+                     <title level="a" ref="pmb131191">Das Bayreuther Gespräch</title>
                   </bibl>
                   <bibl>
                      <title level="j">Kölnische Theater-Rundschau</title>
@@ -88,6 +85,11 @@
                      <date when="1912-08-17">17.8.1912</date>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb131191"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

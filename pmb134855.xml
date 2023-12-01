@@ -80,16 +80,11 @@
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                   <note subtype="Nachtkritik">Nachtkritik</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb132231"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">[O.V.]: Theater und Kunst. Burgtheater. In:
                   Österreichische Volks-Zeitung. 2 Kreuzer-Ausgabe, Jg. 48, Nr. 108, 20.4.1902,
                   S. 8.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>vollständig</note>
                      <title level="j" ref="pmb41552">Österreichische Volks-Zeitung</title>
                      <biblScope unit="jg">48</biblScope>
@@ -97,8 +92,16 @@
                      <biblScope unit="issue">108</biblScope>
                      <biblScope unit="page">2–3</biblScope>
                      <date when="1902-04-20">20.4.1902</date>
+                     <title level="a" ref="pmb132591">Sonnwendtag. Drama in fünf Aufzügen von Karl Schönherr. Zum erstenmal
+                        aufgeführt im Burgtheater am 19. April 1902</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb132591"/>
+                     <ptr type="textref" target="pmb132231"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

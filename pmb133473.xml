@@ -79,25 +79,27 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb123995"/>
-                     <ptr type="textref" target="pmb130423"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Die weisse Schlange. Ein
                   Sonderling. In: Renaissance. Neue Studien zur Kritik der Moderne. Berlin: S.
                   Fischer 1897, S. 22–27.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb36340">Die Zeit</title>
                      <biblScope unit="jg">2</biblScope>
                      <date type="year">1895</date>
                      <biblScope unit="issue">16</biblScope>
                      <biblScope unit="page">38–39</biblScope>
                      <date when="1895-01-19">19.1.1895</date>
+                     <title level="a" ref="pmb123995">Ein
+                        Sonderling</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb123995"/>
+                     <ptr type="textref" target="pmb130423"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

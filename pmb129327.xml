@@ -88,23 +88,19 @@
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                   <note subtype="Nachdruck">Nachdruck</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb127955"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Walt Whitman. Zum 100.
                   Geburtstag. In: Prager Tagblatt, Jg. 44, Nr. 128, Morgen-Ausgabe, 31.5.1919,
                   S. 2.</note>
                <note type="periodica">
                   <bibl>
                      <note>gekürzt</note>
-                     <title level="a">Der gute graue Dichter vom fischförmigen Paumanok</title>
                      <title level="j" ref="pmb122211">Neue Erde</title>
                      <biblScope unit="jg">1</biblScope>
                      <date type="year">1919</date>
                      <biblScope unit="issue">15</biblScope>
                      <biblScope unit="page">247–250</biblScope>
+                     <title ref="pmb129319">Der gute graue Dichter vom fischförmigen
+                        Paumanok</title>
                   </bibl>
                   <bibl>
                      <title level="j" ref="pmb36156">Die neue Rundschau</title>
@@ -113,16 +109,24 @@
                      <biblScope unit="issue">5</biblScope>
                      <biblScope unit="page">555–564</biblScope>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>gekürzt</note>
-                     <title level="j" ref="pmb58341">Das literarische Echo</title>
+                     <title level="j" ref="pmb58341">Das
+                        literarische Echo</title>
                      <biblScope unit="jg">21</biblScope>
                      <date type="year">1919</date>
                      <biblScope unit="issue">18</biblScope>
                      <biblScope unit="page">1127</biblScope>
                      <date when="1919-06-15">15.6.1919</date>
+                     <title level="a" ref="pmb129329">Walt Whitman</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb129329"/>
+                     <ptr type="textref" target="pmb127955"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

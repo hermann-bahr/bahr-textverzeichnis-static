@@ -127,24 +127,19 @@
                   <note type="Book">Buch</note>
                   <note type="Section">Section</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb127877"/>
-                     <ptr type="textref" target="pmb127873"/>
-                     <ptr type="textref" target="pmb130209"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Selbstinventur. In: Das 26.
                   Jahr. Berlin: S. Fischer 1912, S. 48–55.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Nachdruck</note>
                      <title level="j" ref="pmb122235">Stuttgarter Neues Tagblatt</title>
                      <biblScope unit="jg">70</biblScope>
                      <date type="year">1915</date>
-                     <biblScope unit="issue">194, Unterhaltungsbeilage</biblScope>
+                     <biblScope unit="issue">194,
+                        Unterhaltungsbeilage</biblScope>
                      <biblScope unit="page">19–20</biblScope>
                      <date when="1913-07-19">19.7.1913</date>
+                     <title level="a" ref="pmb130155">Selbstinventur</title>
                   </bibl>
                   <bibl>
                      <note>Auszug</note>
@@ -162,17 +157,25 @@
                      <biblScope unit="issue">11</biblScope>
                      <biblScope unit="page">151–152</biblScope>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Auszug Das Geld kroatisch</note>
-                     <title level="a">Novac</title>
                      <title level="j" ref="pmb122238">Riečki novi list</title>
                      <biblScope unit="jg">9</biblScope>
                      <date type="year">1915</date>
                      <biblScope unit="issue">61</biblScope>
                      <biblScope unit="page">1</biblScope>
                      <date when="1915-03-12">12.3.1915</date>
+                     <title level="a" ref="pmb130209">Novac</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130155"/>
+                     <ptr type="textref" target="pmb130209"/>
+                     <ptr type="textref" target="pmb127877"/>
+                     <ptr type="textref" target="pmb127873"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

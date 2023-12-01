@@ -74,11 +74,6 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb124831"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Politische Prognose. In:
                   Labyrinth der Gegenwart. Hildesheim: F. Borgmeyer 1929, S. 131–136.</note>
                <note type="periodica">
@@ -90,14 +85,23 @@
                      <biblScope unit="page">2</biblScope>
                      <date when="1928-03-07">7.3.1928</date>
                   </bibl>
-                  <bibl>
-                     <title level="j" ref="pmb36374">Neue Freie Presse</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36374">Neue Freie
+                        Presse</title>
                      <date type="year">1928</date>
-                     <biblScope unit="issue">22797, Morgenblatt</biblScope>
+                     <biblScope unit="issue">22797,
+                        Morgenblatt</biblScope>
                      <biblScope unit="page">26–27</biblScope>
                      <date when="1928-03-04">4.3.1928</date>
+                     <title level="a" ref="pmb124831">Politische
+                        Prognose</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb124831"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

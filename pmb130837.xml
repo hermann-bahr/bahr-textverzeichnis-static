@@ -63,15 +63,10 @@
                   <note type="Book">Buch</note>
                   <note type="Section">Section</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130803"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: [Judentaufen]. In: Judentaufen.
                   Hg. Werner Sombart. München: Georg Müller 1912, S. 21–22.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb122276">Dr. Bloch’s österreichische
                         Wochenschrift</title>
                      <biblScope unit="jg">29</biblScope>
@@ -79,8 +74,14 @@
                      <biblScope unit="issue">5</biblScope>
                      <biblScope unit="page">66</biblScope>
                      <date when="1912-02-02">2.2.1912</date>
+                     <title level="a" ref="pmb130803">Judentaufen</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130803"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

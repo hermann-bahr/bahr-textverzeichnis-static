@@ -90,23 +90,18 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb131303"/>
-                     <ptr type="textref" target="pmb131303"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Austriaca. 7. In: Austriaca.
                   Berlin: S. Fischer 1911, S. 63–71.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Der Richter</title>
-                     <title level="j" ref="pmb36376">Neues Wiener Journal</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36376">Neues Wiener
+                        Journal</title>
                      <biblScope unit="jg">17</biblScope>
                      <date type="year">1909</date>
                      <biblScope unit="issue">5639</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1909-07-04">4.7.1909</date>
+                     <title level="a" ref="pmb131303">Der Richter</title>
                   </bibl>
                   <bibl>
                      <title level="a">Der Richter</title>
@@ -116,6 +111,11 @@
                      <biblScope unit="page">68–72</biblScope>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb131303"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

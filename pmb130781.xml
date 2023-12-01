@@ -89,33 +89,35 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb131003"/>
-                     <ptr type="textref" target="pmb131003"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Whitman. In: Essays. Leipzig:
                   Insel 1912, S. 34–36.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Walt Whitman</title>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb46360">Der Strom</title>
                      <biblScope unit="jg">1</biblScope>
                      <date when="1911-04-01">April 1911</date>
                      <biblScope unit="issue">1</biblScope>
                      <biblScope unit="page">17–19</biblScope>
+                     <title level="a" ref="pmb131003">Walt Whitman</title>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>gekürzt</note>
-                     <title level="j" ref="pmb58341">Das literarische Echo</title>
+                     <title level="j" ref="pmb58341">Das
+                        literarische Echo</title>
                      <biblScope unit="jg">13</biblScope>
                      <date type="year">1911</date>
                      <biblScope unit="issue">19</biblScope>
                      <biblScope unit="page">1398–1399</biblScope>
                      <date when="1911-07-01">1.7.1911</date>
+                     <title level="a" ref="pmb130967">Walt Whitman</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb131003"/>
+                     <ptr type="textref" target="pmb130967"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

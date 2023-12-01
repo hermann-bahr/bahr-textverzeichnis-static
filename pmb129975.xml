@@ -60,31 +60,36 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130105"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Der Österreicher. In:
                   Schwarzgelb. Berlin: S. Fischer 1917, S. 106–113.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb122243">Wieland</title>
                      <biblScope unit="jg">1</biblScope>
                      <date type="year">1915</date>
                      <biblScope unit="issue">37</biblScope>
                      <biblScope unit="page">3–6</biblScope>
                      <date when="1915-12-10">10.12.1915</date>
+                     <title level="a" ref="pmb130239">Der
+                     Österreicher</title>
                   </bibl>
-                  <bibl>
-                     <title level="j" ref="pmb36376">Neues Wiener Journal</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36376">Neues Wiener
+                        Journal</title>
                      <biblScope unit="jg">24</biblScope>
                      <date type="year">1916</date>
                      <biblScope unit="issue">7971</biblScope>
                      <biblScope unit="page">6–7</biblScope>
                      <date when="1916-01-09">9.1.1916</date>
+                     <title level="a" ref="pmb130105">Der Österreicher</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130239"/>
+                     <ptr type="textref" target="pmb130105"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

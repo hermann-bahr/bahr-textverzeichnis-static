@@ -78,27 +78,29 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb132237"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Nacht und Morgen. Schauspiel in
                   vier Aufzügen von Paul Lindau. Zum erstenmal aufgeführt im Burgtheater am 17.
                   Dezember 1901. In: Österreichische Volks-Zeitung, Jg. 47, Nr. 347, 18.12.1901,
                   S. 1.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>gekürzt</note>
-                     <title level="j" ref="pmb122052">Österreichische Volks-Zeitung. 2
-                        Kreuzer-Ausgabe</title>
+                     <title level="j" ref="pmb122052">Österreichische Volks-Zeitung. 2 Kreuzer-Ausgabe</title>
                      <biblScope unit="jg">47</biblScope>
                      <date type="year">1901</date>
                      <biblScope unit="issue">347</biblScope>
                      <biblScope unit="page">8</biblScope>
                      <date when="1901-12-18">18.12.1901</date>
+                     <title level="a" ref="pmb134861">Theater und Kunst.
+                        Burgtheater</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb134861"/>
+                     <ptr type="textref" target="pmb132237"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

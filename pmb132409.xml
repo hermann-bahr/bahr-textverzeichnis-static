@@ -77,24 +77,26 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb123131"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Berliner. Am 13. Juni 1901. In:
                   Premièren. Winter 1900 bis Sommer 1901. München: Albert Langen 1902,
                   S. 228.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41321">Neues Wiener Tagblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41321">Neues Wiener
+                        Tagblatt</title>
                      <biblScope unit="jg">35</biblScope>
                      <date type="year">1901</date>
                      <biblScope unit="issue">160</biblScope>
                      <biblScope unit="page">6</biblScope>
                      <date when="1901-06-13">13.6.1901</date>
+                     <title level="a" ref="pmb123131">Theater, Kunst und Literatur. Carl-Theater</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb123131"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

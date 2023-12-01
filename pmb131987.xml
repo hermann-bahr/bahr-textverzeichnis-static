@@ -73,29 +73,30 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb131681"/>
-                     <ptr type="textref" target="pmb134901"/>
-                     <ptr type="textref" target="pmb131681"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Hedda Gabler. (Schauspiel in
                   vier Akten von Henrik Ibsen. Im Burgtheater zum erstenmal aufgeführt am 20. März
                   1905). In: Österreichische Volks-Zeitung, Jg. 51, Nr. 81, 22.3.1905,
                   S. 6–7.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>gekürzt</note>
-                     <title level="j" ref="pmb122052">Österreichische Volks-Zeitung. 2
-                        Kreuzer-Ausgabe</title>
+                     <title level="j" ref="pmb122052">Österreichische Volks-Zeitung. 2 Kreuzer-Ausgabe</title>
                      <biblScope unit="jg">51</biblScope>
                      <date type="year">1905</date>
                      <biblScope unit="issue">81</biblScope>
                      <biblScope unit="page">9</biblScope>
                      <date when="1905-03-22">22.3.1905</date>
+                     <title level="a" ref="pmb134901">Hedda Gabler. (Schauspiel
+                        in vier Akten von Henrik Ibsen. Im Burgtheater zum erstenmal aufgeführt am
+                        20. März 1905)</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb134901"/>
+                     <ptr type="textref" target="pmb131681"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

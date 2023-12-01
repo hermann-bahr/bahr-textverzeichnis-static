@@ -67,25 +67,27 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb127987"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Max Scheler. In: Hochland,
                   Jg. 14, Nr. 7, April 1917, S. 35–44.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Nachdruck</note>
-                     <title level="a">Hermann Bahr über den Sinn des Krieges</title>
                      <title level="j" ref="pmb122076">Salzburger Chronik</title>
                      <biblScope unit="jg">53</biblScope>
                      <date type="year">1917</date>
                      <biblScope unit="issue">98</biblScope>
                      <biblScope unit="page">10</biblScope>
                      <date when="1917-04-29">29.4.1917</date>
+                     <title level="a" ref="pmb130027">Hermann Bahr über den Sinn des
+                     Krieges</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130027"/>
+                     <ptr type="textref" target="pmb127987"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

@@ -77,25 +77,23 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130519"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Erziehung. I. In: Inventur.
                   Berlin: S. Fischer 1912, S. 88–94.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>längere Fassung</note>
                      <title level="j" ref="pmb41531">Berliner Tageblatt</title>
                      <biblScope unit="jg">40</biblScope>
                      <date type="year">1911</date>
-                     <biblScope unit="issue">663 Morgen–Ausgabe</biblScope>
-                     <biblScope unit="page">2, Beiblatt</biblScope>
+                     <biblScope unit="issue">663
+                        Morgen–Ausgabe</biblScope>
+                     <biblScope unit="page">2,
+                        Beiblatt</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1911-12-31">31.12.1911</date>
+                     <title level="a" ref="pmb130907">Erziehung</title>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>längere Fassung</note>
                      <title level="j" ref="pmb122283">Urania</title>
                      <biblScope unit="jg">5</biblScope>
@@ -103,8 +101,16 @@
                      <biblScope unit="issue">11</biblScope>
                      <biblScope unit="page">197–199</biblScope>
                      <date when="1912-03-16">16.3.1912</date>
+                     <title level="a" ref="pmb130843">Erziehung</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130907"/>
+                     <ptr type="textref" target="pmb130843"/>
+                     <ptr type="textref" target="pmb130519"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

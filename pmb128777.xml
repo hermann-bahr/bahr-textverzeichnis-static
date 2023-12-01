@@ -137,24 +137,27 @@
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                   <note subtype="Tagebuch">Tagebuch</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb127491"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Tagebuch. 1. Dezember. In: Neues
                   Wiener Journal, Jg. 27, Nr. 9385, 21.12.1919, S. 6.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Hermann Bahr über † Gräfin Melanie Zichy–Metternich</title>
-                     <title level="j" ref="pmb43848">Das Neue Reich</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb43848">Das Neue
+                        Reich</title>
                      <biblScope unit="jg">2</biblScope>
                      <date type="year">1920</date>
                      <biblScope unit="issue">14</biblScope>
                      <biblScope unit="page">225–226</biblScope>
                      <date when="1920-01-04">4.1.1920</date>
+                     <title level="a" ref="pmb128647">Hermann Bahr über † Gräfin Melanie
+                     Zichy–Metternich</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb128647"/>
+                     <ptr type="textref" target="pmb127491"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

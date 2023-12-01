@@ -90,24 +90,25 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb133219"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Vier Interieurs. In: Secession.
                   Wien: Wiener Verlag 1900, S. 244–254.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Wien von 1800 bis 1900</title>
-                     <title level="j" ref="pmb41321">Neues Wiener Tagblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41321">Neues Wiener
+                        Tagblatt</title>
                      <biblScope unit="jg">33</biblScope>
                      <date type="year">1899</date>
                      <biblScope unit="issue">354</biblScope>
                      <biblScope unit="page">5–7</biblScope>
                      <date when="1899-12-24">24.12.1899</date>
+                     <title level="a" ref="pmb133219">Wien von 1800 bis 1900</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb133219"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

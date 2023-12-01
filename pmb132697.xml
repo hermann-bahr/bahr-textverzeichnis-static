@@ -54,7 +54,7 @@
                   </imprint>
                </monogr>
                <note type="monographies">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Der erste Teil </note>
                      <title level="m" ref="pmb30859">Das Hermann-Bahr-Buch</title>
                      <biblScope unit="page">144–149</biblScope>
@@ -70,25 +70,27 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb31361"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Anmerkungen. In: Rede über
                   Klimt. Wien: Wiener Verlag 1901, S. 14–25.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>1 Teil</note>
-                     <title level="a">Sezession. Zur zehnten Ausstellung</title>
                      <title level="j" ref="pmb41552">Österreichische Volks-Zeitung</title>
                      <biblScope unit="jg">47</biblScope>
                      <date type="year">1901</date>
                      <biblScope unit="issue">80</biblScope>
                      <biblScope unit="page">1</biblScope>
                      <date when="1901-03-22">22.3.1901</date>
+                     <title level="a" ref="pmb31361">Sezession. Zur zehnten
+                        Ausstellung</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb31361"/>
+                     <ptr type="textref" target="pmb130475"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

@@ -92,33 +92,36 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb131259"/>
-                     <ptr type="textref" target="pmb131259"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Hochverrat in Agram. In:
                   Austriaca. Berlin: S. Fischer 1911, S. 136–145.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb40042">Die Zukunft</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb40042">Die
+                        Zukunft</title>
                      <biblScope unit="jg">17</biblScope>
                      <date type="year">1909</date>
                      <biblScope unit="issue">67</biblScope>
                      <biblScope unit="page">343–347</biblScope>
                      <date when="1909-06-05">5.6.1909</date>
+                     <title level="a" ref="pmb131259">Hochverrat in Agram</title>
                   </bibl>
-                  <bibl>
-                     <title level="a">Veleizdaja u Zagrebu</title>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb122307">Sloboda</title>
                      <biblScope unit="jg">5</biblScope>
                      <date type="year">1909</date>
                      <biblScope unit="issue">24</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1909-06-18">18.6.1909</date>
+                     <title level="a" ref="pmb131257">Veleizdaja u
+                        Zagrebu</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb131259"/>
+                     <ptr type="textref" target="pmb131257"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

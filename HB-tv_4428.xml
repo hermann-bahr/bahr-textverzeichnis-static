@@ -70,24 +70,27 @@
                   <note type="Book">Buch</note>
                   <note type="Section">Section</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb124679"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Welches war das Lieblingsbuch
                   Ihrer Knabenjahre? In: Zeitgemäßes aus der »Literarischen Welt«. Hg. Willy Haas.
                   Stuttgart: Cotta 1963, S. 261.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb59747">Die literarische Welt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb59747">Die literarische
+                        Welt</title>
                      <biblScope unit="jg">5</biblScope>
                      <date type="year">1929</date>
                      <biblScope unit="issue">26</biblScope>
                      <biblScope unit="page">3–4, hier: 3</biblScope>
                      <date when="1929-06-28">28.6.1929</date>
+                     <title level="a" ref="pmb124679">Welches war das Lieblingsbuch Ihrer
+                        Knabenjahre?</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb124679"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

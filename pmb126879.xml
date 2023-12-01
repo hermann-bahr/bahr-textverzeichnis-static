@@ -75,24 +75,25 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb128741"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: I. In: Selbstbildnis. Berlin: S.
                   Fischer 1923, S. 1–6.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Erinnerungen. I</title>
-                     <title level="j" ref="pmb43848">Das Neue Reich</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb43848">Das Neue
+                        Reich</title>
                      <biblScope unit="jg">3</biblScope>
                      <date type="year">1920</date>
                      <biblScope unit="issue">1</biblScope>
                      <biblScope unit="page">12–13</biblScope>
                      <date when="1920-10-03">3.10.1920</date>
+                     <title level="a" ref="pmb128741">Erinnerungen. I</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb128741"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

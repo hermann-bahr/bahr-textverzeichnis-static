@@ -74,12 +74,6 @@
                   <note type="Book">Buch</note>
                   <note subtype="Vortrag">Vortrag</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb134885"/>
-                     <ptr type="textref" target="pmb134883"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Freie Erziehung. Vortrag,
                   gehalten anlässlich der Jahres-Versammlung des Vereines Freie Schule am 26. März
                   1911 im Wiener Kolosseum. Wien: Verlag des Vereines Freie Schule 1911 (16
@@ -95,25 +89,33 @@
                      <biblScope unit="page">7–8</biblScope>
                      <date when="1911-03-29">29.3.1911</date>
                   </bibl>
-                  <bibl>
-                     <title level="a">Hermann Bahr über freie Erziehung</title>
-                     <title level="j" ref="pmb122245">Salzburger Wacht</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122245">Salzburger
+                        Wacht</title>
                      <biblScope unit="jg">12</biblScope>
                      <date type="year">1911</date>
                      <biblScope unit="issue">75</biblScope>
                      <biblScope unit="page">10–11</biblScope>
                      <date when="1911-04-01">1.4.1911</date>
+                     <title level="a" ref="pmb134885">Hermann Bahr über freie Erziehung</title>
                   </bibl>
-                  <bibl>
-                     <title level="a">Hermann Bahr über freie Erziehung</title>
-                     <title level="j" ref="pmb122245">Salzburger Wacht</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122245">Salzburger
+                        Wacht</title>
                      <biblScope unit="jg">12</biblScope>
                      <date type="year">1911</date>
                      <biblScope unit="issue">92</biblScope>
                      <biblScope unit="page">9–10</biblScope>
                      <date when="1911-04-22">22.4.1911</date>
+                     <title level="a" ref="pmb134883">Hermann Bahr über freie Erziehung</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb134885"/>
+                     <ptr type="textref" target="pmb134883"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

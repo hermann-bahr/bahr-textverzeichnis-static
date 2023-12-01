@@ -74,34 +74,35 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb133303"/>
-                     <ptr type="textref" target="pmb124021"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Hirtenlieder. In: Bildung.
                   Berlin und Leipzig: Insel 1900, S. 178–183.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Hirtenlieder</title>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb36340">Die Zeit</title>
                      <biblScope unit="jg">18</biblScope>
                      <date type="year">1899</date>
                      <biblScope unit="issue">223</biblScope>
                      <biblScope unit="page">11–12</biblScope>
                      <date when="1899-01-07">7.1.1899</date>
+                     <title level="a" ref="pmb133303">Hirtenlieder</title>
                   </bibl>
-                  <bibl>
-                     <title level="a">Ein Document</title>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb42850">Reichspost</title>
                      <biblScope unit="jg">6</biblScope>
                      <date type="year">1899</date>
                      <biblScope unit="issue">18</biblScope>
                      <biblScope unit="page">9–10</biblScope>
                      <date when="1899-01-22">22.1.1899</date>
+                     <title level="a" ref="pmb124021">Ein
+                        Document</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb133303"/>
+                     <ptr type="textref" target="pmb124021"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

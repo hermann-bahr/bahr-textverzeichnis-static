@@ -63,25 +63,28 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb123179"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Novelli. Zweites Gastspiel. 6.
                   »Alleluja« (Drama in drei Akten von Marco Praga. Zum ersten Male aufgeführt im
                   Raimundtheater am 18. April 1901). In: Premièren. Winter 1900 bis Sommer 1901.
                   München: Albert Langen 1902, S. 187–191.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41321">Neues Wiener Tagblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41321">Neues Wiener
+                        Tagblatt</title>
                      <biblScope unit="jg">35</biblScope>
                      <date type="year">1901</date>
                      <biblScope unit="issue">105</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1901-04-18">18.4.1901</date>
+                     <title level="a" ref="pmb123179">Alleluja. (Drama in drei Acten von Marco Praga. Zum ersten
+                        Mal aufgeführt im Raimund-Theater am 18. April 1901)</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb123179"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

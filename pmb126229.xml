@@ -71,24 +71,26 @@
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                   <note subtype="Umfrage">Umfrage</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb126255"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Welche Bücher schenken Sie zu
                   Weihnachten? Stichproben des Leipziger Tageblatts. In: Leipziger Tageblatt und
                   Handelszeitung, Jg. 119, Nr. 329, 29.11.1925, S. 3–4, hier: 4.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41507">Prager Tagblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41507">Prager
+                        Tagblatt</title>
                      <biblScope unit="jg">50</biblScope>
                      <date type="year">1925</date>
                      <biblScope unit="issue">278</biblScope>
                      <biblScope unit="page">3</biblScope>
                      <date when="1925-11-29">29.11.1925</date>
+                     <title level="a" ref="pmb126255">Welche Bücher schenken Sie zu Weihnachten?</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb126255"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

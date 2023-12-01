@@ -93,45 +93,49 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130811"/>
-                     <ptr type="textref" target="pmb130645"/>
-                     <ptr type="textref" target="pmb130645"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Der Betrieb. In: Inventur.
                   Berlin: S. Fischer 1912, S. 22–35.</note>
                <note type="periodica">
                   <bibl>
-                     <title level="a">Der Betrieb der Großstadt</title>
                      <title level="j" ref="pmb36156">Die neue Rundschau</title>
                      <biblScope unit="jg">23</biblScope>
                      <date type="year">1912</date>
                      <biblScope unit="issue">6</biblScope>
                      <biblScope unit="page">697–705</biblScope>
+                     <title ref="pmb130811">Der Betrieb der Großstadt</title>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Vortragsmitschrift</note>
-                     <title level="a">Die Großstadt. Vortrag von Hermann Bahr: ›Die
-                        Lebensformen‹</title>
                      <title level="j" ref="pmb122056">Münchner Neueste Nachrichten</title>
                      <biblScope unit="jg">65</biblScope>
                      <date type="year">1912</date>
                      <biblScope unit="issue">54</biblScope>
                      <biblScope unit="page">2–3</biblScope>
                      <date when="1912-02-01">1.2.1912</date>
+                     <title level="a" ref="pmb130611">Die Großstadt. Vortrag von
+                        Hermann Bahr: ›Die Lebensformen‹</title>
                   </bibl>
-                  <bibl>
-                     <title level="j" ref="pmb36376">Neues Wiener Journal</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36376">Neues Wiener
+                        Journal</title>
                      <biblScope unit="jg">20</biblScope>
                      <date type="year">1912</date>
                      <biblScope unit="issue">6565</biblScope>
                      <biblScope unit="page">5</biblScope>
                      <date when="1912-02-02">2.2.1912</date>
-                     <note>Nachdruck der Münchner Neuesten Nachrichten</note>
+                     <note>Nachdruck der
+                        Münchner Neuesten Nachrichten</note>
+                     <title level="a" ref="pmb130645">Hermann
+                        Bahr über die »Großstadt«</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130611"/>
+                     <ptr type="textref" target="pmb130645"/>
+                     <ptr type="textref" target="pmb130811"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

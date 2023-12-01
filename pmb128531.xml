@@ -74,47 +74,49 @@
                   <note subtype="Tagebuch">Tagebuch</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb129035"/>
-                     <ptr type="textref" target="pmb128771"/>
-                     <ptr type="textref" target="pmb129271"/>
-                     <ptr type="textref" target="pmb129035"/>
-                     <ptr type="textref" target="pmb128771"/>
-                     <ptr type="textref" target="pmb129271"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: 16. Februar [1919]. In: 1919.
                   Leipzig, Wien, Zürich: E. P. Tal 1920, S. 71–72.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb36376">Neues Wiener Journal</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36376">Neues Wiener
+                        Journal</title>
                      <biblScope unit="jg">27</biblScope>
                      <date type="year">1919</date>
                      <biblScope unit="issue">9098</biblScope>
                      <biblScope unit="page">5</biblScope>
                      <date when="1919-03-02">2.3.1919</date>
+                     <title level="a" ref="pmb129035">Tagebuch. 16. Februar</title>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Nachdruck</note>
-                     <title level="a">Die Menschen</title>
-                     <title level="j" ref="pmb122206">Neue Hamburger Zeitung</title>
+                     <title level="j" ref="pmb122206">Neue
+                        Hamburger Zeitung</title>
                      <biblScope unit="jg">24</biblScope>
                      <date type="year">1919</date>
-                     <biblScope unit="issue">153, Abendausgabe</biblScope>
+                     <biblScope unit="issue">153,
+                        Abendausgabe</biblScope>
                      <biblScope unit="page">2</biblScope>
                      <date when="1919-03-24">24.3.1919</date>
+                     <title level="a" ref="pmb128771">Die
+                        Menschen</title>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Nachdruck</note>
-                     <title level="a">Die Menschen</title>
                      <title level="j" ref="pmb122207">Leipziger Neueste Nachrichten</title>
                      <date type="year">1919</date>
                      <biblScope unit="issue">71</biblScope>
                      <biblScope unit="page">2</biblScope>
                      <date when="1919-03-25">25.3.1919</date>
+                     <title level="a" ref="pmb129271">Die Menschen</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb129035"/>
+                     <ptr type="textref" target="pmb128771"/>
+                     <ptr type="textref" target="pmb129271"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

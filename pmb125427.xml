@@ -58,21 +58,19 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb125429"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Racine. In: Literarische
                   Umschau. Wochenschrift der Badischen Presse, Jg. 2, Nr. 32, 11.8.1926,
                   S. 126.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb36374">Neue Freie Presse</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36374">Neue Freie
+                        Presse</title>
                      <date type="year">1926</date>
-                     <biblScope unit="issue">22180, Morgenblatt</biblScope>
+                     <biblScope unit="issue">22180,
+                        Morgenblatt</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1926-06-15">15.6.1926</date>
+                     <title level="a" ref="pmb125429">Racine</title>
                   </bibl>
                   <bibl>
                      <title level="j">Magdeburgische Zeitung</title>
@@ -82,6 +80,11 @@
                      <date when="1927-03-23">23.3.1927</date>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb125429"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

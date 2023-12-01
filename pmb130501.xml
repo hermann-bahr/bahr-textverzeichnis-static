@@ -54,7 +54,7 @@
                   </imprint>
                </monogr>
                <note type="monographies">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="m" ref="pmb30383">Renaissance</title>
                      <biblScope unit="page">28–33</biblScope>
                      <title level="a" ref="pmb133471">Vom Gehen</title>
@@ -73,23 +73,26 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb133643"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Vom Gehen. In: Das
                   Hermann-Bahr-Buch. Zum 19. Juli 1913. Berlin: S. Fischer 1913, S. 74–79.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb36340">Die Zeit</title>
                      <biblScope unit="jg">6</biblScope>
                      <date type="year">1896</date>
                      <biblScope unit="issue">69</biblScope>
                      <biblScope unit="page">58–59</biblScope>
                      <date when="1896-01-25">25.1.1896</date>
+                     <title level="a" ref="pmb133643">Vom
+                        Gehen</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb133643"/>
+                     <ptr type="textref" target="pmb133471"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

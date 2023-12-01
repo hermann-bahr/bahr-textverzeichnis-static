@@ -64,26 +64,28 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb132229"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Laboremus. Drama in 3 Akten von
                   Björnsterne [!] Björnson. Zum erstenmal aufgeführt im Burgtheater am 30. Mai 1902.
                   In: Österreichische Volks-Zeitung, Jg. 48, Nr. 148, 31.5.1902, S. 1.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>gekürzt</note>
-                     <title level="j" ref="pmb122052">Österreichische Volks-Zeitung. 2
-                        Kreuzer-Ausgabe</title>
+                     <title level="j" ref="pmb122052">Österreichische Volks-Zeitung. 2 Kreuzer-Ausgabe</title>
                      <biblScope unit="jg">48</biblScope>
                      <date type="year">1902</date>
                      <biblScope unit="issue">148</biblScope>
                      <biblScope unit="page">8–9</biblScope>
                      <date when="1902-05-31">31.5.1902</date>
+                     <title level="a" ref="pmb134853">Laboremus. Drama in 3 Akten von Björnsterne [!] Björnson. Zum erstenmal
+                        aufgeführt im Burgtheater am 30. Mai 1902</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb134853"/>
+                     <ptr type="textref" target="pmb132229"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

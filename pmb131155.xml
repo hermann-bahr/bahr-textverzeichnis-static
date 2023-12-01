@@ -58,23 +58,25 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb30333"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Burgtheater. In: Die Schaubühne,
                   Jg. 6, Nr. 52, 29.12.1910, S. 1346–1348.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb36376">Neues Wiener Journal</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36376">Neues Wiener
+                        Journal</title>
                      <biblScope unit="jg">18</biblScope>
                      <date type="year">1910</date>
                      <biblScope unit="issue">6170</biblScope>
                      <biblScope unit="page">6</biblScope>
                      <date when="1910-12-25">25.12.1910</date>
+                     <title level="a" ref="pmb30333">Burgtheater</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb30333"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

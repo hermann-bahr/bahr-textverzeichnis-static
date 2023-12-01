@@ -68,25 +68,27 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb131607"/>
-                     <ptr type="textref" target="pmb131835"/>
-                     <ptr type="textref" target="pmb131835"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Tasso. In: Um Goethe. Wien:
                   Urania 1917, S. 21–28.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41552">Österreichische Volks-Zeitung</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41552">Österreichische
+                        Volks-Zeitung</title>
                      <biblScope unit="jg">52</biblScope>
                      <date type="year">1906</date>
                      <biblScope unit="issue">18</biblScope>
                      <biblScope unit="page">2</biblScope>
                      <date when="1906-01-19">19.1.1906</date>
+                     <title level="a" ref="pmb131835">Torquato Tasso. (Neu inszeniert im Burgtheater am 17. Januar
+                        1906)</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb131835"/>
+                     <ptr type="textref" target="pmb131607"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

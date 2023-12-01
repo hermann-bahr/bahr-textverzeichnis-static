@@ -67,24 +67,26 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb122685"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Die Duse. 10. Oktober 1904. In:
                   Glossen. Zum Wiener Theater (1903 bis 1906). Berlin: S. Fischer 1907,
                   S. 343.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb65921">Neues Wiener Abendblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb65921">Neues Wiener
+                        Abendblatt</title>
                      <biblScope unit="jg">38</biblScope>
                      <date type="year">1904</date>
                      <biblScope unit="issue">281</biblScope>
                      <biblScope unit="page">6</biblScope>
                      <date when="1904-10-10">10.10.1904</date>
+                     <title level="a" ref="pmb122685">Theater und Kunst. Theater an der Wien</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb122685"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

@@ -61,23 +61,25 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130355"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Unterricht in Kriegszeit. In:
                   Kriegssegen. München: Delphin 1915, S. 60–62.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb122245">Salzburger Wacht</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122245">Salzburger
+                        Wacht</title>
                      <biblScope unit="jg">15</biblScope>
                      <date type="year">1914</date>
                      <biblScope unit="issue">201</biblScope>
                      <biblScope unit="page">3–4</biblScope>
                      <date when="1914-09-05">5.9.1914</date>
+                     <title level="a" ref="pmb130355">Unterricht in Kriegszeit</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130355"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

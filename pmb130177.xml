@@ -57,31 +57,36 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130173"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Der Augenblick. In: Deutsche
                   Montags-Zeitung, Jg. 6, Nr. 15, 12.4.1915, S. 2–3.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb36376">Neues Wiener Journal</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36376">Neues Wiener
+                        Journal</title>
                      <biblScope unit="jg">23</biblScope>
                      <date type="year">1915</date>
                      <biblScope unit="issue">7703</biblScope>
                      <biblScope unit="page">6</biblScope>
                      <date when="1915-04-04">4.4.1915</date>
+                     <title level="a" ref="pmb130253">Der Augenblick</title>
                   </bibl>
-                  <bibl>
-                     <title level="j" ref="pmb41507">Prager Tagblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41507">Prager
+                        Tagblatt</title>
                      <biblScope unit="jg">40</biblScope>
                      <date type="year">1915</date>
                      <biblScope unit="issue">104, Morgenblatt</biblScope>
                      <biblScope unit="page">2–3</biblScope>
                      <date when="1915-04-15">15.4.1915</date>
+                     <title level="a" ref="pmb130173">Der Augenblick</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130253"/>
+                     <ptr type="textref" target="pmb130173"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

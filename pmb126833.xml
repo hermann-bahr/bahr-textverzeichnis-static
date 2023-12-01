@@ -129,30 +129,26 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb126893"/>
-                     <ptr type="textref" target="pmb126929"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: XXIV. In: Selbstbildnis. Berlin:
                   S. Fischer 1923, S. 283–301.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Erinnerungen. XXIV</title>
-                     <title level="j" ref="pmb43848">Das Neue Reich</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb43848">Das Neue
+                        Reich</title>
                      <biblScope unit="jg">5</biblScope>
                      <date type="year">1923</date>
                      <biblScope unit="issue">36</biblScope>
                      <biblScope unit="page">792–794</biblScope>
                      <date when="1923-06-09">9.6.1923</date>
+                     <title level="a" ref="pmb126893">Erinnerungen. XXIV</title>
                   </bibl>
-                  <bibl>
-                     <title level="a">Erinnerungen. XXIV. (2. Teil)</title>
-                     <title level="j" ref="pmb43848">Das Neue Reich</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb43848">Das Neue
+                        Reich</title>
                      <biblScope unit="issue">37</biblScope>
                      <biblScope unit="page">818–819</biblScope>
                      <date when="1923-06-16">16.6.1923</date>
+                     <title level="a" ref="pmb126891">Erinnerungen. XXIV. (2. Teil)</title>
                   </bibl>
                   <bibl>
                      <title level="j" ref="pmb36156">Die neue Rundschau</title>
@@ -161,16 +157,26 @@
                      <biblScope unit="issue">6</biblScope>
                      <biblScope unit="page">510–523</biblScope>
                   </bibl>
-                  <bibl>
-                     <title level="a">Hermann Bahrs Selbstbildnis</title>
-                     <title level="j" ref="pmb36344">Frankfurter Zeitung</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36344">Frankfurter
+                        Zeitung</title>
                      <biblScope unit="jg">67</biblScope>
                      <date type="year">1923</date>
-                     <biblScope unit="issue">424, 1. Morgenblatt</biblScope>
+                     <biblScope unit="issue">424, 1.
+                        Morgenblatt</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1923-06-12">12.6.1923</date>
+                     <title level="a" ref="pmb126929">Hermann
+                        Bahrs Selbstbildnis</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb126893"/>
+                     <ptr type="textref" target="pmb126891"/>
+                     <ptr type="textref" target="pmb126929"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

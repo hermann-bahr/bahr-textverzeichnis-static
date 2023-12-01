@@ -60,24 +60,26 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130103"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Wien und Berlin. 2. Merk’s
                   Berlin. In: Schwarzgelb. Berlin: S. Fischer 1917, S. 118–125.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Österreichische Antwort. Ein Brief nach Berlin</title>
-                     <title level="j" ref="pmb36376">Neues Wiener Journal</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36376">Neues Wiener
+                        Journal</title>
                      <biblScope unit="jg">24</biblScope>
                      <date type="year">1916</date>
                      <biblScope unit="issue">8075</biblScope>
                      <biblScope unit="page">7–8</biblScope>
                      <date when="1916-04-23">23.4.1916</date>
+                     <title level="a" ref="pmb130103">Österreichische Antwort. Ein Brief nach
+                     Berlin</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130103"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

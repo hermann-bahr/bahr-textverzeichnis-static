@@ -81,24 +81,25 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb125229"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Hans Brandenburg. In: Labyrinth
                   der Gegenwart. Hildesheim: F. Borgmeyer 1929, S. 52–57.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Ein Münchner Dichter</title>
-                     <title level="j" ref="pmb122056">Münchner Neueste Nachrichten</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122056">Münchner Neueste
+                        Nachrichten</title>
                      <biblScope unit="jg">80</biblScope>
                      <date type="year">1927</date>
                      <biblScope unit="issue">133</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1927-05-16">16.5.1927</date>
+                     <title level="a" ref="pmb125229">Ein Münchner Dichter</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb125229"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

@@ -70,23 +70,24 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb133607"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Cultur. In: Bildung. Berlin und
                   Leipzig: Insel 1900, S. 3–6.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb36340">Die Zeit</title>
                      <biblScope unit="jg">8</biblScope>
                      <date type="year">1896</date>
                      <biblScope unit="issue">102</biblScope>
                      <biblScope unit="page">170–171</biblScope>
                      <date when="1896-09-12">12.9.1896</date>
+                     <title level="a" ref="pmb133607">Cultur</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb133607"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

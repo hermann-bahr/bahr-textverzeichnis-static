@@ -64,25 +64,29 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130459"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Das grobe Hemd. (Volksstück in
                   vier Acten von C. Karlweis. Zum ersten Mal aufgeführt im Deutschen Volkstheater am
                   1. Februar 1897). In: Wiener Theater. (1892–1898). Berlin: S. Fischer 1899,
                   S. 359–365.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb36340">Die Zeit</title>
                      <biblScope unit="jg">10</biblScope>
                      <date type="year">1897</date>
                      <biblScope unit="issue">123</biblScope>
                      <biblScope unit="page">92</biblScope>
                      <date when="1897-02-06">6.2.1897</date>
+                     <title level="a" ref="pmb133555">Das grobe Hemd. (Volksstück
+                        in vier Acten von C. Karlweis. Zum ersten Mal aufgeführt im Deutschen
+                        Volkstheater am 1. Februar 1897)</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb133555"/>
+                     <ptr type="textref" target="pmb130459"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

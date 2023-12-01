@@ -66,25 +66,28 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb127985"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Die Unruhe zu Gott. In:
                   Hochland, Jg. 17, Nr. 11, August 1920, S. 530–535.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>gekürzt</note>
-                     <title level="a">Hermann Bahr über P. Verkades ›Unruhe zu Gott‹</title>
-                     <title level="j" ref="pmb43848">Das Neue Reich</title>
+                     <title level="j" ref="pmb43848">Das Neue
+                        Reich</title>
                      <biblScope unit="jg">2</biblScope>
                      <date type="year">1920</date>
                      <biblScope unit="issue">52</biblScope>
                      <biblScope unit="page">887</biblScope>
                      <date when="1920-09-26">26.9.1920</date>
+                     <title level="a" ref="pmb128637">Hermann Bahr über P. Verkades ›Unruhe zu
+                     Gott‹</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb128637"/>
+                     <ptr type="textref" target="pmb127985"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

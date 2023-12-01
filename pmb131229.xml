@@ -69,23 +69,25 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb132065"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Agariste. In: Stimmen des Bluts,
                   Novellen. Berlin: Fischer 1909, S. 133–140.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41321">Neues Wiener Tagblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41321">Neues Wiener
+                        Tagblatt</title>
                      <biblScope unit="jg">38</biblScope>
                      <date type="year">1904</date>
                      <biblScope unit="issue">142</biblScope>
                      <biblScope unit="page">3–4</biblScope>
                      <date when="1904-05-22">22.5.1904</date>
+                     <title level="a" ref="pmb132065">Agariste</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb132065"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

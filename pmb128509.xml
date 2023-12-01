@@ -79,26 +79,26 @@
                   <note subtype="Tagebuch">Tagebuch</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb128769"/>
-                     <ptr type="textref" target="pmb129011"/>
-                     <ptr type="textref" target="pmb129011"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: 16. März [1919]. In: 1919.
                   Leipzig, Wien, Zürich: E. P. Tal 1920, S. 103–105.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Tagebuch. 16. März</title>
-                     <title level="j" ref="pmb36376">Neues Wiener Journal</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36376">Neues Wiener
+                        Journal</title>
                      <biblScope unit="jg">27</biblScope>
                      <date type="year">1919</date>
                      <biblScope unit="issue">9126</biblScope>
                      <biblScope unit="page">7–8</biblScope>
                      <date when="1919-03-30">30.3.1919</date>
+                     <title level="a" ref="pmb129011">Tagebuch. 16. März</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb129011"/>
+                     <ptr type="textref" target="pmb128769"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

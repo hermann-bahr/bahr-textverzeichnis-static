@@ -60,24 +60,26 @@
                   <note subtype="Tagebuch">Tagebuch</note>
                   <note subtype="Nachdruck">Nachdruck</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb129271"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Die Menschen. In: Neue Hamburger
                   Zeitung, Jg. 24, Nr. 153, Abendausgabe, 24.3.1919, S. 2.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Tagebuch. 16. Februar</title>
-                     <title level="j" ref="pmb36376">Neues Wiener Journal</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36376">Neues Wiener
+                        Journal</title>
                      <biblScope unit="jg">27</biblScope>
                      <date type="year">1919</date>
                      <biblScope unit="issue">9098</biblScope>
                      <biblScope unit="page">5</biblScope>
                      <date when="1919-03-02">2.3.1919</date>
+                     <title level="a" ref="pmb129035">Tagebuch. 16. Februar</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb129035"/>
+                     <ptr type="textref" target="pmb129271"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

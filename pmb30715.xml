@@ -386,66 +386,64 @@
                <noteGrp type="keywords">
                   <note type="Book">Buch</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb30015"/>
-                     <ptr type="textref" target="pmb131751"/>
-                     <ptr type="textref" target="pmb131761"/>
-                     <ptr type="textref" target="HB-tv_2090"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Wien. Mit acht Vollbildern.
                   Stuttgart: Carl Krabbe 1907 (136 Seiten) (Städte und Landschaften, 6, 6).</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Vorabdruck</note>
-                     <title level="a">Grillparzer</title>
-                     <title level="j" ref="pmb41564">Die Schaubühne</title>
+                     <title level="j" ref="pmb41564">Die
+                        Schaubühne</title>
                      <biblScope unit="jg">3</biblScope>
                      <date type="year">1907</date>
                      <biblScope unit="issue">7</biblScope>
                      <biblScope unit="page">163–170</biblScope>
                      <date when="1907-02-14">14.2.1907</date>
+                     <title level="a" ref="pmb30015">Grillparzer</title>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Vorabdruck</note>
-                     <title level="a">Der Wiener</title>
                      <title level="j" ref="pmb41531">Berliner Tageblatt</title>
                      <biblScope unit="jg">36</biblScope>
                      <date type="year">1907</date>
-                     <biblScope unit="issue">108, Abend-Ausgabe</biblScope>
+                     <biblScope unit="issue">108,
+                        Abend-Ausgabe</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1907-02-28">28.2.1907</date>
+                     <title level="a" ref="pmb131751">Der
+                        Wiener</title>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Vorabdruck des 1. Kapitels</note>
-                     <title level="a">Wiens Vergangenheit</title>
-                     <title level="j" ref="pmb122310">Das Blaubuch. Wochenschrift für öffentliches
-                        Leben, Literatur und Kunst</title>
+                     <title level="j" ref="pmb122310">Das Blaubuch. Wochenschrift für öffentliches Leben,
+                        Literatur und Kunst</title>
                      <biblScope unit="jg">2</biblScope>
                      <date type="year">1907</date>
                      <biblScope unit="issue">10</biblScope>
                      <biblScope unit="page">309–313</biblScope>
                      <date when="1907-03-07">7.3.1907</date>
+                     <title level="a" ref="pmb131739">Wiens Vergangenheit</title>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Vorabdruck des 2. Kapitels</note>
-                     <title level="a">Die Habsburger</title>
-                     <title level="j" ref="pmb122310">Das Blaubuch. Wochenschrift für öffentliches
-                        Leben, Literatur und Kunst</title>
+                     <title level="j" ref="pmb122310">Das Blaubuch. Wochenschrift für öffentliches Leben,
+                        Literatur und Kunst</title>
                      <biblScope unit="jg">2</biblScope>
                      <date type="year">1907</date>
                      <biblScope unit="issue">11</biblScope>
                      <biblScope unit="page">346–353</biblScope>
                      <date when="1907-03-14">14.3.1907</date>
+                     <title level="a" ref="pmb131545">Die
+                     Habsburger</title>
                   </bibl>
-                  <bibl>
-                     <title level="j" ref="pmb122151">Salzburger Volksblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122151">Salzburger
+                        Volksblatt</title>
                      <biblScope unit="jg">37</biblScope>
                      <date type="year">1907</date>
                      <biblScope unit="issue">63</biblScope>
                      <biblScope unit="page">2–4</biblScope>
                      <date when="1907-03-16">16.3.1907</date>
+                     <title level="a" ref="pmb131761">Die Habsburger</title>
                   </bibl>
                   <bibl>
                      <title level="j">Alldeutsches Tagblatt</title>
@@ -457,14 +455,24 @@
                   </bibl>
                   <bibl>
                      <note>Auszug</note>
-                     <title level="a">Der Wiener</title>
                      <title level="j" ref="pmb41555">Österreichische Rundschau</title>
                      <biblScope unit="jg">2</biblScope>
                      <date type="year">1947</date>
                      <biblScope unit="issue">1</biblScope>
                      <biblScope unit="page">19–22</biblScope>
+                     <title ref="HB-tv_2090">Der Wiener</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb30015"/>
+                     <ptr type="textref" target="pmb131751"/>
+                     <ptr type="textref" target="pmb131739"/>
+                     <ptr type="textref" target="pmb131545"/>
+                     <ptr type="textref" target="pmb131761"/>
+                     <ptr type="textref" target="HB-tv_2090"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

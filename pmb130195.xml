@@ -69,34 +69,37 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130293"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Heldentum. In: Kriegssegen.
                   München: Delphin 1915, S. 44–47.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41531">Berliner Tageblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41531">Berliner
+                        Tageblatt</title>
                      <biblScope unit="jg">43</biblScope>
                      <date type="year">1914</date>
                      <biblScope unit="issue">622, Ausgabe für Berlin und Umgegend,
                         Abend–Ausgabe</biblScope>
                      <biblScope unit="page">3</biblScope>
                      <date when="1914-12-07">7.12.1914</date>
+                     <title level="a" ref="pmb130333">Heldentum</title>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Kroatisch</note>
-                     <title level="a">Junaštvo</title>
                      <title level="j" ref="pmb122254">Hrvatski pokret</title>
                      <biblScope unit="jg">10</biblScope>
                      <date type="year">1914</date>
                      <biblScope unit="issue">327</biblScope>
                      <biblScope unit="page">4</biblScope>
                      <date when="1914-12-24">24.12.1914</date>
+                     <title level="a" ref="pmb130293">Junaštvo</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130333"/>
+                     <ptr type="textref" target="pmb130293"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

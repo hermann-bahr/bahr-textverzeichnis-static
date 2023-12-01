@@ -97,23 +97,25 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb133259"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Zehn Jahre. In: Bildung. Berlin
                   und Leipzig: Insel 1900, S. 171–177.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb36340">Die Zeit</title>
                      <biblScope unit="jg">20</biblScope>
                      <date type="year">1899</date>
                      <biblScope unit="issue">253</biblScope>
                      <biblScope unit="page">91–92</biblScope>
                      <date when="1899-08-05">5.8.1899</date>
+                     <title level="a" ref="pmb133259">Zehn
+                        Jahre</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb133259"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

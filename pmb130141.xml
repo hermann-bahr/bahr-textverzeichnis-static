@@ -58,11 +58,6 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb129985"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Deutschland und Österreich. In:
                   Die neue Rundschau, Jg. 27, Nr. 6, Juni 1916, S. 826–835.</note>
                <note type="periodica">
@@ -71,25 +66,35 @@
                      <date type="year">1916</date>
                      <biblScope unit="issue">13?</biblScope>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Textvariante</note>
-                     <title level="a">Ein Vortrag Hermann Bahrs in München</title>
                      <title level="j" ref="pmb36376">Neues Wiener Journal</title>
                      <biblScope unit="jg">24</biblScope>
                      <date type="year">1916</date>
                      <biblScope unit="issue">8018</biblScope>
                      <biblScope unit="page">6–7</biblScope>
                      <date when="1916-02-25">25.2.1916</date>
+                     <title level="a" ref="pmb130065">Ein Vortrag Hermann Bahrs in
+                     München</title>
                   </bibl>
-                  <bibl>
-                     <title level="j" ref="pmb122229">National-Zeitung, Berlin</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122229">National-Zeitung,
+                        Berlin</title>
                      <biblScope unit="jg">69</biblScope>
                      <date type="year">1916</date>
                      <biblScope unit="issue">50</biblScope>
                      <biblScope unit="page">2–3</biblScope>
                      <date when="1916-02-29">29.2.1916</date>
+                     <title level="a" ref="pmb130067">Deutschland und Österreich</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130065"/>
+                     <ptr type="textref" target="pmb130067"/>
+                     <ptr type="textref" target="pmb129985"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

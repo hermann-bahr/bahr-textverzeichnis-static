@@ -75,27 +75,30 @@
                   <note subtype="Nachdruck">Nachdruck</note>
                   <note subtype="Auszug">Auszug</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130205"/>
-                     <ptr type="textref" target="HB-tv_1046"/>
-                     <ptr type="textref" target="pmb130353"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Das deutsche Wesen ist uns
                   erschienen. In: Die Aktion. Zeitschrift für freiheitliche Politik und Literatur,
                   Jg. 5, Nr. 18/19, 1.5.1915, S. 236.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41531">Berliner Tageblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41531">Berliner
+                        Tageblatt</title>
                      <biblScope unit="jg">43</biblScope>
                      <date type="year">1914</date>
                      <biblScope unit="issue">410, Ausgabe für Berlin und Umgegend,
                         Abend–Ausgabe</biblScope>
                      <biblScope unit="page">2</biblScope>
                      <date when="1914-08-14">14.8.1914</date>
+                     <title level="a" ref="pmb130353">Das
+                        deutsche Wesen ist uns erschienen!</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130353"/>
+                     <ptr type="textref" target="pmb130205"/>
+                     <ptr type="textref" target="HB-tv_1046"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

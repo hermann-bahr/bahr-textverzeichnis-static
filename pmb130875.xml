@@ -68,20 +68,19 @@
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                   <note subtype="Vorabdruck">Vorabdruck</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130949"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Johann Orth. In: Deutsche
                   Montags-Zeitung, Jg. 2, Nr. 45, 30.10.1911, S. 5.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb36374">Neue Freie Presse</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36374">Neue Freie
+                        Presse</title>
                      <date type="year">1910</date>
-                     <biblScope unit="issue">16485, Morgenblatt</biblScope>
+                     <biblScope unit="issue">16485,
+                        Morgenblatt</biblScope>
                      <biblScope unit="page">1–3</biblScope>
                      <date when="1910-07-15">15.7.1910</date>
+                     <title level="a" ref="pmb131089">Johann
+                        Orth</title>
                   </bibl>
                   <bibl>
                      <note>gekürzt</note>
@@ -93,6 +92,12 @@
                      <date when="1911-11-06">6.11.1911</date>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb131089"/>
+                     <ptr type="textref" target="pmb130949"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

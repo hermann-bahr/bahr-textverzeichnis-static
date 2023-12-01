@@ -76,23 +76,16 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130147"/>
-                     <ptr type="textref" target="pmb130323"/>
-                     <ptr type="textref" target="pmb130323"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Österreich. In: Kriegssegen.
                   München: Delphin 1915, S. 54–59.</note>
                <note type="periodica">
                   <bibl>
-                     <title level="a">Österreich!</title>
                      <title level="j" ref="pmb61408">Die Lese</title>
                      <biblScope unit="jg">5</biblScope>
                      <date type="year">1914</date>
                      <biblScope unit="issue">48</biblScope>
                      <biblScope unit="page">366–367</biblScope>
+                     <title ref="pmb130323">Österreich!</title>
                   </bibl>
                   <bibl>
                      <title level="j">Königsberger Hartungsche Zeitung</title>
@@ -101,15 +94,24 @@
                      <biblScope unit="page">2</biblScope>
                      <date when="1915-03-07">7.3.1915</date>
                   </bibl>
-                  <bibl>
-                     <title level="j" ref="pmb122235">Stuttgarter Neues Tagblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122235">Stuttgarter Neues
+                        Tagblatt</title>
                      <biblScope unit="jg">72</biblScope>
                      <date type="year">1915</date>
                      <biblScope unit="issue">138 Morgen–Ausgabe</biblScope>
                      <biblScope unit="page">2</biblScope>
                      <date when="1915-03-18">18.3.1915</date>
+                     <title level="a" ref="pmb130157">Österreich</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130157"/>
+                     <ptr type="textref" target="pmb130147"/>
+                     <ptr type="textref" target="pmb130323"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

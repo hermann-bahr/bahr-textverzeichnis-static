@@ -63,25 +63,29 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb30987"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Andre Hofer. (Schauspiel in vier
                   Aufzügen von Franz Kranewitter. Zum erstenmale aufgeführt im Deutschen
                   Volkstheater am 5. October 1902). In: Rezensionen. Wiener Theater 1901 bis 1903.
                   Berlin: S. Fischer 1903, S. 371–377.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41321">Neues Wiener Tagblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41321">Neues Wiener
+                        Tagblatt</title>
                      <biblScope unit="jg">36</biblScope>
                      <date type="year">1902</date>
                      <biblScope unit="issue">275</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1902-10-06">6.10.1902</date>
+                     <title level="a" ref="pmb30987">Andre Hofer. (Schauspiel in vier Aufzügen von Franz
+                        Kranewitter. Zum ersten Male aufgeführt im Deutschen Volkstheater am 5.
+                        October 1902)</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb30987"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

@@ -85,11 +85,6 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb131201"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Der Hermann Bahr-Preis. In:
                   Essays. Leipzig: Insel 1912, S. 250–253.</note>
                <note type="periodica">
@@ -100,14 +95,16 @@
                      <biblScope unit="issue">3</biblScope>
                      <biblScope unit="page">444–446</biblScope>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>gekürzt</note>
-                     <title level="j" ref="pmb41531">Berliner Tageblatt</title>
+                     <title level="j" ref="pmb41531">Berliner
+                        Tageblatt</title>
                      <biblScope unit="jg">38</biblScope>
                      <date type="year">1909</date>
                      <biblScope unit="issue">104, Abend-Ausgabe</biblScope>
                      <biblScope unit="page">3</biblScope>
                      <date when="1909-02-26">26.2.1909</date>
+                     <title level="a" ref="pmb131201">Der »Hermann Bahr-Preis«</title>
                   </bibl>
                   <bibl>
                      <title level="j">Mühlviertler Heimatblätter</title>
@@ -117,6 +114,11 @@
                      <biblScope unit="page">84–85</biblScope>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb131201"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

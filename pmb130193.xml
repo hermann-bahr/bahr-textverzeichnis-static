@@ -60,23 +60,25 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130335"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Kriegerisch. In: Kriegssegen.
                   München: Delphin 1915, S. 48–53.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb36376">Neues Wiener Journal</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36376">Neues Wiener
+                        Journal</title>
                      <biblScope unit="jg">22</biblScope>
                      <date type="year">1914</date>
                      <biblScope unit="issue">7604</biblScope>
                      <biblScope unit="page">8</biblScope>
                      <date when="1914-12-25">25.12.1914</date>
+                     <title level="a" ref="pmb130335">Kriegerisch</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130335"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

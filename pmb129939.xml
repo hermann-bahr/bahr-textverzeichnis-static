@@ -68,24 +68,27 @@
                   <note subtype="Tagebuch">Tagebuch</note>
                   <note subtype="Nachdruck">Nachdruck</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb129941"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Aus Bahrs »Tagebuch«. In:
                   Berliner Börsen-Courier, Jg. 49, Nr. 79, Abend-Ausgabe, 16.2.1917, S. 6.</note>
                <note type="periodica">
                   <bibl>
                      <title level="j" ref="pmb36376">Neues Wiener Journal</title>
                   </bibl>
-                  <bibl>
-                     <title level="j" ref="pmb36344">Frankfurter Zeitung</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36344">Frankfurter
+                        Zeitung</title>
                      <date when="1917-02-15">15.2.1917</date>
                      <biblScope unit="issue">Abendblatt</biblScope>
                      <biblScope unit="page">2</biblScope>
+                     <title level="a" ref="pmb129941">Hermann Bahr und Albert
+                        Niemann</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb129941"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

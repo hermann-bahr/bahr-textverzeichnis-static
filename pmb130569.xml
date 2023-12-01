@@ -75,10 +75,11 @@
                   </bibl>
                </note>
                <note type="monographies">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="m" ref="pmb140780">Austriaca</title>
                      <biblScope unit="page">91–101</biblScope>
-                     <title level="a" ref="pmb130921">Austriaca. 10</title>
+                     <title level="a" ref="pmb130921">Austriaca.
+                        10</title>
                   </bibl>
                   <bibl ana="pmb130415"/>
                </note>
@@ -89,23 +90,16 @@
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                   <note subtype="Nachdruck">Nachdruck</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130921"/>
-                     <ptr type="textref" target="pmb130415"/>
-                     <ptr type="textref" target="pmb130415"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Österreichische Ordnung. In:
                   Prager Tagblatt, Jg. 28, Nr. 183, 6.7.1913, S. 3.</note>
                <note type="periodica">
                   <bibl>
-                     <title level="a">Österreichisches. 8</title>
                      <title level="j" ref="pmb64035">März</title>
                      <biblScope unit="jg">4</biblScope>
                      <date type="year">1910</date>
                      <biblScope unit="issue">3</biblScope>
                      <biblScope unit="page">350–356</biblScope>
+                     <title ref="pmb131151">Österreichisches. 8</title>
                   </bibl>
                   <bibl>
                      <title level="j" ref="pmb52154">Die Bühne. Zeitschrift für Theater und
@@ -115,6 +109,12 @@
                      <biblScope unit="page">38–40</biblScope>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130921"/>
+                     <ptr type="textref" target="pmb130415"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

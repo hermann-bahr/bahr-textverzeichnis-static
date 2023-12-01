@@ -64,36 +64,40 @@
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                   <note subtype="Tagebuch">Tagebuch</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb124929"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Tagebuch. 18. Juni. In: Neues
                   Wiener Journal, Jg. 34, Nr. 11715, 4.7.1926, S. 8.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Auszug</note>
-                     <title level="a">Hermann Bahr: Weltstadtseelsorge. Dr. Karl
-                        Sonnenschein</title>
-                     <title level="j" ref="pmb122082">Schönere Zukunft</title>
+                     <title level="j" ref="pmb122082">Schönere
+                        Zukunft</title>
                      <biblScope unit="jg">1</biblScope>
                      <date type="year">1926</date>
                      <biblScope unit="issue">41</biblScope>
                      <biblScope unit="page">1016–1017</biblScope>
                      <date when="1926-07-18">18.7.1926</date>
+                     <title level="a" ref="pmb125347">Hermann Bahr: Weltstadtseelsorge. Dr. Karl
+                        Sonnenschein</title>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Auszug</note>
-                     <title level="a">Weltstadtseelsorge</title>
                      <title level="j" ref="pmb122146">Germania, Berlin</title>
                      <biblScope unit="jg">56</biblScope>
                      <date type="year">1926</date>
-                     <biblScope unit="issue">388, Morgenausgabe</biblScope>
+                     <biblScope unit="issue">388,
+                        Morgenausgabe</biblScope>
                      <biblScope unit="page">2–3</biblScope>
                      <date when="1926-08-22">22.8.1926</date>
+                     <title level="a" ref="pmb125405">Weltstadtseelsorge</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb125347"/>
+                     <ptr type="textref" target="pmb125405"/>
+                     <ptr type="textref" target="pmb124929"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

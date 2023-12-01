@@ -103,45 +103,50 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb134023"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Maximilian Harden. In: Der
                   Antisemitismus. Ein internationales Interview. Berlin: S. Fischer 1894,
                   S. 42–52.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Seite 42–48</note>
-                     <title level="a">Maximilian Harden</title>
                      <title level="j" ref="pmb41471">Deutsche Zeitung, Wien</title>
                      <biblScope unit="jg">23</biblScope>
                      <date type="year">1893</date>
-                     <biblScope unit="issue">7654 Morgen–Ausgabe</biblScope>
+                     <biblScope unit="issue">7654
+                        Morgen–Ausgabe</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1893-04-20">20.4.1893</date>
+                     <title level="a" ref="pmb134185">Maximilian Harden</title>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Seite 48–52</note>
-                     <title level="a">Der Antisemitismus</title>
                      <title level="j" ref="pmb41471">Deutsche Zeitung, Wien</title>
                      <biblScope unit="jg">23</biblScope>
                      <date type="year">1893</date>
-                     <biblScope unit="issue">7654 Morgen–Ausgabe</biblScope>
+                     <biblScope unit="issue">7654
+                        Morgen–Ausgabe</biblScope>
                      <biblScope unit="page">1</biblScope>
                      <date when="1893-04-20">20.4.1893</date>
+                     <title level="a" ref="pmb134187">Der
+                        Antisemitismus</title>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Gekürzter Nachdruck</note>
-                     <title level="a">Ein Interview über den Antisemitismus</title>
                      <title level="j" ref="pmb39950">Wiener Allgemeine Zeitung</title>
                      <date type="year">1893</date>
                      <biblScope unit="issue">4518</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1893-04-21">21.4.1893</date>
+                     <title level="a" ref="pmb134023">Ein Interview über den Antisemitismus</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb134185"/>
+                     <ptr type="textref" target="pmb134187"/>
+                     <ptr type="textref" target="pmb134023"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

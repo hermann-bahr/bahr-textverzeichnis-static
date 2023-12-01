@@ -59,24 +59,27 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb124651"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Paul de Lagarde. (Geboren am 2.
                   November 1827). In: Neue Freie Presse, Nr. 22675, Morgenblatt, 1.11.1927,
                   S. 1–2.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb122106">Münchner Telegramm-Zeitung</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122106">Münchner
+                        Telegramm-Zeitung</title>
                      <biblScope unit="jg">6</biblScope>
                      <date type="year">1927</date>
                      <biblScope unit="issue">209</biblScope>
                      <biblScope unit="page">2</biblScope>
                      <date when="1927-10-31">31.10.1927</date>
+                     <title level="a" ref="pmb125237">Paul de Lagarde. Geboren am 2. November 1827</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb125237"/>
+                     <ptr type="textref" target="pmb124651"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

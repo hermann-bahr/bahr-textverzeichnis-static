@@ -63,25 +63,26 @@
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                   <note subtype="Nachdruck">Nachdruck</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130499"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Das Geld. In: Die Fackel,
                   Jg. 15, Nr. 381-383, 19.9.1913, S. 33–36.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Kroatisch</note>
-                     <title level="a">Novac</title>
                      <title level="j" ref="pmb122238">Riečki novi list</title>
                      <biblScope unit="jg">9</biblScope>
                      <date type="year">1915</date>
                      <biblScope unit="issue">61</biblScope>
                      <biblScope unit="page">1</biblScope>
                      <date when="1915-03-12">12.3.1915</date>
+                     <title level="a" ref="pmb130209">Novac</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130209"/>
+                     <ptr type="textref" target="pmb130499"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

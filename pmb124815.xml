@@ -59,23 +59,26 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb124631"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Geist und Sport. In: Der neuen
                   Jugend. Literarische Zeitschrift, Jg. 1, Nr. 4, April–Mai 1928, S. 76–78.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb122056">Münchner Neueste Nachrichten</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122056">Münchner Neueste
+                        Nachrichten</title>
                      <biblScope unit="jg">80</biblScope>
                      <date type="year">1927</date>
                      <biblScope unit="issue">229</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1927-08-24">24.8.1927</date>
+                     <title level="a" ref="pmb125251">Geist und Sport</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb125251"/>
+                     <ptr type="textref" target="pmb124631"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

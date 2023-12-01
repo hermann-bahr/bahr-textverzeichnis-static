@@ -63,24 +63,26 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb132753"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Die Réjane. (Als Gast im Theater
                   an der Wien). In: Rezensionen. Wiener Theater 1901 bis 1903. Berlin: S. Fischer
                   1903, S. 163–170.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41321">Neues Wiener Tagblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41321">Neues Wiener
+                        Tagblatt</title>
                      <biblScope unit="jg">35</biblScope>
                      <date type="year">1901</date>
                      <biblScope unit="issue">283</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1901-10-15">15.10.1901</date>
+                     <title level="a" ref="pmb132753">Die Réjane. (Als Gast im Theater an der Wien)</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb132753"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

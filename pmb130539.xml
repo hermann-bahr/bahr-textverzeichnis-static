@@ -77,31 +77,28 @@
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                   <note subtype="Nachdruck">Nachdruck</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130535"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Autobiographische Skizze. In:
                   Illustrirtes Wiener Extrablatt, Jg. 42, Nr. 196, 19.7.1913, S. 6.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Im Spiegel. Autobiographische Skizzen. XLII</title>
-                     <title level="j" ref="pmb58341">Das literarische Echo</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb58341">Das literarische
+                        Echo</title>
                      <biblScope unit="jg">13</biblScope>
                      <date type="year">1911</date>
                      <biblScope unit="issue">7</biblScope>
                      <biblScope unit="page">492–494</biblScope>
                      <date when="1911-01-01">1.1.1911</date>
+                     <title level="a" ref="pmb131023">Im Spiegel. Autobiographische Skizzen. XLII</title>
                   </bibl>
-                  <bibl>
-                     <title level="a">Eine Selbstbiographie Hermann Bahrs</title>
-                     <title level="j" ref="pmb122151">Salzburger Volksblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122151">Salzburger
+                        Volksblatt</title>
                      <biblScope unit="jg">43</biblScope>
                      <date type="year">1913</date>
                      <biblScope unit="issue">150</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1913-07-04">4.7.1913</date>
+                     <title level="a" ref="pmb130385">Eine Selbstbiographie Hermann Bahrs</title>
                   </bibl>
                   <bibl>
                      <title level="j" ref="pmb122054">Der Schloßpark</title>
@@ -110,6 +107,13 @@
                      <biblScope unit="page">147–149</biblScope>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb131023"/>
+                     <ptr type="textref" target="pmb130385"/>
+                     <ptr type="textref" target="pmb130535"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

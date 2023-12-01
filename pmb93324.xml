@@ -59,15 +59,10 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb133429"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Emerson. In: Die Zeit, Jg. 1,
                   Nr. 13, 29.12.1894, S. 199.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Tschechisch</note>
                      <title level="j" ref="pmb122325">Literární listy</title>
                      <biblScope unit="jg">19</biblScope>
@@ -75,8 +70,15 @@
                      <biblScope unit="issue">1</biblScope>
                      <biblScope unit="page">4–5</biblScope>
                      <date when="1897-11-05">5.11.1897</date>
+                     <title level="a" ref="pmb133405">Emerson. Z Bahrovy Renaissance přel J. Hofman</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb133405"/>
+                     <ptr type="textref" target="pmb133429"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

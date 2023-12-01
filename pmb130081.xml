@@ -106,11 +106,6 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130269"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Augenmusik. In: Expressionismus.
                   München: Delphin 1916, S. 104–117.</note>
                <note type="periodica">
@@ -120,23 +115,33 @@
                      <date type="year">1914</date>
                      <date when="1914-05-28">28.5.1914</date>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>geändert</note>
-                     <title level="j" ref="pmb41507">Prager Tagblatt</title>
+                     <title level="j" ref="pmb41507">Prager
+                        Tagblatt</title>
                      <date type="year">1914</date>
                      <biblScope unit="issue">148</biblScope>
                      <biblScope unit="page">11–12</biblScope>
                      <date when="1914-05-31">31.5.1914</date>
+                     <title level="a" ref="pmb130273">Augenmusik. (Zur Verständigung über die neueste Kunst)</title>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>geändert</note>
                      <title level="j" ref="pmb122250">Straßburger Post</title>
                      <date type="year">1914</date>
                      <biblScope unit="issue">623, Unterhaltungsblatt</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1914-05-31">31.5.1914</date>
+                     <title level="a" ref="pmb130269">Augenmusik. Zur Verständigung über die neueste
+                     Kunst</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130273"/>
+                     <ptr type="textref" target="pmb130269"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

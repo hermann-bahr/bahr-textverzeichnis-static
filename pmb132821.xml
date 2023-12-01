@@ -88,23 +88,25 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb133001"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Aquarelle. In: Secession. Wien:
                   Wiener Verlag 1900, S. 199–202.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41552">Österreichische Volkszeitung</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41552">Österreichische
+                        Volkszeitung</title>
                      <biblScope unit="jg">46</biblScope>
                      <date type="year">1900</date>
                      <biblScope unit="issue">5</biblScope>
                      <biblScope unit="page">2</biblScope>
                      <date when="1900-01-06">6.1.1900</date>
+                     <title level="a" ref="pmb133001">Aquarelle</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb133001"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

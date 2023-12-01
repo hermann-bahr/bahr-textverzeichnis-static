@@ -58,26 +58,21 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130715"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Der Betrieb der Großstadt. In:
                   Die neue Rundschau, Jg. 23, Nr. 6, Juni 1912, S. 697–705.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Vortragsmitschrift</note>
-                     <title level="a">Die Großstadt. Vortrag von Hermann Bahr: ›Die
-                        Lebensformen‹</title>
                      <title level="j" ref="pmb122056">Münchner Neueste Nachrichten</title>
                      <biblScope unit="jg">65</biblScope>
                      <date type="year">1912</date>
                      <biblScope unit="issue">54</biblScope>
                      <biblScope unit="page">2–3</biblScope>
                      <date when="1912-02-01">1.2.1912</date>
+                     <title level="a" ref="pmb130611">Die Großstadt. Vortrag von
+                        Hermann Bahr: ›Die Lebensformen‹</title>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Nachdruck Vortragsmitschrift</note>
                      <title level="j" ref="pmb36376">Neues Wiener Journal</title>
                      <biblScope unit="jg">20</biblScope>
@@ -85,8 +80,17 @@
                      <biblScope unit="issue">6565</biblScope>
                      <biblScope unit="page">5</biblScope>
                      <date when="1912-02-02">2.2.1912</date>
+                     <title level="a" ref="pmb130645">Hermann Bahr über die
+                        »Großstadt«</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130611"/>
+                     <ptr type="textref" target="pmb130645"/>
+                     <ptr type="textref" target="pmb130715"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

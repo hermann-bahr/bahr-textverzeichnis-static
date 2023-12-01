@@ -167,12 +167,6 @@
                <noteGrp type="keywords">
                   <note type="Book">Buch</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb126563"/>
-                     <ptr type="textref" target="pmb125355"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Selbstbildnis. Berlin: S.
                   Fischer 1923 (310 Seiten).</note>
                <note type="toc">
@@ -215,11 +209,12 @@
                      <biblScope unit="issue">6</biblScope>
                      <biblScope unit="page">510–523</biblScope>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Schlusskapitel</note>
                      <title level="j" ref="pmb36344">Frankfurter Zeitung</title>
                      <date when="1923-06-12">12.6.1923</date>
                      <biblScope unit="page">1–2</biblScope>
+                     <title level="a" ref="pmb126929">Hermann Bahrs Selbstbildnis</title>
                   </bibl>
                   <bibl>
                      <note>Anfang</note>
@@ -250,30 +245,33 @@
                   </bibl>
                   <bibl>
                      <note>Auszug</note>
-                     <title level="a">Erste Wiener Eindrücke</title>
                      <title level="j" ref="pmb36374">Neue Freie Presse</title>
                      <date when="1923-06-12">12.6.1923</date>
                      <biblScope unit="page">10–11</biblScope>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Auszug</note>
-                     <title level="a">Meine Berliner Zeit</title>
-                     <title level="j" ref="pmb41531">Berliner Tageblatt</title>
+                     <title level="j" ref="pmb41531">Berliner
+                        Tageblatt</title>
                      <biblScope unit="jg">52</biblScope>
                      <date type="year">1923</date>
                      <biblScope unit="issue">284, Abend–Ausgabe</biblScope>
                      <biblScope unit="page">2–3</biblScope>
                      <date when="1923-06-19">19.6.1923</date>
+                     <title level="a" ref="pmb126925">Meine Berliner Zeit</title>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Auszug</note>
-                     <title level="a">Wie ich relegiert wurde</title>
-                     <title level="j" ref="pmb41507">Prager Tagblatt</title>
+                     <title level="j" ref="pmb41507">Prager
+                        Tagblatt</title>
                      <biblScope unit="jg">51</biblScope>
                      <date type="year">1926</date>
-                     <biblScope unit="issue">303, Weihnachtsbeilage</biblScope>
+                     <biblScope unit="issue">303,
+                        Weihnachtsbeilage</biblScope>
                      <biblScope unit="page">1</biblScope>
                      <date when="1926-12-25">25.12.1926</date>
+                     <title level="a" ref="pmb125355">Wie ich
+                        relegiert wurde</title>
                   </bibl>
                   <bibl>
                      <note>Auszug</note>
@@ -292,6 +290,14 @@
                      <date when="1934-01-29">29.1.1934</date>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb126929"/>
+                     <ptr type="textref" target="pmb126925"/>
+                     <ptr type="textref" target="pmb125355"/>
+                     <ptr type="textref" target="pmb126563"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

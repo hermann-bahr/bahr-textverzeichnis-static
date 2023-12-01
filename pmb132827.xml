@@ -78,23 +78,25 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb133247"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Die falsche Secession. In:
                   Secession. Wien: Wiener Verlag 1900, S. 169–181.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41321">Neues Wiener Tagblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41321">Neues Wiener
+                        Tagblatt</title>
                      <biblScope unit="jg">33</biblScope>
                      <date type="year">1899</date>
                      <biblScope unit="issue">301</biblScope>
                      <biblScope unit="page">1–4</biblScope>
                      <date when="1899-11-01">1.11.1899</date>
+                     <title level="a" ref="pmb133247">Die falsche Secession</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb133247"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

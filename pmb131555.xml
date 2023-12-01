@@ -61,23 +61,25 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb132003"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Ein Dokument. In: Glossen. Zum
                   Wiener Theater (1903 bis 1906). Berlin: S. Fischer 1907, S. 467–477.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41564">Die Schaubühne</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41564">Die
+                        Schaubühne</title>
                      <biblScope unit="jg">1/2</biblScope>
                      <date type="year">1905</date>
                      <biblScope unit="issue">4</biblScope>
                      <biblScope unit="page">85–91</biblScope>
                      <date when="1905-09-28">28.9.1905</date>
+                     <title level="a" ref="pmb132003">Ein Dokument</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb132003"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

@@ -62,11 +62,6 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb133307"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Burgtheater. In: Wiener Theater.
                   (1892–1898). Berlin: S. Fischer 1899, S. 168–190.</note>
                <note type="periodica">
@@ -91,18 +86,24 @@
                      <biblScope unit="issue">176</biblScope>
                      <biblScope unit="page">106–108</biblScope>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>gekürzt</note>
-                     <title level="a">Hinter den Coulissen. (Die Verschwörung im Wiener
-                        Burgtheater)</title>
                      <title level="j" ref="pmb36344">Frankfurter Zeitung</title>
                      <biblScope unit="jg">42</biblScope>
                      <date type="year">1898</date>
-                     <biblScope unit="issue">24, Abendblatt</biblScope>
+                     <biblScope unit="issue">24,
+                        Abendblatt</biblScope>
                      <biblScope unit="page">1</biblScope>
                      <date when="1898-01-25">25.1.1898</date>
+                     <title level="a" ref="pmb133307">Hinter
+                        den Coulissen. (Die Verschwörung im Wiener Burgtheater)</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb133307"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

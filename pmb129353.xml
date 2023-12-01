@@ -89,23 +89,19 @@
                   <note type="Book">Buch</note>
                   <note type="Section">Section</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb127955"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: [Einleitender Aufsatz]. In: Ich
                   singe das Leben. Übertragung dieser Auswahl von Max Hayek. Leipzig, Wien: E. P.
                   Tal 1919, S. 5–14.</note>
                <note type="periodica">
                   <bibl>
                      <note>gekürzt</note>
-                     <title level="a">Der gute graue Dichter vom fischförmigen Paumanok</title>
                      <title level="j" ref="pmb122211">Neue Erde</title>
                      <biblScope unit="jg">1</biblScope>
                      <date type="year">1919</date>
                      <biblScope unit="issue">15</biblScope>
                      <biblScope unit="page">247–250</biblScope>
+                     <title ref="pmb129319">Der gute graue Dichter vom fischförmigen
+                        Paumanok</title>
                   </bibl>
                   <bibl>
                      <title level="j" ref="pmb36156">Die neue Rundschau</title>
@@ -114,26 +110,35 @@
                      <biblScope unit="issue">5</biblScope>
                      <biblScope unit="page">555–564</biblScope>
                   </bibl>
-                  <bibl>
-                     <title level="a"> Walt Whitman. Zum 100. Geburtstag</title>
-                     <title level="j" ref="pmb41507">Prager Tagblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41507">Prager
+                        Tagblatt</title>
                      <biblScope unit="jg">44</biblScope>
                      <date type="year">1919</date>
                      <biblScope unit="issue">128 Morgen–Ausgabe</biblScope>
                      <biblScope unit="page">2</biblScope>
                      <date when="1919-05-31">31.5.1919</date>
+                     <title level="a" ref="pmb129327"> Walt Whitman. Zum 100. Geburtstag</title>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>gekürzt</note>
-                     <title level="a">Walt Whitman</title>
-                     <title level="j" ref="pmb58341">Das literarische Echo</title>
+                     <title level="j" ref="pmb58341">Das
+                        literarische Echo</title>
                      <biblScope unit="jg">21</biblScope>
                      <date type="year">1919</date>
                      <biblScope unit="issue">18</biblScope>
                      <biblScope unit="page">1127</biblScope>
                      <date when="1919-06-15">15.6.1919</date>
+                     <title level="a" ref="pmb129329">Walt Whitman</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb129327"/>
+                     <ptr type="textref" target="pmb129329"/>
+                     <ptr type="textref" target="pmb127955"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

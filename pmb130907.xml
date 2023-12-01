@@ -58,24 +58,25 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130843"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Erziehung. In: Berliner
                   Tageblatt, Jg. 40, Nr. 663, Morgen-Ausgabe, 2. Beiblatt, 31.12.1911,
                   S. 1–2.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb122283">Urania</title>
                      <biblScope unit="jg">5</biblScope>
                      <date type="year">1912</date>
                      <biblScope unit="issue">11</biblScope>
                      <biblScope unit="page">197–199</biblScope>
                      <date when="1912-03-16">16.3.1912</date>
+                     <title level="a" ref="pmb130843">Erziehung</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130843"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

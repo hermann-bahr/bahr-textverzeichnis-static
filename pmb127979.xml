@@ -79,23 +79,25 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130359"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Berliner Kultur. In: Bilderbuch.
                   Wien, Leipzig: Wila Wiener Literarische Anstalt 1921, S. 178–184.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb122258">Berliner Morgenpost</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122258">Berliner
+                        Morgenpost</title>
                      <biblScope unit="jg">17</biblScope>
                      <date type="year">1914</date>
                      <biblScope unit="issue">52, Festbeilage</biblScope>
                      <biblScope unit="page">13</biblScope>
                      <date when="1914-02-22">22.2.1914</date>
+                     <title level="a" ref="pmb130359">Berliner Kultur</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130359"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

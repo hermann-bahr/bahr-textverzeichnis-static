@@ -83,23 +83,25 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb133651"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: An die Jugend. In: Bildung.
                   Berlin und Leipzig: Insel 1900, S. 195–199.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb36340">Die Zeit</title>
                      <biblScope unit="jg">8</biblScope>
                      <date type="year">1896</date>
                      <biblScope unit="issue">100</biblScope>
                      <biblScope unit="page">140</biblScope>
                      <date when="1896-08-29">29.8.1896</date>
+                     <title level="a" ref="pmb133651">An die
+                        Jugend</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb133651"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

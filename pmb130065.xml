@@ -70,33 +70,34 @@
                   <note subtype="Vortrag">Vortrag</note>
                   <note subtype="Mitschrift">Mitschrift</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130067"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Ein Vortrag Hermann Bahrs in
                   München. Über Deutschland und Österreich. In: Neues Wiener Journal, Jg. 24,
                   Nr. 8018, 25.2.1916, S. 6–7.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Deutschland und Österreich</title>
-                     <title level="j" ref="pmb122229">National-Zeitung, Berlin</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122229">National-Zeitung,
+                        Berlin</title>
                      <biblScope unit="jg">69</biblScope>
                      <date type="year">1916</date>
                      <biblScope unit="issue">50</biblScope>
                      <biblScope unit="page">2–3</biblScope>
                      <date when="1916-02-29">29.2.1916</date>
+                     <title level="a" ref="pmb130067">Deutschland und Österreich</title>
                   </bibl>
                   <bibl>
-                     <title level="a">Deutschland und Österreich</title>
                      <title level="j" ref="pmb36156">Die neue Rundschau</title>
                      <biblScope unit="jg">27</biblScope>
                      <date type="year">1916</date>
                      <biblScope unit="issue">6</biblScope>
                      <biblScope unit="page">826–835</biblScope>
+                     <title ref="pmb130141">Deutschland und Österreich</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130067"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

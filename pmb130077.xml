@@ -81,21 +81,16 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130117"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Expressionismus. In:
                   Expressionismus. München: Delphin 1916, S. 122–132.</note>
                <note type="periodica">
                   <bibl>
-                     <title level="a">Expressionismus und Goethe</title>
                      <title level="j" ref="pmb36156">Die neue Rundschau</title>
                      <biblScope unit="jg">25</biblScope>
                      <date type="year">1914</date>
                      <biblScope unit="issue">2</biblScope>
                      <biblScope unit="page">913–926</biblScope>
+                     <title ref="pmb130343">Expressionismus und Goethe</title>
                   </bibl>
                   <bibl>
                      <note>gekürzt</note>
@@ -106,15 +101,22 @@
                      <biblScope unit="issue">1</biblScope>
                      <biblScope unit="page">9–14</biblScope>
                   </bibl>
-                  <bibl>
-                     <title level="j" ref="pmb41564">Die Schaubühne</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41564">Die
+                        Schaubühne</title>
                      <biblScope unit="jg">12/I</biblScope>
                      <date type="year">1916</date>
                      <biblScope unit="issue">24</biblScope>
                      <biblScope unit="page">570–574</biblScope>
                      <date when="1916-06-15">15.6.1916</date>
+                     <title level="a" ref="pmb130117">Expressionismus</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130117"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

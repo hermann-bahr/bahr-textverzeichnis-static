@@ -54,7 +54,7 @@
                   </imprint>
                </monogr>
                <note type="monographies">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="m" ref="pmb30035">Inventur</title>
                      <biblScope unit="page">136–169</biblScope>
                      <title level="a" ref="pmb130695">Selbstinventur</title>
@@ -68,21 +68,16 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb127877"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: »Niemals derselbe«. In: Das
                   Hermann-Bahr-Buch. Zum 19. Juli 1913. Berlin: S. Fischer 1913, S. 46–48.</note>
                <note type="periodica">
                   <bibl>
-                     <title level="a">Selbstinventur</title>
                      <title level="j" ref="pmb36156">Die neue Rundschau</title>
                      <biblScope unit="jg">23</biblScope>
                      <date type="year">1912</date>
                      <biblScope unit="issue">9</biblScope>
                      <biblScope unit="page">1287–1303</biblScope>
+                     <title ref="pmb32542">Selbstinventur</title>
                   </bibl>
                   <bibl>
                      <title level="a">Selbstinventur</title>
@@ -100,6 +95,12 @@
                      <biblScope unit="page">149–151</biblScope>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130695"/>
+                     <ptr type="textref" target="pmb127877"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

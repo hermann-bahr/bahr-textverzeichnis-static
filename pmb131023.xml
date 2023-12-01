@@ -99,33 +99,31 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130535"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Im Spiegel. Autobiographische
                   Skizzen. XLII. In: Das literarische Echo. Halbmonatsschrift für Literaturfreunde,
                   Jg. 13, Nr. 7, 1.1.1911, S. 492–494.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Um den letzen Absatz gekürzt</note>
-                     <title level="a">Hermann Bahr</title>
                      <title level="j" ref="pmb41507">Prager Tagblatt</title>
                      <biblScope unit="jg">38</biblScope>
                      <date type="year">1913</date>
-                     <biblScope unit="issue">150 Morgen–Ausgabe</biblScope>
+                     <biblScope unit="issue">150
+                        Morgen–Ausgabe</biblScope>
                      <biblScope unit="page">9</biblScope>
                      <date when="1913-06-29">29.6.1913</date>
+                     <title level="a" ref="pmb130399">Hermann
+                        Bahr</title>
                   </bibl>
-                  <bibl>
-                     <title level="a">Eine Selbstbiographie Hermann Bahrs</title>
-                     <title level="j" ref="pmb122151">Salzburger Volksblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122151">Salzburger
+                        Volksblatt</title>
                      <biblScope unit="jg">43</biblScope>
                      <date type="year">1913</date>
                      <biblScope unit="issue">150</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1913-07-04">4.7.1913</date>
+                     <title level="a" ref="pmb130385">Eine Selbstbiographie Hermann Bahrs</title>
                   </bibl>
                   <bibl>
                      <title level="j">Illustrirtes Wiener Extrablatt</title>
@@ -143,6 +141,13 @@
                      <biblScope unit="page">147–149</biblScope>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130399"/>
+                     <ptr type="textref" target="pmb130385"/>
+                     <ptr type="textref" target="pmb130535"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

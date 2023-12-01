@@ -112,25 +112,26 @@
                   <note type="Book">Buch</note>
                   <note type="Section">Section</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130249"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Goethes Jugendprosa. In: Goethes
                   sämtliche Werke. X. Jugendprosa. Kleine Romane und Novellen. Hgg. Curt Noch und
                   Paul Wiegler. Berlin: Ullstein 1923, S. 9–36.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Der junge Goethe</title>
-                     <title level="j" ref="pmb41555">Österreichische Rundschau</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41555">Österreichische
+                        Rundschau</title>
                      <biblScope unit="jg">44</biblScope>
                      <date type="year">1915</date>
                      <biblScope unit="issue">5</biblScope>
                      <biblScope unit="page">213–227</biblScope>
                      <date when="1915-09-01">1.9.1915</date>
+                     <title level="a" ref="pmb130249">Der junge Goethe</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130249"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

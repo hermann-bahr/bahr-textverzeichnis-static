@@ -109,11 +109,6 @@
                   <note type="Book">Buch</note>
                   <note subtype="Tagebücher">Tagebücher</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb123979"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Tagebuch. Berlin: Paul Cassirer
                   1909 (268 Seiten).</note>
                <note type="toc">
@@ -127,17 +122,17 @@
                   <desc ana="258–263" corresp="#pmb131219">Reise in Deutschland</desc>
                </note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Aus Hermann Bahrs Tagebuch</title>
-                     <title level="j" ref="pmb36376">Neues Wiener Journal</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36376">Neues Wiener
+                        Journal</title>
                      <biblScope unit="jg">17</biblScope>
                      <date type="year">1909</date>
                      <biblScope unit="issue">5615</biblScope>
                      <biblScope unit="page">3–4</biblScope>
                      <date when="1909-06-10">10.6.1909</date>
+                     <title level="a" ref="pmb123979">Aus Hermann Bahrs Tagebuch</title>
                   </bibl>
                   <bibl>
-                     <title level="a">Zeitgedanken</title>
                      <title level="j" ref="pmb122303">Heimgarten</title>
                      <biblScope unit="jg">34</biblScope>
                      <date type="year">1910</date>
@@ -145,6 +140,11 @@
                      <biblScope unit="page">796–798</biblScope>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb123979"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

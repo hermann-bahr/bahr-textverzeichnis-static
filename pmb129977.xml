@@ -62,40 +62,41 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130145"/>
-                     <ptr type="textref" target="pmb130061"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Die Länder. 2. Salzburg. (Zum
                   hundertsten Jahrestag seiner Vereinigung mit Österreich). In: Schwarzgelb. Berlin:
                   S. Fischer 1917, S. 101–105.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Nach hundert Jahren</title>
-                     <title level="j" ref="pmb122076">Salzburger Chronik</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122076">Salzburger
+                        Chronik</title>
                      <biblScope unit="jg">52</biblScope>
                      <date type="year">1916</date>
                      <biblScope unit="issue">98</biblScope>
                      <biblScope unit="page">1</biblScope>
                      <date when="1916-04-30">30.4.1916</date>
+                     <title level="a" ref="pmb130145">Nach hundert Jahren</title>
                   </bibl>
                   <bibl>
                      <title level="j">Reichspost</title>
                      <date when="1916-04-30">30.4.1916</date>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Nachdruck</note>
-                     <title level="a">Ein Festartikel Hermann Bahrs</title>
                      <title level="j" ref="pmb42850">Reichspost</title>
                      <biblScope unit="jg">23</biblScope>
                      <date type="year">1916</date>
                      <biblScope unit="issue">200, Morgenblatt</biblScope>
                      <biblScope unit="page">7</biblScope>
                      <date when="1916-04-30">30.4.1916</date>
+                     <title level="a" ref="pmb130061">Ein Festartikel Hermann Bahrs</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130145"/>
+                     <ptr type="textref" target="pmb130061"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

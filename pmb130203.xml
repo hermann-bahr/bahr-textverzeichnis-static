@@ -86,41 +86,41 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130115"/>
-                     <ptr type="textref" target="pmb130341"/>
-                     <ptr type="textref" target="pmb130341"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Gruß an Hofmannsthal. In:
                   Kriegssegen. München: Delphin 1915, S. 9–11.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41531">Berliner Tageblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41531">Berliner
+                        Tageblatt</title>
                      <biblScope unit="jg">43</biblScope>
                      <date type="year">1914</date>
                      <biblScope unit="issue">423, Ausgabe für Berlin und Umgegend,
                         Abend–Ausgabe</biblScope>
                      <biblScope unit="page">2</biblScope>
                      <date when="1914-08-21">21.8.1914</date>
+                     <title level="a" ref="pmb31241">Gruß an
+                        Hofmannsthal</title>
                   </bibl>
-                  <bibl>
-                     <title level="j" ref="pmb36376">Neues Wiener Journal</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36376">Neues Wiener
+                        Journal</title>
                      <biblScope unit="jg">22</biblScope>
                      <date type="year">1914</date>
                      <biblScope unit="issue">7483</biblScope>
                      <biblScope unit="page">6</biblScope>
                      <date when="1914-08-26">26.8.1914</date>
+                     <title level="a" ref="pmb130341">Gruß an Hofmannsthal</title>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>gekürzt</note>
-                     <title level="j" ref="pmb61441">Die Aktion</title>
+                     <title level="j" ref="pmb61441">Die
+                        Aktion</title>
                      <biblScope unit="jg">5</biblScope>
                      <date type="year">1915</date>
                      <biblScope unit="issue">18/19</biblScope>
                      <biblScope unit="page">236–237</biblScope>
                      <date when="1915-05-01">1.5.1915</date>
+                     <title level="a" ref="pmb130219">Gruß an Hofmannsthal</title>
                   </bibl>
                   <bibl>
                      <title level="j" ref="pmb41244">Die Fackel</title>
@@ -130,6 +130,14 @@
                      <biblScope unit="page">41–42</biblScope>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb31241"/>
+                     <ptr type="textref" target="pmb130341"/>
+                     <ptr type="textref" target="pmb130219"/>
+                     <ptr type="textref" target="pmb130115"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

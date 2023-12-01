@@ -66,17 +66,12 @@
                   <note subtype="Nachdruck">Nachdruck</note>
                   <note subtype="gekürzt">gekürzt</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb132041"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Timandra. Trauerspiel in fünf Aufzügen von
                   Adolf Wilbrandt. Zum erstenmal aufgeführt im Burgtheater am 6. Mai 1904. In:
                   Österreichische Volks-Zeitung. 2 Kreuzer-Ausgabe, Jg. 50, Nr. 127, 7.5.1904,
                   S. 9.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>vollständig</note>
                      <title level="j" ref="pmb41552">Österreichische Volks-Zeitung</title>
                      <biblScope unit="jg">50</biblScope>
@@ -84,8 +79,16 @@
                      <biblScope unit="issue">127</biblScope>
                      <biblScope unit="page">2</biblScope>
                      <date when="1904-05-07">7.5.1904</date>
+                     <title level="a" ref="pmb132041">Timandra. Trauerspiel in
+                        fünf Aufzügen von Adolf Wilbrandt. Zum erstenmal aufgeführt im Burgtheater
+                        am 6. Mai 1904</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb132041"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

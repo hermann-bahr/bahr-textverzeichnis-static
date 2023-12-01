@@ -74,26 +74,27 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130105"/>
-                     <ptr type="textref" target="pmb129975"/>
-                     <ptr type="textref" target="pmb129975"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Der Österreicher. In: Wieland,
                   Jg. 1, Nr. 37, Sondernummer Österreich-Ungarn, 10.12.1915, S. 3–6.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Nachdruck</note>
-                     <title level="j" ref="pmb36376">Neues Wiener Journal</title>
+                     <title level="j" ref="pmb36376">Neues
+                        Wiener Journal</title>
                      <biblScope unit="jg">24</biblScope>
                      <date type="year">1916</date>
                      <biblScope unit="issue">7971</biblScope>
                      <biblScope unit="page">6–7</biblScope>
                      <date when="1916-01-09">9.1.1916</date>
+                     <title level="a" ref="pmb130105">Der Österreicher</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130105"/>
+                     <ptr type="textref" target="pmb129975"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

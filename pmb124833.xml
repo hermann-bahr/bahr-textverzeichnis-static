@@ -66,22 +66,27 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb124605"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Politische Prognose. In:
                   Münchner Telegramm-Zeitung, Jg. 7, Nr. 47, 7.3.1928, S. 2.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb36374">Neue Freie Presse</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36374">Neue Freie
+                        Presse</title>
                      <date type="year">1928</date>
-                     <biblScope unit="issue">22797, Morgenblatt</biblScope>
+                     <biblScope unit="issue">22797,
+                        Morgenblatt</biblScope>
                      <biblScope unit="page">26–27</biblScope>
                      <date when="1928-03-04">4.3.1928</date>
+                     <title level="a" ref="pmb124831">Politische
+                        Prognose</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb124831"/>
+                     <ptr type="textref" target="pmb124605"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

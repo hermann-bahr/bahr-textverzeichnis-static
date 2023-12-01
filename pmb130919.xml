@@ -54,8 +54,9 @@
                   </imprint>
                </monogr>
                <note type="monographies">
-                  <bibl>
-                     <title level="m" ref="pmb30859">Das Hermann-Bahr-Buch</title>
+                  <bibl type="obsolete">
+                     <title level="m" ref="pmb30859">Das
+                        Hermann-Bahr-Buch</title>
                      <biblScope unit="page">289–297</biblScope>
                      <title level="a" ref="pmb130417">Die pünktliche Post</title>
                   </bibl>
@@ -83,24 +84,26 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130941"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Austriaca. 11. In: Austriaca.
                   Berlin: S. Fischer 1911, S. 101–109.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Die Post</title>
-                     <title level="j" ref="pmb36376">Neues Wiener Journal</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36376">Neues Wiener
+                        Journal</title>
                      <biblScope unit="jg">19</biblScope>
                      <date type="year">1911</date>
                      <biblScope unit="issue">6280</biblScope>
                      <biblScope unit="page">13–14</biblScope>
                      <date when="1911-04-16">16.4.1911</date>
+                     <title level="a" ref="pmb130941">Die Post</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130941"/>
+                     <ptr type="textref" target="pmb130417"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

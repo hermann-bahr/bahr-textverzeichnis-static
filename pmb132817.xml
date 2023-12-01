@@ -89,23 +89,25 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb132807"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Der Bund »Hagen«. In: Secession.
                   Wien: Wiener Verlag 1900, S. 209–215.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41552">Österreichische Volks-Zeitung</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41552">Österreichische
+                        Volks-Zeitung</title>
                      <biblScope unit="jg">46</biblScope>
                      <date type="year">1900</date>
                      <biblScope unit="issue">32</biblScope>
                      <biblScope unit="page">3–4</biblScope>
                      <date when="1900-02-03">3.2.1900</date>
+                     <title level="a" ref="pmb132807">Der Bund »Hagen«</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb132807"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

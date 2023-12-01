@@ -70,11 +70,6 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130865"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Bayreuth. In: Bayreuth. Leipzig:
                   E. Rowohlt 1912, S. 103–114.</note>
                <note type="periodica">
@@ -86,15 +81,22 @@
                      <biblScope unit="page">1, Beiblatt</biblScope>
                      <date when="1911-08-06">6.8.1911</date>
                   </bibl>
-                  <bibl>
-                     <title level="j" ref="pmb122286">Die Heimstatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122286">Die
+                        Heimstatt</title>
                      <biblScope unit="jg">2</biblScope>
                      <date type="year">1911</date>
                      <biblScope unit="issue">8</biblScope>
                      <biblScope unit="page">116–117</biblScope>
                      <date when="1911-08-15">15.8.1911</date>
+                     <title level="a" ref="pmb130865">Bayreuth</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130865"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

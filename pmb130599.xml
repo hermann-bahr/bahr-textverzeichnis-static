@@ -79,24 +79,25 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130689"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Erziehung. III. In: Inventur.
                   Berlin: S. Fischer 1912, S. 100–108.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Die Kunst und das Kind</title>
-                     <title level="j" ref="pmb41531">Berliner Tageblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41531">Berliner
+                        Tageblatt</title>
                      <biblScope unit="jg">41</biblScope>
                      <date type="year">1912</date>
                      <biblScope unit="issue">223, Abend-Ausgabe</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1912-05-02">2.5.1912</date>
+                     <title level="a" ref="pmb130689">Die Kunst und das Kind</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130689"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

@@ -77,11 +77,6 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb125239"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Paul de Lagarde. In: Labyrinth
                   der Gegenwart. Hildesheim: F. Borgmeyer 1929, S. 35–38.</note>
                <note type="periodica">
@@ -93,14 +88,23 @@
                      <biblScope unit="page">2</biblScope>
                      <date when="1927-10-31">31.10.1927</date>
                   </bibl>
-                  <bibl>
-                     <title level="j" ref="pmb36374">Neue Freie Presse</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36374">Neue Freie
+                        Presse</title>
                      <date type="year">1927</date>
-                     <biblScope unit="issue">22675, Morgenblatt</biblScope>
+                     <biblScope unit="issue">22675,
+                        Morgenblatt</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1927-11-01">1.11.1927</date>
+                     <title level="a" ref="pmb125239">Paul de
+                        Lagarde. (Geboren am 2. November 1827)</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb125239"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

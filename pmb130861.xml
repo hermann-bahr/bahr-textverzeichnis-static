@@ -59,24 +59,26 @@
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                   <note subtype="Nachdruck">Nachdruck</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb133753"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Der Teufel im Leibe. Eine
                   Skizze. In: Neue Freie Volksbühne. Vereinsblatt für die Mitglieder, Jg. 22, Nr. 2,
                   1.11.1911, S. 43–46.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb62394">Das Kleine Journal</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb62394">Das Kleine
+                        Journal</title>
                      <biblScope unit="jg">16</biblScope>
                      <date type="year">1894</date>
                      <biblScope unit="issue">62, Abend-Ausgabe</biblScope>
                      <biblScope unit="page">1</biblScope>
                      <date when="1894-02-03">3.2.1894</date>
+                     <title level="a" ref="pmb133753">Der Teufel im Leibe</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb133753"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

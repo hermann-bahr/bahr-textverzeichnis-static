@@ -77,23 +77,24 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb133689"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Schweine. In: Renaissance. Neue
                   Studien zur Kritik der Moderne. Berlin: S. Fischer 1897, S. 185–190.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb36340">Die Zeit</title>
                      <biblScope unit="jg">4</biblScope>
                      <date type="year">1895</date>
                      <biblScope unit="issue">47</biblScope>
                      <biblScope unit="page">123–124</biblScope>
                      <date when="1895-08-24">24.8.1895</date>
+                     <title level="a" ref="pmb133689">Schweine</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb133689"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

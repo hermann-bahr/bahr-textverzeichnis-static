@@ -59,25 +59,26 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb132031"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Philosophie des Impressionismus.
                   In: Der Tag, Berlin, Nr. 193, Illustrierte Zeitung, 26.4.1903, S. 1–3.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Tschechisch</note>
-                     <title level="a">Filosofie impresionismu</title>
                      <title level="j" ref="pmb122325">Literární listy</title>
                      <biblScope unit="jg">21</biblScope>
                      <date type="year">1903</date>
                      <biblScope unit="issue">3/4</biblScope>
                      <biblScope unit="page">62–65</biblScope>
                      <date when="1903-12-20">20.12.1903</date>
+                     <title level="a" ref="pmb132071">Filosofie impresionismu</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb132071"/>
+                     <ptr type="textref" target="pmb132031"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

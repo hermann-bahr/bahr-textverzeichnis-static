@@ -79,18 +79,12 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb134825"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Eduard von Bauernfeld. In: Die
                   Überwindung des Naturalismus. Als zweite Reihe von »Zur Kritik der Moderne«.
                   Dresden und Leipzig: E. Pierson 1891, S. 161–164.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Pseudonym »B. Linz«</note>
-                     <title level="a">Eduard von Bauernfeld ✝</title>
                      <title level="j" ref="pmb40968">Das Magazin für die Litteratur des In- und
                         Auslandes</title>
                      <biblScope unit="jg">59</biblScope>
@@ -98,8 +92,14 @@
                      <biblScope unit="issue">34</biblScope>
                      <biblScope unit="page">521–522</biblScope>
                      <date when="1890-08-23">23.8.1890</date>
+                     <title level="a" ref="pmb134825">Eduard von Bauernfeld ✝</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb134825"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

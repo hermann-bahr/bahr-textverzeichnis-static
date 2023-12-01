@@ -78,16 +78,11 @@
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                   <note subtype="Umfrage">Umfrage</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130985"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Alfred Kerr. In: Die Aktion.
                   Zeitschrift für freiheitliche Politik und Literatur, Jg. 1, Nr. 13, 15.5.1911,
                   S. 398.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>gekürzter Nachdruck</note>
                      <title level="j" ref="pmb36133">Pan</title>
                      <biblScope unit="jg">1</biblScope>
@@ -95,8 +90,14 @@
                      <biblScope unit="issue">15</biblScope>
                      <biblScope unit="page">516</biblScope>
                      <date when="1911-06-01">1.6.1911</date>
+                     <title level="a" ref="pmb130985">Hermann Bahr</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130985"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

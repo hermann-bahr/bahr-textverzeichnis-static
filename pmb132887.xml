@@ -54,7 +54,7 @@
                   </imprint>
                </monogr>
                <note type="monographies">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="m" ref="pmb141014">Essays</title>
                      <date>1912</date>
                      <biblScope unit="page">231–234</biblScope>
@@ -80,23 +80,25 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb133523"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Erleben. In: Bildung. Berlin und
                   Leipzig: Insel 1900, S. 219–222.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb36340">Die Zeit</title>
                      <biblScope unit="jg">12</biblScope>
                      <date type="year">1897</date>
                      <biblScope unit="issue">146</biblScope>
                      <biblScope unit="page">43</biblScope>
                      <date when="1897-07-17">17.7.1897</date>
+                     <title level="a" ref="pmb133523">Erleben</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb133523"/>
+                     <ptr type="textref" target="pmb130725"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

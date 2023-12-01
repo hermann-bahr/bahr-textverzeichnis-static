@@ -65,17 +65,12 @@
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                   <note subtype="Gekürzt">Gekürzt</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb132285"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Die Frau vom Meere. Schauspiel in fünf Akten
                   von Henrik Ibsen. Im Burgtheater zum erstenmale aufgeführt am 24. April 1903. In:
                   Österreichische Volks-Zeitung. 2 Kreuzer-Ausgabe, Jg. 49, Nr. 113, 25.4.1903,
                   S. 8.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>vollständig</note>
                      <title level="j" ref="pmb41552">Österreichische Volks-Zeitung</title>
                      <biblScope unit="jg">49</biblScope>
@@ -83,8 +78,16 @@
                      <biblScope unit="issue">113</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1903-04-25">25.4.1903</date>
+                     <title level="a" ref="pmb132285">Die Frau
+                        vom Meere. Schauspiel in fünf Akten von Henrik Ibsen. Im Burgtheater zum
+                        erstenmale aufgeführt am 24. April 1903</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb132285"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

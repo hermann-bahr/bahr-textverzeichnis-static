@@ -83,33 +83,38 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb125243"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Kleist. In: Labyrinth der
                   Gegenwart. Hildesheim: F. Borgmeyer 1929, S. 27–31.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb122106">Münchner Telegramm-Zeitung</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122106">Münchner
+                        Telegramm-Zeitung</title>
                      <biblScope unit="jg">6</biblScope>
                      <date type="year">1927</date>
                      <biblScope unit="issue">198</biblScope>
                      <biblScope unit="page">2</biblScope>
                      <date when="1927-10-14">14.10.1927</date>
+                     <title level="a" ref="pmb125243">Kleist</title>
                   </bibl>
-                  <bibl>
-                     <title level="a">Kleist in der Gesellschaft</title>
-                     <title level="j" ref="pmb41289">Berliner Börsen-Courier</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41289">Berliner
+                        Börsen-Courier</title>
                      <biblScope unit="jg">60</biblScope>
                      <date type="year">1927</date>
                      <biblScope unit="issue">487 Morgen–Ausgabe</biblScope>
                      <biblScope unit="page">1, Beilage</biblScope>
                      <biblScope unit="page">5</biblScope>
                      <date when="1927-10-18">18.10.1927</date>
+                     <title level="a" ref="pmb125161">Kleist
+                        in der Gesellschaft</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb125243"/>
+                     <ptr type="textref" target="pmb125161"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

@@ -172,36 +172,36 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb126899"/>
-                     <ptr type="textref" target="pmb126897"/>
-                     <ptr type="textref" target="pmb126899"/>
-                     <ptr type="textref" target="pmb126897"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: XXIII. In: Selbstbildnis.
                   Berlin: S. Fischer 1923, S. 271–283.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Erinnerungen. XXIII</title>
-                     <title level="j" ref="pmb43848">Das Neue Reich</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb43848">Das Neue
+                        Reich</title>
                      <biblScope unit="jg">5</biblScope>
                      <date type="year">1923</date>
                      <biblScope unit="issue">33</biblScope>
                      <biblScope unit="page">715–717</biblScope>
                      <date when="1923-05-19">19.5.1923</date>
+                     <title level="a" ref="pmb126899">Erinnerungen. XXIII</title>
                   </bibl>
-                  <bibl>
-                     <title level="a">Erinnerungen. XXIII. (2. Teil)</title>
-                     <title level="j" ref="pmb43848">Das Neue Reich</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb43848">Das Neue
+                        Reich</title>
                      <biblScope unit="jg">5</biblScope>
                      <date type="year">1923</date>
                      <biblScope unit="issue">34</biblScope>
                      <biblScope unit="page">742–744</biblScope>
                      <date when="1923-05-26">26.5.1923</date>
+                     <title level="a" ref="pmb126897">Erinnerungen. XXIII. (2. Teil)</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb126899"/>
+                     <ptr type="textref" target="pmb126897"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

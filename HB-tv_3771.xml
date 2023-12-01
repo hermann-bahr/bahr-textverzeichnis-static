@@ -93,15 +93,10 @@
                   <note subtype="Zitat">Zitat</note>
                   <note subtype="Nachdruck">Nachdruck</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb129815"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Hermann Bahr. Feldafing: Hans
                   Carl 1927 (Stimmen über das Werk von Rudolf Pannwitz).</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>vollständig</note>
                      <title level="j" ref="pmb36376">Neues Wiener Journal</title>
                      <biblScope unit="jg">25</biblScope>
@@ -109,8 +104,14 @@
                      <biblScope unit="issue">8640</biblScope>
                      <biblScope unit="page">4–5</biblScope>
                      <date when="1917-11-18">18.11.1917</date>
+                     <title level="a" ref="pmb129815">Tagebuch. Salzburg, 8. November</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb129815"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

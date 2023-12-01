@@ -80,24 +80,26 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb133665"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Das Buch der Frauen. Alexandre
                   Dumas fils. (Gestorben am 27. November 1895). In: Renaissance. Neue Studien zur
                   Kritik der Moderne. Berlin: S. Fischer 1897, S. 107–112.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb36340">Die Zeit</title>
                      <biblScope unit="jg">5</biblScope>
                      <date type="year">1895</date>
                      <biblScope unit="issue">62</biblScope>
                      <biblScope unit="page">155–156</biblScope>
                      <date when="1895-12-07">7.12.1895</date>
+                     <title level="a" ref="pmb133665">Alexandre
+                        Dumas fils. (Gestorben am 27. November)</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb133665"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

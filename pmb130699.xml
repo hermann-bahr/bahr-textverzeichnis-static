@@ -81,30 +81,29 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130841"/>
-                     <ptr type="textref" target="pmb130831"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Friede. In: Inventur. Berlin: S.
                   Fischer 1912, S. 126–131.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41531">Berliner Tageblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41531">Berliner
+                        Tageblatt</title>
                      <biblScope unit="jg">41</biblScope>
                      <date type="year">1912</date>
                      <biblScope unit="issue">436, Abend-Ausgabe</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1912-08-27">27.8.1912</date>
+                     <title level="a" ref="pmb130841">Friede</title>
                   </bibl>
-                  <bibl>
-                     <title level="a">Berta von Suttner</title>
-                     <title level="j" ref="pmb36374">Neue Freie Presse</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36374">Neue Freie
+                        Presse</title>
                      <date type="year">1912</date>
-                     <biblScope unit="issue">17079, Morgenblatt</biblScope>
+                     <biblScope unit="issue">17079,
+                        Morgenblatt</biblScope>
                      <biblScope unit="page">30–31</biblScope>
                      <date when="1912-03-10">10.3.1912</date>
+                     <title level="a" ref="pmb130831">Berta von
+                        Suttner</title>
                   </bibl>
                   <bibl>
                      <title level="j">Demokratisches Volksblatt, Salzburg</title>
@@ -115,6 +114,12 @@
                      <date when="1946-02-02">2.2.1946</date>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130841"/>
+                     <ptr type="textref" target="pmb130831"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

@@ -69,35 +69,36 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130397"/>
-                     <ptr type="textref" target="pmb130209"/>
-                     <ptr type="textref" target="pmb130209"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Das Geld. In: Das
                   Hermann-Bahr-Buch. Zum 19. Juli 1913. Berlin: S. Fischer 1913, S. 79–83.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb41244">Die Fackel</title>
                      <biblScope unit="jg">15</biblScope>
                      <date type="year">1913</date>
                      <biblScope unit="issue">381–383</biblScope>
                      <biblScope unit="page">33–36</biblScope>
                      <date when="1913-09-19">19.9.1913</date>
+                     <title level="a" ref="pmb130397">Das
+                        Geld</title>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Kroatisch</note>
-                     <title level="a">Novac</title>
                      <title level="j" ref="pmb122238">Riečki novi list</title>
                      <biblScope unit="jg">9</biblScope>
                      <date type="year">1915</date>
                      <biblScope unit="issue">61</biblScope>
                      <biblScope unit="page">1</biblScope>
                      <date when="1915-03-12">12.3.1915</date>
+                     <title level="a" ref="pmb130209">Novac</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130397"/>
+                     <ptr type="textref" target="pmb130209"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

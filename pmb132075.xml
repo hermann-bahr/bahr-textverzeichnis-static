@@ -71,17 +71,12 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb131687"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Geschäft ist Geschäft. Komödie
                   in drei Akten von Oktave Mirbeau. Zum erstenmale aufgeführt im Burgtheater am 2.
                   Oktober 1903. In: Österreichische Volks-Zeitung. 2 Kreuzer-Ausgabe, Jg. 49,
                   Nr. 271, 3.10.1903, S. 8–9.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>ungekürzte Vorlage</note>
                      <title level="j" ref="pmb41552">Österreichische Volks-Zeitung</title>
                      <biblScope unit="jg">49</biblScope>
@@ -89,8 +84,17 @@
                      <biblScope unit="issue">271</biblScope>
                      <biblScope unit="page">2–3</biblScope>
                      <date when="1903-10-03">3.10.1903</date>
+                     <title level="a" ref="pmb132279">Geschäft
+                        ist Geschäft. Komödie in drei Akten von Oktave Mirbeau. Zum erstenmale
+                        aufgeführt im Burgtheater am 2. Oktober 1903</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb132279"/>
+                     <ptr type="textref" target="pmb131687"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

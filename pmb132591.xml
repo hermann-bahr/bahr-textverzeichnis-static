@@ -69,27 +69,29 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb132231"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Sonnwendtag. Drama in fünf
                   Aufzügen von Karl Schönherr. Zum erstenmal aufgeführt im Burgtheater am 19. April
                   1902. In: Österreichische Volks-Zeitung, Jg. 48, Nr. 108, 20.4.1902,
                   S. 2–3.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>gekürzt</note>
-                     <title level="j" ref="pmb122052">Österreichische Volks-Zeitung. 2
-                        Kreuzer-Ausgabe</title>
+                     <title level="j" ref="pmb122052">Österreichische Volks-Zeitung. 2 Kreuzer-Ausgabe</title>
                      <biblScope unit="jg">48</biblScope>
                      <date type="year">1902</date>
                      <biblScope unit="issue">108</biblScope>
                      <biblScope unit="page">8</biblScope>
                      <date when="1902-04-20">20.4.1902</date>
+                     <title level="a" ref="pmb134855">Theater und Kunst.
+                        Burgtheater</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb134855"/>
+                     <ptr type="textref" target="pmb132231"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

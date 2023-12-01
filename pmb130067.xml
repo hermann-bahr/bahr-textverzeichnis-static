@@ -66,22 +66,18 @@
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                   <note subtype="Vortrag">Vortrag</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130065"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Deutschland und Österreich. In:
                   National-Zeitung, Berlin, Jg. 69, Nr. 50, 29.2.1916, S. 2–3.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Ein Vortrag Hermann Bahrs in München</title>
-                     <title level="j" ref="pmb36376">Neues Wiener Journal</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36376">Neues Wiener
+                        Journal</title>
                      <biblScope unit="jg">24</biblScope>
                      <date type="year">1916</date>
                      <biblScope unit="issue">8018</biblScope>
                      <biblScope unit="page">6–7</biblScope>
                      <date when="1916-02-25">25.2.1916</date>
+                     <title level="a" ref="pmb130065">Ein Vortrag Hermann Bahrs in München</title>
                   </bibl>
                   <bibl>
                      <title level="j" ref="pmb29835">Neue deutsche Rundschau</title>
@@ -96,6 +92,11 @@
                      <biblScope unit="issue">13?</biblScope>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130065"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

@@ -67,22 +67,18 @@
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                   <note subtype="Tagebuch">Tagebuch</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb126151"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Tagebuch. 2. März. In: Neues
                   Wiener Journal, Jg. 29, Nr. 9831, 20.3.1921, S. 7.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Die Steuern und der Bürger</title>
-                     <title level="j" ref="pmb122190">Rostocker Zeitung</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122190">Rostocker
+                        Zeitung</title>
                      <biblScope unit="vol">211</biblScope>
                      <date type="year">1921</date>
                      <biblScope unit="issue">72</biblScope>
                      <biblScope unit="page">3</biblScope>
                      <date when="1921-03-29">29.3.1921</date>
+                     <title level="a" ref="pmb127879">Die Steuern und der Bürger</title>
                   </bibl>
                   <bibl>
                      <title level="j">Nürnberger Zeitung</title>
@@ -123,7 +119,6 @@
                      <date when="1921-04-12">12.4.1921</date>
                   </bibl>
                   <bibl>
-                     <title level="a">Ich soll Steuern zahlen</title>
                      <title level="j" ref="pmb62394">Das Kleine Journal</title>
                      <date type="year">1921</date>
                      <biblScope unit="issue">13</biblScope>
@@ -131,6 +126,12 @@
                      <date when="1921-02-26">26.2.1921</date>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb127879"/>
+                     <ptr type="textref" target="pmb126151"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

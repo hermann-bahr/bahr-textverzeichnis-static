@@ -80,23 +80,18 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb133067"/>
-                     <ptr type="textref" target="pmb30472"/>
-                     <ptr type="textref" target="pmb30472"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Die schöne Frau. In: Die schöne
                   Frau. Leipzig: Reclam 1924, S. 3–12.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb36340">Die Zeit</title>
                      <biblScope unit="jg">11</biblScope>
                      <date type="year">1897</date>
                      <biblScope unit="issue">131</biblScope>
                      <biblScope unit="page">15–16</biblScope>
                      <date when="1897-04-03">3.4.1897</date>
+                     <title level="a" ref="pmb30472">Die schöne
+                        Frau. Eine Anekdote</title>
                   </bibl>
                   <bibl>
                      <note>Amerikanisch</note>
@@ -108,7 +103,6 @@
                      <biblScope unit="page">508–511</biblScope>
                   </bibl>
                   <bibl>
-                     <title level="a">His Beautiful Wife</title>
                      <title level="j" ref="pmb122095">Golden Book Magazine</title>
                      <biblScope unit="jg">8</biblScope>
                      <date type="year">1930</date>
@@ -116,6 +110,12 @@
                      <biblScope unit="page">90–93</biblScope>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb30472"/>
+                     <ptr type="textref" target="pmb133067"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

@@ -65,24 +65,26 @@
                   <note type="Book">Buch</note>
                   <note type="Section">Section</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb125411"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Die Wacht am Wort. In: Jahrbuch
                   der Neuen Freien Presse 1925. Hg. Dr. Julius Sternberg. Wien: Österreichische
                   Journal-Aktiengesellschaft 1924, S. 12–15.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb122131">Dresdner Neueste Nachrichten</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122131">Dresdner Neueste
+                        Nachrichten</title>
                      <biblScope unit="jg">34</biblScope>
                      <date type="year">1926</date>
                      <biblScope unit="issue">1</biblScope>
                      <biblScope unit="page">2</biblScope>
                      <date when="1926-01-01">1.1.1926</date>
+                     <title level="a" ref="pmb125411">Die Wacht am Wort</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb125411"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

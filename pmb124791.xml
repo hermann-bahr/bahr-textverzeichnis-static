@@ -74,32 +74,37 @@
                   <note type="Book">Buch</note>
                   <note type="Section">Section</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb125407"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Weg und Ziel des deutschen
                   Theaters. In: Das Goldene Buch der Jungen. Hg. Hans Bodenstedt. Berlin:
                   Eigenbrödler 1928, S. 148–153.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb122159">Deutsche Presse</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122159">Deutsche
+                        Presse</title>
                      <biblScope unit="jg">15</biblScope>
                      <date type="year">1925</date>
                      <biblScope unit="issue">47/48</biblScope>
                      <biblScope unit="page">3–5</biblScope>
                      <date when="1925-11-25">25.11.1925</date>
+                     <title level="a" ref="pmb126279">Weg und Ziel des deutschen Theaters</title>
                   </bibl>
-                  <bibl>
-                     <title level="j" ref="pmb122147">Sächsische Volks-Zeitung, Dresden</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122147">Sächsische Volks-Zeitung,
+                        Dresden</title>
                      <biblScope unit="jg">25</biblScope>
                      <date type="year">1926</date>
                      <biblScope unit="issue">31</biblScope>
                      <biblScope unit="page">[7]</biblScope>
                      <date when="1926-02-07">7.2.1926</date>
+                     <title level="a" ref="pmb125407">Weg und Ziel des deutschen Theaters</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb126279"/>
+                     <ptr type="textref" target="pmb125407"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

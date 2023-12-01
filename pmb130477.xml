@@ -54,7 +54,7 @@
                   </imprint>
                </monogr>
                <note type="monographies">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="m" ref="pmb30383">Renaissance</title>
                      <biblScope unit="page">191–196</biblScope>
                      <title level="a" ref="pmb133421">Die Secessionisten in Wien</title>
@@ -80,25 +80,26 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb134007"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Die Sezessionisten in Wien. In:
                   Das Hermann-Bahr-Buch. Zum 19. Juli 1913. Berlin: S. Fischer 1913,
                   S. 140–144.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Künstlerhaus</title>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb36340">Die Zeit</title>
                      <biblScope unit="jg">1</biblScope>
                      <date type="year">1894</date>
                      <biblScope unit="issue">12</biblScope>
                      <biblScope unit="page">186–187</biblScope>
                      <date when="1894-12-22">22.12.1894</date>
+                     <title level="a" ref="pmb134007">Künstlerhaus</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb134007"/>
+                     <ptr type="textref" target="pmb133421"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

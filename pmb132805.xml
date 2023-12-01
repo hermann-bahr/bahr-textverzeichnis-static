@@ -54,10 +54,11 @@
                   </imprint>
                </monogr>
                <note type="monographies">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="m" ref="pmb31987">Caph</title>
                      <biblScope unit="page">160–171</biblScope>
-                     <title level="a" ref="pmb133963">Der Prinz</title>
+                     <title level="a" ref="pmb133963">Der
+                        Prinz</title>
                   </bibl>
                </note>
                <note type="incipit">Marino, krásny miláček, slavený</note>
@@ -71,16 +72,23 @@
                <note type="bibliographical-statement">Hermann Bahr: Princ. [I]. In: Divadelní listy,
                   Jg. 2, Nr. 1, 5.12.1900, S. 7–10.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Der Prinz</title>
-                     <title level="j" ref="pmb122341">Der Zuschauer</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122341">Der
+                        Zuschauer</title>
                      <biblScope unit="jg">2</biblScope>
                      <date type="year">1894</date>
                      <biblScope unit="issue">8</biblScope>
                      <biblScope unit="page">359–362</biblScope>
                      <date when="1894-04-15">15.4.1894</date>
+                     <title level="a" ref="pmb133995">Der Prinz</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb133995"/>
+                     <ptr type="textref" target="pmb133963"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

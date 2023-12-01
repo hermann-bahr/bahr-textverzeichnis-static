@@ -76,24 +76,28 @@
                   <note subtype="Tagebuch">Tagebuch</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb127709 pmb127711"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: 11. Juni [1921]. In: Liebe der
                   Lebenden. Tagebücher 1921/23. Hildesheim: Franz Borgmeyer 1925, S. I,
                   221–223.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb36376">Neues Wiener Journal</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36376">Neues Wiener
+                        Journal</title>
                      <biblScope unit="jg">29</biblScope>
                      <date type="year">1921</date>
                      <biblScope unit="issue">9954</biblScope>
                      <biblScope unit="page">6</biblScope>
                      <date when="1921-07-24">24.7.1921</date>
+                     <title level="a" ref="pmb127709 pmb127711">Tagebuch. 11. Juni Tagebuch. 8.
+                     Juli</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb127709"/>
+                     <ptr type="textref" target="pmb127711"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

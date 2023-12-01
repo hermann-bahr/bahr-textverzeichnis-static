@@ -54,10 +54,11 @@
                   </imprint>
                </monogr>
                <note type="monographies">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="m" ref="pmb141040">Um Goethe</title>
                      <biblScope unit="page">38–43</biblScope>
-                     <title level="a" ref="pmb129953">Die Saat Goethes</title>
+                     <title level="a" ref="pmb129953">Die Saat
+                        Goethes</title>
                   </bibl>
                </note>
                <note type="incipit">Unsere Jugend ist jetzt bei Goethe angekommen. Einen nach dem
@@ -87,23 +88,26 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb133545"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Bei Goethe. In: Bildung. Berlin
                   und Leipzig: Insel 1900, S. 13–16.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb36340">Die Zeit</title>
                      <biblScope unit="jg">10</biblScope>
                      <date type="year">1897</date>
                      <biblScope unit="issue">129</biblScope>
                      <biblScope unit="page">186–187</biblScope>
                      <date when="1897-03-20">20.3.1897</date>
+                     <title level="a" ref="pmb133545">Bei
+                        Goethe</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb133545"/>
+                     <ptr type="textref" target="pmb129953"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

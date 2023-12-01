@@ -77,24 +77,25 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb133551"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Mitterwurzer. (Gestorben am 13.
                   Februar 1897). In: Wiener Theater. (1892–1898). Berlin: S. Fischer 1899,
                   S. 138–143.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb36340">Die Zeit</title>
                      <biblScope unit="jg">10</biblScope>
                      <date type="year">1897</date>
                      <biblScope unit="issue">125</biblScope>
                      <biblScope unit="page">122–123</biblScope>
                      <date when="1897-02-20">20.2.1897</date>
+                     <title level="a" ref="pmb133551">Mitterwurzer. (Gestorben am 13. Februar. 1897)</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb133551"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

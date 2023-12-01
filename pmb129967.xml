@@ -71,15 +71,10 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130069"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Die »Ideen von 1914«. In:
                   Schwarzgelb. Berlin: S. Fischer 1917, S. 131–168.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Vortragsmitschrift</note>
                      <title level="j" ref="pmb122230">Grazer Volksblatt</title>
                      <biblScope unit="jg">49</biblScope>
@@ -87,9 +82,10 @@
                      <biblScope unit="issue">851</biblScope>
                      <biblScope unit="page">5–6</biblScope>
                      <date when="1916-12-10">10.12.1916</date>
+                     <title level="a" ref="pmb130069">Die
+                        Ideen von 1914. Vortrag</title>
                   </bibl>
                   <bibl>
-                     <title level="a">Ideen von 1914</title>
                      <title level="j" ref="pmb122136">Hochland</title>
                      <biblScope unit="jg">14</biblScope>
                      <date type="year">1917</date>
@@ -97,6 +93,11 @@
                      <biblScope unit="page">431–448</biblScope>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130069"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

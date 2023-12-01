@@ -78,23 +78,27 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb126955"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Grillparzer. In: Berliner
                   Börsen-Courier, Jg. 54, Nr. 25, Morgen-Ausgabe, 1. Beilage, 15.1.1922,
                   S. 5.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb36374">Neue Freie Presse</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36374">Neue Freie
+                        Presse</title>
                      <date type="year">1922</date>
-                     <biblScope unit="issue">20618, Morgenblatt</biblScope>
+                     <biblScope unit="issue">20618,
+                        Morgenblatt</biblScope>
                      <biblScope unit="page">31–32</biblScope>
                      <date when="1922-01-22">22.1.1922</date>
+                     <title level="a" ref="pmb127603">Grillparzer</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb127603"/>
+                     <ptr type="textref" target="pmb126955"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

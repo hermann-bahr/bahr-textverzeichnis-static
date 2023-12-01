@@ -80,34 +80,34 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb133527"/>
-                     <ptr type="textref" target="pmb133213"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Die Sokratiker. In: Bildung.
                   Berlin und Leipzig: Insel 1900, S. 165–170.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Sokrates</title>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb36340">Die Zeit</title>
                      <biblScope unit="jg">12</biblScope>
                      <date type="year">1897</date>
                      <biblScope unit="issue">144</biblScope>
                      <biblScope unit="page">12–13</biblScope>
                      <date when="1897-07-03">3.7.1897</date>
+                     <title level="a" ref="pmb133527">Sokrates</title>
                   </bibl>
-                  <bibl>
-                     <title level="a">Sokrat</title>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb122334">Dubrovnik</title>
                      <biblScope unit="jg">8</biblScope>
                      <date type="year">1899</date>
                      <biblScope unit="issue">28</biblScope>
                      <biblScope unit="page">3–4</biblScope>
                      <date when="1899-07-09">9.7.1899</date>
+                     <title level="a" ref="pmb133213">Sokrat</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb133527"/>
+                     <ptr type="textref" target="pmb133213"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

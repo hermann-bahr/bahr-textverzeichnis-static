@@ -128,34 +128,37 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb133729"/>
-                     <ptr type="textref" target="pmb133655"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Romane. Ungedruckte Briefe von
                   Ferdinand Lassalle. In: Renaissance. Neue Studien zur Kritik der Moderne. Berlin:
                   S. Fischer 1897, S. 72–87.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb36340">Die Zeit</title>
                      <biblScope unit="jg">2</biblScope>
                      <date type="year">1895</date>
                      <biblScope unit="issue">21</biblScope>
                      <biblScope unit="page">121–123</biblScope>
                      <date when="1895-02-23">23.2.1895</date>
+                     <title level="a" ref="pmb133729">Ungedruckte Briefe von Ferdinand Lassalle</title>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Nachdruck</note>
                      <title level="j" ref="pmb36344">Frankfurter Zeitung</title>
                      <biblScope unit="jg">39</biblScope>
                      <date type="year">1895</date>
-                     <biblScope unit="issue">57, Erstes Morgenblatt</biblScope>
+                     <biblScope unit="issue">57, Erstes
+                        Morgenblatt</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1895-02-26">26.2.1895</date>
+                     <title level="a" ref="pmb133655">Ungedruckte Briefe Ferdinand Lassalle’s</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb133729"/>
+                     <ptr type="textref" target="pmb133655"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

@@ -73,25 +73,28 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb132289"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Kleist. (Zur Aufführung des
                   »Guiskard« und des »Amphitryon« im Burgtheater am 22. Februar 1903). In:
                   Rezensionen. Wiener Theater 1901 bis 1903. Berlin: S. Fischer 1903,
                   S. 90–97.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41552">Österreichische Volks-Zeitung</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41552">Österreichische
+                        Volks-Zeitung</title>
                      <biblScope unit="jg">49</biblScope>
                      <date type="year">1903</date>
                      <biblScope unit="issue">52</biblScope>
                      <biblScope unit="page">5–6</biblScope>
                      <date when="1903-02-22">22.2.1903</date>
+                     <title level="a" ref="pmb132289">Kleist. (Zur Aufführung des »Guiskard« und des »Amphitryon«
+                        im Burgtheater am 22.2.1903)</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb132289"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

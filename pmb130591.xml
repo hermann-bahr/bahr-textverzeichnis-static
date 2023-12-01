@@ -71,13 +71,6 @@
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                   <note subtype="Nachdruck">Nachdruck</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130577"/>
-                     <ptr type="textref" target="pmb130375"/>
-                     <ptr type="textref" target="pmb130369"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Das Recht auf Wahrheit. In: Das
                   Kleine Journal, Jg. 34, Nr. 62, 3.12.1912, S. 2.</note>
                <note type="periodica">
@@ -90,34 +83,44 @@
                      <biblScope unit="page">9</biblScope>
                      <date when="1910-10-10">10.10.1910</date>
                   </bibl>
-                  <bibl>
-                     <title level="a">Des Kranken Recht auf Wahrheit</title>
-                     <title level="j" ref="pmb41552">Österreichische Volks-Zeitung</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41552">Österreichische
+                        Volks-Zeitung</title>
                      <biblScope unit="jg">59</biblScope>
                      <date type="year">1913</date>
                      <biblScope unit="issue">131</biblScope>
                      <biblScope unit="page">4</biblScope>
                      <date when="1913-05-15">15.5.1913</date>
+                     <title level="a" ref="pmb130577">Des Kranken Recht auf Wahrheit</title>
                   </bibl>
-                  <bibl>
-                     <title level="a">Der Kranken Recht auf Wahrheit</title>
-                     <title level="j" ref="pmb122151">Salzburger Volksblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122151">Salzburger
+                        Volksblatt</title>
                      <biblScope unit="jg">43</biblScope>
                      <date type="year">1913</date>
                      <biblScope unit="issue">128</biblScope>
                      <biblScope unit="page">21</biblScope>
                      <date when="1913-06-08">8.6.1913</date>
+                     <title level="a" ref="pmb130375">Der Kranken Recht auf Wahrheit</title>
                   </bibl>
-                  <bibl>
-                     <title level="a">Des Kranken Recht auf Wahrheit</title>
-                     <title level="j" ref="pmb122261">Schlesische Zeitung</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122261">Schlesische
+                        Zeitung</title>
                      <biblScope unit="jg">172</biblScope>
                      <date type="year">1913</date>
                      <biblScope unit="issue">457, Morgenblatt</biblScope>
                      <biblScope unit="page">2</biblScope>
                      <date when="1913-07-03">3.7.1913</date>
+                     <title level="a" ref="pmb130369">Des Kranken Recht auf Wahrheit</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130577"/>
+                     <ptr type="textref" target="pmb130375"/>
+                     <ptr type="textref" target="pmb130369"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

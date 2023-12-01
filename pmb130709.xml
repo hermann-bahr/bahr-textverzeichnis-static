@@ -108,15 +108,10 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130855"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Religion. In: Inventur. Berlin:
                   S. Fischer 1912, S. 61–73.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>kürzere Fassung</note>
                      <title level="j" ref="pmb36133">Pan</title>
                      <biblScope unit="jg">2</biblScope>
@@ -124,6 +119,7 @@
                      <biblScope unit="issue">11</biblScope>
                      <biblScope unit="page">323–326</biblScope>
                      <date when="1912-02-01">1.2.1912</date>
+                     <title level="a" ref="pmb130855">Religion</title>
                   </bibl>
                   <bibl>
                      <note>kürzere Fassung, kroatisch</note>
@@ -136,6 +132,11 @@
                      <date when="1912-02-21">21.2.1912</date>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130855"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

@@ -54,11 +54,12 @@
                   </imprint>
                </monogr>
                <note type="monographies">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="m" ref="pmb141014">Essays</title>
                      <date>1912</date>
                      <biblScope unit="page">198–201</biblScope>
-                     <title level="a" ref="pmb130737">Gegen die große Stadt</title>
+                     <title level="a" ref="pmb130737">Gegen die große
+                        Stadt</title>
                   </bibl>
                   <bibl>
                      <author>Wunberg</author>
@@ -87,23 +88,26 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb133397"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Gegen die grosse Stadt. In:
                   Bildung. Berlin und Leipzig: Insel 1900, S. 65–68.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="j" ref="pmb36340">Die Zeit</title>
                      <biblScope unit="jg">14</biblScope>
                      <date type="year">1898</date>
                      <biblScope unit="issue">170</biblScope>
                      <biblScope unit="page">11–12</biblScope>
                      <date when="1898-01-01">1.1.1898</date>
+                     <title level="a" ref="pmb133397">Gegen die
+                        große Stadt</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb133397"/>
+                     <ptr type="textref" target="pmb130737"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

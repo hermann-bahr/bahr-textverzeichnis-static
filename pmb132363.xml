@@ -77,24 +77,26 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb30043"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Die Pantomime vom braven Manne.
                   In: Wirkung in die Ferne. Und Anderes. Wien: Wiener Verlag 1902,
                   S. 127–141.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb40968">Das Magazin für Litteratur</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb40968">Das Magazin für
+                        Litteratur</title>
                      <biblScope unit="jg">62</biblScope>
                      <date type="year">1893</date>
                      <biblScope unit="issue">6</biblScope>
                      <biblScope unit="page">93–95</biblScope>
                      <date when="1893-02-11">11.2.1893</date>
+                     <title level="a" ref="pmb30043">Die Pantomime vom braven Manne</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb30043"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

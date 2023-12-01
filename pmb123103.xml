@@ -68,24 +68,28 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb132209"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">H. B.: Theater, Kunst und Literatur. Theater
                   an der Wien. In: Neues Wiener Tagblatt, Jg. 35, Nr. 284, 16.10.1901, S. 9.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>Nachdruck</note>
-                     <title level="j" ref="pmb41321">Neues Wiener Tagblatt</title>
+                     <title level="j" ref="pmb41321">Neues
+                        Wiener Tagblatt</title>
                      <biblScope unit="jg">35</biblScope>
                      <date type="year">1901</date>
                      <biblScope unit="issue">288</biblScope>
                      <biblScope unit="page">9</biblScope>
                      <date when="1901-10-20">20.10.1901</date>
+                     <title level="a" ref="pmb134921">Theater, Kunst und Literatur. * [Protest der Schauspieler
+                        des Deutschen Volkstheaters]</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb134921"/>
+                     <ptr type="textref" target="pmb132209"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

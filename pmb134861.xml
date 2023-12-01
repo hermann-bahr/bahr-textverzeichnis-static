@@ -71,16 +71,11 @@
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                   <note subtype="Nachtkritik">Nachtkritik</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb132237"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">[O.V.]: Theater und Kunst. Burgtheater. In:
                   Österreichische Volks-Zeitung. 2 Kreuzer-Ausgabe, Jg. 47, Nr. 347, 18.12.1901,
                   S. 8.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>vollständig</note>
                      <title level="j" ref="pmb41552">Österreichische Volks-Zeitung</title>
                      <biblScope unit="jg">47</biblScope>
@@ -88,8 +83,17 @@
                      <biblScope unit="issue">347</biblScope>
                      <biblScope unit="page">1</biblScope>
                      <date when="1901-12-18">18.12.1901</date>
+                     <title level="a" ref="pmb132723">Nacht und Morgen.
+                        Schauspiel in vier Aufzügen von Paul Lindau. Zum erstenmal aufgeführt im
+                        Burgtheater am 17. Dezember 1901</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb132723"/>
+                     <ptr type="textref" target="pmb132237"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

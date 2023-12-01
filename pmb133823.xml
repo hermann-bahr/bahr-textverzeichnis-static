@@ -82,25 +82,28 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb134125"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Gabillon. (Zum vierzigjährigen
                   Jubiläum). In: Studien zur Kritik der Moderne. Mit dem Portrait des Verfassers in
                   Lichtdruck. Frankfurt am Main: Literarische Anstalt Rütten &amp; Loening 1894,
                   S. 262–265.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41471">Deutsche Zeitung, Wien</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41471">Deutsche Zeitung,
+                        Wien</title>
                      <biblScope unit="jg">23</biblScope>
                      <date type="year">1893</date>
-                     <biblScope unit="issue">7845, Sonntags-Ausgabe</biblScope>
+                     <biblScope unit="issue">7845,
+                        Sonntags-Ausgabe</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1893-10-29">29.10.1893</date>
+                     <title level="a" ref="pmb134125">»Gabillon«. (Zum vierzigjährigen Jubiläum)</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb134125"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

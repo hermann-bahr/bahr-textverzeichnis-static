@@ -60,23 +60,20 @@
                   <note subtype="Nachdruck">Nachdruck</note>
                   <note subtype="Tagebuch">Tagebuch</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb124739"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Bildung des modernen Menschen.
                   In: Bayerischer Kurier, München, Jg. 72, Nr. 183/84, Literarische Beilage #24,
                   1.7.1928, S. 7.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb122115">Badischer Beobachter, Karlsruhe</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122115">Badischer Beobachter,
+                        Karlsruhe</title>
                      <biblScope unit="jg">66</biblScope>
                      <date type="year">1928</date>
-                     <biblScope unit="issue">211, Kunst und Wissen. Literarisch–Wissenschaftliche
-                        Beilage, 31</biblScope>
+                     <biblScope unit="issue">211, Kunst und Wissen.
+                        Literarisch–Wissenschaftliche Beilage, 31</biblScope>
                      <biblScope unit="page">3</biblScope>
                      <date when="1928-08-01">1.8.1928</date>
+                     <title level="a" ref="pmb124773">Die Bildung des modernen Menschen</title>
                   </bibl>
                   <bibl>
                      <title level="j" ref="pmb122113">Hamburgischer Correspondent</title>
@@ -86,6 +83,12 @@
                      <date when="1928-07-18">18.7.1928</date>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb124773"/>
+                     <ptr type="textref" target="pmb124739"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

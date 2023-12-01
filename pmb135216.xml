@@ -77,17 +77,12 @@
                   <note subtype="Gekürzt">Gekürzt</note>
                   <note subtype="Nachdruck">Nachdruck</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb131599"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Zwischenspiel. (Komödie in drei Akten von
                   Arthur Schnitzler. Zum erstenmal aufgeführt im Burgtheater am 12. Oktober 1905).
                   In: Kleine Österreichische Volks-Zeitung, Jg. 51, Nr. 283, 13.10.1905,
                   S. 1–4.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>vollständig</note>
                      <title level="j" ref="pmb41552">Österreichische Volks-Zeitung</title>
                      <biblScope unit="jg">51</biblScope>
@@ -95,8 +90,16 @@
                      <biblScope unit="issue">283</biblScope>
                      <biblScope unit="page">2–3</biblScope>
                      <date when="1905-10-13">13.10.1905</date>
+                     <title level="a" ref="pmb30003">Zwischenspiel. (Komödie in drei Akten von Arthur Schnitzler. Zum erstenmal
+                        aufgeführt im Burgtheater am 12. Oktober 1905)</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb30003"/>
+                     <ptr type="textref" target="pmb131599"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

@@ -58,25 +58,28 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130673"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Bayreuth. In: Die Heimstatt.
                   Blätter der Unterhaltung und des Wissens, Jg. 2, Nr. 8, 15.8.1911,
                   S. 116–117.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41531">Berliner Tageblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41531">Berliner
+                        Tageblatt</title>
                      <biblScope unit="jg">40</biblScope>
                      <date type="year">1911</date>
                      <biblScope unit="issue">396 Morgen–Ausgabe</biblScope>
                      <biblScope unit="page">1, Beiblatt</biblScope>
                      <biblScope unit="page">1</biblScope>
                      <date when="1911-08-06">6.8.1911</date>
+                     <title level="a" ref="pmb130909">Bayreuth</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130909"/>
+                     <ptr type="textref" target="pmb130673"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

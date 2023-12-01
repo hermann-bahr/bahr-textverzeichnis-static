@@ -60,27 +60,30 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb131725"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Burgtheater. (»Mutter,«
                   Schauspiel in einem Akt von M. E. delle Grazie. »Die stillen Stuben,« Schauspiel
                   in drei Akten von Sven Lange.). In: Österreichische Volks-Zeitung, Jg. 49,
                   Nr. 131, 13.5.1903, S. 6.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>gekürzt</note>
-                     <title level="j" ref="pmb122052">Österreichische Volks-Zeitung. 2
-                        Kreuzer-Ausgabe</title>
+                     <title level="j" ref="pmb122052">Österreichische Volks-Zeitung. 2 Kreuzer-Ausgabe</title>
                      <biblScope unit="jg">49</biblScope>
                      <date type="year">1903</date>
                      <biblScope unit="issue">131</biblScope>
                      <biblScope unit="page">8–9</biblScope>
                      <date when="1903-05-13">13.5.1903</date>
+                     <title level="a" ref="pmb134909">Burgtheater. (»Mutter,« Schauspiel in einem Akt von M. E. delle Grazie.
+                        »Die stillen Stuben,« Schauspiel in drei Akten von Sven
+                     Lange.)</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb134909"/>
+                     <ptr type="textref" target="pmb131725"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

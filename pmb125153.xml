@@ -76,24 +76,27 @@
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                   <note subtype="Nachdruck">Nachdruck</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb132387"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Wiener Meister der Feder.
                   Girardi zum 50. Geburtstag. In: Neues Wiener Tagblatt, Jg. 61, Nr. 64, 6.3.1927,
                   S. 35.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41321">Neues Wiener Tagblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41321">Neues Wiener
+                        Tagblatt</title>
                      <biblScope unit="jg">34</biblScope>
                      <date type="year">1900</date>
                      <biblScope unit="issue">331</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1900-12-02">2.12.1900</date>
+                     <title level="a" ref="pmb123369">Girardi. (Zum fünfzigsten Geburtstag)</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb123369"/>
+                     <ptr type="textref" target="pmb132387"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

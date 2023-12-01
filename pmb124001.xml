@@ -94,11 +94,6 @@
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                   <note subtype="Aufruf">Aufruf</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb124003"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Anna Bahr-Mildenburg, Hermann Bahr, Max
                   Burckhard, Max Devrient, Marie von Ebner-Eschenbach, Marie Eugenie delle Grazie,
                   Rudolf Goldscheid, Stephan Großmann, Hugo von Hofmannsthal, Wolfgang Madjera,
@@ -106,15 +101,22 @@
                   Suttner: Für einen schwerkranken Dichter. In: Arbeiter-Zeitung, Jg. 23, Nr. 98,
                   9.4.1911, S. 10.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Aufruf!</title>
-                     <title level="j" ref="pmb36374">Neue Freie Presse</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb36374">Neue Freie
+                        Presse</title>
                      <date type="year">1911</date>
-                     <biblScope unit="issue">16750, Morgenblatt</biblScope>
+                     <biblScope unit="issue">16750,
+                        Morgenblatt</biblScope>
                      <biblScope unit="page">8</biblScope>
                      <date when="1911-04-09">9.4.1911</date>
+                     <title level="a" ref="pmb124003">Aufruf!</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb124003"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

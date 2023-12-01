@@ -62,16 +62,11 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb132799"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Ausstellungen. Künstlerhaus und
                   Sezession. In: Österreichische Volks-Zeitung. 2 Kreuzer-Ausgabe, Jg. 47, Nr. 74,
                   16.3.1901, S. 7.</note>
                <note type="periodica">
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>vollständig</note>
                      <title level="j" ref="pmb41552">Österreichische Volks-Zeitung</title>
                      <biblScope unit="jg">47</biblScope>
@@ -79,8 +74,15 @@
                      <biblScope unit="issue">74</biblScope>
                      <biblScope unit="page">4</biblScope>
                      <date when="1901-03-16">16.3.1901</date>
+                     <title level="a" ref="pmb132799">Ausstellungen.
+                        Künstlerhaus und Sezession</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb132799"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

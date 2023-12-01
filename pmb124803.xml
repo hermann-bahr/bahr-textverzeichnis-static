@@ -64,23 +64,26 @@
                   <note type="Section">Section</note>
                   <note subtype="Bühnenmanuskript">Bühnenmanuskript</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb124643"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Geleitwort. In: Cromwell.
                   Schauspiel in fünf Akten. Karlsruhe: C. F. Müller 1928, S. 87.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb122118">Blätter des Stadttheaters Bonn</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122118">Blätter des Stadttheaters
+                        Bonn</title>
                      <biblScope unit="jg">4</biblScope>
                      <date type="year">1928</date>
                      <biblScope unit="issue">13</biblScope>
                      <biblScope unit="page">103</biblScope>
                      <date when="1928-05-14">14.5.1928</date>
+                     <title level="a" ref="pmb124805">Reinhold Siegrist</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb124805"/>
+                     <ptr type="textref" target="pmb124643"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

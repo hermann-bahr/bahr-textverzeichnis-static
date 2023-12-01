@@ -80,23 +80,28 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb131643"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Rat Schrimpf. In: Das
                   Hermann-Bahr-Buch. Zum 19. Juli 1913. Berlin: S. Fischer 1913, S. 198–204.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41321">Neues Wiener Tagblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41321">Neues Wiener
+                        Tagblatt</title>
                      <biblScope unit="jg">39</biblScope>
                      <date type="year">1905</date>
                      <biblScope unit="issue">104</biblScope>
                      <biblScope unit="page">10</biblScope>
                      <date when="1905-04-14">14.4.1905</date>
+                     <title level="a" ref="pmb131993">Rat Schrimpf. Komödie in fünf Akten von Max Burckhard. Zum
+                        ersten Mal aufgeführt im Deutschen Volkstheater am 13. April
+                     1905</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb131993"/>
+                     <ptr type="textref" target="pmb131643"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

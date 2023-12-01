@@ -73,37 +73,39 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb131971"/>
-                     <ptr type="textref" target="pmb134905"/>
-                     <ptr type="textref" target="pmb131971"/>
-                     <ptr type="textref" target="pmb134905"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Don Carlos. (Im Burgtheater neu
                   inszeniert am 7. und 9. Januar 1905). In: Glossen. Zum Wiener Theater (1903 bis
                   1906). Berlin: S. Fischer 1907, S. 57–65.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41552">Österreichische Volks-Zeitung</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41552">Österreichische
+                        Volks-Zeitung</title>
                      <biblScope unit="jg">51</biblScope>
                      <date type="year">1905</date>
                      <biblScope unit="issue">10</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1905-01-10">10.1.1905</date>
+                     <title level="a" ref="pmb131971">Don Carlos. (Im Burgtheater neu inszeniert am 7. und 9.
+                        Jänner 1905)</title>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>gekürzt</note>
-                     <title level="j" ref="pmb122052">Österreichische Volks-Zeitung. 2
-                        Kreuzer-Ausgabe</title>
+                     <title level="j" ref="pmb122052">Österreichische Volks-Zeitung. 2 Kreuzer-Ausgabe</title>
                      <biblScope unit="jg">51</biblScope>
                      <date type="year">1905</date>
                      <biblScope unit="issue">10</biblScope>
                      <biblScope unit="page">9</biblScope>
                      <date when="1905-01-10">10.1.1905</date>
+                     <title level="a" ref="pmb134905">Don Carlos. (Im
+                        Burgtheater neu inszeniert am 7. und 9. Jänner 1905)</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb131971"/>
+                     <ptr type="textref" target="pmb134905"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

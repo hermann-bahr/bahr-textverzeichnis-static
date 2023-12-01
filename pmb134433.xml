@@ -63,23 +63,25 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb134775"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Die drei Schneider. Ein soziales
                   Märchen. In: Fin de Siècle. Berlin: Ad. Zoberbier 1891, S. 17–28.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb122067">Deutsche Wochenschrift</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122067">Deutsche
+                        Wochenschrift</title>
                      <biblScope unit="jg">2</biblScope>
                      <date type="year">1884</date>
                      <biblScope unit="issue">39</biblScope>
                      <biblScope unit="page">2–4</biblScope>
                      <date when="1884-09-28">28.9.1884</date>
+                     <title level="a" ref="pmb134775">Die drei Schneider. Ein sociales Märchen</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb134775"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

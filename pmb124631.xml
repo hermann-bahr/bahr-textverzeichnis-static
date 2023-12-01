@@ -74,21 +74,18 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb125251"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Geist und Sport. In: Labyrinth
                   der Gegenwart. Hildesheim: F. Borgmeyer 1929, S. 80–83.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb122056">Münchner Neueste Nachrichten</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122056">Münchner Neueste
+                        Nachrichten</title>
                      <biblScope unit="jg">80</biblScope>
                      <date type="year">1927</date>
                      <biblScope unit="issue">229</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1927-08-24">24.8.1927</date>
+                     <title level="a" ref="pmb125251">Geist und Sport</title>
                   </bibl>
                   <bibl>
                      <title level="j" ref="pmb122119">Der neuen Jugend</title>
@@ -98,6 +95,11 @@
                      <biblScope unit="page">76–78</biblScope>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb125251"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

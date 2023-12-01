@@ -54,10 +54,11 @@
                   </imprint>
                </monogr>
                <note type="monographies">
-                  <bibl>
+                  <bibl type="obsolete">
                      <title level="m" ref="pmb30035">Inventur </title>
                      <biblScope unit="page">36–50</biblScope>
-                     <title level="a" ref="pmb130713">Das unrettbare Ich</title>
+                     <title level="a" ref="pmb130713">Das unrettbare
+                        Ich</title>
                   </bibl>
                   <bibl>
                      <title level="m" ref="pmb30859">Das Hermann-Bahr-Buch</title>
@@ -99,23 +100,26 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb32448"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Das unrettbare Ich. In: Dialog
                   vom Tragischen. Berlin: S. Fischer 1904, S. 79–101.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41321">Neues Wiener Tagblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41321">Neues Wiener
+                        Tagblatt</title>
                      <biblScope unit="jg">37</biblScope>
                      <date type="year">1903</date>
                      <biblScope unit="issue">99</biblScope>
                      <biblScope unit="page">1–4</biblScope>
                      <date when="1903-04-10">10.4.1903</date>
+                     <title level="a" ref="pmb32448">Das unrettbare Ich</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb32448"/>
+                     <ptr type="textref" target="pmb130713"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

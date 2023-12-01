@@ -71,23 +71,25 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb124671"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Ein erstaunlicher Roman. In:
                   Labyrinth der Gegenwart. Hildesheim: F. Borgmeyer 1929, S. 110–111.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb122106">Münchner Telegramm-Zeitung</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122106">Münchner
+                        Telegramm-Zeitung</title>
                      <biblScope unit="jg">8</biblScope>
                      <date type="year">1929</date>
                      <biblScope unit="issue">25</biblScope>
                      <biblScope unit="page">4</biblScope>
                      <date when="1929-02-05">5.2.1929</date>
+                     <title level="a" ref="pmb124671">Ein erstaunlicher Roman</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb124671"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

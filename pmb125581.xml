@@ -63,32 +63,35 @@
                   <note subtype="Nachdruck">Nachdruck</note>
                   <note subtype="Gekürzt">Gekürzt</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb125583"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Karitas. In: Salzburger Chronik,
                   Jg. 61, Nr. 81, 9.4.1925, S. 3.</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="a">Caritas</title>
-                     <title level="j" ref="pmb122056">Münchner Neueste Nachrichten</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122056">Münchner Neueste
+                        Nachrichten</title>
                      <biblScope unit="jg">78</biblScope>
                      <date type="year">1925</date>
                      <biblScope unit="issue">66</biblScope>
                      <biblScope unit="page">1</biblScope>
                      <date when="1925-03-08">8.3.1925</date>
+                     <title level="a" ref="pmb126331">Caritas</title>
                   </bibl>
-                  <bibl>
-                     <title level="a">Caritas</title>
-                     <title level="j" ref="pmb122152">Augsburger Postzeitung</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122152">Augsburger
+                        Postzeitung</title>
                      <date type="year">1925</date>
                      <biblScope unit="issue">58</biblScope>
                      <biblScope unit="page">2</biblScope>
                      <date when="1925-03-11">11.3.1925</date>
+                     <title level="a" ref="pmb125583">Caritas</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb126331"/>
+                     <ptr type="textref" target="pmb125583"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

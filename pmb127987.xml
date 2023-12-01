@@ -108,33 +108,33 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130027"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Scheler. In: Bilderbuch. Wien,
                   Leipzig: Wila Wiener Literarische Anstalt 1921, S. 112–130.</note>
                <note type="periodica">
                   <bibl>
-                     <title level="a">Max Scheler</title>
                      <title level="j" ref="pmb122136">Hochland</title>
                      <biblScope unit="jg">14</biblScope>
                      <date type="year">1917</date>
                      <biblScope unit="issue">April</biblScope>
                      <biblScope unit="page">35–44</biblScope>
                   </bibl>
-                  <bibl>
+                  <bibl type="obsolete">
                      <note>gekürzt</note>
-                     <title level="a">Hermann Bahr über den Sinn des Krieges</title>
                      <title level="j" ref="pmb122076">Salzburger Chronik</title>
                      <biblScope unit="jg">53</biblScope>
                      <date type="year">1917</date>
                      <biblScope unit="issue">98</biblScope>
                      <biblScope unit="page">10</biblScope>
                      <date when="1917-04-29">29.4.1917</date>
+                     <title level="a" ref="pmb130027">Hermann Bahr über den Sinn des
+                     Krieges</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130027"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

@@ -64,11 +64,6 @@
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                   <note subtype="Nachdruck">Nachdruck</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb128013"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Gerhart Hauptmann. In: Neues
                   Land. Führer in die Zukunft für alle Stände, Jg. 1, Nr. 10, Jänner 1922,
                   S. 224–226.</note>
@@ -81,21 +76,27 @@
                      <biblScope unit="page">2. Blatt, [1]</biblScope>
                      <date when="1912-10-25">25.10.1912</date>
                   </bibl>
-                  <bibl>
-                     <title level="j" ref="pmb41507">Prager Tagblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41507">Prager
+                        Tagblatt</title>
                      <biblScope unit="jg">37</biblScope>
                      <date type="year">1912</date>
                      <biblScope unit="issue">295 Morgen–Ausgabe</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1912-10-25">25.10.1912</date>
+                     <title level="a" ref="pmb130657">Gerhart Hauptmann. (Zum fünfzigsten
+                        Geburtstag)</title>
                   </bibl>
-                  <bibl>
-                     <title level="j" ref="pmb122131">Dresdner Neueste Nachrichten</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122131">Dresdner Neueste
+                        Nachrichten</title>
                      <biblScope unit="jg">20</biblScope>
                      <date type="year">1912</date>
                      <biblScope unit="issue">310</biblScope>
                      <biblScope unit="page">1</biblScope>
                      <date when="1912-11-14">14.11.1912</date>
+                     <title level="a" ref="pmb130617">Gerhart Hauptmann. Zu seinem fünfzigsten
+                     Geburtstag</title>
                   </bibl>
                   <bibl>
                      <title level="j">Neues Tagblatt und General-Anzeiger für Stuttgart und
@@ -106,6 +107,13 @@
                      <biblScope unit="page">1</biblScope>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130657"/>
+                     <ptr type="textref" target="pmb130617"/>
+                     <ptr type="textref" target="pmb128013"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

@@ -71,33 +71,26 @@
                   <note type="Section">Section</note>
                   <note subtype="Buchtext">Buchtext</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb124059"/>
-                     <ptr type="textref" target="pmb131151"/>
-                     <ptr type="textref" target="pmb130569"/>
-                     <ptr type="textref" target="pmb131151"/>
-                     <ptr type="textref" target="pmb130569"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Österreichische Ordnung. In: Das
                   Hermann-Bahr-Buch. Zum 19. Juli 1913. Berlin: S. Fischer 1913, S. 297–306.</note>
                <note type="periodica">
                   <bibl>
-                     <title level="a">Österreichisches. 8</title>
                      <title level="j" ref="pmb64035">März</title>
                      <biblScope unit="jg">4</biblScope>
                      <date type="year">1910</date>
                      <biblScope unit="issue">3</biblScope>
                      <biblScope unit="page">350–356</biblScope>
+                     <title ref="pmb131151">Österreichisches. 8</title>
                   </bibl>
-                  <bibl>
-                     <title level="j" ref="pmb41507">Prager Tagblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41507">Prager
+                        Tagblatt</title>
                      <biblScope unit="jg">28</biblScope>
                      <date type="year">1913</date>
                      <biblScope unit="issue">183</biblScope>
                      <biblScope unit="page">3</biblScope>
                      <date when="1913-07-06">6.7.1913</date>
+                     <title level="a" ref="pmb130569">Österreichische Ordnung</title>
                   </bibl>
                   <bibl>
                      <title level="j" ref="pmb52154">Die Bühne. Zeitschrift für Theater und
@@ -107,6 +100,13 @@
                      <biblScope unit="page">38–40</biblScope>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130569"/>
+                     <ptr type="textref" target="pmb124059"/>
+                     <ptr type="textref" target="pmb131151"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

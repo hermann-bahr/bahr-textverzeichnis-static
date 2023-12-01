@@ -58,30 +58,31 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb127995"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Gerhart Hauptmann. Zum
                   fünfzigsten Geburtstag. In: National-Zeitung, Basel, Jg. 52, Nr. 251, 2. Blatt,
                   25.10.1912, S. [1].</note>
                <note type="periodica">
-                  <bibl>
-                     <title level="j" ref="pmb41507">Prager Tagblatt</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41507">Prager
+                        Tagblatt</title>
                      <biblScope unit="jg">37</biblScope>
                      <date type="year">1912</date>
                      <biblScope unit="issue">295 Morgen–Ausgabe</biblScope>
                      <biblScope unit="page">1–2</biblScope>
                      <date when="1912-10-25">25.10.1912</date>
+                     <title level="a" ref="pmb130657">Gerhart Hauptmann. (Zum fünfzigsten
+                        Geburtstag)</title>
                   </bibl>
-                  <bibl>
-                     <title level="j" ref="pmb122131">Dresdner Neueste Nachrichten</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122131">Dresdner Neueste
+                        Nachrichten</title>
                      <biblScope unit="jg">20</biblScope>
                      <date type="year">1912</date>
                      <biblScope unit="issue">310</biblScope>
                      <biblScope unit="page">1</biblScope>
                      <date when="1912-11-14">14.11.1912</date>
+                     <title level="a" ref="pmb130617">Gerhart Hauptmann. Zu seinem fünfzigsten
+                     Geburtstag</title>
                   </bibl>
                   <bibl>
                      <title level="j">Neues Tagblatt und General-Anzeiger für Stuttgart und
@@ -101,6 +102,13 @@
                      <biblScope unit="page">224–226</biblScope>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130657"/>
+                     <ptr type="textref" target="pmb130617"/>
+                     <ptr type="textref" target="pmb127995"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>

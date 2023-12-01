@@ -58,15 +58,6 @@
                <noteGrp type="keywords">
                   <note type="Journal-Article">Artikel in einem Periodikum</note>
                </noteGrp>
-               <ref type="abdrucke">
-                  <listRef>
-                     <ptr type="textref" target="pmb130375"/>
-                     <ptr type="textref" target="pmb130591"/>
-                     <ptr type="textref" target="pmb130577"/>
-                     <ptr type="textref" target="pmb130369"/>
-                     <ptr type="textref" target="pmb130503"/>
-                  </listRef>
-               </ref>
                <note type="bibliographical-statement">Hermann Bahr: Des Kranken Recht auf Wahrheit.
                   In: Deutsche Montags-Zeitung, Jg. 1, Nr. 2, 2. Beilage, 10.10.1910, S. 9.</note>
                <note type="periodica">
@@ -74,32 +65,46 @@
                      <title level="j">Salzburger Volksblatt</title>
                      <date when="1913-06-08">8.6.1913 ?</date>
                   </bibl>
-                  <bibl>
-                     <title level="a">Recht auf Wahrheit</title>
-                     <title level="j" ref="pmb62394">Das Kleine Journal</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb62394">Das Kleine
+                        Journal</title>
                      <date type="year">1912</date>
                      <biblScope unit="issue">62</biblScope>
                      <biblScope unit="page">2</biblScope>
                      <date when="1912-12-03">3.12.1912</date>
+                     <title level="a" ref="pmb130591">Recht auf
+                     Wahrheit</title>
                   </bibl>
-                  <bibl>
-                     <title level="a">Des Kranken Recht auf Wahrheit</title>
-                     <title level="j" ref="pmb41552">Österreichische Volks-Zeitung</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb41552">Österreichische
+                        Volks-Zeitung</title>
                      <biblScope unit="jg">59</biblScope>
                      <date type="year">1913</date>
                      <biblScope unit="issue">131</biblScope>
                      <biblScope unit="page">4</biblScope>
                      <date when="1913-05-15">15.5.1913</date>
+                     <title level="a" ref="pmb130577">Des Kranken Recht auf Wahrheit</title>
                   </bibl>
-                  <bibl>
-                     <title level="j" ref="pmb122261">Schlesische Zeitung</title>
+                  <bibl type="obsolete">
+                     <title level="j" ref="pmb122261">Schlesische
+                        Zeitung</title>
                      <biblScope unit="jg">172</biblScope>
                      <date type="year">1913</date>
                      <biblScope unit="issue">457, Morgenblatt</biblScope>
                      <biblScope unit="page">2</biblScope>
                      <date when="1913-07-03">3.7.1913</date>
+                     <title level="a" ref="pmb130369">Des Kranken Recht auf Wahrheit</title>
                   </bibl>
                </note>
+               <ref type="abdrucke">
+                  <listRef>
+                     <ptr type="textref" target="pmb130591"/>
+                     <ptr type="textref" target="pmb130577"/>
+                     <ptr type="textref" target="pmb130369"/>
+                     <ptr type="textref" target="pmb130375"/>
+                     <ptr type="textref" target="pmb130503"/>
+                  </listRef>
+               </ref>
             </biblStruct>
          </div>
       </body>
