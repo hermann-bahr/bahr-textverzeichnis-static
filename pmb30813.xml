@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-11-24+01:00</date>
+            <date>2023-12-01+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb30813.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -74,7 +74,7 @@
                   </bibl>
                   <bibl>
                      <author>Fritz Engel</author>
-                     <title level="j">Berliner Tageblatt</title>
+                     <title level="j" ref="pmb41531">Berliner Tageblatt</title>
                      <date when="1923-07-22">22.7.1923</date>
                      <biblScope unit="issue">Morgen-Ausgabe, 4. Beiblatt</biblScope>
                   </bibl>
@@ -201,31 +201,96 @@
                   <desc ana="271–283" corresp="#pmb126835">XXIII</desc>
                   <desc ana="283–301" corresp="#pmb126833">XXIV</desc>
                </note>
-               <note type="toc">
-                  <desc ana="1–6" corresp="#pmb126879">I</desc>
-                  <desc ana="6–11" corresp="#pmb126877">II</desc>
-                  <desc ana="11–24" corresp="#pmb126875">III</desc>
-                  <desc ana="24–32" corresp="#pmb126873">IV</desc>
-                  <desc ana="33–44" corresp="#pmb126871">V</desc>
-                  <desc ana="44–59" corresp="#pmb126869">VI</desc>
-                  <desc ana="60–72" corresp="#pmb126867">VII</desc>
-                  <desc ana="72–85" corresp="#pmb126865">VIII</desc>
-                  <desc ana="85–94" corresp="#pmb126863">IX</desc>
-                  <desc ana="94–103" corresp="#pmb126861">X</desc>
-                  <desc ana="103–117" corresp="#pmb126859">XI</desc>
-                  <desc ana="117–125" corresp="#pmb126857">XII</desc>
-                  <desc ana="125–134" corresp="#pmb126855">XIII</desc>
-                  <desc ana="134–147" corresp="#pmb126853">XIV</desc>
-                  <desc ana="147–166" corresp="#pmb126851">XV</desc>
-                  <desc ana="167–186" corresp="#pmb126849">XVI</desc>
-                  <desc ana="186–202" corresp="#pmb126847">XVII</desc>
-                  <desc ana="202–214" corresp="#pmb126845">XVIII</desc>
-                  <desc ana="214–230" corresp="#pmb126843">XIX</desc>
-                  <desc ana="231–243" corresp="#pmb126841">XX</desc>
-                  <desc ana="243–255" corresp="#pmb126839">XXI</desc>
-                  <desc ana="255–270" corresp="#pmb126837">XXII</desc>
-                  <desc ana="271–283" corresp="#pmb126835">XXIII</desc>
-                  <desc ana="283–301" corresp="#pmb126833">XXIV</desc>
+               <note type="periodica">
+                  <bibl>
+                     <title level="a">Erinnerungen</title>
+                     <title level="j" ref="pmb43848">Das Neue Reich</title>
+                     <date from="1920-10-03" to="1923-06-16">3.10.1920–16.6.1923</date>
+                  </bibl>
+                  <bibl>
+                     <note>Schlusskapitel</note>
+                     <title level="j" ref="pmb36156">Die neue Rundschau</title>
+                     <biblScope unit="jg">34</biblScope>
+                     <date type="year">1923</date>
+                     <biblScope unit="issue">6</biblScope>
+                     <biblScope unit="page">510–523</biblScope>
+                  </bibl>
+                  <bibl>
+                     <note>Schlusskapitel</note>
+                     <title level="j" ref="pmb36344">Frankfurter Zeitung</title>
+                     <date when="1923-06-12">12.6.1923</date>
+                     <biblScope unit="page">1–2</biblScope>
+                  </bibl>
+                  <bibl>
+                     <note>Anfang</note>
+                     <title level="j" ref="pmb122173">Blätter des Deutschen Theaters</title>
+                     <biblScope unit="jg">10</biblScope>
+                     <date type="year">1923</date>
+                     <biblScope unit="issue">3 (Oktober)</biblScope>
+                     <biblScope unit="page">18–19</biblScope>
+                  </bibl>
+                  <bibl>
+                     <note>Auszug</note>
+                     <title level="a">Erinnerung an Hugo Wolf</title>
+                     <title level="j" ref="pmb46493">Das Tage-Buch</title>
+                     <date type="year">1923</date>
+                  </bibl>
+                  <bibl>
+                     <title level="a">Zusammenleben mit Hugo Wolf</title>
+                     <title level="j" ref="pmb122167">Almanach 1925. S. Fischer Verlag
+                        Berlin</title>
+                     <date type="year">1924</date>
+                     <biblScope unit="page">151–155</biblScope>
+                  </bibl>
+                  <bibl>
+                     <note>Auszug</note>
+                     <title level="a">Einzug in Berlin</title>
+                     <title level="j" ref="pmb46493">Das Tage-Buch</title>
+                     <date type="year">1923</date>
+                  </bibl>
+                  <bibl>
+                     <note>Auszug</note>
+                     <title level="a">Erste Wiener Eindrücke</title>
+                     <title level="j" ref="pmb36374">Neue Freie Presse</title>
+                     <date when="1923-06-12">12.6.1923</date>
+                     <biblScope unit="page">10–11</biblScope>
+                  </bibl>
+                  <bibl>
+                     <note>Auszug</note>
+                     <title level="a">Meine Berliner Zeit</title>
+                     <title level="j" ref="pmb41531">Berliner Tageblatt</title>
+                     <biblScope unit="jg">52</biblScope>
+                     <date type="year">1923</date>
+                     <biblScope unit="issue">284, Abend–Ausgabe</biblScope>
+                     <biblScope unit="page">2–3</biblScope>
+                     <date when="1923-06-19">19.6.1923</date>
+                  </bibl>
+                  <bibl>
+                     <note>Auszug</note>
+                     <title level="a">Wie ich relegiert wurde</title>
+                     <title level="j" ref="pmb41507">Prager Tagblatt</title>
+                     <biblScope unit="jg">51</biblScope>
+                     <date type="year">1926</date>
+                     <biblScope unit="issue">303, Weihnachtsbeilage</biblScope>
+                     <biblScope unit="page">1</biblScope>
+                     <date when="1926-12-25">25.12.1926</date>
+                  </bibl>
+                  <bibl>
+                     <note>Auszug</note>
+                     <title level="a">Wie ich relegiert wurde</title>
+                     <title level="j">Deutsche Zeitung für Spanien / Revista Alemana de
+                        España</title>
+                     <biblScope unit="jg">8</biblScope>
+                     <date type="year">1923</date>
+                     <biblScope unit="issue">170</biblScope>
+                     <biblScope unit="page">6–7</biblScope>
+                     <date when="1923-07-25">25.7.1923</date>
+                  </bibl>
+                  <bibl>
+                     <note>Auszug</note>
+                     <title level="j" ref="pmb122148">Neue Zürcher Zeitung</title>
+                     <date when="1934-01-29">29.1.1934</date>
+                  </bibl>
                </note>
             </biblStruct>
          </div>
