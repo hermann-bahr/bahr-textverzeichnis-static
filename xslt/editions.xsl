@@ -237,7 +237,7 @@
             </tr>
         </xsl:for-each>
     </xsl:template>
-    <xsl:template match="tei:biblStruct/tei:note[child::tei:bibl]">
+    <xsl:template match="tei:biblStruct/tei:note[child::tei:bibl[not(@type='obsolete')]]">
         <tr>
             <th>
                 <xsl:choose>
@@ -262,7 +262,7 @@
                 </xsl:choose>
             </th>
             <td>
-                <xsl:apply-templates select="child::tei:bibl"/>
+                <xsl:apply-templates select="child::tei:bibl[not(@type='obsolete')]"/>
             </td>
         </tr>
     </xsl:template>
@@ -279,7 +279,7 @@
             </td>
         </tr>
     </xsl:template>
-    <xsl:template match="tei:note/tei:bibl">
+    <xsl:template match="tei:note/tei:bibl[not(@type='obsolete')]">
         <xsl:choose>
             <xsl:when test=".[normalize-space()]">
                 <p>
