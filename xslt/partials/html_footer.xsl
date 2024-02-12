@@ -23,7 +23,7 @@
                         <div class="textwidget custom-html-widget">
                             <p> ACDH-CH <br/> Austrian Centre for Digital Humanities <br/> and
                                 Cultural Heritage <br/> Österreichische Akademie der Wissenschaften </p>
-                            <p> Bäckerstraße 13, <br/> 1010 Wien </p>
+                            <p> Bäckerstraße 13 <br/> 1010 Wien </p>
                             <p> T: +43 1 51581-2200 <br/> E: <a
                                 href="mailto:acdh-ch-helpdesk@oeaw.ac.at
                                 "
