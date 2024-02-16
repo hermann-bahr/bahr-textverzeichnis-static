@@ -77,7 +77,53 @@
          </div>
       </body>
       <back>
-         <listPerson/>
+         <listPerson>
+            <person xml:id="pmb21736">
+               <persName>
+                  <forename>Robert</forename>
+                  <surname>Müller</surname>
+               </persName>
+               <persName type="legacy-name-merge">Müller, Robert</persName>
+               <birth>
+                  <date when-iso="1887-10-29">29.10.1887</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when-iso="1924-08-27">27.08.1924</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation key="99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18307</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/21736/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118585193/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb21736.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50441</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/100268/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118585193</idno>
+               <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x002831b9</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2158315</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Robert_M%C3%BCller_(Schriftsteller)</idno>
+               <listBibl>
+                  <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Schiele%20Robert%20M%C3%BCller%20Photo%20BW.jpg"/>
+               </figure>
+            </person>
+         </listPerson>
       </back>
    </text>
 </TEI>

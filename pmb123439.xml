@@ -71,7 +71,44 @@
          </div>
       </body>
       <back>
-         <listPerson/>
+         <listPerson>
+            <person xml:id="pmb4712">
+               <persName>
+                  <forename>Ernst</forename>
+                  <surname>Pittschau</surname>
+               </persName>
+               <birth>
+                  <date when-iso="1859-11-10">10.11.1859</date>
+                  <settlement key="49385">
+                     <placeName type="pref">Egeln</placeName>
+                     <location>
+                        <geo>51,94384 11,43265</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when-iso="1916-11-19">19.11.1916</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/11620303X</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18819</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4712.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4712/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp51516</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q57774351</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ernst_Pittschau_(Schauspieler,_1859)</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+               </listBibl>
+            </person>
+         </listPerson>
       </back>
    </text>
 </TEI>

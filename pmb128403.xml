@@ -79,7 +79,42 @@
          </div>
       </body>
       <back>
-         <listPerson/>
+         <listPerson>
+            <person xml:id="pmb9661">
+               <persName>
+                  <forename>Jakob</forename>
+                  <surname>Schaffner</surname>
+               </persName>
+               <birth>
+                  <date when-iso="1875-11-14">14.11.1875</date>
+                  <settlement key="854">
+                     <placeName type="pref">Basel</placeName>
+                     <location>
+                        <geo>47,55839 7,57327</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when-iso="1944-09-25">25.09.1944</date>
+                  <settlement key="319">
+                     <placeName type="pref">Straßburg</placeName>
+                     <location>
+                        <geo>48,58392 7,74553</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19612</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/9661/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q124926</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Jakob_Schaffner</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118748386</idno>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/JakobSchaffner.jpg"/>
+               </figure>
+            </person>
+         </listPerson>
       </back>
    </text>
 </TEI>

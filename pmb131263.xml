@@ -92,7 +92,79 @@
          </div>
       </body>
       <back>
-         <listPerson/>
+         <listPerson>
+            <person xml:id="pmb14959">
+               <persName>
+                  <forename>Frédéric</forename>
+                  <surname>Chopin</surname>
+               </persName>
+               <birth>
+                  <date when-iso="1810-03-01">01.03.1810</date>
+                  <settlement key="14960">
+                     <placeName type="pref">Zelazowa-Wola</placeName>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when-iso="1849-10-17">17.10.1849</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation key="129">Komponist/Komponistin</occupation>
+               <occupation key="181">Pianist/Pianistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14203</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14959/</idno>
+            </person>
+            <person xml:id="pmb25217">
+               <persName>
+                  <forename>Baruch de</forename>
+                  <surname>Spinoza</surname>
+               </persName>
+               <persName type="person_namensvariante_vorname">Benedictus</persName>
+               <birth>
+                  <date when-iso="1632-11-24">24.11.1632</date>
+                  <settlement key="40709">
+                     <placeName type="pref">Amsterdam</placeName>
+                     <location>
+                        <geo>52,37403 4,88969</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when-iso="1677-02-21">21.02.1677</date>
+                  <settlement key="58810">
+                     <placeName type="pref">Den Haag</placeName>
+                     <location>
+                        <geo>52,07667 4,29861</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation key="154">Philosoph/Philosophin</occupation>
+               <occupation key="3065">Augenoptiker/Augenoptikerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20265</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/25217/</idno>
+               <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/personen/pmb25217</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp53496</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/116117/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118616242</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q35802</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Baruch_de_Spinoza</idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/spinoza-baruch.html</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb25217.html</idno>
+               <listBibl>
+                  <bibl type="collections" n="5">legalkraus</bibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Spinoza.jpg"/>
+               </figure>
+            </person>
+         </listPerson>
       </back>
    </text>
 </TEI>

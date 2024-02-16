@@ -83,7 +83,27 @@
          </div>
       </body>
       <back>
-         <listPerson/>
+         <listPerson>
+            <person xml:id="pmb19620">
+               <persName>
+                  <forename>Erich</forename>
+                  <surname>Korn</surname>
+               </persName>
+               <birth>
+                  <date when-iso="1868-12-28">28.12.1868</date>
+                  <settlement key="677">
+                     <placeName type="pref">Breslau</placeName>
+                     <location>
+                        <geo>51,10773 17,03533</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <sex value="male"/>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17051</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/19620/</idno>
+            </person>
+         </listPerson>
       </back>
    </text>
 </TEI>

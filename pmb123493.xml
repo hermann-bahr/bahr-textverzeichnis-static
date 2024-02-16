@@ -74,7 +74,37 @@
          </div>
       </body>
       <back>
-         <listPerson/>
+         <listPerson>
+            <person xml:id="pmb17889">
+               <persName>
+                  <forename>Helene</forename>
+                  <surname>Hartmann</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Schneeberger</persName>
+               <birth>
+                  <date when-iso="1843-09-14">14.09.1843</date>
+                  <settlement key="881">
+                     <placeName type="pref">Mannheim</placeName>
+                     <location>
+                        <geo>49,4891 8,46694</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when-iso="1898-03-12">12.03.1898</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15946</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/17889/</idno>
+            </person>
+         </listPerson>
       </back>
    </text>
 </TEI>

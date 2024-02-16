@@ -80,7 +80,35 @@
          </div>
       </body>
       <back>
-         <listPerson/>
+         <listPerson>
+            <person xml:id="pmb20956">
+               <persName>
+                  <forename>Franz</forename>
+                  <surname>Marc</surname>
+               </persName>
+               <birth>
+                  <date when-iso="1880-02-08">08.02.1880</date>
+                  <settlement key="45258">
+                     <placeName type="pref">München</placeName>
+                     <location>
+                        <geo>48,13743 11,57549</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when-iso="1916-03-04">04.03.1916</date>
+                  <settlement key="49450">
+                     <placeName type="pref">Braquis</placeName>
+                     <location>
+                        <geo>49,15525 5,62543</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17855</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20956/</idno>
+            </person>
+         </listPerson>
       </back>
    </text>
 </TEI>

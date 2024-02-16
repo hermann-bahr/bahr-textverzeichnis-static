@@ -86,6 +86,93 @@
       </body>
       <back>
          <listPerson>
+            <person xml:id="pmb2931">
+               <persName>
+                  <forename>Georges</forename>
+                  <surname>Feydeau</surname>
+               </persName>
+               <birth>
+                  <date when-iso="1862-12-08">08.12.1862</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when-iso="1921-06-05">05.06.1921</date>
+                  <settlement key="54909">
+                     <placeName type="pref">Rueil-Malmaison</placeName>
+                     <location>
+                        <geo>48,8765 2,18967</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118988093</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14972</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2931.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2931/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2931.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp44329</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q49465</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Georges_Feydeau</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/G%20Feydeau%20Carolus-Duran%20Lille%202918.jpg"/>
+               </figure>
+            </person>
+            <person xml:id="pmb12179">
+               <persName>
+                  <forename>Gustav</forename>
+                  <surname>Maran</surname>
+               </persName>
+               <persName type="namensvariante">Dolezal</persName>
+               <birth>
+                  <date when-iso="1854-01-08">08.01.1854</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when-iso="1917-05-18">18.05.1917</date>
+                  <settlement key="19055">
+                     <placeName type="pref">Sulz im Wienerwald</placeName>
+                     <location>
+                        <geo>48,1008317 16,1374028</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17849</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/130141283</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12179.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12179/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49591</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1556180</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gustav_Maran</idno>
+               <listEvent>
+                  <event key="45067" when-iso="1904-10-05">
+                     <desc n="1256">ist Arbeitskraft bei</desc>
+                     <label>Aufführung von Herzogin Crevette, 5.10.1904</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45067/</idno>
+                  </event>
+               </listEvent>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustav%20Maran%20wenige%20Wochen%20vor%20seinem%20Tode%201917%20Charles%20Scolik.png"/>
+               </figure>
+            </person>
             <person xml:id="pmb115115">
                <persName>
                   <surname>Lemaître</surname>
@@ -97,7 +184,8 @@
                </birth>
                <death>
                   <date>1876-01-26</date>
-                  <placeName type="wikidata" ref="Q163948">10. Arrondissement von Paris</placeName>
+                  <placeName type="wikidata" ref="Q163948">10. Arrondissement von
+                        Paris</placeName>
                </death>
                <idno type="HB-tv">HB-tv_1883_p2</idno>
                <idno type="wikidata">Q654231</idno>

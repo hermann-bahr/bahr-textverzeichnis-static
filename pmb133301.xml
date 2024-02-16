@@ -96,7 +96,27 @@
          </div>
       </body>
       <back>
-         <listPerson/>
+         <listPerson>
+            <person xml:id="pmb25977">
+               <persName>
+                  <forename>Camilla</forename>
+                  <surname>Theimer</surname>
+               </persName>
+               <birth>
+                  <date when-iso="1867-05-17">17.05.1867</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <sex value="female"/>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20693</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/25977/</idno>
+            </person>
+         </listPerson>
       </back>
    </text>
 </TEI>

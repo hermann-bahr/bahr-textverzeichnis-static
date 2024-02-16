@@ -95,7 +95,47 @@
          </div>
       </body>
       <back>
-         <listPerson/>
+         <listPerson>
+            <person xml:id="pmb11515">
+               <persName>
+                  <forename>Leo</forename>
+                  <surname>Greiner</surname>
+               </persName>
+               <birth>
+                  <date when-iso="1876-04-01">01.04.1876</date>
+                  <settlement key="833">
+                     <placeName type="pref">Brünn</placeName>
+                     <location>
+                        <geo>49,19522 16,60796</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when-iso="1928-08-22">22.08.1928</date>
+                  <settlement key="168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation key="281">Verlagslektor/Verlagslektorin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15643</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116830980</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11515.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11515/</idno>
+               <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x002818bb</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1818576</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Leo_Greiner</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1587</idno>
+               <listBibl>
+                  <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+            </person>
+         </listPerson>
       </back>
    </text>
 </TEI>
