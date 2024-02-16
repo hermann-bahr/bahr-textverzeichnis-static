@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122765.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,9 +69,9 @@
                      <ptr type="pmb" target="pmb22098"/>
                      <ptr type="pmb" target="pmb11981"/>
                      <ptr type="pmb" target="pmb14519"/>
-                     <ptr type="HB-tv" target="HB-tv_2001_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_4466_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2001_p3"/>
+                     <ptr type="pmb" target="pmb154056"/>
+                     <ptr type="pmb" target="pmb24702"/>
+                     <ptr type="pmb" target="pmb113972"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19030528&amp;seite=9</ref>
@@ -84,5 +84,56 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154056">
+               <persName>
+                  <surname>Grobe</surname>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <idno type="HB-tv">HB-tv_2001_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154056.html</idno>
+            </person>
+            <person xml:id="pmb24702">
+               <persName>
+                  <surname>Schönthan</surname>
+                  <forename>Franz von</forename>
+               </persName>
+               <birth>
+                  <date>1849-06-20</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1913-12-02</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4466_p1</idno>
+               <idno type="wikidata">Q114579</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116889292</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb24702.html</idno>
+            </person>
+            <person xml:id="pmb113972">
+               <persName>
+                  <surname>Baudissin</surname>
+                  <forename>Wolf</forename>
+               </persName>
+               <occupation>Graf von, Ps. Freiherr von Schlicht</occupation>
+               <birth>
+                  <date>1867-01-30</date>
+                  <placeName type="wikidata" ref="Q501661">Schleswig</placeName>
+               </birth>
+               <death>
+                  <date>1926-10-04</date>
+                  <placeName type="wikidata" ref="Q3955">Weimar</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2001_p3</idno>
+               <idno type="wikidata">Q98142</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117768774</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113972.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

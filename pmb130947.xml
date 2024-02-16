@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130947.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -89,10 +89,10 @@
                      <ptr type="pmb" target="pmb12851"/>
                      <ptr type="pmb" target="pmb2404"/>
                      <ptr type="pmb" target="pmb12654"/>
-                     <ptr type="HB-tv" target="HB-tv_3404_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_5937_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3404_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_3404_p4"/>
+                     <ptr type="pmb" target="pmb3272"/>
+                     <ptr type="pmb" target="pmb149494"/>
+                     <ptr type="pmb" target="pmb23784"/>
+                     <ptr type="pmb" target="pmb146302"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/11-austriaca.pdf</ref>
@@ -116,5 +116,101 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2404">
+               <persName>
+                  <surname>Hebbel</surname>
+                  <forename>Christian Friedrich</forename>
+               </persName>
+               <birth>
+                  <date>1813-03-18</date>
+                  <placeName type="wikidata" ref="Q518460">Wesselburen</placeName>
+               </birth>
+               <death>
+                  <date>1863-12-13</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_6576_p3</idno>
+               <idno type="wikidata">Q57182</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118547445</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2404.html</idno>
+            </person>
+            <person xml:id="pmb3272">
+               <persName>
+                  <surname>Molière</surname>
+               </persName>
+               <birth>
+                  <date>1622-01-15</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1673-02-17</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_115_p10</idno>
+               <idno type="wikidata">Q687</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11858331X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3272.html</idno>
+            </person>
+            <person xml:id="pmb149494">
+               <persName>
+                  <surname>Niemann</surname>
+                  <forename>Albert</forename>
+               </persName>
+               <birth>
+                  <date>1831-01-15</date>
+                  <placeName type="wikidata" ref="Q573464">Erxleben</placeName>
+               </birth>
+               <death>
+                  <date>1917-01-13</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_5937_p1</idno>
+               <idno type="wikidata">Q106378</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117001686</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149494.html</idno>
+            </person>
+            <person xml:id="pmb23784">
+               <persName>
+                  <surname>Réjane</surname>
+               </persName>
+               <birth>
+                  <date>1856-06-06</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1920-06-14</date>
+                  <placeName type="wikidata" ref="Q194420">16. Arrondissement von Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_688_p2</idno>
+               <idno type="wikidata">Q596355</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/116394102</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb23784.html</idno>
+            </person>
+            <person xml:id="pmb146302">
+               <persName>
+                  <surname>Franz II. von Österreich</surname>
+               </persName>
+               <birth>
+                  <date>1768-02-12</date>
+                  <placeName type="wikidata" ref="Q2044">Florenz</placeName>
+               </birth>
+               <death>
+                  <date>1835-03-02</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_5932_p2</idno>
+               <idno type="wikidata">Q130834</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118534955</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb146302.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

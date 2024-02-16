@@ -24,7 +24,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132791.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -79,10 +79,10 @@
                      <ptr type="pmb" target="pmb11981"/>
                      <ptr type="pmb" target="pmb4124"/>
                      <ptr type="pmb" target="pmb2601"/>
-                     <ptr type="HB-tv" target="HB-tv_568_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_4863_p12"/>
-                     <ptr type="HB-tv" target="HB-tv_2035_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1932_p4"/>
+                     <ptr type="pmb" target="pmb112726"/>
+                     <ptr type="pmb" target="pmb155156"/>
+                     <ptr type="pmb" target="pmb2868"/>
+                     <ptr type="pmb" target="pmb154086"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19010124&amp;seite=1</ref>
@@ -96,5 +96,75 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb112726">
+               <persName>
+                  <surname>Garborg</surname>
+                  <forename>Arne</forename>
+               </persName>
+               <birth>
+                  <date>1851-01-25</date>
+                  <placeName type="wikidata" ref="Q647927">Jæren</placeName>
+               </birth>
+               <death>
+                  <date>1924-01-14</date>
+                  <placeName type="wikidata" ref="Q56869">Asker</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_568_p1</idno>
+               <idno type="wikidata">Q467497</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11853758X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb112726.html</idno>
+            </person>
+            <person xml:id="pmb155156">
+               <persName>
+                  <surname>Egidy</surname>
+                  <forename>Moritz von</forename>
+               </persName>
+               <birth>
+                  <date when="1847">1847</date>
+               </birth>
+               <death>
+                  <date when="1898">1898</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4863_p12</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155156.html</idno>
+            </person>
+            <person xml:id="pmb2868">
+               <persName>
+                  <surname>Kutschera</surname>
+                  <forename>Viktor</forename>
+               </persName>
+               <birth>
+                  <date>1863-05-02</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1933-01-20</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2035_p2</idno>
+               <idno type="wikidata">Q2524322</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116628081</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2868.html</idno>
+            </person>
+            <person xml:id="pmb154086">
+               <persName>
+                  <surname>Licho</surname>
+                  <forename>Adolf Edgar</forename>
+               </persName>
+               <birth>
+                  <date when="1876">1876</date>
+               </birth>
+               <death>
+                  <date when="1944">1944</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1932_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154086.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132853.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -72,10 +72,10 @@
                      <ptr type="pmb" target="pmb11036"/>
                      <ptr type="pmb" target="pmb12729"/>
                      <ptr type="pmb" target="pmb11518"/>
-                     <ptr type="HB-tv" target="HB-tv_1929_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1450_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_4852_p24"/>
-                     <ptr type="HB-tv" target="HB-tv_3340_p3"/>
+                     <ptr type="pmb" target="pmb113850"/>
+                     <ptr type="pmb" target="pmb9712"/>
+                     <ptr type="pmb" target="pmb155230"/>
+                     <ptr type="pmb" target="pmb115081"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/6-secession.pdf</ref>
@@ -93,12 +93,97 @@
                      <date type="year">1898</date>
                      <biblScope unit="issue">216</biblScope>
                      <biblScope unit="page">121–122</biblScope>
-                     <title ref="pmb133335">Die Secession. [Zur Eröffnung der Herbstausstellung am
+                     <title ref="pmb133335" level="a">Die Secession. [Zur Eröffnung der Herbstausstellung am
                         12. November 1898.] II</title>
                   </bibl>
                </note>
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb11740">
+               <persName>
+                  <surname>Theophil Morren</surname>
+               </persName>
+               <idno type="HB-tv">HB-tv_4864_p17</idno>
+               <idno type="wikidata">Q51513</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118552759</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11740.html</idno>
+            </person>
+            <person xml:id="pmb113850">
+               <persName>
+                  <surname>Khnopff</surname>
+                  <forename>Fernand-Edmond-Jean-Marie</forename>
+               </persName>
+               <birth>
+                  <date>1858-09-12</date>
+                  <placeName type="wikidata" ref="Q13122">Dendermonde</placeName>
+               </birth>
+               <death>
+                  <date>1921-11-12</date>
+                  <placeName type="wikidata" ref="Q239">Stadt Brüssel</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1929_p2</idno>
+               <idno type="wikidata">Q559559</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118561871</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113850.html</idno>
+            </person>
+            <person xml:id="pmb9712">
+               <persName>
+                  <surname>Schließmann</surname>
+                  <forename>Hans</forename>
+               </persName>
+               <birth>
+                  <date>1852-02-06</date>
+                  <placeName type="wikidata" ref="Q1720">Mainz</placeName>
+               </birth>
+               <death>
+                  <date>1920-02-14</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1450_p2</idno>
+               <idno type="wikidata">Q1582310</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117643742</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb9712.html</idno>
+            </person>
+            <person xml:id="pmb155230">
+               <persName>
+                  <surname>Schindler</surname>
+                  <forename>Alexander Julius</forename>
+               </persName>
+               <birth>
+                  <date when="1818">1818</date>
+               </birth>
+               <death>
+                  <date when="1885">1885</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4852_p24</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155230.html</idno>
+            </person>
+            <person xml:id="pmb115081">
+               <persName>
+                  <surname>Lanner</surname>
+                  <forename>Joseph</forename>
+               </persName>
+               <birth>
+                  <date>1801-04-12</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1843-04-14</date>
+                  <placeName type="wikidata" ref="Q267360">Döbling</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3340_p3</idno>
+               <idno type="wikidata">Q44927</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118569597</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb115081.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

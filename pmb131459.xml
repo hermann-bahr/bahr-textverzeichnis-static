@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb131459.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -70,9 +70,9 @@
                      <ptr type="pmb" target="pmb11941"/>
                      <ptr type="pmb" target="pmb9554"/>
                      <ptr type="pmb" target="pmb2412"/>
-                     <ptr type="HB-tv" target="HB-tv_3505_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3283_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3283_p3"/>
+                     <ptr type="pmb" target="pmb149373"/>
+                     <ptr type="pmb" target="pmb149268"/>
+                     <ptr type="pmb" target="pmb156369"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/10-jugend.pdf</ref>
@@ -90,7 +90,7 @@
                      <date type="year">1902</date>
                      <biblScope unit="issue">39</biblScope>
                      <biblScope unit="page">389–391</biblScope>
-                     <title ref="pmb132555">Klingers Beethoven</title>
+                     <title ref="pmb132555" level="a">Klingers Beethoven</title>
                   </bibl>
                   <bibl>
                      <title level="j" ref="pmb41552">Österreichische Volkszeitung</title>
@@ -98,12 +98,66 @@
                      <date type="year">1902</date>
                      <biblScope unit="issue">104</biblScope>
                      <biblScope unit="page">1</biblScope>
-                     <title ref="pmb132593">Klingers Beethoven. Vierzehnte Kunstausstellung der
+                     <title ref="pmb132593" level="a">Klingers Beethoven. Vierzehnte Kunstausstellung der
                         Vereinigung bildender Künstler Österreichs, Sezession</title>
                   </bibl>
                </note>
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb149373">
+               <persName>
+                  <surname>Görres</surname>
+                  <forename>Joseph</forename>
+               </persName>
+               <birth>
+                  <date>1776-01-25</date>
+                  <placeName type="wikidata" ref="Q3104">Koblenz</placeName>
+               </birth>
+               <death>
+                  <date>1848-01-29</date>
+                  <placeName type="wikidata" ref="Q1726">München</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3505_p1</idno>
+               <idno type="wikidata">Q215730</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11854019X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149373.html</idno>
+            </person>
+            <person xml:id="pmb149268">
+               <persName>
+                  <surname>Teresa von Ávila</surname>
+               </persName>
+               <birth>
+                  <date>1515-03-28</date>
+                  <placeName type="wikidata" ref="Q842702">Gotarrendura</placeName>
+               </birth>
+               <death>
+                  <date>1582-10-15</date>
+                  <placeName type="wikidata" ref="Q43115071">Kloster der Verkündigung Unserer Lieben Frau von den Unbeschuhten Karmeliten von Alba de Tormes</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3523_p18</idno>
+               <idno type="wikidata">Q174880</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/118621823</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149268.html</idno>
+            </person>
+            <person xml:id="pmb156369">
+               <persName>
+                  <surname>Archilochos</surname>
+               </persName>
+               <birth>
+                  <date when-custom="um 680">um 680</date>
+               </birth>
+               <death>
+                  <date when-custom="um 645 v.u.Z.">um 645 v.u.Z.</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3283_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156369.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

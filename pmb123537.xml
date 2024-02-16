@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123537.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -68,8 +68,8 @@
                      <ptr type="pmb" target="pmb11046"/>
                      <ptr type="pmb" target="pmb12651"/>
                      <ptr type="pmb" target="pmb11605"/>
-                     <ptr type="HB-tv" target="HB-tv_4068_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2545_p2"/>
+                     <ptr type="pmb" target="pmb154288"/>
+                     <ptr type="pmb" target="pmb153983"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1897-12/156-207.pdf</ref>
@@ -82,5 +82,39 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154288">
+               <persName>
+                  <surname>Klein</surname>
+                  <forename>Joseph</forename>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <birth>
+                  <date when="1862">1862</date>
+               </birth>
+               <death>
+                  <date when="1927">1927</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4068_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154288.html</idno>
+            </person>
+            <person xml:id="pmb153983">
+               <persName>
+                  <surname>Petri</surname>
+                  <forename>Lili</forename>
+               </persName>
+               <persName type="namensvariante">Amalie Schmitz, verh. Anno</persName>
+               <birth>
+                  <date when-custom="1864/67">1864/67</date>
+               </birth>
+               <death>
+                  <date when="1915">1915</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2545_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153983.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

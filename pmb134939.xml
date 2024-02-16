@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb134939.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -63,9 +63,9 @@
                      <ptr type="pmb" target="pmb26537"/>
                      <ptr type="pmb" target="pmb13166"/>
                      <ptr type="pmb" target="pmb11518"/>
-                     <ptr type="HB-tv" target="HB-tv_3849_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1966_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3849_p3"/>
+                     <ptr type="pmb" target="pmb157541"/>
+                     <ptr type="pmb" target="pmb13999"/>
+                     <ptr type="pmb" target="pmb157542"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/6-94.pdf</ref>
@@ -78,5 +78,45 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb157541">
+               <persName>
+                  <surname>Jaray</surname>
+                  <forename>Regisseur</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_3849_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157541.html</idno>
+            </person>
+            <person xml:id="pmb13999">
+               <persName>
+                  <surname>Benedix</surname>
+                  <forename>Roderich</forename>
+               </persName>
+               <birth>
+                  <date>1811-01-21</date>
+                  <placeName type="wikidata" ref="Q2079">Leipzig</placeName>
+               </birth>
+               <death>
+                  <date>1873-09-26</date>
+                  <placeName type="wikidata" ref="Q2079">Leipzig</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1966_p1</idno>
+               <idno type="wikidata">Q87176</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118658166</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb13999.html</idno>
+            </person>
+            <person xml:id="pmb157542">
+               <persName>
+                  <surname>Warbeck</surname>
+                  <forename>Edmund</forename>
+               </persName>
+               <occupation>Requisiteur</occupation>
+               <idno type="HB-tv">HB-tv_3849_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157542.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

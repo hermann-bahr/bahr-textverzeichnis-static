@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb131001.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -61,7 +61,7 @@
                   <listRef>
                      <ptr type="pmb" target="pmb12749"/>
                      <ptr type="pmb" target="pmb11575"/>
-                     <ptr type="HB-tv" target="HB-tv_4464_p5"/>
+                     <ptr type="pmb" target="pmb115350"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=19110429&amp;seite=3</ref>
@@ -75,5 +75,29 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb115350">
+               <persName>
+                  <surname>Marlitt</surname>
+                  <forename>E.</forename>
+               </persName>
+               <persName type="namensvariante">Eugenie John</persName>
+               <birth>
+                  <date>1825-12-05</date>
+                  <placeName type="wikidata" ref="Q490665">Arnstadt</placeName>
+               </birth>
+               <death>
+                  <date>1887-06-22</date>
+                  <placeName type="wikidata" ref="Q490665">Arnstadt</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4464_p5</idno>
+               <idno type="wikidata">Q62950</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/118731092</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb115350.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

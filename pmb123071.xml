@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123071.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -85,11 +85,11 @@
                      <ptr type="pmb" target="pmb7528"/>
                      <ptr type="pmb" target="pmb12809"/>
                      <ptr type="pmb" target="pmb5208"/>
-                     <ptr type="HB-tv" target="HB-tv_2173_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2173_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2173_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2173_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_2173_p5"/>
+                     <ptr type="pmb" target="pmb154227"/>
+                     <ptr type="pmb" target="pmb154228"/>
+                     <ptr type="pmb" target="pmb9767"/>
+                     <ptr type="pmb" target="pmb148844"/>
+                     <ptr type="pmb" target="pmb95954"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -101,5 +101,94 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154227">
+               <persName>
+                  <surname>Werner</surname>
+                  <forename>Zacharias</forename>
+               </persName>
+               <birth>
+                  <date when="1768">1768</date>
+               </birth>
+               <death>
+                  <date when="1823">1823</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2173_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154227.html</idno>
+            </person>
+            <person xml:id="pmb154228">
+               <persName>
+                  <surname>Racine</surname>
+                  <forename>Jean</forename>
+               </persName>
+               <birth>
+                  <date when="1639">1639</date>
+               </birth>
+               <death>
+                  <date when="1699">1699</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2173_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154228.html</idno>
+            </person>
+            <person xml:id="pmb9767">
+               <persName>
+                  <surname>Schreyvogel</surname>
+                  <forename>Friedrich</forename>
+               </persName>
+               <birth>
+                  <date>1899-07-17</date>
+                  <placeName type="wikidata" ref="Q1910986">Mauer</placeName>
+               </birth>
+               <death>
+                  <date>1976-01-11</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2173_p3</idno>
+               <idno type="wikidata">Q1462066</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119549247</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb9767.html</idno>
+            </person>
+            <person xml:id="pmb148844">
+               <persName>
+                  <surname>Mondthal</surname>
+                  <forename>Camilla</forename>
+               </persName>
+               <persName type="namensvariante">Camilla Sockl</persName>
+               <birth>
+                  <date>1860</date>
+               </birth>
+               <death>
+                  <date>1923</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2173_p4</idno>
+               <idno type="wikidata">Q94751615</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/117125865</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148844.html</idno>
+            </person>
+            <person xml:id="pmb95954">
+               <persName>
+                  <surname>Vrchlický</surname>
+                  <forename>Jaroslav</forename>
+               </persName>
+               <persName type="namensvariante">Emil Bohuš Frída</persName>
+               <birth>
+                  <date>1853-02-17</date>
+                  <placeName type="wikidata" ref="Q616877">Louny</placeName>
+               </birth>
+               <death>
+                  <date>1912-09-09</date>
+                  <placeName type="wikidata" ref="Q986068">Domažlice</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2173_p5</idno>
+               <idno type="wikidata">Q461104</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118805789</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb95954.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

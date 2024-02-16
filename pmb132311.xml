@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132311.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -94,9 +94,9 @@
                      <ptr type="pmb" target="pmb2121"/>
                      <ptr type="pmb" target="pmb11461"/>
                      <ptr type="pmb" target="pmb11220"/>
-                     <ptr type="HB-tv" target="HB-tv_669_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3369_p43"/>
-                     <ptr type="HB-tv" target="HB-tv_669_p3"/>
+                     <ptr type="pmb" target="pmb156507"/>
+                     <ptr type="pmb" target="pmb13014"/>
+                     <ptr type="pmb" target="pmb156508"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19030730&amp;seite=1</ref>
@@ -108,5 +108,86 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb11740">
+               <persName>
+                  <surname>Theophil Morren</surname>
+               </persName>
+               <idno type="HB-tv">HB-tv_4864_p17</idno>
+               <idno type="wikidata">Q51513</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118552759</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11740.html</idno>
+            </person>
+            <person xml:id="pmb2142">
+               <persName>
+                  <surname>d’Annunzio</surname>
+                  <forename>Gabriele</forename>
+               </persName>
+               <birth>
+                  <date>1863-03-12</date>
+                  <placeName type="wikidata" ref="Q2704">Pescara</placeName>
+               </birth>
+               <death>
+                  <date>1938-03-01</date>
+                  <placeName type="wikidata" ref="Q104619">Gardone Riviera</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4865_p5</idno>
+               <idno type="wikidata">Q193236</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118503243</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2142.html</idno>
+            </person>
+            <person xml:id="pmb156507">
+               <persName>
+                  <surname>Grazzini</surname>
+                  <forename>Antonio Francesco</forename>
+               </persName>
+               <birth>
+                  <date when="1503">1503</date>
+               </birth>
+               <death>
+                  <date when="1583">1583</date>
+               </death>
+               <idno type="HB-tv">HB-tv_669_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156507.html</idno>
+            </person>
+            <person xml:id="pmb13014">
+               <persName>
+                  <surname>Vollmöller</surname>
+                  <forename>Karl Gustav</forename>
+               </persName>
+               <birth>
+                  <date>1878-05-07</date>
+                  <placeName type="wikidata" ref="Q1022">Stuttgart</placeName>
+               </birth>
+               <death>
+                  <date>1948-10-18</date>
+                  <placeName type="wikidata" ref="Q65">Los Angeles</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3369_p43</idno>
+               <idno type="wikidata">Q96028</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118805681</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb13014.html</idno>
+            </person>
+            <person xml:id="pmb156508">
+               <persName>
+                  <surname>Baumfeldt</surname>
+                  <forename>Richard Peter</forename>
+               </persName>
+               <occupation>Autor</occupation>
+               <birth>
+                  <date when="1881">1881</date>
+               </birth>
+               <death>
+                  <date when="1963">1963</date>
+               </death>
+               <idno type="HB-tv">HB-tv_669_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156508.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

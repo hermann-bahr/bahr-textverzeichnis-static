@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130099.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -87,9 +87,9 @@
                      <ptr type="pmb" target="pmb11617"/>
                      <ptr type="pmb" target="pmb11148"/>
                      <ptr type="pmb" target="pmb28664"/>
-                     <ptr type="HB-tv" target="HB-tv_3457_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3457_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3543_p12"/>
+                     <ptr type="pmb" target="pmb4769"/>
+                     <ptr type="pmb" target="pmb146530"/>
+                     <ptr type="pmb" target="pmb115459"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/14-expressionismus.pdf</ref>
@@ -127,5 +127,83 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2404">
+               <persName>
+                  <surname>Hebbel</surname>
+                  <forename>Christian Friedrich</forename>
+               </persName>
+               <birth>
+                  <date>1813-03-18</date>
+                  <placeName type="wikidata" ref="Q518460">Wesselburen</placeName>
+               </birth>
+               <death>
+                  <date>1863-12-13</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_6576_p3</idno>
+               <idno type="wikidata">Q57182</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118547445</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2404.html</idno>
+            </person>
+            <person xml:id="pmb4769">
+               <persName>
+                  <surname>Napoléon Bonaparte</surname>
+               </persName>
+               <birth>
+                  <date>1769-08-15</date>
+                  <placeName type="wikidata" ref="Q40104">Ajaccio</placeName>
+               </birth>
+               <death>
+                  <date>1821-05-05</date>
+                  <placeName type="wikidata" ref="Q578060">Longwood House</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1891_p2</idno>
+               <idno type="wikidata">Q517</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118586408</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb4769.html</idno>
+            </person>
+            <person xml:id="pmb146530">
+               <persName>
+                  <surname>Marie-Louise von Österreich</surname>
+               </persName>
+               <birth>
+                  <date>1791-12-12</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1847-12-17</date>
+                  <placeName type="wikidata" ref="Q2683">Parma</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3351_p14</idno>
+               <idno type="wikidata">Q157491</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/118577891</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb146530.html</idno>
+            </person>
+            <person xml:id="pmb115459">
+               <persName>
+                  <surname>Millet</surname>
+                  <forename>Jean-François</forename>
+               </persName>
+               <birth>
+                  <date>1814-10-04</date>
+                  <placeName type="wikidata" ref="Q767634">Gréville-Hague</placeName>
+               </birth>
+               <death>
+                  <date>1875-01-20</date>
+                  <placeName type="wikidata" ref="Q256175">Barbizon</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3543_p12</idno>
+               <idno type="wikidata">Q148458</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118582550</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb115459.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

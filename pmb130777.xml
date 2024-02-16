@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130777.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -72,9 +72,9 @@
                      <ptr type="pmb" target="pmb3622"/>
                      <ptr type="pmb" target="pmb23486"/>
                      <ptr type="pmb" target="pmb12851"/>
-                     <ptr type="HB-tv" target="HB-tv_3410_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3410_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1326_p4"/>
+                     <ptr type="pmb" target="pmb117616"/>
+                     <ptr type="pmb" target="pmb151024"/>
+                     <ptr type="pmb" target="pmb3368"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/12-essays.pdf</ref>
@@ -106,5 +106,66 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb117616">
+               <persName>
+                  <surname>Metzner</surname>
+                  <forename>Franz</forename>
+               </persName>
+               <birth>
+                  <date>1870-11-18</date>
+                  <placeName type="wikidata" ref="Q965987">Všeruby u Plzně</placeName>
+               </birth>
+               <death>
+                  <date>1919-03-24</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3410_p1</idno>
+               <idno type="wikidata">Q1448270</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118783572</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb117616.html</idno>
+            </person>
+            <person xml:id="pmb151024">
+               <persName>
+                  <surname>Minne</surname>
+                  <forename>George</forename>
+               </persName>
+               <birth>
+                  <date>1866-08-30</date>
+                  <placeName type="wikidata" ref="Q1296">Gent</placeName>
+               </birth>
+               <death>
+                  <date>1941-02-18</date>
+                  <placeName type="wikidata" ref="Q737538">Sint-Martens-Latem</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3410_p2</idno>
+               <idno type="wikidata">Q559281</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118784137</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151024.html</idno>
+            </person>
+            <person xml:id="pmb3368">
+               <persName>
+                  <surname>Olbrich</surname>
+                  <forename>Josef Maria</forename>
+               </persName>
+               <birth>
+                  <date>1867-12-22</date>
+                  <placeName type="wikidata" ref="Q156080">Opava</placeName>
+               </birth>
+               <death>
+                  <date>1908-08-08</date>
+                  <placeName type="wikidata" ref="Q1718">Düsseldorf</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1326_p4</idno>
+               <idno type="wikidata">Q44911</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118589768</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3368.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

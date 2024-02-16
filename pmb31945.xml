@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb31945.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -145,7 +145,7 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb2132"/>
-                     <ptr type="HB-tv" target="HB-tv_1353_p1"/>
+                     <ptr type="pmb" target="pmb28820"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/2-ueberwindung.pdf</ref>
@@ -206,5 +206,27 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb28820">
+               <persName>
+                  <surname>Stendhal</surname>
+               </persName>
+               <birth>
+                  <date>1783-01-23</date>
+                  <placeName type="wikidata" ref="Q1289">Grenoble</placeName>
+               </birth>
+               <death>
+                  <date>1842-03-23</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1050_p3</idno>
+               <idno type="wikidata">Q502</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118617648</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb28820.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

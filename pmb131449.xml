@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb131449.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -66,9 +66,9 @@
                   <listRef>
                      <ptr type="pmb" target="pmb5205"/>
                      <ptr type="pmb" target="pmb2683"/>
-                     <ptr type="HB-tv" target="HB-tv_1326_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_3288_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3288_p3"/>
+                     <ptr type="pmb" target="pmb3368"/>
+                     <ptr type="pmb" target="pmb3084"/>
+                     <ptr type="pmb" target="pmb15993"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/10-jugend.pdf</ref>
@@ -109,5 +109,64 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb3368">
+               <persName>
+                  <surname>Olbrich</surname>
+                  <forename>Josef Maria</forename>
+               </persName>
+               <birth>
+                  <date>1867-12-22</date>
+                  <placeName type="wikidata" ref="Q156080">Opava</placeName>
+               </birth>
+               <death>
+                  <date>1908-08-08</date>
+                  <placeName type="wikidata" ref="Q1718">Düsseldorf</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1326_p4</idno>
+               <idno type="wikidata">Q44911</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118589768</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3368.html</idno>
+            </person>
+            <person xml:id="pmb3084">
+               <persName>
+                  <surname>Joseph II. von Österreich</surname>
+               </persName>
+               <birth>
+                  <date>1741-03-13</date>
+                  <placeName type="wikidata" ref="Q636910">Hietzing</placeName>
+               </birth>
+               <death>
+                  <date>1790-02-20</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2293_p2</idno>
+               <idno type="wikidata">Q76555</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118558404</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3084.html</idno>
+            </person>
+            <person xml:id="pmb15993">
+               <persName>
+                  <surname>Ernst Ludwig von Hessen und bei Rhein</surname>
+               </persName>
+               <birth>
+                  <date>1868-11-25</date>
+                  <placeName type="wikidata" ref="Q2973">Darmstadt</placeName>
+               </birth>
+               <death>
+                  <date>1937-10-09</date>
+                  <placeName type="wikidata" ref="Q881056">Schloss Wolfsgarten</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_5316_p4</idno>
+               <idno type="wikidata">Q57507</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118530933</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb15993.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

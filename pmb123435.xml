@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123435.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -61,10 +61,10 @@
                      <ptr type="pmb" target="pmb12551"/>
                      <ptr type="pmb" target="pmb11461"/>
                      <ptr type="pmb" target="pmb3982"/>
-                     <ptr type="HB-tv" target="HB-tv_3878_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3878_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3878_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_3878_p4"/>
+                     <ptr type="pmb" target="pmb154380"/>
+                     <ptr type="pmb" target="pmb154381"/>
+                     <ptr type="pmb" target="pmb154382"/>
+                     <ptr type="pmb" target="pmb154383"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1898-15/195-205.pdf</ref>
@@ -78,5 +78,42 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154380">
+               <persName>
+                  <surname>Meth</surname>
+                  <forename>Josef</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_3878_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154380.html</idno>
+            </person>
+            <person xml:id="pmb154381">
+               <persName>
+                  <surname>Dengg</surname>
+                  <forename>Anna</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_3878_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154381.html</idno>
+            </person>
+            <person xml:id="pmb154382">
+               <persName>
+                  <surname>Reil</surname>
+                  <forename>Anna</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_3878_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154382.html</idno>
+            </person>
+            <person xml:id="pmb154383">
+               <persName>
+                  <surname>Gaigl</surname>
+                  <forename>Lina</forename>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <idno type="HB-tv">HB-tv_3878_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154383.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

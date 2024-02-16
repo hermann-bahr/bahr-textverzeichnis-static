@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132721.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -66,10 +66,10 @@
                      <ptr type="pmb" target="pmb12319"/>
                      <ptr type="pmb" target="pmb5205"/>
                      <ptr type="pmb" target="pmb22532"/>
-                     <ptr type="HB-tv" target="HB-tv_1326_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_4852_p7"/>
-                     <ptr type="HB-tv" target="HB-tv_4852_p6"/>
-                     <ptr type="HB-tv" target="HB-tv_2310_p1"/>
+                     <ptr type="pmb" target="pmb3368"/>
+                     <ptr type="pmb" target="pmb113641"/>
+                     <ptr type="pmb" target="pmb149979"/>
+                     <ptr type="pmb" target="pmb24515"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/der-tag/1901_olbrich.pdf</ref>
@@ -81,5 +81,95 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb11740">
+               <persName>
+                  <surname>Theophil Morren</surname>
+               </persName>
+               <idno type="HB-tv">HB-tv_4864_p17</idno>
+               <idno type="wikidata">Q51513</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118552759</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11740.html</idno>
+            </person>
+            <person xml:id="pmb3368">
+               <persName>
+                  <surname>Olbrich</surname>
+                  <forename>Josef Maria</forename>
+               </persName>
+               <birth>
+                  <date>1867-12-22</date>
+                  <placeName type="wikidata" ref="Q156080">Opava</placeName>
+               </birth>
+               <death>
+                  <date>1908-08-08</date>
+                  <placeName type="wikidata" ref="Q1718">Düsseldorf</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1326_p4</idno>
+               <idno type="wikidata">Q44911</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118589768</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3368.html</idno>
+            </person>
+            <person xml:id="pmb113641">
+               <persName>
+                  <surname>Nüll</surname>
+                  <forename>Eduard van der</forename>
+               </persName>
+               <birth>
+                  <date>1812-01-09</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1868-04-03</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4852_p7</idno>
+               <idno type="wikidata">Q78979</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118735691</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113641.html</idno>
+            </person>
+            <person xml:id="pmb149979">
+               <persName>
+                  <surname>Sicard von Sicardsburg</surname>
+                  <forename>August</forename>
+               </persName>
+               <birth>
+                  <date>1813-12-06</date>
+                  <placeName type="wikidata" ref="Q193478">Buda</placeName>
+               </birth>
+               <death>
+                  <date>1868-06-11</date>
+                  <placeName type="wikidata" ref="Q487522">Klosterneuburg</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4852_p6</idno>
+               <idno type="wikidata">Q78968</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118765108</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149979.html</idno>
+            </person>
+            <person xml:id="pmb24515">
+               <persName>
+                  <surname>Schreyvogel</surname>
+                  <forename>Joseph</forename>
+               </persName>
+               <birth>
+                  <date>1768-03-27</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1832-07-28</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2310_p1</idno>
+               <idno type="wikidata">Q94645</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119368579</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb24515.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

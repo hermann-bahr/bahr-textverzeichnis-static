@@ -24,7 +24,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132575.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,10 +69,10 @@
                      <ptr type="pmb" target="pmb2467"/>
                      <ptr type="pmb" target="pmb19132"/>
                      <ptr type="pmb" target="pmb11640"/>
-                     <ptr type="HB-tv" target="HB-tv_947_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_947_p2"/>
-                     <ptr type="HB-tv" target="pmb141149_p82"/>
-                     <ptr type="HB-tv" target="HB-tv_947_p4"/>
+                     <ptr type="pmb" target="pmb149176"/>
+                     <ptr type="pmb" target="pmb156529"/>
+                     <ptr type="pmb" target="pmb149676"/>
+                     <ptr type="pmb" target="pmb156530"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19020301&amp;seite=1</ref>
@@ -86,5 +86,93 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb5359">
+               <persName>
+                  <surname>Hugo</surname>
+                  <forename>Victor-Marie</forename>
+               </persName>
+               <birth>
+                  <date>1802-02-26</date>
+                  <placeName type="wikidata" ref="Q37776">Besançon</placeName>
+               </birth>
+               <death>
+                  <date>1885-05-22</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3375_p2</idno>
+               <idno type="wikidata">Q535</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118554654</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb5359.html</idno>
+            </person>
+            <person xml:id="pmb149176">
+               <persName>
+                  <surname>Napoleon III.</surname>
+               </persName>
+               <birth>
+                  <date>1808-04-20</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1873-01-09</date>
+                  <placeName type="wikidata" ref="Q122917"/>
+               </death>
+               <idno type="HB-tv">HB-tv_4873_p13</idno>
+               <idno type="wikidata">Q7721</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118586416</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149176.html</idno>
+            </person>
+            <person xml:id="pmb156529">
+               <persName>
+                  <surname>Proust</surname>
+                  <forename>Antonin</forename>
+               </persName>
+               <birth>
+                  <date when="1832">1832</date>
+               </birth>
+               <death>
+                  <date when="1905">1905</date>
+               </death>
+               <idno type="HB-tv">HB-tv_947_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156529.html</idno>
+            </person>
+            <person xml:id="pmb149676">
+               <persName>
+                  <surname>Blanc</surname>
+                  <forename>Louis</forename>
+               </persName>
+               <birth>
+                  <date>1811-10-29</date>
+                  <placeName type="wikidata" ref="Q2807">Madrid</placeName>
+               </birth>
+               <death>
+                  <date>1882-12-06</date>
+                  <placeName type="wikidata" ref="Q39984">Cannes</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1387_p82</idno>
+               <idno type="wikidata">Q355112</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118663704</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149676.html</idno>
+            </person>
+            <person xml:id="pmb156530">
+               <persName>
+                  <surname>Viennet</surname>
+                  <forename>Jean-Pons-Guillaume</forename>
+               </persName>
+               <birth>
+                  <date when="1777">1777</date>
+               </birth>
+               <death>
+                  <date when="1868">1868</date>
+               </death>
+               <idno type="HB-tv">HB-tv_947_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156530.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

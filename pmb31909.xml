@@ -24,7 +24,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb31909.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -104,7 +104,7 @@
                      <ptr type="pmb" target="pmb2850"/>
                      <ptr type="pmb" target="pmb18595"/>
                      <ptr type="pmb" target="pmb13180"/>
-                     <ptr type="HB-tv" target="HB-tv_1443_p2"/>
+                     <ptr type="pmb" target="pmb14328"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/2-26.pdf</ref>
@@ -123,5 +123,28 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb14328">
+               <persName>
+                  <surname>Blumenthal</surname>
+                  <forename>Oscar</forename>
+               </persName>
+               <birth>
+                  <date>1852-03-13</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </birth>
+               <death>
+                  <date>1917-04-24</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1443_p2</idno>
+               <idno type="wikidata">Q71567</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118659111</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb14328.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

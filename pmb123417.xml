@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123417.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -68,10 +68,10 @@
                      <ptr type="pmb" target="pmb12444"/>
                      <ptr type="pmb" target="pmb13353"/>
                      <ptr type="pmb" target="pmb16458"/>
-                     <ptr type="HB-tv" target="HB-tv_2128_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1863_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2283_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2269_p4"/>
+                     <ptr type="pmb" target="pmb148903"/>
+                     <ptr type="pmb" target="pmb154240"/>
+                     <ptr type="pmb" target="pmb153989"/>
+                     <ptr type="pmb" target="pmb154050"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -84,5 +84,62 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb148903">
+               <persName>
+                  <surname>Biesantz</surname>
+                  <forename>Albert</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_2139_p2</idno>
+               <idno type="wikidata">Q2637641</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116167106</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148903.html</idno>
+            </person>
+            <person xml:id="pmb154240">
+               <persName>
+                  <surname>Kracher</surname>
+                  <forename>Ferdinand</forename>
+               </persName>
+               <birth>
+                  <date when="1881">1881</date>
+               </birth>
+               <death>
+                  <date when="1908">1908</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1863_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154240.html</idno>
+            </person>
+            <person xml:id="pmb153989">
+               <persName>
+                  <surname>Löwe</surname>
+                  <forename>Konrad</forename>
+               </persName>
+               <birth>
+                  <date when="1856">1856</date>
+               </birth>
+               <death>
+                  <date when="1912">1912</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2283_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153989.html</idno>
+            </person>
+            <person xml:id="pmb154050">
+               <persName>
+                  <surname>Witte</surname>
+                  <forename>Eugen</forename>
+               </persName>
+               <birth>
+                  <date when="1848">1848</date>
+               </birth>
+               <death>
+                  <date when="1907">1907</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2269_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154050.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

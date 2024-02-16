@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132061.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,9 +69,9 @@
                      <ptr type="pmb" target="pmb12358"/>
                      <ptr type="pmb" target="pmb11944"/>
                      <ptr type="pmb" target="pmb2566"/>
-                     <ptr type="HB-tv" target="HB-tv_1957_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1957_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3517_p3"/>
+                     <ptr type="pmb" target="pmb156496"/>
+                     <ptr type="pmb" target="pmb156497"/>
+                     <ptr type="pmb" target="pmb149323"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19041113&amp;seite=2</ref>
@@ -84,5 +84,50 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb156496">
+               <persName>
+                  <surname>Witkowski</surname>
+                  <forename>Arnold</forename>
+               </persName>
+               <birth>
+                  <date when="1815">1815</date>
+               </birth>
+               <death>
+                  <date when="1878">1878</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1957_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156496.html</idno>
+            </person>
+            <person xml:id="pmb156497">
+               <persName>
+                  <surname>Witkowski</surname>
+                  <forename>Ernestine</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_1957_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156497.html</idno>
+            </person>
+            <person xml:id="pmb149323">
+               <persName>
+                  <surname>Blake</surname>
+                  <forename>William</forename>
+               </persName>
+               <birth>
+                  <date>1757-11-28</date>
+                  <placeName type="wikidata" ref="Q84">London</placeName>
+               </birth>
+               <death>
+                  <date>1827-08-12</date>
+                  <placeName type="wikidata" ref="Q216185">Charing Cross</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3517_p3</idno>
+               <idno type="wikidata">Q41513</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118511513</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149323.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

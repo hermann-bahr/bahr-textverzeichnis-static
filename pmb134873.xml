@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb134873.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -70,9 +70,9 @@
                   <listRef>
                      <ptr type="pmb" target="pmb11500"/>
                      <ptr type="pmb" target="pmb2925"/>
-                     <ptr type="HB-tv" target="HB-tv_3924_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3924_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3924_p3"/>
+                     <ptr type="pmb" target="pmb144807"/>
+                     <ptr type="pmb" target="pmb153886"/>
+                     <ptr type="pmb" target="pmb153580"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/deutsche-zeitung/75168.pdf</ref>
@@ -87,5 +87,63 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb144807">
+               <persName>
+                  <surname>Bing</surname>
+                  <forename>Siegfried gen. Samuel</forename>
+               </persName>
+               <birth>
+                  <date>1838-02-26</date>
+                  <placeName type="wikidata" ref="Q1055">Hamburg</placeName>
+               </birth>
+               <death>
+                  <date>1905-09-06</date>
+                  <placeName type="wikidata" ref="Q638656">Vaucresson</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2970_p12</idno>
+               <idno type="wikidata">Q66112</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/120910128</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb144807.html</idno>
+            </person>
+            <person xml:id="pmb153886">
+               <persName>
+                  <surname>Bouilhet</surname>
+                  <forename>Henri</forename>
+               </persName>
+               <birth>
+                  <date>1830-01-29</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1910-09-21</date>
+                  <placeName type="wikidata" ref="Q862217">Villerville</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3924_p2</idno>
+               <idno type="wikidata">Q1605730</idno>
+               <sex value="male"/>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153886.html</idno>
+            </person>
+            <person xml:id="pmb153580">
+               <persName>
+                  <surname>Gonse</surname>
+                  <forename>Louis</forename>
+               </persName>
+               <birth>
+                  <date>1846-11-16</date>
+               </birth>
+               <death>
+                  <date>1921-12-19</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3924_p3</idno>
+               <idno type="wikidata">Q3262058</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/122244680</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153580.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb125435.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -55,8 +55,8 @@
                   Dvorak der eifrigste Horcher an der Wand</note>
                <ref type="personenindex">
                   <listRef>
-                     <ptr type="HB-tv" target="HB-tv_3491_p28"/>
-                     <ptr type="HB-tv" target="HB-tv_1198_p2"/>
+                     <ptr type="pmb" target="pmb149439"/>
+                     <ptr type="pmb" target="pmb95482"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=19261229&amp;seite=1</ref>
@@ -86,5 +86,47 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb149439">
+               <persName>
+                  <surname>Pinder</surname>
+                  <forename>Wilhelm</forename>
+               </persName>
+               <birth>
+                  <date>1878-06-25</date>
+                  <placeName type="wikidata" ref="Q2865">Kassel</placeName>
+               </birth>
+               <death>
+                  <date>1947-05-13</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3491_p28</idno>
+               <idno type="wikidata">Q122267</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118792237</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149439.html</idno>
+            </person>
+            <person xml:id="pmb95482">
+               <persName>
+                  <surname>Dvořák</surname>
+                  <forename>Max</forename>
+               </persName>
+               <birth>
+                  <date>1874-06-24</date>
+                  <placeName type="wikidata" ref="Q63855">Roudnice nad Labem</placeName>
+               </birth>
+               <death>
+                  <date>1921-02-08</date>
+                  <placeName type="wikidata" ref="Q1632522">Hrušovany nad Jevišovkou</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1198_p2</idno>
+               <idno type="wikidata">Q112173</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118528378</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb95482.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123507.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -65,7 +65,7 @@
                   <listRef>
                      <ptr type="pmb" target="pmb11617"/>
                      <ptr type="pmb" target="pmb2252"/>
-                     <ptr type="HB-tv" target="HB-tv_2270_p1"/>
+                     <ptr type="pmb" target="pmb4200"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1897-13/158-28.pdf</ref>
@@ -78,5 +78,28 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb4200">
+               <persName>
+                  <surname>Devrient-Reinhold</surname>
+                  <forename>Babette</forename>
+               </persName>
+               <birth>
+                  <date>1863-10-30</date>
+                  <placeName type="wikidata" ref="Q1715">Hannover</placeName>
+               </birth>
+               <death>
+                  <date>1940-06-13</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2270_p1</idno>
+               <idno type="wikidata">Q797650</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/116089237</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb4200.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

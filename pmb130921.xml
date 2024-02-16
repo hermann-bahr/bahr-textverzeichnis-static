@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130921.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -76,8 +76,8 @@
                      <ptr type="pmb" target="pmb3287"/>
                      <ptr type="pmb" target="pmb3490"/>
                      <ptr type="pmb" target="pmb12481"/>
-                     <ptr type="HB-tv" target="HB-tv_3889_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3889_p2"/>
+                     <ptr type="pmb" target="pmb156239"/>
+                     <ptr type="pmb" target="pmb2513"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/11-austriaca.pdf</ref>
@@ -95,7 +95,7 @@
                      <date type="year">1910</date>
                      <biblScope unit="issue">3</biblScope>
                      <biblScope unit="page">350–356</biblScope>
-                     <title ref="pmb131151">Österreichisches. 8</title>
+                     <title ref="pmb131151" level="a">Österreichisches. 8</title>
                   </bibl>
                   <bibl type="obsolete">
                      <title level="j" ref="pmb41507">Prager
@@ -125,5 +125,40 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb156239">
+               <persName>
+                  <surname>Hannibal</surname>
+               </persName>
+               <birth>
+                  <date when-custom="um 246">um 246</date>
+               </birth>
+               <death>
+                  <date when-custom="183 v.u.Z.">183 v.u.Z.</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3889_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156239.html</idno>
+            </person>
+            <person xml:id="pmb2513">
+               <persName>
+                  <surname>Franz Josef I. von Österreich</surname>
+               </persName>
+               <birth>
+                  <date>1830-08-18</date>
+                  <placeName type="wikidata" ref="Q131330">Schloss Schönbrunn</placeName>
+               </birth>
+               <death>
+                  <date>1916-11-21</date>
+                  <placeName type="wikidata" ref="Q131330">Schloss Schönbrunn</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4881_p4</idno>
+               <idno type="wikidata">Q51056</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118535013</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2513.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

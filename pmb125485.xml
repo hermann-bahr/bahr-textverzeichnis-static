@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb125485.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -77,11 +77,11 @@
                      <ptr type="pmb" target="pmb12176"/>
                      <ptr type="pmb" target="pmb12851"/>
                      <ptr type="pmb" target="pmb12053"/>
-                     <ptr type="HB-tv" target="HB-tv_35_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3507_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_35_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_35_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_35_p6"/>
+                     <ptr type="pmb" target="pmb115843"/>
+                     <ptr type="pmb" target="pmb154835"/>
+                     <ptr type="pmb" target="pmb149750"/>
+                     <ptr type="pmb" target="pmb28820"/>
+                     <ptr type="pmb" target="pmb149752"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/vossische-zeitung/1926_ariadne.pdf</ref>
@@ -93,5 +93,98 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb115843">
+               <persName>
+                  <surname>Rimbaud</surname>
+                  <forename>Arthur</forename>
+               </persName>
+               <birth>
+                  <date>1854-10-20</date>
+                  <placeName type="wikidata" ref="Q2960786">Charleville</placeName>
+               </birth>
+               <death>
+                  <date>1891-11-10</date>
+                  <placeName type="wikidata" ref="Q23482">Marseille</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_35_p1</idno>
+               <idno type="wikidata">Q493</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118601032</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb115843.html</idno>
+            </person>
+            <person xml:id="pmb154835">
+               <persName>
+                  <surname>Wagner geb. de Flavigny</surname>
+                  <forename>Cosima</forename>
+               </persName>
+               <birth>
+                  <date when="1837">1837</date>
+               </birth>
+               <death>
+                  <date when="1930">1930</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3507_p5</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154835.html</idno>
+            </person>
+            <person xml:id="pmb149750">
+               <persName>
+                  <surname>Würzbach</surname>
+                  <forename>Friedrich</forename>
+               </persName>
+               <birth>
+                  <date>1886-01-01</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </birth>
+               <death>
+                  <date>1961-01-01</date>
+               </death>
+               <idno type="HB-tv">HB-tv_35_p4</idno>
+               <idno type="wikidata">Q15999698</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/101159420</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149750.html</idno>
+            </person>
+            <person xml:id="pmb28820">
+               <persName>
+                  <surname>Stendhal</surname>
+               </persName>
+               <birth>
+                  <date>1783-01-23</date>
+                  <placeName type="wikidata" ref="Q1289">Grenoble</placeName>
+               </birth>
+               <death>
+                  <date>1842-03-23</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1050_p3</idno>
+               <idno type="wikidata">Q502</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118617648</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb28820.html</idno>
+            </person>
+            <person xml:id="pmb149752">
+               <persName>
+                  <surname>Schestow</surname>
+                  <forename>Leo Isaakowitsch</forename>
+               </persName>
+               <persName type="namensvariante">Jehuda Leib Schwarzmann</persName>
+               <birth>
+                  <date>1866-01-24</date>
+                  <placeName type="wikidata" ref="Q1899">Kiew</placeName>
+               </birth>
+               <death>
+                  <date>1938-11-19</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_35_p6</idno>
+               <idno type="wikidata">Q314189</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118796739</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149752.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

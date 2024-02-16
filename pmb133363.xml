@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133363.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -78,11 +78,11 @@
                      <ptr type="pmb" target="pmb5787"/>
                      <ptr type="pmb" target="pmb11617"/>
                      <ptr type="pmb" target="pmb12671"/>
-                     <ptr type="HB-tv" target="HB-tv_1402_p53"/>
-                     <ptr type="HB-tv" target="HB-tv_3339_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_4466_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_556_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1966_p1"/>
+                     <ptr type="pmb" target="pmb150201"/>
+                     <ptr type="pmb" target="pmb117652"/>
+                     <ptr type="pmb" target="pmb24702"/>
+                     <ptr type="pmb" target="pmb148888"/>
+                     <ptr type="pmb" target="pmb13999"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1898-15/193-171.pdf</ref>
@@ -99,5 +99,103 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb150201">
+               <persName>
+                  <surname>Vollmer</surname>
+                  <forename>Arthur</forename>
+               </persName>
+               <birth>
+                  <date>1849-05-02</date>
+                  <placeName type="wikidata" ref="Q4120832">Königsberg</placeName>
+               </birth>
+               <death>
+                  <date>1927-04-12</date>
+                  <placeName type="wikidata" ref="Q50886">Ballenstedt</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1402_p53</idno>
+               <idno type="wikidata">Q711814</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117487910</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150201.html</idno>
+            </person>
+            <person xml:id="pmb117652">
+               <persName>
+                  <surname>Pollini</surname>
+                  <forename>Bernhard</forename>
+               </persName>
+               <birth>
+                  <date>1838-12-16</date>
+                  <placeName type="wikidata" ref="Q365">Köln</placeName>
+               </birth>
+               <death>
+                  <date>1897-11-26</date>
+                  <placeName type="wikidata" ref="Q1055">Hamburg</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3339_p1</idno>
+               <idno type="wikidata">Q4370318</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116259876</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb117652.html</idno>
+            </person>
+            <person xml:id="pmb24702">
+               <persName>
+                  <surname>Schönthan</surname>
+                  <forename>Franz von</forename>
+               </persName>
+               <birth>
+                  <date>1849-06-20</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1913-12-02</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4466_p1</idno>
+               <idno type="wikidata">Q114579</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116889292</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb24702.html</idno>
+            </person>
+            <person xml:id="pmb148888">
+               <persName>
+                  <surname>Bozenhard</surname>
+                  <forename>Albert</forename>
+               </persName>
+               <birth>
+                  <date>1860-02-14</date>
+                  <placeName type="wikidata" ref="Q3012">Ulm</placeName>
+               </birth>
+               <death>
+                  <date>1939-01-13</date>
+               </death>
+               <idno type="HB-tv">HB-tv_556_p2</idno>
+               <idno type="wikidata">Q18616053</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116384301</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148888.html</idno>
+            </person>
+            <person xml:id="pmb13999">
+               <persName>
+                  <surname>Benedix</surname>
+                  <forename>Roderich</forename>
+               </persName>
+               <birth>
+                  <date>1811-01-21</date>
+                  <placeName type="wikidata" ref="Q2079">Leipzig</placeName>
+               </birth>
+               <death>
+                  <date>1873-09-26</date>
+                  <placeName type="wikidata" ref="Q2079">Leipzig</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1966_p1</idno>
+               <idno type="wikidata">Q87176</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118658166</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb13999.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123719.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -76,10 +76,10 @@
                      <ptr type="pmb" target="pmb12179"/>
                      <ptr type="pmb" target="pmb2337"/>
                      <ptr type="pmb" target="pmb12296"/>
-                     <ptr type="HB-tv" target="HB-tv_4829_p6"/>
-                     <ptr type="HB-tv" target="HB-tv_2363_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2363_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_1891_p1"/>
+                     <ptr type="pmb" target="pmb22666"/>
+                     <ptr type="pmb" target="pmb154528"/>
+                     <ptr type="pmb" target="pmb154529"/>
+                     <ptr type="pmb" target="pmb154126"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/15-29.pdf</ref>
@@ -92,5 +92,57 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb22666">
+               <persName>
+                  <surname>Pohl-Meiser</surname>
+                  <forename>Viktoria</forename>
+               </persName>
+               <birth>
+                  <date>1858-11-28</date>
+                  <placeName type="wikidata" ref="Q1726">München</placeName>
+               </birth>
+               <death>
+                  <date>1936-06-17</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4829_p6</idno>
+               <idno type="wikidata">Q58011561</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/116260653</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb22666.html</idno>
+            </person>
+            <person xml:id="pmb154528">
+               <persName>
+                  <surname>Dwořak</surname>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <idno type="HB-tv">HB-tv_2363_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154528.html</idno>
+            </person>
+            <person xml:id="pmb154529">
+               <persName>
+                  <surname>Rauch</surname>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_2363_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154529.html</idno>
+            </person>
+            <person xml:id="pmb154126">
+               <persName>
+                  <surname>Trotha</surname>
+                  <forename>Thilo von</forename>
+               </persName>
+               <birth>
+                  <date when="1851">1851</date>
+               </birth>
+               <death>
+                  <date when="1906">1906</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1891_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154126.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

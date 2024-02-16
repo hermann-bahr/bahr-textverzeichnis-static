@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130731.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -74,9 +74,9 @@
                      <ptr type="pmb" target="pmb12491"/>
                      <ptr type="pmb" target="pmb12274"/>
                      <ptr type="pmb" target="pmb12504"/>
-                     <ptr type="HB-tv" target="HB-tv_3436_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3436_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3436_p3"/>
+                     <ptr type="pmb" target="pmb156161"/>
+                     <ptr type="pmb" target="pmb156162"/>
+                     <ptr type="pmb" target="pmb156163"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/12-essays.pdf</ref>
@@ -118,5 +118,43 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb156161">
+               <persName>
+                  <surname>Urban</surname>
+                  <forename>Karl</forename>
+               </persName>
+               <birth>
+                  <date when="1855">1855</date>
+               </birth>
+               <death>
+                  <date when="1940">1940</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3436_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156161.html</idno>
+            </person>
+            <person xml:id="pmb156162">
+               <persName>
+                  <surname>Bolz-Feigl</surname>
+                  <forename>Alfons ?</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_3436_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156162.html</idno>
+            </person>
+            <person xml:id="pmb156163">
+               <persName>
+                  <surname>Hesslöhl</surname>
+                  <forename>Emma</forename>
+               </persName>
+               <occupation>geb. von Hasperg</occupation>
+               <birth>
+                  <date when="1878">1878</date>
+               </birth>
+               <idno type="HB-tv">HB-tv_3436_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156163.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122799.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -72,8 +72,8 @@
                      <ptr type="pmb" target="pmb23002"/>
                      <ptr type="pmb" target="pmb10210"/>
                      <ptr type="pmb" target="pmb10065"/>
-                     <ptr type="HB-tv" target="HB-tv_2035_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_4829_p19"/>
+                     <ptr type="pmb" target="pmb2868"/>
+                     <ptr type="pmb" target="pmb154024"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19030830&amp;seite=9</ref>
@@ -86,5 +86,43 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2868">
+               <persName>
+                  <surname>Kutschera</surname>
+                  <forename>Viktor</forename>
+               </persName>
+               <birth>
+                  <date>1863-05-02</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1933-01-20</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2035_p2</idno>
+               <idno type="wikidata">Q2524322</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116628081</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2868.html</idno>
+            </person>
+            <person xml:id="pmb154024">
+               <persName>
+                  <surname>Czasta</surname>
+                  <forename>Franz</forename>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <birth>
+                  <date when="1860">1860</date>
+               </birth>
+               <death>
+                  <date when="1921">1921</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4829_p19</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154024.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

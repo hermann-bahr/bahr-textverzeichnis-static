@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123349.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -67,10 +67,10 @@
                      <ptr type="pmb" target="pmb2142"/>
                      <ptr type="pmb" target="pmb11201"/>
                      <ptr type="pmb" target="pmb3787"/>
-                     <ptr type="HB-tv" target="HB-tv_2403_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1324_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1324_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_1324_p4"/>
+                     <ptr type="pmb" target="pmb153609"/>
+                     <ptr type="pmb" target="pmb154329"/>
+                     <ptr type="pmb" target="pmb153630"/>
+                     <ptr type="pmb" target="pmb154330"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19000405&amp;seite=6</ref>
@@ -88,5 +88,81 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2142">
+               <persName>
+                  <surname>d’Annunzio</surname>
+                  <forename>Gabriele</forename>
+               </persName>
+               <birth>
+                  <date>1863-03-12</date>
+                  <placeName type="wikidata" ref="Q2704">Pescara</placeName>
+               </birth>
+               <death>
+                  <date>1938-03-01</date>
+                  <placeName type="wikidata" ref="Q104619">Gardone Riviera</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4865_p5</idno>
+               <idno type="wikidata">Q193236</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118503243</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2142.html</idno>
+            </person>
+            <person xml:id="pmb153609">
+               <persName>
+                  <surname>Rosaspina</surname>
+                  <forename>Carlo</forename>
+               </persName>
+               <birth>
+                  <date>1853-10-22</date>
+                  <placeName type="wikidata" ref="Q5990">Vercelli</placeName>
+               </birth>
+               <death>
+                  <date>1929-01-18</date>
+                  <placeName type="wikidata" ref="Q220">Rom</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2403_p1</idno>
+               <idno type="wikidata">Q3659803</idno>
+               <sex value="male"/>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153609.html</idno>
+            </person>
+            <person xml:id="pmb154329">
+               <persName>
+                  <surname>Mazzanti</surname>
+                  <forename>Ettore</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_1324_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154329.html</idno>
+            </person>
+            <person xml:id="pmb153630">
+               <persName>
+                  <surname>Galvani</surname>
+                  <forename>Ciro</forename>
+               </persName>
+               <birth>
+                  <date>1867-04-10</date>
+                  <placeName type="wikidata" ref="Q94779">Castel San Pietro Terme</placeName>
+               </birth>
+               <death>
+                  <date>1956-01-29</date>
+                  <placeName type="wikidata" ref="Q94779">Castel San Pietro Terme</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1324_p3</idno>
+               <idno type="wikidata">Q12573044</idno>
+               <sex value="male"/>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153630.html</idno>
+            </person>
+            <person xml:id="pmb154330">
+               <persName>
+                  <surname>Goldbaker</surname>
+                  <forename>Pucci</forename>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <idno type="HB-tv">HB-tv_1324_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154330.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

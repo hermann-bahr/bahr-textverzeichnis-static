@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb124431.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -72,11 +72,11 @@
                      <ptr type="pmb" target="pmb3527"/>
                      <ptr type="pmb" target="pmb11871"/>
                      <ptr type="pmb" target="pmb13024"/>
-                     <ptr type="HB-tv" target="HB-tv_1235_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1235_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1235_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_1235_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_1235_p5"/>
+                     <ptr type="pmb" target="pmb154745"/>
+                     <ptr type="pmb" target="pmb154746"/>
+                     <ptr type="pmb" target="pmb154747"/>
+                     <ptr type="pmb" target="pmb149201"/>
+                     <ptr type="pmb" target="pmb3155"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -88,5 +88,103 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb18654">
+               <persName>
+                  <surname>Hölderlin</surname>
+                  <forename>Johann Christian Friedrich</forename>
+               </persName>
+               <birth>
+                  <date>1770-03-20</date>
+                  <placeName type="wikidata" ref="Q525720">Lauffen am Neckar</placeName>
+               </birth>
+               <death>
+                  <date>1843-06-07</date>
+                  <placeName type="wikidata" ref="Q3806">Tübingen</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2615_p43</idno>
+               <idno type="wikidata">Q75889</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118551981</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb18654.html</idno>
+            </person>
+            <person xml:id="pmb154745">
+               <persName>
+                  <surname>Klein</surname>
+                  <forename>Tim</forename>
+               </persName>
+               <birth>
+                  <date when="1870">1870</date>
+               </birth>
+               <death>
+                  <date when="1944">1944</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1235_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154745.html</idno>
+            </person>
+            <person xml:id="pmb154746">
+               <persName>
+                  <surname>Stoß</surname>
+                  <forename>Veit</forename>
+               </persName>
+               <birth>
+                  <date when-custom="um 1445">um 1445</date>
+               </birth>
+               <death>
+                  <date when="1533">1533</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1235_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154746.html</idno>
+            </person>
+            <person xml:id="pmb154747">
+               <persName>
+                  <surname>Paulus von Tarsus</surname>
+               </persName>
+               <death>
+                  <date when-custom="nach 60">nach 60</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1235_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154747.html</idno>
+            </person>
+            <person xml:id="pmb149201">
+               <persName>
+                  <surname>Tersteegen</surname>
+                  <forename>Gerhard</forename>
+               </persName>
+               <birth>
+                  <date>1697-11-25</date>
+                  <placeName type="wikidata" ref="Q3132">Moers</placeName>
+               </birth>
+               <death>
+                  <date>1769-04-03</date>
+                  <placeName type="wikidata" ref="Q2899">Mülheim an der Ruhr</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1235_p4</idno>
+               <idno type="wikidata">Q67283</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118621378</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149201.html</idno>
+            </person>
+            <person xml:id="pmb3155">
+               <persName>
+                  <surname>Michelangelo Buonarroti</surname>
+               </persName>
+               <birth>
+                  <date>1475-03-06</date>
+                  <placeName type="wikidata" ref="Q52069">Caprese Michelangelo</placeName>
+               </birth>
+               <death>
+                  <date>1564-02-18</date>
+                  <placeName type="wikidata" ref="Q220">Rom</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1235_p5</idno>
+               <idno type="wikidata">Q5592</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118582143</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3155.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

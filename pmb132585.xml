@@ -24,7 +24,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132585.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -68,8 +68,8 @@
                      <ptr type="pmb" target="pmb2850"/>
                      <ptr type="pmb" target="pmb12678"/>
                      <ptr type="pmb" target="pmb23695"/>
-                     <ptr type="HB-tv" target="HB-tv_758_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2283_p1"/>
+                     <ptr type="pmb" target="pmb156531"/>
+                     <ptr type="pmb" target="pmb153989"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -82,5 +82,32 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb156531">
+               <persName>
+                  <surname>Kögl</surname>
+                  <forename>Cornelia</forename>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <idno type="HB-tv">HB-tv_758_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156531.html</idno>
+            </person>
+            <person xml:id="pmb153989">
+               <persName>
+                  <surname>Löwe</surname>
+                  <forename>Konrad</forename>
+               </persName>
+               <birth>
+                  <date when="1856">1856</date>
+               </birth>
+               <death>
+                  <date when="1912">1912</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2283_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153989.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

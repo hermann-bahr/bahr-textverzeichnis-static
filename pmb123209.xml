@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123209.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -68,8 +68,8 @@
                      <ptr type="pmb" target="pmb4220"/>
                      <ptr type="pmb" target="pmb21985"/>
                      <ptr type="pmb" target="pmb12504"/>
-                     <ptr type="HB-tv" target="HB-tv_2007_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_4641_p2"/>
+                     <ptr type="pmb" target="pmb154008"/>
+                     <ptr type="pmb" target="pmb154283"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19000526&amp;seite=9</ref>
@@ -82,5 +82,37 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154008">
+               <persName>
+                  <surname>Engels</surname>
+                  <forename>Alexander</forename>
+               </persName>
+               <birth>
+                  <date when="1871">1871</date>
+               </birth>
+               <death>
+                  <date when="1933">1933</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2007_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154008.html</idno>
+            </person>
+            <person xml:id="pmb154283">
+               <persName>
+                  <surname>Jurberg</surname>
+                  <forename>Gisela</forename>
+               </persName>
+               <birth>
+                  <date when="1875">1875</date>
+               </birth>
+               <death>
+                  <date when-custom="1942?">1942?</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4641_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154283.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

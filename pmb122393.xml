@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122393.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -79,7 +79,7 @@
                      <ptr type="pmb" target="pmb11461"/>
                      <ptr type="pmb" target="pmb10866"/>
                      <ptr type="pmb" target="pmb13024"/>
-                     <ptr type="HB-tv" target="HB-tv_1300_p1"/>
+                     <ptr type="pmb" target="pmb4006"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -124,5 +124,28 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb4006">
+               <persName>
+                  <surname>Dostojewski</surname>
+                  <forename>Fjodor Michailowitsch</forename>
+               </persName>
+               <birth>
+                  <date>1821-11-11</date>
+                  <placeName type="wikidata" ref="Q4281399"/>
+               </birth>
+               <death>
+                  <date>1881-01-28</date>
+                  <placeName type="wikidata" ref="Q656">Sankt Petersburg</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1300_p1</idno>
+               <idno type="wikidata">Q991</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118527053</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb4006.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

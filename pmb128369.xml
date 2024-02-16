@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb128369.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -64,10 +64,10 @@
                      <ptr type="pmb" target="pmb13177"/>
                      <ptr type="pmb" target="pmb4336"/>
                      <ptr type="pmb" target="pmb9554"/>
-                     <ptr type="HB-tv" target="HB-tv_5304_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_5304_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_4860_p20"/>
-                     <ptr type="HB-tv" target="HB-tv_1500_p4"/>
+                     <ptr type="pmb" target="pmb155677"/>
+                     <ptr type="pmb" target="pmb20315"/>
+                     <ptr type="pmb" target="pmb149925"/>
+                     <ptr type="pmb" target="pmb155429"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -91,5 +91,73 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb155677">
+               <persName>
+                  <surname>Plotin</surname>
+               </persName>
+               <birth>
+                  <date when-custom="um 205">um 205</date>
+               </birth>
+               <death>
+                  <date when-custom="um 270">um 270</date>
+               </death>
+               <idno type="HB-tv">HB-tv_5304_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155677.html</idno>
+            </person>
+            <person xml:id="pmb20315">
+               <persName>
+                  <surname>Leonardo da Vinci</surname>
+               </persName>
+               <birth>
+                  <date>1452-04-15</date>
+                  <placeName type="wikidata" ref="Q154184">Anchiano</placeName>
+               </birth>
+               <death>
+                  <date>1519-05-02</date>
+                  <placeName type="wikidata" ref="Q205116">Amboise</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1930_p1</idno>
+               <idno type="wikidata">Q762</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118640445</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb20315.html</idno>
+            </person>
+            <person xml:id="pmb149925">
+               <persName>
+                  <surname>Giocondo</surname>
+                  <forename>Lisa del</forename>
+               </persName>
+               <birth>
+                  <date>1479-06-15</date>
+                  <placeName type="wikidata" ref="Q2044">Florenz</placeName>
+               </birth>
+               <death>
+                  <date>1542-07-25</date>
+                  <placeName type="wikidata" ref="Q2044">Florenz</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4860_p20</idno>
+               <idno type="wikidata">Q153032</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/119218011</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149925.html</idno>
+            </person>
+            <person xml:id="pmb155429">
+               <persName>
+                  <surname>Schlosser</surname>
+                  <forename>Johann Georg</forename>
+               </persName>
+               <birth>
+                  <date when="1739">1739</date>
+               </birth>
+               <death>
+                  <date when="1799">1799</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1500_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155429.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

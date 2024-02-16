@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb124827.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -74,9 +74,9 @@
                      <ptr type="pmb" target="pmb4996"/>
                      <ptr type="pmb" target="pmb11461"/>
                      <ptr type="pmb" target="pmb12654"/>
-                     <ptr type="HB-tv" target="HB-tv_1191_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2173_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1216_p3"/>
+                     <ptr type="pmb" target="pmb117649"/>
+                     <ptr type="pmb" target="pmb154228"/>
+                     <ptr type="pmb" target="pmb114892"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/sueddeutsche-monatshefte/1928-9_religioese-krisis.pdf</ref>
@@ -120,5 +120,71 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb4083">
+               <persName>
+                  <surname>Plautus</surname>
+               </persName>
+               <idno type="HB-tv">HB-tv_3718_p5</idno>
+               <idno type="wikidata">Q47160</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118594974</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb4083.html</idno>
+            </person>
+            <person xml:id="pmb117649">
+               <persName>
+                  <surname>Corneille</surname>
+                  <forename>Pierre</forename>
+               </persName>
+               <birth>
+                  <date>1606-06-06</date>
+                  <placeName type="wikidata" ref="Q30974">Rouen</placeName>
+               </birth>
+               <death>
+                  <date>1684-10-01</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1191_p2</idno>
+               <idno type="wikidata">Q747</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118522175</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb117649.html</idno>
+            </person>
+            <person xml:id="pmb154228">
+               <persName>
+                  <surname>Racine</surname>
+                  <forename>Jean</forename>
+               </persName>
+               <birth>
+                  <date when="1639">1639</date>
+               </birth>
+               <death>
+                  <date when="1699">1699</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2173_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154228.html</idno>
+            </person>
+            <person xml:id="pmb114892">
+               <persName>
+                  <surname>Vossler</surname>
+                  <forename>Karl</forename>
+               </persName>
+               <birth>
+                  <date>1872-09-06</date>
+                  <placeName type="wikidata" ref="Q521992">Hohenheim</placeName>
+               </birth>
+               <death>
+                  <date>1949-05-18</date>
+                  <placeName type="wikidata" ref="Q1726">München</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1216_p3</idno>
+               <idno type="wikidata">Q66135</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118770411</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114892.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

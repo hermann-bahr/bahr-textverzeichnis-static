@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132829.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -66,10 +66,10 @@
                   persönlich und national zu sein habe.</note>
                <ref type="personenindex">
                   <listRef>
-                     <ptr type="HB-tv" target="HB-tv_3337_p8"/>
-                     <ptr type="HB-tv" target="HB-tv_2997_p7"/>
-                     <ptr type="HB-tv" target="HB-tv_1326_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_2989_p4"/>
+                     <ptr type="pmb" target="pmb5153"/>
+                     <ptr type="pmb" target="pmb156626"/>
+                     <ptr type="pmb" target="pmb3368"/>
+                     <ptr type="pmb" target="pmb15993"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/6-secession.pdf</ref>
@@ -100,5 +100,79 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb5153">
+               <persName>
+                  <surname>Van de Velde</surname>
+                  <forename>Henry</forename>
+               </persName>
+               <birth>
+                  <date>1863-04-03</date>
+                  <placeName type="wikidata" ref="Q12892">Antwerpen</placeName>
+               </birth>
+               <death>
+                  <date>1957-10-25</date>
+                  <placeName type="wikidata" ref="Q72">Zürich</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3337_p8</idno>
+               <idno type="wikidata">Q154083</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118626442</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb5153.html</idno>
+            </person>
+            <person xml:id="pmb156626">
+               <persName>
+                  <surname>Scala</surname>
+                  <forename>Arthur von</forename>
+               </persName>
+               <birth>
+                  <date when="1845">1845</date>
+               </birth>
+               <death>
+                  <date when="1909">1909</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2997_p7</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156626.html</idno>
+            </person>
+            <person xml:id="pmb3368">
+               <persName>
+                  <surname>Olbrich</surname>
+                  <forename>Josef Maria</forename>
+               </persName>
+               <birth>
+                  <date>1867-12-22</date>
+                  <placeName type="wikidata" ref="Q156080">Opava</placeName>
+               </birth>
+               <death>
+                  <date>1908-08-08</date>
+                  <placeName type="wikidata" ref="Q1718">Düsseldorf</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1326_p4</idno>
+               <idno type="wikidata">Q44911</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118589768</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3368.html</idno>
+            </person>
+            <person xml:id="pmb15993">
+               <persName>
+                  <surname>Ernst Ludwig von Hessen und bei Rhein</surname>
+               </persName>
+               <birth>
+                  <date>1868-11-25</date>
+                  <placeName type="wikidata" ref="Q2973">Darmstadt</placeName>
+               </birth>
+               <death>
+                  <date>1937-10-09</date>
+                  <placeName type="wikidata" ref="Q881056">Schloss Wolfsgarten</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_5316_p4</idno>
+               <idno type="wikidata">Q57507</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118530933</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb15993.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb127055.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -78,9 +78,9 @@
                      <ptr type="pmb" target="pmb12756"/>
                      <ptr type="pmb" target="pmb12624"/>
                      <ptr type="pmb" target="pmb12303"/>
-                     <ptr type="HB-tv" target="HB-tv_158_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_158_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_158_p3"/>
+                     <ptr type="pmb" target="pmb155452"/>
+                     <ptr type="pmb" target="pmb5428"/>
+                     <ptr type="pmb" target="pmb150149"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/london-mercury/1923-46.pdf</ref>
@@ -92,5 +92,69 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb11740">
+               <persName>
+                  <surname>Theophil Morren</surname>
+               </persName>
+               <idno type="HB-tv">HB-tv_4864_p17</idno>
+               <idno type="wikidata">Q51513</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118552759</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11740.html</idno>
+            </person>
+            <person xml:id="pmb155452">
+               <persName>
+                  <surname>Thomas von Aquin</surname>
+               </persName>
+               <birth>
+                  <date when-custom="um 1225">um 1225</date>
+               </birth>
+               <death>
+                  <date when="1274">1274</date>
+               </death>
+               <idno type="HB-tv">HB-tv_158_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155452.html</idno>
+            </person>
+            <person xml:id="pmb5428">
+               <persName>
+                  <surname>Rembrandt Harmenszoon van Rijn</surname>
+               </persName>
+               <birth>
+                  <date>1606-07-15</date>
+                  <placeName type="wikidata" ref="Q43631">Leiden</placeName>
+               </birth>
+               <death>
+                  <date>1669-10-04</date>
+                  <placeName type="wikidata" ref="Q727">Amsterdam</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1050_p6</idno>
+               <idno type="wikidata">Q5598</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11859964X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb5428.html</idno>
+            </person>
+            <person xml:id="pmb150149">
+               <persName>
+                  <surname>Schüssler</surname>
+                  <forename>Wilhelm</forename>
+               </persName>
+               <birth>
+                  <date>1888-07-12</date>
+                  <placeName type="wikidata" ref="Q24879">Bremen</placeName>
+               </birth>
+               <death>
+                  <date>1965-11-11</date>
+                  <placeName type="wikidata" ref="Q14872">Bensheim</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_158_p3</idno>
+               <idno type="wikidata">Q2575077</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117133418</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150149.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

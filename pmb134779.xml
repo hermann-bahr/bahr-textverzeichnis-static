@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb134779.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -71,7 +71,7 @@
                   Freytag – Tempsky, Leipzig – Prag. – Der Versuch der oben genannten</note>
                <ref type="personenindex">
                   <listRef>
-                     <ptr type="HB-tv" target="pmb141401_p4"/>
+                     <ptr type="pmb" target="pmb115405"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -83,5 +83,28 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb115405">
+               <persName>
+                  <surname>Wirth</surname>
+                  <forename>Max</forename>
+               </persName>
+               <birth>
+                  <date>1822-01-27</date>
+                  <placeName type="wikidata" ref="Q1799">Breslau</placeName>
+               </birth>
+               <death>
+                  <date>1900-07-18</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1348_p4</idno>
+               <idno type="wikidata">Q96582</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117412252</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb115405.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb127575.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -73,11 +73,11 @@
                      <ptr type="pmb" target="pmb12729"/>
                      <ptr type="pmb" target="pmb12167"/>
                      <ptr type="pmb" target="pmb11518"/>
-                     <ptr type="HB-tv" target="HB-tv_1492_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1492_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3723_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1929_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_1929_p2"/>
+                     <ptr type="pmb" target="pmb155469"/>
+                     <ptr type="pmb" target="pmb48907"/>
+                     <ptr type="pmb" target="pmb113201"/>
+                     <ptr type="pmb" target="pmb116280"/>
+                     <ptr type="pmb" target="pmb113850"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -106,5 +106,87 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb155469">
+               <persName>
+                  <surname>Paulus von Tarsus</surname>
+               </persName>
+               <death>
+                  <date when-custom="nach 60">nach 60</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1492_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155469.html</idno>
+            </person>
+            <person xml:id="pmb48907">
+               <persName>
+                  <surname>Burne-Jones</surname>
+                  <forename>Edward</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_3723_p2</idno>
+               <idno type="wikidata">Q216406</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118517767</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb48907.html</idno>
+            </person>
+            <person xml:id="pmb113201">
+               <persName>
+                  <surname>Rossetti</surname>
+                  <forename>Dante Gabriel</forename>
+               </persName>
+               <birth>
+                  <date>1828-05-12</date>
+                  <placeName type="wikidata" ref="Q84">London</placeName>
+               </birth>
+               <death>
+                  <date>1882-04-09</date>
+                  <placeName type="wikidata" ref="Q865021">Birchington-on-Sea</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3723_p1</idno>
+               <idno type="wikidata">Q186748</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118749900</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113201.html</idno>
+            </person>
+            <person xml:id="pmb116280">
+               <persName>
+                  <surname>Toorop</surname>
+                  <forename>Jan</forename>
+               </persName>
+               <birth>
+                  <date>1858-12-20</date>
+                  <placeName type="wikidata" ref="Q10674">Purworejo</placeName>
+               </birth>
+               <death>
+                  <date>1928-03-03</date>
+                  <placeName type="wikidata" ref="Q36600">Den Haag</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1929_p3</idno>
+               <idno type="wikidata">Q369416</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119295954</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116280.html</idno>
+            </person>
+            <person xml:id="pmb113850">
+               <persName>
+                  <surname>Khnopff</surname>
+                  <forename>Fernand-Edmond-Jean-Marie</forename>
+               </persName>
+               <birth>
+                  <date>1858-09-12</date>
+                  <placeName type="wikidata" ref="Q13122">Dendermonde</placeName>
+               </birth>
+               <death>
+                  <date>1921-11-12</date>
+                  <placeName type="wikidata" ref="Q239">Stadt Brüssel</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1929_p2</idno>
+               <idno type="wikidata">Q559559</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118561871</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113850.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

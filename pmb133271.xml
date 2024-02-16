@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133271.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -65,8 +65,8 @@
                      <ptr type="pmb" target="pmb2412"/>
                      <ptr type="pmb" target="pmb2484"/>
                      <ptr type="pmb" target="pmb28476"/>
-                     <ptr type="HB-tv" target="HB-tv_46_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_3826_p5"/>
+                     <ptr type="pmb" target="pmb113229"/>
+                     <ptr type="pmb" target="pmb154438"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1899-19/244-157.pdf</ref>
@@ -78,5 +78,42 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb113229">
+               <persName>
+                  <surname>Delacroix</surname>
+                  <forename>Ferdinand</forename>
+               </persName>
+               <birth>
+                  <date>1798-04-26</date>
+                  <placeName type="wikidata" ref="Q274327">Saint-Maurice</placeName>
+               </birth>
+               <death>
+                  <date>1863-08-13</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3466_p4</idno>
+               <idno type="wikidata">Q33477</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118524461</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113229.html</idno>
+            </person>
+            <person xml:id="pmb154438">
+               <persName>
+                  <surname>Wagner</surname>
+                  <forename>Josef</forename>
+               </persName>
+               <birth>
+                  <date when="1818">1818</date>
+               </birth>
+               <death>
+                  <date when="1870">1870</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3826_p5</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154438.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

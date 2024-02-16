@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122909.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -70,9 +70,9 @@
                      <ptr type="pmb" target="pmb10899"/>
                      <ptr type="pmb" target="pmb11201"/>
                      <ptr type="pmb" target="pmb21317"/>
-                     <ptr type="HB-tv" target="HB-tv_1905_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1902_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1902_p3"/>
+                     <ptr type="pmb" target="pmb154117"/>
+                     <ptr type="pmb" target="pmb116261"/>
+                     <ptr type="pmb" target="pmb154118"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19020426&amp;seite=9</ref>
@@ -86,5 +86,70 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb21317">
+               <persName>
+                  <surname>Mendés</surname>
+                  <forename>Catulle</forename>
+               </persName>
+               <birth>
+                  <date>1841-05-22</date>
+                  <placeName type="wikidata" ref="Q1479">Bordeaux</placeName>
+               </birth>
+               <death>
+                  <date>1909-02-08</date>
+                  <placeName type="wikidata" ref="Q60847808">Saint-Germain-en-Laye</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1351_p22</idno>
+               <idno type="wikidata">Q971215</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118783203</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb21317.html</idno>
+            </person>
+            <person xml:id="pmb154117">
+               <persName>
+                  <surname>Hading</surname>
+                  <forename>Jane</forename>
+               </persName>
+               <persName type="namensvariante">Jeanne Alfredine Trefouret</persName>
+               <birth>
+                  <date when="1859">1859</date>
+               </birth>
+               <death>
+                  <date when="1940">1940</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1905_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154117.html</idno>
+            </person>
+            <person xml:id="pmb116261">
+               <persName>
+                  <surname>di Lorenzo</surname>
+                  <forename>Tina</forename>
+               </persName>
+               <birth>
+                  <date>1872-12-04</date>
+                  <placeName type="wikidata" ref="Q495">Turin</placeName>
+               </birth>
+               <death>
+                  <date>1930-03-25</date>
+                  <placeName type="wikidata" ref="Q490">Mailand</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1902_p2</idno>
+               <idno type="wikidata">Q3991525</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/1115482068</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116261.html</idno>
+            </person>
+            <person xml:id="pmb154118">
+               <persName>
+                  <surname>Remy</surname>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <idno type="HB-tv">HB-tv_1902_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154118.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

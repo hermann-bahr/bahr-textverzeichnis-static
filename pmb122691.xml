@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122691.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,8 +69,8 @@
                   <listRef>
                      <ptr type="pmb" target="pmb12624"/>
                      <ptr type="pmb" target="pmb10899"/>
-                     <ptr type="HB-tv" target="HB-tv_2409_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2409_p2"/>
+                     <ptr type="pmb" target="pmb146292"/>
+                     <ptr type="pmb" target="pmb154028"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19041110&amp;seite=11</ref>
@@ -83,5 +83,42 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb146292">
+               <persName>
+                  <surname>Ferdinand II. von Aragón</surname>
+               </persName>
+               <birth>
+                  <date>1452-03-10</date>
+                  <placeName type="wikidata" ref="Q29345592"/>
+               </birth>
+               <death>
+                  <date>1516-01-23</date>
+                  <placeName type="wikidata" ref="Q43114927">Casa de Santa María</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2409_p1</idno>
+               <idno type="wikidata">Q12860</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118686712</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb146292.html</idno>
+            </person>
+            <person xml:id="pmb154028">
+               <persName>
+                  <surname>Max</surname>
+                  <forename>de</forename>
+               </persName>
+               <persName type="namensvariante">Eduard Alexandru Max, Schauspieler</persName>
+               <birth>
+                  <date when="1869">1869</date>
+               </birth>
+               <death>
+                  <date when="1924">1924</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2409_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154028.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -24,7 +24,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb30109.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -71,10 +71,10 @@
                      <ptr type="pmb" target="pmb2121"/>
                      <ptr type="pmb" target="pmb12756"/>
                      <ptr type="pmb" target="pmb15512"/>
-                     <ptr type="HB-tv" target="HB-tv_655_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1848_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1883_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_655_p4"/>
+                     <ptr type="pmb" target="pmb156518"/>
+                     <ptr type="pmb" target="pmb21501"/>
+                     <ptr type="pmb" target="pmb115115"/>
+                     <ptr type="pmb" target="pmb151430"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19030404&amp;seite=1</ref>
@@ -87,5 +87,74 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb156518">
+               <persName>
+                  <surname>Salis</surname>
+                  <forename>Rodolphe</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_655_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156518.html</idno>
+            </person>
+            <person xml:id="pmb21501">
+               <persName>
+                  <surname>Gyp</surname>
+                  <forename>d. i. Sibylle Gabrielle Riquetti de Mirabeau</forename>
+               </persName>
+               <birth>
+                  <date>1850-08-15</date>
+                  <placeName type="wikidata" ref="Q196448">Plumergat</placeName>
+               </birth>
+               <death>
+                  <date>1932-06-30</date>
+                  <placeName type="wikidata" ref="Q48958">Neuilly-sur-Seine</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1848_p1</idno>
+               <idno type="wikidata">Q199228</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/119283158</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb21501.html</idno>
+            </person>
+            <person xml:id="pmb115115">
+               <persName>
+                  <surname>Lemaître</surname>
+                  <forename>Frédéric</forename>
+               </persName>
+               <birth>
+                  <date>1800-07-28</date>
+                  <placeName type="wikidata" ref="Q42810">Le Havre</placeName>
+               </birth>
+               <death>
+                  <date>1876-01-26</date>
+                  <placeName type="wikidata" ref="Q163948">10. Arrondissement von Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1883_p2</idno>
+               <idno type="wikidata">Q654231</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119056135</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb115115.html</idno>
+            </person>
+            <person xml:id="pmb151430">
+               <persName>
+                  <surname>Descaves</surname>
+                  <forename>Lucien</forename>
+               </persName>
+               <birth>
+                  <date>1861-03-18</date>
+                  <placeName type="wikidata" ref="Q187153">14. Arrondissement von Paris</placeName>
+               </birth>
+               <death>
+                  <date>1949-09-06</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_655_p4</idno>
+               <idno type="wikidata">Q3265472</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/133703401</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151430.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

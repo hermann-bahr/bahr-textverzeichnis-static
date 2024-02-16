@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb124621.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -74,12 +74,12 @@
                      <ptr type="pmb" target="pmb11324"/>
                      <ptr type="pmb" target="pmb11518"/>
                      <ptr type="pmb" target="pmb11043"/>
-                     <ptr type="HB-tv" target="HB-tv_3511_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3511_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3511_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_3511_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_3511_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_3511_p6"/>
+                     <ptr type="pmb" target="pmb60111"/>
+                     <ptr type="pmb" target="pmb154814"/>
+                     <ptr type="pmb" target="pmb149338"/>
+                     <ptr type="pmb" target="pmb154815"/>
+                     <ptr type="pmb" target="pmb154816"/>
+                     <ptr type="pmb" target="pmb154817"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/21-labyrinth.pdf</ref>
@@ -111,5 +111,78 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb60111">
+               <persName>
+                  <surname>Boccaccio</surname>
+                  <forename>Giovanni</forename>
+               </persName>
+               <birth>
+                  <date>1313-06-16</date>
+                  <placeName type="wikidata" ref="Q82646">Certaldo</placeName>
+               </birth>
+               <death>
+                  <date>1375-09-21</date>
+                  <placeName type="wikidata" ref="Q82646">Certaldo</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3511_p1</idno>
+               <idno type="wikidata">Q1402</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11851217X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb60111.html</idno>
+            </person>
+            <person xml:id="pmb154814">
+               <persName>
+                  <surname>Alexander der Große</surname>
+               </persName>
+               <birth>
+                  <date when="0356">356</date>
+               </birth>
+               <death>
+                  <date when-custom="323 v.u.Z.">323 v.u.Z.</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3511_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154814.html</idno>
+            </person>
+            <person xml:id="pmb149338">
+               <persName>
+                  <surname>Antonios Diogenes ?</surname>
+               </persName>
+               <idno type="HB-tv">HB-tv_3511_p3</idno>
+               <idno type="wikidata">Q606249</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118645390</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149338.html</idno>
+            </person>
+            <person xml:id="pmb154815">
+               <persName>
+                  <surname>Photios I.</surname>
+               </persName>
+               <birth>
+                  <date when-custom="um 820">um 820</date>
+               </birth>
+               <death>
+                  <date when="0891">891</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3511_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154815.html</idno>
+            </person>
+            <person xml:id="pmb154816">
+               <persName>
+                  <surname>Saul</surname>
+               </persName>
+               <idno type="HB-tv">HB-tv_3511_p5</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154816.html</idno>
+            </person>
+            <person xml:id="pmb154817">
+               <persName>
+                  <surname>Kisch aus Gibea</surname>
+               </persName>
+               <idno type="HB-tv">HB-tv_3511_p6</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154817.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

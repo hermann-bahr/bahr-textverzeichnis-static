@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb134143.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -72,9 +72,9 @@
                      <ptr type="pmb" target="pmb12965"/>
                      <ptr type="pmb" target="pmb12664"/>
                      <ptr type="pmb" target="pmb11617"/>
-                     <ptr type="HB-tv" target="HB-tv_276_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_276_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_276_p3"/>
+                     <ptr type="pmb" target="pmb157144"/>
+                     <ptr type="pmb" target="pmb64827"/>
+                     <ptr type="pmb" target="pmb157145"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/deutsche-zeitung/77921.pdf</ref>
@@ -94,5 +94,44 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb157144">
+               <persName>
+                  <surname>Kirchbach</surname>
+                  <forename>Wolfgang</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_276_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157144.html</idno>
+            </person>
+            <person xml:id="pmb64827">
+               <persName>
+                  <surname>Heiberg</surname>
+                  <forename>Hermann</forename>
+               </persName>
+               <birth>
+                  <date>1840-11-17</date>
+                  <placeName type="wikidata" ref="Q501661">Schleswig</placeName>
+               </birth>
+               <death>
+                  <date>1910-02-16</date>
+                  <placeName type="wikidata" ref="Q501661">Schleswig</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2780_p6</idno>
+               <idno type="wikidata">Q87227</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11657299X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb64827.html</idno>
+            </person>
+            <person xml:id="pmb157145">
+               <persName>
+                  <surname>Frank</surname>
+                  <forename>Ulrich</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_276_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157145.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

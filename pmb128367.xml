@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb128367.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -64,9 +64,9 @@
                      <ptr type="pmb" target="pmb11558"/>
                      <ptr type="pmb" target="pmb5111"/>
                      <ptr type="pmb" target="pmb11602"/>
-                     <ptr type="HB-tv" target="HB-tv_5305_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3517_p6"/>
-                     <ptr type="HB-tv" target="HB-tv_5305_p3"/>
+                     <ptr type="pmb" target="pmb150514"/>
+                     <ptr type="pmb" target="pmb154802"/>
+                     <ptr type="pmb" target="pmb155676"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -90,5 +90,53 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb150514">
+               <persName>
+                  <surname>Caspar</surname>
+                  <forename>Karl</forename>
+               </persName>
+               <birth>
+                  <date>1879-03-13</date>
+                  <placeName type="wikidata" ref="Q4051">Friedrichshafen</placeName>
+               </birth>
+               <death>
+                  <date>1956-09-22</date>
+                  <placeName type="wikidata" ref="Q533000">Brannenburg</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_5305_p1</idno>
+               <idno type="wikidata">Q317202</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118519441</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150514.html</idno>
+            </person>
+            <person xml:id="pmb154802">
+               <persName>
+                  <surname>Lenz</surname>
+                  <forename>Desiderius</forename>
+               </persName>
+               <persName type="namensvariante">Peter Lenz</persName>
+               <birth>
+                  <date when="1832">1832</date>
+               </birth>
+               <death>
+                  <date when="1928">1928</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3517_p6</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154802.html</idno>
+            </person>
+            <person xml:id="pmb155676">
+               <persName>
+                  <surname>Buddha</surname>
+               </persName>
+               <birth>
+                  <date when-custom="5. Jhdt. v.u.Z.">5. Jhdt. v.u.Z.</date>
+               </birth>
+               <idno type="HB-tv">HB-tv_5305_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155676.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

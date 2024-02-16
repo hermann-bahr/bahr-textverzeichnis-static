@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133793.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -70,10 +70,10 @@
                      <ptr type="pmb" target="pmb14756"/>
                      <ptr type="pmb" target="pmb2850"/>
                      <ptr type="pmb" target="pmb14920"/>
-                     <ptr type="HB-tv" target="HB-tv_2235_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2803_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_688_p7"/>
-                     <ptr type="HB-tv" target="HB-tv_2803_p4"/>
+                     <ptr type="pmb" target="pmb154598"/>
+                     <ptr type="pmb" target="pmb152131"/>
+                     <ptr type="pmb" target="pmb115949"/>
+                     <ptr type="pmb" target="pmb152134"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/4-studien.pdf</ref>
@@ -108,5 +108,81 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154598">
+               <persName>
+                  <surname>Andò</surname>
+                  <forename>Flavio</forename>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <birth>
+                  <date when="1851">1851</date>
+               </birth>
+               <death>
+                  <date when="1915">1915</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2235_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154598.html</idno>
+            </person>
+            <person xml:id="pmb152131">
+               <persName>
+                  <surname>Mazzanti</surname>
+                  <forename>Enrico</forename>
+               </persName>
+               <birth>
+                  <date>1850-04-05</date>
+                  <placeName type="wikidata" ref="Q2044">Florenz</placeName>
+               </birth>
+               <death>
+                  <date>1910-09-03</date>
+                  <placeName type="wikidata" ref="Q2044">Florenz</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2803_p2</idno>
+               <idno type="wikidata">Q2535205</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/128584440</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152131.html</idno>
+            </person>
+            <person xml:id="pmb115949">
+               <persName>
+                  <surname>Salvini</surname>
+                  <forename>Tommaso</forename>
+               </persName>
+               <birth>
+                  <date>1829-01-01</date>
+                  <placeName type="wikidata" ref="Q490">Mailand</placeName>
+               </birth>
+               <death>
+                  <date>1915-12-31</date>
+                  <placeName type="wikidata" ref="Q2044">Florenz</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_688_p7</idno>
+               <idno type="wikidata">Q719180</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118836447</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb115949.html</idno>
+            </person>
+            <person xml:id="pmb152134">
+               <persName>
+                  <surname>Lemaire</surname>
+                  <forename>Madeleine</forename>
+               </persName>
+               <birth>
+                  <date>1845-05-24</date>
+                  <placeName type="wikidata" ref="Q636734">Les Arcs</placeName>
+               </birth>
+               <death>
+                  <date>1928-04-08</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2803_p4</idno>
+               <idno type="wikidata">Q3275679</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/116654481</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152134.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123081.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -71,10 +71,10 @@
                      <ptr type="pmb" target="pmb2252"/>
                      <ptr type="pmb" target="pmb12654"/>
                      <ptr type="pmb" target="pmb11461"/>
-                     <ptr type="HB-tv" target="HB-tv_2173_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_2168_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2283_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2168_p4"/>
+                     <ptr type="pmb" target="pmb148844"/>
+                     <ptr type="pmb" target="pmb148845"/>
+                     <ptr type="pmb" target="pmb153989"/>
+                     <ptr type="pmb" target="pmb8330"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -87,5 +87,79 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb148844">
+               <persName>
+                  <surname>Mondthal</surname>
+                  <forename>Camilla</forename>
+               </persName>
+               <persName type="namensvariante">Camilla Sockl</persName>
+               <birth>
+                  <date>1860</date>
+               </birth>
+               <death>
+                  <date>1923</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2173_p4</idno>
+               <idno type="wikidata">Q94751615</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/117125865</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148844.html</idno>
+            </person>
+            <person xml:id="pmb148845">
+               <persName>
+                  <surname>Wittels</surname>
+                  <forename>Auguste</forename>
+               </persName>
+               <birth>
+                  <date>1871-12-28</date>
+                  <placeName type="wikidata" ref="Q393426">Žatec</placeName>
+               </birth>
+               <death>
+                  <date>1918</date>
+                  <placeName type="wikidata" ref="Q250984">Bad Ischl</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2168_p2</idno>
+               <idno type="wikidata">Q94761450</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/116654066</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148845.html</idno>
+            </person>
+            <person xml:id="pmb153989">
+               <persName>
+                  <surname>Löwe</surname>
+                  <forename>Konrad</forename>
+               </persName>
+               <birth>
+                  <date when="1856">1856</date>
+               </birth>
+               <death>
+                  <date when="1912">1912</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2283_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153989.html</idno>
+            </person>
+            <person xml:id="pmb8330">
+               <persName>
+                  <surname>Krastel</surname>
+                  <forename>Friedrich</forename>
+               </persName>
+               <birth>
+                  <date>1839-04-06</date>
+                  <placeName type="wikidata" ref="Q2119">Mannheim</placeName>
+               </birth>
+               <death>
+                  <date>1908-02-12</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2168_p4</idno>
+               <idno type="wikidata">Q1440717</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116383011</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb8330.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

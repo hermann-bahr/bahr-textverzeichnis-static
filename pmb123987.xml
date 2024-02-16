@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123987.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -76,11 +76,11 @@
                      <ptr type="pmb" target="pmb11518"/>
                      <ptr type="pmb" target="pmb12498"/>
                      <ptr type="pmb" target="pmb12061"/>
-                     <ptr type="HB-tv" target="HB-tv_2293_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2293_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2168_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_2293_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_2293_p5"/>
+                     <ptr type="pmb" target="pmb154654"/>
+                     <ptr type="pmb" target="pmb3084"/>
+                     <ptr type="pmb" target="pmb8330"/>
+                     <ptr type="pmb" target="pmb154655"/>
+                     <ptr type="pmb" target="pmb154656"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/deutsche-zeitung/75615.pdf</ref>
@@ -94,5 +94,88 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154654">
+               <persName>
+                  <surname>Poppe-Luva</surname>
+                  <forename>Rosa</forename>
+               </persName>
+               <birth>
+                  <date when="1867">1867</date>
+               </birth>
+               <death>
+                  <date when="1940">1940</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2293_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154654.html</idno>
+            </person>
+            <person xml:id="pmb3084">
+               <persName>
+                  <surname>Joseph II. von Österreich</surname>
+               </persName>
+               <birth>
+                  <date>1741-03-13</date>
+                  <placeName type="wikidata" ref="Q636910">Hietzing</placeName>
+               </birth>
+               <death>
+                  <date>1790-02-20</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2293_p2</idno>
+               <idno type="wikidata">Q76555</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118558404</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3084.html</idno>
+            </person>
+            <person xml:id="pmb8330">
+               <persName>
+                  <surname>Krastel</surname>
+                  <forename>Friedrich</forename>
+               </persName>
+               <birth>
+                  <date>1839-04-06</date>
+                  <placeName type="wikidata" ref="Q2119">Mannheim</placeName>
+               </birth>
+               <death>
+                  <date>1908-02-12</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2168_p4</idno>
+               <idno type="wikidata">Q1440717</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116383011</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb8330.html</idno>
+            </person>
+            <person xml:id="pmb154655">
+               <persName>
+                  <surname>Kolà</surname>
+               </persName>
+               <birth>
+                  <date when="1860">1860</date>
+               </birth>
+               <death>
+                  <date when="1922">1922</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2293_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154655.html</idno>
+            </person>
+            <person xml:id="pmb154656">
+               <persName>
+                  <surname>Röckel</surname>
+                  <forename>Luisabeth</forename>
+               </persName>
+               <occupation>verh. Mathes, Schauspielerin</occupation>
+               <birth>
+                  <date when="1841">1841</date>
+               </birth>
+               <death>
+                  <date when="1913">1913</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2293_p5</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154656.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

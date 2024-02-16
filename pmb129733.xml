@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb129733.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -72,8 +72,8 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb10844"/>
-                     <ptr type="HB-tv" target="HB-tv_3637_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3637_p2"/>
+                     <ptr type="pmb" target="pmb155927"/>
+                     <ptr type="pmb" target="pmb155928"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -91,5 +91,37 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb155927">
+               <persName>
+                  <surname>Czernin</surname>
+                  <forename>Otto</forename>
+               </persName>
+               <birth>
+                  <date when="1875">1875</date>
+               </birth>
+               <death>
+                  <date when="1962">1962</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3637_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155927.html</idno>
+            </person>
+            <person xml:id="pmb155928">
+               <persName>
+                  <surname>Beust</surname>
+                  <forename>Friedrich Ferdinand von</forename>
+               </persName>
+               <birth>
+                  <date when="1809">1809</date>
+               </birth>
+               <death>
+                  <date when="1886">1886</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3637_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155928.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

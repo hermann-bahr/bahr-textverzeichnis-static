@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122999.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -68,9 +68,9 @@
                   <listRef>
                      <ptr type="pmb" target="pmb2189"/>
                      <ptr type="pmb" target="pmb2412"/>
-                     <ptr type="HB-tv" target="HB-tv_4684_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_4684_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_4684_p3"/>
+                     <ptr type="pmb" target="pmb153617"/>
+                     <ptr type="pmb" target="pmb154168"/>
+                     <ptr type="pmb" target="pmb154169"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19010414&amp;seite=9</ref>
@@ -89,5 +89,43 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb153617">
+               <persName>
+                  <surname>Giannini-Novelli</surname>
+                  <forename>Olga</forename>
+               </persName>
+               <birth>
+                  <date>1867-03-07</date>
+                  <placeName type="wikidata" ref="Q2044">Florenz</placeName>
+               </birth>
+               <death>
+                  <date>1961-11-09</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4684_p1</idno>
+               <idno type="wikidata">Q15983071</idno>
+               <sex value="female"/>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153617.html</idno>
+            </person>
+            <person xml:id="pmb154168">
+               <persName>
+                  <surname>Chiantoni</surname>
+                  <forename>Giannina</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_4684_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154168.html</idno>
+            </person>
+            <person xml:id="pmb154169">
+               <persName>
+                  <surname>Ferrati</surname>
+                  <forename>L.</forename>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_4684_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154169.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -24,7 +24,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133711.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -85,9 +85,9 @@
                      <ptr type="pmb" target="pmb12053"/>
                      <ptr type="pmb" target="pmb26531"/>
                      <ptr type="pmb" target="pmb11518"/>
-                     <ptr type="HB-tv" target="HB-tv_3856_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2461_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3401_p3"/>
+                     <ptr type="pmb" target="pmb154494"/>
+                     <ptr type="pmb" target="pmb4132"/>
+                     <ptr type="pmb" target="pmb7973"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1895-3/32_90-91.pdf</ref>
@@ -107,5 +107,80 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2404">
+               <persName>
+                  <surname>Hebbel</surname>
+                  <forename>Christian Friedrich</forename>
+               </persName>
+               <birth>
+                  <date>1813-03-18</date>
+                  <placeName type="wikidata" ref="Q518460">Wesselburen</placeName>
+               </birth>
+               <death>
+                  <date>1863-12-13</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_6576_p3</idno>
+               <idno type="wikidata">Q57182</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118547445</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2404.html</idno>
+            </person>
+            <person xml:id="pmb154494">
+               <persName>
+                  <surname>Schröder</surname>
+                  <forename>Friedrich Ludwig</forename>
+               </persName>
+               <birth>
+                  <date when="1744">1744</date>
+               </birth>
+               <death>
+                  <date when="1816">1816</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3856_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154494.html</idno>
+            </person>
+            <person xml:id="pmb4132">
+               <persName>
+                  <surname>Tieck</surname>
+                  <forename>Johann Ludwig</forename>
+               </persName>
+               <birth>
+                  <date>1773-05-31</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </birth>
+               <death>
+                  <date>1853-04-28</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2461_p1</idno>
+               <idno type="wikidata">Q57239</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/12989432X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb4132.html</idno>
+            </person>
+            <person xml:id="pmb7973">
+               <persName>
+                  <surname>Immermann</surname>
+                  <forename>Carl Leberecht</forename>
+               </persName>
+               <birth>
+                  <date>1796-04-24</date>
+                  <placeName type="wikidata" ref="Q1733">Magdeburg</placeName>
+               </birth>
+               <death>
+                  <date>1840-08-25</date>
+                  <placeName type="wikidata" ref="Q1718">Düsseldorf</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3401_p3</idno>
+               <idno type="wikidata">Q213589</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118555553</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb7973.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

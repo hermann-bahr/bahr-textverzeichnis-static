@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122661.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -74,7 +74,7 @@
                      <ptr type="pmb" target="pmb12595"/>
                      <ptr type="pmb" target="pmb7528"/>
                      <ptr type="pmb" target="pmb11610"/>
-                     <ptr type="HB-tv" target="HB-tv_2292_p1"/>
+                     <ptr type="pmb" target="pmb113105"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -86,5 +86,28 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb113105">
+               <persName>
+                  <surname>Chodowiecki</surname>
+                  <forename>Daniel</forename>
+               </persName>
+               <birth>
+                  <date>1726-10-16</date>
+                  <placeName type="wikidata" ref="Q1792">Danzig</placeName>
+               </birth>
+               <death>
+                  <date>1801-02-07</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2292_p1</idno>
+               <idno type="wikidata">Q696720</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118520512</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113105.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130767.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -67,12 +67,12 @@
                      <ptr type="pmb" target="pmb19489"/>
                      <ptr type="pmb" target="pmb2381"/>
                      <ptr type="pmb" target="pmb10806"/>
-                     <ptr type="HB-tv" target="HB-tv_3416_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3416_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3416_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_3416_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_3416_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_2391_p1"/>
+                     <ptr type="pmb" target="pmb151008"/>
+                     <ptr type="pmb" target="pmb156188"/>
+                     <ptr type="pmb" target="pmb151011"/>
+                     <ptr type="pmb" target="pmb114971"/>
+                     <ptr type="pmb" target="pmb4332"/>
+                     <ptr type="pmb" target="pmb156042"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/12-essays.pdf</ref>
@@ -104,5 +104,111 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb151008">
+               <persName>
+                  <surname>Feinhals</surname>
+                  <forename>Fritz</forename>
+               </persName>
+               <birth>
+                  <date>1869-12-04</date>
+                  <placeName type="wikidata" ref="Q365">Köln</placeName>
+               </birth>
+               <death>
+                  <date>1940-08-30</date>
+                  <placeName type="wikidata" ref="Q1726">München</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3416_p1</idno>
+               <idno type="wikidata">Q1392047</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116438401</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151008.html</idno>
+            </person>
+            <person xml:id="pmb156188">
+               <persName>
+                  <surname>Ritter</surname>
+                  <forename>Alexander</forename>
+               </persName>
+               <birth>
+                  <date when="1833">1833</date>
+               </birth>
+               <death>
+                  <date when="1896">1896</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3416_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156188.html</idno>
+            </person>
+            <person xml:id="pmb151011">
+               <persName>
+                  <surname>Catel</surname>
+                  <forename>Franz Ludwig</forename>
+               </persName>
+               <birth>
+                  <date>1778-02-22</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </birth>
+               <death>
+                  <date>1856-12-19</date>
+                  <placeName type="wikidata" ref="Q220">Rom</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3416_p3</idno>
+               <idno type="wikidata">Q879031</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119022079</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151011.html</idno>
+            </person>
+            <person xml:id="pmb114971">
+               <persName>
+                  <surname>Ludwig I. von Bayern</surname>
+               </persName>
+               <birth>
+                  <date>1786-08-25</date>
+                  <placeName type="wikidata" ref="Q6602">Straßburg</placeName>
+               </birth>
+               <death>
+                  <date>1868-02-29</date>
+                  <placeName type="wikidata" ref="Q33959">Nizza</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4646_p5</idno>
+               <idno type="wikidata">Q44361</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118574884</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114971.html</idno>
+            </person>
+            <person xml:id="pmb4332">
+               <persName>
+                  <surname>Jean Paul</surname>
+               </persName>
+               <birth>
+                  <date>1763-03-21</date>
+                  <placeName type="wikidata" ref="Q495778">Wunsiedel</placeName>
+               </birth>
+               <death>
+                  <date>1825-11-14</date>
+                  <placeName type="wikidata" ref="Q3923">Bayreuth</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3726_p1</idno>
+               <idno type="wikidata">Q77079</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118557211</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb4332.html</idno>
+            </person>
+            <person xml:id="pmb156042">
+               <persName>
+                  <surname>Faßbender</surname>
+                  <forename>Zdenka</forename>
+               </persName>
+               <birth>
+                  <date when="1879">1879</date>
+               </birth>
+               <death>
+                  <date when="1954">1954</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2391_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156042.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

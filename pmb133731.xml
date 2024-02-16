@@ -24,7 +24,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133731.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -78,12 +78,12 @@
                      <ptr type="pmb" target="pmb2853"/>
                      <ptr type="pmb" target="pmb12624"/>
                      <ptr type="pmb" target="pmb11798"/>
-                     <ptr type="HB-tv" target="HB-tv_3723_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3915_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_3586_p15"/>
-                     <ptr type="HB-tv" target="HB-tv_322_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_322_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_322_p6"/>
+                     <ptr type="pmb" target="pmb113201"/>
+                     <ptr type="pmb" target="pmb10087"/>
+                     <ptr type="pmb" target="pmb43745"/>
+                     <ptr type="pmb" target="pmb156977"/>
+                     <ptr type="pmb" target="pmb156978"/>
+                     <ptr type="pmb" target="pmb156979"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/19-92.pdf</ref>
@@ -98,5 +98,94 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb113201">
+               <persName>
+                  <surname>Rossetti</surname>
+                  <forename>Dante Gabriel</forename>
+               </persName>
+               <birth>
+                  <date>1828-05-12</date>
+                  <placeName type="wikidata" ref="Q84">London</placeName>
+               </birth>
+               <death>
+                  <date>1882-04-09</date>
+                  <placeName type="wikidata" ref="Q865021">Birchington-on-Sea</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3723_p1</idno>
+               <idno type="wikidata">Q186748</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118749900</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113201.html</idno>
+            </person>
+            <person xml:id="pmb10087">
+               <persName>
+                  <surname>Strauß</surname>
+                  <forename>David Friedrich</forename>
+               </persName>
+               <birth>
+                  <date>1808-01-27</date>
+                  <placeName type="wikidata" ref="Q622">Ludwigsburg</placeName>
+               </birth>
+               <death>
+                  <date>1874-02-08</date>
+                  <placeName type="wikidata" ref="Q622">Ludwigsburg</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3915_p4</idno>
+               <idno type="wikidata">Q57219</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118619055</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb10087.html</idno>
+            </person>
+            <person xml:id="pmb43745">
+               <persName>
+                  <surname>Tilgner</surname>
+                  <forename>Victor</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_2115_p1</idno>
+               <idno type="wikidata">Q326777</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/121161919</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb43745.html</idno>
+            </person>
+            <person xml:id="pmb156977">
+               <persName>
+                  <surname>Pettitt</surname>
+                  <forename>Henry</forename>
+               </persName>
+               <birth>
+                  <date when="1848">1848</date>
+               </birth>
+               <death>
+                  <date when="11893">11893</date>
+               </death>
+               <idno type="HB-tv">HB-tv_322_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156977.html</idno>
+            </person>
+            <person xml:id="pmb156978">
+               <persName>
+                  <surname>Sims</surname>
+                  <forename>George Robert</forename>
+               </persName>
+               <birth>
+                  <date when="1847">1847</date>
+               </birth>
+               <death>
+                  <date when="1922">1922</date>
+               </death>
+               <idno type="HB-tv">HB-tv_322_p5</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156978.html</idno>
+            </person>
+            <person xml:id="pmb156979">
+               <persName>
+                  <surname>Robins</surname>
+                  <forename>Elizabeth</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_322_p6</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156979.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

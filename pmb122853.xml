@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122853.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -88,10 +88,10 @@
                      <ptr type="pmb" target="pmb11984"/>
                      <ptr type="pmb" target="pmb3622"/>
                      <ptr type="pmb" target="pmb11740"/>
-                     <ptr type="HB-tv" target="HB-tv_2358_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2358_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2358_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2358_p4"/>
+                     <ptr type="pmb" target="pmb96577"/>
+                     <ptr type="pmb" target="pmb96948"/>
+                     <ptr type="pmb" target="pmb154092"/>
+                     <ptr type="pmb" target="pmb95984"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19021209&amp;seite=8</ref>
@@ -104,5 +104,88 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb11740">
+               <persName>
+                  <surname>Theophil Morren</surname>
+               </persName>
+               <idno type="HB-tv">HB-tv_4864_p17</idno>
+               <idno type="wikidata">Q51513</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118552759</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11740.html</idno>
+            </person>
+            <person xml:id="pmb96577">
+               <persName>
+                  <surname>Hagenauer</surname>
+                  <forename>Arnold</forename>
+               </persName>
+               <birth>
+                  <date>1871-11-20</date>
+                  <placeName type="wikidata" ref="Q41329">Linz</placeName>
+               </birth>
+               <death>
+                  <date>1918-07-25</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2358_p1</idno>
+               <idno type="wikidata">Q695277</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116380225</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb96577.html</idno>
+            </person>
+            <person xml:id="pmb96948">
+               <persName>
+                  <surname>Himmelbauer</surname>
+                  <forename>Franz</forename>
+               </persName>
+               <birth>
+                  <date>1871-01-01</date>
+               </birth>
+               <death>
+                  <date>1918-01-01</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2358_p2</idno>
+               <idno type="wikidata">Q60623856</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116893745</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb96948.html</idno>
+            </person>
+            <person xml:id="pmb154092">
+               <persName>
+                  <surname>Stüber</surname>
+                  <forename>Friedrich Ps. F. St. Gunther</forename>
+               </persName>
+               <birth>
+                  <date when="1872">1872</date>
+               </birth>
+               <death>
+                  <date when="1922">1922</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2358_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154092.html</idno>
+            </person>
+            <person xml:id="pmb95984">
+               <persName>
+                  <surname>Frimberger</surname>
+                  <forename>Johann Georg</forename>
+               </persName>
+               <birth>
+                  <date>1851-12-16</date>
+                  <placeName type="wikidata" ref="Q206085">Zistersdorf</placeName>
+               </birth>
+               <death>
+                  <date>1919-11-23</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2358_p4</idno>
+               <idno type="wikidata">Q1693832</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/144034220</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb95984.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

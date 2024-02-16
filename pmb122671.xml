@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122671.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -79,9 +79,9 @@
                      <ptr type="pmb" target="pmb2381"/>
                      <ptr type="pmb" target="pmb10896"/>
                      <ptr type="pmb" target="pmb8889"/>
-                     <ptr type="HB-tv" target="HB-tv_2436_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2030_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2030_p3"/>
+                     <ptr type="pmb" target="pmb114988"/>
+                     <ptr type="pmb" target="pmb114573"/>
+                     <ptr type="pmb" target="pmb153998"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19050627&amp;seite=12</ref>
@@ -94,5 +94,54 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb114988">
+               <persName>
+                  <surname>Somov</surname>
+                  <forename>Konstantin</forename>
+               </persName>
+               <birth>
+                  <date>1869-11-30</date>
+                  <placeName type="wikidata" ref="Q656">Sankt Petersburg</placeName>
+               </birth>
+               <death>
+                  <date>1939-05-06</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2436_p1</idno>
+               <idno type="wikidata">Q433067</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/12895826X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114988.html</idno>
+            </person>
+            <person xml:id="pmb114573">
+               <persName>
+                  <surname>Antonius von Padua</surname>
+               </persName>
+               <birth>
+                  <date>1195-08-15</date>
+                  <placeName type="wikidata" ref="Q597">Lissabon</placeName>
+               </birth>
+               <death>
+                  <date>1231-06-13</date>
+                  <placeName type="wikidata" ref="Q617">Padua</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2030_p2</idno>
+               <idno type="wikidata">Q167477</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118503510</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114573.html</idno>
+            </person>
+            <person xml:id="pmb153998">
+               <persName>
+                  <surname>Marr</surname>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_2030_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153998.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

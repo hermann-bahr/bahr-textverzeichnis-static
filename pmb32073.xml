@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb32073.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -91,8 +91,8 @@
                      <ptr type="pmb" target="pmb12756"/>
                      <ptr type="pmb" target="pmb11461"/>
                      <ptr type="pmb" target="pmb3991"/>
-                     <ptr type="HB-tv" target="HB-tv_2581_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2581_p2"/>
+                     <ptr type="pmb" target="pmb3272"/>
+                     <ptr type="pmb" target="pmb152473"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -104,5 +104,46 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb3272">
+               <persName>
+                  <surname>Molière</surname>
+               </persName>
+               <birth>
+                  <date>1622-01-15</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1673-02-17</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_115_p10</idno>
+               <idno type="wikidata">Q687</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11858331X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3272.html</idno>
+            </person>
+            <person xml:id="pmb152473">
+               <persName>
+                  <surname>Kratter</surname>
+                  <forename>Franz</forename>
+               </persName>
+               <birth>
+                  <date>1758-05-27</date>
+                  <placeName type="wikidata" ref="Q503794">Oberndorf am Lech</placeName>
+               </birth>
+               <death>
+                  <date>1830-11-08</date>
+                  <placeName type="wikidata" ref="Q36036">Lwiw</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2581_p2</idno>
+               <idno type="wikidata">Q17812501</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/137741189</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152473.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

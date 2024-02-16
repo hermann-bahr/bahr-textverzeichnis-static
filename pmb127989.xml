@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb127989.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,9 +69,9 @@
                      <ptr type="pmb" target="pmb4996"/>
                      <ptr type="pmb" target="pmb21383"/>
                      <ptr type="pmb" target="pmb11086"/>
-                     <ptr type="HB-tv" target="HB-tv_3345_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3345_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3345_p3"/>
+                     <ptr type="pmb" target="pmb116418"/>
+                     <ptr type="pmb" target="pmb155619"/>
+                     <ptr type="pmb" target="pmb155620"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/15-bilderbuch.pdf</ref>
@@ -104,5 +104,73 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb6874">
+               <persName>
+                  <surname>Bois-Reymond</surname>
+                  <forename>Emil Heinrich du</forename>
+               </persName>
+               <birth>
+                  <date>1818-11-07</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </birth>
+               <death>
+                  <date>1896-12-26</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3358_p25</idno>
+               <idno type="wikidata">Q76571</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118527665</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb6874.html</idno>
+            </person>
+            <person xml:id="pmb116418">
+               <persName>
+                  <surname>Virchow</surname>
+                  <forename>Rudolf</forename>
+               </persName>
+               <birth>
+                  <date>1821-10-13</date>
+                  <placeName type="wikidata" ref="Q387406">Świdwin</placeName>
+               </birth>
+               <death>
+                  <date>1902-09-05</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3345_p1</idno>
+               <idno type="wikidata">Q76432</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118627198</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116418.html</idno>
+            </person>
+            <person xml:id="pmb155619">
+               <persName>
+                  <surname>Eckhart von Hochheim</surname>
+               </persName>
+               <birth>
+                  <date when-custom="um 1260">um 1260</date>
+               </birth>
+               <death>
+                  <date when="1328">1328</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3345_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155619.html</idno>
+            </person>
+            <person xml:id="pmb155620">
+               <persName>
+                  <surname>Pelagius</surname>
+               </persName>
+               <birth>
+                  <date when="0360">360</date>
+               </birth>
+               <death>
+                  <date when="0420">420</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3345_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155620.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

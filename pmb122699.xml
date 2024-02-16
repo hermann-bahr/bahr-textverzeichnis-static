@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122699.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -67,7 +67,7 @@
                   <listRef>
                      <ptr type="pmb" target="pmb11201"/>
                      <ptr type="pmb" target="pmb15512"/>
-                     <ptr type="HB-tv" target="HB-tv_2403_p1"/>
+                     <ptr type="pmb" target="pmb153609"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19041007&amp;seite=10</ref>
@@ -85,5 +85,27 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb153609">
+               <persName>
+                  <surname>Rosaspina</surname>
+                  <forename>Carlo</forename>
+               </persName>
+               <birth>
+                  <date>1853-10-22</date>
+                  <placeName type="wikidata" ref="Q5990">Vercelli</placeName>
+               </birth>
+               <death>
+                  <date>1929-01-18</date>
+                  <placeName type="wikidata" ref="Q220">Rom</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2403_p1</idno>
+               <idno type="wikidata">Q3659803</idno>
+               <sex value="male"/>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153609.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb134653.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -63,8 +63,8 @@
                      <ptr type="pmb" target="pmb12167"/>
                      <ptr type="pmb" target="pmb19132"/>
                      <ptr type="pmb" target="pmb5359"/>
-                     <ptr type="HB-tv" target="HB-tv_4824_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_1181_p2"/>
+                     <ptr type="pmb" target="pmb12231"/>
+                     <ptr type="pmb" target="pmb157412"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/wiener-salonblatt/20-24_pariser-brief.pdf</ref>
@@ -76,5 +76,60 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb5359">
+               <persName>
+                  <surname>Hugo</surname>
+                  <forename>Victor-Marie</forename>
+               </persName>
+               <birth>
+                  <date>1802-02-26</date>
+                  <placeName type="wikidata" ref="Q37776">Besançon</placeName>
+               </birth>
+               <death>
+                  <date>1885-05-22</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3375_p2</idno>
+               <idno type="wikidata">Q535</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118554654</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb5359.html</idno>
+            </person>
+            <person xml:id="pmb12231">
+               <persName>
+                  <surname>Metternich-Sandor</surname>
+                  <forename>Pauline</forename>
+               </persName>
+               <birth>
+                  <date>1836-02-25</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1921-09-28</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4824_p3</idno>
+               <idno type="wikidata">Q79171</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/118581481</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb12231.html</idno>
+            </person>
+            <person xml:id="pmb157412">
+               <persName>
+                  <surname>Pindar</surname>
+               </persName>
+               <birth>
+                  <date when-custom="522/518">522/518</date>
+               </birth>
+               <death>
+                  <date when-custom="nach 445 v.u.Z.">nach 445 v.u.Z.</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1181_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157412.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

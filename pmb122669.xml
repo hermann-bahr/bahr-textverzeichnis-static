@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122669.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -70,8 +70,8 @@
                      <ptr type="pmb" target="pmb11981"/>
                      <ptr type="pmb" target="pmb10940"/>
                      <ptr type="pmb" target="pmb18489"/>
-                     <ptr type="HB-tv" target="HB-tv_2034_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2450_p1"/>
+                     <ptr type="pmb" target="pmb148756"/>
+                     <ptr type="pmb" target="pmb153972"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19050915&amp;seite=9</ref>
@@ -84,5 +84,43 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb148756">
+               <persName>
+                  <surname>Schlaikjer</surname>
+                  <forename>Erich</forename>
+               </persName>
+               <occupation>Schriftsteller</occupation>
+               <birth>
+                  <date>1867-11-20</date>
+                  <placeName type="wikidata" ref="Q154897">Aabenraa</placeName>
+               </birth>
+               <death>
+                  <date>1928-02-11</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2034_p1</idno>
+               <idno type="wikidata">Q94886133</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117281662</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148756.html</idno>
+            </person>
+            <person xml:id="pmb153972">
+               <persName>
+                  <surname>Galafrés</surname>
+                  <forename>Elsa</forename>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <birth>
+                  <date when="1880">1880</date>
+               </birth>
+               <death>
+                  <date when="1977">1977</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2450_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153972.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

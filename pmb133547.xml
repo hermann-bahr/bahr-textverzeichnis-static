@@ -24,7 +24,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133547.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -90,9 +90,9 @@
                      <ptr type="pmb" target="pmb12948"/>
                      <ptr type="pmb" target="pmb10959"/>
                      <ptr type="pmb" target="pmb12595"/>
-                     <ptr type="HB-tv" target="HB-tv_408_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2270_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1918_p1"/>
+                     <ptr type="pmb" target="pmb156904"/>
+                     <ptr type="pmb" target="pmb4200"/>
+                     <ptr type="pmb" target="pmb154101"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1897-10/128-171.pdf</ref>
@@ -112,5 +112,69 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2404">
+               <persName>
+                  <surname>Hebbel</surname>
+                  <forename>Christian Friedrich</forename>
+               </persName>
+               <birth>
+                  <date>1813-03-18</date>
+                  <placeName type="wikidata" ref="Q518460">Wesselburen</placeName>
+               </birth>
+               <death>
+                  <date>1863-12-13</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_6576_p3</idno>
+               <idno type="wikidata">Q57182</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118547445</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2404.html</idno>
+            </person>
+            <person xml:id="pmb156904">
+               <persName>
+                  <surname>Stahl</surname>
+                  <forename>Fritz</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_408_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156904.html</idno>
+            </person>
+            <person xml:id="pmb4200">
+               <persName>
+                  <surname>Devrient-Reinhold</surname>
+                  <forename>Babette</forename>
+               </persName>
+               <birth>
+                  <date>1863-10-30</date>
+                  <placeName type="wikidata" ref="Q1715">Hannover</placeName>
+               </birth>
+               <death>
+                  <date>1940-06-13</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2270_p1</idno>
+               <idno type="wikidata">Q797650</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/116089237</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb4200.html</idno>
+            </person>
+            <person xml:id="pmb154101">
+               <persName>
+                  <surname>Schönchen</surname>
+                  <forename>Amalie</forename>
+               </persName>
+               <birth>
+                  <date when="1834">1834</date>
+               </birth>
+               <death>
+                  <date when="1905">1905</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1918_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154101.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

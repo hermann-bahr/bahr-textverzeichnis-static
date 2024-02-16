@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122825.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -73,9 +73,9 @@
                   <listRef>
                      <ptr type="pmb" target="pmb10980"/>
                      <ptr type="pmb" target="pmb2412"/>
-                     <ptr type="HB-tv" target="HB-tv_1930_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2337_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1930_p3"/>
+                     <ptr type="pmb" target="pmb20315"/>
+                     <ptr type="pmb" target="pmb18651"/>
+                     <ptr type="pmb" target="pmb64937"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19030429&amp;seite=10</ref>
@@ -89,5 +89,65 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb20315">
+               <persName>
+                  <surname>Leonardo da Vinci</surname>
+               </persName>
+               <birth>
+                  <date>1452-04-15</date>
+                  <placeName type="wikidata" ref="Q154184">Anchiano</placeName>
+               </birth>
+               <death>
+                  <date>1519-05-02</date>
+                  <placeName type="wikidata" ref="Q205116">Amboise</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1930_p1</idno>
+               <idno type="wikidata">Q762</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118640445</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb20315.html</idno>
+            </person>
+            <person xml:id="pmb18651">
+               <persName>
+                  <surname>Hetsey</surname>
+                  <forename>Alice</forename>
+               </persName>
+               <birth>
+                  <date>1875-09-03</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1939-02-11</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2337_p1</idno>
+               <idno type="wikidata">Q58011579</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/116778873</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb18651.html</idno>
+            </person>
+            <person xml:id="pmb64937">
+               <persName>
+                  <surname>Coppée</surname>
+                  <forename>François</forename>
+               </persName>
+               <birth>
+                  <date>1842-01-26</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1908-05-23</date>
+                  <placeName type="wikidata" ref="Q259463">7. Arrondissement von Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1930_p3</idno>
+               <idno type="wikidata">Q380277</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118670042</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb64937.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

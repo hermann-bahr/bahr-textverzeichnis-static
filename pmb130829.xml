@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130829.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -66,7 +66,7 @@
                   <listRef>
                      <ptr type="pmb" target="pmb2381"/>
                      <ptr type="pmb" target="pmb20987"/>
-                     <ptr type="HB-tv" target="HB-tv_1251_p1"/>
+                     <ptr type="pmb" target="pmb156231"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -78,5 +78,22 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb156231">
+               <persName>
+                  <surname>Jesus von Nazareth</surname>
+               </persName>
+               <birth>
+                  <date when-custom="4 v.u.Z.">4 v.u.Z.</date>
+               </birth>
+               <death>
+                  <date when-custom="30/31">30/31</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1251_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156231.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

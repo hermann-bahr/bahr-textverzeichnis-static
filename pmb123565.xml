@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123565.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -73,8 +73,8 @@
                      <ptr type="pmb" target="pmb11860"/>
                      <ptr type="pmb" target="pmb21626"/>
                      <ptr type="pmb" target="pmb10980"/>
-                     <ptr type="HB-tv" target="HB-tv_2035_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1863_p2"/>
+                     <ptr type="pmb" target="pmb2868"/>
+                     <ptr type="pmb" target="pmb154240"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1896-6/76-177.pdf</ref>
@@ -87,5 +87,42 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2868">
+               <persName>
+                  <surname>Kutschera</surname>
+                  <forename>Viktor</forename>
+               </persName>
+               <birth>
+                  <date>1863-05-02</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1933-01-20</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2035_p2</idno>
+               <idno type="wikidata">Q2524322</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116628081</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2868.html</idno>
+            </person>
+            <person xml:id="pmb154240">
+               <persName>
+                  <surname>Kracher</surname>
+                  <forename>Ferdinand</forename>
+               </persName>
+               <birth>
+                  <date when="1881">1881</date>
+               </birth>
+               <death>
+                  <date when="1908">1908</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1863_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154240.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

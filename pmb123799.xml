@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123799.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,7 +69,7 @@
                      <ptr type="pmb" target="pmb2404"/>
                      <ptr type="pmb" target="pmb11933"/>
                      <ptr type="pmb" target="pmb2412"/>
-                     <ptr type="HB-tv" target="HB-tv_1600_p1"/>
+                     <ptr type="pmb" target="pmb154561"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/24-173.pdf</ref>
@@ -82,5 +82,36 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2404">
+               <persName>
+                  <surname>Hebbel</surname>
+                  <forename>Christian Friedrich</forename>
+               </persName>
+               <birth>
+                  <date>1813-03-18</date>
+                  <placeName type="wikidata" ref="Q518460">Wesselburen</placeName>
+               </birth>
+               <death>
+                  <date>1863-12-13</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_6576_p3</idno>
+               <idno type="wikidata">Q57182</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118547445</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2404.html</idno>
+            </person>
+            <person xml:id="pmb154561">
+               <persName>
+                  <surname>Mautner</surname>
+                  <forename>Eduard</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_1600_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154561.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

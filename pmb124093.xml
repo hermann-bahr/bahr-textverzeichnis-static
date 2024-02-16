@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb124093.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -72,8 +72,8 @@
                      <ptr type="pmb" target="pmb2132"/>
                      <ptr type="pmb" target="pmb27667"/>
                      <ptr type="pmb" target="pmb13024"/>
-                     <ptr type="HB-tv" target="HB-tv_2568_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2568_p2"/>
+                     <ptr type="pmb" target="pmb154674"/>
+                     <ptr type="pmb" target="pmb154675"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwj&amp;datum=19320101&amp;seite=12</ref>
@@ -86,5 +86,32 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154674">
+               <persName>
+                  <surname>Robicsek</surname>
+                  <forename>Anna</forename>
+                  <surname type="birthname"> Wanizcek</surname>
+               </persName>
+               <birth>
+                  <date when="1849">1849</date>
+               </birth>
+               <death>
+                  <date when="1934">1934</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2568_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154674.html</idno>
+            </person>
+            <person xml:id="pmb154675">
+               <persName>
+                  <surname>Wanizcek</surname>
+                  <forename>Rosa ?</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_2568_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154675.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133795.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -65,8 +65,8 @@
                      <ptr type="pmb" target="pmb2211"/>
                      <ptr type="pmb" target="pmb13024"/>
                      <ptr type="pmb" target="pmb11461"/>
-                     <ptr type="HB-tv" target="HB-tv_2806_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2461_p4"/>
+                     <ptr type="pmb" target="pmb43762"/>
+                     <ptr type="pmb" target="pmb5262"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/4-studien.pdf</ref>
@@ -102,5 +102,66 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb21317">
+               <persName>
+                  <surname>Mendés</surname>
+                  <forename>Catulle</forename>
+               </persName>
+               <birth>
+                  <date>1841-05-22</date>
+                  <placeName type="wikidata" ref="Q1479">Bordeaux</placeName>
+               </birth>
+               <death>
+                  <date>1909-02-08</date>
+                  <placeName type="wikidata" ref="Q60847808">Saint-Germain-en-Laye</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1351_p22</idno>
+               <idno type="wikidata">Q971215</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118783203</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb21317.html</idno>
+            </person>
+            <person xml:id="pmb43762">
+               <persName>
+                  <surname>van Dyck</surname>
+                  <forename>Ernest</forename>
+               </persName>
+               <birth>
+                  <date>1861-04-02</date>
+                  <placeName type="wikidata" ref="Q12892">Antwerpen</placeName>
+               </birth>
+               <death>
+                  <date>1923-08-31</date>
+                  <placeName type="wikidata" ref="Q723774">Berlaar</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2806_p2</idno>
+               <idno type="wikidata">Q3057199</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116262028</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb43762.html</idno>
+            </person>
+            <person xml:id="pmb5262">
+               <persName>
+                  <surname>Talma</surname>
+                  <forename>François Joseph</forename>
+               </persName>
+               <birth>
+                  <date>1763-01-15</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1826-10-19</date>
+                  <placeName type="wikidata" ref="Q3451592"/>
+               </death>
+               <idno type="HB-tv">HB-tv_2461_p4</idno>
+               <idno type="wikidata">Q393983</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117198838</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb5262.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133787.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -71,9 +71,9 @@
                      <ptr type="pmb" target="pmb12899"/>
                      <ptr type="pmb" target="pmb11201"/>
                      <ptr type="pmb" target="pmb13166"/>
-                     <ptr type="HB-tv" target="HB-tv_2212_p8"/>
-                     <ptr type="HB-tv" target="HB-tv_2806_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2168_p4"/>
+                     <ptr type="pmb" target="pmb117855"/>
+                     <ptr type="pmb" target="pmb43762"/>
+                     <ptr type="pmb" target="pmb8330"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/4-studien.pdf</ref>
@@ -109,5 +109,66 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb117855">
+               <persName>
+                  <surname>Müllner</surname>
+                  <forename>Adolf</forename>
+               </persName>
+               <birth>
+                  <date>1774-10-18</date>
+                  <placeName type="wikidata" ref="Q696566">Langendorf</placeName>
+               </birth>
+               <death>
+                  <date>1829-06-11</date>
+                  <placeName type="wikidata" ref="Q14815">Weißenfels</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2212_p8</idno>
+               <idno type="wikidata">Q73359</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118737775</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb117855.html</idno>
+            </person>
+            <person xml:id="pmb43762">
+               <persName>
+                  <surname>van Dyck</surname>
+                  <forename>Ernest</forename>
+               </persName>
+               <birth>
+                  <date>1861-04-02</date>
+                  <placeName type="wikidata" ref="Q12892">Antwerpen</placeName>
+               </birth>
+               <death>
+                  <date>1923-08-31</date>
+                  <placeName type="wikidata" ref="Q723774">Berlaar</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2806_p2</idno>
+               <idno type="wikidata">Q3057199</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116262028</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb43762.html</idno>
+            </person>
+            <person xml:id="pmb8330">
+               <persName>
+                  <surname>Krastel</surname>
+                  <forename>Friedrich</forename>
+               </persName>
+               <birth>
+                  <date>1839-04-06</date>
+                  <placeName type="wikidata" ref="Q2119">Mannheim</placeName>
+               </birth>
+               <death>
+                  <date>1908-02-12</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2168_p4</idno>
+               <idno type="wikidata">Q1440717</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116383011</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb8330.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

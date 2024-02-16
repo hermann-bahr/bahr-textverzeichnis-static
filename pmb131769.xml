@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb131769.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -71,10 +71,10 @@
                      <ptr type="pmb" target="pmb10825"/>
                      <ptr type="pmb" target="pmb13024"/>
                      <ptr type="pmb" target="pmb4107"/>
-                     <ptr type="HB-tv" target="HB-tv_6618_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_6618_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_6618_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_1883_p2"/>
+                     <ptr type="pmb" target="pmb156434"/>
+                     <ptr type="pmb" target="pmb156435"/>
+                     <ptr type="pmb" target="pmb4769"/>
+                     <ptr type="pmb" target="pmb115115"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19060524&amp;seite=2</ref>
@@ -86,5 +86,86 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb11740">
+               <persName>
+                  <surname>Theophil Morren</surname>
+               </persName>
+               <idno type="HB-tv">HB-tv_4864_p17</idno>
+               <idno type="wikidata">Q51513</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118552759</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11740.html</idno>
+            </person>
+            <person xml:id="pmb156434">
+               <persName>
+                  <surname>Stousland</surname>
+                  <forename>Hedvig</forename>
+                  <surname type="birthname"> Ibsen</surname>
+               </persName>
+               <birth>
+                  <date when="1831">1831</date>
+               </birth>
+               <death>
+                  <date when="1920">1920</date>
+               </death>
+               <idno type="HB-tv">HB-tv_6618_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156434.html</idno>
+            </person>
+            <person xml:id="pmb156435">
+               <persName>
+                  <surname>Ibsen</surname>
+                  <forename>Marichen Cornelia Martine</forename>
+                  <surname type="birthname"> Altenburg</surname>
+               </persName>
+               <birth>
+                  <date when="1799">1799</date>
+               </birth>
+               <death>
+                  <date when="1869">1869</date>
+               </death>
+               <idno type="HB-tv">HB-tv_6618_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156435.html</idno>
+            </person>
+            <person xml:id="pmb4769">
+               <persName>
+                  <surname>Napoléon Bonaparte</surname>
+               </persName>
+               <birth>
+                  <date>1769-08-15</date>
+                  <placeName type="wikidata" ref="Q40104">Ajaccio</placeName>
+               </birth>
+               <death>
+                  <date>1821-05-05</date>
+                  <placeName type="wikidata" ref="Q578060">Longwood House</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1891_p2</idno>
+               <idno type="wikidata">Q517</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118586408</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb4769.html</idno>
+            </person>
+            <person xml:id="pmb115115">
+               <persName>
+                  <surname>Lemaître</surname>
+                  <forename>Frédéric</forename>
+               </persName>
+               <birth>
+                  <date>1800-07-28</date>
+                  <placeName type="wikidata" ref="Q42810">Le Havre</placeName>
+               </birth>
+               <death>
+                  <date>1876-01-26</date>
+                  <placeName type="wikidata" ref="Q163948">10. Arrondissement von Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1883_p2</idno>
+               <idno type="wikidata">Q654231</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119056135</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb115115.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

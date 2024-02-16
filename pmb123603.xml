@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123603.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -59,7 +59,7 @@
                   française zwei Mal gastiert.</note>
                <ref type="personenindex">
                   <listRef>
-                     <ptr type="HB-tv" target="HB-tv_2135_p1"/>
+                     <ptr type="pmb" target="pmb148923"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1896-6/78-209.pdf</ref>
@@ -74,5 +74,28 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb148923">
+               <persName>
+                  <surname>Reichemberg</surname>
+                  <forename>Suzanne</forename>
+               </persName>
+               <birth>
+                  <date>1853-09-07</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1924-03-09</date>
+                  <placeName type="wikidata" ref="Q197297">17. Arrondissement von Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2135_p1</idno>
+               <idno type="wikidata">Q3506030</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/116398795</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148923.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130695.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -155,9 +155,9 @@
                      <ptr type="pmb" target="pmb2412"/>
                      <ptr type="pmb" target="pmb27667"/>
                      <ptr type="pmb" target="pmb4258"/>
-                     <ptr type="HB-tv" target="HB-tv_3455_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3455_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3455_p3"/>
+                     <ptr type="pmb" target="pmb156134"/>
+                     <ptr type="pmb" target="pmb156135"/>
+                     <ptr type="pmb" target="pmb156136"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/13-inventur.pdf</ref>
@@ -238,5 +238,41 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb156134">
+               <persName>
+                  <surname>Stein</surname>
+                  <forename>Charlotte</forename>
+               </persName>
+               <birth>
+                  <date when="1742">1742</date>
+               </birth>
+               <death>
+                  <date when="1827">1827</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3455_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156134.html</idno>
+            </person>
+            <person xml:id="pmb156135">
+               <persName>
+                  <surname>Julie ?</surname>
+               </persName>
+               <idno type="HB-tv">HB-tv_3455_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156135.html</idno>
+            </person>
+            <person xml:id="pmb156136">
+               <persName>
+                  <surname>Weidlich</surname>
+                  <forename>Anastas von</forename>
+               </persName>
+               <death>
+                  <date when="1873">1873</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3455_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156136.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

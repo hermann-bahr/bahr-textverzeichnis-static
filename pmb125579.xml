@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb125579.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -58,8 +58,8 @@
                   bildet für Bahr einen positiven Glaubenstypus.</note>
                <ref type="personenindex">
                   <listRef>
-                     <ptr type="HB-tv" target="HB-tv_6262_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_6262_p2"/>
+                     <ptr type="pmb" target="pmb149755"/>
+                     <ptr type="pmb" target="pmb149758"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -84,5 +84,47 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb149755">
+               <persName>
+                  <surname>Ollivier</surname>
+                  <forename>Émile</forename>
+               </persName>
+               <birth>
+                  <date>1825-07-02</date>
+                  <placeName type="wikidata" ref="Q23482">Marseille</placeName>
+               </birth>
+               <death>
+                  <date>1913-08-20</date>
+                  <placeName type="wikidata" ref="Q534206">Saint-Gervais-les-Bains</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_6262_p1</idno>
+               <idno type="wikidata">Q286293</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118589865</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149755.html</idno>
+            </person>
+            <person xml:id="pmb149758">
+               <persName>
+                  <surname>Gratry</surname>
+                  <forename>Joseph</forename>
+               </persName>
+               <birth>
+                  <date>1805-03-30</date>
+                  <placeName type="wikidata" ref="Q648">Lille</placeName>
+               </birth>
+               <death>
+                  <date>1872-02-07</date>
+                  <placeName type="wikidata" ref="Q69354">Montreux</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_6262_p2</idno>
+               <idno type="wikidata">Q1580421</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118718487</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149758.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

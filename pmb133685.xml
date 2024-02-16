@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133685.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -70,10 +70,10 @@
                      <ptr type="pmb" target="pmb12491"/>
                      <ptr type="pmb" target="pmb12530"/>
                      <ptr type="pmb" target="pmb2601"/>
-                     <ptr type="HB-tv" target="HB-tv_349_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2310_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3401_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2461_p1"/>
+                     <ptr type="pmb" target="pmb156965"/>
+                     <ptr type="pmb" target="pmb24515"/>
+                     <ptr type="pmb" target="pmb7973"/>
+                     <ptr type="pmb" target="pmb4132"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/50-172.pdf</ref>
@@ -86,5 +86,76 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb156965">
+               <persName>
+                  <surname>Thespis</surname>
+               </persName>
+               <birth>
+                  <date when-custom="6. Jh. v.u.Z.">6. Jh. v.u.Z.</date>
+               </birth>
+               <idno type="HB-tv">HB-tv_349_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156965.html</idno>
+            </person>
+            <person xml:id="pmb24515">
+               <persName>
+                  <surname>Schreyvogel</surname>
+                  <forename>Joseph</forename>
+               </persName>
+               <birth>
+                  <date>1768-03-27</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1832-07-28</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2310_p1</idno>
+               <idno type="wikidata">Q94645</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119368579</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb24515.html</idno>
+            </person>
+            <person xml:id="pmb7973">
+               <persName>
+                  <surname>Immermann</surname>
+                  <forename>Carl Leberecht</forename>
+               </persName>
+               <birth>
+                  <date>1796-04-24</date>
+                  <placeName type="wikidata" ref="Q1733">Magdeburg</placeName>
+               </birth>
+               <death>
+                  <date>1840-08-25</date>
+                  <placeName type="wikidata" ref="Q1718">Düsseldorf</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3401_p3</idno>
+               <idno type="wikidata">Q213589</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118555553</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb7973.html</idno>
+            </person>
+            <person xml:id="pmb4132">
+               <persName>
+                  <surname>Tieck</surname>
+                  <forename>Johann Ludwig</forename>
+               </persName>
+               <birth>
+                  <date>1773-05-31</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </birth>
+               <death>
+                  <date>1853-04-28</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2461_p1</idno>
+               <idno type="wikidata">Q57239</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/12989432X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb4132.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

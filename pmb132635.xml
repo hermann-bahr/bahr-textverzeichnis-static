@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132635.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -71,11 +71,11 @@
                      <ptr type="pmb" target="pmb18502"/>
                      <ptr type="pmb" target="pmb11461"/>
                      <ptr type="pmb" target="pmb12829"/>
-                     <ptr type="HB-tv" target="HB-tv_625_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_625_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_625_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_625_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_625_p5"/>
+                     <ptr type="pmb" target="pmb151471"/>
+                     <ptr type="pmb" target="pmb151475"/>
+                     <ptr type="pmb" target="pmb151479"/>
+                     <ptr type="pmb" target="pmb151482"/>
+                     <ptr type="pmb" target="pmb156546"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19020725&amp;seite=1</ref>
@@ -88,5 +88,91 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb151471">
+               <persName>
+                  <surname>Giron</surname>
+                  <forename>Charles</forename>
+               </persName>
+               <birth>
+                  <date>1850-04-02</date>
+                  <placeName type="wikidata" ref="Q71">Genf</placeName>
+               </birth>
+               <death>
+                  <date>1914-06-09</date>
+                  <placeName type="wikidata" ref="Q48923">Genthod</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_625_p1</idno>
+               <idno type="wikidata">Q1064549</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116647620</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151471.html</idno>
+            </person>
+            <person xml:id="pmb151475">
+               <persName>
+                  <surname>Secretan</surname>
+                  <forename>Édouard</forename>
+               </persName>
+               <birth>
+                  <date>1848-09-04</date>
+                  <placeName type="wikidata" ref="Q36600">Den Haag</placeName>
+               </birth>
+               <death>
+                  <date>1917-10-12</date>
+                  <placeName type="wikidata" ref="Q807">Lausanne</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_625_p2</idno>
+               <idno type="wikidata">Q3580032</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/121534472</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151475.html</idno>
+            </person>
+            <person xml:id="pmb151479">
+               <persName>
+                  <surname>Hörth</surname>
+                  <forename>Otto</forename>
+               </persName>
+               <birth>
+                  <date>1842-11-24</date>
+                  <placeName type="wikidata" ref="Q373824">Achern</placeName>
+               </birth>
+               <death>
+                  <date>1935</date>
+               </death>
+               <idno type="HB-tv">HB-tv_625_p3</idno>
+               <idno type="wikidata">Q19223034</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116932961</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151479.html</idno>
+            </person>
+            <person xml:id="pmb151482">
+               <persName>
+                  <surname>Séverine</surname>
+               </persName>
+               <birth>
+                  <date>1855-04-27</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1929-04-24</date>
+                  <placeName type="wikidata" ref="Q818715">Pierrefonds</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_625_p4</idno>
+               <idno type="wikidata">Q453679</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/118642367</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151482.html</idno>
+            </person>
+            <person xml:id="pmb156546">
+               <persName>
+                  <surname>Taunay</surname>
+                  <forename>Victor</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_625_p5</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156546.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

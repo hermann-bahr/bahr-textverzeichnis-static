@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132197.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -57,7 +57,7 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb10928"/>
-                     <ptr type="HB-tv" target="HB-tv_3125_p1"/>
+                     <ptr type="pmb" target="pmb151414"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -89,5 +89,27 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb151414">
+               <persName>
+                  <surname>Saharet</surname>
+               </persName>
+               <birth>
+                  <date>1879-03-21</date>
+                  <placeName type="wikidata" ref="Q3141">Melbourne</placeName>
+               </birth>
+               <death>
+                  <date>1942-01-01</date>
+                  <placeName type="wikidata" ref="Q3141">Melbourne</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3125_p1</idno>
+               <idno type="wikidata">Q537772</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/13898431X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151414.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

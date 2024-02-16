@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb134557.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -75,11 +75,11 @@
                      <ptr type="pmb" target="pmb11871"/>
                      <ptr type="pmb" target="pmb4579"/>
                      <ptr type="pmb" target="pmb12195"/>
-                     <ptr type="HB-tv" target="HB-tv_2613_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_737_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_2613_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_4858_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2613_p5"/>
+                     <ptr type="pmb" target="pmb157402"/>
+                     <ptr type="pmb" target="pmb151522"/>
+                     <ptr type="pmb" target="pmb153405"/>
+                     <ptr type="pmb" target="pmb113990"/>
+                     <ptr type="pmb" target="pmb4769"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/1-zur-kritik.pdf</ref>
@@ -103,5 +103,97 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb157402">
+               <persName>
+                  <surname>Guido von Arezzo</surname>
+               </persName>
+               <birth>
+                  <date when-custom="um 990">um 990</date>
+               </birth>
+               <death>
+                  <date when="1050">1050</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2613_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157402.html</idno>
+            </person>
+            <person xml:id="pmb151522">
+               <persName>
+                  <surname>Schirmer</surname>
+                  <forename>Johann Wilhelm</forename>
+               </persName>
+               <birth>
+                  <date>1807-09-07</date>
+                  <placeName type="wikidata" ref="Q16045">Jülich</placeName>
+               </birth>
+               <death>
+                  <date>1863-09-11</date>
+                  <placeName type="wikidata" ref="Q1040">Karlsruhe</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_737_p4</idno>
+               <idno type="wikidata">Q702604</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118755161</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151522.html</idno>
+            </person>
+            <person xml:id="pmb153405">
+               <persName>
+                  <surname>Blechen</surname>
+                  <forename>Karl</forename>
+               </persName>
+               <birth>
+                  <date>1798-07-29</date>
+                  <placeName type="wikidata" ref="Q3214">Cottbus</placeName>
+               </birth>
+               <death>
+                  <date>1840-07-23</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2613_p3</idno>
+               <idno type="wikidata">Q149571</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118511645</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153405.html</idno>
+            </person>
+            <person xml:id="pmb113990">
+               <persName>
+                  <surname>Engels</surname>
+                  <forename>Friedrich</forename>
+               </persName>
+               <birth>
+                  <date>1820-11-28</date>
+                  <placeName type="wikidata" ref="Q153974">Barmen</placeName>
+               </birth>
+               <death>
+                  <date>1895-08-05</date>
+                  <placeName type="wikidata" ref="Q84">London</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4858_p2</idno>
+               <idno type="wikidata">Q34787</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118530380</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113990.html</idno>
+            </person>
+            <person xml:id="pmb4769">
+               <persName>
+                  <surname>Napoléon Bonaparte</surname>
+               </persName>
+               <birth>
+                  <date>1769-08-15</date>
+                  <placeName type="wikidata" ref="Q40104">Ajaccio</placeName>
+               </birth>
+               <death>
+                  <date>1821-05-05</date>
+                  <placeName type="wikidata" ref="Q578060">Longwood House</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1891_p2</idno>
+               <idno type="wikidata">Q517</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118586408</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb4769.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

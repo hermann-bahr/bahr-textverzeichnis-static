@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb124813.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -64,9 +64,9 @@
                      <ptr type="pmb" target="pmb8864"/>
                      <ptr type="pmb" target="pmb12481"/>
                      <ptr type="pmb" target="pmb38292"/>
-                     <ptr type="HB-tv" target="HB-tv_1803_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1803_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1803_p3"/>
+                     <ptr type="pmb" target="pmb149469"/>
+                     <ptr type="pmb" target="pmb154907"/>
+                     <ptr type="pmb" target="pmb154908"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/tage-buch/1928-49_die-besten-autoren.pdf</ref>
@@ -80,5 +80,36 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb149469">
+               <persName>
+                  <surname>Klossowski</surname>
+                  <forename>Erich</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_1803_p1</idno>
+               <idno type="wikidata">Q531199</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116234903</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149469.html</idno>
+            </person>
+            <person xml:id="pmb154907">
+               <persName>
+                  <surname>Mitis</surname>
+                  <forename>Oskar Freiherr von</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_1803_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154907.html</idno>
+            </person>
+            <person xml:id="pmb154908">
+               <persName>
+                  <surname>Mereschkowski</surname>
+                  <forename>Dmitry Sergewitsch</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_1803_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154908.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

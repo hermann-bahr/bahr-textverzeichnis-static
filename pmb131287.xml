@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb131287.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -65,9 +65,9 @@
                      <ptr type="pmb" target="pmb28145"/>
                      <ptr type="pmb" target="pmb3622"/>
                      <ptr type="pmb" target="pmb12167"/>
-                     <ptr type="HB-tv" target="HB-tv_1004_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1004_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1004_p3"/>
+                     <ptr type="pmb" target="pmb4068"/>
+                     <ptr type="pmb" target="pmb156337"/>
+                     <ptr type="pmb" target="pmb156338"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/berliner-tageblatt/1909_heimkehr.pdf</ref>
@@ -79,5 +79,44 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb4068">
+               <persName>
+                  <surname>Watteau</surname>
+                  <forename>Jean Antoine</forename>
+               </persName>
+               <birth>
+                  <date>1684-10-10</date>
+                  <placeName type="wikidata" ref="Q163795">Valenciennes</placeName>
+               </birth>
+               <death>
+                  <date>1721-07-18</date>
+                  <placeName type="wikidata" ref="Q212274">Nogent-sur-Marne</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1004_p1</idno>
+               <idno type="wikidata">Q183221</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118629492</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb4068.html</idno>
+            </person>
+            <person xml:id="pmb156337">
+               <persName>
+                  <surname>Leander</surname>
+                  <forename>Benediktinerpater</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_1004_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156337.html</idno>
+            </person>
+            <person xml:id="pmb156338">
+               <persName>
+                  <surname>Jung</surname>
+                  <forename>Hotelier</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_1004_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156338.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

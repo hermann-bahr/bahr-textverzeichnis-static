@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133511.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -71,7 +71,7 @@
                   <listRef>
                      <ptr type="pmb" target="pmb3787"/>
                      <ptr type="pmb" target="pmb12654"/>
-                     <ptr type="HB-tv" target="HB-tv_3885_p2"/>
+                     <ptr type="pmb" target="pmb116750"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1897-12/156-205.pdf</ref>
@@ -90,5 +90,28 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb116750">
+               <persName>
+                  <surname>Kossuth</surname>
+                  <forename>Lajos</forename>
+               </persName>
+               <birth>
+                  <date>1802-09-19</date>
+                  <placeName type="wikidata" ref="Q1019082">Monok</placeName>
+               </birth>
+               <death>
+                  <date>1894-03-20</date>
+                  <placeName type="wikidata" ref="Q495">Turin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3885_p2</idno>
+               <idno type="wikidata">Q157040</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118565702</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116750.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

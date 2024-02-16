@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb125247.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -62,12 +62,12 @@
                      <ptr type="pmb" target="pmb11036"/>
                      <ptr type="pmb" target="pmb5633"/>
                      <ptr type="pmb" target="pmb11575"/>
-                     <ptr type="HB-tv" target="HB-tv_6580_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_993_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3513_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_993_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_993_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_993_p6"/>
+                     <ptr type="pmb" target="pmb149477"/>
+                     <ptr type="pmb" target="pmb154952"/>
+                     <ptr type="pmb" target="pmb149335"/>
+                     <ptr type="pmb" target="pmb154953"/>
+                     <ptr type="pmb" target="pmb99782"/>
+                     <ptr type="pmb" target="pmb149549"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=19270417&amp;seite=37</ref>
@@ -79,5 +79,92 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb149477">
+               <persName>
+                  <surname>Samhaber</surname>
+                  <forename>Edward</forename>
+               </persName>
+               <birth>
+                  <date>1846-12-26</date>
+                  <placeName type="wikidata" ref="Q143140">Freistadt</placeName>
+               </birth>
+               <death>
+                  <date>1927-03-27</date>
+                  <placeName type="wikidata" ref="Q41329">Linz</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_6580_p3</idno>
+               <idno type="wikidata">Q1293469</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116777990</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149477.html</idno>
+            </person>
+            <person xml:id="pmb154952">
+               <persName>
+                  <surname>Berger</surname>
+                  <forename>Franz</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_993_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154952.html</idno>
+            </person>
+            <person xml:id="pmb149335">
+               <persName>
+                  <surname>Fadinger</surname>
+                  <forename>Stefan</forename>
+               </persName>
+               <birth>
+                  <date>1585</date>
+                  <placeName type="wikidata" ref="Q678895">St. Agatha</placeName>
+               </birth>
+               <death>
+                  <date>1626-07-05</date>
+                  <placeName type="wikidata" ref="Q41329">Linz</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3513_p3</idno>
+               <idno type="wikidata">Q643708</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/129066524</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149335.html</idno>
+            </person>
+            <person xml:id="pmb154953">
+               <persName>
+                  <surname>Zötl</surname>
+                  <forename>Hans</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_993_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154953.html</idno>
+            </person>
+            <person xml:id="pmb99782">
+               <persName>
+                  <surname>Matosch</surname>
+                  <forename>Anton</forename>
+               </persName>
+               <birth>
+                  <date>1851-06-10</date>
+                  <placeName type="wikidata" ref="Q41329">Linz</placeName>
+               </birth>
+               <death>
+                  <date>1918-05-08</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_993_p5</idno>
+               <idno type="wikidata">Q591828</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/101255306</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb99782.html</idno>
+            </person>
+            <person xml:id="pmb149549">
+               <persName>
+                  <surname>Der Kürenberger</surname>
+               </persName>
+               <idno type="HB-tv">HB-tv_993_p6</idno>
+               <idno type="wikidata">Q615613</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118567756</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149549.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

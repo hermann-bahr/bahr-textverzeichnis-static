@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130403.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -85,10 +85,10 @@
                      <ptr type="pmb" target="pmb12068"/>
                      <ptr type="pmb" target="pmb4336"/>
                      <ptr type="pmb" target="pmb11209"/>
-                     <ptr type="HB-tv" target="HB-tv_3687_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3687_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3687_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_562_p3"/>
+                     <ptr type="pmb" target="pmb156056"/>
+                     <ptr type="pmb" target="pmb156057"/>
+                     <ptr type="pmb" target="pmb20315"/>
+                     <ptr type="pmb" target="pmb94057"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/berliner-tageblatt/1913_maler.pdf</ref>
@@ -121,5 +121,72 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb156056">
+               <persName>
+                  <surname>Perikles</surname>
+               </persName>
+               <birth>
+                  <date when-custom="um 490">um 490</date>
+               </birth>
+               <death>
+                  <date when-custom="429 v.u.Z.">429 v.u.Z.</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3687_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156056.html</idno>
+            </person>
+            <person xml:id="pmb156057">
+               <persName>
+                  <surname>Meister Eckhart</surname>
+               </persName>
+               <birth>
+                  <date when-custom="um 1260">um 1260</date>
+               </birth>
+               <death>
+                  <date when="1328">1328</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3687_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156057.html</idno>
+            </person>
+            <person xml:id="pmb20315">
+               <persName>
+                  <surname>Leonardo da Vinci</surname>
+               </persName>
+               <birth>
+                  <date>1452-04-15</date>
+                  <placeName type="wikidata" ref="Q154184">Anchiano</placeName>
+               </birth>
+               <death>
+                  <date>1519-05-02</date>
+                  <placeName type="wikidata" ref="Q205116">Amboise</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1930_p1</idno>
+               <idno type="wikidata">Q762</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118640445</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb20315.html</idno>
+            </person>
+            <person xml:id="pmb94057">
+               <persName>
+                  <surname>Bruno</surname>
+                  <forename>Giordano</forename>
+               </persName>
+               <birth>
+                  <date>1548-01-01</date>
+                  <placeName type="wikidata" ref="Q72288">Nola</placeName>
+               </birth>
+               <death>
+                  <date>1600-02-17</date>
+                  <placeName type="wikidata" ref="Q220">Rom</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_562_p3</idno>
+               <idno type="wikidata">Q36330</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118516221</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb94057.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

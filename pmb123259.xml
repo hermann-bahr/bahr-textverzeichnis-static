@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123259.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,9 +69,9 @@
                      <ptr type="pmb" target="pmb11046"/>
                      <ptr type="pmb" target="pmb4179"/>
                      <ptr type="pmb" target="pmb12265"/>
-                     <ptr type="HB-tv" target="HB-tv_2545_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1891_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2325_p3"/>
+                     <ptr type="pmb" target="pmb153983"/>
+                     <ptr type="pmb" target="pmb18651"/>
+                     <ptr type="pmb" target="pmb154318"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19000420&amp;seite=6</ref>
@@ -85,5 +85,51 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb153983">
+               <persName>
+                  <surname>Petri</surname>
+                  <forename>Lili</forename>
+               </persName>
+               <persName type="namensvariante">Amalie Schmitz, verh. Anno</persName>
+               <birth>
+                  <date when-custom="1864/67">1864/67</date>
+               </birth>
+               <death>
+                  <date when="1915">1915</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2545_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153983.html</idno>
+            </person>
+            <person xml:id="pmb18651">
+               <persName>
+                  <surname>Hetsey</surname>
+                  <forename>Alice</forename>
+               </persName>
+               <birth>
+                  <date>1875-09-03</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1939-02-11</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2337_p1</idno>
+               <idno type="wikidata">Q58011579</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/116778873</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb18651.html</idno>
+            </person>
+            <person xml:id="pmb154318">
+               <persName>
+                  <surname>Lackner</surname>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_2325_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154318.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

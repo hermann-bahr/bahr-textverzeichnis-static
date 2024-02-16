@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123861.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -68,8 +68,8 @@
                      <ptr type="pmb" target="pmb14318"/>
                      <ptr type="pmb" target="pmb26088"/>
                      <ptr type="pmb" target="pmb11438"/>
-                     <ptr type="HB-tv" target="HB-tv_2474_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_688_p5"/>
+                     <ptr type="pmb" target="pmb148834"/>
+                     <ptr type="pmb" target="pmb148636"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/deutsche-zeitung/75796.pdf</ref>
@@ -83,5 +83,46 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb148834">
+               <persName>
+                  <surname>Schweighofer</surname>
+                  <forename>Felix</forename>
+               </persName>
+               <birth>
+                  <date>1842-11-20</date>
+                  <placeName type="wikidata" ref="Q14960">Brünn</placeName>
+               </birth>
+               <death>
+                  <date>1912-01-28</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2474_p2</idno>
+               <idno type="wikidata">Q50134955</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117401846</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148834.html</idno>
+            </person>
+            <person xml:id="pmb148636">
+               <persName>
+                  <surname>Dupuis</surname>
+                  <forename>José</forename>
+               </persName>
+               <birth>
+                  <date>1833-03-18</date>
+                  <placeName type="wikidata" ref="Q3992">Lüttich</placeName>
+               </birth>
+               <death>
+                  <date>1900-05-09</date>
+                  <placeName type="wikidata" ref="Q212274">Nogent-sur-Marne</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_688_p5</idno>
+               <idno type="wikidata">Q3186268</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/141631023</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148636.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

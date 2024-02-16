@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb128715.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -76,11 +76,11 @@
                      <ptr type="pmb" target="pmb12504"/>
                      <ptr type="pmb" target="pmb3280"/>
                      <ptr type="pmb" target="pmb12548"/>
-                     <ptr type="HB-tv" target="HB-tv_3719_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2283_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3719_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_1326_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_2310_p1"/>
+                     <ptr type="pmb" target="pmb2513"/>
+                     <ptr type="pmb" target="pmb153989"/>
+                     <ptr type="pmb" target="pmb155776"/>
+                     <ptr type="pmb" target="pmb3368"/>
+                     <ptr type="pmb" target="pmb24515"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=19200218&amp;seite=1</ref>
@@ -92,5 +92,87 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2513">
+               <persName>
+                  <surname>Franz Josef I. von Österreich</surname>
+               </persName>
+               <birth>
+                  <date>1830-08-18</date>
+                  <placeName type="wikidata" ref="Q131330">Schloss Schönbrunn</placeName>
+               </birth>
+               <death>
+                  <date>1916-11-21</date>
+                  <placeName type="wikidata" ref="Q131330">Schloss Schönbrunn</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4881_p4</idno>
+               <idno type="wikidata">Q51056</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118535013</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2513.html</idno>
+            </person>
+            <person xml:id="pmb153989">
+               <persName>
+                  <surname>Löwe</surname>
+                  <forename>Konrad</forename>
+               </persName>
+               <birth>
+                  <date when="1856">1856</date>
+               </birth>
+               <death>
+                  <date when="1912">1912</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2283_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153989.html</idno>
+            </person>
+            <person xml:id="pmb155776">
+               <persName>
+                  <surname>Trohn</surname>
+                  <forename>Charlotte</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_3719_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155776.html</idno>
+            </person>
+            <person xml:id="pmb3368">
+               <persName>
+                  <surname>Olbrich</surname>
+                  <forename>Josef Maria</forename>
+               </persName>
+               <birth>
+                  <date>1867-12-22</date>
+                  <placeName type="wikidata" ref="Q156080">Opava</placeName>
+               </birth>
+               <death>
+                  <date>1908-08-08</date>
+                  <placeName type="wikidata" ref="Q1718">Düsseldorf</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1326_p4</idno>
+               <idno type="wikidata">Q44911</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118589768</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3368.html</idno>
+            </person>
+            <person xml:id="pmb24515">
+               <persName>
+                  <surname>Schreyvogel</surname>
+                  <forename>Joseph</forename>
+               </persName>
+               <birth>
+                  <date>1768-03-27</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1832-07-28</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2310_p1</idno>
+               <idno type="wikidata">Q94645</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119368579</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb24515.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

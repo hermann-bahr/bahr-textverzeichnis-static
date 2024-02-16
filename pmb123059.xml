@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123059.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -72,8 +72,8 @@
                      <ptr type="pmb" target="pmb11402"/>
                      <ptr type="pmb" target="pmb3982"/>
                      <ptr type="pmb" target="pmb3998"/>
-                     <ptr type="HB-tv" target="HB-tv_2330_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2330_p2"/>
+                     <ptr type="pmb" target="pmb11171"/>
+                     <ptr type="pmb" target="pmb154215"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19010528&amp;seite=6</ref>
@@ -87,5 +87,36 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb11171">
+               <persName>
+                  <surname>Dreher</surname>
+                  <forename>Conrad</forename>
+               </persName>
+               <birth>
+                  <date>1859-10-30</date>
+                  <placeName type="wikidata" ref="Q1726">München</placeName>
+               </birth>
+               <death>
+                  <date>1944-12-07</date>
+                  <placeName type="wikidata" ref="Q269186">Fessenheim</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2330_p1</idno>
+               <idno type="wikidata">Q43790</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116213035</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11171.html</idno>
+            </person>
+            <person xml:id="pmb154215">
+               <persName>
+                  <surname>Dengg</surname>
+                  <forename>Anna</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_2330_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154215.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

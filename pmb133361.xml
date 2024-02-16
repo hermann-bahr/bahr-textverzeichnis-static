@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133361.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -85,11 +85,11 @@
                      <ptr type="pmb" target="pmb12899"/>
                      <ptr type="pmb" target="pmb2121"/>
                      <ptr type="pmb" target="pmb2157"/>
-                     <ptr type="HB-tv" target="HB-tv_461_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2007_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_4809_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2283_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_4466_p1"/>
+                     <ptr type="pmb" target="pmb156763"/>
+                     <ptr type="pmb" target="pmb154008"/>
+                     <ptr type="pmb" target="pmb12971"/>
+                     <ptr type="pmb" target="pmb153989"/>
+                     <ptr type="pmb" target="pmb24702"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1898-15/194-187.pdf</ref>
@@ -107,5 +107,83 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb156763">
+               <persName>
+                  <surname>Ansion</surname>
+                  <forename>Helene</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_461_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156763.html</idno>
+            </person>
+            <person xml:id="pmb154008">
+               <persName>
+                  <surname>Engels</surname>
+                  <forename>Alexander</forename>
+               </persName>
+               <birth>
+                  <date when="1871">1871</date>
+               </birth>
+               <death>
+                  <date when="1933">1933</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2007_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154008.html</idno>
+            </person>
+            <person xml:id="pmb12971">
+               <persName>
+                  <surname>Treßler</surname>
+                  <forename>Otto</forename>
+               </persName>
+               <birth>
+                  <date>1871-04-13</date>
+                  <placeName type="wikidata" ref="Q1022">Stuttgart</placeName>
+               </birth>
+               <death>
+                  <date>1965-04-27</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4809_p1</idno>
+               <idno type="wikidata">Q86437</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117414719</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb12971.html</idno>
+            </person>
+            <person xml:id="pmb153989">
+               <persName>
+                  <surname>Löwe</surname>
+                  <forename>Konrad</forename>
+               </persName>
+               <birth>
+                  <date when="1856">1856</date>
+               </birth>
+               <death>
+                  <date when="1912">1912</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2283_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153989.html</idno>
+            </person>
+            <person xml:id="pmb24702">
+               <persName>
+                  <surname>Schönthan</surname>
+                  <forename>Franz von</forename>
+               </persName>
+               <birth>
+                  <date>1849-06-20</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1913-12-02</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4466_p1</idno>
+               <idno type="wikidata">Q114579</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116889292</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb24702.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

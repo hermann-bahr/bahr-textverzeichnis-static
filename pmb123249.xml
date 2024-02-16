@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123249.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -68,9 +68,9 @@
                   <listRef>
                      <ptr type="pmb" target="pmb21463"/>
                      <ptr type="pmb" target="pmb13933"/>
-                     <ptr type="HB-tv" target="HB-tv_2385_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2385_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2385_p3"/>
+                     <ptr type="pmb" target="pmb154305"/>
+                     <ptr type="pmb" target="pmb154306"/>
+                     <ptr type="pmb" target="pmb116390"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19001219&amp;seite=8</ref>
@@ -83,5 +83,50 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154305">
+               <persName>
+                  <surname>Hennequin</surname>
+                  <forename>Alfred</forename>
+               </persName>
+               <birth>
+                  <date when="1846">1846</date>
+               </birth>
+               <death>
+                  <date when="1914">1914</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2385_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154305.html</idno>
+            </person>
+            <person xml:id="pmb154306">
+               <persName>
+                  <surname>Pierny</surname>
+                  <forename>Jane</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_2385_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154306.html</idno>
+            </person>
+            <person xml:id="pmb116390">
+               <persName>
+                  <surname>Vauvenargues</surname>
+                  <forename>Luc de Clapiers de</forename>
+               </persName>
+               <birth>
+                  <date>1715-08-06</date>
+                  <placeName type="wikidata" ref="Q47465">Aix-en-Provence</placeName>
+               </birth>
+               <death>
+                  <date>1747-05-28</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2385_p3</idno>
+               <idno type="wikidata">Q551730</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118767410</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116390.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

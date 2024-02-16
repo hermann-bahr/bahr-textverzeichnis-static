@@ -24,7 +24,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133593.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -110,7 +110,7 @@
                      <ptr type="pmb" target="pmb2121"/>
                      <ptr type="pmb" target="pmb22098"/>
                      <ptr type="pmb" target="pmb11093"/>
-                     <ptr type="HB-tv" target="HB-tv_4469_p1"/>
+                     <ptr type="pmb" target="pmb116858"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1896-9/111-111.pdf</ref>
@@ -129,5 +129,28 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb116858">
+               <persName>
+                  <surname>Scheffel</surname>
+                  <forename>Joseph Victor</forename>
+               </persName>
+               <birth>
+                  <date>1826-02-16</date>
+                  <placeName type="wikidata" ref="Q1040">Karlsruhe</placeName>
+               </birth>
+               <death>
+                  <date>1886-04-09</date>
+                  <placeName type="wikidata" ref="Q1040">Karlsruhe</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4469_p1</idno>
+               <idno type="wikidata">Q9082</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118606832</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116858.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

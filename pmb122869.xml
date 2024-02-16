@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122869.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -70,10 +70,10 @@
                      <ptr type="pmb" target="pmb11791"/>
                      <ptr type="pmb" target="pmb10752"/>
                      <ptr type="pmb" target="pmb2246"/>
-                     <ptr type="HB-tv" target="HB-tv_1968_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1968_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1968_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_1968_p4"/>
+                     <ptr type="pmb" target="pmb148793"/>
+                     <ptr type="pmb" target="pmb148798"/>
+                     <ptr type="pmb" target="pmb154097"/>
+                     <ptr type="pmb" target="pmb154098"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19021005&amp;seite=9</ref>
@@ -87,5 +87,76 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb148793">
+               <persName>
+                  <surname>Chatrian</surname>
+                  <forename>Alexandre</forename>
+               </persName>
+               <birth>
+                  <date>1826-12-18</date>
+                  <placeName type="wikidata" ref="Q24936374"/>
+               </birth>
+               <death>
+                  <date>1890-09-03</date>
+                  <placeName type="wikidata" ref="Q244716">Villemomble</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1968_p1</idno>
+               <idno type="wikidata">Q2833544</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118815024</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148793.html</idno>
+            </person>
+            <person xml:id="pmb148798">
+               <persName>
+                  <surname>Erckmann</surname>
+                  <forename>Émile</forename>
+               </persName>
+               <birth>
+                  <date>1822-05-20</date>
+                  <placeName type="wikidata" ref="Q22160">Phalsbourg</placeName>
+               </birth>
+               <death>
+                  <date>1899-03-14</date>
+                  <placeName type="wikidata" ref="Q208794">Lunéville</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1968_p2</idno>
+               <idno type="wikidata">Q3246593</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118812890</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148798.html</idno>
+            </person>
+            <person xml:id="pmb154097">
+               <persName>
+                  <surname>Got</surname>
+                  <forename>François Jules Edmond</forename>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <birth>
+                  <date when="1822">1822</date>
+               </birth>
+               <death>
+                  <date when="1901">1901</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1968_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154097.html</idno>
+            </person>
+            <person xml:id="pmb154098">
+               <persName>
+                  <surname>Lobe</surname>
+                  <forename>Theodor</forename>
+               </persName>
+               <birth>
+                  <date when="1833">1833</date>
+               </birth>
+               <death>
+                  <date when="1905">1905</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1968_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154098.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

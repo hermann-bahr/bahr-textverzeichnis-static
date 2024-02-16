@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122477.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -59,7 +59,7 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb12816"/>
-                     <ptr type="HB-tv" target="HB-tv_3923_p1"/>
+                     <ptr type="pmb" target="pmb114057"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/deutsche-zeitung/74893.pdf</ref>
@@ -72,5 +72,27 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb114057">
+               <persName>
+                  <surname>Nikola I. Petrović Njegoš von Montenegro</surname>
+               </persName>
+               <birth>
+                  <date>1841-10-07</date>
+                  <placeName type="wikidata" ref="Q2548973"/>
+               </birth>
+               <death>
+                  <date>1921-03-01</date>
+                  <placeName type="wikidata" ref="Q126898">Antibes</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3923_p1</idno>
+               <idno type="wikidata">Q283255</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119230194</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114057.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -24,7 +24,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133715.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -61,8 +61,8 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb12331"/>
-                     <ptr type="HB-tv" target="HB-tv_332_p1"/>
-                     <ptr type="HB-tv" target="pmb141149_p32"/>
+                     <ptr type="pmb" target="pmb156972"/>
+                     <ptr type="pmb" target="pmb10332"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1895-3/30_58--59.pdf</ref>
@@ -77,5 +77,35 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb156972">
+               <persName>
+                  <surname>Bombelles</surname>
+                  <forename>Markus von</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_332_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156972.html</idno>
+            </person>
+            <person xml:id="pmb10332">
+               <persName>
+                  <surname>Lope de Vega</surname>
+               </persName>
+               <birth>
+                  <date>1562-11-25</date>
+                  <placeName type="wikidata" ref="Q2807">Madrid</placeName>
+               </birth>
+               <death>
+                  <date>1635-08-27</date>
+                  <placeName type="wikidata" ref="Q2807">Madrid</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1329_p1</idno>
+               <idno type="wikidata">Q165257</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118626353</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb10332.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

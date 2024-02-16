@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130719.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -75,8 +75,8 @@
                      <ptr type="pmb" target="pmb12654"/>
                      <ptr type="pmb" target="pmb11518"/>
                      <ptr type="pmb" target="pmb12743"/>
-                     <ptr type="HB-tv" target="HB-tv_3442_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3442_p2"/>
+                     <ptr type="pmb" target="pmb150939"/>
+                     <ptr type="pmb" target="pmb94646"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/12-essays.pdf</ref>
@@ -122,5 +122,47 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb150939">
+               <persName>
+                  <surname>Krupp</surname>
+                  <forename>Alfred</forename>
+               </persName>
+               <birth>
+                  <date>1812-04-26</date>
+                  <placeName type="wikidata" ref="Q2066">Essen</placeName>
+               </birth>
+               <death>
+                  <date>1887-07-14</date>
+                  <placeName type="wikidata" ref="Q2066">Essen</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3442_p1</idno>
+               <idno type="wikidata">Q455937</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118567241</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150939.html</idno>
+            </person>
+            <person xml:id="pmb94646">
+               <persName>
+                  <surname>Auer von Welsbach</surname>
+                  <forename>Carl</forename>
+               </persName>
+               <birth>
+                  <date>1858-09-01</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1929-08-04</date>
+                  <placeName type="wikidata" ref="Q662243">Mölbling</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3442_p2</idno>
+               <idno type="wikidata">Q89390</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118651013</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb94646.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133411.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -70,11 +70,11 @@
                      <ptr type="pmb" target="pmb8931"/>
                      <ptr type="pmb" target="pmb13024"/>
                      <ptr type="pmb" target="pmb11978"/>
-                     <ptr type="HB-tv" target="HB-tv_1319_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2850_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2849_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2849_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_2849_p5"/>
+                     <ptr type="pmb" target="pmb148906"/>
+                     <ptr type="pmb" target="pmb156783"/>
+                     <ptr type="pmb" target="pmb114969"/>
+                     <ptr type="pmb" target="pmb114975"/>
+                     <ptr type="pmb" target="pmb151884"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/5-renaissance.pdf</ref>
@@ -105,5 +105,97 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb148906">
+               <persName>
+                  <surname>Hörmann</surname>
+                  <forename>Theodor von</forename>
+               </persName>
+               <birth>
+                  <date>1840-12-13</date>
+                  <placeName type="wikidata" ref="Q254107">Imst</placeName>
+               </birth>
+               <death>
+                  <date>1895-07-01</date>
+                  <placeName type="wikidata" ref="Q13298">Graz</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1319_p2</idno>
+               <idno type="wikidata">Q872134</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118552201</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148906.html</idno>
+            </person>
+            <person xml:id="pmb156783">
+               <persName>
+                  <surname>Engelhardt</surname>
+                  <forename>Josef</forename>
+               </persName>
+               <birth>
+                  <date when="1864">1864</date>
+               </birth>
+               <death>
+                  <date when="1941">1941</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2850_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156783.html</idno>
+            </person>
+            <person xml:id="pmb114969">
+               <persName>
+                  <surname>Oscar II. von Schweden</surname>
+               </persName>
+               <birth>
+                  <date>1829-01-21</date>
+                  <placeName type="wikidata" ref="Q1754">Stockholm</placeName>
+               </birth>
+               <death>
+                  <date>1907-12-08</date>
+                  <placeName type="wikidata" ref="Q1754">Stockholm</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2849_p3</idno>
+               <idno type="wikidata">Q52924</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/101463111</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114969.html</idno>
+            </person>
+            <person xml:id="pmb114975">
+               <persName>
+                  <surname>Gustav V. von Schweden</surname>
+               </persName>
+               <birth>
+                  <date>1858-06-16</date>
+                  <placeName type="wikidata" ref="Q208559">Schloss Drottningholm</placeName>
+               </birth>
+               <death>
+                  <date>1950-10-29</date>
+                  <placeName type="wikidata" ref="Q208559">Schloss Drottningholm</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2849_p4</idno>
+               <idno type="wikidata">Q52890</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118719548</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114975.html</idno>
+            </person>
+            <person xml:id="pmb151884">
+               <persName>
+                  <surname>Holmboe</surname>
+                  <forename>Thorolf</forename>
+               </persName>
+               <birth>
+                  <date>1866-05-10</date>
+                  <placeName type="wikidata" ref="Q503654">Vefsn</placeName>
+               </birth>
+               <death>
+                  <date>1935-03-08</date>
+                  <placeName type="wikidata" ref="Q585">Oslo</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2849_p5</idno>
+               <idno type="wikidata">Q2695615</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117528862</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151884.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb128849.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -76,9 +76,9 @@
                      <ptr type="pmb" target="pmb12358"/>
                      <ptr type="pmb" target="pmb5178"/>
                      <ptr type="pmb" target="pmb14905"/>
-                     <ptr type="HB-tv" target="HB-tv_5451_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_5313_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1308_p2"/>
+                     <ptr type="pmb" target="pmb150036"/>
+                     <ptr type="pmb" target="pmb150506"/>
+                     <ptr type="pmb" target="pmb154687"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwj&amp;datum=19190914&amp;seite=6</ref>
@@ -96,5 +96,60 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb150036">
+               <persName>
+                  <surname>Wolf Dietrich von Raitenau</surname>
+               </persName>
+               <birth>
+                  <date>1559-03-26</date>
+                  <placeName type="wikidata" ref="Q1737">Bregenz</placeName>
+               </birth>
+               <death>
+                  <date>1617-01-16</date>
+                  <placeName type="wikidata" ref="Q679292">Festung Hohensalzburg</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3377_p16</idno>
+               <idno type="wikidata">Q251055</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118597973</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150036.html</idno>
+            </person>
+            <person xml:id="pmb150506">
+               <persName>
+                  <surname>Mörk von Mörkenstein</surname>
+                  <forename>Alexander</forename>
+               </persName>
+               <birth>
+                  <date>1887-12-04</date>
+                  <placeName type="wikidata" ref="Q208473">Przemyśl</placeName>
+               </birth>
+               <death>
+                  <date>1914-10-23</date>
+                  <placeName type="wikidata" ref="Q983983">Nisko</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_5313_p1</idno>
+               <idno type="wikidata">Q2642709</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118883267</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150506.html</idno>
+            </person>
+            <person xml:id="pmb154687">
+               <persName>
+                  <surname>Friedrich II. von Preußen</surname>
+                  <forename>»der Große«</forename>
+               </persName>
+               <birth>
+                  <date when="1712">1712</date>
+               </birth>
+               <death>
+                  <date when="1786">1786</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1308_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154687.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133275.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -72,7 +72,7 @@
                      <ptr type="pmb" target="pmb15229"/>
                      <ptr type="pmb" target="pmb11201"/>
                      <ptr type="pmb" target="pmb3787"/>
-                     <ptr type="HB-tv" target="HB-tv_742_p2"/>
+                     <ptr type="pmb" target="pmb2181"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1899-19/240-91.pdf</ref>
@@ -86,5 +86,47 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2142">
+               <persName>
+                  <surname>d’Annunzio</surname>
+                  <forename>Gabriele</forename>
+               </persName>
+               <birth>
+                  <date>1863-03-12</date>
+                  <placeName type="wikidata" ref="Q2704">Pescara</placeName>
+               </birth>
+               <death>
+                  <date>1938-03-01</date>
+                  <placeName type="wikidata" ref="Q104619">Gardone Riviera</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4865_p5</idno>
+               <idno type="wikidata">Q193236</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118503243</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2142.html</idno>
+            </person>
+            <person xml:id="pmb2181">
+               <persName>
+                  <surname>Velàzquez</surname>
+                  <forename>Diego Rodrìguez de Silva y</forename>
+               </persName>
+               <birth>
+                  <date>1599-06-06</date>
+                  <placeName type="wikidata" ref="Q8717">Sevilla</placeName>
+               </birth>
+               <death>
+                  <date>1660-08-06</date>
+                  <placeName type="wikidata" ref="Q2807">Madrid</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1387_p91</idno>
+               <idno type="wikidata">Q297</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118626426</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2181.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

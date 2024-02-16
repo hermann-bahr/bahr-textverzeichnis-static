@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133949.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -61,10 +61,10 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb12195"/>
-                     <ptr type="HB-tv" target="HB-tv_6695_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2725_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2725_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_1443_p5"/>
+                     <ptr type="pmb" target="pmb116011"/>
+                     <ptr type="pmb" target="pmb152463"/>
+                     <ptr type="pmb" target="pmb52648"/>
+                     <ptr type="pmb" target="pmb115090"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/3-antisemitismus.pdf</ref>
@@ -99,5 +99,86 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb116011">
+               <persName>
+                  <surname>Schmoller</surname>
+                  <forename>Gustav von</forename>
+               </persName>
+               <birth>
+                  <date>1838-06-24</date>
+                  <placeName type="wikidata" ref="Q715">Heilbronn</placeName>
+               </birth>
+               <death>
+                  <date>1917-06-27</date>
+                  <placeName type="wikidata" ref="Q522459">Bad Harzburg</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_6695_p2</idno>
+               <idno type="wikidata">Q62833</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118609378</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116011.html</idno>
+            </person>
+            <person xml:id="pmb152463">
+               <persName>
+                  <surname>Hildebrand</surname>
+                  <forename>Bruno</forename>
+               </persName>
+               <birth>
+                  <date>1812-03-06</date>
+                  <placeName type="wikidata" ref="Q15986">Naumburg (Saale)</placeName>
+               </birth>
+               <death>
+                  <date>1878-01-29</date>
+                  <placeName type="wikidata" ref="Q3150">Jena</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2725_p2</idno>
+               <idno type="wikidata">Q77667</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118550942</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152463.html</idno>
+            </person>
+            <person xml:id="pmb52648">
+               <persName>
+                  <surname>Hehn</surname>
+                  <forename>Victor</forename>
+               </persName>
+               <birth>
+                  <date>1813-10-08</date>
+                  <placeName type="wikidata" ref="Q13972">Tartu</placeName>
+               </birth>
+               <death>
+                  <date>1890-03-21</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2725_p3</idno>
+               <idno type="wikidata">Q89393</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118163981</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb52648.html</idno>
+            </person>
+            <person xml:id="pmb115090">
+               <persName>
+                  <surname>Lasker</surname>
+                  <forename>Eduard</forename>
+               </persName>
+               <persName type="namensvariante">Jizchak Lasker</persName>
+               <birth>
+                  <date>1829-10-14</date>
+                  <placeName type="wikidata" ref="Q52840">Jarocin</placeName>
+               </birth>
+               <death>
+                  <date>1884-01-05</date>
+                  <placeName type="wikidata" ref="Q60">New York City</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1443_p5</idno>
+               <idno type="wikidata">Q213981</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118569848</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb115090.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

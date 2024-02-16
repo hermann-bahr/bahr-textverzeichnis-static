@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130917.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,12 +69,12 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb2132"/>
-                     <ptr type="HB-tv" target="HB-tv_4464_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_3891_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3891_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_3891_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_3891_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_3891_p6"/>
+                     <ptr type="pmb" target="pmb148736"/>
+                     <ptr type="pmb" target="pmb156234"/>
+                     <ptr type="pmb" target="pmb117437"/>
+                     <ptr type="pmb" target="pmb156235"/>
+                     <ptr type="pmb" target="pmb151066"/>
+                     <ptr type="pmb" target="pmb151067"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/11-austriaca.pdf</ref>
@@ -107,5 +107,111 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb148736">
+               <persName>
+                  <surname>Rudigier</surname>
+                  <forename>Franz Joseph</forename>
+               </persName>
+               <birth>
+                  <date>1811-04-07</date>
+                  <placeName type="wikidata" ref="Q2054367">Partenen</placeName>
+               </birth>
+               <death>
+                  <date>1884-11-29</date>
+                  <placeName type="wikidata" ref="Q41329">Linz</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4464_p4</idno>
+               <idno type="wikidata">Q877406</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118750135</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148736.html</idno>
+            </person>
+            <person xml:id="pmb156234">
+               <persName>
+                  <surname>Morley of Blackburn</surname>
+                  <forename>John</forename>
+               </persName>
+               <birth>
+                  <date when="1838">1838</date>
+               </birth>
+               <death>
+                  <date when="1923">1923</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3891_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156234.html</idno>
+            </person>
+            <person xml:id="pmb117437">
+               <persName>
+                  <surname>Gladstone</surname>
+                  <forename>William Ewart</forename>
+               </persName>
+               <birth>
+                  <date>1809-12-29</date>
+                  <placeName type="wikidata" ref="Q24826">Liverpool</placeName>
+               </birth>
+               <death>
+                  <date>1898-05-19</date>
+                  <placeName type="wikidata" ref="Q370127">Hawarden Castle</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3891_p3</idno>
+               <idno type="wikidata">Q160852</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118695207</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb117437.html</idno>
+            </person>
+            <person xml:id="pmb156235">
+               <persName>
+                  <surname>Gladstone</surname>
+                  <forename>John Neilson</forename>
+               </persName>
+               <birth>
+                  <date when="1807">1807</date>
+               </birth>
+               <death>
+                  <date when="1863">1863</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3891_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156235.html</idno>
+            </person>
+            <person xml:id="pmb151066">
+               <persName>
+                  <surname>Pelham-Clinton of Newcastle</surname>
+                  <forename>Henry Jr.</forename>
+               </persName>
+               <birth>
+                  <date>1811-05-22</date>
+               </birth>
+               <death>
+                  <date>1864-10-18</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3891_p5</idno>
+               <idno type="wikidata">Q2492102</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117583863</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151066.html</idno>
+            </person>
+            <person xml:id="pmb151067">
+               <persName>
+                  <surname>Pelham-Clinton of Newcastle</surname>
+                  <forename>Henry</forename>
+               </persName>
+               <birth>
+                  <date>1785-01-31</date>
+                  <placeName type="wikidata" ref="Q2003600">Walton-on-Thames</placeName>
+               </birth>
+               <death>
+                  <date>1851-01-12</date>
+                  <placeName type="wikidata" ref="Q5136607"/>
+               </death>
+               <idno type="HB-tv">HB-tv_3891_p6</idno>
+               <idno type="wikidata">Q2034202</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/129891207</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151067.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

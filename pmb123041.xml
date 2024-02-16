@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123041.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -72,8 +72,8 @@
                      <ptr type="pmb" target="pmb14519"/>
                      <ptr type="pmb" target="pmb10752"/>
                      <ptr type="pmb" target="pmb2189"/>
-                     <ptr type="HB-tv" target="HB-tv_2402_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2399_p3"/>
+                     <ptr type="pmb" target="pmb13082"/>
+                     <ptr type="pmb" target="pmb154033"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19010424&amp;seite=8</ref>
@@ -86,5 +86,42 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb13082">
+               <persName>
+                  <surname>Karlweis</surname>
+                  <forename>Carl</forename>
+               </persName>
+               <birth>
+                  <date>1850-11-23</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1901-10-27</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2402_p2</idno>
+               <idno type="wikidata">Q735989</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117302996</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb13082.html</idno>
+            </person>
+            <person xml:id="pmb154033">
+               <persName>
+                  <surname>Thaller</surname>
+                  <forename>Willy</forename>
+               </persName>
+               <birth>
+                  <date when="1854">1854</date>
+               </birth>
+               <death>
+                  <date when-custom="1941?">1941?</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2399_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154033.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

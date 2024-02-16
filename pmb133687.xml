@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133687.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -74,10 +74,10 @@
                      <ptr type="pmb" target="pmb10943"/>
                      <ptr type="pmb" target="pmb11441"/>
                      <ptr type="pmb" target="pmb12265"/>
-                     <ptr type="HB-tv" target="HB-tv_2330_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3332_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_386_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_715_p17"/>
+                     <ptr type="pmb" target="pmb11171"/>
+                     <ptr type="pmb" target="pmb113956"/>
+                     <ptr type="pmb" target="pmb117881"/>
+                     <ptr type="pmb" target="pmb151859"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/49-154.pdf</ref>
@@ -95,5 +95,85 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb11171">
+               <persName>
+                  <surname>Dreher</surname>
+                  <forename>Conrad</forename>
+               </persName>
+               <birth>
+                  <date>1859-10-30</date>
+                  <placeName type="wikidata" ref="Q1726">München</placeName>
+               </birth>
+               <death>
+                  <date>1944-12-07</date>
+                  <placeName type="wikidata" ref="Q269186">Fessenheim</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2330_p1</idno>
+               <idno type="wikidata">Q43790</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116213035</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11171.html</idno>
+            </person>
+            <person xml:id="pmb113956">
+               <persName>
+                  <surname>Lenbach</surname>
+                  <forename>Franz von</forename>
+               </persName>
+               <birth>
+                  <date>1836-12-13</date>
+                  <placeName type="wikidata" ref="Q504746">Schrobenhausen</placeName>
+               </birth>
+               <death>
+                  <date>1904-05-06</date>
+                  <placeName type="wikidata" ref="Q1726">München</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3332_p1</idno>
+               <idno type="wikidata">Q585323</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118571516</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113956.html</idno>
+            </person>
+            <person xml:id="pmb117881">
+               <persName>
+                  <surname>Hengeler</surname>
+                  <forename>Adolf</forename>
+               </persName>
+               <birth>
+                  <date>1863-02-11</date>
+                  <placeName type="wikidata" ref="Q3994">Kempten</placeName>
+               </birth>
+               <death>
+                  <date>1927-12-03</date>
+                  <placeName type="wikidata" ref="Q1726">München</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_386_p4</idno>
+               <idno type="wikidata">Q54891</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116701544</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb117881.html</idno>
+            </person>
+            <person xml:id="pmb151859">
+               <persName>
+                  <surname>Strathmann</surname>
+                  <forename>Carl</forename>
+               </persName>
+               <birth>
+                  <date>1866-09-11</date>
+                  <placeName type="wikidata" ref="Q1718">Düsseldorf</placeName>
+               </birth>
+               <death>
+                  <date>1939</date>
+                  <placeName type="wikidata" ref="Q1726">München</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_715_p17</idno>
+               <idno type="wikidata">Q21516056</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118618954</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151859.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

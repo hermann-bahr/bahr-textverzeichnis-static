@@ -24,7 +24,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb134597.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -77,12 +77,12 @@
                   <listRef>
                      <ptr type="pmb" target="pmb20012"/>
                      <ptr type="pmb" target="pmb20236"/>
-                     <ptr type="HB-tv" target="HB-tv_109_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_4835_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_109_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_109_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_109_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_109_p6"/>
+                     <ptr type="pmb" target="pmb157405"/>
+                     <ptr type="pmb" target="pmb112447"/>
+                     <ptr type="pmb" target="pmb117568"/>
+                     <ptr type="pmb" target="pmb157406"/>
+                     <ptr type="pmb" target="pmb157407"/>
+                     <ptr type="pmb" target="pmb153425"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/freie-buehne/1890-25_feuilleton.pdf</ref>
@@ -101,5 +101,76 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb157405">
+               <persName>
+                  <surname>Saint-Cère</surname>
+                  <forename>Jacques</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_109_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157405.html</idno>
+            </person>
+            <person xml:id="pmb112447">
+               <persName>
+                  <surname>Forain</surname>
+                  <forename>Jean-Louis</forename>
+               </persName>
+               <birth>
+                  <date>1852-10-23</date>
+                  <placeName type="wikidata" ref="Q41876">Reims</placeName>
+               </birth>
+               <death>
+                  <date>1931-07-11</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4835_p2</idno>
+               <idno type="wikidata">Q719614</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118684191</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb112447.html</idno>
+            </person>
+            <person xml:id="pmb117568">
+               <persName>
+                  <surname>Labiche</surname>
+               </persName>
+               <occupation>Großhändler</occupation>
+               <idno type="HB-tv">HB-tv_109_p3</idno>
+               <idno type="wikidata">Q379929</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11877834X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb117568.html</idno>
+            </person>
+            <person xml:id="pmb157406">
+               <persName>
+                  <surname>Sahib</surname>
+               </persName>
+               <idno type="HB-tv">HB-tv_109_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157406.html</idno>
+            </person>
+            <person xml:id="pmb157407">
+               <persName>
+                  <surname>Vallet</surname>
+                  <forename>Louis</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_109_p5</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157407.html</idno>
+            </person>
+            <person xml:id="pmb153425">
+               <persName>
+                  <surname>Caran d’Ache</surname>
+               </persName>
+               <persName type="geburtsname">
+                  <surname>Poiré</surname>
+                  <forename>Emmanuel</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_109_p6</idno>
+               <idno type="wikidata">Q708521</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/122116305</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153425.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

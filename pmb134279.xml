@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb134279.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -70,10 +70,10 @@
                      <ptr type="pmb" target="pmb12624"/>
                      <ptr type="pmb" target="pmb11438"/>
                      <ptr type="pmb" target="pmb18595"/>
-                     <ptr type="HB-tv" target="HB-tv_4046_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_209_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_209_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_209_p4"/>
+                     <ptr type="pmb" target="pmb154639"/>
+                     <ptr type="pmb" target="pmb157157"/>
+                     <ptr type="pmb" target="pmb157158"/>
+                     <ptr type="pmb" target="pmb157159"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/deutsche-zeitung/75173.pdf</ref>
@@ -87,5 +87,47 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154639">
+               <persName>
+                  <surname>Alberti</surname>
+                  <forename>Konrad</forename>
+               </persName>
+               <birth>
+                  <date when="1862">1862</date>
+               </birth>
+               <death>
+                  <date when="1918">1918</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4046_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154639.html</idno>
+            </person>
+            <person xml:id="pmb157157">
+               <persName>
+                  <surname>Bedecovich</surname>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <idno type="HB-tv">HB-tv_209_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157157.html</idno>
+            </person>
+            <person xml:id="pmb157158">
+               <persName>
+                  <surname>Franker</surname>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_209_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157158.html</idno>
+            </person>
+            <person xml:id="pmb157159">
+               <persName>
+                  <surname>Norini</surname>
+                  <forename>Emil</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_209_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157159.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

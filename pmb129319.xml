@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb129319.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -83,7 +83,7 @@
                      <ptr type="pmb" target="pmb2147"/>
                      <ptr type="pmb" target="pmb11461"/>
                      <ptr type="pmb" target="pmb13102"/>
-                     <ptr type="HB-tv" target="HB-tv_2215_p1"/>
+                     <ptr type="pmb" target="pmb155922"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -100,7 +100,7 @@
                      <date type="year">1919</date>
                      <biblScope unit="issue">5</biblScope>
                      <biblScope unit="page">555–564</biblScope>
-                     <title ref="pmb129335">Walt Whitman</title>
+                     <title ref="pmb129335" level="a">Walt Whitman</title>
                   </bibl>
                   <bibl type="obsolete">
                      <title level="j" ref="pmb41507">Prager
@@ -134,5 +134,23 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb155922">
+               <persName>
+                  <surname>Fox</surname>
+                  <forename>George</forename>
+               </persName>
+               <birth>
+                  <date when="1624">1624</date>
+               </birth>
+               <death>
+                  <date when="1690">1690</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2215_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155922.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

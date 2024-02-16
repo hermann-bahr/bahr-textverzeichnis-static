@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb124115.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -78,9 +78,9 @@
                   <listRef>
                      <ptr type="pmb" target="pmb2566"/>
                      <ptr type="pmb" target="pmb2412"/>
-                     <ptr type="HB-tv" target="HB-tv_936_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_936_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_936_p3"/>
+                     <ptr type="pmb" target="pmb154678"/>
+                     <ptr type="pmb" target="pmb149107"/>
+                     <ptr type="pmb" target="pmb149110"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -91,5 +91,47 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154678">
+               <persName>
+                  <surname>Siegfried</surname>
+                  <forename>André</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_936_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154678.html</idno>
+            </person>
+            <person xml:id="pmb149107">
+               <persName>
+                  <surname>Dilke</surname>
+                  <forename>Charles</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_936_p2</idno>
+               <idno type="wikidata">Q338114</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118638793</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149107.html</idno>
+            </person>
+            <person xml:id="pmb149110">
+               <persName>
+                  <surname>Sackville-West</surname>
+                  <forename>Vita</forename>
+               </persName>
+               <birth>
+                  <date>1892-03-09</date>
+                  <placeName type="wikidata" ref="Q1285144">Knole House</placeName>
+               </birth>
+               <death>
+                  <date>1962-06-02</date>
+                  <placeName type="wikidata" ref="Q1971996">Sissinghurst Castle</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_936_p3</idno>
+               <idno type="wikidata">Q235505</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/118604686</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149110.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

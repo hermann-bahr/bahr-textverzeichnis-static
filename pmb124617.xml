@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb124617.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -60,9 +60,9 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb5629"/>
-                     <ptr type="HB-tv" target="HB-tv_3513_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3513_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3513_p3"/>
+                     <ptr type="pmb" target="pmb154812"/>
+                     <ptr type="pmb" target="pmb26624"/>
+                     <ptr type="pmb" target="pmb149335"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/21-labyrinth.pdf</ref>
@@ -93,5 +93,60 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154812">
+               <persName>
+                  <surname>Weinberger</surname>
+                  <forename>Karl</forename>
+               </persName>
+               <birth>
+                  <date when="1892">1892</date>
+               </birth>
+               <death>
+                  <date when="1966">1966</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3513_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154812.html</idno>
+            </person>
+            <person xml:id="pmb26624">
+               <persName>
+                  <surname>Wallenstein</surname>
+               </persName>
+               <birth>
+                  <date>1583-09-24</date>
+                  <placeName type="wikidata" ref="Q1617107">Heřmanice nad Labem</placeName>
+               </birth>
+               <death>
+                  <date>1634-02-25</date>
+                  <placeName type="wikidata" ref="Q193719">Cheb</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3513_p2</idno>
+               <idno type="wikidata">Q153545</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118628755</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb26624.html</idno>
+            </person>
+            <person xml:id="pmb149335">
+               <persName>
+                  <surname>Fadinger</surname>
+                  <forename>Stefan</forename>
+               </persName>
+               <birth>
+                  <date>1585</date>
+                  <placeName type="wikidata" ref="Q678895">St. Agatha</placeName>
+               </birth>
+               <death>
+                  <date>1626-07-05</date>
+                  <placeName type="wikidata" ref="Q41329">Linz</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3513_p3</idno>
+               <idno type="wikidata">Q643708</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/129066524</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149335.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

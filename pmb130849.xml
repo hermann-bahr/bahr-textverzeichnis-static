@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130849.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -77,8 +77,8 @@
                      <ptr type="pmb" target="pmb12408"/>
                      <ptr type="pmb" target="pmb13024"/>
                      <ptr type="pmb" target="pmb2132"/>
-                     <ptr type="HB-tv" target="HB-tv_886_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_6349_p17"/>
+                     <ptr type="pmb" target="pmb115971"/>
+                     <ptr type="pmb" target="pmb114098"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/strom/1912_adler.pdf</ref>
@@ -91,5 +91,66 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb10749">
+               <persName>
+                  <surname>Adler</surname>
+                  <forename>Viktor</forename>
+               </persName>
+               <birth>
+                  <date>1852-06-24</date>
+                  <placeName type="wikidata" ref="Q1085">Prag</placeName>
+               </birth>
+               <death>
+                  <date>1918-11-11</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4860_p26</idno>
+               <idno type="wikidata">Q366845</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118647075</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb10749.html</idno>
+            </person>
+            <person xml:id="pmb115971">
+               <persName>
+                  <surname>Schäffle</surname>
+                  <forename>Albert</forename>
+               </persName>
+               <birth>
+                  <date>1831-02-24</date>
+                  <placeName type="wikidata" ref="Q14853">Nürtingen</placeName>
+               </birth>
+               <death>
+                  <date>1903-12-25</date>
+                  <placeName type="wikidata" ref="Q1022">Stuttgart</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1445_p4</idno>
+               <idno type="wikidata">Q70650</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11860628X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb115971.html</idno>
+            </person>
+            <person xml:id="pmb114098">
+               <persName>
+                  <surname>Garibaldi</surname>
+                  <forename>Giuseppe</forename>
+               </persName>
+               <birth>
+                  <date>1807-07-04</date>
+                  <placeName type="wikidata" ref="Q33959">Nizza</placeName>
+               </birth>
+               <death>
+                  <date>1882-06-02</date>
+                  <placeName type="wikidata" ref="Q845310">Caprera</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_6349_p17</idno>
+               <idno type="wikidata">Q539</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118689592</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114098.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

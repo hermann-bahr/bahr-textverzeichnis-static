@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133225.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -68,10 +68,10 @@
                      <ptr type="pmb" target="pmb12809"/>
                      <ptr type="pmb" target="pmb2252"/>
                      <ptr type="pmb" target="pmb2446"/>
-                     <ptr type="HB-tv" target="HB-tv_2212_p6"/>
-                     <ptr type="HB-tv" target="HB-tv_2494_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3826_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_702_p4"/>
+                     <ptr type="pmb" target="pmb6707"/>
+                     <ptr type="pmb" target="pmb64875"/>
+                     <ptr type="pmb" target="pmb154438"/>
+                     <ptr type="pmb" target="pmb156743"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -83,5 +83,75 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb6707">
+               <persName>
+                  <surname>Costenoble</surname>
+                  <forename>Karl Ludwig</forename>
+               </persName>
+               <birth>
+                  <date>1769-12-28</date>
+                  <placeName type="wikidata" ref="Q3971">Herford</placeName>
+               </birth>
+               <death>
+                  <date>1837-08-28</date>
+                  <placeName type="wikidata" ref="Q1085">Prag</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2212_p6</idno>
+               <idno type="wikidata">Q1732203</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116689234</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb6707.html</idno>
+            </person>
+            <person xml:id="pmb64875">
+               <persName>
+                  <surname>Raupach</surname>
+                  <forename>Ernst</forename>
+               </persName>
+               <birth>
+                  <date>1784-05-21</date>
+                  <placeName type="wikidata" ref="Q1811646"/>
+               </birth>
+               <death>
+                  <date>1852-03-18</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2494_p1</idno>
+               <idno type="wikidata">Q67961</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/100823548</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb64875.html</idno>
+            </person>
+            <person xml:id="pmb154438">
+               <persName>
+                  <surname>Wagner</surname>
+                  <forename>Josef</forename>
+               </persName>
+               <birth>
+                  <date when="1818">1818</date>
+               </birth>
+               <death>
+                  <date when="1870">1870</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3826_p5</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154438.html</idno>
+            </person>
+            <person xml:id="pmb156743">
+               <persName>
+                  <surname>Wolzogen</surname>
+                  <forename>Hans von</forename>
+               </persName>
+               <birth>
+                  <date when="1848">1848</date>
+               </birth>
+               <death>
+                  <date when="1938">1938</date>
+               </death>
+               <idno type="HB-tv">HB-tv_702_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156743.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

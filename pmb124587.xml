@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb124587.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -66,12 +66,12 @@
                   <listRef>
                      <ptr type="pmb" target="pmb11179"/>
                      <ptr type="pmb" target="pmb4776"/>
-                     <ptr type="HB-tv" target="HB-tv_3695_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3695_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3695_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_3695_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_3695_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_3695_p6"/>
+                     <ptr type="pmb" target="pmb149226"/>
+                     <ptr type="pmb" target="pmb149231"/>
+                     <ptr type="pmb" target="pmb154768"/>
+                     <ptr type="pmb" target="pmb154769"/>
+                     <ptr type="pmb" target="pmb154770"/>
+                     <ptr type="pmb" target="pmb149234"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=19291117&amp;seite=35</ref>
@@ -83,5 +83,94 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb149226">
+               <persName>
+                  <surname>Schücking</surname>
+                  <forename>Levin</forename>
+               </persName>
+               <birth>
+                  <date>1814-09-06</date>
+                  <placeName type="wikidata" ref="Q15977">Meppen</placeName>
+               </birth>
+               <death>
+                  <date>1883-08-31</date>
+                  <placeName type="wikidata" ref="Q556352">Bad Pyrmont</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3695_p1</idno>
+               <idno type="wikidata">Q78349</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118762109</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149226.html</idno>
+            </person>
+            <person xml:id="pmb149231">
+               <persName>
+                  <surname>Muschler</surname>
+                  <forename>Meinhold Konrad</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_3695_p2</idno>
+               <idno type="wikidata">Q71831</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11878546X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149231.html</idno>
+            </person>
+            <person xml:id="pmb154768">
+               <persName>
+                  <surname>Gall</surname>
+                  <forename>Luise von</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_3695_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154768.html</idno>
+            </person>
+            <person xml:id="pmb154769">
+               <persName>
+                  <surname>Gallitzin</surname>
+                  <forename>Amalie von</forename>
+               </persName>
+               <birth>
+                  <date when="1748">1748</date>
+               </birth>
+               <death>
+                  <date when="1806">1806</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3695_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154769.html</idno>
+            </person>
+            <person xml:id="pmb154770">
+               <persName>
+                  <surname>Schücking</surname>
+                  <forename>Katharina Sibylla</forename>
+               </persName>
+               <birth>
+                  <date when="1791">1791</date>
+               </birth>
+               <death>
+                  <date when="1831">1831</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3695_p5</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154770.html</idno>
+            </person>
+            <person xml:id="pmb149234">
+               <persName>
+                  <surname>Hemsterhuis</surname>
+                  <forename>Frans</forename>
+               </persName>
+               <birth>
+                  <date>1721-12-27</date>
+                  <placeName type="wikidata" ref="Q41974">Franeker</placeName>
+               </birth>
+               <death>
+                  <date>1790-07-07</date>
+                  <placeName type="wikidata" ref="Q36600">Den Haag</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3695_p6</idno>
+               <idno type="wikidata">Q1375105</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118549073</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149234.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

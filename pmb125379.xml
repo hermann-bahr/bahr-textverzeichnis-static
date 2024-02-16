@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb125379.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -71,12 +71,12 @@
                      <ptr type="pmb" target="pmb10777"/>
                      <ptr type="pmb" target="pmb28808"/>
                      <ptr type="pmb" target="pmb11461"/>
-                     <ptr type="HB-tv" target="HB-tv_2584_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2584_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2584_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2584_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_4465_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2584_p6"/>
+                     <ptr type="pmb" target="pmb154989"/>
+                     <ptr type="pmb" target="pmb154990"/>
+                     <ptr type="pmb" target="pmb17404"/>
+                     <ptr type="pmb" target="pmb149592"/>
+                     <ptr type="pmb" target="pmb153962"/>
+                     <ptr type="pmb" target="pmb154991"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -88,5 +88,91 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154989">
+               <persName>
+                  <surname>Heyking</surname>
+                  <forename>Elisabeth von</forename>
+               </persName>
+               <birth>
+                  <date when="1861">1861</date>
+               </birth>
+               <death>
+                  <date when="1925">1925</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2584_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154989.html</idno>
+            </person>
+            <person xml:id="pmb154990">
+               <persName>
+                  <surname>Arnim</surname>
+                  <forename>Armgart von</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_2584_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154990.html</idno>
+            </person>
+            <person xml:id="pmb17404">
+               <persName>
+                  <surname>Grimm</surname>
+                  <forename>Herman</forename>
+               </persName>
+               <birth>
+                  <date>1828-01-06</date>
+                  <placeName type="wikidata" ref="Q2865">Kassel</placeName>
+               </birth>
+               <death>
+                  <date>1901-06-16</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2584_p3</idno>
+               <idno type="wikidata">Q65292</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118697773</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb17404.html</idno>
+            </person>
+            <person xml:id="pmb149592">
+               <persName>
+                  <surname>Roquette</surname>
+                  <forename>Otto</forename>
+               </persName>
+               <birth>
+                  <date>1824-04-19</date>
+                  <placeName type="wikidata" ref="Q984538">Krotoszyn</placeName>
+               </birth>
+               <death>
+                  <date>1896-03-18</date>
+                  <placeName type="wikidata" ref="Q2973">Darmstadt</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2584_p4</idno>
+               <idno type="wikidata">Q92500</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119034883</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149592.html</idno>
+            </person>
+            <person xml:id="pmb153962">
+               <persName>
+                  <surname>Putlitz</surname>
+                  <forename>Gustav Heinrich Gans</forename>
+               </persName>
+               <birth>
+                  <date when="1821">1821</date>
+               </birth>
+               <death>
+                  <date when="1890">1890</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4465_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153962.html</idno>
+            </person>
+            <person xml:id="pmb154991">
+               <persName>
+                  <surname>Heyking</surname>
+                  <forename>Edmund von</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_2584_p6</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154991.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb128811.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -82,9 +82,9 @@
                      <ptr type="pmb" target="pmb8152"/>
                      <ptr type="pmb" target="pmb10746"/>
                      <ptr type="pmb" target="pmb12762"/>
-                     <ptr type="HB-tv" target="HB-tv_6576_p6"/>
-                     <ptr type="HB-tv" target="HB-tv_508_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_5308_p3"/>
+                     <ptr type="pmb" target="pmb154916"/>
+                     <ptr type="pmb" target="pmb112759"/>
+                     <ptr type="pmb" target="pmb155675"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwj&amp;datum=19191101&amp;seite=2</ref>
@@ -102,5 +102,75 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb10749">
+               <persName>
+                  <surname>Adler</surname>
+                  <forename>Viktor</forename>
+               </persName>
+               <birth>
+                  <date>1852-06-24</date>
+                  <placeName type="wikidata" ref="Q1085">Prag</placeName>
+               </birth>
+               <death>
+                  <date>1918-11-11</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4860_p26</idno>
+               <idno type="wikidata">Q366845</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118647075</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb10749.html</idno>
+            </person>
+            <person xml:id="pmb154916">
+               <persName>
+                  <surname>Castle</surname>
+                  <forename>Eduard</forename>
+               </persName>
+               <birth>
+                  <date when="1875">1875</date>
+               </birth>
+               <death>
+                  <date when="1959">1959</date>
+               </death>
+               <idno type="HB-tv">HB-tv_6576_p6</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154916.html</idno>
+            </person>
+            <person xml:id="pmb112759">
+               <persName>
+                  <surname>Bebel</surname>
+                  <forename>August</forename>
+               </persName>
+               <birth>
+                  <date>1840-02-22</date>
+                  <placeName type="wikidata" ref="Q3621">Deutz</placeName>
+               </birth>
+               <death>
+                  <date>1913-08-13</date>
+                  <placeName type="wikidata" ref="Q783413">Passugg</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_508_p1</idno>
+               <idno type="wikidata">Q76520</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118507893</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb112759.html</idno>
+            </person>
+            <person xml:id="pmb155675">
+               <persName>
+                  <surname>Schumpeter</surname>
+                  <forename>Joseph</forename>
+               </persName>
+               <birth>
+                  <date when="1883">1883</date>
+               </birth>
+               <death>
+                  <date when="1950">1950</date>
+               </death>
+               <idno type="HB-tv">HB-tv_5308_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155675.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

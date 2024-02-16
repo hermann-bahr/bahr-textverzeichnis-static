@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb134333.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -60,10 +60,10 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb39268"/>
-                     <ptr type="HB-tv" target="HB-tv_2699_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2699_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2699_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2699_p4"/>
+                     <ptr type="pmb" target="pmb157185"/>
+                     <ptr type="pmb" target="pmb157186"/>
+                     <ptr type="pmb" target="pmb152569"/>
+                     <ptr type="pmb" target="pmb153780"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/2-ueberwindung.pdf</ref>
@@ -95,5 +95,73 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb157185">
+               <persName>
+                  <surname>Péreire</surname>
+                  <forename>Jacob Emile</forename>
+               </persName>
+               <birth>
+                  <date when="1800">1800</date>
+               </birth>
+               <death>
+                  <date when="1875">1875</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2699_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157185.html</idno>
+            </person>
+            <person xml:id="pmb157186">
+               <persName>
+                  <surname>Thomas Illyricus</surname>
+               </persName>
+               <birth>
+                  <date when-custom="um 1485">um 1485</date>
+               </birth>
+               <death>
+                  <date when-custom="1528/29">1528/29</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2699_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157186.html</idno>
+            </person>
+            <person xml:id="pmb152569">
+               <persName>
+                  <surname>Brémontier</surname>
+                  <forename>Nicolas</forename>
+               </persName>
+               <birth>
+                  <date>1738-07-30</date>
+                  <placeName type="wikidata" ref="Q1110970">Le Tronquay</placeName>
+               </birth>
+               <death>
+                  <date>1809-08-16</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2699_p3</idno>
+               <idno type="wikidata">Q3340160</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/142999881</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152569.html</idno>
+            </person>
+            <person xml:id="pmb153780">
+               <persName>
+                  <surname>Renouf</surname>
+                  <forename>Emile</forename>
+               </persName>
+               <birth>
+                  <date>1845-06-23</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1894-05-04</date>
+                  <placeName type="wikidata" ref="Q42810">Le Havre</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2699_p4</idno>
+               <idno type="wikidata">Q15138489</idno>
+               <sex value="male"/>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153780.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

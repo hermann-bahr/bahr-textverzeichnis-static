@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132559.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -71,11 +71,11 @@
                      <ptr type="pmb" target="pmb22098"/>
                      <ptr type="pmb" target="pmb12929"/>
                      <ptr type="pmb" target="pmb24575"/>
-                     <ptr type="HB-tv" target="HB-tv_4466_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2001_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_1923_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_4645_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_1923_p5"/>
+                     <ptr type="pmb" target="pmb24702"/>
+                     <ptr type="pmb" target="pmb113972"/>
+                     <ptr type="pmb" target="pmb156525"/>
+                     <ptr type="pmb" target="pmb154281"/>
+                     <ptr type="pmb" target="pmb156526"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19021019&amp;seite=9</ref>
@@ -89,5 +89,79 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb24702">
+               <persName>
+                  <surname>Schönthan</surname>
+                  <forename>Franz von</forename>
+               </persName>
+               <birth>
+                  <date>1849-06-20</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1913-12-02</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4466_p1</idno>
+               <idno type="wikidata">Q114579</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116889292</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb24702.html</idno>
+            </person>
+            <person xml:id="pmb113972">
+               <persName>
+                  <surname>Baudissin</surname>
+                  <forename>Wolf</forename>
+               </persName>
+               <occupation>Graf von, Ps. Freiherr von Schlicht</occupation>
+               <birth>
+                  <date>1867-01-30</date>
+                  <placeName type="wikidata" ref="Q501661">Schleswig</placeName>
+               </birth>
+               <death>
+                  <date>1926-10-04</date>
+                  <placeName type="wikidata" ref="Q3955">Weimar</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2001_p3</idno>
+               <idno type="wikidata">Q98142</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117768774</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113972.html</idno>
+            </person>
+            <person xml:id="pmb156525">
+               <persName>
+                  <surname>Mayburg</surname>
+                  <forename>Vilma von</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_1923_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156525.html</idno>
+            </person>
+            <person xml:id="pmb154281">
+               <persName>
+                  <surname>Retty</surname>
+                  <forename>Rudolf</forename>
+               </persName>
+               <birth>
+                  <date when="1846">1846</date>
+               </birth>
+               <death>
+                  <date when="1913">1913</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4645_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154281.html</idno>
+            </person>
+            <person xml:id="pmb156526">
+               <persName>
+                  <surname>Hofteufel</surname>
+                  <forename>Mizzi</forename>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <idno type="HB-tv">HB-tv_1923_p5</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156526.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

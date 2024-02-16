@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb134973.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -63,9 +63,9 @@
                   »Rechtsanwalts Göring«.</note>
                <ref type="personenindex">
                   <listRef>
-                     <ptr type="HB-tv" target="HB-tv_4454_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_4454_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_4454_p3"/>
+                     <ptr type="pmb" target="pmb157547"/>
+                     <ptr type="pmb" target="pmb153584"/>
+                     <ptr type="pmb" target="pmb151310"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/linzer-sonntagsblatt/1883_fest-ii.pdf</ref>
@@ -78,5 +78,46 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb157547">
+               <persName>
+                  <surname>Göring</surname>
+               </persName>
+               <occupation>Rechtsanwalt</occupation>
+               <idno type="HB-tv">HB-tv_4454_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157547.html</idno>
+            </person>
+            <person xml:id="pmb153584">
+               <persName>
+                  <surname>Beckh</surname>
+               </persName>
+               <occupation>Rechtsanwalt</occupation>
+               <idno type="HB-tv">HB-tv_4454_p2</idno>
+               <idno type="wikidata">Q109662</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11920990X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153584.html</idno>
+            </person>
+            <person xml:id="pmb151310">
+               <persName>
+                  <surname>Carl Alexander von Sachsen-Weimar-Eisenach</surname>
+               </persName>
+               <birth>
+                  <date>1818-06-24</date>
+                  <placeName type="wikidata" ref="Q3955">Weimar</placeName>
+               </birth>
+               <death>
+                  <date>1901-01-05</date>
+                  <placeName type="wikidata" ref="Q3955">Weimar</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1363_p102</idno>
+               <idno type="wikidata">Q60743</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119418134</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151310.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123053.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -68,8 +68,8 @@
                   <listRef>
                      <ptr type="pmb" target="pmb15512"/>
                      <ptr type="pmb" target="pmb12899"/>
-                     <ptr type="HB-tv" target="HB-tv_2334_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2334_p2"/>
+                     <ptr type="pmb" target="pmb154202"/>
+                     <ptr type="pmb" target="pmb154203"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19010522&amp;seite=11</ref>
@@ -83,5 +83,32 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154202">
+               <persName>
+                  <surname>Biërna</surname>
+                  <forename>Lucie</forename>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <idno type="HB-tv">HB-tv_2334_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154202.html</idno>
+            </person>
+            <person xml:id="pmb154203">
+               <persName>
+                  <surname>Savits</surname>
+                  <forename>Jocza</forename>
+               </persName>
+               <birth>
+                  <date when="1847">1847</date>
+               </birth>
+               <death>
+                  <date when="1915">1915</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2334_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154203.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

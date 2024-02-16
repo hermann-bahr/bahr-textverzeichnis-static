@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122693.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -72,9 +72,9 @@
                      <ptr type="pmb" target="pmb10899"/>
                      <ptr type="pmb" target="pmb3455"/>
                      <ptr type="pmb" target="pmb12567"/>
-                     <ptr type="HB-tv" target="HB-tv_2409_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2408_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2408_p3"/>
+                     <ptr type="pmb" target="pmb154028"/>
+                     <ptr type="pmb" target="pmb21668"/>
+                     <ptr type="pmb" target="pmb154029"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19041108&amp;seite=12</ref>
@@ -88,5 +88,57 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154028">
+               <persName>
+                  <surname>Max</surname>
+                  <forename>de</forename>
+               </persName>
+               <persName type="namensvariante">Eduard Alexandru Max, Schauspieler</persName>
+               <birth>
+                  <date when="1869">1869</date>
+               </birth>
+               <death>
+                  <date when="1924">1924</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2409_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154028.html</idno>
+            </person>
+            <person xml:id="pmb21668">
+               <persName>
+                  <surname>Mounet-Sully</surname>
+               </persName>
+               <birth>
+                  <date>1841-02-27</date>
+                  <placeName type="wikidata" ref="Q187911">Bergerac</placeName>
+               </birth>
+               <death>
+                  <date>1916-03-01</date>
+                  <placeName type="wikidata" ref="Q238723">5. Arrondissement von Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_688_p3</idno>
+               <idno type="wikidata">Q2657745</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/122999304</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb21668.html</idno>
+            </person>
+            <person xml:id="pmb154029">
+               <persName>
+                  <surname>Ventura</surname>
+                  <forename>Maria</forename>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <birth>
+                  <date when="1888">1888</date>
+               </birth>
+               <death>
+                  <date when="1954">1954</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2408_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154029.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

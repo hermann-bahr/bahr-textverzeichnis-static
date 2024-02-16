@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123479.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -64,9 +64,9 @@
                      <ptr type="pmb" target="pmb11201"/>
                      <ptr type="pmb" target="pmb21317"/>
                      <ptr type="pmb" target="pmb12618"/>
-                     <ptr type="HB-tv" target="HB-tv_1905_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1830_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1907_p1"/>
+                     <ptr type="pmb" target="pmb154117"/>
+                     <ptr type="pmb" target="pmb23784"/>
+                     <ptr type="pmb" target="pmb148806"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1898-17/211-45.pdf</ref>
@@ -79,5 +79,80 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb21317">
+               <persName>
+                  <surname>Mendés</surname>
+                  <forename>Catulle</forename>
+               </persName>
+               <birth>
+                  <date>1841-05-22</date>
+                  <placeName type="wikidata" ref="Q1479">Bordeaux</placeName>
+               </birth>
+               <death>
+                  <date>1909-02-08</date>
+                  <placeName type="wikidata" ref="Q60847808">Saint-Germain-en-Laye</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1351_p22</idno>
+               <idno type="wikidata">Q971215</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118783203</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb21317.html</idno>
+            </person>
+            <person xml:id="pmb154117">
+               <persName>
+                  <surname>Hading</surname>
+                  <forename>Jane</forename>
+               </persName>
+               <persName type="namensvariante">Jeanne Alfredine Trefouret</persName>
+               <birth>
+                  <date when="1859">1859</date>
+               </birth>
+               <death>
+                  <date when="1940">1940</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1905_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154117.html</idno>
+            </person>
+            <person xml:id="pmb23784">
+               <persName>
+                  <surname>Réjane</surname>
+               </persName>
+               <birth>
+                  <date>1856-06-06</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1920-06-14</date>
+                  <placeName type="wikidata" ref="Q194420">16. Arrondissement von Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_688_p2</idno>
+               <idno type="wikidata">Q596355</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/116394102</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb23784.html</idno>
+            </person>
+            <person xml:id="pmb148806">
+               <persName>
+                  <surname>Varini</surname>
+                  <forename>Emilia</forename>
+               </persName>
+               <birth>
+                  <date>1867</date>
+                  <placeName type="wikidata" ref="Q3892388">Pallanza</placeName>
+               </birth>
+               <death>
+                  <date>1949-07-29</date>
+                  <placeName type="wikidata" ref="Q490">Mailand</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1907_p1</idno>
+               <idno type="wikidata">Q95714490</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/1062040260</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148806.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

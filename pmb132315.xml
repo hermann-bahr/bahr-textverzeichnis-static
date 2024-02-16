@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132315.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -75,11 +75,11 @@
                      <ptr type="pmb" target="pmb13115"/>
                      <ptr type="pmb" target="pmb3403"/>
                      <ptr type="pmb" target="pmb2412"/>
-                     <ptr type="HB-tv" target="HB-tv_667_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1446_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_667_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_667_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_667_p5"/>
+                     <ptr type="pmb" target="pmb156509"/>
+                     <ptr type="pmb" target="pmb60373"/>
+                     <ptr type="pmb" target="pmb156510"/>
+                     <ptr type="pmb" target="pmb103646"/>
+                     <ptr type="pmb" target="pmb156511"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19030718&amp;seite=1</ref>
@@ -91,5 +91,100 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2142">
+               <persName>
+                  <surname>d’Annunzio</surname>
+                  <forename>Gabriele</forename>
+               </persName>
+               <birth>
+                  <date>1863-03-12</date>
+                  <placeName type="wikidata" ref="Q2704">Pescara</placeName>
+               </birth>
+               <death>
+                  <date>1938-03-01</date>
+                  <placeName type="wikidata" ref="Q104619">Gardone Riviera</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4865_p5</idno>
+               <idno type="wikidata">Q193236</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118503243</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2142.html</idno>
+            </person>
+            <person xml:id="pmb156509">
+               <persName>
+                  <surname>Pindar</surname>
+               </persName>
+               <birth>
+                  <date when-custom="522/518">522/518</date>
+               </birth>
+               <death>
+                  <date when-custom="nach 445 v.u.Z.">nach 445 v.u.Z.</date>
+               </death>
+               <idno type="HB-tv">HB-tv_667_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156509.html</idno>
+            </person>
+            <person xml:id="pmb60373">
+               <persName>
+                  <surname>Schönerer</surname>
+                  <forename>Georg Heinrich von</forename>
+               </persName>
+               <birth>
+                  <date>1842-07-17</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1921-08-14</date>
+                  <placeName type="wikidata" ref="Q340128">Schloss Rosenau</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1446_p3</idno>
+               <idno type="wikidata">Q112005</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118610163</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb60373.html</idno>
+            </person>
+            <person xml:id="pmb156510">
+               <persName>
+                  <surname>Horand</surname>
+                  <forename>Burschenschafter</forename>
+               </persName>
+               <persName type="namensvariante">Hans Schmidkunz</persName>
+               <idno type="HB-tv">HB-tv_667_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156510.html</idno>
+            </person>
+            <person xml:id="pmb103646">
+               <persName>
+                  <surname>Schmidkunz</surname>
+                  <forename>Hans</forename>
+               </persName>
+               <birth>
+                  <date>1863-02-27</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1934-02-09</date>
+                  <placeName type="wikidata" ref="Q4098">Greifswald</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_667_p4</idno>
+               <idno type="wikidata">Q21001472</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117213608</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb103646.html</idno>
+            </person>
+            <person xml:id="pmb156511">
+               <persName>
+                  <surname>Hörner</surname>
+                  <forename>Ernst</forename>
+               </persName>
+               <occupation>Burschenschaftername Dankwart, Südbahnbeamter</occupation>
+               <death>
+                  <date when="1921">1921</date>
+               </death>
+               <idno type="HB-tv">HB-tv_667_p5</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156511.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb124173.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,7 +69,7 @@
                   <listRef>
                      <ptr type="pmb" target="pmb21563"/>
                      <ptr type="pmb" target="pmb2299"/>
-                     <ptr type="HB-tv" target="HB-tv_6762_p1"/>
+                     <ptr type="pmb" target="pmb7229"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwj&amp;datum=19310308&amp;seite=16</ref>
@@ -82,5 +82,29 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb7229">
+               <persName>
+                  <surname>Freksa</surname>
+                  <forename>Friedrich</forename>
+               </persName>
+               <persName type="namensvariante">Kurt Franz Georg Friedrich-Freksa</persName>
+               <birth>
+                  <date>1882-04-11</date>
+                  <placeName type="wikidata" ref="Q693628">Wilmersdorf</placeName>
+               </birth>
+               <death>
+                  <date>1955-07-18</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_6762_p1</idno>
+               <idno type="wikidata">Q1459153</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119312638</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb7229.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

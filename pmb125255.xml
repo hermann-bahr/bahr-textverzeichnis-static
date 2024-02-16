@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb125255.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -64,7 +64,7 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb3561"/>
-                     <ptr type="HB-tv" target="HB-tv_960_p7"/>
+                     <ptr type="pmb" target="pmb114938"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -75,5 +75,28 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb114938">
+               <persName>
+                  <surname>Hofbauer</surname>
+                  <forename>Clemens Maria</forename>
+               </persName>
+               <birth>
+                  <date>1751-12-26</date>
+                  <placeName type="wikidata" ref="Q1853546">Tasovice nad Dyjí</placeName>
+               </birth>
+               <death>
+                  <date>1820-03-15</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_960_p7</idno>
+               <idno type="wikidata">Q508588</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118552317</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114938.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -24,7 +24,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133331.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -67,10 +67,10 @@
                      <ptr type="pmb" target="pmb12651"/>
                      <ptr type="pmb" target="pmb2249"/>
                      <ptr type="pmb" target="pmb14953"/>
-                     <ptr type="HB-tv" target="HB-tv_2402_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_476_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_476_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_4068_p3"/>
+                     <ptr type="pmb" target="pmb13082"/>
+                     <ptr type="pmb" target="pmb28820"/>
+                     <ptr type="pmb" target="pmb156751"/>
+                     <ptr type="pmb" target="pmb154288"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1898-17/219-170.pdf</ref>
@@ -84,5 +84,69 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb13082">
+               <persName>
+                  <surname>Karlweis</surname>
+                  <forename>Carl</forename>
+               </persName>
+               <birth>
+                  <date>1850-11-23</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1901-10-27</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2402_p2</idno>
+               <idno type="wikidata">Q735989</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117302996</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb13082.html</idno>
+            </person>
+            <person xml:id="pmb28820">
+               <persName>
+                  <surname>Stendhal</surname>
+               </persName>
+               <birth>
+                  <date>1783-01-23</date>
+                  <placeName type="wikidata" ref="Q1289">Grenoble</placeName>
+               </birth>
+               <death>
+                  <date>1842-03-23</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1050_p3</idno>
+               <idno type="wikidata">Q502</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118617648</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb28820.html</idno>
+            </person>
+            <person xml:id="pmb156751">
+               <persName>
+                  <surname>Reusch</surname>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_476_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156751.html</idno>
+            </person>
+            <person xml:id="pmb154288">
+               <persName>
+                  <surname>Klein</surname>
+                  <forename>Joseph</forename>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <birth>
+                  <date when="1862">1862</date>
+               </birth>
+               <death>
+                  <date when="1927">1927</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4068_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154288.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

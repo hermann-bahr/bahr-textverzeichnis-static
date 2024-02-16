@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130453.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -61,7 +61,7 @@
                   <listRef>
                      <ptr type="pmb" target="pmb2404"/>
                      <ptr type="pmb" target="pmb11798"/>
-                     <ptr type="HB-tv" target="HB-tv_3640_p1"/>
+                     <ptr type="pmb" target="pmb28142"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -93,5 +93,48 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2404">
+               <persName>
+                  <surname>Hebbel</surname>
+                  <forename>Christian Friedrich</forename>
+               </persName>
+               <birth>
+                  <date>1813-03-18</date>
+                  <placeName type="wikidata" ref="Q518460">Wesselburen</placeName>
+               </birth>
+               <death>
+                  <date>1863-12-13</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_6576_p3</idno>
+               <idno type="wikidata">Q57182</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118547445</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2404.html</idno>
+            </person>
+            <person xml:id="pmb28142">
+               <persName>
+                  <surname>Silesius</surname>
+                  <forename>Angelus</forename>
+               </persName>
+               <persName type="namensvariante">Johannes Scheffler</persName>
+               <birth>
+                  <date>1624-12-01</date>
+                  <placeName type="wikidata" ref="Q1799">Breslau</placeName>
+               </birth>
+               <death>
+                  <date>1677-07-09</date>
+                  <placeName type="wikidata" ref="Q1799">Breslau</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4485_p1</idno>
+               <idno type="wikidata">Q60469</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118503111</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb28142.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

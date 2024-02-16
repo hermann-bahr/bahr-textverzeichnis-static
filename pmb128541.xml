@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb128541.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -97,12 +97,12 @@
                      <ptr type="pmb" target="pmb11851"/>
                      <ptr type="pmb" target="pmb12265"/>
                      <ptr type="pmb" target="pmb12654"/>
-                     <ptr type="HB-tv" target="HB-tv_5218_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_5218_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_5218_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_5218_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_1402_p22"/>
-                     <ptr type="HB-tv" target="HB-tv_4465_p9"/>
+                     <ptr type="pmb" target="pmb155740"/>
+                     <ptr type="pmb" target="pmb155741"/>
+                     <ptr type="pmb" target="pmb155742"/>
+                     <ptr type="pmb" target="pmb155743"/>
+                     <ptr type="pmb" target="pmb155475"/>
+                     <ptr type="pmb" target="pmb153967"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -126,5 +126,96 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb5359">
+               <persName>
+                  <surname>Hugo</surname>
+                  <forename>Victor-Marie</forename>
+               </persName>
+               <birth>
+                  <date>1802-02-26</date>
+                  <placeName type="wikidata" ref="Q37776">Besançon</placeName>
+               </birth>
+               <death>
+                  <date>1885-05-22</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3375_p2</idno>
+               <idno type="wikidata">Q535</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118554654</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb5359.html</idno>
+            </person>
+            <person xml:id="pmb155740">
+               <persName>
+                  <surname>Plotke</surname>
+                  <forename>Georg Jakob</forename>
+               </persName>
+               <occupation>Herausgeber</occupation>
+               <birth>
+                  <date when="1888">1888</date>
+               </birth>
+               <death>
+                  <date when="1919">1919</date>
+               </death>
+               <idno type="HB-tv">HB-tv_5218_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155740.html</idno>
+            </person>
+            <person xml:id="pmb155741">
+               <persName>
+                  <surname>Diebold</surname>
+                  <forename>Bernhard</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_5218_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155741.html</idno>
+            </person>
+            <person xml:id="pmb155742">
+               <persName>
+                  <surname>Weichert</surname>
+                  <forename>Richard</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_5218_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155742.html</idno>
+            </person>
+            <person xml:id="pmb155743">
+               <persName>
+                  <surname>Linnebach</surname>
+                  <forename>Adolf</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_5218_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155743.html</idno>
+            </person>
+            <person xml:id="pmb155475">
+               <persName>
+                  <surname>Garrick</surname>
+                  <forename>David</forename>
+               </persName>
+               <birth>
+                  <date when="1716">1716</date>
+               </birth>
+               <death>
+                  <date when="1779">1779</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1402_p22</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155475.html</idno>
+            </person>
+            <person xml:id="pmb153967">
+               <persName>
+                  <surname>l’Arronge</surname>
+                  <forename>Adolph</forename>
+               </persName>
+               <persName type="namensvariante">Adolf Aaronsohn</persName>
+               <birth>
+                  <date when="1838">1838</date>
+               </birth>
+               <death>
+                  <date when="1908">1908</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4465_p9</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153967.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

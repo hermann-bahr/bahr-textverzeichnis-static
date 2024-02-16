@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123931.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -64,10 +64,10 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb12903"/>
-                     <ptr type="HB-tv" target="HB-tv_1446_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_1446_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_4451_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_4451_p4"/>
+                     <ptr type="pmb" target="pmb60373"/>
+                     <ptr type="pmb" target="pmb153605"/>
+                     <ptr type="pmb" target="pmb154638"/>
+                     <ptr type="pmb" target="pmb114068"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -79,5 +79,79 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb60373">
+               <persName>
+                  <surname>Schönerer</surname>
+                  <forename>Georg Heinrich von</forename>
+               </persName>
+               <birth>
+                  <date>1842-07-17</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1921-08-14</date>
+                  <placeName type="wikidata" ref="Q340128">Schloss Rosenau</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1446_p3</idno>
+               <idno type="wikidata">Q112005</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118610163</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb60373.html</idno>
+            </person>
+            <person xml:id="pmb153605">
+               <persName>
+                  <surname>Fürnkranz</surname>
+                  <forename>Heinrich</forename>
+               </persName>
+               <birth>
+                  <date>1828-10-31</date>
+                  <placeName type="wikidata" ref="Q131266">Krems</placeName>
+               </birth>
+               <death>
+                  <date>1896-12-28</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1446_p4</idno>
+               <idno type="wikidata">Q1597295</idno>
+               <sex value="male"/>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153605.html</idno>
+            </person>
+            <person xml:id="pmb154638">
+               <persName>
+                  <surname>Weitlof</surname>
+                  <forename>Moritz</forename>
+               </persName>
+               <birth>
+                  <date when="1835">1835</date>
+               </birth>
+               <death>
+                  <date when="1905">1905</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4451_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154638.html</idno>
+            </person>
+            <person xml:id="pmb114068">
+               <persName>
+                  <surname>Metternich</surname>
+                  <forename>Klemens Wenzel Lothar von</forename>
+               </persName>
+               <birth>
+                  <date>1773-05-15</date>
+                  <placeName type="wikidata" ref="Q3104">Koblenz</placeName>
+               </birth>
+               <death>
+                  <date>1859-06-11</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4451_p4</idno>
+               <idno type="wikidata">Q45662</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118581465</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114068.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

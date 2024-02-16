@@ -24,7 +24,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133341.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -72,12 +72,12 @@
                      <ptr type="pmb" target="pmb11981"/>
                      <ptr type="pmb" target="pmb26628"/>
                      <ptr type="pmb" target="pmb15347"/>
-                     <ptr type="HB-tv" target="HB-tv_1443_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2035_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_4645_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_471_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_471_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_471_p6"/>
+                     <ptr type="pmb" target="pmb14328"/>
+                     <ptr type="pmb" target="pmb2868"/>
+                     <ptr type="pmb" target="pmb154281"/>
+                     <ptr type="pmb" target="pmb156752"/>
+                     <ptr type="pmb" target="pmb156753"/>
+                     <ptr type="pmb" target="pmb153622"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1898-17/212-59.pdf</ref>
@@ -92,5 +92,89 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb14328">
+               <persName>
+                  <surname>Blumenthal</surname>
+                  <forename>Oscar</forename>
+               </persName>
+               <birth>
+                  <date>1852-03-13</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </birth>
+               <death>
+                  <date>1917-04-24</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1443_p2</idno>
+               <idno type="wikidata">Q71567</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118659111</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb14328.html</idno>
+            </person>
+            <person xml:id="pmb2868">
+               <persName>
+                  <surname>Kutschera</surname>
+                  <forename>Viktor</forename>
+               </persName>
+               <birth>
+                  <date>1863-05-02</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1933-01-20</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2035_p2</idno>
+               <idno type="wikidata">Q2524322</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116628081</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2868.html</idno>
+            </person>
+            <person xml:id="pmb154281">
+               <persName>
+                  <surname>Retty</surname>
+                  <forename>Rudolf</forename>
+               </persName>
+               <birth>
+                  <date when="1846">1846</date>
+               </birth>
+               <death>
+                  <date when="1913">1913</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4645_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154281.html</idno>
+            </person>
+            <person xml:id="pmb156752">
+               <persName>
+                  <surname>Amon</surname>
+                  <forename>Anton</forename>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_471_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156752.html</idno>
+            </person>
+            <person xml:id="pmb156753">
+               <persName>
+                  <surname>Weiß</surname>
+                  <forename>Theodor</forename>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_471_p5</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156753.html</idno>
+            </person>
+            <person xml:id="pmb153622">
+               <persName>
+                  <surname>Großmüller</surname>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <idno type="HB-tv">HB-tv_2332_p4</idno>
+               <idno type="wikidata">Q689208</idno>
+               <sex value="male"/>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153622.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb118766.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -84,11 +84,11 @@
                      <ptr type="pmb" target="pmb12899"/>
                      <ptr type="pmb" target="pmb10986"/>
                      <ptr type="pmb" target="pmb20428"/>
-                     <ptr type="HB-tv" target="HB-tv_2270_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2402_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_445_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_445_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_447_p1"/>
+                     <ptr type="pmb" target="pmb4200"/>
+                     <ptr type="pmb" target="pmb13082"/>
+                     <ptr type="pmb" target="pmb156768"/>
+                     <ptr type="pmb" target="pmb3028"/>
+                     <ptr type="pmb" target="pmb156767"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1898-14/173-59.pdf</ref>
@@ -121,5 +121,91 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb4200">
+               <persName>
+                  <surname>Devrient-Reinhold</surname>
+                  <forename>Babette</forename>
+               </persName>
+               <birth>
+                  <date>1863-10-30</date>
+                  <placeName type="wikidata" ref="Q1715">Hannover</placeName>
+               </birth>
+               <death>
+                  <date>1940-06-13</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2270_p1</idno>
+               <idno type="wikidata">Q797650</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/116089237</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb4200.html</idno>
+            </person>
+            <person xml:id="pmb13082">
+               <persName>
+                  <surname>Karlweis</surname>
+                  <forename>Carl</forename>
+               </persName>
+               <birth>
+                  <date>1850-11-23</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1901-10-27</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2402_p2</idno>
+               <idno type="wikidata">Q735989</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117302996</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb13082.html</idno>
+            </person>
+            <person xml:id="pmb156768">
+               <persName>
+                  <surname>Wetschl</surname>
+                  <forename>Franz</forename>
+               </persName>
+               <birth>
+                  <date when="1850">1850</date>
+               </birth>
+               <idno type="HB-tv">HB-tv_445_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156768.html</idno>
+            </person>
+            <person xml:id="pmb3028">
+               <persName>
+                  <surname>Plappart von Leenheer</surname>
+                  <forename>August Freiherr von</forename>
+               </persName>
+               <birth>
+                  <date>1836-01-01</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1907-01-01</date>
+                  <placeName type="wikidata" ref="Q262951">Altaussee</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_445_p4</idno>
+               <idno type="wikidata">Q60820002</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/1026198674</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3028.html</idno>
+            </person>
+            <person xml:id="pmb156767">
+               <persName>
+                  <surname>Bezency</surname>
+                  <forename>Josef Freiherr von</forename>
+               </persName>
+               <birth>
+                  <date when="1897">1897</date>
+               </birth>
+               <death>
+                  <date when="1904">1904</date>
+               </death>
+               <idno type="HB-tv">HB-tv_447_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156767.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

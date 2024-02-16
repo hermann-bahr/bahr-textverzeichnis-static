@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb131061.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -59,8 +59,8 @@
                      <ptr type="pmb" target="pmb13115"/>
                      <ptr type="pmb" target="pmb2381"/>
                      <ptr type="pmb" target="pmb14936"/>
-                     <ptr type="HB-tv" target="HB-tv_3734_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3734_p2"/>
+                     <ptr type="pmb" target="pmb149498"/>
+                     <ptr type="pmb" target="pmb156270"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/frankfurter-zeitung/1910-3-27_englisch.pdf</ref>
@@ -72,5 +72,36 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb149498">
+               <persName>
+                  <surname>Arnold</surname>
+                  <forename>Matthew</forename>
+               </persName>
+               <birth>
+                  <date>1822-12-24</date>
+                  <placeName type="wikidata" ref="Q984973">Laleham</placeName>
+               </birth>
+               <death>
+                  <date>1888-04-15</date>
+                  <placeName type="wikidata" ref="Q24826">Liverpool</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4521_p9</idno>
+               <idno type="wikidata">Q271032</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118504282</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149498.html</idno>
+            </person>
+            <person xml:id="pmb156270">
+               <persName>
+                  <surname>Butler</surname>
+                  <forename>Samuel</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_3734_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156270.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

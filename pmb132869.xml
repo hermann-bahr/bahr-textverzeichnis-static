@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132869.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -64,12 +64,12 @@
                   <listRef>
                      <ptr type="pmb" target="pmb13115"/>
                      <ptr type="pmb" target="pmb11074"/>
-                     <ptr type="HB-tv" target="HB-tv_2972_p19"/>
-                     <ptr type="HB-tv" target="HB-tv_761_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2969_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_3427_p12"/>
-                     <ptr type="HB-tv" target="HB-tv_3429_p7"/>
-                     <ptr type="HB-tv" target="HB-tv_2969_p6"/>
+                     <ptr type="pmb" target="pmb156665"/>
+                     <ptr type="pmb" target="pmb99848"/>
+                     <ptr type="pmb" target="pmb156671"/>
+                     <ptr type="pmb" target="pmb88079"/>
+                     <ptr type="pmb" target="pmb150952"/>
+                     <ptr type="pmb" target="pmb156672"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/6-secession.pdf</ref>
@@ -101,5 +101,105 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb156665">
+               <persName>
+                  <surname>Martin</surname>
+                  <forename>Henri Jean Guillaume</forename>
+               </persName>
+               <birth>
+                  <date when="1860">1860</date>
+               </birth>
+               <death>
+                  <date when="1934">1934</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2972_p19</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156665.html</idno>
+            </person>
+            <person xml:id="pmb99848">
+               <persName>
+                  <surname>Mehoffer</surname>
+                  <forename>Józef</forename>
+               </persName>
+               <birth>
+                  <date>1869-03-19</date>
+                  <placeName type="wikidata" ref="Q336375">Ropczyce</placeName>
+               </birth>
+               <death>
+                  <date>1946-07-07</date>
+                  <placeName type="wikidata" ref="Q212856">Wadowice</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_761_p3</idno>
+               <idno type="wikidata">Q1354695</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119273985</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb99848.html</idno>
+            </person>
+            <person xml:id="pmb156671">
+               <persName>
+                  <surname>Alexander</surname>
+                  <forename>John White</forename>
+               </persName>
+               <birth>
+                  <date when="1856">1856</date>
+               </birth>
+               <death>
+                  <date when="1915">1915</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2969_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156671.html</idno>
+            </person>
+            <person xml:id="pmb88079">
+               <persName>
+                  <surname>Whistler</surname>
+                  <forename>James Abbott McNeill</forename>
+               </persName>
+               <birth>
+                  <date>1834-07-10</date>
+                  <placeName type="wikidata" ref="Q49162">Lowell</placeName>
+               </birth>
+               <death>
+                  <date>1903-07-17</date>
+                  <placeName type="wikidata" ref="Q743535">Chelsea</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3427_p12</idno>
+               <idno type="wikidata">Q203643</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118632124</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb88079.html</idno>
+            </person>
+            <person xml:id="pmb150952">
+               <persName>
+                  <surname>Carrière</surname>
+                  <forename>Eugène</forename>
+               </persName>
+               <birth>
+                  <date>1849-01-16</date>
+                  <placeName type="wikidata" ref="Q245479">Gournay-sur-Marne</placeName>
+               </birth>
+               <death>
+                  <date>1906-03-27</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3429_p7</idno>
+               <idno type="wikidata">Q461464</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118668595</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150952.html</idno>
+            </person>
+            <person xml:id="pmb156672">
+               <persName>
+                  <surname>Kollmann</surname>
+                  <forename>Julius von</forename>
+               </persName>
+               <birth>
+                  <date when-custom="um 1870">um 1870</date>
+               </birth>
+               <idno type="HB-tv">HB-tv_2969_p6</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156672.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

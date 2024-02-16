@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122827.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -71,9 +71,9 @@
                      <ptr type="pmb" target="pmb10899"/>
                      <ptr type="pmb" target="pmb11941"/>
                      <ptr type="pmb" target="pmb11201"/>
-                     <ptr type="HB-tv" target="HB-tv_1929_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1929_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1929_p3"/>
+                     <ptr type="pmb" target="pmb148790"/>
+                     <ptr type="pmb" target="pmb113850"/>
+                     <ptr type="pmb" target="pmb116280"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19030405&amp;seite=10</ref>
@@ -86,5 +86,66 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb148790">
+               <persName>
+                  <surname>Degas</surname>
+                  <forename>Edgar</forename>
+               </persName>
+               <birth>
+                  <date>1834-07-19</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1917-09-27</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1929_p1</idno>
+               <idno type="wikidata">Q46373</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118524291</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148790.html</idno>
+            </person>
+            <person xml:id="pmb113850">
+               <persName>
+                  <surname>Khnopff</surname>
+                  <forename>Fernand-Edmond-Jean-Marie</forename>
+               </persName>
+               <birth>
+                  <date>1858-09-12</date>
+                  <placeName type="wikidata" ref="Q13122">Dendermonde</placeName>
+               </birth>
+               <death>
+                  <date>1921-11-12</date>
+                  <placeName type="wikidata" ref="Q239">Stadt Brüssel</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1929_p2</idno>
+               <idno type="wikidata">Q559559</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118561871</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113850.html</idno>
+            </person>
+            <person xml:id="pmb116280">
+               <persName>
+                  <surname>Toorop</surname>
+                  <forename>Jan</forename>
+               </persName>
+               <birth>
+                  <date>1858-12-20</date>
+                  <placeName type="wikidata" ref="Q10674">Purworejo</placeName>
+               </birth>
+               <death>
+                  <date>1928-03-03</date>
+                  <placeName type="wikidata" ref="Q36600">Den Haag</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1929_p3</idno>
+               <idno type="wikidata">Q369416</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119295954</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116280.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

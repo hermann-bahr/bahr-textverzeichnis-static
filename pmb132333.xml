@@ -24,7 +24,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132333.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -80,9 +80,9 @@
                      <ptr type="pmb" target="pmb11798"/>
                      <ptr type="pmb" target="pmb20005"/>
                      <ptr type="pmb" target="pmb12654"/>
-                     <ptr type="HB-tv" target="HB-tv_115_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_3360_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_562_p3"/>
+                     <ptr type="pmb" target="pmb3739"/>
+                     <ptr type="pmb" target="pmb117695"/>
+                     <ptr type="pmb" target="pmb94057"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19030429&amp;seite=1</ref>
@@ -101,5 +101,66 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb3739">
+               <persName>
+                  <surname>Tolstoi</surname>
+                  <forename>Lew Nikolajewitsch</forename>
+               </persName>
+               <birth>
+                  <date>1828-08-28</date>
+                  <placeName type="wikidata" ref="Q749556">Jasnaja Poljana</placeName>
+               </birth>
+               <death>
+                  <date>1910-11-07</date>
+                  <placeName type="wikidata" ref="Q4071563">Astapowo</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_115_p5</idno>
+               <idno type="wikidata">Q7243</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11864291X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3739.html</idno>
+            </person>
+            <person xml:id="pmb117695">
+               <persName>
+                  <surname>Savonarola</surname>
+                  <forename>Girolamo</forename>
+               </persName>
+               <birth>
+                  <date>1452-09-21</date>
+                  <placeName type="wikidata" ref="Q13362">Ferrara</placeName>
+               </birth>
+               <death>
+                  <date>1498-05-23</date>
+                  <placeName type="wikidata" ref="Q2044">Florenz</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3360_p5</idno>
+               <idno type="wikidata">Q164823</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118605933</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb117695.html</idno>
+            </person>
+            <person xml:id="pmb94057">
+               <persName>
+                  <surname>Bruno</surname>
+                  <forename>Giordano</forename>
+               </persName>
+               <birth>
+                  <date>1548-01-01</date>
+                  <placeName type="wikidata" ref="Q72288">Nola</placeName>
+               </birth>
+               <death>
+                  <date>1600-02-17</date>
+                  <placeName type="wikidata" ref="Q220">Rom</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_562_p3</idno>
+               <idno type="wikidata">Q36330</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118516221</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb94057.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

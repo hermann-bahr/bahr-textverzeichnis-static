@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130031.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -62,11 +62,11 @@
                   <listRef>
                      <ptr type="pmb" target="pmb12481"/>
                      <ptr type="pmb" target="pmb10943"/>
-                     <ptr type="HB-tv" target="HB-tv_3366_p29"/>
-                     <ptr type="HB-tv" target="HB-tv_864_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_864_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_864_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_1058_p1"/>
+                     <ptr type="pmb" target="pmb155517"/>
+                     <ptr type="pmb" target="pmb155976"/>
+                     <ptr type="pmb" target="pmb155977"/>
+                     <ptr type="pmb" target="pmb4769"/>
+                     <ptr type="pmb" target="pmb149735"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -77,5 +77,76 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb155517">
+               <persName>
+                  <surname>Bach</surname>
+                  <forename>Alexander von</forename>
+               </persName>
+               <birth>
+                  <date when="1813">1813</date>
+               </birth>
+               <death>
+                  <date when="1893">1893</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3366_p29</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155517.html</idno>
+            </person>
+            <person xml:id="pmb155976">
+               <persName>
+                  <surname>Brockhausen</surname>
+                  <forename>Karl</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_864_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155976.html</idno>
+            </person>
+            <person xml:id="pmb155977">
+               <persName>
+                  <surname>Laun</surname>
+                  <forename>Rudolf von</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_864_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155977.html</idno>
+            </person>
+            <person xml:id="pmb4769">
+               <persName>
+                  <surname>Napoléon Bonaparte</surname>
+               </persName>
+               <birth>
+                  <date>1769-08-15</date>
+                  <placeName type="wikidata" ref="Q40104">Ajaccio</placeName>
+               </birth>
+               <death>
+                  <date>1821-05-05</date>
+                  <placeName type="wikidata" ref="Q578060">Longwood House</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1891_p2</idno>
+               <idno type="wikidata">Q517</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118586408</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb4769.html</idno>
+            </person>
+            <person xml:id="pmb149735">
+               <persName>
+                  <surname>Hildebrand</surname>
+                  <forename>Rudolf</forename>
+               </persName>
+               <birth>
+                  <date>1824-03-13</date>
+                  <placeName type="wikidata" ref="Q2079">Leipzig</placeName>
+               </birth>
+               <death>
+                  <date>1894-10-28</date>
+                  <placeName type="wikidata" ref="Q2079">Leipzig</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1058_p1</idno>
+               <idno type="wikidata">Q92091</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118774425</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149735.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

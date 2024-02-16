@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122919.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -67,9 +67,9 @@
                   <listRef>
                      <ptr type="pmb" target="pmb2412"/>
                      <ptr type="pmb" target="pmb12534"/>
-                     <ptr type="HB-tv" target="HB-tv_688_p7"/>
-                     <ptr type="HB-tv" target="HB-tv_1899_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1897_p3"/>
+                     <ptr type="pmb" target="pmb115949"/>
+                     <ptr type="pmb" target="pmb154120"/>
+                     <ptr type="pmb" target="pmb154123"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19020415&amp;seite=9</ref>
@@ -83,5 +83,50 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb115949">
+               <persName>
+                  <surname>Salvini</surname>
+                  <forename>Tommaso</forename>
+               </persName>
+               <birth>
+                  <date>1829-01-01</date>
+                  <placeName type="wikidata" ref="Q490">Mailand</placeName>
+               </birth>
+               <death>
+                  <date>1915-12-31</date>
+                  <placeName type="wikidata" ref="Q2044">Florenz</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_688_p7</idno>
+               <idno type="wikidata">Q719180</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118836447</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb115949.html</idno>
+            </person>
+            <person xml:id="pmb154120">
+               <persName>
+                  <surname>Salvini</surname>
+                  <forename>Gustavo</forename>
+               </persName>
+               <birth>
+                  <date when="1859">1859</date>
+               </birth>
+               <death>
+                  <date when="1930">1930</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1899_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154120.html</idno>
+            </person>
+            <person xml:id="pmb154123">
+               <persName>
+                  <surname>Majone Diaz</surname>
+                  <forename>Giuseppe</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_1897_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154123.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

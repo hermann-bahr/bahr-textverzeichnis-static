@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb131023.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -88,11 +88,11 @@
                      <ptr type="pmb" target="pmb11941"/>
                      <ptr type="pmb" target="pmb12163"/>
                      <ptr type="pmb" target="pmb12504"/>
-                     <ptr type="HB-tv" target="HB-tv_3337_p9"/>
-                     <ptr type="HB-tv" target="HB-tv_6695_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_145_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_6695_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1326_p4"/>
+                     <ptr type="pmb" target="pmb150419"/>
+                     <ptr type="pmb" target="pmb114442"/>
+                     <ptr type="pmb" target="pmb154645"/>
+                     <ptr type="pmb" target="pmb116011"/>
+                     <ptr type="pmb" target="pmb3368"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/das-literarische-echo/1911-7_im-spiegel.pdf</ref>
@@ -151,5 +151,99 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb150419">
+               <persName>
+                  <surname>Donner</surname>
+                  <forename>Georg Raphael</forename>
+               </persName>
+               <birth>
+                  <date>1693-05-24</date>
+                  <placeName type="wikidata" ref="Q80340">Essling</placeName>
+               </birth>
+               <death>
+                  <date>1741-02-15</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3337_p9</idno>
+               <idno type="wikidata">Q430673</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118680358</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150419.html</idno>
+            </person>
+            <person xml:id="pmb114442">
+               <persName>
+                  <surname>Treitschke</surname>
+                  <forename>Heinrich von</forename>
+               </persName>
+               <birth>
+                  <date>1834-09-15</date>
+                  <placeName type="wikidata" ref="Q1731">Dresden</placeName>
+               </birth>
+               <death>
+                  <date>1896-04-28</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_6695_p3</idno>
+               <idno type="wikidata">Q62400</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118623761</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114442.html</idno>
+            </person>
+            <person xml:id="pmb154645">
+               <persName>
+                  <surname>Wagner</surname>
+                  <forename>Adolf</forename>
+               </persName>
+               <birth>
+                  <date when="1835">1835</date>
+               </birth>
+               <death>
+                  <date when="1917">1917</date>
+               </death>
+               <idno type="HB-tv">HB-tv_145_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154645.html</idno>
+            </person>
+            <person xml:id="pmb116011">
+               <persName>
+                  <surname>Schmoller</surname>
+                  <forename>Gustav von</forename>
+               </persName>
+               <birth>
+                  <date>1838-06-24</date>
+                  <placeName type="wikidata" ref="Q715">Heilbronn</placeName>
+               </birth>
+               <death>
+                  <date>1917-06-27</date>
+                  <placeName type="wikidata" ref="Q522459">Bad Harzburg</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_6695_p2</idno>
+               <idno type="wikidata">Q62833</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118609378</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116011.html</idno>
+            </person>
+            <person xml:id="pmb3368">
+               <persName>
+                  <surname>Olbrich</surname>
+                  <forename>Josef Maria</forename>
+               </persName>
+               <birth>
+                  <date>1867-12-22</date>
+                  <placeName type="wikidata" ref="Q156080">Opava</placeName>
+               </birth>
+               <death>
+                  <date>1908-08-08</date>
+                  <placeName type="wikidata" ref="Q1718">Düsseldorf</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1326_p4</idno>
+               <idno type="wikidata">Q44911</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118589768</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3368.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb125425.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -72,11 +72,11 @@
                      <ptr type="pmb" target="pmb12654"/>
                      <ptr type="pmb" target="pmb3641"/>
                      <ptr type="pmb" target="pmb3698"/>
-                     <ptr type="HB-tv" target="HB-tv_145_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_6695_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1217_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_3496_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_1217_p5"/>
+                     <ptr type="pmb" target="pmb154645"/>
+                     <ptr type="pmb" target="pmb116011"/>
+                     <ptr type="pmb" target="pmb5428"/>
+                     <ptr type="pmb" target="pmb149411"/>
+                     <ptr type="pmb" target="pmb149719"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/das-deutsche-buch/6_11-12_rembrandt-erzieher.pdf</ref>
@@ -89,5 +89,98 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154645">
+               <persName>
+                  <surname>Wagner</surname>
+                  <forename>Adolf</forename>
+               </persName>
+               <birth>
+                  <date when="1835">1835</date>
+               </birth>
+               <death>
+                  <date when="1917">1917</date>
+               </death>
+               <idno type="HB-tv">HB-tv_145_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154645.html</idno>
+            </person>
+            <person xml:id="pmb116011">
+               <persName>
+                  <surname>Schmoller</surname>
+                  <forename>Gustav von</forename>
+               </persName>
+               <birth>
+                  <date>1838-06-24</date>
+                  <placeName type="wikidata" ref="Q715">Heilbronn</placeName>
+               </birth>
+               <death>
+                  <date>1917-06-27</date>
+                  <placeName type="wikidata" ref="Q522459">Bad Harzburg</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_6695_p2</idno>
+               <idno type="wikidata">Q62833</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118609378</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116011.html</idno>
+            </person>
+            <person xml:id="pmb5428">
+               <persName>
+                  <surname>Rembrandt Harmenszoon van Rijn</surname>
+               </persName>
+               <birth>
+                  <date>1606-07-15</date>
+                  <placeName type="wikidata" ref="Q43631">Leiden</placeName>
+               </birth>
+               <death>
+                  <date>1669-10-04</date>
+                  <placeName type="wikidata" ref="Q727">Amsterdam</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1050_p6</idno>
+               <idno type="wikidata">Q5598</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11859964X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb5428.html</idno>
+            </person>
+            <person xml:id="pmb149411">
+               <persName>
+                  <surname>Langbehn</surname>
+                  <forename>Julius</forename>
+               </persName>
+               <birth>
+                  <date>1851-03-26</date>
+                  <placeName type="wikidata" ref="Q29868">Haderslev</placeName>
+               </birth>
+               <death>
+                  <date>1907-04-30</date>
+                  <placeName type="wikidata" ref="Q4007">Rosenheim</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3496_p3</idno>
+               <idno type="wikidata">Q68824</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11872634X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149411.html</idno>
+            </person>
+            <person xml:id="pmb149719">
+               <persName>
+                  <surname>Momme Nissen</surname>
+                  <forename>Benedikt</forename>
+               </persName>
+               <birth>
+                  <date>1870-04-26</date>
+                  <placeName type="wikidata" ref="Q20651">Deezbüll</placeName>
+               </birth>
+               <death>
+                  <date>1943-06-24</date>
+                  <placeName type="wikidata" ref="Q64213">Ilanz/Glion</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1217_p5</idno>
+               <idno type="wikidata">Q816984</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117022632</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149719.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

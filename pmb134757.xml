@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb134757.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -68,11 +68,11 @@
                   Gesellschaft mit Kapital und ohne in ihrer Wirtschaftsordnung besteht.</note>
                <ref type="personenindex">
                   <listRef>
-                     <ptr type="HB-tv" target="HB-tv_4858_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2616_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2627_p20"/>
-                     <ptr type="HB-tv" target="HB-tv_2615_p13"/>
-                     <ptr type="HB-tv" target="HB-tv_145_p4"/>
+                     <ptr type="pmb" target="pmb149938"/>
+                     <ptr type="pmb" target="pmb153343"/>
+                     <ptr type="pmb" target="pmb153286"/>
+                     <ptr type="pmb" target="pmb157387"/>
+                     <ptr type="pmb" target="pmb154645"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/kyffhaeuser/1884-rodbertus-2.pdf</ref>
@@ -85,5 +85,94 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb149938">
+               <persName>
+                  <surname>Rodbertus</surname>
+                  <forename>Johann Karl</forename>
+               </persName>
+               <birth>
+                  <date>1805-08-12</date>
+                  <placeName type="wikidata" ref="Q4098">Greifswald</placeName>
+               </birth>
+               <death>
+                  <date>1875-12-06</date>
+                  <placeName type="wikidata" ref="Q689075">Völschow</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4858_p3</idno>
+               <idno type="wikidata">Q63695</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118745638</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149938.html</idno>
+            </person>
+            <person xml:id="pmb153343">
+               <persName>
+                  <surname>Kirchmann</surname>
+                  <forename>Julius von</forename>
+               </persName>
+               <birth>
+                  <date>1802-11-05</date>
+                  <placeName type="wikidata" ref="Q523975">Bad Lauchstädt</placeName>
+               </birth>
+               <death>
+                  <date>1884-10-20</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2616_p1</idno>
+               <idno type="wikidata">Q84502</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118841726</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153343.html</idno>
+            </person>
+            <person xml:id="pmb153286">
+               <persName>
+                  <surname>Ricardo</surname>
+                  <forename>David</forename>
+               </persName>
+               <birth>
+                  <date>1772-04-18</date>
+                  <placeName type="wikidata" ref="Q84">London</placeName>
+               </birth>
+               <death>
+                  <date>1823-09-11</date>
+                  <placeName type="wikidata" ref="Q1405039">Gatcombe Park</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2627_p20</idno>
+               <idno type="wikidata">Q160270</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118600214</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153286.html</idno>
+            </person>
+            <person xml:id="pmb157387">
+               <persName>
+                  <surname>Say</surname>
+                  <forename>Jean-Baptiste</forename>
+               </persName>
+               <birth>
+                  <date when="1767">1767</date>
+               </birth>
+               <death>
+                  <date when="1832">1832</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2615_p13</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157387.html</idno>
+            </person>
+            <person xml:id="pmb154645">
+               <persName>
+                  <surname>Wagner</surname>
+                  <forename>Adolf</forename>
+               </persName>
+               <birth>
+                  <date when="1835">1835</date>
+               </birth>
+               <death>
+                  <date when="1917">1917</date>
+               </death>
+               <idno type="HB-tv">HB-tv_145_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154645.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

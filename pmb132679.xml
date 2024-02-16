@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132679.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -60,8 +60,8 @@
                   <listRef>
                      <ptr type="pmb" target="pmb12306"/>
                      <ptr type="pmb" target="pmb4194"/>
-                     <ptr type="HB-tv" target="HB-tv_3613_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3613_p4"/>
+                     <ptr type="pmb" target="pmb156085"/>
+                     <ptr type="pmb" target="pmb156087"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -73,5 +73,38 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb156085">
+               <persName>
+                  <surname>Castel</surname>
+                  <forename>Louis Bertrand</forename>
+               </persName>
+               <birth>
+                  <date when="1688">1688</date>
+               </birth>
+               <death>
+                  <date when="1757">1757</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3613_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156085.html</idno>
+            </person>
+            <person xml:id="pmb156087">
+               <persName>
+                  <surname>Parville</surname>
+                  <forename>Henri de</forename>
+               </persName>
+               <persName type="namensvariante">François Henri Peudefer</persName>
+               <birth>
+                  <date when="1838">1838</date>
+               </birth>
+               <death>
+                  <date when="1909">1909</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3613_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156087.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

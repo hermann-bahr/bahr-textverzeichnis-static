@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123393.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -65,8 +65,8 @@
                   <listRef>
                      <ptr type="pmb" target="pmb27048"/>
                      <ptr type="pmb" target="pmb3982"/>
-                     <ptr type="HB-tv" target="HB-tv_3900_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3900_p2"/>
+                     <ptr type="pmb" target="pmb154363"/>
+                     <ptr type="pmb" target="pmb154364"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1899-19/247-208.pdf</ref>
@@ -79,5 +79,25 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154363">
+               <persName>
+                  <surname>Dengg</surname>
+                  <forename>Anna</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_3900_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154363.html</idno>
+            </person>
+            <person xml:id="pmb154364">
+               <persName>
+                  <surname>Meth</surname>
+                  <forename>Josef</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_3900_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154364.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122599.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,8 +69,8 @@
                      <ptr type="pmb" target="pmb4030"/>
                      <ptr type="pmb" target="pmb11851"/>
                      <ptr type="pmb" target="pmb2743"/>
-                     <ptr type="HB-tv" target="HB-tv_2234_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2234_p2"/>
+                     <ptr type="pmb" target="pmb153978"/>
+                     <ptr type="pmb" target="pmb153979"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19060317&amp;seite=11</ref>
@@ -84,5 +84,26 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb153978">
+               <persName>
+                  <surname>Stärk</surname>
+                  <forename>Elly</forename>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <idno type="HB-tv">HB-tv_2234_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153978.html</idno>
+            </person>
+            <person xml:id="pmb153979">
+               <persName>
+                  <surname>Dietrich</surname>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_2234_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153979.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

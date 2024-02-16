@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb131445.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -78,10 +78,10 @@
                      <ptr type="pmb" target="pmb3379"/>
                      <ptr type="pmb" target="pmb11798"/>
                      <ptr type="pmb" target="pmb2404"/>
-                     <ptr type="HB-tv" target="HB-tv_3885_p15"/>
-                     <ptr type="HB-tv" target="HB-tv_3290_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_151_p21"/>
-                     <ptr type="HB-tv" target="HB-tv_1319_p2"/>
+                     <ptr type="pmb" target="pmb156246"/>
+                     <ptr type="pmb" target="pmb156358"/>
+                     <ptr type="pmb" target="pmb150475"/>
+                     <ptr type="pmb" target="pmb148906"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/10-jugend.pdf</ref>
@@ -114,5 +114,87 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2404">
+               <persName>
+                  <surname>Hebbel</surname>
+                  <forename>Christian Friedrich</forename>
+               </persName>
+               <birth>
+                  <date>1813-03-18</date>
+                  <placeName type="wikidata" ref="Q518460">Wesselburen</placeName>
+               </birth>
+               <death>
+                  <date>1863-12-13</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_6576_p3</idno>
+               <idno type="wikidata">Q57182</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118547445</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2404.html</idno>
+            </person>
+            <person xml:id="pmb156246">
+               <persName>
+                  <surname>Stern</surname>
+                  <forename>Carl Wilhelm</forename>
+               </persName>
+               <birth>
+                  <date when="1873">1873</date>
+               </birth>
+               <death>
+                  <date when="1942">1942</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3885_p15</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156246.html</idno>
+            </person>
+            <person xml:id="pmb156358">
+               <persName>
+                  <surname>Susanna</surname>
+               </persName>
+               <idno type="HB-tv">HB-tv_3290_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156358.html</idno>
+            </person>
+            <person xml:id="pmb150475">
+               <persName>
+                  <surname>Shelley</surname>
+                  <forename>Mary</forename>
+               </persName>
+               <birth>
+                  <date>1797-08-30</date>
+                  <placeName type="wikidata" ref="Q149573">Somers Town</placeName>
+               </birth>
+               <death>
+                  <date>1851-02-01</date>
+                  <placeName type="wikidata" ref="Q2962865"/>
+               </death>
+               <idno type="HB-tv">HB-tv_151_p21</idno>
+               <idno type="wikidata">Q47152</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/11879695X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150475.html</idno>
+            </person>
+            <person xml:id="pmb148906">
+               <persName>
+                  <surname>Hörmann</surname>
+                  <forename>Theodor von</forename>
+               </persName>
+               <birth>
+                  <date>1840-12-13</date>
+                  <placeName type="wikidata" ref="Q254107">Imst</placeName>
+               </birth>
+               <death>
+                  <date>1895-07-01</date>
+                  <placeName type="wikidata" ref="Q13298">Graz</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1319_p2</idno>
+               <idno type="wikidata">Q872134</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118552201</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148906.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

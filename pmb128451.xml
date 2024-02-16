@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb128451.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -66,10 +66,10 @@
                      <ptr type="pmb" target="pmb3511"/>
                      <ptr type="pmb" target="pmb12685"/>
                      <ptr type="pmb" target="pmb3622"/>
-                     <ptr type="HB-tv" target="HB-tv_5263_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_4464_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_5263_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_6349_p16"/>
+                     <ptr type="pmb" target="pmb155700"/>
+                     <ptr type="pmb" target="pmb153968"/>
+                     <ptr type="pmb" target="pmb153676"/>
+                     <ptr type="pmb" target="pmb113256"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -93,5 +93,62 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb155700">
+               <persName>
+                  <surname>Plancus</surname>
+                  <forename>Manutius</forename>
+               </persName>
+               <birth>
+                  <date when-custom="1. Jhdt. v.u.Z.">1. Jhdt. v.u.Z.</date>
+               </birth>
+               <idno type="HB-tv">HB-tv_5263_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155700.html</idno>
+            </person>
+            <person xml:id="pmb153968">
+               <persName>
+                  <surname>Augustus</surname>
+                  <forename>Gaius Octavianus Augustus</forename>
+               </persName>
+               <birth>
+                  <date when-custom="63 v.u.Z.">63 v.u.Z.</date>
+               </birth>
+               <death>
+                  <date when-custom="14 n. Chr.">14 n. Chr.</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4464_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153968.html</idno>
+            </person>
+            <person xml:id="pmb153676">
+               <persName>
+                  <surname>Teukros</surname>
+               </persName>
+               <idno type="HB-tv">HB-tv_5263_p3</idno>
+               <idno type="wikidata">Q11951692</idno>
+               <sex value="male"/>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153676.html</idno>
+            </person>
+            <person xml:id="pmb113256">
+               <persName>
+                  <surname>Disraeli</surname>
+                  <forename>Benjamin</forename>
+               </persName>
+               <birth>
+                  <date>1804-12-21</date>
+                  <placeName type="wikidata" ref="Q84">London</placeName>
+               </birth>
+               <death>
+                  <date>1881-04-19</date>
+                  <placeName type="wikidata" ref="Q124184">Mayfair</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_6349_p16</idno>
+               <idno type="wikidata">Q82006</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118526014</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113256.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

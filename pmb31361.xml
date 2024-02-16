@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb31361.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -78,7 +78,7 @@
                   <listRef>
                      <ptr type="pmb" target="pmb11941"/>
                      <ptr type="pmb" target="pmb15229"/>
-                     <ptr type="HB-tv" target="HB-tv_3369_p34"/>
+                     <ptr type="pmb" target="pmb155402"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -95,5 +95,23 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb155402">
+               <persName>
+                  <surname>Portinari</surname>
+                  <forename>Beatrice</forename>
+               </persName>
+               <birth>
+                  <date when="1266">1266</date>
+               </birth>
+               <death>
+                  <date when="1290">1290</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3369_p34</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155402.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

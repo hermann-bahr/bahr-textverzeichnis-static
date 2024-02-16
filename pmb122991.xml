@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122991.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,7 +69,7 @@
                      <ptr type="pmb" target="pmb12265"/>
                      <ptr type="pmb" target="pmb11851"/>
                      <ptr type="pmb" target="pmb11201"/>
-                     <ptr type="HB-tv" target="HB-tv_2357_p1"/>
+                     <ptr type="pmb" target="pmb148771"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19010421&amp;seite=7</ref>
@@ -83,5 +83,28 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb148771">
+               <persName>
+                  <surname>Aicard</surname>
+                  <forename>Jean</forename>
+               </persName>
+               <birth>
+                  <date>1848-02-04</date>
+                  <placeName type="wikidata" ref="Q44160">Toulon</placeName>
+               </birth>
+               <death>
+                  <date>1921-05-13</date>
+                  <placeName type="wikidata" ref="Q259463">7. Arrondissement von Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2357_p1</idno>
+               <idno type="wikidata">Q726967</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118644122</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148771.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

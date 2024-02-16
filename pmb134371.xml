@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb134371.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -83,10 +83,10 @@
                      <ptr type="pmb" target="pmb4026"/>
                      <ptr type="pmb" target="pmb4311"/>
                      <ptr type="pmb" target="pmb11461"/>
-                     <ptr type="HB-tv" target="HB-tv_1847_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_1929_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3543_p14"/>
-                     <ptr type="HB-tv" target="HB-tv_3665_p2"/>
+                     <ptr type="pmb" target="pmb151511"/>
+                     <ptr type="pmb" target="pmb148790"/>
+                     <ptr type="pmb" target="pmb115790"/>
+                     <ptr type="pmb" target="pmb88138"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/2-ueberwindung.pdf</ref>
@@ -110,5 +110,85 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb151511">
+               <persName>
+                  <surname>Moreau</surname>
+                  <forename>Gustave</forename>
+               </persName>
+               <birth>
+                  <date>1826-04-06</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1898-04-18</date>
+                  <placeName type="wikidata" ref="Q647">Rennes</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1847_p5</idno>
+               <idno type="wikidata">Q203828</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118583972</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151511.html</idno>
+            </person>
+            <person xml:id="pmb148790">
+               <persName>
+                  <surname>Degas</surname>
+                  <forename>Edgar</forename>
+               </persName>
+               <birth>
+                  <date>1834-07-19</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1917-09-27</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1929_p1</idno>
+               <idno type="wikidata">Q46373</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118524291</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148790.html</idno>
+            </person>
+            <person xml:id="pmb115790">
+               <persName>
+                  <surname>Puvis de Chavannes</surname>
+                  <forename>Pierre</forename>
+               </persName>
+               <birth>
+                  <date>1824-12-14</date>
+                  <placeName type="wikidata" ref="Q456">Lyon</placeName>
+               </birth>
+               <death>
+                  <date>1898-10-24</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3543_p14</idno>
+               <idno type="wikidata">Q216873</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118846027</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb115790.html</idno>
+            </person>
+            <person xml:id="pmb88138">
+               <persName>
+                  <surname>Lemaître</surname>
+                  <forename>Jules</forename>
+               </persName>
+               <birth>
+                  <date>1853-04-27</date>
+                  <placeName type="wikidata" ref="Q1418689">Vennecy</placeName>
+               </birth>
+               <death>
+                  <date>1914-08-04</date>
+                  <placeName type="wikidata" ref="Q1379724">Tavers</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3665_p2</idno>
+               <idno type="wikidata">Q197935</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118727338</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb88138.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb134507.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -76,8 +76,8 @@
                      <ptr type="pmb" target="pmb6761"/>
                      <ptr type="pmb" target="pmb13194"/>
                      <ptr type="pmb" target="pmb12913"/>
-                     <ptr type="HB-tv" target="HB-tv_2638_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3369_p22"/>
+                     <ptr type="pmb" target="pmb153203"/>
+                     <ptr type="pmb" target="pmb103499"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/1-zur-kritik.pdf</ref>
@@ -92,5 +92,65 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb13194">
+               <persName>
+                  <surname>Zola</surname>
+                  <forename>Emile</forename>
+               </persName>
+               <birth>
+                  <date>1840-04-02</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1902-09-29</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2691_p2</idno>
+               <idno type="wikidata">Q504</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118637223</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb13194.html</idno>
+            </person>
+            <person xml:id="pmb153203">
+               <persName>
+                  <surname>Garnier</surname>
+                  <forename>Jean Louis Charles</forename>
+               </persName>
+               <birth>
+                  <date>1825-11-06</date>
+                  <placeName type="wikidata" ref="Q15149909"/>
+               </birth>
+               <death>
+                  <date when=" 1898"> 1898</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2638_p1</idno>
+               <idno type="wikidata">Q313556</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118630903</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153203.html</idno>
+            </person>
+            <person xml:id="pmb103499">
+               <persName>
+                  <surname>Schlosser</surname>
+                  <forename>Julius von</forename>
+               </persName>
+               <birth>
+                  <date>1866-09-23</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1938-12-01</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3369_p22</idno>
+               <idno type="wikidata">Q84564</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118931725</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb103499.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

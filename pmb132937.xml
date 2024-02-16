@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132937.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -75,9 +75,9 @@
                      <ptr type="pmb" target="pmb2142"/>
                      <ptr type="pmb" target="pmb3787"/>
                      <ptr type="pmb" target="pmb3723"/>
-                     <ptr type="HB-tv" target="HB-tv_1721_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3431_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_3431_p4"/>
+                     <ptr type="pmb" target="pmb148941"/>
+                     <ptr type="pmb" target="pmb116984"/>
+                     <ptr type="pmb" target="pmb24927"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/7-bildung.pdf</ref>
@@ -109,5 +109,85 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2142">
+               <persName>
+                  <surname>d’Annunzio</surname>
+                  <forename>Gabriele</forename>
+               </persName>
+               <birth>
+                  <date>1863-03-12</date>
+                  <placeName type="wikidata" ref="Q2704">Pescara</placeName>
+               </birth>
+               <death>
+                  <date>1938-03-01</date>
+                  <placeName type="wikidata" ref="Q104619">Gardone Riviera</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4865_p5</idno>
+               <idno type="wikidata">Q193236</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118503243</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2142.html</idno>
+            </person>
+            <person xml:id="pmb148941">
+               <persName>
+                  <surname>Barbasetti</surname>
+                  <forename>Luigi</forename>
+               </persName>
+               <birth>
+                  <date>1859-02-21</date>
+                  <placeName type="wikidata" ref="Q2790">Udine</placeName>
+               </birth>
+               <death>
+                  <date>1948-03-31</date>
+                  <placeName type="wikidata" ref="Q2028">Verona</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1721_p1</idno>
+               <idno type="wikidata">Q1876092</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/1203233825</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148941.html</idno>
+            </person>
+            <person xml:id="pmb116984">
+               <persName>
+                  <surname>Castiglione</surname>
+                  <forename>Baldassare</forename>
+               </persName>
+               <birth>
+                  <date>1478-12-06</date>
+                  <placeName type="wikidata" ref="Q42358">Marcaria</placeName>
+               </birth>
+               <death>
+                  <date>1529-02-08</date>
+                  <placeName type="wikidata" ref="Q5836">Toledo</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3431_p3</idno>
+               <idno type="wikidata">Q211133</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118519573</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116984.html</idno>
+            </person>
+            <person xml:id="pmb24927">
+               <persName>
+                  <surname>Silberer</surname>
+                  <forename>Victor</forename>
+               </persName>
+               <birth>
+                  <date>1846-10-23</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1924-04-11</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3431_p4</idno>
+               <idno type="wikidata">Q2524401</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119325713</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb24927.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

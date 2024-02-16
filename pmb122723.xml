@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122723.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -74,11 +74,11 @@
                      <ptr type="pmb" target="pmb26754"/>
                      <ptr type="pmb" target="pmb2246"/>
                      <ptr type="pmb" target="pmb12504"/>
-                     <ptr type="HB-tv" target="HB-tv_2335_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2335_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2335_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2335_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_2336_p1"/>
+                     <ptr type="pmb" target="pmb148774"/>
+                     <ptr type="pmb" target="pmb154039"/>
+                     <ptr type="pmb" target="pmb154040"/>
+                     <ptr type="pmb" target="pmb154041"/>
+                     <ptr type="pmb" target="pmb154036"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19040902&amp;seite=10</ref>
@@ -92,5 +92,66 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb148774">
+               <persName>
+                  <surname>Weinzierl</surname>
+                  <forename>Max von</forename>
+               </persName>
+               <birth>
+                  <date>1841-09-16</date>
+               </birth>
+               <death>
+                  <date>1898-07-10</date>
+                  <placeName type="wikidata" ref="Q277965">Mödling</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2335_p1</idno>
+               <idno type="wikidata">Q20102239</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117276065</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148774.html</idno>
+            </person>
+            <person xml:id="pmb154039">
+               <persName>
+                  <surname>Millmann</surname>
+                  <forename>Moritz</forename>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_2335_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154039.html</idno>
+            </person>
+            <person xml:id="pmb154040">
+               <persName>
+                  <surname>Paak</surname>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <idno type="HB-tv">HB-tv_2335_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154040.html</idno>
+            </person>
+            <person xml:id="pmb154041">
+               <persName>
+                  <surname>Lichten</surname>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <idno type="HB-tv">HB-tv_2335_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154041.html</idno>
+            </person>
+            <person xml:id="pmb154036">
+               <persName>
+                  <surname>Niese</surname>
+                  <forename>Johanna »Hansi«</forename>
+               </persName>
+               <birth>
+                  <date when="1875">1875</date>
+               </birth>
+               <death>
+                  <date when="1934">1934</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2336_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154036.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

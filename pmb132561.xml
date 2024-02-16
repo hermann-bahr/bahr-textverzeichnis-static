@@ -24,7 +24,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132561.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -68,11 +68,11 @@
                      <ptr type="pmb" target="pmb12053"/>
                      <ptr type="pmb" target="pmb10825"/>
                      <ptr type="pmb" target="pmb4120"/>
-                     <ptr type="HB-tv" target="HB-tv_1968_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1968_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1922_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2244_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1922_p5"/>
+                     <ptr type="pmb" target="pmb148798"/>
+                     <ptr type="pmb" target="pmb148793"/>
+                     <ptr type="pmb" target="pmb156527"/>
+                     <ptr type="pmb" target="pmb149000"/>
+                     <ptr type="pmb" target="pmb156528"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19021007&amp;seite=8</ref>
@@ -91,5 +91,113 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb13194">
+               <persName>
+                  <surname>Zola</surname>
+                  <forename>Emile</forename>
+               </persName>
+               <birth>
+                  <date>1840-04-02</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1902-09-29</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2691_p2</idno>
+               <idno type="wikidata">Q504</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118637223</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb13194.html</idno>
+            </person>
+            <person xml:id="pmb148798">
+               <persName>
+                  <surname>Erckmann</surname>
+                  <forename>Émile</forename>
+               </persName>
+               <birth>
+                  <date>1822-05-20</date>
+                  <placeName type="wikidata" ref="Q22160">Phalsbourg</placeName>
+               </birth>
+               <death>
+                  <date>1899-03-14</date>
+                  <placeName type="wikidata" ref="Q208794">Lunéville</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1968_p2</idno>
+               <idno type="wikidata">Q3246593</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118812890</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148798.html</idno>
+            </person>
+            <person xml:id="pmb148793">
+               <persName>
+                  <surname>Chatrian</surname>
+                  <forename>Alexandre</forename>
+               </persName>
+               <birth>
+                  <date>1826-12-18</date>
+                  <placeName type="wikidata" ref="Q24936374"/>
+               </birth>
+               <death>
+                  <date>1890-09-03</date>
+                  <placeName type="wikidata" ref="Q244716">Villemomble</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1968_p1</idno>
+               <idno type="wikidata">Q2833544</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118815024</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148793.html</idno>
+            </person>
+            <person xml:id="pmb156527">
+               <persName>
+                  <surname>Perrin</surname>
+                  <forename>Émile-César-Victor</forename>
+               </persName>
+               <birth>
+                  <date when="1814">1814</date>
+               </birth>
+               <death>
+                  <date when="1885">1885</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1922_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156527.html</idno>
+            </person>
+            <person xml:id="pmb149000">
+               <persName>
+                  <surname>Delaunay</surname>
+                  <forename>Louis Arsène</forename>
+               </persName>
+               <birth>
+                  <date>1826-03-21</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1903-09-22</date>
+                  <placeName type="wikidata" ref="Q621">Versailles</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2244_p2</idno>
+               <idno type="wikidata">Q1532164</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116057742</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149000.html</idno>
+            </person>
+            <person xml:id="pmb156528">
+               <persName>
+                  <surname>Laya</surname>
+                  <forename>Léon</forename>
+               </persName>
+               <birth>
+                  <date when-custom="um 1810">um 1810</date>
+               </birth>
+               <death>
+                  <date when="1872">1872</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1922_p5</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156528.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132755.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -77,7 +77,7 @@
                      <ptr type="pmb" target="pmb4950"/>
                      <ptr type="pmb" target="pmb12358"/>
                      <ptr type="pmb" target="pmb2142"/>
-                     <ptr type="HB-tv" target="HB-tv_593_p1"/>
+                     <ptr type="pmb" target="pmb156590"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19011011&amp;seite=1</ref>
@@ -89,5 +89,42 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2142">
+               <persName>
+                  <surname>d’Annunzio</surname>
+                  <forename>Gabriele</forename>
+               </persName>
+               <birth>
+                  <date>1863-03-12</date>
+                  <placeName type="wikidata" ref="Q2704">Pescara</placeName>
+               </birth>
+               <death>
+                  <date>1938-03-01</date>
+                  <placeName type="wikidata" ref="Q104619">Gardone Riviera</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4865_p5</idno>
+               <idno type="wikidata">Q193236</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118503243</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2142.html</idno>
+            </person>
+            <person xml:id="pmb156590">
+               <persName>
+                  <surname>Krause</surname>
+                  <forename>Johann Heinrich</forename>
+               </persName>
+               <birth>
+                  <date when="1800">1800</date>
+               </birth>
+               <death>
+                  <date when="1882">1882</date>
+               </death>
+               <idno type="HB-tv">HB-tv_593_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156590.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb128073.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -77,11 +77,11 @@
                      <ptr type="pmb" target="pmb11933"/>
                      <ptr type="pmb" target="pmb5888"/>
                      <ptr type="pmb" target="pmb10943"/>
-                     <ptr type="HB-tv" target="HB-tv_154_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_154_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3501_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_154_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_154_p5"/>
+                     <ptr type="pmb" target="pmb4769"/>
+                     <ptr type="pmb" target="pmb5585"/>
+                     <ptr type="pmb" target="pmb149379"/>
+                     <ptr type="pmb" target="pmb155648"/>
+                     <ptr type="pmb" target="pmb113213"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/london-mercury/1921-24.pdf</ref>
@@ -94,5 +94,96 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb4769">
+               <persName>
+                  <surname>Napoléon Bonaparte</surname>
+               </persName>
+               <birth>
+                  <date>1769-08-15</date>
+                  <placeName type="wikidata" ref="Q40104">Ajaccio</placeName>
+               </birth>
+               <death>
+                  <date>1821-05-05</date>
+                  <placeName type="wikidata" ref="Q578060">Longwood House</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1891_p2</idno>
+               <idno type="wikidata">Q517</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118586408</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb4769.html</idno>
+            </person>
+            <person xml:id="pmb5585">
+               <persName>
+                  <surname>Erich Caesar Reiß</surname>
+               </persName>
+               <birth>
+                  <date>1887-02-24</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </birth>
+               <death>
+                  <date>1951-05-08</date>
+                  <placeName type="wikidata" ref="Q60">New York City</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_154_p2</idno>
+               <idno type="wikidata">Q1353048</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119239175</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb5585.html</idno>
+            </person>
+            <person xml:id="pmb149379">
+               <persName>
+                  <surname>Habbel</surname>
+                  <forename>Josef</forename>
+               </persName>
+               <birth>
+                  <date>1846-01-08</date>
+                  <placeName type="wikidata" ref="Q6149">Soest</placeName>
+               </birth>
+               <death>
+                  <date>1916-12-20</date>
+                  <placeName type="wikidata" ref="Q2978">Regensburg</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3501_p5</idno>
+               <idno type="wikidata">Q1704721</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/133754685</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149379.html</idno>
+            </person>
+            <person xml:id="pmb155648">
+               <persName>
+                  <surname>Franziskus von Assisi</surname>
+               </persName>
+               <birth>
+                  <date when-custom="1181/1182">1181/1182</date>
+               </birth>
+               <death>
+                  <date when="1226">1226</date>
+               </death>
+               <idno type="HB-tv">HB-tv_154_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155648.html</idno>
+            </person>
+            <person xml:id="pmb113213">
+               <persName>
+                  <surname>Motte Fouqué</surname>
+                  <forename>Friedrich de la</forename>
+               </persName>
+               <birth>
+                  <date>1777-02-12</date>
+                  <placeName type="wikidata" ref="Q3931">Brandenburg an der Havel</placeName>
+               </birth>
+               <death>
+                  <date>1843-01-23</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_154_p5</idno>
+               <idno type="wikidata">Q77371</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118534556</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113213.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

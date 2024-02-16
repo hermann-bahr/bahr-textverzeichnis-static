@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb127979.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -68,9 +68,9 @@
                      <ptr type="pmb" target="pmb2412"/>
                      <ptr type="pmb" target="pmb12471"/>
                      <ptr type="pmb" target="pmb11461"/>
-                     <ptr type="HB-tv" target="HB-tv_3350_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1811_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3350_p3"/>
+                     <ptr type="pmb" target="pmb150391"/>
+                     <ptr type="pmb" target="pmb149095"/>
+                     <ptr type="pmb" target="pmb106649"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/15-bilderbuch.pdf</ref>
@@ -101,5 +101,66 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb150391">
+               <persName>
+                  <surname>Schadow</surname>
+                  <forename>Johann Gottfried</forename>
+               </persName>
+               <birth>
+                  <date>1764-05-20</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </birth>
+               <death>
+                  <date>1850-01-27</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3350_p1</idno>
+               <idno type="wikidata">Q51989</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118606115</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150391.html</idno>
+            </person>
+            <person xml:id="pmb149095">
+               <persName>
+                  <surname>Messel</surname>
+                  <forename>Alfred</forename>
+               </persName>
+               <birth>
+                  <date>1853-07-22</date>
+                  <placeName type="wikidata" ref="Q2973">Darmstadt</placeName>
+               </birth>
+               <death>
+                  <date>1909-03-24</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1811_p1</idno>
+               <idno type="wikidata">Q73131</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116914009</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149095.html</idno>
+            </person>
+            <person xml:id="pmb106649">
+               <persName>
+                  <surname>Tschudi</surname>
+                  <forename>Hugo von</forename>
+               </persName>
+               <birth>
+                  <date>1851-02-07</date>
+                  <placeName type="wikidata" ref="Q701754">Edlitz</placeName>
+               </birth>
+               <death>
+                  <date>1911-11-23</date>
+                  <placeName type="wikidata" ref="Q1022">Stuttgart</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3350_p3</idno>
+               <idno type="wikidata">Q124186</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118624377</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb106649.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

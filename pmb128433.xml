@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb128433.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -72,10 +72,10 @@
                      <ptr type="pmb" target="pmb5146"/>
                      <ptr type="pmb" target="pmb12147"/>
                      <ptr type="pmb" target="pmb28465"/>
-                     <ptr type="HB-tv" target="HB-tv_5272_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_5272_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3364_p13"/>
-                     <ptr type="HB-tv" target="HB-tv_5272_p4"/>
+                     <ptr type="pmb" target="pmb155697"/>
+                     <ptr type="pmb" target="pmb150563"/>
+                     <ptr type="pmb" target="pmb43790"/>
+                     <ptr type="pmb" target="pmb155698"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -99,5 +99,69 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb155697">
+               <persName>
+                  <surname>Anaxagoras</surname>
+               </persName>
+               <birth>
+                  <date when="0499">499</date>
+               </birth>
+               <death>
+                  <date when-custom="428 v.u.Z.">428 v.u.Z.</date>
+               </death>
+               <idno type="HB-tv">HB-tv_5272_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155697.html</idno>
+            </person>
+            <person xml:id="pmb150563">
+               <persName>
+                  <surname>Averroës</surname>
+               </persName>
+               <birth>
+                  <date>1126-04-14</date>
+                  <placeName type="wikidata" ref="Q5818">Córdoba</placeName>
+               </birth>
+               <death>
+                  <date>1198-12-10</date>
+                  <placeName type="wikidata" ref="Q101625">Marrakesch</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_5272_p2</idno>
+               <idno type="wikidata">Q39837</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118505238</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150563.html</idno>
+            </person>
+            <person xml:id="pmb43790">
+               <persName>
+                  <surname>Friedlaender</surname>
+                  <forename>Salomo</forename>
+               </persName>
+               <birth>
+                  <date>1871-05-04</date>
+                  <placeName type="wikidata" ref="Q52828">Gołańcz</placeName>
+               </birth>
+               <death>
+                  <date>1946-09-09</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3364_p13</idno>
+               <idno type="wikidata">Q978324</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118586076</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb43790.html</idno>
+            </person>
+            <person xml:id="pmb155698">
+               <persName>
+                  <surname>Empedokles</surname>
+               </persName>
+               <death>
+                  <date when-custom="um 434 v.u.Z.">um 434 v.u.Z.</date>
+               </death>
+               <idno type="HB-tv">HB-tv_5272_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155698.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132053.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -97,11 +97,11 @@
                      <ptr type="pmb" target="pmb11617"/>
                      <ptr type="pmb" target="pmb16281"/>
                      <ptr type="pmb" target="pmb11851"/>
-                     <ptr type="HB-tv" target="HB-tv_2440_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2028_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2028_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2028_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_1969_p1"/>
+                     <ptr type="pmb" target="pmb153974"/>
+                     <ptr type="pmb" target="pmb156488"/>
+                     <ptr type="pmb" target="pmb156489"/>
+                     <ptr type="pmb" target="pmb156490"/>
+                     <ptr type="pmb" target="pmb63404"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19040504&amp;seite=1</ref>
@@ -119,7 +119,7 @@
                      <date type="year">1910</date>
                      <biblScope unit="issue">2</biblScope>
                      <biblScope unit="page">336–338</biblScope>
-                     <title ref="pmb131109">Brahm a Reinhardt. Přeložil J. K</title>
+                     <title ref="pmb131109" level="a">Brahm a Reinhardt. Přeložil J. K</title>
                   </bibl>
                </note>
                <ref type="abdrucke">
@@ -130,5 +130,68 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb153974">
+               <persName>
+                  <surname>Sauer</surname>
+                  <forename>Oscar</forename>
+               </persName>
+               <birth>
+                  <date when="1856">1856</date>
+               </birth>
+               <death>
+                  <date when="1918">1918</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2440_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153974.html</idno>
+            </person>
+            <person xml:id="pmb156488">
+               <persName>
+                  <surname>Hofmeister</surname>
+                  <forename>Oscar</forename>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_2028_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156488.html</idno>
+            </person>
+            <person xml:id="pmb156489">
+               <persName>
+                  <surname>Pauli</surname>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_2028_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156489.html</idno>
+            </person>
+            <person xml:id="pmb156490">
+               <persName>
+                  <surname>Schwaiger</surname>
+                  <forename>Paul</forename>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_2028_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156490.html</idno>
+            </person>
+            <person xml:id="pmb63404">
+               <persName>
+                  <surname>Bertens</surname>
+                  <forename>Rosa</forename>
+               </persName>
+               <birth>
+                  <date>1860-01-01</date>
+                  <placeName type="wikidata" ref="Q16869">Konstantinopel</placeName>
+               </birth>
+               <death>
+                  <date>1934-10-05</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1969_p1</idno>
+               <idno type="wikidata">Q18412668</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/11614887X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb63404.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

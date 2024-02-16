@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122601.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -71,9 +71,9 @@
                   <listRef>
                      <ptr type="pmb" target="pmb9134"/>
                      <ptr type="pmb" target="pmb4179"/>
-                     <ptr type="HB-tv" target="HB-tv_2035_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2035_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2035_p3"/>
+                     <ptr type="pmb" target="pmb153980"/>
+                     <ptr type="pmb" target="pmb2868"/>
+                     <ptr type="pmb" target="pmb116258"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19060421&amp;seite=9</ref>
@@ -86,5 +86,62 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb153980">
+               <persName>
+                  <surname>Mühlbach</surname>
+                  <forename>Luise</forename>
+               </persName>
+               <persName type="namensvariante">Clara Mundt</persName>
+               <birth>
+                  <date when="1814">1814</date>
+               </birth>
+               <death>
+                  <date when="1873">1873</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2035_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153980.html</idno>
+            </person>
+            <person xml:id="pmb2868">
+               <persName>
+                  <surname>Kutschera</surname>
+                  <forename>Viktor</forename>
+               </persName>
+               <birth>
+                  <date>1863-05-02</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1933-01-20</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2035_p2</idno>
+               <idno type="wikidata">Q2524322</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116628081</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2868.html</idno>
+            </person>
+            <person xml:id="pmb116258">
+               <persName>
+                  <surname>Tilly</surname>
+                  <forename>Johann t’Serclaes von</forename>
+               </persName>
+               <birth>
+                  <date>1559-02-00</date>
+                  <placeName type="wikidata" ref="Q3528536">Tilly</placeName>
+               </birth>
+               <death>
+                  <date>1632-04-30</date>
+                  <placeName type="wikidata" ref="Q3004">Ingolstadt</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2035_p3</idno>
+               <idno type="wikidata">Q155534</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117384224</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116258.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

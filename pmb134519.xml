@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb134519.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -91,9 +91,9 @@
                      <ptr type="pmb" target="pmb2815"/>
                      <ptr type="pmb" target="pmb12624"/>
                      <ptr type="pmb" target="pmb11134"/>
-                     <ptr type="HB-tv" target="HB-tv_4873_p10"/>
-                     <ptr type="HB-tv" target="HB-tv_2632_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2632_p3"/>
+                     <ptr type="pmb" target="pmb11057"/>
+                     <ptr type="pmb" target="pmb157362"/>
+                     <ptr type="pmb" target="pmb23784"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/1-zur-kritik.pdf</ref>
@@ -119,5 +119,97 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb13194">
+               <persName>
+                  <surname>Zola</surname>
+                  <forename>Emile</forename>
+               </persName>
+               <birth>
+                  <date>1840-04-02</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1902-09-29</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2691_p2</idno>
+               <idno type="wikidata">Q504</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118637223</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb13194.html</idno>
+            </person>
+            <person xml:id="pmb5359">
+               <persName>
+                  <surname>Hugo</surname>
+                  <forename>Victor-Marie</forename>
+               </persName>
+               <birth>
+                  <date>1802-02-26</date>
+                  <placeName type="wikidata" ref="Q37776">Besançon</placeName>
+               </birth>
+               <death>
+                  <date>1885-05-22</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3375_p2</idno>
+               <idno type="wikidata">Q535</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118554654</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb5359.html</idno>
+            </person>
+            <person xml:id="pmb11057">
+               <persName>
+                  <surname>Byron of Rochdale</surname>
+                  <forename>George Gordon Noel</forename>
+               </persName>
+               <birth>
+                  <date>1788-01-22</date>
+                  <placeName type="wikidata" ref="Q84">London</placeName>
+               </birth>
+               <death>
+                  <date>1824-04-19</date>
+                  <placeName type="wikidata" ref="Q642810">Mesolongi</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4873_p10</idno>
+               <idno type="wikidata">Q5679</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118518208</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11057.html</idno>
+            </person>
+            <person xml:id="pmb157362">
+               <persName>
+                  <surname>Porel</surname>
+               </persName>
+               <birth>
+                  <date when="1843">1843</date>
+               </birth>
+               <death>
+                  <date when="1917">1917</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2632_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157362.html</idno>
+            </person>
+            <person xml:id="pmb23784">
+               <persName>
+                  <surname>Réjane</surname>
+               </persName>
+               <birth>
+                  <date>1856-06-06</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1920-06-14</date>
+                  <placeName type="wikidata" ref="Q194420">16. Arrondissement von Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_688_p2</idno>
+               <idno type="wikidata">Q596355</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/116394102</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb23784.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb125257.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -61,11 +61,11 @@
                      <ptr type="pmb" target="pmb3379"/>
                      <ptr type="pmb" target="pmb11161"/>
                      <ptr type="pmb" target="pmb8596"/>
-                     <ptr type="HB-tv" target="HB-tv_163_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1418_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_163_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_1928_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3500_p1"/>
+                     <ptr type="pmb" target="pmb112946"/>
+                     <ptr type="pmb" target="pmb116321"/>
+                     <ptr type="pmb" target="pmb154954"/>
+                     <ptr type="pmb" target="pmb114688"/>
+                     <ptr type="pmb" target="pmb149386"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/london-mercury/1927-94.pdf</ref>
@@ -77,5 +77,99 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb112946">
+               <persName>
+                  <surname>Münchhausen</surname>
+                  <forename>Börries von</forename>
+               </persName>
+               <birth>
+                  <date>1874-03-20</date>
+                  <placeName type="wikidata" ref="Q3185">Hildesheim</placeName>
+               </birth>
+               <death>
+                  <date>1945-03-16</date>
+                  <placeName type="wikidata" ref="Q37607">Windischleuba</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_163_p1</idno>
+               <idno type="wikidata">Q315746</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118785273</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb112946.html</idno>
+            </person>
+            <person xml:id="pmb116321">
+               <persName>
+                  <surname>Unamuno</surname>
+                  <forename>Miguel de</forename>
+               </persName>
+               <birth>
+                  <date>1864-09-29</date>
+                  <placeName type="wikidata" ref="Q8692">Bilbao</placeName>
+               </birth>
+               <death>
+                  <date>1936-12-31</date>
+                  <placeName type="wikidata" ref="Q15695">Salamanca</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1418_p1</idno>
+               <idno type="wikidata">Q185085</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118625403</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116321.html</idno>
+            </person>
+            <person xml:id="pmb154954">
+               <persName>
+                  <surname>Blunck</surname>
+                  <forename>Hans Friedrich</forename>
+               </persName>
+               <birth>
+                  <date when="1888">1888</date>
+               </birth>
+               <death>
+                  <date when="1961">1961</date>
+               </death>
+               <idno type="HB-tv">HB-tv_163_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154954.html</idno>
+            </person>
+            <person xml:id="pmb114688">
+               <persName>
+                  <surname>Grimm</surname>
+                  <forename>Jacob</forename>
+               </persName>
+               <birth>
+                  <date>1785-01-04</date>
+                  <placeName type="wikidata" ref="Q3802">Hanau</placeName>
+               </birth>
+               <death>
+                  <date>1863-09-20</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1928_p1</idno>
+               <idno type="wikidata">Q6701</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118542257</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114688.html</idno>
+            </person>
+            <person xml:id="pmb149386">
+               <persName>
+                  <surname>Siegrist</surname>
+                  <forename>Reinhold</forename>
+               </persName>
+               <birth>
+                  <date>1899-04-07</date>
+                  <placeName type="wikidata" ref="Q1040">Karlsruhe</placeName>
+               </birth>
+               <death>
+                  <date>1966-10-07</date>
+                  <placeName type="wikidata" ref="Q1040">Karlsruhe</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3500_p1</idno>
+               <idno type="wikidata">Q55675296</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117365408</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149386.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132741.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -68,10 +68,10 @@
                   <listRef>
                      <ptr type="pmb" target="pmb28664"/>
                      <ptr type="pmb" target="pmb12929"/>
-                     <ptr type="HB-tv" target="HB-tv_3361_p2"/>
-                     <ptr type="HB-tv" target="pmb141149_p93"/>
-                     <ptr type="HB-tv" target="HB-tv_742_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1319_p2"/>
+                     <ptr type="pmb" target="pmb13200"/>
+                     <ptr type="pmb" target="pmb11504"/>
+                     <ptr type="pmb" target="pmb2181"/>
+                     <ptr type="pmb" target="pmb148906"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -83,5 +83,85 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb13200">
+               <persName>
+                  <surname>Zuloaga y Zabaleta</surname>
+                  <forename>Ignacio</forename>
+               </persName>
+               <birth>
+                  <date>1870-07-26</date>
+                  <placeName type="wikidata" ref="Q496567">Eibar</placeName>
+               </birth>
+               <death>
+                  <date>1945-10-31</date>
+                  <placeName type="wikidata" ref="Q2807">Madrid</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3361_p2</idno>
+               <idno type="wikidata">Q460198</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117021954</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb13200.html</idno>
+            </person>
+            <person xml:id="pmb11504">
+               <persName>
+                  <surname>Goya y Lucientes</surname>
+                  <forename>Francisco de</forename>
+               </persName>
+               <birth>
+                  <date>1746-03-30</date>
+                  <placeName type="wikidata" ref="Q1372769">Fuendetodos</placeName>
+               </birth>
+               <death>
+                  <date>1828-04-16</date>
+                  <placeName type="wikidata" ref="Q1479">Bordeaux</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1387_p93</idno>
+               <idno type="wikidata">Q5432</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118541064</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11504.html</idno>
+            </person>
+            <person xml:id="pmb2181">
+               <persName>
+                  <surname>Velàzquez</surname>
+                  <forename>Diego Rodrìguez de Silva y</forename>
+               </persName>
+               <birth>
+                  <date>1599-06-06</date>
+                  <placeName type="wikidata" ref="Q8717">Sevilla</placeName>
+               </birth>
+               <death>
+                  <date>1660-08-06</date>
+                  <placeName type="wikidata" ref="Q2807">Madrid</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1387_p91</idno>
+               <idno type="wikidata">Q297</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118626426</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2181.html</idno>
+            </person>
+            <person xml:id="pmb148906">
+               <persName>
+                  <surname>Hörmann</surname>
+                  <forename>Theodor von</forename>
+               </persName>
+               <birth>
+                  <date>1840-12-13</date>
+                  <placeName type="wikidata" ref="Q254107">Imst</placeName>
+               </birth>
+               <death>
+                  <date>1895-07-01</date>
+                  <placeName type="wikidata" ref="Q13298">Graz</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1319_p2</idno>
+               <idno type="wikidata">Q872134</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118552201</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148906.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

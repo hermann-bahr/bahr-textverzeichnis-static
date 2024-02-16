@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122899.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -66,9 +66,9 @@
                   <listRef>
                      <ptr type="pmb" target="pmb11201"/>
                      <ptr type="pmb" target="pmb2142"/>
-                     <ptr type="HB-tv" target="HB-tv_1907_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2403_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1907_p3"/>
+                     <ptr type="pmb" target="pmb148806"/>
+                     <ptr type="pmb" target="pmb153609"/>
+                     <ptr type="pmb" target="pmb154116"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19020505&amp;seite=7</ref>
@@ -82,5 +82,74 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2142">
+               <persName>
+                  <surname>d’Annunzio</surname>
+                  <forename>Gabriele</forename>
+               </persName>
+               <birth>
+                  <date>1863-03-12</date>
+                  <placeName type="wikidata" ref="Q2704">Pescara</placeName>
+               </birth>
+               <death>
+                  <date>1938-03-01</date>
+                  <placeName type="wikidata" ref="Q104619">Gardone Riviera</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4865_p5</idno>
+               <idno type="wikidata">Q193236</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118503243</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2142.html</idno>
+            </person>
+            <person xml:id="pmb148806">
+               <persName>
+                  <surname>Varini</surname>
+                  <forename>Emilia</forename>
+               </persName>
+               <birth>
+                  <date>1867</date>
+                  <placeName type="wikidata" ref="Q3892388">Pallanza</placeName>
+               </birth>
+               <death>
+                  <date>1949-07-29</date>
+                  <placeName type="wikidata" ref="Q490">Mailand</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1907_p1</idno>
+               <idno type="wikidata">Q95714490</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/1062040260</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148806.html</idno>
+            </person>
+            <person xml:id="pmb153609">
+               <persName>
+                  <surname>Rosaspina</surname>
+                  <forename>Carlo</forename>
+               </persName>
+               <birth>
+                  <date>1853-10-22</date>
+                  <placeName type="wikidata" ref="Q5990">Vercelli</placeName>
+               </birth>
+               <death>
+                  <date>1929-01-18</date>
+                  <placeName type="wikidata" ref="Q220">Rom</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2403_p1</idno>
+               <idno type="wikidata">Q3659803</idno>
+               <sex value="male"/>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153609.html</idno>
+            </person>
+            <person xml:id="pmb154116">
+               <persName>
+                  <surname>Goldbaker</surname>
+                  <forename>Pucci</forename>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <idno type="HB-tv">HB-tv_1907_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154116.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

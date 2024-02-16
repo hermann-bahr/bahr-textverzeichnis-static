@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb129369.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -64,7 +64,7 @@
                   <listRef>
                      <ptr type="pmb" target="pmb12993"/>
                      <ptr type="pmb" target="pmb7209"/>
-                     <ptr type="HB-tv" target="HB-tv_115_p5"/>
+                     <ptr type="pmb" target="pmb3739"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwj&amp;datum=19181215&amp;seite=5</ref>
@@ -81,7 +81,7 @@
                      <date type="year">1918</date>
                      <biblScope unit="issue">1</biblScope>
                      <biblScope unit="page">898–900</biblScope>
-                     <title ref="pmb129727">Krigen og Litteraturen</title>
+                     <title ref="pmb129727" level="a">Krigen og Litteraturen</title>
                   </bibl>
                </note>
                <ref type="abdrucke">
@@ -92,5 +92,28 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb3739">
+               <persName>
+                  <surname>Tolstoi</surname>
+                  <forename>Lew Nikolajewitsch</forename>
+               </persName>
+               <birth>
+                  <date>1828-08-28</date>
+                  <placeName type="wikidata" ref="Q749556">Jasnaja Poljana</placeName>
+               </birth>
+               <death>
+                  <date>1910-11-07</date>
+                  <placeName type="wikidata" ref="Q4071563">Astapowo</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_115_p5</idno>
+               <idno type="wikidata">Q7243</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11864291X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3739.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

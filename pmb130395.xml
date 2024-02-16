@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130395.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -76,11 +76,11 @@
                      <ptr type="pmb" target="pmb9577"/>
                      <ptr type="pmb" target="pmb12816"/>
                      <ptr type="pmb" target="pmb12265"/>
-                     <ptr type="HB-tv" target="HB-tv_3858_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_6349_p19"/>
-                     <ptr type="HB-tv" target="HB-tv_3858_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_4464_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3858_p5"/>
+                     <ptr type="pmb" target="pmb156054"/>
+                     <ptr type="pmb" target="pmb65015"/>
+                     <ptr type="pmb" target="pmb156055"/>
+                     <ptr type="pmb" target="pmb94121"/>
+                     <ptr type="pmb" target="pmb115432"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -93,5 +93,82 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb156054">
+               <persName>
+                  <surname>Berndl</surname>
+                  <forename>Herr</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_3858_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156054.html</idno>
+            </person>
+            <person xml:id="pmb65015">
+               <persName>
+                  <surname>Machiavelli</surname>
+                  <forename>Niccolò</forename>
+               </persName>
+               <birth>
+                  <date>1469-05-03</date>
+                  <placeName type="wikidata" ref="Q2044">Florenz</placeName>
+               </birth>
+               <death>
+                  <date>1527-06-21</date>
+                  <placeName type="wikidata" ref="Q2509922"/>
+               </death>
+               <idno type="HB-tv">HB-tv_6349_p19</idno>
+               <idno type="wikidata">Q1399</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118575775</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb65015.html</idno>
+            </person>
+            <person xml:id="pmb156055">
+               <persName>
+                  <surname>Lehmayer</surname>
+                  <forename>Baron</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_3858_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156055.html</idno>
+            </person>
+            <person xml:id="pmb94121">
+               <persName>
+                  <surname>Hegel</surname>
+                  <forename>Georg Wilhelm Friedrich</forename>
+               </persName>
+               <birth>
+                  <date>1770-08-27</date>
+                  <placeName type="wikidata" ref="Q1022">Stuttgart</placeName>
+               </birth>
+               <death>
+                  <date>1831-11-14</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4464_p2</idno>
+               <idno type="wikidata">Q9235</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118547739</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb94121.html</idno>
+            </person>
+            <person xml:id="pmb115432">
+               <persName>
+                  <surname>Meunier</surname>
+                  <forename>Constantin</forename>
+               </persName>
+               <birth>
+                  <date>1831-04-12</date>
+                  <placeName type="wikidata" ref="Q192859">Etterbeek</placeName>
+               </birth>
+               <death>
+                  <date>1905-04-04</date>
+                  <placeName type="wikidata" ref="Q208713">Ixelles/Elsene</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3858_p5</idno>
+               <idno type="wikidata">Q552440</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118733222</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb115432.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

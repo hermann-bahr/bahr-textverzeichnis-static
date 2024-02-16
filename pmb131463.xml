@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb131463.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -85,10 +85,10 @@
                      <ptr type="pmb" target="pmb11201"/>
                      <ptr type="pmb" target="pmb11284"/>
                      <ptr type="pmb" target="pmb10818"/>
-                     <ptr type="HB-tv" target="HB-tv_1401_p113"/>
-                     <ptr type="HB-tv" target="HB-tv_3281_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3281_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_1326_p4"/>
+                     <ptr type="pmb" target="pmb150692"/>
+                     <ptr type="pmb" target="pmb151241"/>
+                     <ptr type="pmb" target="pmb156373"/>
+                     <ptr type="pmb" target="pmb3368"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/10-jugend.pdf</ref>
@@ -106,11 +106,86 @@
                      <date type="year">1905</date>
                      <biblScope unit="issue">2</biblScope>
                      <biblScope unit="page">157–162</biblScope>
-                     <title ref="pmb132015">Dekorationen</title>
+                     <title ref="pmb132015" level="a">Dekorationen</title>
                   </bibl>
                </note>
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb150692">
+               <persName>
+                  <surname>Appia</surname>
+                  <forename>Adolphe</forename>
+               </persName>
+               <birth>
+                  <date>1862-09-01</date>
+                  <placeName type="wikidata" ref="Q71">Genf</placeName>
+               </birth>
+               <death>
+                  <date>1928-02-29</date>
+                  <placeName type="wikidata" ref="Q64027">Nyon</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1401_p113</idno>
+               <idno type="wikidata">Q124077</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118503731</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150692.html</idno>
+            </person>
+            <person xml:id="pmb151241">
+               <persName>
+                  <surname>Fortuny</surname>
+                  <forename>Mariano</forename>
+               </persName>
+               <birth>
+                  <date>1871-05-11</date>
+                  <placeName type="wikidata" ref="Q8810">Granada</placeName>
+               </birth>
+               <death>
+                  <date>1949-05-03</date>
+                  <placeName type="wikidata" ref="Q641">Venedig</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3281_p2</idno>
+               <idno type="wikidata">Q1113061</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119341956</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151241.html</idno>
+            </person>
+            <person xml:id="pmb156373">
+               <persName>
+                  <surname>Craig</surname>
+                  <forename>Edward Gordon</forename>
+               </persName>
+               <birth>
+                  <date when="1872">1872</date>
+               </birth>
+               <death>
+                  <date when="1966">1966</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3281_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156373.html</idno>
+            </person>
+            <person xml:id="pmb3368">
+               <persName>
+                  <surname>Olbrich</surname>
+                  <forename>Josef Maria</forename>
+               </persName>
+               <birth>
+                  <date>1867-12-22</date>
+                  <placeName type="wikidata" ref="Q156080">Opava</placeName>
+               </birth>
+               <death>
+                  <date>1908-08-08</date>
+                  <placeName type="wikidata" ref="Q1718">Düsseldorf</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1326_p4</idno>
+               <idno type="wikidata">Q44911</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118589768</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3368.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

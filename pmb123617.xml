@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123617.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,10 +69,10 @@
                      <ptr type="pmb" target="pmb6315"/>
                      <ptr type="pmb" target="pmb20012"/>
                      <ptr type="pmb" target="pmb12179"/>
-                     <ptr type="HB-tv" target="HB-tv_2361_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2361_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2361_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2361_p4"/>
+                     <ptr type="pmb" target="pmb154474"/>
+                     <ptr type="pmb" target="pmb148962"/>
+                     <ptr type="pmb" target="pmb154475"/>
+                     <ptr type="pmb" target="pmb154476"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1896-8/103-189.pdf</ref>
@@ -85,5 +85,52 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154474">
+               <persName>
+                  <surname>Candillot</surname>
+                  <forename>Léon</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_2361_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154474.html</idno>
+            </person>
+            <person xml:id="pmb148962">
+               <persName>
+                  <surname>Feydeau</surname>
+                  <forename>Ernest</forename>
+               </persName>
+               <birth>
+                  <date>1821-03-16</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1873-10-27</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2361_p2</idno>
+               <idno type="wikidata">Q683974</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117737119</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148962.html</idno>
+            </person>
+            <person xml:id="pmb154475">
+               <persName>
+                  <surname>Rauch</surname>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_2361_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154475.html</idno>
+            </person>
+            <person xml:id="pmb154476">
+               <persName>
+                  <surname>Leon</surname>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <idno type="HB-tv">HB-tv_2361_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154476.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

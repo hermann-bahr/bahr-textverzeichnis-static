@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133421.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,10 +69,10 @@
                      <ptr type="pmb" target="pmb3264"/>
                      <ptr type="pmb" target="pmb3869"/>
                      <ptr type="pmb" target="pmb12277"/>
-                     <ptr type="HB-tv" target="HB-tv_2844_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2844_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3543_p12"/>
-                     <ptr type="HB-tv" target="HB-tv_562_p4"/>
+                     <ptr type="pmb" target="pmb151904"/>
+                     <ptr type="pmb" target="pmb156787"/>
+                     <ptr type="pmb" target="pmb115459"/>
+                     <ptr type="pmb" target="pmb113159"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/5-renaissance.pdf</ref>
@@ -103,5 +103,80 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb151904">
+               <persName>
+                  <surname>Exter</surname>
+                  <forename>Julius</forename>
+               </persName>
+               <birth>
+                  <date>1863-09-20</date>
+                  <placeName type="wikidata" ref="Q2910">Ludwigshafen am Rhein</placeName>
+               </birth>
+               <death>
+                  <date>1939-10-16</date>
+                  <placeName type="wikidata" ref="Q257831">Übersee</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2844_p1</idno>
+               <idno type="wikidata">Q872996</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118917307</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151904.html</idno>
+            </person>
+            <person xml:id="pmb156787">
+               <persName>
+                  <surname>Felix</surname>
+                  <forename>Eugen</forename>
+               </persName>
+               <birth>
+                  <date when="1836">1836</date>
+               </birth>
+               <death>
+                  <date when="1906">1906</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2844_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156787.html</idno>
+            </person>
+            <person xml:id="pmb115459">
+               <persName>
+                  <surname>Millet</surname>
+                  <forename>Jean-François</forename>
+               </persName>
+               <birth>
+                  <date>1814-10-04</date>
+                  <placeName type="wikidata" ref="Q767634">Gréville-Hague</placeName>
+               </birth>
+               <death>
+                  <date>1875-01-20</date>
+                  <placeName type="wikidata" ref="Q256175">Barbizon</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3543_p12</idno>
+               <idno type="wikidata">Q148458</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118582550</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb115459.html</idno>
+            </person>
+            <person xml:id="pmb113159">
+               <persName>
+                  <surname>Courbet</surname>
+                  <forename>Gustave</forename>
+               </persName>
+               <birth>
+                  <date>1819-06-10</date>
+                  <placeName type="wikidata" ref="Q28427657">Ornans</placeName>
+               </birth>
+               <death>
+                  <date>1877-12-31</date>
+                  <placeName type="wikidata" ref="Q69721">La Tour-de-Peilz</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_562_p4</idno>
+               <idno type="wikidata">Q34618</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118522450</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113159.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

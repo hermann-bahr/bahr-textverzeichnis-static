@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb127983.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -70,11 +70,11 @@
                      <ptr type="pmb" target="pmb4279"/>
                      <ptr type="pmb" target="pmb12504"/>
                      <ptr type="pmb" target="pmb8165"/>
-                     <ptr type="HB-tv" target="HB-tv_115_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_3348_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3348_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_3348_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_1794_p2"/>
+                     <ptr type="pmb" target="pmb3739"/>
+                     <ptr type="pmb" target="pmb155610"/>
+                     <ptr type="pmb" target="pmb28820"/>
+                     <ptr type="pmb" target="pmb155611"/>
+                     <ptr type="pmb" target="pmb114266"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/15-bilderbuch.pdf</ref>
@@ -109,5 +109,92 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb3739">
+               <persName>
+                  <surname>Tolstoi</surname>
+                  <forename>Lew Nikolajewitsch</forename>
+               </persName>
+               <birth>
+                  <date>1828-08-28</date>
+                  <placeName type="wikidata" ref="Q749556">Jasnaja Poljana</placeName>
+               </birth>
+               <death>
+                  <date>1910-11-07</date>
+                  <placeName type="wikidata" ref="Q4071563">Astapowo</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_115_p5</idno>
+               <idno type="wikidata">Q7243</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11864291X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3739.html</idno>
+            </person>
+            <person xml:id="pmb155610">
+               <persName>
+                  <surname>Eckhart von Hochheim</surname>
+               </persName>
+               <birth>
+                  <date when-custom="um 1260">um 1260</date>
+               </birth>
+               <death>
+                  <date when="1328">1328</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3348_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155610.html</idno>
+            </person>
+            <person xml:id="pmb28820">
+               <persName>
+                  <surname>Stendhal</surname>
+               </persName>
+               <birth>
+                  <date>1783-01-23</date>
+                  <placeName type="wikidata" ref="Q1289">Grenoble</placeName>
+               </birth>
+               <death>
+                  <date>1842-03-23</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1050_p3</idno>
+               <idno type="wikidata">Q502</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118617648</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb28820.html</idno>
+            </person>
+            <person xml:id="pmb155611">
+               <persName>
+                  <surname>Grautoff geb. Heinemann</surname>
+                  <forename>Erna</forename>
+               </persName>
+               <birth>
+                  <date when="1888">1888</date>
+               </birth>
+               <death>
+                  <date when="1949">1949</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3348_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155611.html</idno>
+            </person>
+            <person xml:id="pmb114266">
+               <persName>
+                  <surname>Grautoff</surname>
+                  <forename>Otto</forename>
+               </persName>
+               <birth>
+                  <date>1876-05-31</date>
+                  <placeName type="wikidata" ref="Q2843">Lübeck</placeName>
+               </birth>
+               <death>
+                  <date>1937-04-27</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1794_p2</idno>
+               <idno type="wikidata">Q104952</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119489872</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114266.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

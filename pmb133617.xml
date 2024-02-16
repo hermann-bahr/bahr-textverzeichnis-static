@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133617.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -61,13 +61,13 @@
                   <listRef>
                      <ptr type="pmb" target="pmb3982"/>
                      <ptr type="pmb" target="pmb28476"/>
-                     <ptr type="HB-tv" target="HB-tv_2330_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_381_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_381_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_381_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_381_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_381_p6"/>
-                     <ptr type="HB-tv" target="HB-tv_381_p7"/>
+                     <ptr type="pmb" target="pmb11171"/>
+                     <ptr type="pmb" target="pmb156935"/>
+                     <ptr type="pmb" target="pmb156936"/>
+                     <ptr type="pmb" target="pmb156937"/>
+                     <ptr type="pmb" target="pmb156938"/>
+                     <ptr type="pmb" target="pmb156939"/>
+                     <ptr type="pmb" target="pmb156940"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1896-7/88-155.pdf</ref>
@@ -81,5 +81,77 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb11171">
+               <persName>
+                  <surname>Dreher</surname>
+                  <forename>Conrad</forename>
+               </persName>
+               <birth>
+                  <date>1859-10-30</date>
+                  <placeName type="wikidata" ref="Q1726">München</placeName>
+               </birth>
+               <death>
+                  <date>1944-12-07</date>
+                  <placeName type="wikidata" ref="Q269186">Fessenheim</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2330_p1</idno>
+               <idno type="wikidata">Q43790</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116213035</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11171.html</idno>
+            </person>
+            <person xml:id="pmb156935">
+               <persName>
+                  <surname>Andò</surname>
+                  <forename>Flavio</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_381_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156935.html</idno>
+            </person>
+            <person xml:id="pmb156936">
+               <persName>
+                  <surname>Dengg</surname>
+                  <forename>Anna</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_381_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156936.html</idno>
+            </person>
+            <person xml:id="pmb156937">
+               <persName>
+                  <surname>Meth</surname>
+                  <forename>Josef</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_381_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156937.html</idno>
+            </person>
+            <person xml:id="pmb156938">
+               <persName>
+                  <surname>Rail</surname>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <idno type="HB-tv">HB-tv_381_p5</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156938.html</idno>
+            </person>
+            <person xml:id="pmb156939">
+               <persName>
+                  <surname>Dirnberger</surname>
+                  <forename>Theresia</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_381_p6</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156939.html</idno>
+            </person>
+            <person xml:id="pmb156940">
+               <persName>
+                  <surname>Gaigl</surname>
+                  <forename>Lina</forename>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <idno type="HB-tv">HB-tv_381_p7</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156940.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

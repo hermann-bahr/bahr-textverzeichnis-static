@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133631.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,10 +69,10 @@
                      <ptr type="pmb" target="pmb10883"/>
                      <ptr type="pmb" target="pmb3991"/>
                      <ptr type="pmb" target="pmb12463"/>
-                     <ptr type="HB-tv" target="HB-tv_2847_p12"/>
-                     <ptr type="HB-tv" target="HB-tv_372_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_372_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_372_p4"/>
+                     <ptr type="pmb" target="pmb151901"/>
+                     <ptr type="pmb" target="pmb156942"/>
+                     <ptr type="pmb" target="pmb152094"/>
+                     <ptr type="pmb" target="pmb3272"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1896-6/76-176.pdf</ref>
@@ -90,5 +90,73 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb151901">
+               <persName>
+                  <surname>Montesquiou</surname>
+                  <forename>Robert de</forename>
+               </persName>
+               <birth>
+                  <date>1855-03-07</date>
+                  <placeName type="wikidata" ref="Q2845749"/>
+               </birth>
+               <death>
+                  <date>1921-12-11</date>
+                  <placeName type="wikidata" ref="Q180083">Menton</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2847_p12</idno>
+               <idno type="wikidata">Q669685</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118583689</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151901.html</idno>
+            </person>
+            <person xml:id="pmb156942">
+               <persName>
+                  <surname>Warsberg</surname>
+                  <forename>Alexander von</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_372_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156942.html</idno>
+            </person>
+            <person xml:id="pmb152094">
+               <persName>
+                  <surname>Dalberg</surname>
+                  <forename>Karl</forename>
+               </persName>
+               <birth>
+                  <date>1744-02-08</date>
+                  <placeName type="wikidata" ref="Q2119">Mannheim</placeName>
+               </birth>
+               <death>
+                  <date>1817-02-10</date>
+                  <placeName type="wikidata" ref="Q2978">Regensburg</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_372_p3</idno>
+               <idno type="wikidata">Q61353</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118720961</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152094.html</idno>
+            </person>
+            <person xml:id="pmb3272">
+               <persName>
+                  <surname>Molière</surname>
+               </persName>
+               <birth>
+                  <date>1622-01-15</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1673-02-17</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_115_p10</idno>
+               <idno type="wikidata">Q687</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11858331X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3272.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

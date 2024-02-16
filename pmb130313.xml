@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130313.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -78,7 +78,7 @@
                      <ptr type="pmb" target="pmb11036"/>
                      <ptr type="pmb" target="pmb12163"/>
                      <ptr type="pmb" target="pmb11851"/>
-                     <ptr type="HB-tv" target="HB-tv_1722_p1"/>
+                     <ptr type="pmb" target="pmb4332"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -109,5 +109,27 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb4332">
+               <persName>
+                  <surname>Jean Paul</surname>
+               </persName>
+               <birth>
+                  <date>1763-03-21</date>
+                  <placeName type="wikidata" ref="Q495778">Wunsiedel</placeName>
+               </birth>
+               <death>
+                  <date>1825-11-14</date>
+                  <placeName type="wikidata" ref="Q3923">Bayreuth</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3726_p1</idno>
+               <idno type="wikidata">Q77079</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118557211</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb4332.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

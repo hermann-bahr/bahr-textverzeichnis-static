@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb125483.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -83,9 +83,9 @@
                      <ptr type="pmb" target="pmb12551"/>
                      <ptr type="pmb" target="pmb3622"/>
                      <ptr type="pmb" target="pmb11518"/>
-                     <ptr type="HB-tv" target="HB-tv_53_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_53_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_53_p3"/>
+                     <ptr type="pmb" target="pmb63259"/>
+                     <ptr type="pmb" target="pmb149746"/>
+                     <ptr type="pmb" target="pmb155058"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -114,5 +114,61 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb63259">
+               <persName>
+                  <surname>Lenau</surname>
+                  <forename>Nikolaus d. i. Nikolaus Niembsch von Strehlenau</forename>
+               </persName>
+               <birth>
+                  <date>1802-08-25</date>
+                  <placeName type="wikidata" ref="Q870864">Lenauheim</placeName>
+               </birth>
+               <death>
+                  <date>1850-08-22</date>
+                  <placeName type="wikidata" ref="Q2009330">Oberdöbling</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_53_p1</idno>
+               <idno type="wikidata">Q84280</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118571508</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb63259.html</idno>
+            </person>
+            <person xml:id="pmb149746">
+               <persName>
+                  <surname>Springenschmid</surname>
+                  <forename>Karl</forename>
+               </persName>
+               <birth>
+                  <date>1897-03-19</date>
+                  <placeName type="wikidata" ref="Q1735">Innsbruck</placeName>
+               </birth>
+               <death>
+                  <date>1981-03-05</date>
+                  <placeName type="wikidata" ref="Q34713">Salzburg</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_53_p2</idno>
+               <idno type="wikidata">Q1597188</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118841068</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149746.html</idno>
+            </person>
+            <person xml:id="pmb155058">
+               <persName>
+                  <surname>Secundus</surname>
+                  <forename>Johannes</forename>
+               </persName>
+               <birth>
+                  <date when="1511">1511</date>
+               </birth>
+               <death>
+                  <date when="1536">1536</date>
+               </death>
+               <idno type="HB-tv">HB-tv_53_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155058.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

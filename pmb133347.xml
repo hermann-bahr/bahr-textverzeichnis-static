@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133347.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -70,9 +70,9 @@
                      <ptr type="pmb" target="pmb5359"/>
                      <ptr type="pmb" target="pmb18946"/>
                      <ptr type="pmb" target="pmb22098"/>
-                     <ptr type="HB-tv" target="HB-tv_468_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_468_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3665_p2"/>
+                     <ptr type="pmb" target="pmb156758"/>
+                     <ptr type="pmb" target="pmb156759"/>
+                     <ptr type="pmb" target="pmb88138"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1898-16/208-203.pdf</ref>
@@ -86,5 +86,74 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb5359">
+               <persName>
+                  <surname>Hugo</surname>
+                  <forename>Victor-Marie</forename>
+               </persName>
+               <birth>
+                  <date>1802-02-26</date>
+                  <placeName type="wikidata" ref="Q37776">Besançon</placeName>
+               </birth>
+               <death>
+                  <date>1885-05-22</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3375_p2</idno>
+               <idno type="wikidata">Q535</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118554654</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb5359.html</idno>
+            </person>
+            <person xml:id="pmb156758">
+               <persName>
+                  <surname>Weiss</surname>
+                  <forename>Jean Jacques</forename>
+               </persName>
+               <birth>
+                  <date when="1827">1827</date>
+               </birth>
+               <death>
+                  <date when="1891">1891</date>
+               </death>
+               <idno type="HB-tv">HB-tv_468_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156758.html</idno>
+            </person>
+            <person xml:id="pmb156759">
+               <persName>
+                  <surname>Belisar</surname>
+               </persName>
+               <birth>
+                  <date when-custom="um 505">um 505</date>
+               </birth>
+               <death>
+                  <date when="0565">565</date>
+               </death>
+               <idno type="HB-tv">HB-tv_468_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156759.html</idno>
+            </person>
+            <person xml:id="pmb88138">
+               <persName>
+                  <surname>Lemaître</surname>
+                  <forename>Jules</forename>
+               </persName>
+               <birth>
+                  <date>1853-04-27</date>
+                  <placeName type="wikidata" ref="Q1418689">Vennecy</placeName>
+               </birth>
+               <death>
+                  <date>1914-08-04</date>
+                  <placeName type="wikidata" ref="Q1379724">Tavers</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3665_p2</idno>
+               <idno type="wikidata">Q197935</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118727338</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb88138.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

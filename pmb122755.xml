@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122755.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -68,8 +68,8 @@
                      <ptr type="pmb" target="pmb12468"/>
                      <ptr type="pmb" target="pmb2189"/>
                      <ptr type="pmb" target="pmb11441"/>
-                     <ptr type="HB-tv" target="HB-tv_2541_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2399_p2"/>
+                     <ptr type="pmb" target="pmb154048"/>
+                     <ptr type="pmb" target="pmb114810"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19030331&amp;seite=8</ref>
@@ -82,5 +82,38 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154048">
+               <persName>
+                  <surname>Millmann</surname>
+                  <forename>Moritz</forename>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_2541_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154048.html</idno>
+            </person>
+            <person xml:id="pmb114810">
+               <persName>
+                  <surname>Brandt</surname>
+                  <forename>Julius</forename>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <birth>
+                  <date>1873-01-01</date>
+                  <placeName type="wikidata" ref="Q81137">Olmütz</placeName>
+               </birth>
+               <death>
+                  <date>1949-12-26</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2399_p2</idno>
+               <idno type="wikidata">Q89928</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116406100</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114810.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

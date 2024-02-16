@@ -24,7 +24,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133709.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -84,8 +84,8 @@
                      <ptr type="pmb" target="pmb12651"/>
                      <ptr type="pmb" target="pmb12491"/>
                      <ptr type="pmb" target="pmb12530"/>
-                     <ptr type="HB-tv" target="HB-tv_335_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_386_p4"/>
+                     <ptr type="pmb" target="pmb156968"/>
+                     <ptr type="pmb" target="pmb117881"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1895-3/33_106-107.pdf</ref>
@@ -100,5 +100,42 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb156968">
+               <persName>
+                  <surname>Rameau</surname>
+                  <forename>Jean Philippe</forename>
+               </persName>
+               <birth>
+                  <date when="1683">1683</date>
+               </birth>
+               <death>
+                  <date when="1764">1764</date>
+               </death>
+               <idno type="HB-tv">HB-tv_335_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156968.html</idno>
+            </person>
+            <person xml:id="pmb117881">
+               <persName>
+                  <surname>Hengeler</surname>
+                  <forename>Adolf</forename>
+               </persName>
+               <birth>
+                  <date>1863-02-11</date>
+                  <placeName type="wikidata" ref="Q3994">Kempten</placeName>
+               </birth>
+               <death>
+                  <date>1927-12-03</date>
+                  <placeName type="wikidata" ref="Q1726">München</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_386_p4</idno>
+               <idno type="wikidata">Q54891</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116701544</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb117881.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

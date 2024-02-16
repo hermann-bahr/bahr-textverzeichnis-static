@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133639.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -75,7 +75,7 @@
                      <ptr type="pmb" target="pmb12303"/>
                      <ptr type="pmb" target="pmb10866"/>
                      <ptr type="pmb" target="pmb3835"/>
-                     <ptr type="HB-tv" target="HB-tv_368_p1"/>
+                     <ptr type="pmb" target="pmb3272"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1896-6/72-112.pdf</ref>
@@ -93,5 +93,27 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb3272">
+               <persName>
+                  <surname>Molière</surname>
+               </persName>
+               <birth>
+                  <date>1622-01-15</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1673-02-17</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_115_p10</idno>
+               <idno type="wikidata">Q687</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11858331X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3272.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

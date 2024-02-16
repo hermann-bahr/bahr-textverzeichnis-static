@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133417.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,9 +69,9 @@
                      <ptr type="pmb" target="pmb13115"/>
                      <ptr type="pmb" target="pmb3264"/>
                      <ptr type="pmb" target="pmb3869"/>
-                     <ptr type="HB-tv" target="HB-tv_2987_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2846_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1929_p2"/>
+                     <ptr type="pmb" target="pmb116471"/>
+                     <ptr type="pmb" target="pmb156786"/>
+                     <ptr type="pmb" target="pmb113850"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/5-renaissance.pdf</ref>
@@ -105,5 +105,54 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb116471">
+               <persName>
+                  <surname>Crane</surname>
+                  <forename>Walter</forename>
+               </persName>
+               <birth>
+                  <date>1845-08-15</date>
+                  <placeName type="wikidata" ref="Q24826">Liverpool</placeName>
+               </birth>
+               <death>
+                  <date>1915-03-14</date>
+                  <placeName type="wikidata" ref="Q177544">Horsham</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2987_p3</idno>
+               <idno type="wikidata">Q660917</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118522639</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116471.html</idno>
+            </person>
+            <person xml:id="pmb156786">
+               <persName>
+                  <surname>Jupiter</surname>
+               </persName>
+               <idno type="HB-tv">HB-tv_2846_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156786.html</idno>
+            </person>
+            <person xml:id="pmb113850">
+               <persName>
+                  <surname>Khnopff</surname>
+                  <forename>Fernand-Edmond-Jean-Marie</forename>
+               </persName>
+               <birth>
+                  <date>1858-09-12</date>
+                  <placeName type="wikidata" ref="Q13122">Dendermonde</placeName>
+               </birth>
+               <death>
+                  <date>1921-11-12</date>
+                  <placeName type="wikidata" ref="Q239">Stadt Brüssel</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1929_p2</idno>
+               <idno type="wikidata">Q559559</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118561871</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113850.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123723.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -71,8 +71,8 @@
                      <ptr type="pmb" target="pmb26407"/>
                      <ptr type="pmb" target="pmb12179"/>
                      <ptr type="pmb" target="pmb11137"/>
-                     <ptr type="HB-tv" target="HB-tv_2360_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3665_p10"/>
+                     <ptr type="pmb" target="pmb148983"/>
+                     <ptr type="pmb" target="pmb114112"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1895-3/28_28-29.pdf</ref>
@@ -85,5 +85,48 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb148983">
+               <persName>
+                  <surname>Clairville</surname>
+                  <forename>Charles</forename>
+               </persName>
+               <birth>
+                  <date>1855-11-27</date>
+                  <placeName type="wikidata" ref="Q2845756"/>
+               </birth>
+               <death>
+                  <date>1918-03-26</date>
+                  <placeName type="wikidata" ref="Q3452301"/>
+               </death>
+               <idno type="HB-tv">HB-tv_2360_p1</idno>
+               <idno type="wikidata">Q55876570</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116524987</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148983.html</idno>
+            </person>
+            <person xml:id="pmb114112">
+               <persName>
+                  <surname>Gavarni</surname>
+                  <forename>Paul</forename>
+               </persName>
+               <persName type="namensvariante">Sulpice-Guillaume Chevalier</persName>
+               <birth>
+                  <date>1804-01-13</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1866-11-23</date>
+                  <placeName type="wikidata" ref="Q194420">16. Arrondissement von Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3665_p10</idno>
+               <idno type="wikidata">Q1074290</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118537903</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114112.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130937.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -79,11 +79,11 @@
                      <ptr type="pmb" target="pmb3287"/>
                      <ptr type="pmb" target="pmb2412"/>
                      <ptr type="pmb" target="pmb2132"/>
-                     <ptr type="HB-tv" target="HB-tv_3881_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3881_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3881_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_3881_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_3881_p5"/>
+                     <ptr type="pmb" target="pmb2513"/>
+                     <ptr type="pmb" target="pmb100907"/>
+                     <ptr type="pmb" target="pmb100871"/>
+                     <ptr type="pmb" target="pmb5317"/>
+                     <ptr type="pmb" target="pmb3084"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/11-austriaca.pdf</ref>
@@ -101,7 +101,7 @@
                      <date type="year">1909</date>
                      <biblScope unit="issue">1</biblScope>
                      <biblScope unit="page">253–259</biblScope>
-                     <title ref="pmb131309">Österreichisches. 2 [Kaiser Franz Josef]</title>
+                     <title ref="pmb131309" level="a">Österreichisches. 2 [Kaiser Franz Josef]</title>
                   </bibl>
                   <bibl type="obsolete">
                      <note>gekürzt</note>
@@ -134,5 +134,116 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb10749">
+               <persName>
+                  <surname>Adler</surname>
+                  <forename>Viktor</forename>
+               </persName>
+               <birth>
+                  <date>1852-06-24</date>
+                  <placeName type="wikidata" ref="Q1085">Prag</placeName>
+               </birth>
+               <death>
+                  <date>1918-11-11</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4860_p26</idno>
+               <idno type="wikidata">Q366845</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118647075</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb10749.html</idno>
+            </person>
+            <person xml:id="pmb2513">
+               <persName>
+                  <surname>Franz Josef I. von Österreich</surname>
+               </persName>
+               <birth>
+                  <date>1830-08-18</date>
+                  <placeName type="wikidata" ref="Q131330">Schloss Schönbrunn</placeName>
+               </birth>
+               <death>
+                  <date>1916-11-21</date>
+                  <placeName type="wikidata" ref="Q131330">Schloss Schönbrunn</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4881_p4</idno>
+               <idno type="wikidata">Q51056</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118535013</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2513.html</idno>
+            </person>
+            <person xml:id="pmb100907">
+               <persName>
+                  <surname>Otto von Österreich</surname>
+               </persName>
+               <birth>
+                  <date>1865-04-21</date>
+                  <placeName type="wikidata" ref="Q13298">Graz</placeName>
+               </birth>
+               <death>
+                  <date>1906-11-01</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3881_p2</idno>
+               <idno type="wikidata">Q84470</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/138172234</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb100907.html</idno>
+            </person>
+            <person xml:id="pmb100871">
+               <persName>
+                  <surname>Johann Salvator von Österreich-Toskana</surname>
+                  <forename>seit 1889 Johann Orth</forename>
+               </persName>
+               <birth>
+                  <date>1852-11-25</date>
+                  <placeName type="wikidata" ref="Q2044">Florenz</placeName>
+               </birth>
+               <idno type="HB-tv">HB-tv_3881_p3</idno>
+               <idno type="wikidata">Q657873</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118723006</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb100871.html</idno>
+            </person>
+            <person xml:id="pmb5317">
+               <persName>
+                  <surname>Chotek von Chotkowa</surname>
+                  <forename>Sophie</forename>
+               </persName>
+               <birth>
+                  <date>1868-03-01</date>
+                  <placeName type="wikidata" ref="Q1022">Stuttgart</placeName>
+               </birth>
+               <death>
+                  <date>1914-06-28</date>
+                  <placeName type="wikidata" ref="Q11194">Sarajevo</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3881_p4</idno>
+               <idno type="wikidata">Q153099</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/118675990</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb5317.html</idno>
+            </person>
+            <person xml:id="pmb3084">
+               <persName>
+                  <surname>Joseph II. von Österreich</surname>
+               </persName>
+               <birth>
+                  <date>1741-03-13</date>
+                  <placeName type="wikidata" ref="Q636910">Hietzing</placeName>
+               </birth>
+               <death>
+                  <date>1790-02-20</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2293_p2</idno>
+               <idno type="wikidata">Q76555</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118558404</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3084.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

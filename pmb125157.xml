@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb125157.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -76,8 +76,8 @@
                      <ptr type="pmb" target="pmb11697"/>
                      <ptr type="pmb" target="pmb11933"/>
                      <ptr type="pmb" target="pmb2566"/>
-                     <ptr type="HB-tv" target="HB-tv_4520_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_4520_p2"/>
+                     <ptr type="pmb" target="pmb149506"/>
+                     <ptr type="pmb" target="pmb10908"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwj&amp;datum=19270522&amp;seite=8</ref>
@@ -90,5 +90,46 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb149506">
+               <persName>
+                  <surname>Berthold von Baden</surname>
+               </persName>
+               <birth>
+                  <date>1906-02-24</date>
+                  <placeName type="wikidata" ref="Q1040">Karlsruhe</placeName>
+               </birth>
+               <death>
+                  <date>1963-10-27</date>
+                  <placeName type="wikidata" ref="Q519688">Spaichingen</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4520_p1</idno>
+               <idno type="wikidata">Q62602</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/136918263</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149506.html</idno>
+            </person>
+            <person xml:id="pmb10908">
+               <persName>
+                  <surname>Bethmann Hollweg</surname>
+                  <forename>Theobald</forename>
+               </persName>
+               <birth>
+                  <date>1856-11-29</date>
+                  <placeName type="wikidata" ref="Q587133">Hohenfinow</placeName>
+               </birth>
+               <death>
+                  <date>1921-01-01</date>
+                  <placeName type="wikidata" ref="Q587133">Hohenfinow</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4520_p2</idno>
+               <idno type="wikidata">Q77113</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118510320</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb10908.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

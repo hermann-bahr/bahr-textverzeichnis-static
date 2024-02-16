@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb124915.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -85,8 +85,8 @@
                      <ptr type="pmb" target="pmb2189"/>
                      <ptr type="pmb" target="pmb11201"/>
                      <ptr type="pmb" target="pmb10818"/>
-                     <ptr type="HB-tv" target="HB-tv_5937_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_5937_p2"/>
+                     <ptr type="pmb" target="pmb149494"/>
+                     <ptr type="pmb" target="pmb23784"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/umfragen/1927_neue-weg.pdf</ref>
@@ -103,5 +103,46 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb149494">
+               <persName>
+                  <surname>Niemann</surname>
+                  <forename>Albert</forename>
+               </persName>
+               <birth>
+                  <date>1831-01-15</date>
+                  <placeName type="wikidata" ref="Q573464">Erxleben</placeName>
+               </birth>
+               <death>
+                  <date>1917-01-13</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_5937_p1</idno>
+               <idno type="wikidata">Q106378</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117001686</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149494.html</idno>
+            </person>
+            <person xml:id="pmb23784">
+               <persName>
+                  <surname>Réjane</surname>
+               </persName>
+               <birth>
+                  <date>1856-06-06</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1920-06-14</date>
+                  <placeName type="wikidata" ref="Q194420">16. Arrondissement von Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_688_p2</idno>
+               <idno type="wikidata">Q596355</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/116394102</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb23784.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

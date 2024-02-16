@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122583.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -79,9 +79,9 @@
                      <ptr type="pmb" target="pmb10986"/>
                      <ptr type="pmb" target="pmb28476"/>
                      <ptr type="pmb" target="pmb11791"/>
-                     <ptr type="HB-tv" target="HB-tv_2440_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2440_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2440_p3"/>
+                     <ptr type="pmb" target="pmb92663"/>
+                     <ptr type="pmb" target="pmb153973"/>
+                     <ptr type="pmb" target="pmb153974"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19060121&amp;seite=12</ref>
@@ -99,5 +99,50 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb92663">
+               <persName>
+                  <surname>Ajalbert</surname>
+                  <forename>Jean</forename>
+               </persName>
+               <birth>
+                  <date>1863-06-10</date>
+                  <placeName type="wikidata" ref="Q166640">Levallois-Perret</placeName>
+               </birth>
+               <death>
+                  <date>1947-01-14</date>
+                  <placeName type="wikidata" ref="Q23047">Cahors</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2440_p1</idno>
+               <idno type="wikidata">Q3170295</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/124903134</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb92663.html</idno>
+            </person>
+            <person xml:id="pmb153973">
+               <persName>
+                  <surname>Kayßler</surname>
+                  <forename>Friedrich</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_2440_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153973.html</idno>
+            </person>
+            <person xml:id="pmb153974">
+               <persName>
+                  <surname>Sauer</surname>
+                  <forename>Oscar</forename>
+               </persName>
+               <birth>
+                  <date when="1856">1856</date>
+               </birth>
+               <death>
+                  <date when="1918">1918</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2440_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153974.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

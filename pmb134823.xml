@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb134823.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -67,13 +67,13 @@
                      <ptr type="pmb" target="pmb12092"/>
                      <ptr type="pmb" target="pmb13473"/>
                      <ptr type="pmb" target="pmb11461"/>
-                     <ptr type="HB-tv" target="HB-tv_108_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_4046_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_108_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_108_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_108_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_108_p6"/>
-                     <ptr type="HB-tv" target="HB-tv_3511_p1"/>
+                     <ptr type="pmb" target="pmb152671"/>
+                     <ptr type="pmb" target="pmb154639"/>
+                     <ptr type="pmb" target="pmb157497"/>
+                     <ptr type="pmb" target="pmb157498"/>
+                     <ptr type="pmb" target="pmb157499"/>
+                     <ptr type="pmb" target="pmb157500"/>
+                     <ptr type="pmb" target="pmb60111"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/freie-buehne/1890-23_unzuechtige-schriften.pdf</ref>
@@ -90,5 +90,99 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb152671">
+               <persName>
+                  <surname>Walloth</surname>
+                  <forename>Wilhelm</forename>
+               </persName>
+               <birth>
+                  <date>1854-10-06</date>
+                  <placeName type="wikidata" ref="Q2973">Darmstadt</placeName>
+               </birth>
+               <death>
+                  <date>1932-06-25</date>
+                  <placeName type="wikidata" ref="Q1726">München</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2668_p1</idno>
+               <idno type="wikidata">Q91858</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11712768X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152671.html</idno>
+            </person>
+            <person xml:id="pmb154639">
+               <persName>
+                  <surname>Alberti</surname>
+                  <forename>Konrad</forename>
+               </persName>
+               <birth>
+                  <date when="1862">1862</date>
+               </birth>
+               <death>
+                  <date when="1918">1918</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4046_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154639.html</idno>
+            </person>
+            <person xml:id="pmb157497">
+               <persName>
+                  <surname>Friedrich</surname>
+                  <forename>Max Wilhelm Karl</forename>
+               </persName>
+               <birth>
+                  <date when="1851">1851</date>
+               </birth>
+               <idno type="HB-tv">HB-tv_108_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157497.html</idno>
+            </person>
+            <person xml:id="pmb157498">
+               <persName>
+                  <surname>Olshausen</surname>
+                  <forename>Philipp Justus</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_108_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157498.html</idno>
+            </person>
+            <person xml:id="pmb157499">
+               <persName>
+                  <surname>Beers</surname>
+                  <forename>Jan van</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_108_p5</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157499.html</idno>
+            </person>
+            <person xml:id="pmb157500">
+               <persName>
+                  <surname>Petronius Arbiter</surname>
+                  <forename>Gaius</forename>
+               </persName>
+               <death>
+                  <date when="0067">67</date>
+               </death>
+               <idno type="HB-tv">HB-tv_108_p6</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157500.html</idno>
+            </person>
+            <person xml:id="pmb60111">
+               <persName>
+                  <surname>Boccaccio</surname>
+                  <forename>Giovanni</forename>
+               </persName>
+               <birth>
+                  <date>1313-06-16</date>
+                  <placeName type="wikidata" ref="Q82646">Certaldo</placeName>
+               </birth>
+               <death>
+                  <date>1375-09-21</date>
+                  <placeName type="wikidata" ref="Q82646">Certaldo</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3511_p1</idno>
+               <idno type="wikidata">Q1402</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11851217X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb60111.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

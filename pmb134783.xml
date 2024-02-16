@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb134783.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -62,7 +62,7 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb12582"/>
-                     <ptr type="HB-tv" target="HB-tv_4858_p3"/>
+                     <ptr type="pmb" target="pmb149938"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -73,5 +73,28 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb149938">
+               <persName>
+                  <surname>Rodbertus</surname>
+                  <forename>Johann Karl</forename>
+               </persName>
+               <birth>
+                  <date>1805-08-12</date>
+                  <placeName type="wikidata" ref="Q4098">Greifswald</placeName>
+               </birth>
+               <death>
+                  <date>1875-12-06</date>
+                  <placeName type="wikidata" ref="Q689075">Völschow</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4858_p3</idno>
+               <idno type="wikidata">Q63695</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118745638</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149938.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132579.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -64,11 +64,11 @@
                      <ptr type="pmb" target="pmb24315"/>
                      <ptr type="pmb" target="pmb10759"/>
                      <ptr type="pmb" target="pmb12851"/>
-                     <ptr type="HB-tv" target="HB-tv_3410_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_761_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_761_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2578_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_761_p5"/>
+                     <ptr type="pmb" target="pmb151024"/>
+                     <ptr type="pmb" target="pmb151441"/>
+                     <ptr type="pmb" target="pmb99848"/>
+                     <ptr type="pmb" target="pmb149450"/>
+                     <ptr type="pmb" target="pmb113610"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -81,5 +81,104 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb151024">
+               <persName>
+                  <surname>Minne</surname>
+                  <forename>George</forename>
+               </persName>
+               <birth>
+                  <date>1866-08-30</date>
+                  <placeName type="wikidata" ref="Q1296">Gent</placeName>
+               </birth>
+               <death>
+                  <date>1941-02-18</date>
+                  <placeName type="wikidata" ref="Q737538">Sint-Martens-Latem</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3410_p2</idno>
+               <idno type="wikidata">Q559281</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118784137</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151024.html</idno>
+            </person>
+            <person xml:id="pmb151441">
+               <persName>
+                  <surname>Dampt</surname>
+                  <forename>Jean</forename>
+               </persName>
+               <birth>
+                  <date>1854-01-02</date>
+                  <placeName type="wikidata" ref="Q224460">Venarey-les-Laumes</placeName>
+               </birth>
+               <death>
+                  <date>1945-09-26</date>
+                  <placeName type="wikidata" ref="Q7003">Dijon</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_761_p2</idno>
+               <idno type="wikidata">Q3171539</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116020709</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151441.html</idno>
+            </person>
+            <person xml:id="pmb99848">
+               <persName>
+                  <surname>Mehoffer</surname>
+                  <forename>Józef</forename>
+               </persName>
+               <birth>
+                  <date>1869-03-19</date>
+                  <placeName type="wikidata" ref="Q336375">Ropczyce</placeName>
+               </birth>
+               <death>
+                  <date>1946-07-07</date>
+                  <placeName type="wikidata" ref="Q212856">Wadowice</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_761_p3</idno>
+               <idno type="wikidata">Q1354695</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119273985</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb99848.html</idno>
+            </person>
+            <person xml:id="pmb149450">
+               <persName>
+                  <surname>Leibl</surname>
+                  <forename>Wilhelm</forename>
+               </persName>
+               <birth>
+                  <date>1844-10-23</date>
+                  <placeName type="wikidata" ref="Q365">Köln</placeName>
+               </birth>
+               <death>
+                  <date>1900-12-04</date>
+                  <placeName type="wikidata" ref="Q2999">Würzburg</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2578_p1</idno>
+               <idno type="wikidata">Q704661</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118571222</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149450.html</idno>
+            </person>
+            <person xml:id="pmb113610">
+               <persName>
+                  <surname>Edison</surname>
+                  <forename>Thomas Alva</forename>
+               </persName>
+               <birth>
+                  <date>1847-02-11</date>
+                  <placeName type="wikidata" ref="Q1645063">Milan</placeName>
+               </birth>
+               <death>
+                  <date>1931-10-18</date>
+                  <placeName type="wikidata" ref="Q932601">West Orange</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_761_p5</idno>
+               <idno type="wikidata">Q8743</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118528912</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113610.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

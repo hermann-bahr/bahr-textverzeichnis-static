@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122737.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -83,8 +83,8 @@
                      <ptr type="pmb" target="pmb10627"/>
                      <ptr type="pmb" target="pmb12504"/>
                      <ptr type="pmb" target="pmb12837"/>
-                     <ptr type="HB-tv" target="HB-tv_2048_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2440_p3"/>
+                     <ptr type="pmb" target="pmb148776"/>
+                     <ptr type="pmb" target="pmb153974"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19041201&amp;seite=12</ref>
@@ -103,5 +103,62 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2404">
+               <persName>
+                  <surname>Hebbel</surname>
+                  <forename>Christian Friedrich</forename>
+               </persName>
+               <birth>
+                  <date>1813-03-18</date>
+                  <placeName type="wikidata" ref="Q518460">Wesselburen</placeName>
+               </birth>
+               <death>
+                  <date>1863-12-13</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_6576_p3</idno>
+               <idno type="wikidata">Q57182</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118547445</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2404.html</idno>
+            </person>
+            <person xml:id="pmb148776">
+               <persName>
+                  <surname>Wiecke</surname>
+                  <forename>Paul</forename>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <birth>
+                  <date>1862-10-30</date>
+                  <placeName type="wikidata" ref="Q702259">Elberfeld</placeName>
+               </birth>
+               <death>
+                  <date>1944-12-18</date>
+                  <placeName type="wikidata" ref="Q525960">Blankenburg</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2048_p1</idno>
+               <idno type="wikidata">Q27972167</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117346926</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148776.html</idno>
+            </person>
+            <person xml:id="pmb153974">
+               <persName>
+                  <surname>Sauer</surname>
+                  <forename>Oscar</forename>
+               </persName>
+               <birth>
+                  <date when="1856">1856</date>
+               </birth>
+               <death>
+                  <date when="1918">1918</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2440_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153974.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

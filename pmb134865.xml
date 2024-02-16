@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb134865.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -76,11 +76,11 @@
                   <listRef>
                      <ptr type="pmb" target="pmb11201"/>
                      <ptr type="pmb" target="pmb16501"/>
-                     <ptr type="HB-tv" target="HB-tv_3921_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1990_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1442_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_1442_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_1442_p5"/>
+                     <ptr type="pmb" target="pmb153912"/>
+                     <ptr type="pmb" target="pmb148780"/>
+                     <ptr type="pmb" target="pmb157535"/>
+                     <ptr type="pmb" target="pmb153575"/>
+                     <ptr type="pmb" target="pmb157536"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/deutsche-zeitung/74573.pdf</ref>
@@ -95,5 +95,82 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb153912">
+               <persName>
+                  <surname>Beraton</surname>
+                  <forename>Ferry</forename>
+               </persName>
+               <birth>
+                  <date when="1860">1860</date>
+               </birth>
+               <death>
+                  <date when="1900">1900</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3921_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153912.html</idno>
+            </person>
+            <person xml:id="pmb148780">
+               <persName>
+                  <surname>Coquelin cadet</surname>
+               </persName>
+               <birth>
+                  <date>1848-05-16</date>
+                  <placeName type="wikidata" ref="Q81997">Boulogne-sur-Mer</placeName>
+               </birth>
+               <death>
+                  <date>1909-02-08</date>
+                  <placeName type="wikidata" ref="Q193929">Suresnes</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1994_p1</idno>
+               <idno type="wikidata">Q2077885</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116670711</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148780.html</idno>
+            </person>
+            <person xml:id="pmb157535">
+               <persName>
+                  <surname>Täncer</surname>
+                  <forename>Matthias</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_1442_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157535.html</idno>
+            </person>
+            <person xml:id="pmb153575">
+               <persName>
+                  <surname>Rózsa</surname>
+                  <forename>Sándor</forename>
+               </persName>
+               <birth>
+                  <date>1813-07-10</date>
+                  <placeName type="wikidata" ref="Q682563">Röszke</placeName>
+               </birth>
+               <death>
+                  <date>1878-11-22</date>
+                  <placeName type="wikidata" ref="Q496557">Neuschloss</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1442_p4</idno>
+               <idno type="wikidata">Q743825</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/123006503</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153575.html</idno>
+            </person>
+            <person xml:id="pmb157536">
+               <persName>
+                  <surname>Szemeredy</surname>
+                  <forename>Alois</forename>
+               </persName>
+               <birth>
+                  <date when="1844">1844</date>
+               </birth>
+               <death>
+                  <date when="1892">1892</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1442_p5</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157536.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

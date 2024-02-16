@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123829.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,9 +69,9 @@
                      <ptr type="pmb" target="pmb11610"/>
                      <ptr type="pmb" target="pmb2412"/>
                      <ptr type="pmb" target="pmb12187"/>
-                     <ptr type="HB-tv" target="HB-tv_3826_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_2244_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2244_p3"/>
+                     <ptr type="pmb" target="pmb154437"/>
+                     <ptr type="pmb" target="pmb149000"/>
+                     <ptr type="pmb" target="pmb149003"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/12-188.pdf</ref>
@@ -84,5 +84,61 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154437">
+               <persName>
+                  <surname>Fichnter</surname>
+                  <forename>Carl Albrecht</forename>
+               </persName>
+               <birth>
+                  <date when="1805">1805</date>
+               </birth>
+               <death>
+                  <date when="1873">1873</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3826_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154437.html</idno>
+            </person>
+            <person xml:id="pmb149000">
+               <persName>
+                  <surname>Delaunay</surname>
+                  <forename>Louis Arsène</forename>
+               </persName>
+               <birth>
+                  <date>1826-03-21</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1903-09-22</date>
+                  <placeName type="wikidata" ref="Q621">Versailles</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2244_p2</idno>
+               <idno type="wikidata">Q1532164</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116057742</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149000.html</idno>
+            </person>
+            <person xml:id="pmb149003">
+               <persName>
+                  <surname>Destouches</surname>
+                  <forename>Philippe Néricault</forename>
+               </persName>
+               <birth>
+                  <date>1680-04-09</date>
+                  <placeName type="wikidata" ref="Q288">Tours</placeName>
+               </birth>
+               <death>
+                  <date>1754-07-04</date>
+                  <placeName type="wikidata" ref="Q83712177"/>
+               </death>
+               <idno type="HB-tv">HB-tv_2244_p3</idno>
+               <idno type="wikidata">Q177063</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118671669</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149003.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

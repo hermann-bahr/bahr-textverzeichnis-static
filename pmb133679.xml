@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133679.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -79,10 +79,10 @@
                      <ptr type="pmb" target="pmb4124"/>
                      <ptr type="pmb" target="pmb11093"/>
                      <ptr type="pmb" target="pmb26531"/>
-                     <ptr type="HB-tv" target="HB-tv_2095_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_352_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_352_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_352_p4"/>
+                     <ptr type="pmb" target="pmb154584"/>
+                     <ptr type="pmb" target="pmb4769"/>
+                     <ptr type="pmb" target="pmb156960"/>
+                     <ptr type="pmb" target="pmb156961"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1895-5/53-12.pdf</ref>
@@ -101,5 +101,58 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154584">
+               <persName>
+                  <surname>Bulthaupt</surname>
+                  <forename>Heinrich Alfred</forename>
+               </persName>
+               <birth>
+                  <date when="1849">1849</date>
+               </birth>
+               <death>
+                  <date when="1905">1905</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2095_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154584.html</idno>
+            </person>
+            <person xml:id="pmb4769">
+               <persName>
+                  <surname>Napoléon Bonaparte</surname>
+               </persName>
+               <birth>
+                  <date>1769-08-15</date>
+                  <placeName type="wikidata" ref="Q40104">Ajaccio</placeName>
+               </birth>
+               <death>
+                  <date>1821-05-05</date>
+                  <placeName type="wikidata" ref="Q578060">Longwood House</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1891_p2</idno>
+               <idno type="wikidata">Q517</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118586408</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb4769.html</idno>
+            </person>
+            <person xml:id="pmb156960">
+               <persName>
+                  <surname>Fay</surname>
+                  <forename>Serena</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_352_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156960.html</idno>
+            </person>
+            <person xml:id="pmb156961">
+               <persName>
+                  <surname>Weiß</surname>
+                  <forename>Theodor</forename>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_352_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156961.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb126879.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -63,10 +63,10 @@
                      <ptr type="pmb" target="pmb11581"/>
                      <ptr type="pmb" target="pmb2132"/>
                      <ptr type="pmb" target="pmb27667"/>
-                     <ptr type="HB-tv" target="HB-tv_1450_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_4842_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_4842_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_4469_p2"/>
+                     <ptr type="pmb" target="pmb2154"/>
+                     <ptr type="pmb" target="pmb155319"/>
+                     <ptr type="pmb" target="pmb155320"/>
+                     <ptr type="pmb" target="pmb153954"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/18-selbstbildnis.pdf</ref>
@@ -97,5 +97,71 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2154">
+               <persName>
+                  <surname>Chiavacci</surname>
+                  <forename>Vinzenz</forename>
+               </persName>
+               <birth>
+                  <date>1847-06-15</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1916-02-02</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1450_p4</idno>
+               <idno type="wikidata">Q1585734</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116504854</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2154.html</idno>
+            </person>
+            <person xml:id="pmb155319">
+               <persName>
+                  <surname>Cosimo</surname>
+                  <forename>Piero di</forename>
+               </persName>
+               <birth>
+                  <date when-custom="um 1462">um 1462</date>
+               </birth>
+               <death>
+                  <date when="1521">1521</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4842_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155319.html</idno>
+            </person>
+            <person xml:id="pmb155320">
+               <persName>
+                  <surname>Bahr</surname>
+                  <forename>Maria Rosina</forename>
+                  <surname type="birthname"> Reisinger</surname>
+               </persName>
+               <birth>
+                  <date when="1811">1811</date>
+               </birth>
+               <death>
+                  <date when="1867">1867</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4842_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155320.html</idno>
+            </person>
+            <person xml:id="pmb153954">
+               <persName>
+                  <surname>Steger</surname>
+                  <forename>Joseph</forename>
+               </persName>
+               <birth>
+                  <date when="1827">1827</date>
+               </birth>
+               <death>
+                  <date when="1886">1886</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4469_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153954.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

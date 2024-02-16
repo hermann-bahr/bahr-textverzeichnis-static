@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123339.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -68,7 +68,7 @@
                      <ptr type="pmb" target="pmb12624"/>
                      <ptr type="pmb" target="pmb4579"/>
                      <ptr type="pmb" target="pmb11068"/>
-                     <ptr type="HB-tv" target="HB-tv_1329_p1"/>
+                     <ptr type="pmb" target="pmb10332"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19000411&amp;seite=9</ref>
@@ -86,5 +86,46 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb11068">
+               <persName>
+                  <surname>Calderòn de la Barca</surname>
+                  <forename>Pedro</forename>
+               </persName>
+               <birth>
+                  <date>1600-01-17</date>
+                  <placeName type="wikidata" ref="Q2807">Madrid</placeName>
+               </birth>
+               <death>
+                  <date>1681-05-25</date>
+                  <placeName type="wikidata" ref="Q2807">Madrid</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3356_p2</idno>
+               <idno type="wikidata">Q170800</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118518399</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11068.html</idno>
+            </person>
+            <person xml:id="pmb10332">
+               <persName>
+                  <surname>Lope de Vega</surname>
+               </persName>
+               <birth>
+                  <date>1562-11-25</date>
+                  <placeName type="wikidata" ref="Q2807">Madrid</placeName>
+               </birth>
+               <death>
+                  <date>1635-08-27</date>
+                  <placeName type="wikidata" ref="Q2807">Madrid</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1329_p1</idno>
+               <idno type="wikidata">Q165257</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118626353</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb10332.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

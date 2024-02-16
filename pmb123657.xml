@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123657.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -66,8 +66,8 @@
                      <ptr type="pmb" target="pmb12654"/>
                      <ptr type="pmb" target="pmb2484"/>
                      <ptr type="pmb" target="pmb10980"/>
-                     <ptr type="HB-tv" target="HB-tv_2007_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1674_p2"/>
+                     <ptr type="pmb" target="pmb154008"/>
+                     <ptr type="pmb" target="pmb154491"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1896-7/81-45.pdf</ref>
@@ -81,5 +81,37 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154008">
+               <persName>
+                  <surname>Engels</surname>
+                  <forename>Alexander</forename>
+               </persName>
+               <birth>
+                  <date when="1871">1871</date>
+               </birth>
+               <death>
+                  <date when="1933">1933</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2007_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154008.html</idno>
+            </person>
+            <person xml:id="pmb154491">
+               <persName>
+                  <surname>Winds</surname>
+                  <forename>Adolf</forename>
+               </persName>
+               <birth>
+                  <date when="1856">1856</date>
+               </birth>
+               <death>
+                  <date when="1927">1927</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1674_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154491.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

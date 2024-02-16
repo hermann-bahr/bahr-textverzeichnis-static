@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122511.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -67,10 +67,10 @@
                      <ptr type="pmb" target="pmb12195"/>
                      <ptr type="pmb" target="pmb10943"/>
                      <ptr type="pmb" target="pmb10966"/>
-                     <ptr type="HB-tv" target="HB-tv_508_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_508_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_509_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_508_p4"/>
+                     <ptr type="pmb" target="pmb112759"/>
+                     <ptr type="pmb" target="pmb148619"/>
+                     <ptr type="pmb" target="pmb148611"/>
+                     <ptr type="pmb" target="pmb114358"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -81,5 +81,85 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb112759">
+               <persName>
+                  <surname>Bebel</surname>
+                  <forename>August</forename>
+               </persName>
+               <birth>
+                  <date>1840-02-22</date>
+                  <placeName type="wikidata" ref="Q3621">Deutz</placeName>
+               </birth>
+               <death>
+                  <date>1913-08-13</date>
+                  <placeName type="wikidata" ref="Q783413">Passugg</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_508_p1</idno>
+               <idno type="wikidata">Q76520</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118507893</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb112759.html</idno>
+            </person>
+            <person xml:id="pmb148619">
+               <persName>
+                  <surname>Hasenclever</surname>
+                  <forename>Wilhelm</forename>
+               </persName>
+               <birth>
+                  <date>1837-04-19</date>
+                  <placeName type="wikidata" ref="Q3912">Arnsberg</placeName>
+               </birth>
+               <death>
+                  <date>1889-07-03</date>
+                  <placeName type="wikidata" ref="Q313189">Schöneberg</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_508_p2</idno>
+               <idno type="wikidata">Q73184</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119099411</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148619.html</idno>
+            </person>
+            <person xml:id="pmb148611">
+               <persName>
+                  <surname>Bakunin</surname>
+                  <forename>Michail Aleksandrovič</forename>
+               </persName>
+               <birth>
+                  <date>1814-05-30</date>
+                  <placeName type="wikidata" ref="Q2111332">Prjamuchino</placeName>
+               </birth>
+               <death>
+                  <date>1876-07-01</date>
+                  <placeName type="wikidata" ref="Q70">Bern</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_509_p1</idno>
+               <idno type="wikidata">Q27645</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118506102</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148611.html</idno>
+            </person>
+            <person xml:id="pmb114358">
+               <persName>
+                  <surname>Blum</surname>
+                  <forename>Hans</forename>
+               </persName>
+               <birth>
+                  <date>1841-06-08</date>
+                  <placeName type="wikidata" ref="Q2079">Leipzig</placeName>
+               </birth>
+               <death>
+                  <date>1910-02-01</date>
+                  <placeName type="wikidata" ref="Q269667">Rheinfelden</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_508_p4</idno>
+               <idno type="wikidata">Q73975</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116207388</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114358.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

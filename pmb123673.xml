@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123673.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -71,11 +71,11 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb12179"/>
-                     <ptr type="HB-tv" target="HB-tv_3814_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3814_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_4829_p6"/>
-                     <ptr type="HB-tv" target="HB-tv_2364_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_556_p1"/>
+                     <ptr type="pmb" target="pmb154497"/>
+                     <ptr type="pmb" target="pmb154498"/>
+                     <ptr type="pmb" target="pmb22666"/>
+                     <ptr type="pmb" target="pmb154473"/>
+                     <ptr type="pmb" target="pmb121024"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1895-5/60-126.pdf</ref>
@@ -88,5 +88,77 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154497">
+               <persName>
+                  <surname>Liorat</surname>
+                  <forename>Armand</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_3814_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154497.html</idno>
+            </person>
+            <person xml:id="pmb154498">
+               <persName>
+                  <surname>Barney</surname>
+                  <forename>Louis</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_3814_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154498.html</idno>
+            </person>
+            <person xml:id="pmb22666">
+               <persName>
+                  <surname>Pohl-Meiser</surname>
+                  <forename>Viktoria</forename>
+               </persName>
+               <birth>
+                  <date>1858-11-28</date>
+                  <placeName type="wikidata" ref="Q1726">München</placeName>
+               </birth>
+               <death>
+                  <date>1936-06-17</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4829_p6</idno>
+               <idno type="wikidata">Q58011561</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/116260653</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb22666.html</idno>
+            </person>
+            <person xml:id="pmb154473">
+               <persName>
+                  <surname>Grunert-Paulick</surname>
+                  <forename>Therese</forename>
+                  <surname type="birthname"> Grunert</surname>
+               </persName>
+               <birth>
+                  <date when="1857">1857</date>
+               </birth>
+               <death>
+                  <date when="1918">1918</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2364_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154473.html</idno>
+            </person>
+            <person xml:id="pmb121024">
+               <persName>
+                  <surname>Bolten-Baeckers</surname>
+                  <forename>Heinrich</forename>
+               </persName>
+               <birth>
+                  <date>1871-04-10</date>
+                  <placeName type="wikidata" ref="Q2795">Chemnitz</placeName>
+               </birth>
+               <death>
+                  <date>1938-01-30</date>
+                  <placeName type="wikidata" ref="Q1731">Dresden</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_556_p1</idno>
+               <idno type="wikidata">Q1596787</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116035765</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb121024.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

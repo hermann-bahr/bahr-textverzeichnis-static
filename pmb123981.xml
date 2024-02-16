@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123981.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,11 +69,11 @@
                   Gauen</note>
                <ref type="personenindex">
                   <listRef>
-                     <ptr type="HB-tv" target="HB-tv_1472_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1472_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1472_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_1472_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_1472_p5"/>
+                     <ptr type="pmb" target="pmb149086"/>
+                     <ptr type="pmb" target="pmb154648"/>
+                     <ptr type="pmb" target="pmb154649"/>
+                     <ptr type="pmb" target="pmb154650"/>
+                     <ptr type="pmb" target="pmb154651"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/linzer-sonntagsblatt/1883_fest-i.pdf</ref>
@@ -86,5 +86,67 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb149086">
+               <persName>
+                  <surname>Harmening</surname>
+                  <forename>Ernst</forename>
+               </persName>
+               <birth>
+                  <date>1854-01-28</date>
+                  <placeName type="wikidata" ref="Q157035">Bückeburg</placeName>
+               </birth>
+               <death>
+                  <date>1913-08-25</date>
+                  <placeName type="wikidata" ref="Q131605">Meran</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1472_p1</idno>
+               <idno type="wikidata">Q1321901</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117498351</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149086.html</idno>
+            </person>
+            <person xml:id="pmb154648">
+               <persName>
+                  <surname>Scheidler</surname>
+                  <forename>Karl Hermann</forename>
+               </persName>
+               <birth>
+                  <date when="1795">1795</date>
+               </birth>
+               <death>
+                  <date when="1877">1877</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1472_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154648.html</idno>
+            </person>
+            <person xml:id="pmb154649">
+               <persName>
+                  <surname>Keil</surname>
+                  <forename>Robert</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_1472_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154649.html</idno>
+            </person>
+            <person xml:id="pmb154650">
+               <persName>
+                  <surname>Göring</surname>
+               </persName>
+               <occupation>Rechtsanwalt</occupation>
+               <idno type="HB-tv">HB-tv_1472_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154650.html</idno>
+            </person>
+            <person xml:id="pmb154651">
+               <persName>
+                  <surname>Polz</surname>
+                  <forename>Eduard</forename>
+               </persName>
+               <occupation>Vizebürgermeister</occupation>
+               <idno type="HB-tv">HB-tv_1472_p5</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154651.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

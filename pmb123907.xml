@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123907.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -61,10 +61,10 @@
                   <listRef>
                      <ptr type="pmb" target="pmb18926"/>
                      <ptr type="pmb" target="pmb10899"/>
-                     <ptr type="HB-tv" target="HB-tv_1025_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1025_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1025_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_1025_p4"/>
+                     <ptr type="pmb" target="pmb23784"/>
+                     <ptr type="pmb" target="pmb117139"/>
+                     <ptr type="pmb" target="pmb146769"/>
+                     <ptr type="pmb" target="pmb154604"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/deutsche-zeitung/75245.pdf</ref>
@@ -76,5 +76,72 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb23784">
+               <persName>
+                  <surname>Réjane</surname>
+               </persName>
+               <birth>
+                  <date>1856-06-06</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1920-06-14</date>
+                  <placeName type="wikidata" ref="Q194420">16. Arrondissement von Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_688_p2</idno>
+               <idno type="wikidata">Q596355</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/116394102</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb23784.html</idno>
+            </person>
+            <person xml:id="pmb117139">
+               <persName>
+                  <surname>L’Enclos</surname>
+                  <forename>Ninon de</forename>
+               </persName>
+               <birth>
+                  <date>1620-11-10</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1705-10-17</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1025_p2</idno>
+               <idno type="wikidata">Q237045</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/118727389</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb117139.html</idno>
+            </person>
+            <person xml:id="pmb146769">
+               <persName>
+                  <surname>Louis XIV. von Frankreich</surname>
+               </persName>
+               <birth>
+                  <date>1638-09-05</date>
+                  <placeName type="wikidata" ref="Q1520841">Schloss Saint-Germain-en-Laye</placeName>
+               </birth>
+               <death>
+                  <date>1715-09-01</date>
+                  <placeName type="wikidata" ref="Q2946">Schloss Versailles</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1025_p3</idno>
+               <idno type="wikidata">Q7742</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118816829</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb146769.html</idno>
+            </person>
+            <person xml:id="pmb154604">
+               <persName>
+                  <surname>Rosensteel</surname>
+                  <forename>F. C.</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_1025_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154604.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

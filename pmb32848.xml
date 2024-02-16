@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb32848.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -72,7 +72,7 @@
                      <ptr type="pmb" target="pmb2601"/>
                      <ptr type="pmb" target="pmb2570"/>
                      <ptr type="pmb" target="pmb2412"/>
-                     <ptr type="HB-tv" target="HB-tv_1928_p1"/>
+                     <ptr type="pmb" target="pmb114688"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19030403&amp;seite=9</ref>
@@ -84,5 +84,28 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb114688">
+               <persName>
+                  <surname>Grimm</surname>
+                  <forename>Jacob</forename>
+               </persName>
+               <birth>
+                  <date>1785-01-04</date>
+                  <placeName type="wikidata" ref="Q3802">Hanau</placeName>
+               </birth>
+               <death>
+                  <date>1863-09-20</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1928_p1</idno>
+               <idno type="wikidata">Q6701</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118542257</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114688.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

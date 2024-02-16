@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122931.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -73,11 +73,11 @@
                      <ptr type="pmb" target="pmb10980"/>
                      <ptr type="pmb" target="pmb4179"/>
                      <ptr type="pmb" target="pmb18489"/>
-                     <ptr type="HB-tv" target="HB-tv_1891_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1891_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1891_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_1891_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_1891_p5"/>
+                     <ptr type="pmb" target="pmb154126"/>
+                     <ptr type="pmb" target="pmb4769"/>
+                     <ptr type="pmb" target="pmb18651"/>
+                     <ptr type="pmb" target="pmb154127"/>
+                     <ptr type="pmb" target="pmb154128"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19020227&amp;seite=7</ref>
@@ -91,5 +91,76 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154126">
+               <persName>
+                  <surname>Trotha</surname>
+                  <forename>Thilo von</forename>
+               </persName>
+               <birth>
+                  <date when="1851">1851</date>
+               </birth>
+               <death>
+                  <date when="1906">1906</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1891_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154126.html</idno>
+            </person>
+            <person xml:id="pmb4769">
+               <persName>
+                  <surname>Napoléon Bonaparte</surname>
+               </persName>
+               <birth>
+                  <date>1769-08-15</date>
+                  <placeName type="wikidata" ref="Q40104">Ajaccio</placeName>
+               </birth>
+               <death>
+                  <date>1821-05-05</date>
+                  <placeName type="wikidata" ref="Q578060">Longwood House</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1891_p2</idno>
+               <idno type="wikidata">Q517</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118586408</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb4769.html</idno>
+            </person>
+            <person xml:id="pmb18651">
+               <persName>
+                  <surname>Hetsey</surname>
+                  <forename>Alice</forename>
+               </persName>
+               <birth>
+                  <date>1875-09-03</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1939-02-11</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2337_p1</idno>
+               <idno type="wikidata">Q58011579</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/116778873</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb18651.html</idno>
+            </person>
+            <person xml:id="pmb154127">
+               <persName>
+                  <surname>Schöller</surname>
+                  <forename>Lene</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_1891_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154127.html</idno>
+            </person>
+            <person xml:id="pmb154128">
+               <persName>
+                  <surname>Lackner</surname>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_1891_p5</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154128.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

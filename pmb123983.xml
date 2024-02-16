@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123983.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -83,10 +83,10 @@
                      <ptr type="pmb" target="pmb8948"/>
                      <ptr type="pmb" target="pmb11065"/>
                      <ptr type="pmb" target="pmb2566"/>
-                     <ptr type="HB-tv" target="HB-tv_6758_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_6758_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_6758_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_6758_p4"/>
+                     <ptr type="pmb" target="pmb154652"/>
+                     <ptr type="pmb" target="pmb149089"/>
+                     <ptr type="pmb" target="pmb114788"/>
+                     <ptr type="pmb" target="pmb154653"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwj&amp;datum=19310308&amp;seite=2</ref>
@@ -100,5 +100,78 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154652">
+               <persName>
+                  <surname>Galliffet</surname>
+                  <forename>Gaston Alexandre Auguste</forename>
+               </persName>
+               <birth>
+                  <date when="1803">1803</date>
+               </birth>
+               <death>
+                  <date when="1909">1909</date>
+               </death>
+               <idno type="HB-tv">HB-tv_6758_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154652.html</idno>
+            </person>
+            <person xml:id="pmb149089">
+               <persName>
+                  <surname>Poincaré</surname>
+                  <forename>Henri</forename>
+               </persName>
+               <occupation>Mathematiker</occupation>
+               <birth>
+                  <date>1854-04-29</date>
+                  <placeName type="wikidata" ref="Q40898">Nancy</placeName>
+               </birth>
+               <death>
+                  <date>1912-07-17</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_6758_p2</idno>
+               <idno type="wikidata">Q81082</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118595407</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149089.html</idno>
+            </person>
+            <person xml:id="pmb114788">
+               <persName>
+                  <surname>Reinach</surname>
+                  <forename>Joseph</forename>
+               </persName>
+               <occupation>Autor und Politiker</occupation>
+               <birth>
+                  <date>1856-09-30</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1921-04-18</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_6758_p3</idno>
+               <idno type="wikidata">Q172161</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117521841</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114788.html</idno>
+            </person>
+            <person xml:id="pmb154653">
+               <persName>
+                  <surname>Weil</surname>
+                  <forename>Bruno</forename>
+               </persName>
+               <occupation>Schriftsteller und Rechtsanwalt</occupation>
+               <birth>
+                  <date when="1883">1883</date>
+               </birth>
+               <death>
+                  <date when="1961">1961</date>
+               </death>
+               <idno type="HB-tv">HB-tv_6758_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154653.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

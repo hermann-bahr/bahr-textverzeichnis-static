@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb131447.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -81,9 +81,9 @@
                      <ptr type="pmb" target="pmb12265"/>
                      <ptr type="pmb" target="pmb11518"/>
                      <ptr type="pmb" target="pmb12654"/>
-                     <ptr type="HB-tv" target="HB-tv_3769_p6"/>
-                     <ptr type="HB-tv" target="HB-tv_1672_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3289_p3"/>
+                     <ptr type="pmb" target="pmb155098"/>
+                     <ptr type="pmb" target="pmb148973"/>
+                     <ptr type="pmb" target="pmb151017"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/10-jugend.pdf</ref>
@@ -117,5 +117,52 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb155098">
+               <persName>
+                  <surname>Schröder</surname>
+                  <forename>Carl August</forename>
+               </persName>
+               <birth>
+                  <date when="1855">1855</date>
+               </birth>
+               <death>
+                  <date when="1945">1945</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3769_p6</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155098.html</idno>
+            </person>
+            <person xml:id="pmb148973">
+               <persName>
+                  <surname>Devrient</surname>
+                  <forename>Karl August</forename>
+               </persName>
+               <birth>
+                  <date>1797-04-05</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </birth>
+               <death>
+                  <date>1872-08-03</date>
+                  <placeName type="wikidata" ref="Q309505">Bad Lauterberg im Harz</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1672_p1</idno>
+               <idno type="wikidata">Q175880</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116088915</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148973.html</idno>
+            </person>
+            <person xml:id="pmb151017">
+               <persName>
+                  <surname>Theseus</surname>
+               </persName>
+               <idno type="HB-tv">HB-tv_3414_p3</idno>
+               <idno type="wikidata">Q112106944</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/102408041</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151017.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

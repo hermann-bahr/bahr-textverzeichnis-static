@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122719.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -66,8 +66,8 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb2189"/>
-                     <ptr type="HB-tv" target="HB-tv_2357_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2357_p2"/>
+                     <ptr type="pmb" target="pmb148771"/>
+                     <ptr type="pmb" target="pmb120101"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19041012&amp;seite=12</ref>
@@ -81,5 +81,47 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb148771">
+               <persName>
+                  <surname>Aicard</surname>
+                  <forename>Jean</forename>
+               </persName>
+               <birth>
+                  <date>1848-02-04</date>
+                  <placeName type="wikidata" ref="Q44160">Toulon</placeName>
+               </birth>
+               <death>
+                  <date>1921-05-13</date>
+                  <placeName type="wikidata" ref="Q259463">7. Arrondissement von Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2357_p1</idno>
+               <idno type="wikidata">Q726967</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118644122</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148771.html</idno>
+            </person>
+            <person xml:id="pmb120101">
+               <persName>
+                  <surname>Silvain</surname>
+                  <forename>Eugène</forename>
+               </persName>
+               <birth>
+                  <date>1851-01-17</date>
+                  <placeName type="wikidata" ref="Q133069">Bourg-en-Bresse</placeName>
+               </birth>
+               <death>
+                  <date>1930-08-21</date>
+                  <placeName type="wikidata" ref="Q23482">Marseille</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2357_p2</idno>
+               <idno type="wikidata">Q3060175</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/140178031</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb120101.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

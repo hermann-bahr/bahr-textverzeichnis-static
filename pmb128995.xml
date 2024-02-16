@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb128995.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -72,8 +72,8 @@
                      <ptr type="pmb" target="pmb6120"/>
                      <ptr type="pmb" target="pmb7886"/>
                      <ptr type="pmb" target="pmb6934"/>
-                     <ptr type="HB-tv" target="HB-tv_5242_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_5242_p2"/>
+                     <ptr type="pmb" target="pmb150596"/>
+                     <ptr type="pmb" target="pmb11464"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwj&amp;datum=19190413&amp;seite=7</ref>
@@ -91,5 +91,47 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb150596">
+               <persName>
+                  <surname>Westheim</surname>
+                  <forename>Paul</forename>
+               </persName>
+               <birth>
+                  <date>1886-08-07</date>
+                  <placeName type="wikidata" ref="Q1468">Eschwege</placeName>
+               </birth>
+               <death>
+                  <date>1963-12-21</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_5242_p1</idno>
+               <idno type="wikidata">Q98283</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119291320</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150596.html</idno>
+            </person>
+            <person xml:id="pmb11464">
+               <persName>
+                  <surname>van Gogh</surname>
+                  <forename>Vincent</forename>
+               </persName>
+               <birth>
+                  <date>1853-03-30</date>
+                  <placeName type="wikidata" ref="Q9883">Zundert</placeName>
+               </birth>
+               <death>
+                  <date>1890-07-29</date>
+                  <placeName type="wikidata" ref="Q4819026"/>
+               </death>
+               <idno type="HB-tv">HB-tv_5242_p2</idno>
+               <idno type="wikidata">Q5582</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118540416</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11464.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

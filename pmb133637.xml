@@ -25,7 +25,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133637.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -88,11 +88,11 @@
                      <ptr type="pmb" target="pmb11308"/>
                      <ptr type="pmb" target="pmb26531"/>
                      <ptr type="pmb" target="pmb11093"/>
-                     <ptr type="HB-tv" target="HB-tv_3401_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_369_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2399_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_369_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_369_p5"/>
+                     <ptr type="pmb" target="pmb7973"/>
+                     <ptr type="pmb" target="pmb152097"/>
+                     <ptr type="pmb" target="pmb2847"/>
+                     <ptr type="pmb" target="pmb153626"/>
+                     <ptr type="pmb" target="pmb156943"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1896-6/73-127.pdf</ref>
@@ -114,5 +114,84 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb7973">
+               <persName>
+                  <surname>Immermann</surname>
+                  <forename>Carl Leberecht</forename>
+               </persName>
+               <birth>
+                  <date>1796-04-24</date>
+                  <placeName type="wikidata" ref="Q1733">Magdeburg</placeName>
+               </birth>
+               <death>
+                  <date>1840-08-25</date>
+                  <placeName type="wikidata" ref="Q1718">Düsseldorf</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3401_p3</idno>
+               <idno type="wikidata">Q213589</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118555553</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb7973.html</idno>
+            </person>
+            <person xml:id="pmb152097">
+               <persName>
+                  <surname>Wiegmann</surname>
+                  <forename>Rudolph</forename>
+               </persName>
+               <birth>
+                  <date>1804-04-17</date>
+                  <placeName type="wikidata" ref="Q356219">Adensen</placeName>
+               </birth>
+               <death>
+                  <date>1865-04-17</date>
+                  <placeName type="wikidata" ref="Q1718">Düsseldorf</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_369_p2</idno>
+               <idno type="wikidata">Q87972</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117361356</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152097.html</idno>
+            </person>
+            <person xml:id="pmb2847">
+               <persName>
+                  <surname>Giampietro</surname>
+                  <forename>Joseph</forename>
+               </persName>
+               <birth>
+                  <date>1866-06-21</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1913-12-29</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2399_p4</idno>
+               <idno type="wikidata">Q1707099</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116616164</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2847.html</idno>
+            </person>
+            <person xml:id="pmb153626">
+               <persName>
+                  <surname>Meixner</surname>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_2471_p2</idno>
+               <idno type="wikidata">Q95032119</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153626.html</idno>
+            </person>
+            <person xml:id="pmb156943">
+               <persName>
+                  <surname>Wallner</surname>
+                  <forename>Carl</forename>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_369_p5</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156943.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

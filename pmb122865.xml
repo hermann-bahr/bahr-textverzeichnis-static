@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122865.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -73,10 +73,10 @@
                      <ptr type="pmb" target="pmb5776"/>
                      <ptr type="pmb" target="pmb12468"/>
                      <ptr type="pmb" target="pmb17109"/>
-                     <ptr type="HB-tv" target="HB-tv_2013_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2013_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2013_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2035_p2"/>
+                     <ptr type="pmb" target="pmb45022"/>
+                     <ptr type="pmb" target="pmb153613"/>
+                     <ptr type="pmb" target="pmb154096"/>
+                     <ptr type="pmb" target="pmb2868"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19021211&amp;seite=10</ref>
@@ -89,5 +89,71 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb45022">
+               <persName>
+                  <surname>Hawel</surname>
+                  <forename>Rudolf</forename>
+               </persName>
+               <birth>
+                  <date>1860-04-19</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1923-11-23</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2013_p1</idno>
+               <idno type="wikidata">Q115040</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/137795106</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb45022.html</idno>
+            </person>
+            <person xml:id="pmb153613">
+               <persName>
+                  <surname>Lange</surname>
+                  <forename>Fritz</forename>
+               </persName>
+               <occupation>Komponist</occupation>
+               <idno type="HB-tv">HB-tv_2013_p2</idno>
+               <idno type="wikidata">Q27106073</idno>
+               <sex value="male"/>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153613.html</idno>
+            </person>
+            <person xml:id="pmb154096">
+               <persName>
+                  <surname>Jesus von Nazareth</surname>
+               </persName>
+               <birth>
+                  <date when-custom="4 v.u.Z.">4 v.u.Z.</date>
+               </birth>
+               <death>
+                  <date when-custom="30/31">30/31</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2013_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154096.html</idno>
+            </person>
+            <person xml:id="pmb2868">
+               <persName>
+                  <surname>Kutschera</surname>
+                  <forename>Viktor</forename>
+               </persName>
+               <birth>
+                  <date>1863-05-02</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1933-01-20</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2035_p2</idno>
+               <idno type="wikidata">Q2524322</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116628081</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2868.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

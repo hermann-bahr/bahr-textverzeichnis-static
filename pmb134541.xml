@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb134541.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -82,10 +82,10 @@
                      <ptr type="pmb" target="pmb12948"/>
                      <ptr type="pmb" target="pmb2446"/>
                      <ptr type="pmb" target="pmb12498"/>
-                     <ptr type="HB-tv" target="HB-tv_1157_p9"/>
-                     <ptr type="HB-tv" target="HB-tv_2621_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2621_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2621_p4"/>
+                     <ptr type="pmb" target="pmb155068"/>
+                     <ptr type="pmb" target="pmb157382"/>
+                     <ptr type="pmb" target="pmb157383"/>
+                     <ptr type="pmb" target="pmb157384"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/1-zur-kritik.pdf</ref>
@@ -114,5 +114,68 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb155068">
+               <persName>
+                  <surname>Vega Carpio</surname>
+                  <forename>Félix Lope de</forename>
+               </persName>
+               <birth>
+                  <date when="1562">1562</date>
+               </birth>
+               <death>
+                  <date when="1635">1635</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1157_p9</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155068.html</idno>
+            </person>
+            <person xml:id="pmb157382">
+               <persName>
+                  <surname>Albrecht</surname>
+                  <forename>Hermine</forename>
+               </persName>
+               <persName type="namensvariante">Hermine von Nyari</persName>
+               <birth>
+                  <date when="1859">1859</date>
+               </birth>
+               <death>
+                  <date when="1929">1929</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2621_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157382.html</idno>
+            </person>
+            <person xml:id="pmb157383">
+               <persName>
+                  <surname>Tondeur</surname>
+                  <forename>Margarete</forename>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <birth>
+                  <date when="1865">1865</date>
+               </birth>
+               <death>
+                  <date when-custom="nach 1919">nach 1919</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2621_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157383.html</idno>
+            </person>
+            <person xml:id="pmb157384">
+               <persName>
+                  <surname>Formes</surname>
+                  <forename>Margarethe</forename>
+               </persName>
+               <persName type="namensvariante">Margarethe Königswarter</persName>
+               <birth>
+                  <date when="1869">1869</date>
+               </birth>
+               <death>
+                  <date when="1942">1942</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2621_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157384.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

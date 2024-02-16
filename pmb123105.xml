@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123105.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -75,9 +75,9 @@
                      <ptr type="pmb" target="pmb24049"/>
                      <ptr type="pmb" target="pmb12265"/>
                      <ptr type="pmb" target="pmb28058"/>
-                     <ptr type="HB-tv" target="HB-tv_1450_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_1979_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1979_p3"/>
+                     <ptr type="pmb" target="pmb2154"/>
+                     <ptr type="pmb" target="pmb148848"/>
+                     <ptr type="pmb" target="pmb154236"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19011212&amp;seite=9</ref>
@@ -91,5 +91,56 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2154">
+               <persName>
+                  <surname>Chiavacci</surname>
+                  <forename>Vinzenz</forename>
+               </persName>
+               <birth>
+                  <date>1847-06-15</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1916-02-02</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1450_p4</idno>
+               <idno type="wikidata">Q1585734</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116504854</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2154.html</idno>
+            </person>
+            <person xml:id="pmb148848">
+               <persName>
+                  <surname>Schadek</surname>
+                  <forename>Moriz</forename>
+               </persName>
+               <birth>
+                  <date>1840-08-28</date>
+                  <placeName type="wikidata" ref="Q659918">Horn</placeName>
+               </birth>
+               <death>
+                  <date>1928-05-31</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1979_p2</idno>
+               <idno type="wikidata">Q1411031</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/129263656</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148848.html</idno>
+            </person>
+            <person xml:id="pmb154236">
+               <persName>
+                  <surname>Fischer</surname>
+                  <forename>Steffi</forename>
+               </persName>
+               <occupation>Violinspielerin</occupation>
+               <idno type="HB-tv">HB-tv_1979_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154236.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

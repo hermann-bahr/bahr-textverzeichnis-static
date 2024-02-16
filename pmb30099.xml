@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb30099.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -80,7 +80,7 @@
                   <listRef>
                      <ptr type="pmb" target="pmb26880"/>
                      <ptr type="pmb" target="pmb2827"/>
-                     <ptr type="HB-tv" target="HB-tv_2543_p1"/>
+                     <ptr type="pmb" target="pmb62585"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19031004&amp;seite=10</ref>
@@ -93,5 +93,28 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb62585">
+               <persName>
+                  <surname>Leipziger</surname>
+                  <forename>Leon</forename>
+               </persName>
+               <birth>
+                  <date>1861-12-17</date>
+                  <placeName type="wikidata" ref="Q1799">Breslau</placeName>
+               </birth>
+               <death>
+                  <date>1922-12-21</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2543_p1</idno>
+               <idno type="wikidata">Q1818653</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116884029</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb62585.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

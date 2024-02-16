@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb124421.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -65,8 +65,8 @@
                      <ptr type="pmb" target="pmb13102"/>
                      <ptr type="pmb" target="pmb4907"/>
                      <ptr type="pmb" target="pmb4084"/>
-                     <ptr type="HB-tv" target="HB-tv_1418_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1418_p2"/>
+                     <ptr type="pmb" target="pmb116321"/>
+                     <ptr type="pmb" target="pmb154742"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -77,5 +77,42 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb116321">
+               <persName>
+                  <surname>Unamuno</surname>
+                  <forename>Miguel de</forename>
+               </persName>
+               <birth>
+                  <date>1864-09-29</date>
+                  <placeName type="wikidata" ref="Q8692">Bilbao</placeName>
+               </birth>
+               <death>
+                  <date>1936-12-31</date>
+                  <placeName type="wikidata" ref="Q15695">Salamanca</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1418_p1</idno>
+               <idno type="wikidata">Q185085</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118625403</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116321.html</idno>
+            </person>
+            <person xml:id="pmb154742">
+               <persName>
+                  <surname>Lullus</surname>
+                  <forename>Raymundus</forename>
+               </persName>
+               <birth>
+                  <date when="1235">1235</date>
+               </birth>
+               <death>
+                  <date when="1315">1315</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1418_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154742.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123505.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -68,8 +68,8 @@
                      <ptr type="pmb" target="pmb6892"/>
                      <ptr type="pmb" target="pmb2249"/>
                      <ptr type="pmb" target="pmb12929"/>
-                     <ptr type="HB-tv" target="HB-tv_3866_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3866_p2"/>
+                     <ptr type="pmb" target="pmb154405"/>
+                     <ptr type="pmb" target="pmb154406"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1897-13/158-28.pdf</ref>
@@ -82,5 +82,26 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154405">
+               <persName>
+                  <surname>Markwordt</surname>
+                  <forename>Mascha</forename>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <idno type="HB-tv">HB-tv_3866_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154405.html</idno>
+            </person>
+            <person xml:id="pmb154406">
+               <persName>
+                  <surname>Meyer-Eigen</surname>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_3866_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154406.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

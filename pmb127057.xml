@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb127057.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -62,8 +62,8 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb10103"/>
-                     <ptr type="HB-tv" target="HB-tv_1500_p21"/>
-                     <ptr type="HB-tv" target="HB-tv_40_p2"/>
+                     <ptr type="pmb" target="pmb150139"/>
+                     <ptr type="pmb" target="pmb114573"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -74,5 +74,46 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb150139">
+               <persName>
+                  <surname>Zinzendorf</surname>
+                  <forename>Nikolaus Ludwig von</forename>
+               </persName>
+               <birth>
+                  <date>1700-05-26</date>
+                  <placeName type="wikidata" ref="Q1731">Dresden</placeName>
+               </birth>
+               <death>
+                  <date>1760-05-04</date>
+                  <placeName type="wikidata" ref="Q165140">Herrnhut</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1500_p21</idno>
+               <idno type="wikidata">Q76336</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11863707X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150139.html</idno>
+            </person>
+            <person xml:id="pmb114573">
+               <persName>
+                  <surname>Antonius von Padua</surname>
+               </persName>
+               <birth>
+                  <date>1195-08-15</date>
+                  <placeName type="wikidata" ref="Q597">Lissabon</placeName>
+               </birth>
+               <death>
+                  <date>1231-06-13</date>
+                  <placeName type="wikidata" ref="Q617">Padua</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2030_p2</idno>
+               <idno type="wikidata">Q167477</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118503510</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114573.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

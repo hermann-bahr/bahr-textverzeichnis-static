@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132891.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -72,12 +72,12 @@
                      <ptr type="pmb" target="pmb10718"/>
                      <ptr type="pmb" target="pmb11643"/>
                      <ptr type="pmb" target="pmb12081"/>
-                     <ptr type="HB-tv" target="HB-tv_2958_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2958_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2958_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2958_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_2958_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_2958_p6"/>
+                     <ptr type="pmb" target="pmb156677"/>
+                     <ptr type="pmb" target="pmb156678"/>
+                     <ptr type="pmb" target="pmb156679"/>
+                     <ptr type="pmb" target="pmb156680"/>
+                     <ptr type="pmb" target="pmb150410"/>
+                     <ptr type="pmb" target="pmb156681"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/7-bildung.pdf</ref>
@@ -108,5 +108,61 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb156677">
+               <persName>
+                  <surname>Barrison</surname>
+                  <forename>Abelone Maria</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_2958_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156677.html</idno>
+            </person>
+            <person xml:id="pmb156678">
+               <persName>
+                  <surname>Barrison</surname>
+                  <forename>Inger</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_2958_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156678.html</idno>
+            </person>
+            <person xml:id="pmb156679">
+               <persName>
+                  <surname>Barrison</surname>
+                  <forename>Gertrude</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_2958_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156679.html</idno>
+            </person>
+            <person xml:id="pmb156680">
+               <persName>
+                  <surname>Schuster</surname>
+                  <forename>Richard</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_2958_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156680.html</idno>
+            </person>
+            <person xml:id="pmb150410">
+               <persName>
+                  <surname>Loeffler</surname>
+                  <forename>Ludwig ?</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_3340_p6</idno>
+               <idno type="wikidata">Q15726843</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117148415</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150410.html</idno>
+            </person>
+            <person xml:id="pmb156681">
+               <persName>
+                  <surname>D’Aubecq</surname>
+                  <forename>Pierre</forename>
+               </persName>
+               <persName type="namensvariante">Anton Lindner</persName>
+               <idno type="HB-tv">HB-tv_2958_p6</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156681.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

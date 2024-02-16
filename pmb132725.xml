@@ -24,7 +24,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132725.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -65,8 +65,8 @@
                      <ptr type="pmb" target="pmb11391"/>
                      <ptr type="pmb" target="pmb27259"/>
                      <ptr type="pmb" target="pmb11851"/>
-                     <ptr type="HB-tv" target="HB-tv_747_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_747_p2"/>
+                     <ptr type="pmb" target="pmb28820"/>
+                     <ptr type="pmb" target="pmb120796"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -79,5 +79,46 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb28820">
+               <persName>
+                  <surname>Stendhal</surname>
+               </persName>
+               <birth>
+                  <date>1783-01-23</date>
+                  <placeName type="wikidata" ref="Q1289">Grenoble</placeName>
+               </birth>
+               <death>
+                  <date>1842-03-23</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1050_p3</idno>
+               <idno type="wikidata">Q502</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118617648</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb28820.html</idno>
+            </person>
+            <person xml:id="pmb120796">
+               <persName>
+                  <surname>Tirso de Molina</surname>
+                  <forename>d.i. Gabriel Téllez</forename>
+               </persName>
+               <birth>
+                  <date>1579-03-24</date>
+                  <placeName type="wikidata" ref="Q2807">Madrid</placeName>
+               </birth>
+               <death>
+                  <date>1649-02-20</date>
+                  <placeName type="wikidata" ref="Q5202">Almazán</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_747_p2</idno>
+               <idno type="wikidata">Q295598</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118642863</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb120796.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

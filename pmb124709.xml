@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb124709.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -66,10 +66,10 @@
                      <ptr type="pmb" target="pmb7307"/>
                      <ptr type="pmb" target="pmb2771"/>
                      <ptr type="pmb" target="pmb3141"/>
-                     <ptr type="HB-tv" target="HB-tv_3524_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_3497_p7"/>
-                     <ptr type="HB-tv" target="HB-tv_1019_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_1019_p4"/>
+                     <ptr type="pmb" target="pmb149254"/>
+                     <ptr type="pmb" target="pmb149400"/>
+                     <ptr type="pmb" target="pmb154901"/>
+                     <ptr type="pmb" target="pmb149462"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -80,5 +80,74 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb149254">
+               <persName>
+                  <surname>Schaumann</surname>
+                  <forename>Ruth</forename>
+               </persName>
+               <birth>
+                  <date>1899-08-24</date>
+                  <placeName type="wikidata" ref="Q1055">Hamburg</placeName>
+               </birth>
+               <death>
+                  <date>1975-03-13</date>
+                  <placeName type="wikidata" ref="Q1726">München</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3524_p5</idno>
+               <idno type="wikidata">Q1234556</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/118754173</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149254.html</idno>
+            </person>
+            <person xml:id="pmb149400">
+               <persName>
+                  <surname>Wolters</surname>
+                  <forename>Friedrich</forename>
+               </persName>
+               <birth>
+                  <date>1876-09-02</date>
+                  <placeName type="wikidata" ref="Q447973">Uerdingen</placeName>
+               </birth>
+               <death>
+                  <date>1930-04-14</date>
+                  <placeName type="wikidata" ref="Q1726">München</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3497_p7</idno>
+               <idno type="wikidata">Q120563</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11743468X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149400.html</idno>
+            </person>
+            <person xml:id="pmb154901">
+               <persName>
+                  <surname>Holten</surname>
+                  <forename>Otto von</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_1019_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154901.html</idno>
+            </person>
+            <person xml:id="pmb149462">
+               <persName>
+                  <surname>Fouché</surname>
+                  <forename>Joseph</forename>
+               </persName>
+               <birth>
+                  <date>1759-05-21</date>
+                  <placeName type="wikidata" ref="Q607079">Le Pellerin</placeName>
+               </birth>
+               <death>
+                  <date>1820-12-26</date>
+                  <placeName type="wikidata" ref="Q546">Triest</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1019_p4</idno>
+               <idno type="wikidata">Q216958</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118534548</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149462.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

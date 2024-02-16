@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb127053.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -66,9 +66,9 @@
                      <ptr type="pmb" target="pmb11464"/>
                      <ptr type="pmb" target="pmb7352"/>
                      <ptr type="pmb" target="pmb15199"/>
-                     <ptr type="HB-tv" target="pmb141149_p35"/>
-                     <ptr type="HB-tv" target="HB-tv_3375_p17"/>
-                     <ptr type="HB-tv" target="HB-tv_159_p3"/>
+                     <ptr type="pmb" target="pmb155008"/>
+                     <ptr type="pmb" target="pmb88477"/>
+                     <ptr type="pmb" target="pmb155451"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/london-mercury/1923-50.pdf</ref>
@@ -81,5 +81,94 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb11464">
+               <persName>
+                  <surname>van Gogh</surname>
+                  <forename>Vincent</forename>
+               </persName>
+               <birth>
+                  <date>1853-03-30</date>
+                  <placeName type="wikidata" ref="Q9883">Zundert</placeName>
+               </birth>
+               <death>
+                  <date>1890-07-29</date>
+                  <placeName type="wikidata" ref="Q4819026"/>
+               </death>
+               <idno type="HB-tv">HB-tv_5242_p2</idno>
+               <idno type="wikidata">Q5582</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118540416</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11464.html</idno>
+            </person>
+            <person xml:id="pmb7352">
+               <persName>
+                  <surname>Gauguin</surname>
+                  <forename>Eugène Henri Paul</forename>
+               </persName>
+               <birth>
+                  <date>1848-06-07</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1903-05-09</date>
+                  <placeName type="wikidata" ref="Q2178729">Atuona</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3361_p11</idno>
+               <idno type="wikidata">Q37693</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118537822</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb7352.html</idno>
+            </person>
+            <person xml:id="pmb155008">
+               <persName>
+                  <surname>Piper</surname>
+                  <forename>Reinhard</forename>
+               </persName>
+               <birth>
+                  <date when="1879">1879</date>
+               </birth>
+               <death>
+                  <date when="1953">1953</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1387_p35</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155008.html</idno>
+            </person>
+            <person xml:id="pmb88477">
+               <persName>
+                  <surname>Bruckmann</surname>
+                  <forename>Hugo</forename>
+               </persName>
+               <birth>
+                  <date>1863-10-13</date>
+                  <placeName type="wikidata" ref="Q1726">München</placeName>
+               </birth>
+               <death>
+                  <date>1941-09-03</date>
+                  <placeName type="wikidata" ref="Q1726">München</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3375_p17</idno>
+               <idno type="wikidata">Q85575</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116726342</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb88477.html</idno>
+            </person>
+            <person xml:id="pmb155451">
+               <persName>
+                  <surname>Lübbecke</surname>
+                  <forename>Fried</forename>
+               </persName>
+               <birth>
+                  <date when="1883">1883</date>
+               </birth>
+               <death>
+                  <date when="1965">1965</date>
+               </death>
+               <idno type="HB-tv">HB-tv_159_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155451.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

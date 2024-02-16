@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123101.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -71,10 +71,10 @@
                      <ptr type="pmb" target="pmb24403"/>
                      <ptr type="pmb" target="pmb12468"/>
                      <ptr type="pmb" target="pmb11441"/>
-                     <ptr type="HB-tv" target="HB-tv_2012_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2012_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2012_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2012_p4"/>
+                     <ptr type="pmb" target="pmb154232"/>
+                     <ptr type="pmb" target="pmb154233"/>
+                     <ptr type="pmb" target="pmb154234"/>
+                     <ptr type="pmb" target="pmb154235"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19011222&amp;seite=8</ref>
@@ -88,5 +88,54 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154232">
+               <persName>
+                  <surname>West</surname>
+                  <forename>Moritz</forename>
+               </persName>
+               <persName type="namensvariante">Moritz Georg Nitzelberger</persName>
+               <birth>
+                  <date when="1841">1841</date>
+               </birth>
+               <death>
+                  <date when="1904">1904</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2012_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154232.html</idno>
+            </person>
+            <person xml:id="pmb154233">
+               <persName>
+                  <surname>Brandl</surname>
+                  <forename>Johann</forename>
+               </persName>
+               <birth>
+                  <date when="1835">1835</date>
+               </birth>
+               <death>
+                  <date when="1913">1913</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2012_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154233.html</idno>
+            </person>
+            <person xml:id="pmb154234">
+               <persName>
+                  <surname>Mayerhofer</surname>
+                  <forename>Fanny</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_2012_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154234.html</idno>
+            </person>
+            <person xml:id="pmb154235">
+               <persName>
+                  <surname>Braun</surname>
+                  <forename>Toni</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_2012_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154235.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

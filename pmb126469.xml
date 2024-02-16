@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb126469.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -77,10 +77,10 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb11043"/>
-                     <ptr type="HB-tv" target="HB-tv_1058_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1928_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_6459_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_6459_p4"/>
+                     <ptr type="pmb" target="pmb149735"/>
+                     <ptr type="pmb" target="pmb114688"/>
+                     <ptr type="pmb" target="pmb149807"/>
+                     <ptr type="pmb" target="pmb149811"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwj&amp;datum=19240706&amp;seite=6</ref>
@@ -93,5 +93,85 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb149735">
+               <persName>
+                  <surname>Hildebrand</surname>
+                  <forename>Rudolf</forename>
+               </persName>
+               <birth>
+                  <date>1824-03-13</date>
+                  <placeName type="wikidata" ref="Q2079">Leipzig</placeName>
+               </birth>
+               <death>
+                  <date>1894-10-28</date>
+                  <placeName type="wikidata" ref="Q2079">Leipzig</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1058_p1</idno>
+               <idno type="wikidata">Q92091</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118774425</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149735.html</idno>
+            </person>
+            <person xml:id="pmb114688">
+               <persName>
+                  <surname>Grimm</surname>
+                  <forename>Jacob</forename>
+               </persName>
+               <birth>
+                  <date>1785-01-04</date>
+                  <placeName type="wikidata" ref="Q3802">Hanau</placeName>
+               </birth>
+               <death>
+                  <date>1863-09-20</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1928_p1</idno>
+               <idno type="wikidata">Q6701</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118542257</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114688.html</idno>
+            </person>
+            <person xml:id="pmb149807">
+               <persName>
+                  <surname>Bréal</surname>
+                  <forename>Michel</forename>
+               </persName>
+               <occupation>Altphilologe</occupation>
+               <birth>
+                  <date>1832-03-26</date>
+                  <placeName type="wikidata" ref="Q7052">Landau in der Pfalz</placeName>
+               </birth>
+               <death>
+                  <date>1915-11-25</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_6459_p3</idno>
+               <idno type="wikidata">Q327306</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118928392</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149807.html</idno>
+            </person>
+            <person xml:id="pmb149811">
+               <persName>
+                  <surname>Wocke</surname>
+                  <forename>Helmut</forename>
+               </persName>
+               <occupation>Literaturhistoriker</occupation>
+               <birth>
+                  <date>1890</date>
+               </birth>
+               <death>
+                  <date>1966</date>
+               </death>
+               <idno type="HB-tv">HB-tv_6459_p4</idno>
+               <idno type="wikidata">Q94821224</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117447129</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149811.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

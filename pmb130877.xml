@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130877.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,7 +69,7 @@
                   Menschen mit sublimer Meisterschaft dargestellt.«</note>
                <ref type="personenindex">
                   <listRef>
-                     <ptr type="HB-tv" target="HB-tv_4360_p1"/>
+                     <ptr type="pmb" target="pmb151058"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/agramer-tagblatt/1911_kosor.pdf</ref>
@@ -83,5 +83,28 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb151058">
+               <persName>
+                  <surname>Kosor</surname>
+                  <forename>Josip</forename>
+               </persName>
+               <birth>
+                  <date>1879-01-27</date>
+                  <placeName type="wikidata" ref="Q607058"/>
+               </birth>
+               <death>
+                  <date>1961-01-23</date>
+                  <placeName type="wikidata" ref="Q1722">Dubrovnik</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4360_p1</idno>
+               <idno type="wikidata">Q154784</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118949802</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151058.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

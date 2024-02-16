@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130959.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -76,9 +76,9 @@
                      <ptr type="pmb" target="pmb10943"/>
                      <ptr type="pmb" target="pmb2566"/>
                      <ptr type="pmb" target="pmb3490"/>
-                     <ptr type="HB-tv" target="HB-tv_3398_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3884_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_3398_p3"/>
+                     <ptr type="pmb" target="pmb2513"/>
+                     <ptr type="pmb" target="pmb94485"/>
+                     <ptr type="pmb" target="pmb116304"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/11-austriaca.pdf</ref>
@@ -96,7 +96,7 @@
                      <date type="year">1909</date>
                      <biblScope unit="issue">1</biblScope>
                      <biblScope unit="page">17–23</biblScope>
-                     <title ref="pmb131307">Österreichisches. 1 [Karl Lueger]</title>
+                     <title ref="pmb131307" level="a">Österreichisches. 1 [Karl Lueger]</title>
                   </bibl>
                </note>
                <ref type="abdrucke">
@@ -107,5 +107,65 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2513">
+               <persName>
+                  <surname>Franz Josef I. von Österreich</surname>
+               </persName>
+               <birth>
+                  <date>1830-08-18</date>
+                  <placeName type="wikidata" ref="Q131330">Schloss Schönbrunn</placeName>
+               </birth>
+               <death>
+                  <date>1916-11-21</date>
+                  <placeName type="wikidata" ref="Q131330">Schloss Schönbrunn</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4881_p4</idno>
+               <idno type="wikidata">Q51056</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118535013</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2513.html</idno>
+            </person>
+            <person xml:id="pmb94485">
+               <persName>
+                  <surname>Aehrenthal</surname>
+                  <forename>Alois Lexa von</forename>
+               </persName>
+               <birth>
+                  <date>1854-09-27</date>
+                  <placeName type="wikidata" ref="Q1632485">Hrubá Skála</placeName>
+               </birth>
+               <death>
+                  <date>1912-02-17</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3884_p4</idno>
+               <idno type="wikidata">Q542902</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119182033</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb94485.html</idno>
+            </person>
+            <person xml:id="pmb116304">
+               <persName>
+                  <surname>Thun und Hohenstein</surname>
+                  <forename>Franz von</forename>
+               </persName>
+               <birth>
+                  <date>1847-09-02</date>
+                  <placeName type="wikidata" ref="Q146307">Děčín</placeName>
+               </birth>
+               <death>
+                  <date>1916-11-01</date>
+                  <placeName type="wikidata" ref="Q146307">Děčín</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3398_p3</idno>
+               <idno type="wikidata">Q79119</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117626651</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116304.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

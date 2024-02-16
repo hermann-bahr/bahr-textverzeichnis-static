@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123515.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -70,9 +70,9 @@
                      <ptr type="pmb" target="pmb11981"/>
                      <ptr type="pmb" target="pmb10752"/>
                      <ptr type="pmb" target="pmb17109"/>
-                     <ptr type="HB-tv" target="HB-tv_4465_p9"/>
-                     <ptr type="HB-tv" target="HB-tv_2521_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2399_p4"/>
+                     <ptr type="pmb" target="pmb153967"/>
+                     <ptr type="pmb" target="pmb154412"/>
+                     <ptr type="pmb" target="pmb2847"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1897-13/159-45.pdf</ref>
@@ -85,5 +85,51 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb153967">
+               <persName>
+                  <surname>l’Arronge</surname>
+                  <forename>Adolph</forename>
+               </persName>
+               <persName type="namensvariante">Adolf Aaronsohn</persName>
+               <birth>
+                  <date when="1838">1838</date>
+               </birth>
+               <death>
+                  <date when="1908">1908</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4465_p9</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153967.html</idno>
+            </person>
+            <person xml:id="pmb154412">
+               <persName>
+                  <surname>Bendel</surname>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <idno type="HB-tv">HB-tv_2521_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154412.html</idno>
+            </person>
+            <person xml:id="pmb2847">
+               <persName>
+                  <surname>Giampietro</surname>
+                  <forename>Joseph</forename>
+               </persName>
+               <birth>
+                  <date>1866-06-21</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1913-12-29</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2399_p4</idno>
+               <idno type="wikidata">Q1707099</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116616164</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2847.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

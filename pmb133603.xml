@@ -24,7 +24,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133603.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -81,9 +81,9 @@
                      <ptr type="pmb" target="pmb5787"/>
                      <ptr type="pmb" target="pmb12654"/>
                      <ptr type="pmb" target="pmb12358"/>
-                     <ptr type="HB-tv" target="HB-tv_2283_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1928_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_390_p3"/>
+                     <ptr type="pmb" target="pmb153989"/>
+                     <ptr type="pmb" target="pmb114688"/>
+                     <ptr type="pmb" target="pmb116599"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1896-8/104-202</ref>
@@ -102,5 +102,61 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb153989">
+               <persName>
+                  <surname>Löwe</surname>
+                  <forename>Konrad</forename>
+               </persName>
+               <birth>
+                  <date when="1856">1856</date>
+               </birth>
+               <death>
+                  <date when="1912">1912</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2283_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153989.html</idno>
+            </person>
+            <person xml:id="pmb114688">
+               <persName>
+                  <surname>Grimm</surname>
+                  <forename>Jacob</forename>
+               </persName>
+               <birth>
+                  <date>1785-01-04</date>
+                  <placeName type="wikidata" ref="Q3802">Hanau</placeName>
+               </birth>
+               <death>
+                  <date>1863-09-20</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1928_p1</idno>
+               <idno type="wikidata">Q6701</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118542257</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114688.html</idno>
+            </person>
+            <person xml:id="pmb116599">
+               <persName>
+                  <surname>Winckelmann</surname>
+                  <forename>Johann Joachim</forename>
+               </persName>
+               <birth>
+                  <date>1717-12-09</date>
+                  <placeName type="wikidata" ref="Q7082">Stendal</placeName>
+               </birth>
+               <death>
+                  <date>1768-06-08</date>
+                  <placeName type="wikidata" ref="Q546">Triest</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3368_p7</idno>
+               <idno type="wikidata">Q57280</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118633600</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116599.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

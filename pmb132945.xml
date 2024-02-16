@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132945.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,11 +69,11 @@
                      <ptr type="pmb" target="pmb12654"/>
                      <ptr type="pmb" target="pmb15229"/>
                      <ptr type="pmb" target="pmb8322"/>
-                     <ptr type="HB-tv" target="HB-tv_1157_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2931_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2931_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2941_p7"/>
-                     <ptr type="HB-tv" target="HB-tv_2931_p5"/>
+                     <ptr type="pmb" target="pmb12424"/>
+                     <ptr type="pmb" target="pmb151795"/>
+                     <ptr type="pmb" target="pmb156723"/>
+                     <ptr type="pmb" target="pmb156708"/>
+                     <ptr type="pmb" target="pmb113213"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/7-bildung.pdf</ref>
@@ -104,5 +104,94 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb12424">
+               <persName>
+                  <surname>Platen-Hallermünde</surname>
+                  <forename>August von</forename>
+               </persName>
+               <birth>
+                  <date>1796-10-24</date>
+                  <placeName type="wikidata" ref="Q14859">Ansbach</placeName>
+               </birth>
+               <death>
+                  <date>1835-12-05</date>
+                  <placeName type="wikidata" ref="Q13670">Syrakus</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1157_p1</idno>
+               <idno type="wikidata">Q62432</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118594869</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb12424.html</idno>
+            </person>
+            <person xml:id="pmb151795">
+               <persName>
+                  <surname>Laubmann</surname>
+                  <forename>Georg von</forename>
+               </persName>
+               <birth>
+                  <date>1843-10-03</date>
+                  <placeName type="wikidata" ref="Q6938">Hof</placeName>
+               </birth>
+               <death>
+                  <date>1909-06-05</date>
+                  <placeName type="wikidata" ref="Q1726">München</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2931_p2</idno>
+               <idno type="wikidata">Q1506620</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/102183201</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151795.html</idno>
+            </person>
+            <person xml:id="pmb156723">
+               <persName>
+                  <surname>Scheffler</surname>
+                  <forename>Johann Ludwig von</forename>
+               </persName>
+               <birth>
+                  <date when="1852">1852</date>
+               </birth>
+               <death>
+                  <date when="1925">1925</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2931_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156723.html</idno>
+            </person>
+            <person xml:id="pmb156708">
+               <persName>
+                  <surname>Cotta</surname>
+                  <forename>Johann Georg</forename>
+               </persName>
+               <birth>
+                  <date when="1796">1796</date>
+               </birth>
+               <death>
+                  <date when="1863">1863</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2941_p7</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156708.html</idno>
+            </person>
+            <person xml:id="pmb113213">
+               <persName>
+                  <surname>Motte Fouqué</surname>
+                  <forename>Friedrich de la</forename>
+               </persName>
+               <birth>
+                  <date>1777-02-12</date>
+                  <placeName type="wikidata" ref="Q3931">Brandenburg an der Havel</placeName>
+               </birth>
+               <death>
+                  <date>1843-01-23</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_154_p5</idno>
+               <idno type="wikidata">Q77371</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118534556</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113213.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

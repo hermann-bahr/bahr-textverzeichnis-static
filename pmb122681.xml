@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122681.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -72,12 +72,12 @@
                      <ptr type="pmb" target="pmb4179"/>
                      <ptr type="pmb" target="pmb3341"/>
                      <ptr type="pmb" target="pmb15983"/>
-                     <ptr type="HB-tv" target="HB-tv_2011_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2011_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2011_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2011_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_2011_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_2035_p2"/>
+                     <ptr type="pmb" target="pmb154003"/>
+                     <ptr type="pmb" target="pmb154004"/>
+                     <ptr type="pmb" target="pmb154005"/>
+                     <ptr type="pmb" target="pmb154006"/>
+                     <ptr type="pmb" target="pmb154007"/>
+                     <ptr type="pmb" target="pmb2868"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19050215&amp;seite=14</ref>
@@ -89,5 +89,69 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154003">
+               <persName>
+                  <surname>Metzl</surname>
+                  <forename>Ottilie</forename>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <idno type="HB-tv">HB-tv_2011_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154003.html</idno>
+            </person>
+            <person xml:id="pmb154004">
+               <persName>
+                  <surname>Lange</surname>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <idno type="HB-tv">HB-tv_2011_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154004.html</idno>
+            </person>
+            <person xml:id="pmb154005">
+               <persName>
+                  <surname>Kirschner</surname>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_2011_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154005.html</idno>
+            </person>
+            <person xml:id="pmb154006">
+               <persName>
+                  <surname>Lackner</surname>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_2011_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154006.html</idno>
+            </person>
+            <person xml:id="pmb154007">
+               <persName>
+                  <surname>Höfer</surname>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_2011_p5</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154007.html</idno>
+            </person>
+            <person xml:id="pmb2868">
+               <persName>
+                  <surname>Kutschera</surname>
+                  <forename>Viktor</forename>
+               </persName>
+               <birth>
+                  <date>1863-05-02</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1933-01-20</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2035_p2</idno>
+               <idno type="wikidata">Q2524322</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116628081</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2868.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

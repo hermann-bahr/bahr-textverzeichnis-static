@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb131245.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -72,7 +72,7 @@
                   <listRef>
                      <ptr type="pmb" target="pmb3723"/>
                      <ptr type="pmb" target="pmb10986"/>
-                     <ptr type="HB-tv" target="HB-tv_5302_p1"/>
+                     <ptr type="pmb" target="pmb114888"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwj&amp;datum=19091130&amp;seite=8</ref>
@@ -97,5 +97,28 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb114888">
+               <persName>
+                  <surname>Scheffler</surname>
+                  <forename>Karl</forename>
+               </persName>
+               <birth>
+                  <date>1869-02-27</date>
+                  <placeName type="wikidata" ref="Q1055">Hamburg</placeName>
+               </birth>
+               <death>
+                  <date>1951-10-27</date>
+                  <placeName type="wikidata" ref="Q332952">Überlingen</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_5302_p1</idno>
+               <idno type="wikidata">Q113341</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118754262</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114888.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123879.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -81,9 +81,9 @@
                      <ptr type="pmb" target="pmb2484"/>
                      <ptr type="pmb" target="pmb13180"/>
                      <ptr type="pmb" target="pmb28457"/>
-                     <ptr type="HB-tv" target="HB-tv_2259_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2259_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2259_p3"/>
+                     <ptr type="pmb" target="pmb154594"/>
+                     <ptr type="pmb" target="pmb154595"/>
+                     <ptr type="pmb" target="pmb154596"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -96,5 +96,41 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154594">
+               <persName>
+                  <surname>Dumanior</surname>
+                  <forename>Schriftsteller</forename>
+               </persName>
+               <birth>
+                  <date when="1806">1806</date>
+               </birth>
+               <death>
+                  <date when="1865">1865</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2259_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154594.html</idno>
+            </person>
+            <person xml:id="pmb154595">
+               <persName>
+                  <surname>Keranion</surname>
+                  <forename>Ange de</forename>
+               </persName>
+               <occupation>Schriftsteller</occupation>
+               <idno type="HB-tv">HB-tv_2259_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154595.html</idno>
+            </person>
+            <person xml:id="pmb154596">
+               <persName>
+                  <surname>Metzl</surname>
+                  <forename>Ottilie</forename>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <idno type="HB-tv">HB-tv_2259_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154596.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

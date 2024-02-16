@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132913.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -73,11 +73,11 @@
                      <ptr type="pmb" target="pmb13474"/>
                      <ptr type="pmb" target="pmb11871"/>
                      <ptr type="pmb" target="pmb12358"/>
-                     <ptr type="HB-tv" target="HB-tv_2535_p6"/>
-                     <ptr type="HB-tv" target="HB-tv_3893_p17"/>
-                     <ptr type="HB-tv" target="HB-tv_3366_p29"/>
-                     <ptr type="HB-tv" target="HB-tv_4855_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_2947_p5"/>
+                     <ptr type="pmb" target="pmb154180"/>
+                     <ptr type="pmb" target="pmb114070"/>
+                     <ptr type="pmb" target="pmb155517"/>
+                     <ptr type="pmb" target="pmb149960"/>
+                     <ptr type="pmb" target="pmb151769"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/7-bildung.pdf</ref>
@@ -108,5 +108,94 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154180">
+               <persName>
+                  <surname>Weiss</surname>
+                  <forename>Georg</forename>
+               </persName>
+               <birth>
+                  <date when="1833">1833</date>
+               </birth>
+               <death>
+                  <date when="1904">1904</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2535_p6</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154180.html</idno>
+            </person>
+            <person xml:id="pmb114070">
+               <persName>
+                  <surname>Schwarzenberg</surname>
+                  <forename>Felix zu</forename>
+               </persName>
+               <birth>
+                  <date>1800-10-02</date>
+                  <placeName type="wikidata" ref="Q188082">Český Krumlov</placeName>
+               </birth>
+               <death>
+                  <date>1852-04-05</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3893_p17</idno>
+               <idno type="wikidata">Q547074</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118612050</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114070.html</idno>
+            </person>
+            <person xml:id="pmb155517">
+               <persName>
+                  <surname>Bach</surname>
+                  <forename>Alexander von</forename>
+               </persName>
+               <birth>
+                  <date when="1813">1813</date>
+               </birth>
+               <death>
+                  <date when="1893">1893</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3366_p29</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155517.html</idno>
+            </person>
+            <person xml:id="pmb149960">
+               <persName>
+                  <surname>Büchner</surname>
+                  <forename>Ludwig</forename>
+               </persName>
+               <birth>
+                  <date>1824-03-29</date>
+                  <placeName type="wikidata" ref="Q2973">Darmstadt</placeName>
+               </birth>
+               <death>
+                  <date>1899-05-01</date>
+                  <placeName type="wikidata" ref="Q2973">Darmstadt</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4855_p5</idno>
+               <idno type="wikidata">Q62831</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118667939</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149960.html</idno>
+            </person>
+            <person xml:id="pmb151769">
+               <persName>
+                  <surname>Moleschott</surname>
+                  <forename>Jakob</forename>
+               </persName>
+               <birth>
+                  <date>1822-08-09</date>
+                  <placeName type="wikidata" ref="Q2766547">Den Bosch (Herzogenbusch)</placeName>
+               </birth>
+               <death>
+                  <date>1893-05-20</date>
+                  <placeName type="wikidata" ref="Q220">Rom</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2947_p5</idno>
+               <idno type="wikidata">Q518623</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118734547</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151769.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

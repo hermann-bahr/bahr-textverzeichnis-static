@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123177.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -66,11 +66,11 @@
                   <listRef>
                      <ptr type="pmb" target="pmb4791"/>
                      <ptr type="pmb" target="pmb15504"/>
-                     <ptr type="HB-tv" target="HB-tv_595_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_595_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_595_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_595_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_595_p5"/>
+                     <ptr type="pmb" target="pmb23784"/>
+                     <ptr type="pmb" target="pmb148867"/>
+                     <ptr type="pmb" target="pmb154274"/>
+                     <ptr type="pmb" target="pmb154275"/>
+                     <ptr type="pmb" target="pmb154276"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19011017&amp;seite=6</ref>
@@ -82,5 +82,71 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb23784">
+               <persName>
+                  <surname>Réjane</surname>
+               </persName>
+               <birth>
+                  <date>1856-06-06</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1920-06-14</date>
+                  <placeName type="wikidata" ref="Q194420">16. Arrondissement von Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_688_p2</idno>
+               <idno type="wikidata">Q596355</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/116394102</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb23784.html</idno>
+            </person>
+            <person xml:id="pmb148867">
+               <persName>
+                  <surname>Aderer</surname>
+                  <forename>Adolphe</forename>
+               </persName>
+               <birth>
+                  <date>1855-11-17</date>
+                  <placeName type="wikidata" ref="Q190118">La Roche-sur-Yon</placeName>
+               </birth>
+               <death>
+                  <date>1923-12-27</date>
+                  <placeName type="wikidata" ref="Q194420">16. Arrondissement von Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_595_p2</idno>
+               <idno type="wikidata">Q16915127</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116007729</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148867.html</idno>
+            </person>
+            <person xml:id="pmb154274">
+               <persName>
+                  <surname>Mayer</surname>
+                  <forename>Albert</forename>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_595_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154274.html</idno>
+            </person>
+            <person xml:id="pmb154275">
+               <persName>
+                  <surname>Normant</surname>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_595_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154275.html</idno>
+            </person>
+            <person xml:id="pmb154276">
+               <persName>
+                  <surname>Numès</surname>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_595_p5</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154276.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb127617.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -66,12 +66,12 @@
                      <ptr type="pmb" target="pmb6441"/>
                      <ptr type="pmb" target="pmb10595"/>
                      <ptr type="pmb" target="pmb11461"/>
-                     <ptr type="HB-tv" target="HB-tv_3373_p9"/>
-                     <ptr type="HB-tv" target="HB-tv_155_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_155_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_155_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_3694_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_3375_p17"/>
+                     <ptr type="pmb" target="pmb155364"/>
+                     <ptr type="pmb" target="pmb155492"/>
+                     <ptr type="pmb" target="pmb149035"/>
+                     <ptr type="pmb" target="pmb149268"/>
+                     <ptr type="pmb" target="pmb150029"/>
+                     <ptr type="pmb" target="pmb88477"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/london-mercury/1922-27.pdf</ref>
@@ -84,5 +84,110 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb155364">
+               <persName>
+                  <surname>Hofmann</surname>
+                  <forename>Albert von</forename>
+               </persName>
+               <birth>
+                  <date when="1867">1867</date>
+               </birth>
+               <death>
+                  <date when="1940">1940</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3373_p9</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155364.html</idno>
+            </person>
+            <person xml:id="pmb155492">
+               <persName>
+                  <surname>Franziskus von Assisi</surname>
+               </persName>
+               <birth>
+                  <date when-custom="1181/1182">1181/1182</date>
+               </birth>
+               <death>
+                  <date when="1226">1226</date>
+               </death>
+               <idno type="HB-tv">HB-tv_155_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155492.html</idno>
+            </person>
+            <person xml:id="pmb149035">
+               <persName>
+                  <surname>Katharina von Siena</surname>
+               </persName>
+               <birth>
+                  <date>1347-03-25</date>
+                  <placeName type="wikidata" ref="Q2751">Siena</placeName>
+               </birth>
+               <death>
+                  <date>1380-04-29</date>
+                  <placeName type="wikidata" ref="Q220">Rom</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3916_p6</idno>
+               <idno type="wikidata">Q229190</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/11856059X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149035.html</idno>
+            </person>
+            <person xml:id="pmb149268">
+               <persName>
+                  <surname>Teresa von Ávila</surname>
+               </persName>
+               <birth>
+                  <date>1515-03-28</date>
+                  <placeName type="wikidata" ref="Q842702">Gotarrendura</placeName>
+               </birth>
+               <death>
+                  <date>1582-10-15</date>
+                  <placeName type="wikidata" ref="Q43115071">Kloster der Verkündigung Unserer Lieben Frau von den Unbeschuhten Karmeliten von Alba de Tormes</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3523_p18</idno>
+               <idno type="wikidata">Q174880</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/118621823</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149268.html</idno>
+            </person>
+            <person xml:id="pmb150029">
+               <persName>
+                  <surname>Worringer</surname>
+                  <forename>Wilhelm</forename>
+               </persName>
+               <birth>
+                  <date>1881-01-13</date>
+                  <placeName type="wikidata" ref="Q1017">Aachen</placeName>
+               </birth>
+               <death>
+                  <date>1965-03-29</date>
+                  <placeName type="wikidata" ref="Q1726">München</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3694_p5</idno>
+               <idno type="wikidata">Q61981</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118807900</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150029.html</idno>
+            </person>
+            <person xml:id="pmb88477">
+               <persName>
+                  <surname>Bruckmann</surname>
+                  <forename>Hugo</forename>
+               </persName>
+               <birth>
+                  <date>1863-10-13</date>
+                  <placeName type="wikidata" ref="Q1726">München</placeName>
+               </birth>
+               <death>
+                  <date>1941-09-03</date>
+                  <placeName type="wikidata" ref="Q1726">München</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3375_p17</idno>
+               <idno type="wikidata">Q85575</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116726342</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb88477.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

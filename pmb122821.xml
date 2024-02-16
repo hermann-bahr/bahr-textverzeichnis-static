@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122821.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -95,10 +95,10 @@
                      <ptr type="pmb" target="pmb12618"/>
                      <ptr type="pmb" target="pmb11036"/>
                      <ptr type="pmb" target="pmb12877"/>
-                     <ptr type="HB-tv" target="HB-tv_1932_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_115_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_1932_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_1932_p4"/>
+                     <ptr type="pmb" target="pmb154085"/>
+                     <ptr type="pmb" target="pmb3739"/>
+                     <ptr type="pmb" target="pmb13061"/>
+                     <ptr type="pmb" target="pmb154086"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19030504&amp;seite=6</ref>
@@ -110,5 +110,76 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154085">
+               <persName>
+                  <surname>Neumann-Hofer</surname>
+                  <forename>Annie</forename>
+               </persName>
+               <occupation>geb. Bock</occupation>
+               <birth>
+                  <date when="1867">1867</date>
+               </birth>
+               <death>
+                  <date when-custom="nach 1905">nach 1905</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1932_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154085.html</idno>
+            </person>
+            <person xml:id="pmb3739">
+               <persName>
+                  <surname>Tolstoi</surname>
+                  <forename>Lew Nikolajewitsch</forename>
+               </persName>
+               <birth>
+                  <date>1828-08-28</date>
+                  <placeName type="wikidata" ref="Q749556">Jasnaja Poljana</placeName>
+               </birth>
+               <death>
+                  <date>1910-11-07</date>
+                  <placeName type="wikidata" ref="Q4071563">Astapowo</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_115_p5</idno>
+               <idno type="wikidata">Q7243</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11864291X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3739.html</idno>
+            </person>
+            <person xml:id="pmb13061">
+               <persName>
+                  <surname>Wassmann</surname>
+                  <forename>Hans</forename>
+               </persName>
+               <birth>
+                  <date>1873-01-01</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </birth>
+               <death>
+                  <date>1932-04-05</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1932_p3</idno>
+               <idno type="wikidata">Q1582982</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117149853</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb13061.html</idno>
+            </person>
+            <person xml:id="pmb154086">
+               <persName>
+                  <surname>Licho</surname>
+                  <forename>Adolf Edgar</forename>
+               </persName>
+               <birth>
+                  <date when="1876">1876</date>
+               </birth>
+               <death>
+                  <date when="1944">1944</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1932_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154086.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123805.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -77,10 +77,10 @@
                      <ptr type="pmb" target="pmb11461"/>
                      <ptr type="pmb" target="pmb12498"/>
                      <ptr type="pmb" target="pmb12654"/>
-                     <ptr type="HB-tv" target="HB-tv_691_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_691_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_691_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_4068_p3"/>
+                     <ptr type="pmb" target="pmb154562"/>
+                     <ptr type="pmb" target="pmb154563"/>
+                     <ptr type="pmb" target="pmb52650"/>
+                     <ptr type="pmb" target="pmb154288"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/51-189.pdf</ref>
@@ -94,5 +94,66 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154562">
+               <persName>
+                  <surname>Stolberg Stolberg</surname>
+                  <forename>Friedrich Leopold zu</forename>
+               </persName>
+               <birth>
+                  <date when="1750">1750</date>
+               </birth>
+               <death>
+                  <date when="1819">1819</date>
+               </death>
+               <idno type="HB-tv">HB-tv_691_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154562.html</idno>
+            </person>
+            <person xml:id="pmb154563">
+               <persName>
+                  <surname>Wallner</surname>
+                  <forename>Carl</forename>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <idno type="HB-tv">HB-tv_691_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154563.html</idno>
+            </person>
+            <person xml:id="pmb52650">
+               <persName>
+                  <surname>Klopstock</surname>
+                  <forename>Friedrich Gottlieb</forename>
+               </persName>
+               <birth>
+                  <date>1724-07-02</date>
+                  <placeName type="wikidata" ref="Q40623">Quedlinburg</placeName>
+               </birth>
+               <death>
+                  <date>1803-03-14</date>
+                  <placeName type="wikidata" ref="Q1055">Hamburg</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_691_p3</idno>
+               <idno type="wikidata">Q154367</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118563386</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb52650.html</idno>
+            </person>
+            <person xml:id="pmb154288">
+               <persName>
+                  <surname>Klein</surname>
+                  <forename>Joseph</forename>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <birth>
+                  <date when="1862">1862</date>
+               </birth>
+               <death>
+                  <date when="1927">1927</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4068_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154288.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

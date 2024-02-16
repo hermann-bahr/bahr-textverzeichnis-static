@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130089.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -74,8 +74,8 @@
                      <ptr type="pmb" target="pmb11958"/>
                      <ptr type="pmb" target="pmb8102"/>
                      <ptr type="pmb" target="pmb20956"/>
-                     <ptr type="HB-tv" target="HB-tv_3466_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3467_p2"/>
+                     <ptr type="pmb" target="pmb114458"/>
+                     <ptr type="pmb" target="pmb150812"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/14-expressionismus.pdf</ref>
@@ -99,5 +99,47 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb114458">
+               <persName>
+                  <surname>Matisse</surname>
+                  <forename>Henri</forename>
+               </persName>
+               <birth>
+                  <date>1869-12-31</date>
+                  <placeName type="wikidata" ref="Q329103">Le Cateau-Cambrésis</placeName>
+               </birth>
+               <death>
+                  <date>1954-11-03</date>
+                  <placeName type="wikidata" ref="Q33959">Nizza</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3466_p1</idno>
+               <idno type="wikidata">Q5589</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118578847</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114458.html</idno>
+            </person>
+            <person xml:id="pmb150812">
+               <persName>
+                  <surname>Pechstein</surname>
+                  <forename>Hermann Max</forename>
+               </persName>
+               <birth>
+                  <date>1881-12-31</date>
+                  <placeName type="wikidata" ref="Q3778">Zwickau</placeName>
+               </birth>
+               <death>
+                  <date>1955-06-29</date>
+                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3467_p2</idno>
+               <idno type="wikidata">Q162105</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118592335</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150812.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

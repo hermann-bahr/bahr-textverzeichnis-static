@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132841.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -63,9 +63,9 @@
                      <ptr type="pmb" target="pmb5205"/>
                      <ptr type="pmb" target="pmb12564"/>
                      <ptr type="pmb" target="pmb11711"/>
-                     <ptr type="HB-tv" target="HB-tv_3840_p5"/>
-                     <ptr type="HB-tv" target="pmb141149_p109"/>
-                     <ptr type="HB-tv" target="HB-tv_2983_p3"/>
+                     <ptr type="pmb" target="pmb117069"/>
+                     <ptr type="pmb" target="pmb104158"/>
+                     <ptr type="pmb" target="pmb146697"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/6-secession.pdf</ref>
@@ -95,5 +95,64 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb117069">
+               <persName>
+                  <surname>Semper</surname>
+                  <forename>Gottfried</forename>
+               </persName>
+               <birth>
+                  <date>1803-11-29</date>
+                  <placeName type="wikidata" ref="Q1055">Hamburg</placeName>
+               </birth>
+               <death>
+                  <date>1879-05-15</date>
+                  <placeName type="wikidata" ref="Q220">Rom</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3840_p5</idno>
+               <idno type="wikidata">Q61342</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118613154</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb117069.html</idno>
+            </person>
+            <person xml:id="pmb104158">
+               <persName>
+                  <surname>Schroll</surname>
+                  <forename>Anton</forename>
+               </persName>
+               <birth>
+                  <date>1854-05-30</date>
+               </birth>
+               <death>
+                  <date>1919-11-07</date>
+                  <placeName type="wikidata" ref="Q13298">Graz</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1387_p109</idno>
+               <idno type="wikidata">Q94919193</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/1032935936</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb104158.html</idno>
+            </person>
+            <person xml:id="pmb146697">
+               <persName>
+                  <surname>Louis XVI. von Frankreich</surname>
+               </persName>
+               <birth>
+                  <date>1754-08-23</date>
+                  <placeName type="wikidata" ref="Q2946">Schloss Versailles</placeName>
+               </birth>
+               <death>
+                  <date>1793-01-21</date>
+                  <placeName type="wikidata" ref="Q189503">Place de la Concorde</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3493_p6</idno>
+               <idno type="wikidata">Q7732</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118574949</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb146697.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

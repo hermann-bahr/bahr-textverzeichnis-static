@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122743.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -70,9 +70,9 @@
                      <ptr type="pmb" target="pmb13159"/>
                      <ptr type="pmb" target="pmb3648"/>
                      <ptr type="pmb" target="pmb12179"/>
-                     <ptr type="HB-tv" target="HB-tv_2336_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2402_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_4829_p6"/>
+                     <ptr type="pmb" target="pmb154036"/>
+                     <ptr type="pmb" target="pmb13082"/>
+                     <ptr type="pmb" target="pmb22666"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19040914&amp;seite=12</ref>
@@ -86,5 +86,60 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154036">
+               <persName>
+                  <surname>Niese</surname>
+                  <forename>Johanna »Hansi«</forename>
+               </persName>
+               <birth>
+                  <date when="1875">1875</date>
+               </birth>
+               <death>
+                  <date when="1934">1934</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2336_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154036.html</idno>
+            </person>
+            <person xml:id="pmb13082">
+               <persName>
+                  <surname>Karlweis</surname>
+                  <forename>Carl</forename>
+               </persName>
+               <birth>
+                  <date>1850-11-23</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1901-10-27</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2402_p2</idno>
+               <idno type="wikidata">Q735989</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117302996</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb13082.html</idno>
+            </person>
+            <person xml:id="pmb22666">
+               <persName>
+                  <surname>Pohl-Meiser</surname>
+                  <forename>Viktoria</forename>
+               </persName>
+               <birth>
+                  <date>1858-11-28</date>
+                  <placeName type="wikidata" ref="Q1726">München</placeName>
+               </birth>
+               <death>
+                  <date>1936-06-17</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4829_p6</idno>
+               <idno type="wikidata">Q58011561</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/116260653</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb22666.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

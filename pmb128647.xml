@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb128647.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -65,7 +65,7 @@
                   fast Siebenundachtzigjährigen dahin</note>
                <ref type="personenindex">
                   <listRef>
-                     <ptr type="HB-tv" target="HB-tv_4869_p2"/>
+                     <ptr type="pmb" target="pmb154760"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/neue-reich/1920_metternich.pdf</ref>
@@ -90,5 +90,24 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154760">
+               <persName>
+                  <surname>Zichy</surname>
+                  <forename>Melanie</forename>
+                  <surname type="birthname"> Metternich-Winneburg</surname>
+               </persName>
+               <birth>
+                  <date when="1832">1832</date>
+               </birth>
+               <death>
+                  <date when="1919">1919</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4869_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154760.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123803.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -68,7 +68,7 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb4064"/>
-                     <ptr type="HB-tv" target="HB-tv_881_p1"/>
+                     <ptr type="pmb" target="pmb116335"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1895-3/27_14-15.pdf</ref>
@@ -82,5 +82,28 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb116335">
+               <persName>
+                  <surname>Carneri</surname>
+                  <forename>Bartholomäus</forename>
+               </persName>
+               <birth>
+                  <date>1821-11-03</date>
+                  <placeName type="wikidata" ref="Q3376">Trient</placeName>
+               </birth>
+               <death>
+                  <date>1909-05-18</date>
+                  <placeName type="wikidata" ref="Q1010">Maribor</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_881_p1</idno>
+               <idno type="wikidata">Q19933037</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119027690</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116335.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

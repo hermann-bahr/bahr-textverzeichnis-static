@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123497.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -73,7 +73,7 @@
                   und wohl der beste Meister dieser Kunst, den wir jetzt in Wien haben.</note>
                <ref type="personenindex">
                   <listRef>
-                     <ptr type="HB-tv" target="HB-tv_1721_p1"/>
+                     <ptr type="pmb" target="pmb148941"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1898-14/173-62.pdf</ref>
@@ -87,5 +87,28 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb148941">
+               <persName>
+                  <surname>Barbasetti</surname>
+                  <forename>Luigi</forename>
+               </persName>
+               <birth>
+                  <date>1859-02-21</date>
+                  <placeName type="wikidata" ref="Q2790">Udine</placeName>
+               </birth>
+               <death>
+                  <date>1948-03-31</date>
+                  <placeName type="wikidata" ref="Q2028">Verona</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1721_p1</idno>
+               <idno type="wikidata">Q1876092</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/1203233825</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148941.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

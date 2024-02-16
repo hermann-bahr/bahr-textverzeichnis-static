@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123161.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -70,8 +70,8 @@
                      <ptr type="pmb" target="pmb12498"/>
                      <ptr type="pmb" target="pmb27259"/>
                      <ptr type="pmb" target="pmb13125"/>
-                     <ptr type="HB-tv" target="HB-tv_1839_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1863_p3"/>
+                     <ptr type="pmb" target="pmb117306"/>
+                     <ptr type="pmb" target="pmb148852"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -84,5 +84,47 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb117306">
+               <persName>
+                  <surname>Dóczi</surname>
+                  <forename>Lajos</forename>
+               </persName>
+               <birth>
+                  <date>1845-11-27</date>
+                  <placeName type="wikidata" ref="Q168648">Sopron</placeName>
+               </birth>
+               <death>
+                  <date>1919-08-29</date>
+                  <placeName type="wikidata" ref="Q1781">Budapest</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1839_p1</idno>
+               <idno type="wikidata">Q238751</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116151846</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb117306.html</idno>
+            </person>
+            <person xml:id="pmb148852">
+               <persName>
+                  <surname>Altmann</surname>
+                  <forename>Wilhelm</forename>
+               </persName>
+               <birth>
+                  <date>1862-04-04</date>
+                  <placeName type="wikidata" ref="Q745567">Adelnau</placeName>
+               </birth>
+               <death>
+                  <date>1951-03-25</date>
+                  <placeName type="wikidata" ref="Q3185">Hildesheim</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1863_p3</idno>
+               <idno type="wikidata">Q96797</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116295260</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148852.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

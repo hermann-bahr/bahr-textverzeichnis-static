@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb131465.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -76,10 +76,10 @@
                      <ptr type="pmb" target="pmb12654"/>
                      <ptr type="pmb" target="pmb10980"/>
                      <ptr type="pmb" target="pmb10777"/>
-                     <ptr type="HB-tv" target="HB-tv_984_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3469_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3357_p14"/>
-                     <ptr type="HB-tv" target="HB-tv_3280_p4"/>
+                     <ptr type="pmb" target="pmb7452"/>
+                     <ptr type="pmb" target="pmb155982"/>
+                     <ptr type="pmb" target="pmb5387"/>
+                     <ptr type="pmb" target="pmb156374"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/10-jugend.pdf</ref>
@@ -113,5 +113,75 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb7452">
+               <persName>
+                  <surname>Goethe</surname>
+                  <forename>Catharina Elisabeth</forename>
+               </persName>
+               <birth>
+                  <date>1731-02-19</date>
+                  <placeName type="wikidata" ref="Q1794">Frankfurt am Main</placeName>
+               </birth>
+               <death>
+                  <date>1808-09-13</date>
+                  <placeName type="wikidata" ref="Q1794">Frankfurt am Main</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_984_p1</idno>
+               <idno type="wikidata">Q103757</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/118540246</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb7452.html</idno>
+            </person>
+            <person xml:id="pmb155982">
+               <persName>
+                  <surname>Herder</surname>
+                  <forename>Maria Karoline</forename>
+               </persName>
+               <birth>
+                  <date when="1750">1750</date>
+               </birth>
+               <death>
+                  <date when="1809">1809</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3469_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155982.html</idno>
+            </person>
+            <person xml:id="pmb5387">
+               <persName>
+                  <surname>Staël</surname>
+                  <forename>Anne Louise Germaine de</forename>
+               </persName>
+               <birth>
+                  <date>1766-04-22</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1817-07-14</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3357_p14</idno>
+               <idno type="wikidata">Q123041</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/118616617</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb5387.html</idno>
+            </person>
+            <person xml:id="pmb156374">
+               <persName>
+                  <surname>Unzelmann</surname>
+                  <forename>Karl Wilhelm Ferdinand</forename>
+               </persName>
+               <birth>
+                  <date when="1753">1753</date>
+               </birth>
+               <death>
+                  <date when="1832">1832</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3280_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156374.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

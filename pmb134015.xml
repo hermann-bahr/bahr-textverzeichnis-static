@@ -24,7 +24,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb134015.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -77,13 +77,13 @@
                      <ptr type="pmb" target="pmb11450"/>
                      <ptr type="pmb" target="pmb12654"/>
                      <ptr type="pmb" target="pmb4950"/>
-                     <ptr type="HB-tv" target="HB-tv_309_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_309_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_309_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_309_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_2534_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_309_p6"/>
-                     <ptr type="HB-tv" target="HB-tv_1883_p2"/>
+                     <ptr type="pmb" target="pmb157127"/>
+                     <ptr type="pmb" target="pmb157128"/>
+                     <ptr type="pmb" target="pmb144048"/>
+                     <ptr type="pmb" target="pmb157129"/>
+                     <ptr type="pmb" target="pmb148829"/>
+                     <ptr type="pmb" target="pmb157130"/>
+                     <ptr type="pmb" target="pmb115115"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/7-107.pdf</ref>
@@ -103,5 +103,99 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb157127">
+               <persName>
+                  <surname>Bretesche</surname>
+                  <forename>Blanchard de la</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_309_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157127.html</idno>
+            </person>
+            <person xml:id="pmb157128">
+               <persName>
+                  <surname>Thony</surname>
+                  <forename>Charles</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_309_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157128.html</idno>
+            </person>
+            <person xml:id="pmb144048">
+               <persName>
+                  <surname>Debureau</surname>
+                  <forename>Jean-Gaspard</forename>
+               </persName>
+               <persName type="namensvariante">Jan Kašpar Dvořák</persName>
+               <birth>
+                  <date>1796-07-31</date>
+                  <placeName type="wikidata" ref="Q470369">Kolín</placeName>
+               </birth>
+               <death>
+                  <date>1846-06-17</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_309_p3</idno>
+               <idno type="wikidata">Q723338</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11852416X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb144048.html</idno>
+            </person>
+            <person xml:id="pmb157129">
+               <persName>
+                  <surname>Legrand</surname>
+                  <forename>Paul</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_309_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157129.html</idno>
+            </person>
+            <person xml:id="pmb148829">
+               <persName>
+                  <surname>Margueritte</surname>
+                  <forename>Paul</forename>
+               </persName>
+               <birth>
+                  <date>1860-02-20</date>
+                  <placeName type="wikidata" ref="Q402733">Laghouat</placeName>
+               </birth>
+               <death>
+                  <date>1918-12-23</date>
+                  <placeName type="wikidata" ref="Q546832">Soorts-Hossegor</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2534_p2</idno>
+               <idno type="wikidata">Q2988469</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/135792584</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148829.html</idno>
+            </person>
+            <person xml:id="pmb157130">
+               <persName>
+                  <surname>Najac</surname>
+                  <forename>Raoul de</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_309_p6</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157130.html</idno>
+            </person>
+            <person xml:id="pmb115115">
+               <persName>
+                  <surname>Lemaître</surname>
+                  <forename>Frédéric</forename>
+               </persName>
+               <birth>
+                  <date>1800-07-28</date>
+                  <placeName type="wikidata" ref="Q42810">Le Havre</placeName>
+               </birth>
+               <death>
+                  <date>1876-01-26</date>
+                  <placeName type="wikidata" ref="Q163948">10. Arrondissement von Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1883_p2</idno>
+               <idno type="wikidata">Q654231</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119056135</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb115115.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

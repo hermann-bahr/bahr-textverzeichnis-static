@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb134867.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -73,8 +73,8 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb12078"/>
-                     <ptr type="HB-tv" target="HB-tv_2761_p6"/>
-                     <ptr type="HB-tv" target="HB-tv_4853_p10"/>
+                     <ptr type="pmb" target="pmb62444"/>
+                     <ptr type="pmb" target="pmb89923"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/deutsche-zeitung/75254.pdf</ref>
@@ -90,5 +90,47 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb62444">
+               <persName>
+                  <surname>Stinde</surname>
+                  <forename>Julius</forename>
+               </persName>
+               <birth>
+                  <date>1841-08-28</date>
+                  <placeName type="wikidata" ref="Q641663">Kirchnüchel</placeName>
+               </birth>
+               <death>
+                  <date>1905-08-05</date>
+                  <placeName type="wikidata" ref="Q10921">Olsberg</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2761_p6</idno>
+               <idno type="wikidata">Q215090</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118798928</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb62444.html</idno>
+            </person>
+            <person xml:id="pmb89923">
+               <persName>
+                  <surname>Mautner</surname>
+                  <forename>Eduard</forename>
+               </persName>
+               <birth>
+                  <date>1824-11-13</date>
+                  <placeName type="wikidata" ref="Q1781">Budapest</placeName>
+               </birth>
+               <death>
+                  <date>1889-07-02</date>
+                  <placeName type="wikidata" ref="Q486450">Baden bei Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4853_p10</idno>
+               <idno type="wikidata">Q17908297</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116858311</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb89923.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

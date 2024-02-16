@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb31359.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -66,11 +66,11 @@
                      <ptr type="pmb" target="pmb12548"/>
                      <ptr type="pmb" target="pmb12201"/>
                      <ptr type="pmb" target="pmb28664"/>
-                     <ptr type="HB-tv" target="HB-tv_733_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_733_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3377_p15"/>
-                     <ptr type="HB-tv" target="HB-tv_733_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_3361_p2"/>
+                     <ptr type="pmb" target="pmb112883"/>
+                     <ptr type="pmb" target="pmb151526"/>
+                     <ptr type="pmb" target="pmb155336"/>
+                     <ptr type="pmb" target="pmb156578"/>
+                     <ptr type="pmb" target="pmb13200"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -82,5 +82,94 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb112883">
+               <persName>
+                  <surname>Besnard</surname>
+                  <forename>Paul-Albert</forename>
+               </persName>
+               <birth>
+                  <date>1849-06-02</date>
+                  <placeName type="wikidata" ref="Q259463">7. Arrondissement von Paris</placeName>
+               </birth>
+               <death>
+                  <date>1934-12-04</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_733_p1</idno>
+               <idno type="wikidata">Q424348</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119053454</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb112883.html</idno>
+            </person>
+            <person xml:id="pmb151526">
+               <persName>
+                  <surname>Le Sidaner</surname>
+                  <forename>Henri</forename>
+               </persName>
+               <birth>
+                  <date>1862-08-07</date>
+                  <placeName type="wikidata" ref="Q3929">Port Louis</placeName>
+               </birth>
+               <death>
+                  <date>1939-07-16</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_733_p2</idno>
+               <idno type="wikidata">Q577050</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/119075318</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151526.html</idno>
+            </person>
+            <person xml:id="pmb155336">
+               <persName>
+                  <surname>Martin</surname>
+                  <forename>Franz</forename>
+               </persName>
+               <birth>
+                  <date when="1882">1882</date>
+               </birth>
+               <death>
+                  <date when="1950">1950</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3377_p15</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155336.html</idno>
+            </person>
+            <person xml:id="pmb156578">
+               <persName>
+                  <surname>Menard</surname>
+                  <forename>Émile-René</forename>
+               </persName>
+               <birth>
+                  <date when="1861">1861</date>
+               </birth>
+               <death>
+                  <date when="1930">1930</date>
+               </death>
+               <idno type="HB-tv">HB-tv_733_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156578.html</idno>
+            </person>
+            <person xml:id="pmb13200">
+               <persName>
+                  <surname>Zuloaga y Zabaleta</surname>
+                  <forename>Ignacio</forename>
+               </persName>
+               <birth>
+                  <date>1870-07-26</date>
+                  <placeName type="wikidata" ref="Q496567">Eibar</placeName>
+               </birth>
+               <death>
+                  <date>1945-10-31</date>
+                  <placeName type="wikidata" ref="Q2807">Madrid</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3361_p2</idno>
+               <idno type="wikidata">Q460198</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117021954</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb13200.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130019.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -58,7 +58,7 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb2412"/>
-                     <ptr type="HB-tv" target="HB-tv_3521_p2"/>
+                     <ptr type="pmb" target="pmb117580"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/fremden-blatt/1917-09-08_bacon-cervantes.pdf</ref>
@@ -70,5 +70,28 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb117580">
+               <persName>
+                  <surname>Bacon</surname>
+                  <forename>Francis</forename>
+               </persName>
+               <birth>
+                  <date>1561-01-22</date>
+                  <placeName type="wikidata" ref="Q8055471"/>
+               </birth>
+               <death>
+                  <date>1626-04-09</date>
+                  <placeName type="wikidata" ref="Q123947">Highgate</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3521_p2</idno>
+               <idno type="wikidata">Q37388</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118505696</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb117580.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

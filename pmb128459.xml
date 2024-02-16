@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb128459.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -59,11 +59,11 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb11851"/>
-                     <ptr type="HB-tv" target="HB-tv_5259_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_5259_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_5259_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_5259_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_2461_p4"/>
+                     <ptr type="pmb" target="pmb155704"/>
+                     <ptr type="pmb" target="pmb155705"/>
+                     <ptr type="pmb" target="pmb155706"/>
+                     <ptr type="pmb" target="pmb4769"/>
+                     <ptr type="pmb" target="pmb5262"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -87,5 +87,85 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb155704">
+               <persName>
+                  <surname>Bovolato</surname>
+                  <forename>Lorenzo</forename>
+               </persName>
+               <occupation>Fischer</occupation>
+               <idno type="HB-tv">HB-tv_5259_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155704.html</idno>
+            </person>
+            <person xml:id="pmb155705">
+               <persName>
+                  <surname>Ruben</surname>
+                  <forename>Jose</forename>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <birth>
+                  <date when="1888">1888</date>
+               </birth>
+               <death>
+                  <date when="1969">1969</date>
+               </death>
+               <idno type="HB-tv">HB-tv_5259_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155705.html</idno>
+            </person>
+            <person xml:id="pmb155706">
+               <persName>
+                  <surname>Daly</surname>
+                  <forename>Arnold</forename>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <birth>
+                  <date when="1875">1875</date>
+               </birth>
+               <death>
+                  <date when="1927">1927</date>
+               </death>
+               <idno type="HB-tv">HB-tv_5259_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155706.html</idno>
+            </person>
+            <person xml:id="pmb4769">
+               <persName>
+                  <surname>Napoléon Bonaparte</surname>
+               </persName>
+               <birth>
+                  <date>1769-08-15</date>
+                  <placeName type="wikidata" ref="Q40104">Ajaccio</placeName>
+               </birth>
+               <death>
+                  <date>1821-05-05</date>
+                  <placeName type="wikidata" ref="Q578060">Longwood House</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1891_p2</idno>
+               <idno type="wikidata">Q517</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118586408</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb4769.html</idno>
+            </person>
+            <person xml:id="pmb5262">
+               <persName>
+                  <surname>Talma</surname>
+                  <forename>François Joseph</forename>
+               </persName>
+               <birth>
+                  <date>1763-01-15</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </birth>
+               <death>
+                  <date>1826-10-19</date>
+                  <placeName type="wikidata" ref="Q3451592"/>
+               </death>
+               <idno type="HB-tv">HB-tv_2461_p4</idno>
+               <idno type="wikidata">Q393983</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117198838</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb5262.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

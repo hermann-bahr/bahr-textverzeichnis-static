@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb125323.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -74,7 +74,7 @@
                   immer.</note>
                <ref type="personenindex">
                   <listRef>
-                     <ptr type="HB-tv" target="HB-tv_5930_p1"/>
+                     <ptr type="pmb" target="pmb43783"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -91,5 +91,28 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb43783">
+               <persName>
+                  <surname>Eichert</surname>
+                  <forename>Franz</forename>
+               </persName>
+               <birth>
+                  <date>1857-02-11</date>
+                  <placeName type="wikidata" ref="Q12055167"/>
+               </birth>
+               <death>
+                  <date>1926-07-06</date>
+                  <placeName type="wikidata" ref="Q662190">Breitenfurt bei Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_5930_p1</idno>
+               <idno type="wikidata">Q20482099</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116410302</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb43783.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

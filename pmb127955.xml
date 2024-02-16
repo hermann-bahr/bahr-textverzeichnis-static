@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb127955.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -94,13 +94,13 @@
                      <ptr type="pmb" target="pmb10863"/>
                      <ptr type="pmb" target="pmb10902"/>
                      <ptr type="pmb" target="pmb10866"/>
-                     <ptr type="HB-tv" target="HB-tv_3576_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_3362_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3362_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_3362_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_4521_p7"/>
-                     <ptr type="HB-tv" target="HB-tv_3362_p6"/>
-                     <ptr type="HB-tv" target="HB-tv_3364_p13"/>
+                     <ptr type="pmb" target="pmb154736"/>
+                     <ptr type="pmb" target="pmb155528"/>
+                     <ptr type="pmb" target="pmb155529"/>
+                     <ptr type="pmb" target="pmb155530"/>
+                     <ptr type="pmb" target="pmb43719"/>
+                     <ptr type="pmb" target="pmb155531"/>
+                     <ptr type="pmb" target="pmb43790"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/17-summula.pdf</ref>
@@ -119,7 +119,7 @@
                      <date type="year">1919</date>
                      <biblScope unit="issue">15</biblScope>
                      <biblScope unit="page">247–250</biblScope>
-                     <title ref="pmb129319">Der gute graue Dichter vom fischförmigen
+                     <title ref="pmb129319" level="a">Der gute graue Dichter vom fischförmigen
                         Paumanok</title>
                   </bibl>
                   <bibl>
@@ -169,5 +169,112 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb43719">
+               <persName>
+                  <surname>Cusanus</surname>
+               </persName>
+               <birth>
+                  <date>1401</date>
+                  <placeName type="wikidata" ref="Q155622">Bernkastel-Kues</placeName>
+               </birth>
+               <death>
+                  <date>1464-08-11</date>
+                  <placeName type="wikidata" ref="Q20579">Todi</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3524_p11</idno>
+               <idno type="wikidata">Q154751</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118588095</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb43719.html</idno>
+            </person>
+            <person xml:id="pmb154736">
+               <persName>
+                  <surname>Fox</surname>
+                  <forename>George</forename>
+               </persName>
+               <birth>
+                  <date when="1624">1624</date>
+               </birth>
+               <death>
+                  <date when="1691">1691</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3576_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154736.html</idno>
+            </person>
+            <person xml:id="pmb155528">
+               <persName>
+                  <surname>Whitman</surname>
+                  <forename>Walter Sr.</forename>
+               </persName>
+               <birth>
+                  <date when="1789">1789</date>
+               </birth>
+               <death>
+                  <date when="1855">1855</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3362_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155528.html</idno>
+            </person>
+            <person xml:id="pmb155529">
+               <persName>
+                  <surname>Whitman</surname>
+                  <forename>Luisa</forename>
+               </persName>
+               <birth>
+                  <date when="1795">1795</date>
+               </birth>
+               <death>
+                  <date when="1873">1873</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3362_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155529.html</idno>
+            </person>
+            <person xml:id="pmb155530">
+               <persName>
+                  <surname>Whitman</surname>
+                  <forename>George Washington</forename>
+               </persName>
+               <birth>
+                  <date when="1829">1829</date>
+               </birth>
+               <death>
+                  <date when="1901">1901</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3362_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155530.html</idno>
+            </person>
+            <person xml:id="pmb155531">
+               <persName>
+                  <surname>Simon Petrus</surname>
+               </persName>
+               <death>
+                  <date when-custom="um 67">um 67</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3362_p6</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155531.html</idno>
+            </person>
+            <person xml:id="pmb43790">
+               <persName>
+                  <surname>Friedlaender</surname>
+                  <forename>Salomo</forename>
+               </persName>
+               <birth>
+                  <date>1871-05-04</date>
+                  <placeName type="wikidata" ref="Q52828">Gołańcz</placeName>
+               </birth>
+               <death>
+                  <date>1946-09-09</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3364_p13</idno>
+               <idno type="wikidata">Q978324</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118586076</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb43790.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

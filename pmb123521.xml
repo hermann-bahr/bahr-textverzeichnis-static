@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123521.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -78,8 +78,8 @@
                      <ptr type="pmb" target="pmb22098"/>
                      <ptr type="pmb" target="pmb24335"/>
                      <ptr type="pmb" target="pmb26880"/>
-                     <ptr type="HB-tv" target="HB-tv_1907_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3871_p3"/>
+                     <ptr type="pmb" target="pmb148806"/>
+                     <ptr type="pmb" target="pmb19039"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/1897-11/135-77.pdf</ref>
@@ -92,5 +92,42 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb148806">
+               <persName>
+                  <surname>Varini</surname>
+                  <forename>Emilia</forename>
+               </persName>
+               <birth>
+                  <date>1867</date>
+                  <placeName type="wikidata" ref="Q3892388">Pallanza</placeName>
+               </birth>
+               <death>
+                  <date>1949-07-29</date>
+                  <placeName type="wikidata" ref="Q490">Mailand</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1907_p1</idno>
+               <idno type="wikidata">Q95714490</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/1062040260</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148806.html</idno>
+            </person>
+            <person xml:id="pmb19039">
+               <persName>
+                  <surname>Kalmar</surname>
+                  <forename>Anni</forename>
+               </persName>
+               <birth>
+                  <date when="1877">1877</date>
+               </birth>
+               <death>
+                  <date when="1901">1901</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3871_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb19039.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

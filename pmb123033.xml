@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123033.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -74,12 +74,12 @@
                      <ptr type="pmb" target="pmb8841"/>
                      <ptr type="pmb" target="pmb15112"/>
                      <ptr type="pmb" target="pmb13118"/>
-                     <ptr type="HB-tv" target="HB-tv_2402_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2399_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2535_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_2535_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_4829_p6"/>
-                     <ptr type="HB-tv" target="HB-tv_2535_p6"/>
+                     <ptr type="pmb" target="pmb13082"/>
+                     <ptr type="pmb" target="pmb154033"/>
+                     <ptr type="pmb" target="pmb154179"/>
+                     <ptr type="pmb" target="pmb148828"/>
+                     <ptr type="pmb" target="pmb22666"/>
+                     <ptr type="pmb" target="pmb154180"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19010404&amp;seite=6</ref>
@@ -93,5 +93,99 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb13082">
+               <persName>
+                  <surname>Karlweis</surname>
+                  <forename>Carl</forename>
+               </persName>
+               <birth>
+                  <date>1850-11-23</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1901-10-27</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2402_p2</idno>
+               <idno type="wikidata">Q735989</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/117302996</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb13082.html</idno>
+            </person>
+            <person xml:id="pmb154033">
+               <persName>
+                  <surname>Thaller</surname>
+                  <forename>Willy</forename>
+               </persName>
+               <birth>
+                  <date when="1854">1854</date>
+               </birth>
+               <death>
+                  <date when-custom="1941?">1941?</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2399_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154033.html</idno>
+            </person>
+            <person xml:id="pmb154179">
+               <persName>
+                  <surname>Zell</surname>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <idno type="HB-tv">HB-tv_2535_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154179.html</idno>
+            </person>
+            <person xml:id="pmb148828">
+               <persName>
+                  <surname>Ermarth</surname>
+                  <forename>Melanie</forename>
+               </persName>
+               <birth>
+                  <date>1881-03-31</date>
+               </birth>
+               <death>
+                  <date>1948-07-30</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2535_p4</idno>
+               <idno type="wikidata">Q94738915</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/105777152X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148828.html</idno>
+            </person>
+            <person xml:id="pmb22666">
+               <persName>
+                  <surname>Pohl-Meiser</surname>
+                  <forename>Viktoria</forename>
+               </persName>
+               <birth>
+                  <date>1858-11-28</date>
+                  <placeName type="wikidata" ref="Q1726">München</placeName>
+               </birth>
+               <death>
+                  <date>1936-06-17</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4829_p6</idno>
+               <idno type="wikidata">Q58011561</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/116260653</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb22666.html</idno>
+            </person>
+            <person xml:id="pmb154180">
+               <persName>
+                  <surname>Weiss</surname>
+                  <forename>Georg</forename>
+               </persName>
+               <birth>
+                  <date when="1833">1833</date>
+               </birth>
+               <death>
+                  <date when="1904">1904</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2535_p6</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154180.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

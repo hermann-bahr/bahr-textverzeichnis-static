@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb124679.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -78,7 +78,7 @@
                <note type="incipit">»Robinso Crusoe.« |</note>
                <ref type="personenindex">
                   <listRef>
-                     <ptr type="HB-tv" target="HB-tv_4428_p1"/>
+                     <ptr type="pmb" target="pmb149098"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -91,5 +91,28 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb149098">
+               <persName>
+                  <surname>Defoe</surname>
+                  <forename>Daniel</forename>
+               </persName>
+               <birth>
+                  <date>1660-09-13</date>
+                  <placeName type="wikidata" ref="Q1619586"/>
+               </birth>
+               <death>
+                  <date>1731-04-24</date>
+                  <placeName type="wikidata" ref="Q2572630"/>
+               </death>
+               <idno type="HB-tv">HB-tv_4428_p1</idno>
+               <idno type="wikidata">Q40946</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118524275</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149098.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

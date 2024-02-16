@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123075.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -71,9 +71,9 @@
                      <ptr type="pmb" target="pmb13125"/>
                      <ptr type="pmb" target="pmb5765"/>
                      <ptr type="pmb" target="pmb13863"/>
-                     <ptr type="HB-tv" target="HB-tv_1966_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2171_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_2171_p3"/>
+                     <ptr type="pmb" target="pmb13999"/>
+                     <ptr type="pmb" target="pmb154229"/>
+                     <ptr type="pmb" target="pmb154230"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -85,5 +85,44 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb13999">
+               <persName>
+                  <surname>Benedix</surname>
+                  <forename>Roderich</forename>
+               </persName>
+               <birth>
+                  <date>1811-01-21</date>
+                  <placeName type="wikidata" ref="Q2079">Leipzig</placeName>
+               </birth>
+               <death>
+                  <date>1873-09-26</date>
+                  <placeName type="wikidata" ref="Q2079">Leipzig</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1966_p1</idno>
+               <idno type="wikidata">Q87176</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118658166</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb13999.html</idno>
+            </person>
+            <person xml:id="pmb154229">
+               <persName>
+                  <surname>Heinrich</surname>
+                  <forename>Marie</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_2171_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154229.html</idno>
+            </person>
+            <person xml:id="pmb154230">
+               <persName>
+                  <surname>Schulz</surname>
+                  <forename>Antonie</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_2171_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154230.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

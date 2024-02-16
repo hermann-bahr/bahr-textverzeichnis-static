@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130447.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -61,10 +61,10 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb11933"/>
-                     <ptr type="HB-tv" target="HB-tv_3643_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3723_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3643_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_3643_p4"/>
+                     <ptr type="pmb" target="pmb156068"/>
+                     <ptr type="pmb" target="pmb113201"/>
+                     <ptr type="pmb" target="pmb156069"/>
+                     <ptr type="pmb" target="pmb156070"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -94,5 +94,52 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb156068">
+               <persName>
+                  <surname>Riccoboni</surname>
+                  <forename>Lodovico</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_3643_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156068.html</idno>
+            </person>
+            <person xml:id="pmb113201">
+               <persName>
+                  <surname>Rossetti</surname>
+                  <forename>Dante Gabriel</forename>
+               </persName>
+               <birth>
+                  <date>1828-05-12</date>
+                  <placeName type="wikidata" ref="Q84">London</placeName>
+               </birth>
+               <death>
+                  <date>1882-04-09</date>
+                  <placeName type="wikidata" ref="Q865021">Birchington-on-Sea</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3723_p1</idno>
+               <idno type="wikidata">Q186748</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118749900</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113201.html</idno>
+            </person>
+            <person xml:id="pmb156069">
+               <persName>
+                  <surname>Becker-Gundhal</surname>
+                  <forename>Karl-Johann</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_3643_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156069.html</idno>
+            </person>
+            <person xml:id="pmb156070">
+               <persName>
+                  <surname>Watts</surname>
+                  <forename>George Frederick</forename>
+               </persName>
+               <idno type="HB-tv">HB-tv_3643_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156070.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

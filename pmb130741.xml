@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130741.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -80,8 +80,8 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb10772"/>
-                     <ptr type="HB-tv" target="HB-tv_4466_p6"/>
-                     <ptr type="HB-tv" target="HB-tv_3430_p2"/>
+                     <ptr type="pmb" target="pmb116314"/>
+                     <ptr type="pmb" target="pmb150945"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/12-essays.pdf</ref>
@@ -95,5 +95,47 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb116314">
+               <persName>
+                  <surname>Hutten</surname>
+                  <forename>Ulrich von</forename>
+               </persName>
+               <birth>
+                  <date>1488-04-21</date>
+                  <placeName type="wikidata" ref="Q1014079">Burg Steckelberg</placeName>
+               </birth>
+               <death>
+                  <date>1523-08-29</date>
+                  <placeName type="wikidata" ref="Q303431">Ufenau</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4466_p6</idno>
+               <idno type="wikidata">Q77107</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118555049</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116314.html</idno>
+            </person>
+            <person xml:id="pmb150945">
+               <persName>
+                  <surname>Vian</surname>
+                  <forename>Robert</forename>
+               </persName>
+               <birth>
+                  <date>1886</date>
+                  <placeName type="wikidata" ref="Q34713">Salzburg</placeName>
+               </birth>
+               <death>
+                  <date>1965-03-31</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3430_p2</idno>
+               <idno type="wikidata">Q114239392</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/172438063</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150945.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

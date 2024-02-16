@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb130245.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -81,11 +81,11 @@
                      <ptr type="pmb" target="pmb12303"/>
                      <ptr type="pmb" target="pmb3561"/>
                      <ptr type="pmb" target="pmb12481"/>
-                     <ptr type="HB-tv" target="HB-tv_6576_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_5313_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_5313_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_1113_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_3366_p29"/>
+                     <ptr type="pmb" target="pmb2404"/>
+                     <ptr type="pmb" target="pmb150506"/>
+                     <ptr type="pmb" target="pmb150510"/>
+                     <ptr type="pmb" target="pmb3084"/>
+                     <ptr type="pmb" target="pmb155517"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/berliner-tageblatt/1915_salzburg.pdf</ref>
@@ -115,5 +115,99 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2404">
+               <persName>
+                  <surname>Hebbel</surname>
+                  <forename>Christian Friedrich</forename>
+               </persName>
+               <birth>
+                  <date>1813-03-18</date>
+                  <placeName type="wikidata" ref="Q518460">Wesselburen</placeName>
+               </birth>
+               <death>
+                  <date>1863-12-13</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_6576_p3</idno>
+               <idno type="wikidata">Q57182</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118547445</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2404.html</idno>
+            </person>
+            <person xml:id="pmb150506">
+               <persName>
+                  <surname>Mörk von Mörkenstein</surname>
+                  <forename>Alexander</forename>
+               </persName>
+               <birth>
+                  <date>1887-12-04</date>
+                  <placeName type="wikidata" ref="Q208473">Przemyśl</placeName>
+               </birth>
+               <death>
+                  <date>1914-10-23</date>
+                  <placeName type="wikidata" ref="Q983983">Nisko</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_5313_p1</idno>
+               <idno type="wikidata">Q2642709</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118883267</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150506.html</idno>
+            </person>
+            <person xml:id="pmb150510">
+               <persName>
+                  <surname>Schoßleitner</surname>
+                  <forename>Karl</forename>
+               </persName>
+               <occupation>Schriftsteller</occupation>
+               <birth>
+                  <date>1888-06-18</date>
+                  <placeName type="wikidata" ref="Q265227">Cavalese</placeName>
+               </birth>
+               <death>
+                  <date>1959-12-11</date>
+                  <placeName type="wikidata" ref="Q34713">Salzburg</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_5313_p3</idno>
+               <idno type="wikidata">Q94912609</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/142130400</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150510.html</idno>
+            </person>
+            <person xml:id="pmb3084">
+               <persName>
+                  <surname>Joseph II. von Österreich</surname>
+               </persName>
+               <birth>
+                  <date>1741-03-13</date>
+                  <placeName type="wikidata" ref="Q636910">Hietzing</placeName>
+               </birth>
+               <death>
+                  <date>1790-02-20</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2293_p2</idno>
+               <idno type="wikidata">Q76555</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118558404</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3084.html</idno>
+            </person>
+            <person xml:id="pmb155517">
+               <persName>
+                  <surname>Bach</surname>
+                  <forename>Alexander von</forename>
+               </persName>
+               <birth>
+                  <date when="1813">1813</date>
+               </birth>
+               <death>
+                  <date when="1893">1893</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3366_p29</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155517.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

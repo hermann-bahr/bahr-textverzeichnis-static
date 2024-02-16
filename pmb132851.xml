@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132851.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,10 +69,10 @@
                      <ptr type="pmb" target="pmb10765"/>
                      <ptr type="pmb" target="pmb2181"/>
                      <ptr type="pmb" target="pmb12468"/>
-                     <ptr type="HB-tv" target="HB-tv_3851_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_2979_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_1319_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_584_p2"/>
+                     <ptr type="pmb" target="pmb98459"/>
+                     <ptr type="pmb" target="pmb156657"/>
+                     <ptr type="pmb" target="pmb148906"/>
+                     <ptr type="pmb" target="pmb116657"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/6-secession.pdf</ref>
@@ -90,11 +90,105 @@
                      <date type="year">1898</date>
                      <biblScope unit="issue">220</biblScope>
                      <biblScope unit="page">185</biblScope>
-                     <title ref="pmb133329">Die Secession. III</title>
+                     <title ref="pmb133329" level="a">Die Secession. III</title>
                   </bibl>
                </note>
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb2181">
+               <persName>
+                  <surname>Velàzquez</surname>
+                  <forename>Diego Rodrìguez de Silva y</forename>
+               </persName>
+               <birth>
+                  <date>1599-06-06</date>
+                  <placeName type="wikidata" ref="Q8717">Sevilla</placeName>
+               </birth>
+               <death>
+                  <date>1660-08-06</date>
+                  <placeName type="wikidata" ref="Q2807">Madrid</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1387_p91</idno>
+               <idno type="wikidata">Q297</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118626426</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2181.html</idno>
+            </person>
+            <person xml:id="pmb98459">
+               <persName>
+                  <surname>Krämer</surname>
+                  <forename>Johann Victor</forename>
+               </persName>
+               <birth>
+                  <date>1861-08-23</date>
+                  <placeName type="wikidata" ref="Q158242">Adamov</placeName>
+               </birth>
+               <death>
+                  <date>1949-05-06</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3851_p4</idno>
+               <idno type="wikidata">Q1696478</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/129284114</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb98459.html</idno>
+            </person>
+            <person xml:id="pmb156657">
+               <persName>
+                  <surname>König</surname>
+                  <forename>Friedrich</forename>
+               </persName>
+               <birth>
+                  <date when="1857">1857</date>
+               </birth>
+               <death>
+                  <date when="1941">1941</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2979_p5</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156657.html</idno>
+            </person>
+            <person xml:id="pmb148906">
+               <persName>
+                  <surname>Hörmann</surname>
+                  <forename>Theodor von</forename>
+               </persName>
+               <birth>
+                  <date>1840-12-13</date>
+                  <placeName type="wikidata" ref="Q254107">Imst</placeName>
+               </birth>
+               <death>
+                  <date>1895-07-01</date>
+                  <placeName type="wikidata" ref="Q13298">Graz</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1319_p2</idno>
+               <idno type="wikidata">Q872134</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118552201</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148906.html</idno>
+            </person>
+            <person xml:id="pmb116657">
+               <persName>
+                  <surname>Alberti</surname>
+                  <forename>Leon Battista</forename>
+               </persName>
+               <birth>
+                  <date>1404-02-14</date>
+                  <placeName type="wikidata" ref="Q1449">Genua</placeName>
+               </birth>
+               <death>
+                  <date>1472-04-25</date>
+                  <placeName type="wikidata" ref="Q220">Rom</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_584_p2</idno>
+               <idno type="wikidata">Q182046</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11850147X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116657.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

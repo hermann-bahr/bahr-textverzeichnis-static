@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb133423.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -66,9 +66,9 @@
                      <ptr type="pmb" target="pmb12654"/>
                      <ptr type="pmb" target="pmb11220"/>
                      <ptr type="pmb" target="pmb3904"/>
-                     <ptr type="HB-tv" target="HB-tv_2843_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2843_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3615_p1"/>
+                     <ptr type="pmb" target="pmb149268"/>
+                     <ptr type="pmb" target="pmb8092"/>
+                     <ptr type="pmb" target="pmb115013"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/5-renaissance.pdf</ref>
@@ -98,5 +98,65 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb149268">
+               <persName>
+                  <surname>Teresa von Ávila</surname>
+               </persName>
+               <birth>
+                  <date>1515-03-28</date>
+                  <placeName type="wikidata" ref="Q842702">Gotarrendura</placeName>
+               </birth>
+               <death>
+                  <date>1582-10-15</date>
+                  <placeName type="wikidata" ref="Q43115071">Kloster der Verkündigung Unserer Lieben Frau von den Unbeschuhten Karmeliten von Alba de Tormes</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3523_p18</idno>
+               <idno type="wikidata">Q174880</idno>
+               <sex value="female"/>
+               <idno type="gnd">https://d-nb.info/gnd/118621823</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149268.html</idno>
+            </person>
+            <person xml:id="pmb8092">
+               <persName>
+                  <surname>Kalkreuth</surname>
+                  <forename>Leopold von</forename>
+               </persName>
+               <birth>
+                  <date>1855-05-15</date>
+                  <placeName type="wikidata" ref="Q1718">Düsseldorf</placeName>
+               </birth>
+               <death>
+                  <date>1928-12-01</date>
+                  <placeName type="wikidata" ref="Q7084">Seevetal</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2843_p2</idno>
+               <idno type="wikidata">Q315488</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118714864</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb8092.html</idno>
+            </person>
+            <person xml:id="pmb115013">
+               <persName>
+                  <surname>Kuehl</surname>
+                  <forename>Gotthard</forename>
+               </persName>
+               <birth>
+                  <date>1850-11-28</date>
+                  <placeName type="wikidata" ref="Q2843">Lübeck</placeName>
+               </birth>
+               <death>
+                  <date>1915-01-09</date>
+                  <placeName type="wikidata" ref="Q1731">Dresden</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3615_p1</idno>
+               <idno type="wikidata">Q879198</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118934783</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb115013.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

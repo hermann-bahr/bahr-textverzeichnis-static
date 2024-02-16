@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122609.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -75,8 +75,8 @@
                      <ptr type="pmb" target="pmb21076"/>
                      <ptr type="pmb" target="pmb3659"/>
                      <ptr type="pmb" target="pmb17533"/>
-                     <ptr type="HB-tv" target="HB-tv_4835_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_4835_p2"/>
+                     <ptr type="pmb" target="pmb148746"/>
+                     <ptr type="pmb" target="pmb112447"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19051026&amp;seite=10</ref>
@@ -89,5 +89,48 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb148746">
+               <persName>
+                  <surname>Galipaux</surname>
+                  <forename>Félix</forename>
+               </persName>
+               <occupation>Schauspieler</occupation>
+               <birth>
+                  <date>1860-12-12</date>
+                  <placeName type="wikidata" ref="Q1479">Bordeaux</placeName>
+               </birth>
+               <death>
+                  <date>1931-12-07</date>
+                  <placeName type="wikidata" ref="Q161741">1. Arrondissement von Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4835_p1</idno>
+               <idno type="wikidata">Q3092443</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/1051348560</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148746.html</idno>
+            </person>
+            <person xml:id="pmb112447">
+               <persName>
+                  <surname>Forain</surname>
+                  <forename>Jean-Louis</forename>
+               </persName>
+               <birth>
+                  <date>1852-10-23</date>
+                  <placeName type="wikidata" ref="Q41876">Reims</placeName>
+               </birth>
+               <death>
+                  <date>1931-07-11</date>
+                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4835_p2</idno>
+               <idno type="wikidata">Q719614</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118684191</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb112447.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

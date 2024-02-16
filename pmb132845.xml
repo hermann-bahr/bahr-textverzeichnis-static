@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb132845.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -65,8 +65,8 @@
                      <ptr type="pmb" target="pmb11944"/>
                      <ptr type="pmb" target="pmb3723"/>
                      <ptr type="pmb" target="pmb3820"/>
-                     <ptr type="HB-tv" target="HB-tv_2981_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2981_p2"/>
+                     <ptr type="pmb" target="pmb117095"/>
+                     <ptr type="pmb" target="pmb156653"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/6-secession.pdf</ref>
@@ -99,5 +99,35 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb117095">
+               <persName>
+                  <surname>Kaulbach</surname>
+                  <forename>Friedrich August von</forename>
+               </persName>
+               <birth>
+                  <date>1850-06-02</date>
+                  <placeName type="wikidata" ref="Q1726">München</placeName>
+               </birth>
+               <death>
+                  <date>1920-07-26</date>
+                  <placeName type="wikidata" ref="Q432528">Ohlstadt</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_2981_p1</idno>
+               <idno type="wikidata">Q447963</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118560743</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb117095.html</idno>
+            </person>
+            <person xml:id="pmb156653">
+               <persName>
+                  <surname>Zeus</surname>
+               </persName>
+               <idno type="HB-tv">HB-tv_2981_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156653.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

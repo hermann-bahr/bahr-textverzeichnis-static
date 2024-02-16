@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123935.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -59,10 +59,10 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb14281"/>
-                     <ptr type="HB-tv" target="HB-tv_4046_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_508_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_4046_p3"/>
-                     <ptr type="HB-tv" target="HB-tv_4046_p4"/>
+                     <ptr type="pmb" target="pmb154639"/>
+                     <ptr type="pmb" target="pmb112759"/>
+                     <ptr type="pmb" target="pmb51864"/>
+                     <ptr type="pmb" target="pmb149081"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -74,5 +74,80 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154639">
+               <persName>
+                  <surname>Alberti</surname>
+                  <forename>Konrad</forename>
+               </persName>
+               <birth>
+                  <date when="1862">1862</date>
+               </birth>
+               <death>
+                  <date when="1918">1918</date>
+               </death>
+               <idno type="HB-tv">HB-tv_4046_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154639.html</idno>
+            </person>
+            <person xml:id="pmb112759">
+               <persName>
+                  <surname>Bebel</surname>
+                  <forename>August</forename>
+               </persName>
+               <birth>
+                  <date>1840-02-22</date>
+                  <placeName type="wikidata" ref="Q3621">Deutz</placeName>
+               </birth>
+               <death>
+                  <date>1913-08-13</date>
+                  <placeName type="wikidata" ref="Q783413">Passugg</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_508_p1</idno>
+               <idno type="wikidata">Q76520</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118507893</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb112759.html</idno>
+            </person>
+            <person xml:id="pmb51864">
+               <persName>
+                  <surname>Liebknecht</surname>
+                  <forename>Wilhelm</forename>
+               </persName>
+               <birth>
+                  <date>1826-03-29</date>
+                  <placeName type="wikidata" ref="Q3874">Gießen</placeName>
+               </birth>
+               <death>
+                  <date>1900-08-07</date>
+                  <placeName type="wikidata" ref="Q162049">Charlottenburg</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4046_p3</idno>
+               <idno type="wikidata">Q20127</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118572768</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb51864.html</idno>
+            </person>
+            <person xml:id="pmb149081">
+               <persName>
+                  <surname>Siemens</surname>
+                  <forename>Werner von</forename>
+               </persName>
+               <birth>
+                  <date>1816-12-13</date>
+                  <placeName type="wikidata" ref="Q1818291">Lenthe</placeName>
+               </birth>
+               <death>
+                  <date>1892-12-06</date>
+                  <placeName type="wikidata" ref="Q162049">Charlottenburg</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_4046_p4</idno>
+               <idno type="wikidata">Q58577</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118614088</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149081.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

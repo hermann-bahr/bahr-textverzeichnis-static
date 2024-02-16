@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122495.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -65,11 +65,11 @@
                      <ptr type="pmb" target="pmb13996"/>
                      <ptr type="pmb" target="pmb6751"/>
                      <ptr type="pmb" target="pmb5864"/>
-                     <ptr type="HB-tv" target="HB-tv_3922_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_1450_p5"/>
-                     <ptr type="HB-tv" target="HB-tv_1450_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_49_p4"/>
-                     <ptr type="HB-tv" target="HB-tv_49_p5"/>
+                     <ptr type="pmb" target="pmb153909"/>
+                     <ptr type="pmb" target="pmb148547"/>
+                     <ptr type="pmb" target="pmb2154"/>
+                     <ptr type="pmb" target="pmb153923"/>
+                     <ptr type="pmb" target="pmb153924"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/deutsche-zeitung/74995.pdf</ref>
@@ -82,5 +82,85 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb153909">
+               <persName>
+                  <surname>Rochegrosse</surname>
+                  <forename>Georges Antoine</forename>
+               </persName>
+               <birth>
+                  <date when="1859">1859</date>
+               </birth>
+               <death>
+                  <date when="1938">1938</date>
+               </death>
+               <idno type="HB-tv">HB-tv_3922_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153909.html</idno>
+            </person>
+            <person xml:id="pmb148547">
+               <persName>
+                  <surname>Kaltenegger von Riedhorst</surname>
+                  <forename>Friedrich</forename>
+               </persName>
+               <birth>
+                  <date>1820-10-22</date>
+                  <placeName type="wikidata" ref="Q546">Triest</placeName>
+               </birth>
+               <death>
+                  <date>1892-10-28</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1450_p5</idno>
+               <idno type="wikidata">Q55679261</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/1012956407</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148547.html</idno>
+            </person>
+            <person xml:id="pmb2154">
+               <persName>
+                  <surname>Chiavacci</surname>
+                  <forename>Vinzenz</forename>
+               </persName>
+               <birth>
+                  <date>1847-06-15</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </birth>
+               <death>
+                  <date>1916-02-02</date>
+                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_1450_p4</idno>
+               <idno type="wikidata">Q1585734</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/116504854</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2154.html</idno>
+            </person>
+            <person xml:id="pmb153923">
+               <persName>
+                  <surname>Belsazar</surname>
+               </persName>
+               <birth>
+                  <date when-custom="6. Jhdt. v.u.Z.">6. Jhdt. v.u.Z.</date>
+               </birth>
+               <idno type="HB-tv">HB-tv_49_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153923.html</idno>
+            </person>
+            <person xml:id="pmb153924">
+               <persName>
+                  <surname>Plener</surname>
+                  <forename>Ignaz von</forename>
+               </persName>
+               <birth>
+                  <date when="1810">1810</date>
+               </birth>
+               <death>
+                  <date when="1908">1908</date>
+               </death>
+               <idno type="HB-tv">HB-tv_49_p5</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153924.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

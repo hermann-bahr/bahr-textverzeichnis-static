@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb128525.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -63,7 +63,7 @@
                   <listRef>
                      <ptr type="pmb" target="pmb21342"/>
                      <ptr type="pmb" target="pmb3849"/>
-                     <ptr type="HB-tv" target="HB-tv_5226_p1"/>
+                     <ptr type="pmb" target="pmb150603"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -87,5 +87,29 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb150603">
+               <persName>
+                  <surname>Kartaschow</surname>
+                  <forename>Anton</forename>
+               </persName>
+               <persName type="namensvariante">Антон Карташев</persName>
+               <birth>
+                  <date>1875-07-11</date>
+                  <placeName type="wikidata" ref="Q156320">Kyschtym</placeName>
+               </birth>
+               <death>
+                  <date>1960-09-10</date>
+                  <placeName type="wikidata" ref="Q180083">Menton</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_5226_p1</idno>
+               <idno type="wikidata">Q1960400</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/103327835</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150603.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

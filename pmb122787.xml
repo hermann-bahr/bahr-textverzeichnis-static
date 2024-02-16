@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122787.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -70,9 +70,9 @@
                      <ptr type="pmb" target="pmb15137"/>
                      <ptr type="pmb" target="pmb2601"/>
                      <ptr type="pmb" target="pmb14989"/>
-                     <ptr type="HB-tv" target="HB-tv_1989_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_2545_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_1989_p3"/>
+                     <ptr type="pmb" target="pmb154073"/>
+                     <ptr type="pmb" target="pmb153983"/>
+                     <ptr type="pmb" target="pmb154074"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19031021&amp;seite=10</ref>
@@ -85,5 +85,48 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb154073">
+               <persName>
+                  <surname>Grésac</surname>
+                  <forename>Fred de</forename>
+               </persName>
+               <persName type="namensvariante">Fréderique Rosine De Grésac</persName>
+               <birth>
+                  <date when-custom="um 1867">um 1867</date>
+               </birth>
+               <death>
+                  <date when="1943">1943</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1989_p1</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154073.html</idno>
+            </person>
+            <person xml:id="pmb153983">
+               <persName>
+                  <surname>Petri</surname>
+                  <forename>Lili</forename>
+               </persName>
+               <persName type="namensvariante">Amalie Schmitz, verh. Anno</persName>
+               <birth>
+                  <date when-custom="1864/67">1864/67</date>
+               </birth>
+               <death>
+                  <date when="1915">1915</date>
+               </death>
+               <idno type="HB-tv">HB-tv_2545_p2</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153983.html</idno>
+            </person>
+            <person xml:id="pmb154074">
+               <persName>
+                  <surname>Krenn</surname>
+                  <forename>Käthe</forename>
+               </persName>
+               <occupation>Schauspielerin</occupation>
+               <idno type="HB-tv">HB-tv_1989_p3</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154074.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>

@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2023-12-01+01:00</date>
+            <date>2024-02-16+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb128009.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,12 +69,12 @@
                      <ptr type="pmb" target="pmb3564"/>
                      <ptr type="pmb" target="pmb11871"/>
                      <ptr type="pmb" target="pmb11461"/>
-                     <ptr type="HB-tv" target="HB-tv_3335_p1"/>
-                     <ptr type="HB-tv" target="HB-tv_3335_p2"/>
-                     <ptr type="HB-tv" target="HB-tv_3718_p8"/>
-                     <ptr type="HB-tv" target="HB-tv_3335_p4"/>
-                     <ptr type="HB-tv" target="pmb141149_p61"/>
-                     <ptr type="HB-tv" target="HB-tv_3335_p6"/>
+                     <ptr type="pmb" target="pmb114506"/>
+                     <ptr type="pmb" target="pmb97032"/>
+                     <ptr type="pmb" target="pmb117298"/>
+                     <ptr type="pmb" target="pmb155631"/>
+                     <ptr type="pmb" target="pmb155017"/>
+                     <ptr type="pmb" target="pmb150423"/>
                   </listRef>
                </ref>
                <ref type="URL">http://www.univie.ac.at/bahr/sites/all/ks/15-bilderbuch.pdf</ref>
@@ -105,5 +105,109 @@
             </biblStruct>
          </div>
       </body>
+      <back>
+         <listPerson>
+            <person xml:id="pmb114506">
+               <persName>
+                  <surname>Helmholtz</surname>
+                  <forename>Hermann von</forename>
+               </persName>
+               <birth>
+                  <date>1821-08-31</date>
+                  <placeName type="wikidata" ref="Q1711">Potsdam</placeName>
+               </birth>
+               <death>
+                  <date>1894-09-08</date>
+                  <placeName type="wikidata" ref="Q162049">Charlottenburg</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3335_p1</idno>
+               <idno type="wikidata">Q60024</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/11854893X</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114506.html</idno>
+            </person>
+            <person xml:id="pmb97032">
+               <persName>
+                  <surname>Hönigswald</surname>
+                  <forename>Richard</forename>
+               </persName>
+               <birth>
+                  <date>1875-07-18</date>
+                  <placeName type="wikidata" ref="Q1163190">Ungarisch-Altenburg</placeName>
+               </birth>
+               <death>
+                  <date>1947-06-11</date>
+                  <placeName type="wikidata" ref="Q49145">New Haven</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3335_p2</idno>
+               <idno type="wikidata">Q214375</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118552082</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb97032.html</idno>
+            </person>
+            <person xml:id="pmb117298">
+               <persName>
+                  <surname>Hume</surname>
+                  <forename>David</forename>
+               </persName>
+               <birth>
+                  <date>1711-04-26</date>
+                  <placeName type="wikidata" ref="Q23436">Edinburgh</placeName>
+               </birth>
+               <death>
+                  <date>1776-08-25</date>
+                  <placeName type="wikidata" ref="Q23436">Edinburgh</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3718_p8</idno>
+               <idno type="wikidata">Q37160</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118554735</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb117298.html</idno>
+            </person>
+            <person xml:id="pmb155631">
+               <persName>
+                  <surname>Buddha</surname>
+               </persName>
+               <birth>
+                  <date when-custom="5. Jhdt. v.u.Z.">5. Jhdt. v.u.Z.</date>
+               </birth>
+               <idno type="HB-tv">HB-tv_3335_p4</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155631.html</idno>
+            </person>
+            <person xml:id="pmb155017">
+               <persName>
+                  <surname>Buridan</surname>
+                  <forename>Johannes</forename>
+               </persName>
+               <birth>
+                  <date when-custom="um 1300">um 1300</date>
+               </birth>
+               <death>
+                  <date when-custom="nach 1358">nach 1358</date>
+               </death>
+               <idno type="HB-tv">HB-tv_1387_p61</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155017.html</idno>
+            </person>
+            <person xml:id="pmb150423">
+               <persName>
+                  <surname>James</surname>
+                  <forename>William</forename>
+               </persName>
+               <birth>
+                  <date>1842-01-11</date>
+                  <placeName type="wikidata" ref="Q14706163"/>
+               </birth>
+               <death>
+                  <date>1910-08-26</date>
+                  <placeName type="wikidata" ref="Q2430064">Tamworth</placeName>
+               </death>
+               <idno type="HB-tv">HB-tv_3335_p6</idno>
+               <idno type="wikidata">Q125249</idno>
+               <sex value="male"/>
+               <idno type="gnd">https://d-nb.info/gnd/118556851</idno>
+               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150423.html</idno>
+            </person>
+         </listPerson>
+      </back>
    </text>
 </TEI>
