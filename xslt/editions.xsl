@@ -107,7 +107,7 @@
                                 <h3>Erwähnte Personen</h3>
                                 <ul>
                                     <xsl:for-each select=".//tei:back/tei:listPerson/tei:person[@xml:id]">
-                                        <xsl:sort select="child::tei:persName[1]/tei:surname"/>
+                                        <xsl:sort select="child::tei:persName[1]/tei:surname[1]"/>
                                         <li>
                                             <xsl:call-template name="mam:personenAnzeige">
                                                 <xsl:with-param name="current" select="."/>
