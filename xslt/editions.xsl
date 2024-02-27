@@ -659,7 +659,7 @@
         </xsl:variable>
         <b><xsl:choose>
             <xsl:when test="$lemma-name/tei:forename and $lemma-name/tei:surname">
-                <xsl:value-of select="concat($lemma-name/tei:forename, ' ', $lemma-name/tei:surname)"/>
+                <xsl:value-of select="concat($lemma-name/tei:forename[1], ' ', $lemma-name/tei:surname[1])"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of select="$lemma-name/tei:forename"/>
