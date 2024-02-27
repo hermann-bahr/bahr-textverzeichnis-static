@@ -98,6 +98,7 @@
                <persName type="namensvariante">Léon</persName>
                <persName type="legacy-name-merge">Hirschfeld, Victor</persName>
                <persName type="legacy-name-merge">Léon, Victor</persName>
+               <persName type="legacy-name-merge">Léon, Victor</persName>
                <birth>
                   <date when-iso="1858-01-04">4.1.1858</date>
                   <settlement key="18315">
@@ -136,6 +137,8 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Victor_L%C3%A9on</idno>
                <idno type="URL" subtype="oeml">https://dx.doi.org/10.1553/0x0001d75c</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2337.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161140/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2670</idno>
                <listEvent>
                   <event key="89146" when-iso="1891-03-17">
                      <desc n="1370">teilgenommen an</desc>
@@ -156,7 +159,9 @@
                <listBibl>
                   <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Victor%20Leon%201894%20Vilimek.jpg"/>
                </figure>
@@ -204,6 +209,7 @@
                   <forename>Julius</forename>
                   <surname>Bauer</surname>
                </persName>
+               <persName type="legacy-name-merge">Bauer, Julius</persName>
                <birth>
                   <date when-iso="1853-10-15">15.10.1853</date>
                   <settlement key="49199">
@@ -238,6 +244,8 @@
                <idno type="URL" subtype="oeml">https://dx.doi.org/10.1553/0x0001f7ff</idno>
                <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2150.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2150.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159265/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_270</idno>
                <affiliation notBefore-iso="1892-01-01"
                             when-iso="1892-07-01"
                             notAfter-iso="1892-12-31">
@@ -299,7 +307,9 @@
                <listBibl>
                   <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Julius%20Bauer%20%28Journalist%20Librettist%201853%E2%80%931941%29%20~1925.jpg"/>
                </figure>
@@ -387,30 +397,84 @@
             </person>
             <person xml:id="pmb154526">
                <persName>
-                  <surname>Dellinger</surname>
                   <forename>Rudolf</forename>
+                  <surname>Dellinger</surname>
                </persName>
-               <idno type="HB-tv">HB-tv_2377_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154526.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154526/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2377_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb14328">
                <persName>
+                  <forename>Oskar</forename>
                   <surname>Blumenthal</surname>
-                  <forename>Oscar</forename>
                </persName>
+               <persName type="legacy-name-merge">Blumenthal, Oscar</persName>
+               <persName type="legacy-name-merge">Blumenthal, Oskar</persName>
                <birth>
-                  <date>1852-03-13</date>
-                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+                  <date when-iso="1852-03-13">13.03.1852</date>
+                  <settlement key="168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1917-04-24</date>
-                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+                  <date when-iso="1917-04-24">24.04.1917</date>
+                  <settlement key="168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1443_p2</idno>
-               <idno type="wikidata">Q71567</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118659111</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb14328.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation key="99">Journalist/Journalistin</occupation>
+               <occupation key="103">Theaterleiter/Theaterleiterin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13808</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb14328.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14328/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118659111</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb14328.html</idno>
+               <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/personen/pmb14328</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50878</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q71567</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Oscar_Blumenthal</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb14328.html</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1443_p2</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159423/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_466</idno>
+               <affiliation when-iso="1888-01-01">
+                  <term key="1182">arbeitet für</term>
+                  <orgName key="35053">Lessing-Theater</orgName>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35053/</idno>
+                  <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb35053.html</idno>
+                  <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/institutionen/pmb35053</idno>
+                  <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb35053.html</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q261757</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Lessingtheater_(Berlin)</idno>
+               </affiliation>
+               <listEvent>
+                  <event key="145637" when-iso="1905-11-26">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Aufführung von Zwischenspiel, 26.11.1905</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/145637/</idno>
+                  </event>
+               </listEvent>
+               <listBibl>
+                  <bibl type="collections" n="5">legalkraus</bibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references"> </note>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Oscar%20Blumenthal%201905.jpg"/>
+               </figure>
             </person>
          </listPerson>
       </back>

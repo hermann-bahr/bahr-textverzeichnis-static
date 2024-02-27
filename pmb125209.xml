@@ -101,36 +101,49 @@
          <listPerson>
             <person xml:id="pmb116321">
                <persName>
+                  <forename>Miguel</forename>
                   <surname>Unamuno</surname>
-                  <forename>Miguel de</forename>
                </persName>
                <birth>
-                  <date>1864-09-29</date>
-                  <placeName type="wikidata" ref="Q8692">Bilbao</placeName>
+                  <date when-iso="1864-09-29">1864-09-29</date>
                </birth>
                <death>
-                  <date>1936-12-31</date>
-                  <placeName type="wikidata" ref="Q15695">Salamanca</placeName>
+                  <date when-iso="1936-12-31">1936-12-31</date>
                </death>
-               <idno type="HB-tv">HB-tv_1418_p1</idno>
-               <idno type="wikidata">Q185085</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118625403</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116321.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation key="95">Politiker/Politikerin</occupation>
+               <occupation key="154">Philosoph/Philosophin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/116321/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118625403</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp54392</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q185085</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Miguel_de_Unamuno</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1418_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154742">
                <persName>
-                  <surname>Lullus</surname>
                   <forename>Raymundus</forename>
+                  <surname>Lullus</surname>
                </persName>
                <birth>
-                  <date when="1235">1235</date>
+                  <date notBefore-iso="1235-01-01"
+                        when-iso="1235-07-02"
+                        notAfter-iso="1235-12-31">1235</date>
                </birth>
                <death>
-                  <date when="1315">1315</date>
+                  <date when-iso="1315-07-02" notAfter-iso="1315-12-31">1315</date>
                </death>
-               <idno type="HB-tv">HB-tv_1418_p2</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154742.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154742/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1418_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

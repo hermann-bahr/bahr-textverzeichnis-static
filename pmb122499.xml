@@ -81,62 +81,108 @@
          <listPerson>
             <person xml:id="pmb153925">
                <persName>
-                  <surname>Chlumecky</surname>
                   <forename>Johann von</forename>
+                  <surname>Chlumecky</surname>
                </persName>
                <birth>
-                  <date when="1834">1834</date>
+                  <date notBefore-iso="1834-01-01"
+                        when-iso="1834-07-02"
+                        notAfter-iso="1834-12-31">1834</date>
                </birth>
                <death>
-                  <date when="1924">1924</date>
+                  <date when-iso="1924-07-01" notAfter-iso="1924-12-31">1924</date>
                </death>
-               <idno type="HB-tv">HB-tv_1446_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153925.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153925/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1446_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb153926">
                <persName>
-                  <surname>Kaminski</surname>
                   <forename>Ignaz Ritter von</forename>
+                  <surname>Kaminski</surname>
                </persName>
-               <idno type="HB-tv">HB-tv_1446_p2</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153926.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153926/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1446_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb60373">
                <persName>
+                  <forename>Georg</forename>
                   <surname>Schönerer</surname>
-                  <forename>Georg Heinrich von</forename>
                </persName>
                <birth>
-                  <date>1842-07-17</date>
-                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+                  <date when-iso="1842-07-17">1842-07-17</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1921-08-14</date>
-                  <placeName type="wikidata" ref="Q340128">Schloss Rosenau</placeName>
+                  <date when-iso="1921-08-14">1921-08-14</date>
+                  <settlement key="60376">
+                     <placeName type="pref">Rosenau Schloss</placeName>
+                     <location>
+                        <geo>48,60215 15,05942</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1446_p3</idno>
-               <idno type="wikidata">Q112005</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118610163</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb60373.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation key="95">Politiker/Politikerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/60373/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118610163</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp44322</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q112005</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Georg_von_Sch%C3%B6nerer</idno>
+               <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x002844c1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1446_p3</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/VonSchoenerer.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb153605">
                <persName>
-                  <surname>Fürnkranz</surname>
                   <forename>Heinrich</forename>
+                  <surname>Heinrich Fürnkranz</surname>
                </persName>
                <birth>
-                  <date>1828-10-31</date>
-                  <placeName type="wikidata" ref="Q131266">Krems</placeName>
+                  <date when-iso="1828-10-31">1828-10-31</date>
+                  <settlement key="36545">
+                     <placeName type="pref">Krems</placeName>
+                     <location>
+                        <geo>48,40921 15,61415</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1896-12-28</date>
-                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+                  <date when-iso="1896-12-28">1896-12-28</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1446_p4</idno>
-               <idno type="wikidata">Q1597295</idno>
                <sex value="male"/>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153605.html</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1446_p4</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153605/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1597295</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Heinrich_F%C3%BCrnkranz</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

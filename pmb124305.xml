@@ -232,6 +232,7 @@
                   <forename>Johann Peter</forename>
                   <surname>Eckermann</surname>
                </persName>
+               <persName type="legacy-name-merge">Eckermann, Johann Peter</persName>
                <birth>
                   <date when-iso="1792-09-21">21.09.1792</date>
                   <settlement key="58547">
@@ -261,10 +262,14 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q58018</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Johann_Peter_Eckermann</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11220.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159884/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1080</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johann%20Peter%20Eckermann.jpg"/>
                </figure>
@@ -325,28 +330,38 @@
             </person>
             <person xml:id="pmb154711">
                <persName>
-                  <surname>Weidlich</surname>
                   <forename>Anastas von</forename>
+                  <surname>Weidlich</surname>
                </persName>
                <death>
-                  <date when="1873">1873</date>
+                  <date when-iso="1873-07-02" notAfter-iso="1873-12-31">1873</date>
                </death>
-               <idno type="HB-tv">HB-tv_6719_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154711.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154711/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_6719_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154712">
                <persName>
-                  <surname>Koberstein</surname>
                   <forename>Karl August</forename>
+                  <surname>Koberstein</surname>
                </persName>
                <birth>
-                  <date when="1797">1797</date>
+                  <date notBefore-iso="1797-01-01"
+                        when-iso="1797-07-02"
+                        notAfter-iso="1797-12-31">1797</date>
                </birth>
                <death>
-                  <date when="1870">1870</date>
+                  <date when-iso="1870-07-02" notAfter-iso="1870-12-31">1870</date>
                </death>
-               <idno type="HB-tv">HB-tv_6719_p2</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154712.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154712/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_6719_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

@@ -111,18 +111,24 @@
             </person>
             <person xml:id="pmb154288">
                <persName>
-                  <surname>Klein</surname>
                   <forename>Joseph</forename>
+                  <surname>Klein</surname>
                </persName>
-               <occupation>Schauspieler</occupation>
                <birth>
-                  <date when="1862">1862</date>
+                  <date notBefore-iso="1862-01-01"
+                        when-iso="1862-07-02"
+                        notAfter-iso="1862-12-31">1862</date>
                </birth>
                <death>
-                  <date when="1927">1927</date>
+                  <date when-iso="1927-07-02" notAfter-iso="1927-12-31">1927</date>
                </death>
-               <idno type="HB-tv">HB-tv_4068_p3</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154288.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154288/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4068_p3</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

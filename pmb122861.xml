@@ -85,8 +85,9 @@
                   <forename>Otto</forename>
                   <surname>Ernst</surname>
                </persName>
-               <persName type="person_geburtsname-vorname">Otto Ernst</persName>
+               <persName type="person_geburtsname_vorname">Otto Ernst</persName>
                <persName type="person_geburtsname_nachname">Schmidt</persName>
+               <persName type="legacy-name-merge">Ernst, Otto</persName>
                <birth>
                   <date when-iso="1862-10-07">07.10.1862</date>
                   <settlement key="63775">
@@ -115,6 +116,8 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50949</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q123291</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Otto_Ernst_(Schriftsteller)</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159946/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1150</idno>
                <affiliation notBefore-iso="1891-01-01"
                             when-iso="1891-07-02"
                             notAfter-iso="1891-12-31">
@@ -126,19 +129,25 @@
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Otto%20Ernst%201905.jpg"/>
                </figure>
             </person>
             <person xml:id="pmb154095">
                <persName>
-                  <surname>Kögl</surname>
                   <forename>Cornelia</forename>
+                  <surname>Kögl</surname>
                </persName>
-               <occupation>Schauspielerin</occupation>
-               <idno type="HB-tv">HB-tv_2264_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154095.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154095/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2264_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

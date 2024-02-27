@@ -164,8 +164,9 @@
                   <forename>Anatole</forename>
                   <surname>France</surname>
                </persName>
-               <persName type="person_geburtsname-vorname">François</persName>
+               <persName type="person_geburtsname_vorname">François</persName>
                <persName type="person_geburtsname_nachname">A. Thibault</persName>
+               <persName type="legacy-name-merge">France, Anatole</persName>
                <persName type="legacy-name-merge">France, Anatole</persName>
                <birth>
                   <date when-iso="1844-04-16">16.04.1844</date>
@@ -197,9 +198,13 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q42443</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Anatole_France</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb4279.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160067/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1296</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Anatole%20France%201921.png"/>
                </figure>
@@ -297,6 +302,7 @@
                   <forename>Konrad</forename>
                   <surname>Burdach</surname>
                </persName>
+               <persName type="legacy-name-merge">Burdach, Konrad</persName>
                <birth>
                   <date when-iso="1859-05-29">29.05.1859</date>
                   <settlement key="42605">
@@ -323,9 +329,13 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp48100</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q86343</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Konrad_Burdach</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159528/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_602</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Konrad%20Burdach.jpg"/>
                </figure>
@@ -367,22 +377,36 @@
             </person>
             <person xml:id="pmb150537">
                <persName>
-                  <surname>Elskamp</surname>
                   <forename>Max</forename>
+                  <surname>Elskamp</surname>
                </persName>
                <birth>
-                  <date>1862-05-05</date>
-                  <placeName type="wikidata" ref="Q12892">Antwerpen</placeName>
+                  <date when-iso="1862-05-05">1862-05-05</date>
+                  <settlement key="995">
+                     <placeName type="pref">Antwerpen</placeName>
+                     <location>
+                        <geo>51,2663 4,37077</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1931-12-10</date>
-                  <placeName type="wikidata" ref="Q12892">Antwerpen</placeName>
+                  <date when-iso="1931-12-10">1931-12-10</date>
+                  <settlement key="995">
+                     <placeName type="pref">Antwerpen</placeName>
+                     <location>
+                        <geo>51,2663 4,37077</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_5291_p1</idno>
-               <idno type="wikidata">Q2576106</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118682008</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150537.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/150537/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2576106</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118682008</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5291_p1</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Max_Elskamp</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

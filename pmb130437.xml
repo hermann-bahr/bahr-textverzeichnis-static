@@ -114,6 +114,7 @@
                   <surname>Antoine</surname>
                </persName>
                <persName type="legacy-name-merge">Antoine, André Leonhard</persName>
+               <persName type="legacy-name-merge">Antoine, André</persName>
                <birth>
                   <date when-iso="1858-01-31">1858-01-31</date>
                   <settlement key="47377">
@@ -144,6 +145,8 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q529001</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Andr%C3%A9_Antoine</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2211.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159132/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_108</idno>
                <affiliation notBefore-iso="1888-01-01"
                             when-iso="1888-07-01"
                             notAfter-iso="1888-12-31">
@@ -181,7 +184,9 @@
                </listEvent>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Andr%C3%A9%20Antoine%20actor.jpg"/>
                </figure>
@@ -191,6 +196,7 @@
                   <forename>William</forename>
                   <surname>Shakespeare</surname>
                </persName>
+               <persName type="legacy-name-merge">Shakespeare, William</persName>
                <birth>
                   <date when-iso="1564-04-23">23.4.1564?&lt;1564-04-23&gt;</date>
                   <settlement key="49870">
@@ -226,11 +232,15 @@
                <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/shakespeare-william.html</idno>
                <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_10.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2412.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162255/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4086</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Shakespeare.jpg"/>
                </figure>
@@ -273,41 +283,66 @@
             </person>
             <person xml:id="pmb148639">
                <persName>
-                  <surname>Hennique</surname>
                   <forename>Léon</forename>
+                  <surname>Hennique</surname>
                </persName>
                <birth>
-                  <date>1850-11-04</date>
-                  <placeName type="wikidata" ref="Q167024">Basse-Terre</placeName>
+                  <date when-iso="1850-11-04">1850-11-04</date>
+                  <settlement key="148568">
+                     <placeName type="pref">Basse-Terre</placeName>
+                     <location>
+                        <geo>15,996944444444 -61,732777777778</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1935-12-25</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1935-12-25">1935-12-25</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_115_p1</idno>
-               <idno type="wikidata">Q3271044</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/116717254</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148639.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148639/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q3271044</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116717254</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_115_p1</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/L%C3%A9on_Hennique</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb148642">
                <persName>
-                  <surname>Bergerat</surname>
                   <forename>Émile</forename>
+                  <surname>Bergerat</surname>
                </persName>
                <birth>
-                  <date>1845-04-29</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1845-04-29">1845-04-29</date>
+                  <settlement key="148643">
+                     <placeName type="pref">rue de la Vieille-Monnaie</placeName>
+                  </settlement>
                </birth>
                <death>
-                  <date>1923-10-13</date>
-                  <placeName type="wikidata" ref="Q48958">Neuilly-sur-Seine</placeName>
+                  <date when-iso="1923-10-13">1923-10-13</date>
+                  <settlement key="36749">
+                     <placeName type="pref">Neuilly-sur-Seine</placeName>
+                     <location>
+                        <geo>48,8846 2,26965</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_115_p2</idno>
-               <idno type="wikidata">Q274915</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/119448408</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148642.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148642/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q274915</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/119448408</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_115_p2</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/%C3%89mile_Bergerat</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

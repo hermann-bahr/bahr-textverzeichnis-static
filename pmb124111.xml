@@ -194,6 +194,7 @@
                   <forename>Johann Peter</forename>
                   <surname>Eckermann</surname>
                </persName>
+               <persName type="legacy-name-merge">Eckermann, Johann Peter</persName>
                <birth>
                   <date when-iso="1792-09-21">21.09.1792</date>
                   <settlement key="58547">
@@ -223,10 +224,14 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q58018</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Johann_Peter_Eckermann</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11220.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159884/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1080</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johann%20Peter%20Eckermann.jpg"/>
                </figure>
@@ -236,6 +241,7 @@
                   <forename>Richard</forename>
                   <surname>Wagner</surname>
                </persName>
+               <persName type="legacy-name-merge">Wagner, Richard</persName>
                <birth>
                   <date when-iso="1813-05-22">22.05.1813</date>
                   <settlement key="864">
@@ -268,6 +274,8 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Richard_Wagner</idno>
                <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_18.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb13024.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162701/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4646</idno>
                <affiliation notBefore-iso="1889-01-01"
                             when-iso="1889-07-02"
                             notAfter-iso="1889-12-31">
@@ -280,7 +288,9 @@
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/RichardWagner.jpg"/>
                </figure>
@@ -290,6 +300,7 @@
                   <forename>Eugen</forename>
                   <surname>Diederichs</surname>
                </persName>
+               <persName type="legacy-name-merge">Diederichs, Eugen</persName>
                <birth>
                   <date when-iso="1867-06-22">22.06.1867</date>
                   <settlement key="49538">
@@ -318,6 +329,8 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp57858</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q214581</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Eugen_Diederichs</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159780/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_947</idno>
                <affiliation>
                   <term key="1409">besitzt</term>
                   <orgName key="65754">Eugen Diederichs Verlag</orgName>
@@ -326,6 +339,10 @@
                   <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64485054</idno>
                   <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Diederichs_Verlag</idno>
                </affiliation>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Diederichs%2CEugen%201867-1930.jpg"/>
                </figure>
@@ -385,30 +402,53 @@
             </person>
             <person xml:id="pmb7452">
                <persName>
+                  <forename>Katharina Elisabeth</forename>
                   <surname>Goethe</surname>
-                  <forename>Catharina Elisabeth</forename>
                </persName>
+               <persName type="person_geburtsname_nachname">Textor</persName>
                <birth>
-                  <date>1731-02-19</date>
-                  <placeName type="wikidata" ref="Q1794">Frankfurt am Main</placeName>
+                  <date when-iso="1731-02-19">19.02.1731</date>
+                  <settlement key="146">
+                     <placeName type="pref">Frankfurt am Main</placeName>
+                     <location>
+                        <geo>50,11552 8,68417</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1808-09-13</date>
-                  <placeName type="wikidata" ref="Q1794">Frankfurt am Main</placeName>
+                  <date when-iso="1808-09-13">13.09.1808</date>
+                  <settlement key="146">
+                     <placeName type="pref">Frankfurt am Main</placeName>
+                     <location>
+                        <geo>50,11552 8,68417</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_984_p1</idno>
-               <idno type="wikidata">Q103757</idno>
                <sex value="female"/>
-               <idno type="gnd">https://d-nb.info/gnd/118540246</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb7452.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15500</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/7452/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q103757</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Catharina_Elisabeth_Goethe</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118540246</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_984_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Catharina%20Elisabeth%20Goethe%201776.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb154677">
                <persName>
-                  <surname>Wohlbold</surname>
                   <forename>Hans</forename>
+                  <surname>Wohlbold</surname>
                </persName>
-               <idno type="HB-tv">HB-tv_984_p2</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154677.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154677/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_984_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

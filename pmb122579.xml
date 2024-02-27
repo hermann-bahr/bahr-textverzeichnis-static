@@ -96,6 +96,7 @@
                   <forename>William</forename>
                   <surname>Shakespeare</surname>
                </persName>
+               <persName type="legacy-name-merge">Shakespeare, William</persName>
                <birth>
                   <date when-iso="1564-04-23">23.4.1564?&lt;1564-04-23&gt;</date>
                   <settlement key="49870">
@@ -131,11 +132,15 @@
                <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/shakespeare-william.html</idno>
                <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_10.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2412.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162255/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4086</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Shakespeare.jpg"/>
                </figure>
@@ -145,6 +150,7 @@
                   <forename>Richard</forename>
                   <surname>Vallentin</surname>
                </persName>
+               <persName type="legacy-name-merge">Vallentin, Richard</persName>
                <birth>
                   <date when-iso="1874-02-03">03.02.1874</date>
                   <settlement key="967">
@@ -174,6 +180,8 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp52209</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94902882</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Richard_Vallentin</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162617/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4542</idno>
                <listEvent>
                   <event key="35152" when-iso="1896-11-03">
                      <desc n="1256">ist Arbeitskraft bei</desc>
@@ -182,14 +190,15 @@
                   </event>
                   <event key="35482" when-iso="1899-04-29">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Premiere von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei
-                           Einakter, 29.4.1899</label>
+                     <label>Premiere von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei Einakter, 29.4.1899</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35482/</idno>
                   </event>
                </listEvent>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
             </person>
             <person xml:id="pmb18489">
                <persName>
@@ -358,8 +367,7 @@
                   </event>
                   <event key="45952" when-iso="1898-01-16">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Premiere von Abschiedssouper, Uraufführung Weihnachtseinkäufe,
-                           16.1.1898</label>
+                     <label>Premiere von Abschiedssouper, Uraufführung Weihnachtseinkäufe, 16.1.1898</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45952/</idno>
                   </event>
                   <event key="143045" when-iso="1898-10-08">
@@ -435,45 +443,63 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4176/</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q47291795</idno>
                <listBibl>
-                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag
-                        gefunden</bibl>
+                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag gefunden</bibl>
                   <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
                </listBibl>
             </person>
             <person xml:id="pmb153972">
                <persName>
-                  <surname>Galafrés</surname>
                   <forename>Elsa</forename>
+                  <surname>Galafrés</surname>
                </persName>
-               <occupation>Schauspielerin</occupation>
                <birth>
-                  <date when="1880">1880</date>
+                  <date notBefore-iso="1880-01-01"
+                        when-iso="1880-07-01"
+                        notAfter-iso="1880-12-31">1880</date>
                </birth>
                <death>
-                  <date when="1977">1977</date>
+                  <date when-iso="1977-07-02" notAfter-iso="1977-12-31">1977</date>
                </death>
-               <idno type="HB-tv">HB-tv_2450_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153972.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153972/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2450_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb148742">
                <persName>
-                  <surname>Schaffer-Bernstein</surname>
                   <forename>Jenny</forename>
+                  <surname>Schaffer</surname>
                </persName>
-               <persName type="namensvariante">Eugenie, Schauspielerin</persName>
                <birth>
-                  <date>1888-07-27</date>
-                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+                  <date when-iso="1888-07-27">1888-07-27</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1943-01-01</date>
-                  <placeName type="wikidata" ref="Q663764">KZ Auschwitz-Birkenau</placeName>
+                  <date when-iso="1943-07-02" notAfter-iso="1943-12-31">1943</date>
+                  <settlement key="148744">
+                     <placeName type="pref">Auschwitz II-Birkenau concentration camp</placeName>
+                     <location>
+                        <geo>50,0371 19,1752</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2450_p2</idno>
-               <idno type="wikidata">Q1687066</idno>
                <sex value="female"/>
-               <idno type="gnd">https://d-nb.info/gnd/117100765</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148742.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148742/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1687066</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/117100765</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2450_p2</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Jenny_Schaffer-Bernstein</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

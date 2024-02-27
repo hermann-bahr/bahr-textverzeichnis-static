@@ -142,6 +142,7 @@
                   <forename>William</forename>
                   <surname>Shakespeare</surname>
                </persName>
+               <persName type="legacy-name-merge">Shakespeare, William</persName>
                <birth>
                   <date when-iso="1564-04-23">23.4.1564?&lt;1564-04-23&gt;</date>
                   <settlement key="49870">
@@ -177,11 +178,15 @@
                <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/shakespeare-william.html</idno>
                <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_10.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2412.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162255/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4086</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Shakespeare.jpg"/>
                </figure>
@@ -219,6 +224,8 @@
                   <forename>David</forename>
                   <surname>Teniers</surname>
                </persName>
+               <persName type="legacy-name-merge">Teniers, David</persName>
+               <persName type="legacy-name-merge">Teniers, David</persName>
                <birth>
                   <date when-iso="1610-12-15">15.12.1610</date>
                   <settlement key="995">
@@ -239,77 +246,114 @@
                </death>
                <sex value="male"/>
                <occupation key="110">Maler/Malerin</occupation>
+               <occupation key="361">Künstler/Künstlerin</occupation>
+               <occupation key="442">Kupferstecher/Kupferstecherin</occupation>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20667</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/25935/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp54012</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/116225/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118907832</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q335022</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/David_Teniers_der_J%C3%BCngere</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162494/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4383</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
             </person>
             <person xml:id="pmb152514">
                <persName>
-                  <surname>Wereschtschagin</surname>
-                  <forename>Wassili Wassiljewitsch</forename>
+                  <forename>Vasily</forename>
+                  <surname>Vereshchagin</surname>
                </persName>
-               <birth>
-                  <date>1842-10-14</date>
-                  <placeName type="wikidata" ref="Q2144">Tscherepowez</placeName>
-               </birth>
-               <death>
-                  <date>1904-03-31</date>
-                  <placeName type="wikidata" ref="Q623329">Lüshunkou</placeName>
-               </death>
-               <idno type="HB-tv">HB-tv_208_p5</idno>
-               <idno type="wikidata">Q127017</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/119268353</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152514.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/152514/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q127017</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/119268353</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_208_p5</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1420_p6</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wassili_Wassiljewitsch_Wereschtschagin</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb155111">
                <persName>
-                  <surname>Beaumarchais</surname>
                   <forename>Pierre-Augustin Caron de</forename>
+                  <surname>Beaumarchais</surname>
                </persName>
                <birth>
-                  <date when="1732">1732</date>
+                  <date notBefore-iso="1732-01-01"
+                        when-iso="1732-07-01"
+                        notAfter-iso="1732-12-31">1732</date>
                </birth>
                <death>
-                  <date when="1799">1799</date>
+                  <date when-iso="1799-07-02" notAfter-iso="1799-12-31">1799</date>
                </death>
-               <idno type="HB-tv">HB-tv_1195_p2</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155111.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155111/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1195_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb5231">
                <persName>
-                  <surname>Tamerlan</surname>
+                  <surname>Temür ibn Taraghai Barlas</surname>
                </persName>
+               <persName type="namensvariante">Tamerlan</persName>
                <birth>
-                  <date>1336-04-09</date>
-                  <placeName type="wikidata" ref="Q569766">Shahrisabz</placeName>
+                  <date when-iso="1336-04-16">16.04.1336</date>
+                  <settlement key="55359">
+                     <placeName type="pref">Shahrisabz</placeName>
+                     <location>
+                        <geo>39,05778 66,83417</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1405-02-19</date>
-                  <placeName type="wikidata" ref="Q956911">Otrar</placeName>
+                  <date when-iso="1405-02-28">28.02.1405</date>
+                  <settlement key="55362">
+                     <placeName type="pref">Shymkent</placeName>
+                     <location>
+                        <geo>42,3 69,6</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_4472_p3</idno>
-               <idno type="wikidata">Q8462</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118622803</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb5231.html</idno>
+               <occupation key="619">Militär/Militärin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118622803</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5231/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q8462</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Timur</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb5231.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp53935</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4472_p3</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Timur%20reconstruction03.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb150046">
                <persName>
-                  <surname>Alexander II. von Russland</surname>
+                  <forename>Aleksandr</forename>
+                  <surname>Romanov</surname>
                </persName>
-               <birth>
-                  <date>1818-04-17</date>
-                  <placeName type="wikidata" ref="Q4279033"/>
-               </birth>
-               <death>
-                  <date>1881-03-01</date>
-                  <placeName type="wikidata" ref="Q182147">Winterpalast</placeName>
-               </death>
-               <idno type="HB-tv">HB-tv_3376_p4</idno>
-               <idno type="wikidata">Q83171</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118501860</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150046.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/150046/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q83171</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118501860</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3376_p4</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4472_p4</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alexander_II._(Russland)</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

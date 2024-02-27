@@ -181,19 +181,13 @@
                <listEvent>
                   <event key="35482" when-iso="1899-04-29">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Premiere von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei
-                           Einakter, 29.4.1899</label>
+                     <label>Premiere von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei Einakter, 29.4.1899</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35482/</idno>
                   </event>
                   <event key="141446" when-iso="1899-12-01">
                      <desc n="1256">ist Arbeitskraft bei</desc>
                      <label>Aufführung Prinz Friedrich von Homburg, 1.12.1899</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/141446/</idno>
-                  </event>
-                  <event key="141417" when-iso="1899-12-17">
-                     <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Aufführung von Der Verschwender, 17.12.1899</label>
-                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/141417/</idno>
                   </event>
                   <event key="141417" when-iso="1899-12-17">
                      <desc n="1256">ist Arbeitskraft bei</desc>
@@ -240,6 +234,7 @@
                   <forename>Ernst von</forename>
                   <surname>Possart</surname>
                </persName>
+               <persName type="legacy-name-merge">Possart, Ernst von</persName>
                <birth>
                   <date when-iso="1841-05-11">11.05.1841</date>
                   <settlement key="168">
@@ -267,9 +262,13 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp42840</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q214930</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ernst_von_Possart</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161734/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3429</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ernst%20von%20Possart%202.jpg"/>
                </figure>
@@ -335,64 +334,125 @@
                <listEvent>
                   <event key="35479" when-iso="1899-03-01">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Uraufführung von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei
-                           Einakter, 1.3.1899</label>
+                     <label>Uraufführung von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei Einakter, 1.3.1899</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35479/</idno>
                   </event>
                </listEvent>
             </person>
             <person xml:id="pmb148903">
                <persName>
-                  <surname>Biesantz</surname>
                   <forename>Albert</forename>
+                  <surname>Biesantz</surname>
                </persName>
-               <idno type="HB-tv">HB-tv_2139_p2</idno>
-               <idno type="wikidata">Q2637641</idno>
+               <birth>
+                  <date when-iso="1848-10-08">1848-10-08</date>
+                  <settlement key="94244">
+                     <placeName type="pref">Bückeburg</placeName>
+                     <location>
+                        <geo>52,260649 9,04939</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when-iso="1898-10-13">1898-10-13</date>
+                  <settlement key="94244">
+                     <placeName type="pref">Bückeburg</placeName>
+                     <location>
+                        <geo>52,260649 9,04939</geo>
+                     </location>
+                  </settlement>
+               </death>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/116167106</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148903.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148903/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2637641</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116167106</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2139_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2136_p3</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2128_p1</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Albert_Biesantz_(Politiker)</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154240">
                <persName>
-                  <surname>Kracher</surname>
                   <forename>Ferdinand</forename>
+                  <surname>Kracher</surname>
                </persName>
                <birth>
-                  <date when="1881">1881</date>
+                  <date notBefore-iso="1881-01-01"
+                        when-iso="1881-07-02"
+                        notAfter-iso="1881-12-31">1881</date>
                </birth>
                <death>
-                  <date when="1908">1908</date>
+                  <date when-iso="1908-07-01" notAfter-iso="1908-12-31">1908</date>
                </death>
-               <idno type="HB-tv">HB-tv_1863_p2</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154240.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154240/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1863_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb153989">
                <persName>
-                  <surname>Löwe</surname>
                   <forename>Konrad</forename>
+                  <surname>Löwe</surname>
                </persName>
+               <persName type="legacy-name-merge">Löwe, Konrad</persName>
                <birth>
-                  <date when="1856">1856</date>
+                  <date notBefore-iso="1856-01-01"
+                        when-iso="1856-07-01"
+                        notAfter-iso="1856-12-31">1856</date>
                </birth>
                <death>
-                  <date when="1912">1912</date>
+                  <date when-iso="1912-07-01" notAfter-iso="1912-12-31">1912</date>
                </death>
-               <idno type="HB-tv">HB-tv_2283_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153989.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153989/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2283_p1</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161143/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2675</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
             </person>
             <person xml:id="pmb154050">
                <persName>
-                  <surname>Witte</surname>
                   <forename>Eugen</forename>
+                  <surname>Witte</surname>
                </persName>
+               <persName type="legacy-name-merge">Witte, Eugen</persName>
                <birth>
-                  <date when="1848">1848</date>
+                  <date notBefore-iso="1848-01-01"
+                        when-iso="1848-07-01"
+                        notAfter-iso="1848-12-31">1848</date>
                </birth>
                <death>
-                  <date when="1907">1907</date>
+                  <date when-iso="1907-01-03">1907-01-03</date>
                </death>
-               <idno type="HB-tv">HB-tv_2269_p4</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154050.html</idno>
+               <sex value="male"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/116825/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/117420441</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp56663</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94856727</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154050/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2269_p4</idno>
+               <listEvent>
+                  <event key="141417" when-iso="1899-12-17">
+                     <desc n="1256">ist Arbeitskraft bei</desc>
+                     <label>Aufführung von Der Verschwender, 17.12.1899</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/141417/</idno>
+                  </event>
+               </listEvent>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag gefunden</bibl>
+                  <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

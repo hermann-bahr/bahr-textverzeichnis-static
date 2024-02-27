@@ -107,9 +107,10 @@
                   <forename>Sarah</forename>
                   <surname>Bernhardt</surname>
                </persName>
-               <persName type="person_geburtsname-vorname">Sara Marie Henriette-Rosine</persName>
+               <persName type="person_geburtsname_vorname">Sara Marie Henriette-Rosine</persName>
                <persName type="person_geburtsname_nachname">Bernardt</persName>
                <persName type="person_verwitwet">Damala</persName>
+               <persName type="legacy-name-merge">Bernhardt, Sarah</persName>
                <birth>
                   <date when-iso="1844-10-22">22.10.1844</date>
                   <settlement key="182">
@@ -140,6 +141,8 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Sarah_Bernhardt</idno>
                <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb10899.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb10899.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159364/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_391</idno>
                <affiliation>
                   <term key="1182">arbeitet für</term>
                   <orgName key="87981">Théâtre de la Renaissance</orgName>
@@ -168,7 +171,9 @@
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="15">Schnitzler-Kino</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Sarah%20Bernhardt%20by%20Paul%20Nadar%20%28crop%29.jpg"/>
                </figure>
@@ -215,19 +220,13 @@
                <listEvent>
                   <event key="35482" when-iso="1899-04-29">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Premiere von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei
-                           Einakter, 29.4.1899</label>
+                     <label>Premiere von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei Einakter, 29.4.1899</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35482/</idno>
                   </event>
                   <event key="141446" when-iso="1899-12-01">
                      <desc n="1256">ist Arbeitskraft bei</desc>
                      <label>Aufführung Prinz Friedrich von Homburg, 1.12.1899</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/141446/</idno>
-                  </event>
-                  <event key="141417" when-iso="1899-12-17">
-                     <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Aufführung von Der Verschwender, 17.12.1899</label>
-                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/141417/</idno>
                   </event>
                   <event key="141417" when-iso="1899-12-17">
                      <desc n="1256">ist Arbeitskraft bei</desc>
@@ -318,6 +317,7 @@
                   <surname>Moser</surname>
                </persName>
                <persName type="person_rufname">Kolo</persName>
+               <persName type="legacy-name-merge">Moser, Koloman</persName>
                <birth>
                   <date when-iso="1868-03-30">1868-03-30</date>
                   <settlement key="50">
@@ -348,6 +348,8 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q45055</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Koloman_Moser</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb3280.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161403/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3017</idno>
                <affiliation notBefore-iso="1901-01-01"
                             when-iso="1901-07-02"
                             notAfter-iso="1901-12-31">
@@ -367,67 +369,104 @@
                <listBibl>
                   <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Koloman%20Moser.jpg"/>
                </figure>
             </person>
             <person xml:id="pmb148906">
                <persName>
-                  <surname>Hörmann</surname>
-                  <forename>Theodor von</forename>
+                  <forename>Theodor</forename>
+                  <surname>Theodor von Hörmann</surname>
                </persName>
                <birth>
-                  <date>1840-12-13</date>
-                  <placeName type="wikidata" ref="Q254107">Imst</placeName>
+                  <date when-iso="1840-12-13">1840-12-13</date>
+                  <settlement key="95382">
+                     <placeName type="pref">Imst</placeName>
+                     <location>
+                        <geo>47,245 10,739722</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1895-07-01</date>
-                  <placeName type="wikidata" ref="Q13298">Graz</placeName>
+                  <date when-iso="1895-07-01">1895-07-01</date>
+                  <settlement key="860">
+                     <placeName type="pref">Graz</placeName>
+                     <location>
+                        <geo>47,06667 15,43333</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1319_p2</idno>
-               <idno type="wikidata">Q872134</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118552201</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148906.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148906/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q872134</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118552201</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1319_p2</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Theodor_von_H%C3%B6rmann</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb117069">
                <persName>
-                  <surname>Semper</surname>
                   <forename>Gottfried</forename>
+                  <surname>Semper</surname>
                </persName>
+               <persName type="legacy-name-merge">Semper, Gottfried</persName>
                <birth>
-                  <date>1803-11-29</date>
-                  <placeName type="wikidata" ref="Q1055">Hamburg</placeName>
+                  <date when-iso="1803-11-29">1803-11-29</date>
                </birth>
                <death>
-                  <date>1879-05-15</date>
-                  <placeName type="wikidata" ref="Q220">Rom</placeName>
+                  <date when-iso="1879-05-15">1879-05-15</date>
                </death>
-               <idno type="HB-tv">HB-tv_3840_p5</idno>
-               <idno type="wikidata">Q61342</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118613154</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb117069.html</idno>
+               <occupation key="185">Architekt/Architektin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/117069/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118613154</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp58949</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q61342</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gottfried_Semper</idno>
+               <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x00284974</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3840_p5</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162236/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4063</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
             </person>
             <person xml:id="pmb113956">
                <persName>
+                  <forename>Franz</forename>
                   <surname>Lenbach</surname>
-                  <forename>Franz von</forename>
                </persName>
                <birth>
-                  <date>1836-12-13</date>
-                  <placeName type="wikidata" ref="Q504746">Schrobenhausen</placeName>
+                  <date when-iso="1836-10-13">1836-10-13</date>
                </birth>
                <death>
-                  <date>1904-05-06</date>
-                  <placeName type="wikidata" ref="Q1726">München</placeName>
+                  <date when-iso="1904-05-06">1904-05-06</date>
+                  <settlement key="45258">
+                     <placeName type="pref">München</placeName>
+                     <location>
+                        <geo>48,13743 11,57549</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_3332_p1</idno>
-               <idno type="wikidata">Q585323</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118571516</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113956.html</idno>
+               <occupation key="110">Maler/Malerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/113956/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118571516</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43591</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q585323</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Franz_von_Lenbach</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3332_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

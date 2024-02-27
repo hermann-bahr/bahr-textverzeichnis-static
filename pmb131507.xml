@@ -84,14 +84,20 @@
          <listPerson>
             <person xml:id="pmb156375">
                <persName>
-                  <surname>Moser</surname>
                   <forename>Karl</forename>
+                  <surname>Moser</surname>
                </persName>
                <birth>
-                  <date when="1906">1906</date>
+                  <date notBefore-iso="1906-01-01"
+                        when-iso="1906-07-02"
+                        notAfter-iso="1906-12-31">1906</date>
                </birth>
-               <idno type="HB-tv">HB-tv_1473_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156375.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156375/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1473_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

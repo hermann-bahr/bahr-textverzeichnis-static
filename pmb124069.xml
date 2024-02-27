@@ -140,6 +140,8 @@
                <persName>
                   <surname>Karl VI.</surname>
                </persName>
+               <persName type="legacy-name-merge">Karl VI., Heiliges Römisches Reich, Kaiser, -</persName>
+               <persName type="legacy-name-merge">Karl VI.</persName>
                <birth>
                   <date when-iso="1685-10-01">01.10.1685</date>
                   <settlement key="50">
@@ -163,6 +165,19 @@
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16725</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb19136.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/19136/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118560107</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Karl_VI._(HRR)</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2179</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160752/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2178</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47638</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/146454/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q150665</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+                  <bibl type="collections" n="19">Standardimport</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb3986">
                <persName>
@@ -192,18 +207,14 @@
                <sex value="male"/>
                <occupation key="167">Kaiser/Kaiserin</occupation>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118560093</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">
-                     https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16724 </idno>
-               <idno type="URL" subtype="schnitzler-bahr">
-                     https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3986.html </idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16724</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3986.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3986/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">
-                     https://schnitzler-briefe.acdh.oeaw.ac.at/pmb3986.html </idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb3986.html</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47632</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q32500</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Karl_V._(HRR)</idno>
-               <idno type="URL" subtype="thun-korrespondenz">
-                     https://thun-korrespondenz.acdh.oeaw.ac.at/karl-V.html </idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/karl-V.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160749/</idno>
                <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2175</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160751/</idno>
@@ -221,31 +232,51 @@
                   <surname>Karl der Große</surname>
                </persName>
                <birth>
-                  <date when-custom="747/748">747/748</date>
+                  <date>747/748</date>
                </birth>
                <death>
-                  <date when="0814">814</date>
+                  <date when-iso="0814-07-02" notAfter-iso="0814-12-31">814</date>
                </death>
-               <idno type="HB-tv">HB-tv_5932_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154671.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154671/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5932_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb146302">
                <persName>
-                  <surname>Franz II. von Österreich</surname>
+                  <forename>-</forename>
+                  <surname>Franz II., Heiliges Römisches Reich, Kaiser</surname>
                </persName>
                <birth>
-                  <date>1768-02-12</date>
-                  <placeName type="wikidata" ref="Q2044">Florenz</placeName>
+                  <date when-iso="1768-02-12">1768-02-12</date>
                </birth>
                <death>
-                  <date>1835-03-02</date>
-                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+                  <date when-iso="1835-03-02">1835-03-02</date>
                </death>
-               <idno type="HB-tv">HB-tv_5932_p2</idno>
-               <idno type="wikidata">Q130834</idno>
-               <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118534955</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb146302.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/146302/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118534955</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43506</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q130834</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Franz_II._(HRR)</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5932_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4824_p11</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4864_p20</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3893_p6</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3366_p24</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1376_p59</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1625_p59</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3404_p4</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_905_p5</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1365_p78</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1363_p42</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+                  <bibl type="collections" n="19">Standardimport</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

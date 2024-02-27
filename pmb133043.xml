@@ -138,7 +138,7 @@
                   <forename>Alexandrine von</forename>
                   <surname>Schönerer</surname>
                </persName>
-               <persName type="person_geburtsname-vorname">Alexandra von</persName>
+               <persName type="person_geburtsname_vorname">Alexandra von</persName>
                <birth>
                   <date when-iso="1850-06-15">15.06.1850</date>
                   <settlement key="50">
@@ -189,7 +189,8 @@
                   <forename>Loïe</forename>
                   <surname>Fuller</surname>
                </persName>
-               <persName type="person_geburtsname-vorname">Marie Louise</persName>
+               <persName type="person_geburtsname_vorname">Marie Louise</persName>
+               <persName type="legacy-name-merge">Fuller, Loïe</persName>
                <birth>
                   <date when-iso="1862-01-15">15.01.1862</date>
                   <settlement key="48325">
@@ -212,6 +213,12 @@
                <occupation key="190">Tänzer/Tänzerin</occupation>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15308</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/16797/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160145/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1394</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references"> </note>
             </person>
             <person xml:id="pmb11500">
                <persName>
@@ -260,22 +267,34 @@
             </person>
             <person xml:id="pmb116858">
                <persName>
-                  <surname>Scheffel</surname>
                   <forename>Joseph Victor</forename>
+                  <surname>Scheffel</surname>
                </persName>
                <birth>
-                  <date>1826-02-16</date>
-                  <placeName type="wikidata" ref="Q1040">Karlsruhe</placeName>
+                  <date when-iso="1826-02-16">1826-02-16</date>
                </birth>
                <death>
-                  <date>1886-04-09</date>
-                  <placeName type="wikidata" ref="Q1040">Karlsruhe</placeName>
+                  <date when-iso="1886-04-09">1886-04-09</date>
                </death>
-               <idno type="HB-tv">HB-tv_4469_p1</idno>
-               <idno type="wikidata">Q9082</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118606832</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116858.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation key="331">Zeichner/Zeichnerin</occupation>
+               <occupation key="506">Volkskundler/Volkskundlerin</occupation>
+               <occupation key="1535">Librettist/Librettistin</occupation>
+               <occupation key="1639">Jurist/Juristin</occupation>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp56875</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/116858/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118606832</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q9082</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Joseph_Victor_von_Scheffel</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4469_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4858_p27</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1023_p6</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3869</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

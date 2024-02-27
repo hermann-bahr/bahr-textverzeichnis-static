@@ -155,6 +155,7 @@
                   <forename>Georg</forename>
                   <surname>Brandes</surname>
                </persName>
+               <persName type="legacy-name-merge">Brandes, Georg</persName>
                <birth>
                   <date when-iso="1842-02-04">04.02.1842</date>
                   <settlement key="36300">
@@ -184,6 +185,8 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q316045</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Georg_Brandes</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb10992.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159465/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_531</idno>
                <affiliation>
                   <term key="1153">in Bezug zu</term>
                   <orgName key="34262">Morgen. Wochenschrift für deutsche Kultur</orgName>
@@ -205,7 +208,9 @@
                </listEvent>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Georg%20Brandes%20by%20L%20Szacinski.jpg"/>
                </figure>
@@ -250,93 +255,162 @@
             </person>
             <person xml:id="pmb157066">
                <persName>
-                  <surname>Whitman</surname>
                   <forename>Sidney</forename>
+                  <surname>Whitman</surname>
                </persName>
                <birth>
-                  <date when="1848">1848</date>
+                  <date notBefore-iso="1848-01-01"
+                        when-iso="1848-07-01"
+                        notAfter-iso="1848-12-31">1848</date>
                </birth>
                <death>
-                  <date when="1925">1925</date>
+                  <date when-iso="1925-07-02" notAfter-iso="1925-12-31">1925</date>
                </death>
-               <idno type="HB-tv">HB-tv_2752_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157066.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/157066/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2752_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb151779">
                <persName>
-                  <surname>Hillebrand</surname>
                   <forename>Karl</forename>
+                  <surname>Hillebrand</surname>
                </persName>
+               <persName type="legacy-name-merge">Hillebrand, Karl</persName>
                <birth>
-                  <date>1829-09-17</date>
-                  <placeName type="wikidata" ref="Q3874">Gießen</placeName>
+                  <date when-iso="1829-09-17">1829-09-17</date>
+                  <settlement key="112551">
+                     <placeName type="pref">Gießen</placeName>
+                     <location>
+                        <geo>50,583329 8,65</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1884-10-19</date>
-                  <placeName type="wikidata" ref="Q2044">Florenz</placeName>
+                  <date when-iso="1884-10-19">1884-10-19</date>
+                  <settlement key="263">
+                     <placeName type="pref">Florenz</placeName>
+                     <location>
+                        <geo>43,77925 11,24626</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2942_p12</idno>
-               <idno type="wikidata">Q71106</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/116811994</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151779.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/151779/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q71106</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116811994</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2942_p12</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160519/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1885</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Karl_Hillebrand_(Essayist)</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
             </person>
             <person xml:id="pmb152211">
                <persName>
-                  <surname>Valera</surname>
                   <forename>Juan</forename>
+                  <surname>Valera</surname>
                </persName>
                <birth>
-                  <date>1824-10-18</date>
-                  <placeName type="wikidata" ref="Q927931">Cabra</placeName>
+                  <date when-iso="1824-10-18">1824-10-18</date>
+                  <settlement key="152212">
+                     <placeName type="pref">Cabra</placeName>
+                     <location>
+                        <geo>37,4718153 -4,4335616</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1905-04-18</date>
-                  <placeName type="wikidata" ref="Q2807">Madrid</placeName>
+                  <date when-iso="1905-04-18">1905-04-18</date>
+                  <settlement key="914">
+                     <placeName type="pref">Madrid</placeName>
+                     <location>
+                        <geo>40,4165 -3,70256</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2780_p4</idno>
-               <idno type="wikidata">Q463630</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/11880376X</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152211.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/152211/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q463630</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/11880376X</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2780_p4</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Juan_Valera</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb88079">
                <persName>
+                  <forename>James McNeill</forename>
                   <surname>Whistler</surname>
-                  <forename>James Abbott McNeill</forename>
                </persName>
                <birth>
-                  <date>1834-07-10</date>
-                  <placeName type="wikidata" ref="Q49162">Lowell</placeName>
+                  <date when-iso="1834-07-11">1834-07-11</date>
+                  <settlement key="48000">
+                     <placeName type="pref">Lowell</placeName>
+                     <location>
+                        <geo>42,63342 -71,31617</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1903-07-17</date>
-                  <placeName type="wikidata" ref="Q743535">Chelsea</placeName>
+                  <date when-iso="1903-07-17">1903-07-17</date>
+                  <settlement key="46895">
+                     <placeName type="pref">Chelsea</placeName>
+                     <location>
+                        <geo>51,48755 -0,16936</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_3427_p12</idno>
-               <idno type="wikidata">Q203643</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118632124</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb88079.html</idno>
+               <occupation key="110">Maler/Malerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/88079/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118632124</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp55433</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q203643</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/James_McNeill_Whistler</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3427_p12</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Whistler%20Selbstportr%C3%A4t.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb113956">
                <persName>
+                  <forename>Franz</forename>
                   <surname>Lenbach</surname>
-                  <forename>Franz von</forename>
                </persName>
                <birth>
-                  <date>1836-12-13</date>
-                  <placeName type="wikidata" ref="Q504746">Schrobenhausen</placeName>
+                  <date when-iso="1836-10-13">1836-10-13</date>
                </birth>
                <death>
-                  <date>1904-05-06</date>
-                  <placeName type="wikidata" ref="Q1726">München</placeName>
+                  <date when-iso="1904-05-06">1904-05-06</date>
+                  <settlement key="45258">
+                     <placeName type="pref">München</placeName>
+                     <location>
+                        <geo>48,13743 11,57549</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_3332_p1</idno>
-               <idno type="wikidata">Q585323</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118571516</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113956.html</idno>
+               <occupation key="110">Maler/Malerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/113956/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118571516</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43591</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q585323</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Franz_von_Lenbach</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3332_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

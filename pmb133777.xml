@@ -118,6 +118,7 @@
                   <forename>Wolfgang Amadeus</forename>
                   <surname>Mozart</surname>
                </persName>
+               <persName type="legacy-name-merge">Mozart, Wolfgang Amadeus</persName>
                <birth>
                   <date when-iso="1756-01-27">27.01.1756</date>
                   <settlement key="30">
@@ -149,6 +150,8 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart</idno>
                <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_13.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12303.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161409/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3028</idno>
                <affiliation notBefore-iso="1843-01-01"
                             when-iso="1843-07-02"
                             notAfter-iso="1843-12-31">
@@ -159,7 +162,9 @@
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Mozart%20Portrait%20Croce.jpg"/>
                </figure>
@@ -169,6 +174,7 @@
                   <forename>Hans</forename>
                   <surname>Makart</surname>
                </persName>
+               <persName type="legacy-name-merge">Makart, Hans</persName>
                <birth>
                   <date when-iso="1840-05-28">28.05.1840</date>
                   <settlement key="30">
@@ -197,8 +203,11 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q511444</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hans_Makart</idno>
                <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x002832c7</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161171/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2714</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Makart%20hans%20selbstportrat.jpg"/>
@@ -209,7 +218,8 @@
                   <forename>Fritz von</forename>
                   <surname>Uhde</surname>
                </persName>
-               <persName type="person_geburtsname-vorname">Friedrich</persName>
+               <persName type="person_geburtsname_vorname">Friedrich</persName>
+               <persName type="legacy-name-merge">Uhde, Fritz von</persName>
                <birth>
                   <date when-iso="1848-05-22">22.05.1848</date>
                   <settlement key="49950">
@@ -235,6 +245,12 @@
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb5776.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q210201</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Fritz_von_Uhde</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162594/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4511</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Fritz-Uhde-1880er.jpg"/>
                </figure>
@@ -325,122 +341,257 @@
             </person>
             <person xml:id="pmb43745">
                <persName>
+                  <forename>Viktor Oskar</forename>
                   <surname>Tilgner</surname>
-                  <forename>Victor</forename>
                </persName>
-               <idno type="HB-tv">HB-tv_2115_p1</idno>
-               <idno type="wikidata">Q326777</idno>
+               <birth>
+                  <date when-iso="1844-10-25">1844-10-25</date>
+               </birth>
+               <death>
+                  <date when-iso="1896-04-16">1896-04-16</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/121161919</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb43745.html</idno>
+               <occupation key="150">Bildhauer/Bildhauerin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/121161919</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43745/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp54121</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q326777</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Viktor_Tilgner</idno>
+               <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x0031115b</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2115_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3851_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3586_p15</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4437</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Victor-Tilgner-1881.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb152117">
                <persName>
-                  <surname>Werndl</surname>
                   <forename>Josef</forename>
+                  <surname>Werndl</surname>
                </persName>
                <birth>
-                  <date>1831-02-26</date>
-                  <placeName type="wikidata" ref="Q260320">Steyr</placeName>
+                  <date when-iso="1831-02-26">1831-02-26</date>
+                  <settlement key="16143">
+                     <placeName type="pref">Steyr</placeName>
+                     <location>
+                        <geo>48,05019716653718 14,417148411804263</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1889-04-29</date>
-                  <placeName type="wikidata" ref="Q260320">Steyr</placeName>
+                  <date when-iso="1889-04-29">1889-04-29</date>
+                  <settlement key="16143">
+                     <placeName type="pref">Steyr</placeName>
+                     <location>
+                        <geo>48,05019716653718 14,417148411804263</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2811_p2</idno>
-               <idno type="wikidata">Q1706031</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/117572543</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152117.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/152117/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1706031</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/117572543</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2811_p2</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Josef_Werndl</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb113956">
                <persName>
+                  <forename>Franz</forename>
                   <surname>Lenbach</surname>
-                  <forename>Franz von</forename>
                </persName>
                <birth>
-                  <date>1836-12-13</date>
-                  <placeName type="wikidata" ref="Q504746">Schrobenhausen</placeName>
+                  <date when-iso="1836-10-13">1836-10-13</date>
                </birth>
                <death>
-                  <date>1904-05-06</date>
-                  <placeName type="wikidata" ref="Q1726">München</placeName>
+                  <date when-iso="1904-05-06">1904-05-06</date>
+                  <settlement key="45258">
+                     <placeName type="pref">München</placeName>
+                     <location>
+                        <geo>48,13743 11,57549</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_3332_p1</idno>
-               <idno type="wikidata">Q585323</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118571516</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113956.html</idno>
+               <occupation key="110">Maler/Malerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/113956/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118571516</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43591</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q585323</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Franz_von_Lenbach</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3332_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb148681">
                <persName>
+                  <forename>Karl</forename>
                   <surname>Piloty</surname>
-                  <forename>Carl Theodor von</forename>
                </persName>
                <birth>
-                  <date>1826-10-01</date>
-                  <placeName type="wikidata" ref="Q1726">München</placeName>
+                  <date when-iso="1826-10-01">1826-10-01</date>
+                  <settlement key="45258">
+                     <placeName type="pref">München</placeName>
+                     <location>
+                        <geo>48,13743 11,57549</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1886-07-21</date>
-                  <placeName type="wikidata" ref="Q532939">Münsing</placeName>
+                  <date when-iso="1886-07-21">1886-07-21</date>
+                  <settlement key="148683">
+                     <placeName type="pref">Münsing</placeName>
+                     <location>
+                        <geo>47,9 11,366666666667</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_4053_p9</idno>
-               <idno type="wikidata">Q505758</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118641662</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148681.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148681/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q505758</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118641662</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4053_p9</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Carl_Theodor_von_Piloty</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb152120">
                <persName>
-                  <surname>Wertheimer</surname>
                   <forename>Gustav</forename>
+                  <surname>Wertheimer</surname>
                </persName>
                <birth>
-                  <date>1847-01-28</date>
-                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+                  <date when-iso="1847-01-28">1847-01-28</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1902-08-24</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1902-08-24">1902-08-24</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2811_p5</idno>
-               <idno type="wikidata">Q19917548</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/1078283680</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152120.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/152120/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q19917548</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1078283680</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2811_p5</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gustav_Wertheimer</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb3155">
                <persName>
-                  <surname>Michelangelo Buonarroti</surname>
+                  <forename>Buonarroti</forename>
+                  <surname>Michelangelo</surname>
                </persName>
+               <persName type="person_geburtsname_nachname">di Lodovico Buonarroti Simoni</persName>
+               <persName type="legacy-name-merge">Michelangelo Buonarroti, None</persName>
                <birth>
-                  <date>1475-03-06</date>
-                  <placeName type="wikidata" ref="Q52069">Caprese Michelangelo</placeName>
+                  <date when-iso="1475-03-06">6.03.1475</date>
+                  <settlement key="40565">
+                     <placeName type="pref">Caprese Michelangelo</placeName>
+                     <location>
+                        <geo>43,64031 11,98546</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1564-02-18</date>
-                  <placeName type="wikidata" ref="Q220">Rom</placeName>
+                  <date when-iso="1564-02-18">18.02.1564</date>
+                  <settlement key="445">
+                     <placeName type="pref">Rom</placeName>
+                     <location>
+                        <geo>41,89193 12,51133</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1235_p5</idno>
-               <idno type="wikidata">Q5592</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118582143</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3155.html</idno>
+               <occupation key="110">Maler/Malerin</occupation>
+               <occupation key="150">Bildhauer/Bildhauerin</occupation>
+               <occupation key="185">Architekt/Architektin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118582143</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3155.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3155/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18148</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb3155.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50161</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q5592</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Michelangelo</idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/michelangelo.html</idno>
+               <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_28.html</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1190_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1195_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4862_p7</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3364_p10</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5183_p5</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5381_p5</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3459_p3</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3427_p6</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3406_p28</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3286_p3</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3183_p10</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_620_p7</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2811_p6</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2702_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2694_p33</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2693_p6</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2679_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2614_p15</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1235_p5</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3359_p60</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2927</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Michelangelo%20Daniele%20da%20Volterra%20%28dettaglio%29.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb156984">
                <persName>
-                  <surname>Geiger</surname>
                   <forename>Johann Nepomuck</forename>
+                  <surname>Geiger</surname>
                </persName>
                <birth>
-                  <date when="1805">1805</date>
+                  <date notBefore-iso="1805-01-01"
+                        when-iso="1805-07-02"
+                        notAfter-iso="1805-12-31">1805</date>
                </birth>
                <death>
-                  <date when="1880">1880</date>
+                  <date when-iso="1880-07-01" notAfter-iso="1880-12-31">1880</date>
                </death>
-               <idno type="HB-tv">HB-tv_2811_p7</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156984.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156984/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2811_p7</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

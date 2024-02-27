@@ -83,17 +83,23 @@
          <listPerson>
             <person xml:id="pmb154679">
                <persName>
-                  <surname>Karlweis</surname>
                   <forename>Martha verh. Bassermann</forename>
+                  <surname>Karlweis</surname>
                </persName>
                <birth>
-                  <date when="1889">1889</date>
+                  <date notBefore-iso="1889-01-01"
+                        when-iso="1889-07-02"
+                        notAfter-iso="1889-12-31">1889</date>
                </birth>
                <death>
-                  <date when="1965">1965</date>
+                  <date when-iso="1965-07-02" notAfter-iso="1965-12-31">1965</date>
                </death>
-               <idno type="HB-tv">HB-tv_6775_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154679.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154679/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_6775_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

@@ -186,8 +186,7 @@
                </listEvent>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
-                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag
-                        gefunden</bibl>
+                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag gefunden</bibl>
                   <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
                </listBibl>
             </person>
@@ -258,8 +257,7 @@
                   </event>
                   <event key="35113" when-iso="1904-12-12">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Premiere von Literatur, Die letzten Masken, Der Puppenspieler,
-                           12.12.1904</label>
+                     <label>Premiere von Literatur, Die letzten Masken, Der Puppenspieler, 12.12.1904</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35113/</idno>
                   </event>
                   <event key="35361" when-iso="1924-10-11">
@@ -282,6 +280,7 @@
                </persName>
                <persName type="person_geburtsname_nachname">Kohner</persName>
                <persName type="namensvariante">Cohner</persName>
+               <persName type="legacy-name-merge">Jarno, Josef</persName>
                <persName type="legacy-name-merge">Jarno, Josef</persName>
                <birth>
                   <date when-iso="1865-08-24">24.08.1865</date>
@@ -315,6 +314,8 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q86314</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Josef_Jarno</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2601.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160663/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2061</idno>
                <affiliation notBefore-iso="1893-01-01"
                             when-iso="1893-07-02"
                             notAfter-iso="1893-12-31">
@@ -338,8 +339,7 @@
                <listEvent>
                   <event key="63396" when-iso="1893-03-29">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Vorstellung zu Gunsten der Rettungsgesellschaft (Gläubiger, Die
-                           Statue des Kommandeurs), 29.3.1893</label>
+                     <label>Vorstellung zu Gunsten der Rettungsgesellschaft (Gläubiger, Die Statue des Kommandeurs), 29.3.1893</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63396/</idno>
                   </event>
                   <event key="35284" when-iso="1893-07-14">
@@ -354,8 +354,7 @@
                   </event>
                   <event key="63002" when-iso="1900-02-23">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Einakterabend (Bagatelle; Er, sie und er; Abschied vom Regiment,
-                           Abschiedssouper), 23.2.1900</label>
+                     <label>Einakterabend (Bagatelle; Er, sie und er; Abschied vom Regiment, Abschiedssouper), 23.2.1900</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63002/</idno>
                   </event>
                   <event key="143820" when-iso="1900-04-15">
@@ -365,8 +364,7 @@
                   </event>
                   <event key="35113" when-iso="1904-12-12">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Premiere von Literatur, Die letzten Masken, Der Puppenspieler,
-                           12.12.1904</label>
+                     <label>Premiere von Literatur, Die letzten Masken, Der Puppenspieler, 12.12.1904</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35113/</idno>
                   </event>
                </listEvent>
@@ -374,7 +372,9 @@
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Josef%20Jarno%201901%20Scolik.jpg"/>
                </figure>
@@ -451,106 +451,318 @@
             </person>
             <person xml:id="pmb4132">
                <persName>
+                  <forename>Ludwig</forename>
                   <surname>Tieck</surname>
-                  <forename>Johann Ludwig</forename>
                </persName>
+               <persName type="legacy-name-merge">Tieck, Ludwig</persName>
                <birth>
-                  <date>1773-05-31</date>
-                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+                  <date when-iso="1773-05-31">1773-05-31</date>
+                  <settlement key="168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+                  <settlement key="168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1853-04-28</date>
-                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+                  <date when-iso="1853-07-02" notAfter-iso="1853-12-31">1853</date>
+                  <settlement key="168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
+                  <settlement key="168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2461_p1</idno>
-               <idno type="wikidata">Q57239</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/12989432X</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb4132.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/12989432X</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4132.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4132/</idno>
+               <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/personen/pmb4132</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49337</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q57239</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ludwig_Tieck</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2461_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4434</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64901/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb64901.html</idno>
+               <listBibl>
+                  <bibl type="collections" n="5">legalkraus</bibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tieck%20par%20Robert%20Schneider%2C%201833.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb2868">
                <persName>
+                  <forename>Victor</forename>
                   <surname>Kutschera</surname>
-                  <forename>Viktor</forename>
                </persName>
+               <persName type="legacy-name-merge">Kutschera, Victor</persName>
                <birth>
-                  <date>1863-05-02</date>
-                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+                  <date when-iso="1863-05-02">1863-05-02</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1933-01-20</date>
-                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+                  <date when-iso="1933-01-20">1933-01-20</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2035_p2</idno>
-               <idno type="wikidata">Q2524322</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/116628081</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2868.html</idno>
+               <occupation key="104">Regisseur/Regisseurin</occupation>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116628081</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17223</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2868.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2868/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp54884</idno>
+               <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x002826c6</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2524322</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Viktor_Kutschera</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2868.html</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2035_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2380</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160915/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2379</idno>
+               <listEvent>
+                  <event key="142819" when-iso="1892-05-21">
+                     <desc n="1256">ist Arbeitskraft bei</desc>
+                     <label>Aufführung von Thermidor, 21.5.1892</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/142819/</idno>
+                  </event>
+                  <event key="143021" when-iso="1893-02-15">
+                     <desc n="1256">ist Arbeitskraft bei</desc>
+                     <label>Premiere von Francillon, 15.2.1893</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/143021/</idno>
+                  </event>
+                  <event key="35068" when-iso="1893-12-01">
+                     <desc n="1256">ist Arbeitskraft bei</desc>
+                     <label>Uraufführung von Das Märchen, 1.12.1893</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35068/</idno>
+                  </event>
+                  <event key="146985" when-iso="1894-03-31">
+                     <desc n="1256">ist Arbeitskraft bei</desc>
+                     <label>Uraufführung von Rausch, 31.3.1894</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/146985/</idno>
+                  </event>
+                  <event key="35203" when-iso="1895-10-09">
+                     <desc n="1256">ist Arbeitskraft bei</desc>
+                     <label>Uraufführung von Liebelei, Premiere von Rechte der Seele, 9.10.1895</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35203/</idno>
+                  </event>
+                  <event key="42439" when-iso="1895-11-11">
+                     <desc n="1256">ist Arbeitskraft bei</desc>
+                     <label>Uraufführung von Das Glück im Winkel, 11.11.1895</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/42439/</idno>
+                  </event>
+                  <event key="143121" when-iso="1898-05-03">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Aufführung von Liebelei, 3.5.1898</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/143121/</idno>
+                  </event>
+                  <event key="143045" when-iso="1898-10-08">
+                     <desc n="1256">ist Arbeitskraft bei</desc>
+                     <label>Premiere von Mutter Erde, 8.10.1898</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/143045/</idno>
+                  </event>
+                  <event key="143042" when-iso="1898-11-11">
+                     <desc n="1256">ist Arbeitskraft bei</desc>
+                     <label>Aufführung von Im weißen Rössl, 11.11.1898</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/143042/</idno>
+                  </event>
+                  <event key="48470" when-iso="1905-04-13">
+                     <desc n="1256">ist Arbeitskraft bei</desc>
+                     <label>Uraufführung von Rat Schrimpf, 13.4.1905</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/48470/</idno>
+                  </event>
+                  <event key="35215" when-iso="1909-01-05">
+                     <desc n="1256">ist Arbeitskraft bei</desc>
+                     <label>Premiere von Liebelei, deutschsprachige Uraufführung von Komtesse Mizzi, 5.1.1909</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35215/</idno>
+                  </event>
+                  <event key="46552" when-iso="1909-12-10">
+                     <desc n="1256">ist Arbeitskraft bei</desc>
+                     <label>Generalprobe von Der Ruf des Lebens, 10.12.1909</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/46552/</idno>
+                  </event>
+                  <event key="35185" when-iso="1909-12-11">
+                     <desc n="1256">ist Arbeitskraft bei</desc>
+                     <label>Premiere von Der Ruf des Lebens, 11.12.1909</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35185/</idno>
+                  </event>
+                  <event key="59579" when-iso="1925-11-14">
+                     <desc n="1256">ist Arbeitskraft bei</desc>
+                     <label>Premiere von Der einsame Weg, 14.11.1925</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/59579/</idno>
+                  </event>
+               </listEvent>
+               <listBibl>
+                  <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references"> </note>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Viktor%20Kutschera.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb154494">
                <persName>
-                  <surname>Schröder</surname>
                   <forename>Friedrich Ludwig</forename>
+                  <surname>Schröder</surname>
                </persName>
+               <persName type="legacy-name-merge">Schröder, Friedrich Ludwig</persName>
+               <persName type="legacy-name-merge">Schröder, Friedrich Ludwig</persName>
                <birth>
-                  <date when="1744">1744</date>
+                  <date when-iso="1744-11-03">1744-11-03</date>
                </birth>
                <death>
-                  <date when="1816">1816</date>
+                  <date when-iso="1816-09-03">1816-09-03</date>
                </death>
-               <idno type="HB-tv">HB-tv_3856_p3</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154494.html</idno>
+               <sex value="male"/>
+               <occupation key="104">Regisseur/Regisseurin</occupation>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <occupation key="715">Theaterdirektor/Theaterdirektorin</occupation>
+               <occupation key="727">Dramatiker/Dramatikerin</occupation>
+               <occupation key="1449">Freimaurer/Freimaurerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/116024/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118610813</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp53047</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q213877</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Friedrich_Ludwig_Schr%C3%B6der</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154494/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3856_p3</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162170/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3985</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
             </person>
             <person xml:id="pmb5262">
                <persName>
+                  <forename>François-Joseph</forename>
                   <surname>Talma</surname>
-                  <forename>François Joseph</forename>
                </persName>
+               <persName type="legacy-name-merge">Talma, François-Joseph</persName>
+               <persName type="legacy-name-merge">Talma, François-Joseph</persName>
                <birth>
-                  <date>1763-01-15</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1763-01-15">15.01.1763</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1826-10-19</date>
-                  <placeName type="wikidata" ref="Q3451592"/>
+                  <date when-iso="1826-10-19">19.10.1826</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2461_p4</idno>
-               <idno type="wikidata">Q393983</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/117198838</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb5262.html</idno>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/117198838</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5262/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64999/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb64999.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp53931</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q393983</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Fran%C3%A7ois-Joseph_Talma</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb5262.html</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2461_p4</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162478/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4362</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Fran%C3%A7ois-Joseph%20Talma%20%281763-1826%29%2C%20by%20Aim%C3%A9e%20Perlet.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb148980">
                <persName>
-                  <surname>Monvel</surname>
+                  <forename>Jacques</forename>
+                  <surname>Boutet</surname>
                </persName>
                <birth>
-                  <date>1745-03-25</date>
-                  <placeName type="wikidata" ref="Q208794">Lunéville</placeName>
+                  <date when-iso="1745-03-25">1745-03-25</date>
+                  <settlement key="91175">
+                     <placeName type="pref">Lunéville</placeName>
+                     <location>
+                        <geo>48,59273 6,49383</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1812-02-13</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1812-02-13">1812-02-13</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2461_p5</idno>
-               <idno type="wikidata">Q1089209</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/120844141</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148980.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148980/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1089209</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/120844141</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2461_p5</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_331_p1</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Jacques_Marie_Boutet</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154281">
                <persName>
-                  <surname>Retty</surname>
                   <forename>Rudolf</forename>
+                  <surname>Retty</surname>
                </persName>
                <birth>
-                  <date when="1846">1846</date>
+                  <date notBefore-iso="1846-01-01"
+                        when-iso="1846-07-02"
+                        notAfter-iso="1846-12-31">1846</date>
                </birth>
                <death>
-                  <date when="1913">1913</date>
+                  <date when-iso="1913-07-02" notAfter-iso="1913-12-31">1913</date>
                </death>
-               <idno type="HB-tv">HB-tv_4645_p4</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154281.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154281/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4645_p4</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

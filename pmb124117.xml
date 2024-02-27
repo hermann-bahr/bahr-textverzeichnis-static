@@ -135,18 +135,14 @@
                <sex value="male"/>
                <occupation key="167">Kaiser/Kaiserin</occupation>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118560093</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">
-                     https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16724 </idno>
-               <idno type="URL" subtype="schnitzler-bahr">
-                     https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3986.html </idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16724</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3986.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3986/</idno>
-               <idno type="URL" subtype="schnitzler-briefe">
-                     https://schnitzler-briefe.acdh.oeaw.ac.at/pmb3986.html </idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb3986.html</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47632</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q32500</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Karl_V._(HRR)</idno>
-               <idno type="URL" subtype="thun-korrespondenz">
-                     https://thun-korrespondenz.acdh.oeaw.ac.at/karl-V.html </idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/karl-V.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160749/</idno>
                <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2175</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160751/</idno>
@@ -220,6 +216,7 @@
                   <forename>Ernst</forename>
                   <surname>Haeckel</surname>
                </persName>
+               <persName type="legacy-name-merge">Haeckel, Ernst</persName>
                <birth>
                   <date when-iso="1834-02-16">16.02.1834</date>
                   <settlement key="56027">
@@ -248,50 +245,93 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp45342</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q48246</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ernst_Haeckel</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160356/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1680</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ernst%20Haeckel%202.jpg"/>
                </figure>
             </person>
             <person xml:id="pmb2176">
                <persName>
-                  <surname>Philipp II. von Spanien</surname>
+                  <surname>Phillipp II. von Spanien</surname>
                </persName>
                <birth>
-                  <date>1527-05-21</date>
-                  <placeName type="wikidata" ref="Q11697419"/>
+                  <date when-iso="1527-05-21">21.5.1527</date>
+                  <settlement key="47632">
+                     <placeName type="pref">Valladolid</placeName>
+                     <location>
+                        <geo>41,65518 -4,72372</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1598-09-13</date>
-                  <placeName type="wikidata" ref="Q28471">Real Sitio de San Lorenzo de El
-                        Escorial</placeName>
+                  <date when-iso="1598-09-13">13.9.1598</date>
+                  <settlement key="53792">
+                     <placeName type="pref">El Escorial</placeName>
+                     <location>
+                        <geo>38,57783 -2,4515</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_76_p1</idno>
-               <idno type="wikidata">Q34417</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118593862</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2176.html</idno>
+               <occupation key="109">König/Königin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118593862</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2176.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2176/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2176.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q34417</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Philipp_II._(Spanien)</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_76_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4881_p3</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1256_p6</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4874_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1387_p16</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2694_p15</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Portrait%20of%20Philip%20II%20of%20Spain%20by%20Sofonisba%20Anguissola%20-%20002b.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb149003">
                <persName>
-                  <surname>Destouches</surname>
-                  <forename>Philippe Néricault</forename>
+                  <forename>Philippe</forename>
+                  <surname>Philippe Néricault Destouches</surname>
                </persName>
                <birth>
-                  <date>1680-04-09</date>
-                  <placeName type="wikidata" ref="Q288">Tours</placeName>
+                  <date when-iso="1680-04-09">1680-04-09</date>
+                  <settlement key="120965">
+                     <placeName type="pref">Tours</placeName>
+                     <location>
+                        <geo>47,38333 0,68333</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1754-07-04</date>
-                  <placeName type="wikidata" ref="Q83712177"/>
+                  <date when-iso="1754-07-04">1754-07-04</date>
+                  <settlement key="149005">
+                     <placeName type="pref">Fortoiseau Castle</placeName>
+                     <location>
+                        <geo>48,503994 2,589105</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2244_p3</idno>
-               <idno type="wikidata">Q177063</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118671669</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149003.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/149003/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q177063</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118671669</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2244_p3</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_935</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Philippe_N%C3%A9ricault_Destouches</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

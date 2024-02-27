@@ -87,6 +87,7 @@
                   <forename>Johann Nepomuk</forename>
                   <surname>Nestroy</surname>
                </persName>
+               <persName type="legacy-name-merge">Nestroy, Johann Nepomuk</persName>
                <birth>
                   <date when-iso="1801-12-07">07.12.1801</date>
                   <settlement key="50">
@@ -123,11 +124,15 @@
                <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x002835f4</idno>
                <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_38.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12338.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161479/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3112</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nestroy.jpg"/>
                </figure>
@@ -269,8 +274,7 @@
                   </event>
                   <event key="144203" when-iso="1901-11-16">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Eröffnungsveranstaltung Jung-Wiener-Theater »Zum lieben Augustin«,
-                           16.11.1901</label>
+                     <label>Eröffnungsveranstaltung Jung-Wiener-Theater »Zum lieben Augustin«, 16.11.1901</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/144203/</idno>
                   </event>
                </listEvent>
@@ -284,17 +288,23 @@
             </person>
             <person xml:id="pmb154479">
                <persName>
-                  <surname>Fröden</surname>
                   <forename>d.i. Adolf Meyer</forename>
+                  <surname>Fröden</surname>
                </persName>
                <birth>
-                  <date when="1861">1861</date>
+                  <date notBefore-iso="1861-01-01"
+                        when-iso="1861-07-02"
+                        notAfter-iso="1861-12-31">1861</date>
                </birth>
                <death>
-                  <date when="1932">1932</date>
+                  <date when-iso="1932-07-01" notAfter-iso="1932-12-31">1932</date>
                </death>
-               <idno type="HB-tv">HB-tv_2319_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154479.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154479/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2319_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

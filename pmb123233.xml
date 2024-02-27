@@ -94,6 +94,7 @@
                   <forename>Paul</forename>
                   <surname>Schlenther</surname>
                </persName>
+               <persName type="legacy-name-merge">Schlenther, Paul</persName>
                <birth>
                   <date when-iso="1854-08-20">20.08.1854</date>
                   <settlement key="48092">
@@ -127,6 +128,8 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q194574</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Paul_Schlenther</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12671.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162100/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3909</idno>
                <affiliation notBefore-iso="1886-01-01"
                             when-iso="1886-07-02"
                             notAfter-iso="1886-12-31">
@@ -181,33 +184,45 @@
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Paul%20Schlenther%201901%20Scolik.jpg"/>
                </figure>
             </person>
             <person xml:id="pmb154290">
                <persName>
-                  <surname>Häberle</surname>
                   <forename>Else</forename>
+                  <surname>Häberle</surname>
                </persName>
-               <occupation>Schauspielerin</occupation>
-               <idno type="HB-tv">HB-tv_4064_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154290.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154290/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4064_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154033">
                <persName>
-                  <surname>Thaller</surname>
                   <forename>Willy</forename>
+                  <surname>Thaller</surname>
                </persName>
                <birth>
-                  <date when="1854">1854</date>
+                  <date notBefore-iso="1854-01-01"
+                        when-iso="1854-07-02"
+                        notAfter-iso="1854-12-31">1854</date>
                </birth>
                <death>
-                  <date when-custom="1941?">1941?</date>
+                  <date>1941?</date>
                </death>
-               <idno type="HB-tv">HB-tv_2399_p3</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154033.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154033/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2399_p3</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

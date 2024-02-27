@@ -63,7 +63,7 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb12358"/>
-                     <ptr type="pmb" target="pmb156539"/>
+                     <ptr type="pmb" target="pmb167549"/>
                      <ptr type="pmb" target="pmb156540"/>
                      <ptr type="pmb" target="pmb151458"/>
                      <ptr type="pmb" target="pmb151459"/>
@@ -86,6 +86,7 @@
                   <forename>Friedrich</forename>
                   <surname>Nietzsche</surname>
                </persName>
+               <persName type="legacy-name-merge">Nietzsche, Friedrich</persName>
                <birth>
                   <date when-iso="1844-10-15">15.10.1844</date>
                   <settlement key="55896">
@@ -121,73 +122,122 @@
                <idno type="URL" subtype="oeml">https://dx.doi.org/10.1553/0x0001db4e</idno>
                <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12358.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12358.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161498/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3133</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nietzsche187a.jpg"/>
                </figure>
             </person>
-            <person xml:id="pmb156539">
+            <person xml:id="pmb167549">
                <persName>
-                  <surname>Lechner</surname>
                   <forename>Ernst</forename>
+                  <surname>Lechner</surname>
                </persName>
-               <occupation>Autor Schweizer Wanderbücher</occupation>
-               <idno type="HB-tv">HB-tv_627_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156539.html</idno>
+               <birth>
+                  <date when-iso="1825-10-18">1825-10-18</date>
+                  <settlement key="864">
+                     <placeName type="pref">Leipzig</placeName>
+                     <location>
+                        <geo>51,33962 12,37129</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when-iso="1912-12-12">1912-12-12</date>
+                  <settlement key="167551">
+                     <placeName type="pref">Thusis</placeName>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation key="513">Pfarrer/Pfarrerin</occupation>
+               <occupation key="2318">Heimatkundler/Heimatkundlerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/167549/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q6201831</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116850639</idno>
+               <listBibl>
+                  <bibl type="collections" n="23">manually created entity</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb156540">
                <persName>
-                  <surname>Andeer</surname>
                   <forename>Peter Justus</forename>
+                  <surname>Andeer</surname>
                </persName>
                <birth>
-                  <date when="1815">1815</date>
+                  <date notBefore-iso="1815-01-01"
+                        when-iso="1815-07-02"
+                        notAfter-iso="1815-12-31">1815</date>
                </birth>
                <death>
-                  <date when="1882">1882</date>
+                  <date when-iso="1882-07-02" notAfter-iso="1882-12-31">1882</date>
                </death>
-               <idno type="HB-tv">HB-tv_627_p2</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156540.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156540/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_627_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb151458">
                <persName>
-                  <surname>Caderas</surname>
-                  <forename>Gian Fadri</forename>
+                  <forename>Gian</forename>
+                  <surname>Gian Fadri Caderas</surname>
                </persName>
                <birth>
-                  <date>1830-07-13</date>
+                  <date when-iso="1830-07-13">1830-07-13</date>
                </birth>
                <death>
-                  <date>1891</date>
+                  <date when-iso="1891-07-02" notAfter-iso="1891-12-31">1891</date>
                </death>
-               <idno type="HB-tv">HB-tv_627_p3</idno>
-               <idno type="wikidata">Q648104</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/1046075330</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151458.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/151458/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q648104</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1046075330</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_627_p3</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+                  <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb151459">
                <persName>
-                  <surname>Ferraris</surname>
                   <forename>Maggiorino</forename>
+                  <surname>Ferraris</surname>
                </persName>
                <birth>
-                  <date>1856-04-06</date>
-                  <placeName type="wikidata" ref="Q17244">Acqui Terme</placeName>
+                  <date when-iso="1856-04-06">1856-04-06</date>
+                  <settlement key="151460">
+                     <placeName type="pref">Acqui Terme</placeName>
+                     <location>
+                        <geo>44,676111111111 8,4686111111111</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1929-04-23</date>
-                  <placeName type="wikidata" ref="Q220">Rom</placeName>
+                  <date when-iso="1929-04-23">1929-04-23</date>
+                  <settlement key="445">
+                     <placeName type="pref">Rom</placeName>
+                     <location>
+                        <geo>41,89193 12,51133</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_627_p4</idno>
-               <idno type="wikidata">Q3843158</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/1072193663</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151459.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/151459/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q3843158</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1072193663</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_627_p4</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+                  <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

@@ -133,6 +133,7 @@
                   <forename>Richard</forename>
                   <surname>Fellner</surname>
                </persName>
+               <persName type="legacy-name-merge">Fellner, Richard</persName>
                <birth>
                   <date when-iso="1861-01-13">13.01.1861</date>
                   <settlement key="50">
@@ -162,12 +163,15 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43185</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q55674495</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11308.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159999/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1217</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
-                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag
-                        gefunden</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag gefunden</bibl>
                   <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
                </listBibl>
+               <note type="references"> </note>
             </person>
             <person xml:id="pmb38364">
                <persName>
@@ -200,7 +204,6 @@
                <occupation key="95">Politiker/Politikerin</occupation>
                <occupation key="106">Rechtsanwalt/Rechtsanwältin</occupation>
                <occupation key="1639">Jurist/Juristin</occupation>
-               <occupation key="2088">Politiker/Politikerin</occupation>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/38364/</idno>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16049</idno>
                <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/personen/pmb38364</idno>
@@ -237,36 +240,53 @@
             </person>
             <person xml:id="pmb157495">
                <persName>
-                  <surname>Henneberg</surname>
                   <forename>A. Freiherr Henn von</forename>
+                  <surname>Henneberg</surname>
                </persName>
-               <idno type="HB-tv">HB-tv_3901_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157495.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/157495/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3901_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154957">
                <persName>
-                  <surname>Heine</surname>
                   <forename>Wilhelm</forename>
+                  <surname>Heine</surname>
                </persName>
+               <persName type="legacy-name-merge">Heine, Wilhelm</persName>
                <birth>
-                  <date when-custom="um 1865">um 1865</date>
+                  <date when-iso="1865-01-01">um 1865&lt;1865-01-01&gt;</date>
                </birth>
                <death>
-                  <date when="1923">1923</date>
+                  <date when-iso="1923-07-02" notAfter-iso="1923-12-31">1923</date>
                </death>
-               <idno type="HB-tv">HB-tv_6574_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154957.html</idno>
+               <sex value="male"/>
+               <occupation key="3138">Gerichtsassessor/Gerichtsassessorin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/118947/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154957/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_6574_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb157496">
                <persName>
-                  <surname>Jaensch</surname>
                   <forename>Theodor</forename>
+                  <surname>Jaensch</surname>
                </persName>
                <birth>
-                  <date when="1860">1860</date>
+                  <date notBefore-iso="1860-01-01"
+                        when-iso="1860-07-01"
+                        notAfter-iso="1860-12-31">1860</date>
                </birth>
-               <idno type="HB-tv">HB-tv_3901_p3</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157496.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/157496/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3901_p3</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

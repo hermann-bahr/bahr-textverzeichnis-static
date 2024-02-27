@@ -131,6 +131,7 @@
                   <forename>Wolfgang Amadeus</forename>
                   <surname>Mozart</surname>
                </persName>
+               <persName type="legacy-name-merge">Mozart, Wolfgang Amadeus</persName>
                <birth>
                   <date when-iso="1756-01-27">27.01.1756</date>
                   <settlement key="30">
@@ -162,6 +163,8 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart</idno>
                <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_13.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12303.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161409/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3028</idno>
                <affiliation notBefore-iso="1843-01-01"
                             when-iso="1843-07-02"
                             notAfter-iso="1843-12-31">
@@ -172,7 +175,9 @@
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Mozart%20Portrait%20Croce.jpg"/>
                </figure>
@@ -295,93 +300,224 @@
             </person>
             <person xml:id="pmb2404">
                <persName>
+                  <forename>Friedrich</forename>
                   <surname>Hebbel</surname>
-                  <forename>Christian Friedrich</forename>
                </persName>
+               <persName type="legacy-name-merge">Hebbel, Friedrich</persName>
+               <persName type="legacy-name-merge">Hebbel, Friedrich</persName>
                <birth>
-                  <date>1813-03-18</date>
-                  <placeName type="wikidata" ref="Q518460">Wesselburen</placeName>
+                  <date when-iso="1813-03-18">18.03.1813</date>
+                  <settlement key="53806">
+                     <placeName type="pref">Wesselburen</placeName>
+                     <location>
+                        <geo>54,21217 8,92419</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1863-12-13</date>
-                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+                  <date when-iso="1863-12-13">13.12.1863</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_6576_p3</idno>
-               <idno type="wikidata">Q57182</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118547445</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2404.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118547445</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2404.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2404/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16009</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2404.html</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2404.html</idno>
+               <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/personen/pmb2404</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43835</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q57182</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Friedrich_Hebbel</idno>
+               <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x00281cdc</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2404.html</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_6576_p3</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160426/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1766</idno>
+               <listBibl>
+                  <bibl type="collections" n="5">legalkraus</bibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references"> </note>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bezirksmuseum%20Josefstadt%2C%20Friedrich%20Hebbel.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb150506">
                <persName>
-                  <surname>Mörk von Mörkenstein</surname>
                   <forename>Alexander</forename>
+                  <surname>Alexander Mörk von Mörkenstein</surname>
                </persName>
                <birth>
-                  <date>1887-12-04</date>
-                  <placeName type="wikidata" ref="Q208473">Przemyśl</placeName>
+                  <date when-iso="1887-12-04">1887-12-04</date>
+                  <settlement key="98897">
+                     <placeName type="pref">Przemyśl</placeName>
+                  </settlement>
                </birth>
                <death>
-                  <date>1914-10-23</date>
-                  <placeName type="wikidata" ref="Q983983">Nisko</placeName>
+                  <date when-iso="1914-10-23">1914-10-23</date>
+                  <settlement key="150508">
+                     <placeName type="pref">Nisko</placeName>
+                     <location>
+                        <geo>50,533333333333 22,133333333333</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_5313_p1</idno>
-               <idno type="wikidata">Q2642709</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118883267</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150506.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/150506/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2642709</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118883267</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5313_p1</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alexander_M%C3%B6rk_von_M%C3%B6rkenstein</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb150510">
                <persName>
-                  <surname>Schoßleitner</surname>
                   <forename>Karl</forename>
+                  <surname>Karl Schoßleitner</surname>
                </persName>
-               <occupation>Schriftsteller</occupation>
                <birth>
-                  <date>1888-06-18</date>
-                  <placeName type="wikidata" ref="Q265227">Cavalese</placeName>
+                  <date when-iso="1888-06-18">1888-06-18</date>
+                  <settlement key="150511">
+                     <placeName type="pref">Cavalese</placeName>
+                     <location>
+                        <geo>46,291111111111114 11,460555555555555</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1959-12-11</date>
-                  <placeName type="wikidata" ref="Q34713">Salzburg</placeName>
+                  <date when-iso="1959-12-11">1959-12-11</date>
+                  <settlement key="30">
+                     <placeName type="pref">Salzburg</placeName>
+                     <location>
+                        <geo>47,80067 13,04532</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_5313_p3</idno>
-               <idno type="wikidata">Q94912609</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/142130400</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150510.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/150510/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94912609</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/142130400</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5313_p3</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+                  <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb3084">
                <persName>
-                  <surname>Joseph II. von Österreich</surname>
+                  <surname>Josef II.</surname>
                </persName>
                <birth>
-                  <date>1741-03-13</date>
-                  <placeName type="wikidata" ref="Q636910">Hietzing</placeName>
+                  <date when-iso="1741-03-13">13.03.1741</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1790-02-20</date>
-                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+                  <date when-iso="1790-02-20">20.02.1790</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2293_p2</idno>
-               <idno type="wikidata">Q76555</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118558404</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3084.html</idno>
+               <occupation key="167">Kaiser/Kaiserin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118558404</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16586</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3084.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3084/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/18919/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47097</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q76555</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Joseph_II.</idno>
+               <idno type="URL" subtype="oeml">https://dx.doi.org/10.1553/0x0001d33e</idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/joseph-II.html</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb3084.html</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2293_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4874_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4873_p7</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_33_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3522_p5</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3519_p3</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3501_p10</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3493_p8</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3491_p7</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1224_p3</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4865_p17</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4862_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4859_p11</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4857_p28</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4854_p4</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4852_p18</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4851_p16</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4849_p12</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4848_p10</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4846_p16</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4845_p6</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4844_p6</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3377_p21</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3366_p31</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3365_p3</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3340_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3333_p5</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1401_p18</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1376_p13</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1376_p99</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1626_p27</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1625_p13</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3330_p4</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1113_p4</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3881_p5</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3292_p3</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3288_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1363_p36</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_528_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2731_p4</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2615_p19</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1402_p61</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Anton%20von%20Maron%20006.png"/>
+               </figure>
             </person>
             <person xml:id="pmb155517">
                <persName>
-                  <surname>Bach</surname>
                   <forename>Alexander von</forename>
+                  <surname>Bach</surname>
                </persName>
                <birth>
-                  <date when="1813">1813</date>
+                  <date notBefore-iso="1813-01-01"
+                        when-iso="1813-07-02"
+                        notAfter-iso="1813-12-31">1813</date>
                </birth>
                <death>
-                  <date when="1893">1893</date>
+                  <date when-iso="1893-07-02" notAfter-iso="1893-12-31">1893</date>
                </death>
-               <idno type="HB-tv">HB-tv_3366_p29</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155517.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155517/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3366_p29</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

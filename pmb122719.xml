@@ -121,8 +121,7 @@
                <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3153</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
-                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag
-                        gefunden</bibl>
+                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag gefunden</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                   <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
                </listBibl>
@@ -132,42 +131,61 @@
             </person>
             <person xml:id="pmb148771">
                <persName>
-                  <surname>Aicard</surname>
                   <forename>Jean</forename>
+                  <surname>Jean Aicard</surname>
                </persName>
                <birth>
-                  <date>1848-02-04</date>
-                  <placeName type="wikidata" ref="Q44160">Toulon</placeName>
+                  <date when-iso="1848-02-04">1848-02-04</date>
+                  <settlement key="898">
+                     <placeName type="pref">Toulon</placeName>
+                     <location>
+                        <geo>43,12442 5,92836</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1921-05-13</date>
-                  <placeName type="wikidata" ref="Q259463">7. Arrondissement von
-                        Paris</placeName>
+                  <date when-iso="1921-05-13">1921-05-13</date>
+                  <settlement key="141464">
+                     <placeName type="pref">7. Arrondissement (Palais-Bourbon)</placeName>
+                     <location>
+                        <geo>48,8565 2,321</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2357_p1</idno>
-               <idno type="wikidata">Q726967</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118644122</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148771.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148771/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q726967</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118644122</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2357_p1</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Jean_Aicard</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb120101">
                <persName>
-                  <surname>Silvain</surname>
                   <forename>Eugène</forename>
+                  <surname>Silvain</surname>
                </persName>
                <birth>
-                  <date>1851-01-17</date>
-                  <placeName type="wikidata" ref="Q133069">Bourg-en-Bresse</placeName>
+                  <date notBefore-iso="1851-01-01"
+                        when-iso="1851-07-02"
+                        notAfter-iso="1851-12-31">1851</date>
                </birth>
                <death>
-                  <date>1930-08-21</date>
-                  <placeName type="wikidata" ref="Q23482">Marseille</placeName>
+                  <date when-iso="1930-07-02" notAfter-iso="1930-12-31">1930</date>
                </death>
-               <idno type="HB-tv">HB-tv_2357_p2</idno>
-               <idno type="wikidata">Q3060175</idno>
-               <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/140178031</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb120101.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/120101/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/140178031</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb120101.html</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2357_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="13">No WikiData-ID found</bibl>
+                  <bibl type="collections" n="15">Schnitzler-Kino</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

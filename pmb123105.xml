@@ -100,6 +100,7 @@
                </persName>
                <persName type="person_ehename_nachname">Kiss von Ittebe</persName>
                <persName type="legacy-name-merge">Schratt, Katharina</persName>
+               <persName type="legacy-name-merge">Schratt, Katharina</persName>
                <birth>
                   <date when-iso="1853-09-11">11.09.1853</date>
                   <settlement key="662">
@@ -130,6 +131,8 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q78534</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Katharina_Schratt</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2680.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162162/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3975</idno>
                <listEvent>
                   <event key="88011" when-iso="1894-10-22">
                      <desc n="1256">ist Arbeitskraft bei</desc>
@@ -143,8 +146,7 @@
                   </event>
                   <event key="35479" when-iso="1899-03-01">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Uraufführung von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei
-                           Einakter, 1.3.1899</label>
+                     <label>Uraufführung von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei Einakter, 1.3.1899</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35479/</idno>
                   </event>
                   <event key="141417" when-iso="1899-12-17">
@@ -156,7 +158,9 @@
                <listBibl>
                   <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Katharina%20Schratt%20im%20Abendkleid.jpg"/>
                </figure>
@@ -283,8 +287,7 @@
                   </event>
                   <event key="63085" when-iso="1889-05-04">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Premiere von Der Schierling, Uraufführung von Im Bunde der Dritte,
-                           Der Flüchtling, 4.5.1889</label>
+                     <label>Premiere von Der Schierling, Uraufführung von Im Bunde der Dritte, Der Flüchtling, 4.5.1889</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63085/</idno>
                   </event>
                   <event key="142819" when-iso="1892-05-21">
@@ -304,8 +307,7 @@
                   </event>
                   <event key="35203" when-iso="1895-10-09">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Uraufführung von Liebelei, Premiere von Rechte der Seele,
-                           9.10.1895</label>
+                     <label>Uraufführung von Liebelei, Premiere von Rechte der Seele, 9.10.1895</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35203/</idno>
                   </event>
                   <event key="42426" when-iso="1895-10-10">
@@ -395,50 +397,125 @@
             </person>
             <person xml:id="pmb2154">
                <persName>
+                  <forename>Vincenz</forename>
                   <surname>Chiavacci</surname>
-                  <forename>Vinzenz</forename>
                </persName>
+               <persName type="legacy-name-merge">Chiavacci, Vincenz</persName>
                <birth>
-                  <date>1847-06-15</date>
-                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+                  <date when-iso="1847-06-15">15.06.1847</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1916-02-02</date>
-                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+                  <date when-iso="1916-02-02">02.02.1916</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1450_p4</idno>
-               <idno type="wikidata">Q1585734</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/116504854</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2154.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation key="99">Journalist/Journalistin</occupation>
+               <occupation key="1472">Beamter/Beamte</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116504854</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14195</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2154.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2154/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2154.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp54940</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1585734</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Vinzenz_Chiavacci</idno>
+               <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x002811d2</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2154.html</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1450_p4</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159623/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_735</idno>
+               <affiliation notBefore-iso="1895-01-01"
+                            when-iso="1895-07-02"
+                            notAfter-iso="1895-12-31">
+                  <term key="1182">arbeitet für</term>
+                  <orgName key="167535">Das Bunte Blatt. Zeitschrift für die Familie</orgName>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/167535/</idno>
+               </affiliation>
+               <affiliation when-iso="1896-01-12">
+                  <term key="1182">arbeitet für</term>
+                  <orgName key="29724">Wiener Bilder. Illustrirtes Sonntagsblatt</orgName>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29724.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29724/</idno>
+               </affiliation>
+               <affiliation>
+                  <term key="1182">arbeitet für</term>
+                  <orgName key="29634">Verein der Literaturfreunde</orgName>
+                  <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29634.html</idno>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29634/</idno>
+               </affiliation>
+               <listEvent>
+                  <event key="143820" when-iso="1900-04-15">
+                     <desc n="1370">teilgenommen an</desc>
+                     <label>Bankett für Ludwig Speidel, 15.4.1900</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/143820/</idno>
+                  </event>
+               </listEvent>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Vinzenz%20Chiavacci%201892%20Vilimek.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb148848">
                <persName>
-                  <surname>Schadek</surname>
                   <forename>Moriz</forename>
+                  <surname>Moriz Schadek</surname>
                </persName>
                <birth>
-                  <date>1840-08-28</date>
-                  <placeName type="wikidata" ref="Q659918">Horn</placeName>
+                  <date when-iso="1840-08-28">1840-08-28</date>
+                  <settlement key="148849">
+                     <placeName type="pref">Horn</placeName>
+                     <location>
+                        <geo>48,665277777778 15,655833333333</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1928-05-31</date>
-                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+                  <date when-iso="1928-05-31">1928-05-31</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1979_p2</idno>
-               <idno type="wikidata">Q1411031</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/129263656</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148848.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148848/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1411031</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/129263656</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1979_p2</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Moriz_Schadek</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154236">
                <persName>
-                  <surname>Fischer</surname>
                   <forename>Steffi</forename>
+                  <surname>Fischer</surname>
                </persName>
-               <occupation>Violinspielerin</occupation>
-               <idno type="HB-tv">HB-tv_1979_p3</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154236.html</idno>
+               <sex value="not-set"/>
+               <occupation key="3495">Violinspieler/Violinspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154236/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1979_p3</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

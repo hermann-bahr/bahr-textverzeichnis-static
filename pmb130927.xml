@@ -284,8 +284,9 @@
                   <forename>Anatole</forename>
                   <surname>France</surname>
                </persName>
-               <persName type="person_geburtsname-vorname">François</persName>
+               <persName type="person_geburtsname_vorname">François</persName>
                <persName type="person_geburtsname_nachname">A. Thibault</persName>
+               <persName type="legacy-name-merge">France, Anatole</persName>
                <persName type="legacy-name-merge">France, Anatole</persName>
                <birth>
                   <date when-iso="1844-04-16">16.04.1844</date>
@@ -317,9 +318,13 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q42443</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Anatole_France</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb4279.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160067/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1296</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Anatole%20France%201921.png"/>
                </figure>
@@ -379,6 +384,7 @@
                   <forename>Henrik</forename>
                   <surname>Ibsen</surname>
                </persName>
+               <persName type="legacy-name-merge">Ibsen, Henrik</persName>
                <birth>
                   <date when-iso="1828-03-20">20.03.1828</date>
                   <settlement key="61065">
@@ -410,6 +416,8 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q36661</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Henrik_Ibsen</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11798.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160626/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2015</idno>
                <listEvent>
                   <event key="61712" when-iso="1891-04-11">
                      <desc n="1370">teilgenommen an</desc>
@@ -425,35 +433,66 @@
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ibsen%20by%20Olrik.jpg"/>
                </figure>
             </person>
             <person xml:id="pmb13194">
                <persName>
+                  <forename>Émile</forename>
                   <surname>Zola</surname>
-                  <forename>Emile</forename>
                </persName>
+               <persName type="legacy-name-merge">Zola, Émile</persName>
                <birth>
-                  <date>1840-04-02</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1840-04-02">02.04.1840</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1902-09-29</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1902-09-29">29.09.1902</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2691_p2</idno>
-               <idno type="wikidata">Q504</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118637223</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb13194.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation key="99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21578</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118637223</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13194/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13194.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp42655</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q504</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/%C3%89mile_Zola</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb13194.html</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb13194.html</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2691_p2</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162935/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4927</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emile%20Zola%201902.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb11518">
                <persName>
                   <forename>Franz</forename>
                   <surname>Grillparzer</surname>
                </persName>
+               <persName type="legacy-name-merge">Grillparzer, Franz</persName>
                <birth>
                   <date when-iso="1791-01-15">15.01.1791</date>
                   <settlement key="50">
@@ -491,11 +530,15 @@
                <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x002818d2</idno>
                <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_65.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11518.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160293/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1597</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Grillparzer%20cropped.jpg"/>
                </figure>
@@ -505,6 +548,7 @@
                   <forename>William</forename>
                   <surname>Shakespeare</surname>
                </persName>
+               <persName type="legacy-name-merge">Shakespeare, William</persName>
                <birth>
                   <date when-iso="1564-04-23">23.4.1564?&lt;1564-04-23&gt;</date>
                   <settlement key="49870">
@@ -540,75 +584,104 @@
                <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/shakespeare-william.html</idno>
                <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_10.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2412.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162255/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4086</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Shakespeare.jpg"/>
                </figure>
             </person>
             <person xml:id="pmb155410">
                <persName>
-                  <surname>Reiß</surname>
                   <forename>Erich</forename>
+                  <surname>Reiß</surname>
                </persName>
                <birth>
-                  <date when="1887">1887</date>
+                  <date notBefore-iso="1887-01-01"
+                        when-iso="1887-07-02"
+                        notAfter-iso="1887-12-31">1887</date>
                </birth>
                <death>
-                  <date when="1951">1951</date>
+                  <date when-iso="1951-07-02" notAfter-iso="1951-12-31">1951</date>
                </death>
-               <idno type="HB-tv">HB-tv_3369_p48</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155410.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155410/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3369_p48</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb156243">
                <persName>
-                  <surname>Puttkammer</surname>
                   <forename>Albert</forename>
+                  <surname>Puttkammer</surname>
                </persName>
                <birth>
-                  <date when="1840">1840</date>
+                  <date notBefore-iso="1840-01-01"
+                        when-iso="1840-07-01"
+                        notAfter-iso="1840-12-31">1840</date>
                </birth>
-               <idno type="HB-tv">HB-tv_3886_p2</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156243.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3886_p2</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156243/</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb151075">
                <persName>
-                  <surname>Mühlbrecht</surname>
                   <forename>Otto</forename>
+                  <surname>Otto Mühlbrecht</surname>
                </persName>
                <birth>
-                  <date>1838-02-28</date>
+                  <date when-iso="1838-02-28">1838-02-28</date>
                </birth>
                <death>
-                  <date>1906-07-26</date>
+                  <date when-iso="1906-07-26">1906-07-26</date>
                </death>
-               <idno type="HB-tv">HB-tv_3886_p3</idno>
-               <idno type="wikidata">Q19223057</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/117161918</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151075.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/151075/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q19223057</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/117161918</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3886_p3</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+                  <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb98129">
                <persName>
-                  <surname>Kobler</surname>
                   <forename>Franz</forename>
+                  <surname>Kobler</surname>
                </persName>
                <birth>
-                  <date>1882-12-28</date>
-                  <placeName type="wikidata" ref="Q191805">Mladá Boleslav</placeName>
+                  <date when-iso="1882-12-28">1882-12-28</date>
                </birth>
                <death>
-                  <date>1965-05-12</date>
-                  <placeName type="wikidata" ref="Q484678">Berkeley</placeName>
+                  <date when-iso="1965-05-12">1965-05-12</date>
                </death>
-               <idno type="HB-tv">HB-tv_3886_p4</idno>
-               <idno type="wikidata">Q1447841</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/116264055</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb98129.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation key="106">Rechtsanwalt/Rechtsanwältin</occupation>
+               <occupation key="134">Historiker/Historikerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/98129/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116264055</idno>
+               <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x002821a3</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43521</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1447841</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Franz_Kobler</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3886_p4</idno>
+               <listBibl>
+                  <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

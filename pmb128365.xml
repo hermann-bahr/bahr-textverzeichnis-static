@@ -100,6 +100,7 @@
                   <forename>Alexander</forename>
                   <surname>Moissi</surname>
                </persName>
+               <persName type="legacy-name-merge">Moissi, Alexander</persName>
                <birth>
                   <date when-iso="1879-04-02">02.04.1879</date>
                   <settlement key="873">
@@ -132,6 +133,8 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alexander_Moissi</idno>
                <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12274.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12274.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161359/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2965</idno>
                <affiliation>
                   <term key="1182">arbeitet für</term>
                   <orgName key="37214">Neue Wiener Bühne</orgName>
@@ -162,7 +165,9 @@
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Alexander%20Moissi%20by%20Nicola%20Perscheid.jpg"/>
                </figure>
@@ -405,6 +410,7 @@
                   <forename>Carl Friedrich</forename>
                   <surname>Zelter</surname>
                </persName>
+               <persName type="legacy-name-merge">Zelter, Carl Friedrich</persName>
                <birth>
                   <date when-iso="1758-12-11">11.12.1758</date>
                   <settlement key="168">
@@ -432,9 +438,13 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q58857</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Carl_Friedrich_Zelter</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb13177.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162919/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4906</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Carl-Friedrich-Zelter.jpeg"/>
                </figure>
@@ -485,36 +495,56 @@
             </person>
             <person xml:id="pmb149391">
                <persName>
-                  <surname>Varnhagen von Ense</surname>
                   <forename>Rahel</forename>
+                  <surname>Varnhagen</surname>
                </persName>
                <birth>
-                  <date>1771-05-19</date>
-                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+                  <date when-iso="1771-05-19">1771-05-19</date>
+                  <settlement key="168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1833-03-07</date>
-                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+                  <date when-iso="1833-03-07">1833-03-07</date>
+                  <settlement key="168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_3498_p4</idno>
-               <idno type="wikidata">Q61793</idno>
                <sex value="female"/>
-               <idno type="gnd">https://d-nb.info/gnd/118626175</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149391.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/149391/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q61793</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118626175</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3498_p4</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Rahel_Varnhagen_von_Ense</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154687">
                <persName>
-                  <surname>Friedrich II. von Preußen</surname>
                   <forename>»der Große«</forename>
+                  <surname>Friedrich II. von Preußen</surname>
                </persName>
                <birth>
-                  <date when="1712">1712</date>
+                  <date notBefore-iso="1712-01-01"
+                        when-iso="1712-07-01"
+                        notAfter-iso="1712-12-31">1712</date>
                </birth>
                <death>
-                  <date when="1786">1786</date>
+                  <date when-iso="1786-07-02" notAfter-iso="1786-12-31">1786</date>
                </death>
-               <idno type="HB-tv">HB-tv_1308_p2</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154687.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154687/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1308_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

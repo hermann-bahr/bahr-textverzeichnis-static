@@ -95,7 +95,8 @@
                   <forename>Loïe</forename>
                   <surname>Fuller</surname>
                </persName>
-               <persName type="person_geburtsname-vorname">Marie Louise</persName>
+               <persName type="person_geburtsname_vorname">Marie Louise</persName>
+               <persName type="legacy-name-merge">Fuller, Loïe</persName>
                <birth>
                   <date when-iso="1862-01-15">15.01.1862</date>
                   <settlement key="48325">
@@ -118,6 +119,12 @@
                <occupation key="190">Tänzer/Tänzerin</occupation>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15308</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/16797/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160145/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1394</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references"> </note>
             </person>
             <person xml:id="pmb3467">
                <persName>
@@ -125,6 +132,7 @@
                   <surname>Duncan</surname>
                </persName>
                <persName type="person_geschieden">Jessenin</persName>
+               <persName type="legacy-name-merge">Duncan, Isadora</persName>
                <persName type="legacy-name-merge">Duncan, Isadora</persName>
                <birth>
                   <date when-iso="1877-05-27">1877-05-27</date>
@@ -156,6 +164,8 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46510</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q483512</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Isadora_Duncan</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159840/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1031</idno>
                <listEvent>
                   <event key="44429" when-iso="1904-01-05">
                      <desc n="1256">ist Arbeitskraft bei</desc>
@@ -165,7 +175,9 @@
                </listEvent>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Isadora%20Duncan%20portrait%20cropped.jpg"/>
                </figure>
@@ -175,6 +187,7 @@
                   <forename>Auguste</forename>
                   <surname>Rodin</surname>
                </persName>
+               <persName type="legacy-name-merge">Rodin, Auguste</persName>
                <birth>
                   <date when-iso="1840-11-12">12.11.1840</date>
                   <settlement key="182">
@@ -203,9 +216,13 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q30755</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Auguste_Rodin</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb9554.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161906/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3656</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Auguste%20Rodin%20fotografato%20da%20Nadar%20nel%201891.jpg"/>
                </figure>
@@ -306,56 +323,97 @@
             </person>
             <person xml:id="pmb5387">
                <persName>
+                  <forename>Germaine de</forename>
                   <surname>Staël</surname>
-                  <forename>Anne Louise Germaine de</forename>
                </persName>
+               <persName type="person_geburtsname_nachname">Necker</persName>
                <birth>
-                  <date>1766-04-22</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1766-04-22">22.04.1766</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1817-07-14</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1817-07-14">14.07.1817</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_3357_p14</idno>
-               <idno type="wikidata">Q123041</idno>
                <sex value="female"/>
-               <idno type="gnd">https://d-nb.info/gnd/118616617</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb5387.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118616617</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5387/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49505</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q123041</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Germaine_de_Sta%C3%ABl</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb5387.html</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3357_p14</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Marie%20El%C3%A9onore%20Godefroid%20-%20Portrait%20of%20Mme%20de%20Sta%C3%ABl.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb150952">
                <persName>
-                  <surname>Carrière</surname>
                   <forename>Eugène</forename>
+                  <surname>Carrière</surname>
                </persName>
                <birth>
-                  <date>1849-01-16</date>
-                  <placeName type="wikidata" ref="Q245479">Gournay-sur-Marne</placeName>
+                  <date when-iso="1849-01-16">1849-01-16</date>
+                  <settlement key="150953">
+                     <placeName type="pref">Gournay-sur-Marne</placeName>
+                     <location>
+                        <geo>48,859722222222 2,5763888888889</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1906-03-27</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1906-03-27">1906-03-27</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_3429_p7</idno>
-               <idno type="wikidata">Q461464</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118668595</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150952.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/150952/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q461464</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118668595</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3429_p7</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Eug%C3%A8ne_Carri%C3%A8re</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154132">
                <persName>
-                  <surname>Yacco</surname>
                   <forename>Sada</forename>
+                  <surname>Yacco</surname>
                </persName>
-               <persName type="namensvariante">川上 貞奴</persName>
                <birth>
-                  <date when="1871">1871</date>
+                  <date notBefore-iso="1871-01-01"
+                        when-iso="1871-07-02"
+                        notAfter-iso="1871-12-31">1871</date>
                </birth>
                <death>
-                  <date when="1946">1946</date>
+                  <date when-iso="1946-07-02" notAfter-iso="1946-12-31">1946</date>
                </death>
-               <idno type="HB-tv">HB-tv_1887_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154132.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154132/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1887_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

@@ -170,6 +170,7 @@
                   <forename>Peter</forename>
                   <surname>Rosegger</surname>
                </persName>
+               <persName type="legacy-name-merge">Rosegger, Peter</persName>
                <birth>
                   <date when-iso="1843-07-31">31.07.1843</date>
                   <settlement key="64690">
@@ -201,9 +202,13 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Peter_Rosegger</idno>
                <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x00284301</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12551.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161923/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3680</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Rosegger3.jpg"/>
                </figure>
@@ -213,6 +218,7 @@
                   <forename>Philipp</forename>
                   <surname>Langmann</surname>
                </persName>
+               <persName type="legacy-name-merge">Langmann, Philipp</persName>
                <persName type="legacy-name-merge">Langmann, Philipp</persName>
                <birth>
                   <date when-iso="1862-02-05">05.02.1862</date>
@@ -247,6 +253,8 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q3379115</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Philipp_Langmann</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2334.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160975/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2454</idno>
                <listEvent>
                   <event key="143820" when-iso="1900-04-15">
                      <desc n="1370">teilgenommen an</desc>
@@ -258,7 +266,9 @@
                   <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="13">No WikiData-ID found</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Wenzl%20Weis%20Philipp%20Langmann.jpg"/>
                </figure>
@@ -375,36 +385,57 @@
             </person>
             <person xml:id="pmb150942">
                <persName>
-                  <surname>Detaille</surname>
-                  <forename>Jean</forename>
+                  <forename>Édouard</forename>
+                  <surname>Édouard Detaille</surname>
                </persName>
                <birth>
-                  <date>1848-10-05</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1848-10-05">1848-10-05</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1912-12-24</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1912-12-24">1912-12-24</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_3441_p1</idno>
-               <idno type="wikidata">Q724148</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118671685</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150942.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/150942/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q724148</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118671685</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3441_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2641_p50</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Jean_Baptiste_%C3%89douard_Detaille</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb156159">
                <persName>
-                  <surname>Jenny</surname>
                   <forename>Rudolf Christoph</forename>
+                  <surname>Jenny</surname>
                </persName>
                <birth>
-                  <date when="1858">1858</date>
+                  <date notBefore-iso="1858-01-01"
+                        when-iso="1858-07-02"
+                        notAfter-iso="1858-12-31">1858</date>
                </birth>
                <death>
-                  <date when="1917">1917</date>
+                  <date when-iso="1917-07-02" notAfter-iso="1917-12-31">1917</date>
                </death>
-               <idno type="HB-tv">HB-tv_3441_p2</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156159.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156159/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3441_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

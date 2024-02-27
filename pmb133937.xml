@@ -110,6 +110,7 @@
                   <forename>Henrik</forename>
                   <surname>Ibsen</surname>
                </persName>
+               <persName type="legacy-name-merge">Ibsen, Henrik</persName>
                <birth>
                   <date when-iso="1828-03-20">20.03.1828</date>
                   <settlement key="61065">
@@ -141,6 +142,8 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q36661</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Henrik_Ibsen</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11798.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160626/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2015</idno>
                <listEvent>
                   <event key="61712" when-iso="1891-04-11">
                      <desc n="1370">teilgenommen an</desc>
@@ -156,7 +159,9 @@
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ibsen%20by%20Olrik.jpg"/>
                </figure>
@@ -166,6 +171,7 @@
                   <forename>Gotthold Ephraim</forename>
                   <surname>Lessing</surname>
                </persName>
+               <persName type="legacy-name-merge">Lessing, Gotthold Ephraim</persName>
                <birth>
                   <date when-iso="1729-01-22">22.01.1729</date>
                   <settlement key="58795">
@@ -199,10 +205,14 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gotthold_Ephraim_Lessing</idno>
                <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/lessing-gotthold-ephraim.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12053.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161051/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2557</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gotthold%20Ephraim%20Lessing%20Kunstsammlung%20Uni%20Leipzig.jpg"/>
                </figure>
@@ -276,12 +286,6 @@
                         <geo>52,52437 13,41053</geo>
                      </location>
                   </settlement>
-                  <settlement key="168">
-                     <placeName type="pref">Berlin</placeName>
-                     <location>
-                        <geo>52,52437 13,41053</geo>
-                     </location>
-                  </settlement>
                </birth>
                <death>
                   <date when-iso="1786-08-17">17.08.1786</date>
@@ -326,91 +330,197 @@
             </person>
             <person xml:id="pmb152451">
                <persName>
-                  <surname>Schoenaich-Carolath</surname>
-                  <forename>Heinrich von</forename>
+                  <forename>Heinrich</forename>
+                  <surname>Heinrich Schönaich-Carolath</surname>
                </persName>
                <birth>
-                  <date>1852-04-24</date>
+                  <date when-iso="1852-04-24">1852-04-24</date>
                </birth>
                <death>
-                  <date>1920-06-20</date>
-                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+                  <date when-iso="1920-06-20">1920-06-20</date>
+                  <settlement key="168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2731_p1</idno>
-               <idno type="wikidata">Q1599734</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/116859873</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152451.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/152451/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1599734</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116859873</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2731_p1</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Heinrich_zu_Schoenaich-Carolath</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb157112">
                <persName>
-                  <surname>Huene</surname>
                   <forename>Karl von</forename>
+                  <surname>Huene</surname>
                </persName>
                <birth>
-                  <date when="1837">1837</date>
+                  <date notBefore-iso="1837-01-01"
+                        when-iso="1837-07-02"
+                        notAfter-iso="1837-12-31">1837</date>
                </birth>
                <death>
-                  <date when="1900">1900</date>
+                  <date when-iso="1900-07-02" notAfter-iso="1900-12-31">1900</date>
                </death>
-               <idno type="HB-tv">HB-tv_2731_p2</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157112.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/157112/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2731_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb112447">
                <persName>
-                  <surname>Forain</surname>
                   <forename>Jean-Louis</forename>
+                  <surname>Forain</surname>
                </persName>
                <birth>
-                  <date>1852-10-23</date>
-                  <placeName type="wikidata" ref="Q41876">Reims</placeName>
+                  <date when-iso="1852-10-23">1852-10-23</date>
+                  <settlement key="60494">
+                     <placeName type="pref">Reims</placeName>
+                     <location>
+                        <geo>49,26526 4,02853</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1931-07-11</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1931-07-11">1931-07-11</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_4835_p2</idno>
-               <idno type="wikidata">Q719614</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118684191</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb112447.html</idno>
+               <occupation key="110">Maler/Malerin</occupation>
+               <occupation key="136">Grafiker/Grafikerin</occupation>
+               <occupation key="332">Karikaturist/Karikaturistin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/112447/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q719614</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Jean-Louis_Forain</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118684191</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4835_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2666_p4</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb3084">
                <persName>
-                  <surname>Joseph II. von Österreich</surname>
+                  <surname>Josef II.</surname>
                </persName>
                <birth>
-                  <date>1741-03-13</date>
-                  <placeName type="wikidata" ref="Q636910">Hietzing</placeName>
+                  <date when-iso="1741-03-13">13.03.1741</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1790-02-20</date>
-                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+                  <date when-iso="1790-02-20">20.02.1790</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2293_p2</idno>
-               <idno type="wikidata">Q76555</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118558404</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3084.html</idno>
+               <occupation key="167">Kaiser/Kaiserin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118558404</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16586</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3084.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3084/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/18919/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47097</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q76555</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Joseph_II.</idno>
+               <idno type="URL" subtype="oeml">https://dx.doi.org/10.1553/0x0001d33e</idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/joseph-II.html</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb3084.html</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2293_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4874_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4873_p7</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_33_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3522_p5</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3519_p3</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3501_p10</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3493_p8</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3491_p7</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1224_p3</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4865_p17</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4862_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4859_p11</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4857_p28</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4854_p4</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4852_p18</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4851_p16</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4849_p12</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4848_p10</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4846_p16</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4845_p6</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4844_p6</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3377_p21</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3366_p31</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3365_p3</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3340_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3333_p5</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1401_p18</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1376_p13</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1376_p99</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1626_p27</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1625_p13</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3330_p4</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1113_p4</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3881_p5</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3292_p3</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3288_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1363_p36</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_528_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2731_p4</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2615_p19</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1402_p61</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Anton%20von%20Maron%20006.png"/>
+               </figure>
             </person>
             <person xml:id="pmb117437">
                <persName>
-                  <surname>Gladstone</surname>
                   <forename>William Ewart</forename>
+                  <surname>Gladstone</surname>
                </persName>
                <birth>
-                  <date>1809-12-29</date>
-                  <placeName type="wikidata" ref="Q24826">Liverpool</placeName>
+                  <date when-iso="1809-12-29">1809-12-29</date>
                </birth>
                <death>
-                  <date>1898-05-19</date>
-                  <placeName type="wikidata" ref="Q370127">Hawarden Castle</placeName>
+                  <date when-iso="1898-05-19">1898-05-19</date>
                </death>
-               <idno type="HB-tv">HB-tv_3891_p3</idno>
-               <idno type="wikidata">Q160852</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118695207</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb117437.html</idno>
+               <occupation key="95">Politiker/Politikerin</occupation>
+               <occupation key="2109">Regierungschef/Regierungschefin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/117437/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118695207</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp44480</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q160852</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/William_Ewart_Gladstone</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3891_p3</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

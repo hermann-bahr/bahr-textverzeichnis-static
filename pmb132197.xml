@@ -96,6 +96,7 @@
                   <forename>Otto Julius</forename>
                   <surname>Bierbaum</surname>
                </persName>
+               <persName type="legacy-name-merge">Bierbaum, Otto Julius</persName>
                <birth>
                   <date when-iso="1865-06-28">28.06.1865</date>
                   <settlement key="59992">
@@ -124,6 +125,8 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Otto_Julius_Bierbaum</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb10928.html</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118510762</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159397/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_435</idno>
                <affiliation notBefore-iso="1901-01-01"
                             when-iso="1901-07-02"
                             notAfter-iso="1901-12-31">
@@ -142,7 +145,9 @@
                </affiliation>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Otto%20Julius%20Bierbaum%20-%20Radierung%20von%20Johann%20Lindner%2C%201899%20%28cropped%29.jpg"/>
                </figure>
@@ -152,18 +157,32 @@
                   <surname>Saharet</surname>
                </persName>
                <birth>
-                  <date>1879-03-21</date>
-                  <placeName type="wikidata" ref="Q3141">Melbourne</placeName>
+                  <date when-iso="1879-03-21">1879-03-21</date>
+                  <settlement key="64768">
+                     <placeName type="pref">Melbourne</placeName>
+                     <location>
+                        <geo>-37,814 144,96332</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1942-01-01</date>
-                  <placeName type="wikidata" ref="Q3141">Melbourne</placeName>
+                  <date when-iso="1942-07-02" notAfter-iso="1942-12-31">1942</date>
+                  <settlement key="64768">
+                     <placeName type="pref">Melbourne</placeName>
+                     <location>
+                        <geo>-37,814 144,96332</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_3125_p1</idno>
-               <idno type="wikidata">Q537772</idno>
                <sex value="female"/>
-               <idno type="gnd">https://d-nb.info/gnd/13898431X</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151414.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/151414/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q537772</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/13898431X</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3125_p1</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Saharet</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

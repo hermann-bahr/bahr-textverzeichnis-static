@@ -87,8 +87,8 @@
                   <surname>Provins</surname>
                </persName>
                <persName type="person_geburtsname_nachname">Lagros de Langeron</persName>
-               <persName type="person_geburtsname-vorname">Anne Gabriel François
-                     Camille</persName>
+               <persName type="person_geburtsname_vorname">Anne Gabriel François Camille</persName>
+               <persName type="legacy-name-merge">Provins, Michel</persName>
                <birth>
                   <date when-iso="1861-05-23">1861-05-23</date>
                   <settlement key="54036">
@@ -120,44 +120,71 @@
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/115738238X</idno>
                <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb22901.html</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50160</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161755/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3457</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="13">No WikiData-ID found</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
             </person>
             <person xml:id="pmb154117">
                <persName>
-                  <surname>Hading</surname>
                   <forename>Jane</forename>
+                  <surname>Hading</surname>
                </persName>
-               <persName type="namensvariante">Jeanne Alfredine Trefouret</persName>
                <birth>
-                  <date when="1859">1859</date>
+                  <date notBefore-iso="1859-01-01"
+                        when-iso="1859-07-02"
+                        notAfter-iso="1859-12-31">1859</date>
                </birth>
                <death>
-                  <date when="1940">1940</date>
+                  <date when-iso="1940-07-01" notAfter-iso="1940-12-31">1940</date>
                </death>
-               <idno type="HB-tv">HB-tv_1905_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154117.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154117/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1905_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb148810">
                <persName>
+                  <forename>Henry</forename>
                   <surname>Fouquier</surname>
-                  <forename>Henri</forename>
                </persName>
+               <persName type="legacy-name-merge">Fouquier, Henry</persName>
                <birth>
-                  <date>1838-09-01</date>
-                  <placeName type="wikidata" ref="Q23482">Marseille</placeName>
+                  <date when-iso="1838-09-01">1838-09-01</date>
+                  <settlement key="44565">
+                     <placeName type="pref">Marseille</placeName>
+                     <location>
+                        <geo>43,29695 5,38107</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1901-12-25</date>
-                  <placeName type="wikidata" ref="Q48958">Neuilly-sur-Seine</placeName>
+                  <date when-iso="1901-12-25">1901-12-25</date>
+                  <settlement key="36749">
+                     <placeName type="pref">Neuilly-sur-Seine</placeName>
+                     <location>
+                        <geo>48,8846 2,26965</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1903_p2</idno>
-               <idno type="wikidata">Q3132781</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/1176044680</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148810.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148810/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q3132781</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1176044680</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1903_p2</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160061/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1290</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Henry_Fouquier</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
             </person>
          </listPerson>
       </back>

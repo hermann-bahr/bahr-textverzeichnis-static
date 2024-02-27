@@ -97,7 +97,8 @@
                   <forename>Loïe</forename>
                   <surname>Fuller</surname>
                </persName>
-               <persName type="person_geburtsname-vorname">Marie Louise</persName>
+               <persName type="person_geburtsname_vorname">Marie Louise</persName>
+               <persName type="legacy-name-merge">Fuller, Loïe</persName>
                <birth>
                   <date when-iso="1862-01-15">15.01.1862</date>
                   <settlement key="48325">
@@ -120,41 +121,59 @@
                <occupation key="190">Tänzer/Tänzerin</occupation>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15308</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/16797/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160145/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1394</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references"> </note>
             </person>
             <person xml:id="pmb154132">
                <persName>
-                  <surname>Yacco</surname>
                   <forename>Sada</forename>
+                  <surname>Yacco</surname>
                </persName>
-               <persName type="namensvariante">川上 貞奴</persName>
                <birth>
-                  <date when="1871">1871</date>
+                  <date notBefore-iso="1871-01-01"
+                        when-iso="1871-07-02"
+                        notAfter-iso="1871-12-31">1871</date>
                </birth>
                <death>
-                  <date when="1946">1946</date>
+                  <date when-iso="1946-07-02" notAfter-iso="1946-12-31">1946</date>
                </death>
-               <idno type="HB-tv">HB-tv_1887_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154132.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154132/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1887_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb114912">
                <persName>
-                  <surname>Kawakami</surname>
                   <forename>Otojirō</forename>
+                  <surname>Kawakami</surname>
                </persName>
-               <persName type="namensvariante">川上 音二郎</persName>
                <birth>
-                  <date>1864-01-01</date>
-                  <placeName type="wikidata" ref="Q1330839">Hakata-ku</placeName>
+                  <date notBefore-iso="1864-01-01"
+                        when-iso="1864-01-16"
+                        notAfter-iso="1864-01-31">1864-01</date>
                </birth>
                <death>
-                  <date>1911-01-01</date>
-                  <placeName type="wikidata" ref="Q35765">Ōsaka</placeName>
+                  <date when-iso="1911-11-11">1911-11-11</date>
                </death>
-               <idno type="HB-tv">HB-tv_1887_p2</idno>
-               <idno type="wikidata">Q3543692</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/137714777</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114912.html</idno>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <occupation key="734">Theaterproduzent/Theaterproduzentin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/114912/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/137714777</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47752</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q3543692</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Kawakami_Otojir%C5%8D</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1887_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

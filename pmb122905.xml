@@ -89,8 +89,8 @@
                   <surname>Provins</surname>
                </persName>
                <persName type="person_geburtsname_nachname">Lagros de Langeron</persName>
-               <persName type="person_geburtsname-vorname">Anne Gabriel François
-                     Camille</persName>
+               <persName type="person_geburtsname_vorname">Anne Gabriel François Camille</persName>
+               <persName type="legacy-name-merge">Provins, Michel</persName>
                <birth>
                   <date when-iso="1861-05-23">1861-05-23</date>
                   <settlement key="54036">
@@ -122,25 +122,34 @@
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/115738238X</idno>
                <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb22901.html</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50160</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161755/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3457</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="13">No WikiData-ID found</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
             </person>
             <person xml:id="pmb154117">
                <persName>
-                  <surname>Hading</surname>
                   <forename>Jane</forename>
+                  <surname>Hading</surname>
                </persName>
-               <persName type="namensvariante">Jeanne Alfredine Trefouret</persName>
                <birth>
-                  <date when="1859">1859</date>
+                  <date notBefore-iso="1859-01-01"
+                        when-iso="1859-07-02"
+                        notAfter-iso="1859-12-31">1859</date>
                </birth>
                <death>
-                  <date when="1940">1940</date>
+                  <date when-iso="1940-07-01" notAfter-iso="1940-12-31">1940</date>
                </death>
-               <idno type="HB-tv">HB-tv_1905_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154117.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154117/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1905_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

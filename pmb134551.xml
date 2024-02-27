@@ -111,6 +111,7 @@
                   <forename>Immanuel</forename>
                   <surname>Kant</surname>
                </persName>
+               <persName type="legacy-name-merge">Kant, Immanuel</persName>
                <birth>
                   <date when-iso="1724-04-22">22.04.1724</date>
                   <settlement key="42605">
@@ -142,11 +143,15 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q9312</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Immanuel_Kant</idno>
                <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/kant-immanuel.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160740/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2161</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Kant%20foto.jpg"/>
                </figure>
@@ -194,159 +199,259 @@
             </person>
             <person xml:id="pmb153343">
                <persName>
-                  <surname>Kirchmann</surname>
-                  <forename>Julius von</forename>
+                  <forename>Julius</forename>
+                  <surname>Julius von Kirchmann</surname>
                </persName>
                <birth>
-                  <date>1802-11-05</date>
-                  <placeName type="wikidata" ref="Q523975">Bad Lauchstädt</placeName>
+                  <date when-iso="1802-11-05">1802-11-05</date>
+                  <settlement key="33920">
+                     <placeName type="pref">Bad Lauchstädt</placeName>
+                     <location>
+                        <geo>51,386519 11,869559</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1884-10-20</date>
-                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+                  <date when-iso="1884-10-20">1884-10-20</date>
+                  <settlement key="168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2616_p1</idno>
-               <idno type="wikidata">Q84502</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118841726</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153343.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153343/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q84502</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118841726</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2616_p1</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Julius_von_Kirchmann</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb113639">
                <persName>
+                  <forename>Eduard</forename>
                   <surname>Hartmann</surname>
-                  <forename>Eduard von</forename>
                </persName>
                <birth>
-                  <date>1842-02-23</date>
-                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+                  <date when-iso="1842-02-23">1842-02-23</date>
                </birth>
                <death>
-                  <date>1906-06-05</date>
-                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+                  <date when-iso="1906-06-05">1906-06-05</date>
                </death>
-               <idno type="HB-tv">HB-tv_1363_p63</idno>
-               <idno type="wikidata">Q77057</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118546252</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113639.html</idno>
+               <occupation key="154">Philosoph/Philosophin</occupation>
+               <occupation key="2090">Offizier/Offizierin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/113639/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118546252</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp42334</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q77057</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Eduard_von_Hartmann</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1363_p63</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb155513">
                <persName>
-                  <surname>Duncker</surname>
                   <forename>Carl Friedrich Wilhelm</forename>
+                  <surname>Duncker</surname>
                </persName>
                <birth>
-                  <date when="1781">1781</date>
+                  <date notBefore-iso="1781-01-01"
+                        when-iso="1781-07-02"
+                        notAfter-iso="1781-12-31">1781</date>
                </birth>
                <death>
-                  <date when="1869">1869</date>
+                  <date when-iso="1869-07-02" notAfter-iso="1869-12-31">1869</date>
                </death>
-               <idno type="HB-tv">HB-tv_3366_p13</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155513.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155513/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3366_p13</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb157386">
                <persName>
-                  <surname>Volkelt</surname>
                   <forename>Johannes Immanuel</forename>
+                  <surname>Volkelt</surname>
                </persName>
+               <persName type="legacy-name-merge">Volkelt, Johannes Immanuel</persName>
                <birth>
-                  <date when="1840">1840</date>
+                  <date notBefore-iso="1840-01-01"
+                        when-iso="1840-07-01"
+                        notAfter-iso="1840-12-31">1840</date>
                </birth>
                <death>
-                  <date when="1930">1930</date>
+                  <date when-iso="1930-07-02" notAfter-iso="1930-12-31">1930</date>
                </death>
-               <idno type="HB-tv">HB-tv_2616_p4</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157386.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/157386/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2616_p4</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162672/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4611</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
             </person>
             <person xml:id="pmb156852">
                <persName>
-                  <surname>Voß</surname>
                   <forename>Leopold</forename>
+                  <surname>Voß</surname>
                </persName>
                <birth>
-                  <date when="1793">1793</date>
+                  <date notBefore-iso="1793-01-01"
+                        when-iso="1793-07-02"
+                        notAfter-iso="1793-12-31">1793</date>
                </birth>
                <death>
-                  <date when="1868">1868</date>
+                  <date when-iso="1868-07-01" notAfter-iso="1868-12-31">1868</date>
                </death>
-               <idno type="HB-tv">HB-tv_2817_p6</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156852.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156852/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2817_p6</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb153346">
                <persName>
-                  <surname>Reid</surname>
                   <forename>Thomas</forename>
+                  <surname>Reid</surname>
                </persName>
                <birth>
-                  <date>1710-04-26</date>
-                  <placeName type="wikidata" ref="Q7620846">Strachan</placeName>
+                  <date when-iso="1710-04-26">1710-04-26</date>
+                  <settlement key="153347">
+                     <placeName type="pref">Strachan</placeName>
+                     <location>
+                        <geo>57,0205 -2,53855</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1796-10-07</date>
-                  <placeName type="wikidata" ref="Q4093">Glasgow</placeName>
+                  <date when-iso="1796-10-07">1796-10-07</date>
+                  <settlement key="94132">
+                     <placeName type="pref">Glasgow</placeName>
+                     <location>
+                        <geo>55,865149 -4,257629</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2616_p6</idno>
-               <idno type="wikidata">Q316347</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118744003</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153346.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153346/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q316347</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118744003</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2616_p6</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Thomas_Reid</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb153350">
                <persName>
-                  <surname>Berkeley</surname>
                   <forename>George</forename>
+                  <surname>Berkeley</surname>
                </persName>
                <birth>
-                  <date>1685-03-12</date>
-                  <placeName type="wikidata" ref="Q109092">Kilkenny</placeName>
+                  <date when-iso="1685-03-12">1685-03-12</date>
+                  <settlement key="152180">
+                     <placeName type="pref">Kilkenny</placeName>
+                     <location>
+                        <geo>52,6477 -7,2561</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1753-01-14</date>
-                  <placeName type="wikidata" ref="Q34217">Oxford</placeName>
+                  <date when-iso="1753-01-14">1753-01-14</date>
+                  <settlement key="44197">
+                     <placeName type="pref">Oxford</placeName>
+                     <location>
+                        <geo>51,75222 -1,25596</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2616_p7</idno>
-               <idno type="wikidata">Q82049</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118509616</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153350.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153350/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q82049</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118509616</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2616_p7</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/George_Berkeley</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb153353">
                <persName>
+                  <forename>Wilhelm</forename>
                   <surname>Riehl</surname>
-                  <forename>Wilhelm Heinrich</forename>
                </persName>
                <birth>
-                  <date>1823-05-06</date>
-                  <placeName type="wikidata" ref="Q656680">Biebrich</placeName>
+                  <date when-iso="1823-05-06">1823-05-06</date>
+                  <settlement key="971">
+                     <placeName type="pref">Biebrich</placeName>
+                     <location>
+                        <geo>50,0429 8,2258</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1897-11-16</date>
-                  <placeName type="wikidata" ref="Q1726">München</placeName>
+                  <date when-iso="1897-11-16">1897-11-16</date>
+                  <settlement key="45258">
+                     <placeName type="pref">München</placeName>
+                     <location>
+                        <geo>48,13743 11,57549</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2616_p8</idno>
-               <idno type="wikidata">Q77020</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118600850</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153353.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153353/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q77020</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118600850</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2616_p8</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3612</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wilhelm_Heinrich_Riehl</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb94121">
                <persName>
-                  <surname>Hegel</surname>
                   <forename>Georg Wilhelm Friedrich</forename>
+                  <surname>Hegel</surname>
                </persName>
+               <persName type="legacy-name-merge">Hegel, Georg Wilhelm Friedrich</persName>
                <birth>
-                  <date>1770-08-27</date>
-                  <placeName type="wikidata" ref="Q1022">Stuttgart</placeName>
+                  <date when-iso="1770-08-27">1770-08-27</date>
                </birth>
                <death>
-                  <date>1831-11-14</date>
-                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+                  <date when-iso="1831-11-14">1831-11-14</date>
                </death>
-               <idno type="HB-tv">HB-tv_4464_p2</idno>
-               <idno type="wikidata">Q9235</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118547739</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb94121.html</idno>
+               <occupation key="154">Philosoph/Philosophin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/94121/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118547739</idno>
+               <idno type="URL" subtype="dritte-walpurgisnacht">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=H#DWpers0098</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp45641</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q9235</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel</idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/hegel-georg-wilhelm-friedrich.html</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4464_p2</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160430/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1772</idno>
+               <listBibl>
+                  <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/1831%20Schlesinger%20Philosoph%20Georg%20Friedrich%20Wilhelm%20Hegel%20anagoria.JPG"/>
+               </figure>
             </person>
          </listPerson>
       </back>

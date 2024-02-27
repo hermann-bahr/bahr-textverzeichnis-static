@@ -82,6 +82,7 @@
                   <forename>Ernst von</forename>
                   <surname>Wildenbruch</surname>
                </persName>
+               <persName type="legacy-name-merge">Wildenbruch, Ernst von</persName>
                <birth>
                   <date when-iso="1845-02-03">03.02.1845</date>
                   <settlement key="46759">
@@ -112,45 +113,69 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q45337</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ernst_von_Wildenbruch</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb13118.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162827/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4798</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ernst%20von%20Wildenbruch%2C%20c.%201904%20-%20Louis%20Held.jpg"/>
                </figure>
             </person>
             <person xml:id="pmb148544">
                <persName>
-                  <surname>Hallenstein</surname>
-                  <forename>Konrad Adolf</forename>
+                  <forename>Konrad</forename>
+                  <surname>Conrad Hallenstein</surname>
                </persName>
                <birth>
-                  <date>1835-01-15</date>
-                  <placeName type="wikidata" ref="Q1794">Frankfurt am Main</placeName>
+                  <date when-iso="1835-01-15">1835-01-15</date>
+                  <settlement key="146">
+                     <placeName type="pref">Frankfurt am Main</placeName>
+                     <location>
+                        <geo>50,11552 8,68417</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1892-09-28</date>
-                  <placeName type="wikidata" ref="Q590620">Purkersdorf</placeName>
+                  <date when-iso="1892-09-28">1892-09-28</date>
+                  <settlement key="39792">
+                     <placeName type="pref">Purkersdorf</placeName>
+                     <location>
+                        <geo>48,19512 16,16265</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_3921_p1</idno>
-               <idno type="wikidata">Q1781907</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/116406488</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148544.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148544/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1781907</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116406488</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3921_p1</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Konrad_Adolf_Hallenstein</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb153912">
                <persName>
-                  <surname>Beraton</surname>
                   <forename>Ferry</forename>
+                  <surname>Beraton</surname>
                </persName>
                <birth>
-                  <date when="1860">1860</date>
+                  <date notBefore-iso="1860-01-01"
+                        when-iso="1860-07-01"
+                        notAfter-iso="1860-12-31">1860</date>
                </birth>
                <death>
-                  <date when="1900">1900</date>
+                  <date when-iso="1900-07-02" notAfter-iso="1900-12-31">1900</date>
                </death>
-               <idno type="HB-tv">HB-tv_3921_p2</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153912.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153912/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3921_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

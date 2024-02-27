@@ -234,17 +234,23 @@
             </person>
             <person xml:id="pmb154685">
                <persName>
-                  <surname>Thibaudet</surname>
                   <forename>Albert</forename>
+                  <surname>Thibaudet</surname>
                </persName>
                <birth>
-                  <date when="1874">1874</date>
+                  <date notBefore-iso="1874-01-01"
+                        when-iso="1874-07-02"
+                        notAfter-iso="1874-12-31">1874</date>
                </birth>
                <death>
-                  <date when="1936">1936</date>
+                  <date when-iso="1936-07-01" notAfter-iso="1936-12-31">1936</date>
                </death>
-               <idno type="HB-tv">HB-tv_4878_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154685.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154685/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4878_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

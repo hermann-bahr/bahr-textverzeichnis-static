@@ -82,8 +82,9 @@
                   <forename>Jules</forename>
                   <surname>Claretie</surname>
                </persName>
-               <persName type="person_geburtsname-vorname">Arsène Arnaud</persName>
+               <persName type="person_geburtsname_vorname">Arsène Arnaud</persName>
                <persName type="namensvariante">Clarétie Arsène-Jules Armand</persName>
+               <persName type="legacy-name-merge">Claretie, Jules</persName>
                <persName type="legacy-name-merge">Claretie, Jules</persName>
                <birth>
                   <date when-iso="1840-12-03">1840-12-03</date>
@@ -123,51 +124,107 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp40004</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q912271</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Jules_Claretie</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159645/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_761</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/WP%20Jules%20Claretie.jpg"/>
                </figure>
             </person>
             <person xml:id="pmb9484">
                <persName>
+                  <forename>Ernest</forename>
                   <surname>Renan</surname>
-                  <forename>Joseph Ernest</forename>
                </persName>
+               <persName type="legacy-name-merge">Renan, Ernest</persName>
                <birth>
-                  <date>1823-02-27</date>
-                  <placeName type="wikidata" ref="Q235297">Tréguier</placeName>
+                  <date when-iso="1823-02-27">27.02.1823</date>
+                  <settlement key="45908">
+                     <placeName type="pref">Tréguier</placeName>
+                     <location>
+                        <geo>48,78333 -3,23333</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1892-10-02</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1892-10-02">02.10.1892</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1504_p13</idno>
-               <idno type="wikidata">Q157155</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118744496</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb9484.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation key="358">Orientalist/Orientalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19183</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/9484/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9484.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp52117</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q157155</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ernest_Renan</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118744496</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1504_p13</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161847/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3576</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ernest%20Renan%201876-84.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb8851">
                <persName>
+                  <forename>Amalie</forename>
                   <surname>Materna</surname>
-                  <forename>Amalia</forename>
                </persName>
+               <persName type="legacy-name-merge">Materna, Amalie</persName>
                <birth>
-                  <date>1844-07-10</date>
-                  <placeName type="wikidata" ref="Q689342">Sankt Georgen an der
-                        Stiefing</placeName>
+                  <date when-iso="1844-07-10">10.07.1844</date>
+                  <settlement key="36316">
+                     <placeName type="pref">Sankt Georgen an der Stiefing</placeName>
+                     <location>
+                        <geo>46,87333 15,57972</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1918-01-18</date>
-                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+                  <date when-iso="1918-01-18">18.01.1918</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1088_p3</idno>
-               <idno type="wikidata">Q2840970</idno>
                <sex value="female"/>
-               <idno type="gnd">https://d-nb.info/gnd/116824174</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb8851.html</idno>
+               <occupation key="107">Sänger/Sängerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17966</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116824174</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/8851/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49844</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2840970</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Amalie_Materna</idno>
+               <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x0028340f</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1088_p3</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161230/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2793</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Amalie%20Materna%20-%20Portrait11%20-%20IL.jpg"/>
+               </figure>
             </person>
          </listPerson>
       </back>

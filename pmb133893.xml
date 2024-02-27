@@ -99,36 +99,56 @@
          <listPerson>
             <person xml:id="pmb157065">
                <persName>
-                  <surname>Healy</surname>
                   <forename>Timothy</forename>
+                  <surname>Healy</surname>
                </persName>
                <birth>
-                  <date when="1855">1855</date>
+                  <date notBefore-iso="1855-01-01"
+                        when-iso="1855-07-02"
+                        notAfter-iso="1855-12-31">1855</date>
                </birth>
                <death>
-                  <date when="1931">1931</date>
+                  <date when-iso="1931-07-02" notAfter-iso="1931-12-31">1931</date>
                </death>
-               <idno type="HB-tv">HB-tv_2753_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157065.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/157065/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2753_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb152318">
                <persName>
+                  <forename>Charles</forename>
                   <surname>Parnell</surname>
-                  <forename>Charles Stewart</forename>
                </persName>
                <birth>
-                  <date>1846-06-27</date>
-                  <placeName type="wikidata" ref="Q182591">County Wicklow</placeName>
+                  <date when-iso="1846-06-27">1846-06-27</date>
+                  <settlement key="152319">
+                     <placeName type="pref">County Wicklow</placeName>
+                     <location>
+                        <geo>53,0 -6,4166666666667</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1891-10-06</date>
-                  <placeName type="wikidata" ref="Q131491">Brighton</placeName>
+                  <date when-iso="1891-10-06">1891-10-06</date>
+                  <settlement key="36448">
+                     <placeName type="pref">Brighton</placeName>
+                     <location>
+                        <geo>50,82838 -0,13947</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2753_p2</idno>
-               <idno type="wikidata">Q317436</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118789716</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152318.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/152318/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q317436</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118789716</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2753_p2</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Charles_Stewart_Parnell</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

@@ -79,6 +79,7 @@
                   <forename>Oscar</forename>
                   <surname>Wilde</surname>
                </persName>
+               <persName type="legacy-name-merge">Wilde, Oscar</persName>
                <birth>
                   <date when-iso="1854-10-16">16.10.1854</date>
                   <settlement key="1267">
@@ -111,10 +112,14 @@
                <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_20.html</idno>
                <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb13115.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb13115.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162825/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4796</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Oscar%20Wilde%20%281854-1900%29%201889%2C%20May%2023.%20Picture%20by%20W.%20and%20D.%20Downey.jpg"/>
                </figure>
@@ -206,30 +211,49 @@
             </person>
             <person xml:id="pmb149498">
                <persName>
-                  <surname>Arnold</surname>
                   <forename>Matthew</forename>
+                  <surname>Arnold</surname>
                </persName>
                <birth>
-                  <date>1822-12-24</date>
-                  <placeName type="wikidata" ref="Q984973">Laleham</placeName>
+                  <date when-iso="1822-12-24">1822-12-24</date>
+                  <settlement key="149499">
+                     <placeName type="pref">Laleham</placeName>
+                     <location>
+                        <geo>51,4094 -0,48882</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1888-04-15</date>
-                  <placeName type="wikidata" ref="Q24826">Liverpool</placeName>
+                  <date when-iso="1888-04-15">1888-04-15</date>
+                  <settlement key="116472">
+                     <placeName type="pref">Liverpool</placeName>
+                     <location>
+                        <geo>53,41058 -2,977939</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_4521_p9</idno>
-               <idno type="wikidata">Q271032</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118504282</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149498.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/149498/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q271032</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118504282</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4521_p9</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3734_p1</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Matthew_Arnold</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb156270">
                <persName>
-                  <surname>Butler</surname>
                   <forename>Samuel</forename>
+                  <surname>Butler</surname>
                </persName>
-               <idno type="HB-tv">HB-tv_3734_p2</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156270.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156270/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3734_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

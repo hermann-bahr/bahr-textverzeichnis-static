@@ -99,6 +99,7 @@
                   <forename>Friedrich</forename>
                   <surname>Nietzsche</surname>
                </persName>
+               <persName type="legacy-name-merge">Nietzsche, Friedrich</persName>
                <birth>
                   <date when-iso="1844-10-15">15.10.1844</date>
                   <settlement key="55896">
@@ -134,11 +135,15 @@
                <idno type="URL" subtype="oeml">https://dx.doi.org/10.1553/0x0001db4e</idno>
                <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12358.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12358.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161498/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3133</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nietzsche187a.jpg"/>
                </figure>
@@ -283,49 +288,73 @@
             </person>
             <person xml:id="pmb150483">
                <persName>
-                  <surname>Huelsenbeck</surname>
                   <forename>Richard</forename>
+                  <surname>Huelsenbeck</surname>
                </persName>
                <birth>
-                  <date>1892-04-23</date>
-                  <placeName type="wikidata" ref="Q249066">Frankenau</placeName>
+                  <date when-iso="1892-04-23">1892-04-23</date>
+                  <settlement key="150484">
+                     <placeName type="pref">Frankenau</placeName>
+                     <location>
+                        <geo>51,1 8,933333333333334</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1974-04-30</date>
-                  <placeName type="wikidata" ref="Q69065">Minusio</placeName>
+                  <date when-iso="1974-04-30">1974-04-30</date>
+                  <settlement key="150486">
+                     <placeName type="pref">Minusio</placeName>
+                     <location>
+                        <geo>46,183333333333 8,8166666666667</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_6076_p1</idno>
-               <idno type="wikidata">Q76853</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118554387</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150483.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/150483/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q76853</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118554387</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_6076_p1</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Richard_Huelsenbeck</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb155656">
                <persName>
                   <surname>Anselm von Canterbury</surname>
                </persName>
                <birth>
-                  <date when-custom="um 1033">um 1033</date>
+                  <date>um 1033</date>
                </birth>
                <death>
-                  <date when="1109">1109</date>
+                  <date when-iso="1109-07-02" notAfter-iso="1109-12-31">1109</date>
                </death>
-               <idno type="HB-tv">HB-tv_6076_p2</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155656.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155656/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_6076_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154769">
                <persName>
-                  <surname>Gallitzin</surname>
                   <forename>Amalie von</forename>
+                  <surname>Gallitzin</surname>
                </persName>
                <birth>
-                  <date when="1748">1748</date>
+                  <date notBefore-iso="1748-01-01"
+                        when-iso="1748-07-01"
+                        notAfter-iso="1748-12-31">1748</date>
                </birth>
                <death>
-                  <date when="1806">1806</date>
+                  <date when-iso="1806-07-02" notAfter-iso="1806-12-31">1806</date>
                </death>
-               <idno type="HB-tv">HB-tv_3695_p4</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154769.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154769/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3695_p4</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

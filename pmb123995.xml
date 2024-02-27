@@ -89,17 +89,23 @@
          <listPerson>
             <person xml:id="pmb154664">
                <persName>
-                  <surname>O’Brien</surname>
                   <forename>Edward Murrough</forename>
+                  <surname>O’Brien</surname>
                </persName>
                <birth>
-                  <date when="1814">1814</date>
+                  <date notBefore-iso="1814-01-01"
+                        when-iso="1814-07-02"
+                        notAfter-iso="1814-12-31">1814</date>
                </birth>
                <death>
-                  <date when="1895">1895</date>
+                  <date when-iso="1895-07-02" notAfter-iso="1895-12-31">1895</date>
                </death>
-               <idno type="HB-tv">HB-tv_318_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154664.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154664/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_318_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

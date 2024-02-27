@@ -91,6 +91,7 @@
                   <forename>Henrik</forename>
                   <surname>Ibsen</surname>
                </persName>
+               <persName type="legacy-name-merge">Ibsen, Henrik</persName>
                <birth>
                   <date when-iso="1828-03-20">20.03.1828</date>
                   <settlement key="61065">
@@ -122,6 +123,8 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q36661</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Henrik_Ibsen</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11798.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160626/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2015</idno>
                <listEvent>
                   <event key="61712" when-iso="1891-04-11">
                      <desc n="1370">teilgenommen an</desc>
@@ -137,7 +140,9 @@
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ibsen%20by%20Olrik.jpg"/>
                </figure>
@@ -199,8 +204,7 @@
                   </event>
                   <event key="45952" when-iso="1898-01-16">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Premiere von Abschiedssouper, Uraufführung Weihnachtseinkäufe,
-                           16.1.1898</label>
+                     <label>Premiere von Abschiedssouper, Uraufführung Weihnachtseinkäufe, 16.1.1898</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45952/</idno>
                   </event>
                   <event key="143045" when-iso="1898-10-08">
@@ -344,37 +348,53 @@
             </person>
             <person xml:id="pmb148756">
                <persName>
-                  <surname>Schlaikjer</surname>
                   <forename>Erich</forename>
+                  <surname>Erich Schlaikjer</surname>
                </persName>
-               <occupation>Schriftsteller</occupation>
                <birth>
-                  <date>1867-11-20</date>
-                  <placeName type="wikidata" ref="Q154897">Aabenraa</placeName>
+                  <date when-iso="1867-11-20">1867-11-20</date>
+                  <settlement key="148757">
+                     <placeName type="pref">Aabenraa</placeName>
+                     <location>
+                        <geo>55,044444444444 9,4180555555556</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1928-02-11</date>
+                  <date when-iso="1928-02-11">1928-02-11</date>
                </death>
-               <idno type="HB-tv">HB-tv_2034_p1</idno>
-               <idno type="wikidata">Q94886133</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/117281662</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148756.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148756/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94886133</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/117281662</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2034_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3904</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Erich_Schlaikjer</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb153972">
                <persName>
-                  <surname>Galafrés</surname>
                   <forename>Elsa</forename>
+                  <surname>Galafrés</surname>
                </persName>
-               <occupation>Schauspielerin</occupation>
                <birth>
-                  <date when="1880">1880</date>
+                  <date notBefore-iso="1880-01-01"
+                        when-iso="1880-07-01"
+                        notAfter-iso="1880-12-31">1880</date>
                </birth>
                <death>
-                  <date when="1977">1977</date>
+                  <date when-iso="1977-07-02" notAfter-iso="1977-12-31">1977</date>
                </death>
-               <idno type="HB-tv">HB-tv_2450_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153972.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153972/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2450_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

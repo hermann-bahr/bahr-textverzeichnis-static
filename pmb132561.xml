@@ -95,30 +95,59 @@
          <listPerson>
             <person xml:id="pmb13194">
                <persName>
+                  <forename>Émile</forename>
                   <surname>Zola</surname>
-                  <forename>Emile</forename>
                </persName>
+               <persName type="legacy-name-merge">Zola, Émile</persName>
                <birth>
-                  <date>1840-04-02</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1840-04-02">02.04.1840</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1902-09-29</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1902-09-29">29.09.1902</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2691_p2</idno>
-               <idno type="wikidata">Q504</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118637223</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb13194.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation key="99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21578</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118637223</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13194/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13194.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp42655</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q504</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/%C3%89mile_Zola</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb13194.html</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb13194.html</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2691_p2</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162935/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4927</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emile%20Zola%201902.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb11791">
                <persName>
                   <forename>Lucie</forename>
                   <surname>Höflich</surname>
                </persName>
-               <persName type="person_geburtsname-vorname">Helene Lucie</persName>
+               <persName type="person_geburtsname_vorname">Helene Lucie</persName>
                <persName type="person_geburtsname_nachname">von Holwede</persName>
+               <persName type="legacy-name-merge">Höflich, Lucie</persName>
                <birth>
                   <date when-iso="1883-02-20">20.02.1883</date>
                   <settlement key="890">
@@ -149,6 +178,8 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Lucie_H%C3%B6flich</idno>
                <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11791.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11791.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160618/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2005</idno>
                <listEvent>
                   <event key="45403" when-iso="1905-06-03">
                      <desc n="1256">ist Arbeitskraft bei</desc>
@@ -173,7 +204,9 @@
                </listEvent>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bundesarchiv%20Bild%20183-U0920-507%2C%20Lucie%20H%C3%B6flich.jpg"/>
                </figure>
@@ -183,6 +216,7 @@
                   <forename>Gotthold Ephraim</forename>
                   <surname>Lessing</surname>
                </persName>
+               <persName type="legacy-name-merge">Lessing, Gotthold Ephraim</persName>
                <birth>
                   <date when-iso="1729-01-22">22.01.1729</date>
                   <settlement key="58795">
@@ -216,10 +250,14 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gotthold_Ephraim_Lessing</idno>
                <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/lessing-gotthold-ephraim.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12053.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161051/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2557</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gotthold%20Ephraim%20Lessing%20Kunstsammlung%20Uni%20Leipzig.jpg"/>
                </figure>
@@ -278,6 +316,7 @@
                   <forename>Francisque</forename>
                   <surname>Sarcey</surname>
                </persName>
+               <persName type="legacy-name-merge">Sarcey, Francisque</persName>
                <birth>
                   <date when-iso="1827-10-08">1827-10-08</date>
                   <settlement key="4121">
@@ -302,97 +341,159 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43421</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1384953</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Francisque_Sarcey</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162038/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3823</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francisque%20Sarcey%201886.jpg"/>
                </figure>
             </person>
             <person xml:id="pmb148798">
                <persName>
-                  <surname>Erckmann</surname>
                   <forename>Émile</forename>
+                  <surname>Erckmann</surname>
                </persName>
                <birth>
-                  <date>1822-05-20</date>
-                  <placeName type="wikidata" ref="Q22160">Phalsbourg</placeName>
+                  <date when-iso="1822-05-20">1822-05-20</date>
+                  <settlement key="148799">
+                     <placeName type="pref">Phalsbourg</placeName>
+                     <location>
+                        <geo>48,767777777778 7,2583333333333</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1899-03-14</date>
-                  <placeName type="wikidata" ref="Q208794">Lunéville</placeName>
+                  <date when-iso="1899-03-14">1899-03-14</date>
+                  <settlement key="91175">
+                     <placeName type="pref">Lunéville</placeName>
+                     <location>
+                        <geo>48,59273 6,49383</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1968_p2</idno>
-               <idno type="wikidata">Q3246593</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118812890</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148798.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148798/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q3246593</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118812890</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1968_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1146</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Emile_Erckmann</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb148793">
                <persName>
-                  <surname>Chatrian</surname>
                   <forename>Alexandre</forename>
+                  <surname>Chatrian</surname>
                </persName>
+               <persName type="legacy-name-merge">Chatrian, Alexandre</persName>
                <birth>
-                  <date>1826-12-18</date>
-                  <placeName type="wikidata" ref="Q24936374"/>
+                  <date when-iso="1826-12-18">1826-12-18</date>
+                  <settlement key="148794">
+                     <placeName type="pref">Grand Soldat</placeName>
+                     <location>
+                        <geo>48,621083 7,140735</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1890-09-03</date>
-                  <placeName type="wikidata" ref="Q244716">Villemomble</placeName>
+                  <date when-iso="1890-09-03">1890-09-03</date>
+                  <settlement key="148796">
+                     <placeName type="pref">Villemomble</placeName>
+                     <location>
+                        <geo>48,890277777778 2,5111111111111</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1968_p1</idno>
-               <idno type="wikidata">Q2833544</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118815024</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148793.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148793/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2833544</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118815024</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1968_p1</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159619/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_727</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alexandre_Chatrian</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
             </person>
             <person xml:id="pmb156527">
                <persName>
-                  <surname>Perrin</surname>
                   <forename>Émile-César-Victor</forename>
+                  <surname>Perrin</surname>
                </persName>
                <birth>
-                  <date when="1814">1814</date>
+                  <date notBefore-iso="1814-01-01"
+                        when-iso="1814-07-02"
+                        notAfter-iso="1814-12-31">1814</date>
                </birth>
                <death>
-                  <date when="1885">1885</date>
+                  <date when-iso="1885-07-02" notAfter-iso="1885-12-31">1885</date>
                </death>
-               <idno type="HB-tv">HB-tv_1922_p3</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156527.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156527/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1922_p3</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb149000">
                <persName>
+                  <forename>Louis</forename>
                   <surname>Delaunay</surname>
-                  <forename>Louis Arsène</forename>
                </persName>
                <birth>
-                  <date>1826-03-21</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1826-03-21">1826-03-21</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1903-09-22</date>
-                  <placeName type="wikidata" ref="Q621">Versailles</placeName>
+                  <date when-iso="1903-09-22">1903-09-22</date>
+                  <settlement key="36549">
+                     <placeName type="pref">Versailles</placeName>
+                     <location>
+                        <geo>48,80359 2,13424</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2244_p2</idno>
-               <idno type="wikidata">Q1532164</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/116057742</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149000.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/149000/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1532164</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116057742</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2244_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_905</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Louis-Ars%C3%A8ne_Delaunay</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb156528">
                <persName>
-                  <surname>Laya</surname>
                   <forename>Léon</forename>
+                  <surname>Laya</surname>
                </persName>
                <birth>
-                  <date when-custom="um 1810">um 1810</date>
+                  <date>um 1810</date>
                </birth>
                <death>
-                  <date when="1872">1872</date>
+                  <date when-iso="1872-07-01" notAfter-iso="1872-12-31">1872</date>
                </death>
-               <idno type="HB-tv">HB-tv_1922_p5</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156528.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156528/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1922_p5</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

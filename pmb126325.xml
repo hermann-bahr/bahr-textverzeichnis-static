@@ -81,14 +81,23 @@
                <persName>
                   <surname>Gregor XIII.</surname>
                </persName>
+               <persName type="legacy-name-merge">Gregor XIII.</persName>
                <birth>
-                  <date when="1572">1572</date>
+                  <date notBefore-iso="1572-01-01"
+                        when-iso="1572-07-01"
+                        notAfter-iso="1572-12-31">1572</date>
                </birth>
                <death>
-                  <date when="1585">1585</date>
+                  <date when-iso="1585-07-02" notAfter-iso="1585-12-31">1585</date>
                </death>
-               <idno type="HB-tv">HB-tv_983_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155084.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154697/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1256_p5</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155084/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_983_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

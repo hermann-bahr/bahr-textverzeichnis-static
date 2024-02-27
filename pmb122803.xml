@@ -95,7 +95,8 @@
                   <forename>Tristan</forename>
                   <surname>Bernard</surname>
                </persName>
-               <persName type="person_geburtsname-vorname">Paul</persName>
+               <persName type="person_geburtsname_vorname">Paul</persName>
+               <persName type="legacy-name-merge">Bernard, Tristan</persName>
                <birth>
                   <date when-iso="1866-09-07">07.09.1866</date>
                   <settlement key="49878">
@@ -124,9 +125,13 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp54266</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q379949</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Tristan_Bernard</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159357/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_382</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/WP%20Tristan%20Bernard.jpg"/>
                </figure>
@@ -163,8 +168,7 @@
                <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb26421.html</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q3387247</idno>
                <listBibl>
-                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag
-                        gefunden</bibl>
+                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag gefunden</bibl>
                   <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
                </listBibl>
                <figure>
@@ -177,6 +181,7 @@
                   <surname>Maran</surname>
                </persName>
                <persName type="namensvariante">Dolezal</persName>
+               <persName type="legacy-name-merge">Maran, Gustav</persName>
                <birth>
                   <date when-iso="1854-01-08">08.01.1854</date>
                   <settlement key="50">
@@ -204,6 +209,8 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49591</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1556180</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gustav_Maran</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161182/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2731</idno>
                <listEvent>
                   <event key="45067" when-iso="1904-10-05">
                      <desc n="1256">ist Arbeitskraft bei</desc>
@@ -213,7 +220,9 @@
                </listEvent>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustav%20Maran%20wenige%20Wochen%20vor%20seinem%20Tode%201917%20Charles%20Scolik.png"/>
                </figure>
@@ -289,67 +298,92 @@
                <listEvent>
                   <event key="35113" when-iso="1904-12-12">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Premiere von Literatur, Die letzten Masken, Der Puppenspieler,
-                           12.12.1904</label>
+                     <label>Premiere von Literatur, Die letzten Masken, Der Puppenspieler, 12.12.1904</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35113/</idno>
                   </event>
                </listEvent>
             </person>
             <person xml:id="pmb154078">
                <persName>
-                  <surname>Straßny</surname>
                   <forename>Fritz</forename>
+                  <surname>Straßny</surname>
                </persName>
-               <occupation>Schauspieler</occupation>
-               <idno type="HB-tv">HB-tv_1976_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154078.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154078/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1976_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154079">
                <persName>
                   <surname>Ferida</surname>
                </persName>
-               <occupation>Schauspielerin</occupation>
-               <idno type="HB-tv">HB-tv_1976_p2</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154079.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154079/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1976_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154080">
                <persName>
-                  <surname>Palme</surname>
                   <forename>Mizzi</forename>
+                  <surname>Palme</surname>
                </persName>
-               <idno type="HB-tv">HB-tv_1976_p3</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154080.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154080/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1976_p3</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154081">
                <persName>
-                  <surname>Door</surname>
                   <forename>Karl</forename>
+                  <surname>Door</surname>
                </persName>
-               <occupation>Schauspieler</occupation>
                <birth>
-                  <date when="1859">1859</date>
+                  <date notBefore-iso="1859-01-01"
+                        when-iso="1859-07-02"
+                        notAfter-iso="1859-12-31">1859</date>
                </birth>
                <death>
-                  <date when="1939">1939</date>
+                  <date when-iso="1939-07-02" notAfter-iso="1939-12-31">1939</date>
                </death>
-               <idno type="HB-tv">HB-tv_1976_p4</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154081.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154081/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1976_p4</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154082">
                <persName>
-                  <surname>Czagell</surname>
                   <forename>Erasmus</forename>
+                  <surname>Czagell</surname>
                </persName>
-               <idno type="HB-tv">HB-tv_1976_p5</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154082.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154082/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1976_p5</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154083">
                <persName>
                   <surname>Nerz</surname>
                </persName>
-               <occupation>Schauspieler</occupation>
-               <idno type="HB-tv">HB-tv_1976_p6</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154083.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154083/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1976_p6</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

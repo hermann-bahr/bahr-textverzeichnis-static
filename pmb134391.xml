@@ -196,6 +196,7 @@
                   <forename>William</forename>
                   <surname>Shakespeare</surname>
                </persName>
+               <persName type="legacy-name-merge">Shakespeare, William</persName>
                <birth>
                   <date when-iso="1564-04-23">23.4.1564?&lt;1564-04-23&gt;</date>
                   <settlement key="49870">
@@ -231,11 +232,15 @@
                <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/shakespeare-william.html</idno>
                <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_10.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2412.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162255/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4086</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Shakespeare.jpg"/>
                </figure>
@@ -246,6 +251,7 @@
                   <surname>Antoine</surname>
                </persName>
                <persName type="legacy-name-merge">Antoine, André Leonhard</persName>
+               <persName type="legacy-name-merge">Antoine, André</persName>
                <birth>
                   <date when-iso="1858-01-31">1858-01-31</date>
                   <settlement key="47377">
@@ -276,6 +282,8 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q529001</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Andr%C3%A9_Antoine</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2211.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159132/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_108</idno>
                <affiliation notBefore-iso="1888-01-01"
                             when-iso="1888-07-01"
                             notAfter-iso="1888-12-31">
@@ -313,7 +321,9 @@
                </listEvent>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Andr%C3%A9%20Antoine%20actor.jpg"/>
                </figure>
@@ -577,111 +587,177 @@
             </person>
             <person xml:id="pmb151430">
                <persName>
-                  <surname>Descaves</surname>
                   <forename>Lucien</forename>
+                  <surname>Descaves</surname>
                </persName>
                <birth>
-                  <date>1861-03-18</date>
-                  <placeName type="wikidata" ref="Q187153">14. Arrondissement von
-                        Paris</placeName>
+                  <date when-iso="1861-03-18">1861-03-18</date>
+                  <settlement key="151431">
+                     <placeName type="pref">14th arrondissement of Paris</placeName>
+                     <location>
+                        <geo>48,833022222222 2,3268888888889</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1949-09-06</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1949-09-06">1949-09-06</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_655_p4</idno>
-               <idno type="wikidata">Q3265472</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/133703401</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151430.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/151430/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q3265472</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/133703401</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_655_p4</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Lucien_Descaves</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb152668">
                <persName>
-                  <surname>Darien</surname>
                   <forename>Georges</forename>
+                  <surname>Darien</surname>
                </persName>
                <birth>
-                  <date>1862-04-06</date>
-                  <placeName type="wikidata" ref="Q259463">7. Arrondissement von
-                        Paris</placeName>
+                  <date when-iso="1862-04-06">1862-04-06</date>
+                  <settlement key="141464">
+                     <placeName type="pref">7. Arrondissement (Palais-Bourbon)</placeName>
+                     <location>
+                        <geo>48,8565 2,321</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1921-08-19</date>
-                  <placeName type="wikidata" ref="Q245546">6. Arrondissement von
-                        Paris</placeName>
+                  <date when-iso="1921-08-19">1921-08-19</date>
+                  <settlement key="149658">
+                     <placeName type="pref">6th arrondissement of Paris</placeName>
+                     <location>
+                        <geo>48,850530555556 2,3322333333333</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2670_p2</idno>
-               <idno type="wikidata">Q1508877</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/119480964</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152668.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/152668/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1508877</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/119480964</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2670_p2</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Georges_Darien</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb152288">
                <persName>
+                  <forename>Helga</forename>
                   <surname>Schuhr</surname>
                </persName>
-               <occupation>Gustav [Verleger] ?</occupation>
-               <idno type="HB-tv">HB-tv_2765_p23</idno>
-               <idno type="wikidata">Q1602292</idno>
                <sex value="female"/>
-               <idno type="gnd">https://d-nb.info/gnd/123980895</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152288.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/152288/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2765_p23</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2670_p3</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb157241">
                <persName>
-                  <surname>Reißner</surname>
+                  <forename>Carl</forename>
+                  <surname>Reissner</surname>
                </persName>
-               <occupation>Carl [Verleger] ?</occupation>
-               <idno type="HB-tv">HB-tv_2670_p4</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157241.html</idno>
+               <persName type="legacy-name-merge">Reißner</persName>
+               <sex value="male"/>
+               <occupation key="144">Verleger/Verlegerin</occupation>
+               <occupation key="3585">Carl [Verleger] ?</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/157039/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2765_p22</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/157241/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2670_p4</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb148923">
                <persName>
-                  <surname>Reichemberg</surname>
                   <forename>Suzanne</forename>
+                  <surname>Reichenberg</surname>
                </persName>
                <birth>
-                  <date>1853-09-07</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1853-09-07">1853-09-07</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1924-03-09</date>
-                  <placeName type="wikidata" ref="Q197297">17. Arrondissement von
-                        Paris</placeName>
+                  <date when-iso="1924-03-09">1924-03-09</date>
+                  <settlement key="148925">
+                     <placeName type="pref">17th arrondissement of Paris</placeName>
+                     <location>
+                        <geo>48,882244444444 2,3078388888889</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2135_p1</idno>
-               <idno type="wikidata">Q3506030</idno>
                <sex value="female"/>
-               <idno type="gnd">https://d-nb.info/gnd/116398795</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148923.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148923/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q3506030</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116398795</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2135_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2670_p5</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+                  <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb156909">
                <persName>
-                  <surname>Alexis</surname>
                   <forename>Paul</forename>
+                  <surname>Alexis</surname>
                </persName>
+               <persName type="legacy-name-merge">Alexis, Paul</persName>
                <birth>
-                  <date when="1847">1847</date>
+                  <date notBefore-iso="1847-01-01"
+                        when-iso="1847-07-02"
+                        notAfter-iso="1847-12-31">1847</date>
                </birth>
                <death>
-                  <date when="1901">1901</date>
+                  <date when-iso="1901-07-02" notAfter-iso="1901-12-31">1901</date>
                </death>
-               <idno type="HB-tv">HB-tv_34_p5</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156909.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156909/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_34_p5</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159090/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_54</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
             </person>
             <person xml:id="pmb156165">
                <persName>
-                  <surname>Charpentier</surname>
                   <forename>Gervais</forename>
+                  <surname>Charpentier</surname>
                </persName>
                <birth>
-                  <date when="1805">1805</date>
+                  <date notBefore-iso="1805-01-01"
+                        when-iso="1805-07-02"
+                        notAfter-iso="1805-12-31">1805</date>
                </birth>
                <death>
-                  <date when="1871">1871</date>
+                  <date when-iso="1871-07-02" notAfter-iso="1871-12-31">1871</date>
                </death>
-               <idno type="HB-tv">HB-tv_3432_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156165.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156165/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3432_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

@@ -80,6 +80,7 @@
                   <forename>Edvard</forename>
                   <surname>Munch</surname>
                </persName>
+               <persName type="legacy-name-merge">Munch, Edvard</persName>
                <birth>
                   <date when-iso="1863-12-12">12.12.1863</date>
                   <settlement key="64669">
@@ -106,9 +107,13 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50453</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q41406</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Edvard_Munch</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161415/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3035</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Edvard%20Munch%201933-2.jpg"/>
                </figure>
@@ -118,7 +123,8 @@
                   <forename>Ernst Theodor Amadeus</forename>
                   <surname>Hoffmann</surname>
                </persName>
-               <persName type="person_geburtsname-vorname">Ernst Theodor Wilhelm</persName>
+               <persName type="person_geburtsname_vorname">Ernst Theodor Wilhelm</persName>
+               <persName type="legacy-name-merge">Hoffmann, Ernst Theodor Amadeus</persName>
                <persName type="legacy-name-merge">Hoffmann, Ernst Theodor Amadeus</persName>
                <birth>
                   <date when-iso="1776-01-24">1776-01-24</date>
@@ -155,43 +161,58 @@
                <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/hoffmann-wilhelm.html</idno>
                <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb4194.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb4194.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160548/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1921</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="15">Schnitzler-Kino</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/E.%20T.%20A.%20Hoffmann%2C%20autorretrato.jpg"/>
                </figure>
             </person>
             <person xml:id="pmb156085">
                <persName>
-                  <surname>Castel</surname>
                   <forename>Louis Bertrand</forename>
+                  <surname>Castel</surname>
                </persName>
                <birth>
-                  <date when="1688">1688</date>
+                  <date notBefore-iso="1688-01-01"
+                        when-iso="1688-07-01"
+                        notAfter-iso="1688-12-31">1688</date>
                </birth>
                <death>
-                  <date when="1757">1757</date>
+                  <date when-iso="1757-07-02" notAfter-iso="1757-12-31">1757</date>
                </death>
-               <idno type="HB-tv">HB-tv_3613_p2</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156085.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156085/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3613_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb156087">
                <persName>
-                  <surname>Parville</surname>
                   <forename>Henri de</forename>
+                  <surname>Parville</surname>
                </persName>
-               <persName type="namensvariante">François Henri Peudefer</persName>
                <birth>
-                  <date when="1838">1838</date>
+                  <date notBefore-iso="1838-01-01"
+                        when-iso="1838-07-02"
+                        notAfter-iso="1838-12-31">1838</date>
                </birth>
                <death>
-                  <date when="1909">1909</date>
+                  <date when-iso="1909-07-02" notAfter-iso="1909-12-31">1909</date>
                </death>
-               <idno type="HB-tv">HB-tv_3613_p4</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156087.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156087/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3613_p4</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

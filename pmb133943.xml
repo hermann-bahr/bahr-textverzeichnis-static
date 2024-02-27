@@ -124,12 +124,6 @@
                         <geo>52,52437 13,41053</geo>
                      </location>
                   </settlement>
-                  <settlement key="168">
-                     <placeName type="pref">Berlin</placeName>
-                     <location>
-                        <geo>52,52437 13,41053</geo>
-                     </location>
-                  </settlement>
                </birth>
                <death>
                   <date when-iso="1786-08-17">17.08.1786</date>
@@ -177,6 +171,7 @@
                   <forename>Heinrich</forename>
                   <surname>Hart</surname>
                </persName>
+               <persName type="legacy-name-merge">Hart, Heinrich</persName>
                <birth>
                   <date when-iso="1855-12-30">30.12.1855</date>
                   <settlement key="64605">
@@ -204,6 +199,8 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q76314</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Heinrich_Hart</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118863371</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160401/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1734</idno>
                <affiliation when-iso="1889-04-05">
                   <term key="1182">arbeitet für</term>
                   <orgName key="29561">Freie Bühne</orgName>
@@ -214,204 +211,354 @@
                </affiliation>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Heinrich%20Hart.jpg"/>
                </figure>
             </person>
             <person xml:id="pmb155156">
                <persName>
-                  <surname>Egidy</surname>
                   <forename>Moritz von</forename>
+                  <surname>Egidy</surname>
                </persName>
+               <persName type="legacy-name-merge">Egidy, Moritz von</persName>
                <birth>
-                  <date when="1847">1847</date>
+                  <date notBefore-iso="1847-01-01"
+                        when-iso="1847-07-02"
+                        notAfter-iso="1847-12-31">1847</date>
                </birth>
                <death>
-                  <date when="1898">1898</date>
+                  <date when-iso="1898-07-02" notAfter-iso="1898-12-31">1898</date>
                </death>
-               <idno type="HB-tv">HB-tv_4863_p12</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155156.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155156/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4863_p12</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159898/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1097</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
             </person>
             <person xml:id="pmb3739">
                <persName>
+                  <forename>Leo N. von</forename>
                   <surname>Tolstoi</surname>
-                  <forename>Lew Nikolajewitsch</forename>
                </persName>
                <birth>
-                  <date>1828-08-28</date>
-                  <placeName type="wikidata" ref="Q749556">Jasnaja Poljana</placeName>
+                  <date when-iso="1828-09-09">9.09.1828</date>
+                  <settlement key="59327">
+                     <placeName type="pref">Yasnaya Polyana</placeName>
+                     <location>
+                        <geo>54,06858 37,52439</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1910-11-07</date>
-                  <placeName type="wikidata" ref="Q4071563">Astapowo</placeName>
+                  <date when-iso="1910-11-20">20.11.1910</date>
+                  <settlement key="59329">
+                     <placeName type="pref">Lev Tolstoy</placeName>
+                     <location>
+                        <geo>53,21344 39,44604</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_115_p5</idno>
-               <idno type="wikidata">Q7243</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/11864291X</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3739.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/11864291X</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20772</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3739.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3739/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb3739.html</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3739.html</idno>
+               <idno type="URL" subtype="dritte-walpurgisnacht">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=T#DWpers0234</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp48747</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q7243</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Lew_Nikolajewitsch_Tolstoi</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb3739.html</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb3739.html</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_115_p5</idno>
+               <listBibl>
+                  <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/L.N.Tolstoy%20Prokudin-Gorsky.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb149960">
                <persName>
-                  <surname>Büchner</surname>
                   <forename>Ludwig</forename>
+                  <surname>Büchner</surname>
                </persName>
+               <persName type="legacy-name-merge">Büchner, Ludwig</persName>
                <birth>
-                  <date>1824-03-29</date>
-                  <placeName type="wikidata" ref="Q2973">Darmstadt</placeName>
+                  <date when-iso="1824-03-29">1824-03-29</date>
+                  <settlement key="834">
+                     <placeName type="pref">Darmstadt</placeName>
+                     <location>
+                        <geo>49,87167 8,65027</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1899-05-01</date>
-                  <placeName type="wikidata" ref="Q2973">Darmstadt</placeName>
+                  <date when-iso="1899-05-01">1899-05-01</date>
+                  <settlement key="834">
+                     <placeName type="pref">Darmstadt</placeName>
+                     <location>
+                        <geo>49,87167 8,65027</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_4855_p5</idno>
-               <idno type="wikidata">Q62831</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118667939</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149960.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/149960/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q62831</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118667939</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4855_p5</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159554/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_638</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ludwig_B%C3%BCchner</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
             </person>
             <person xml:id="pmb150936">
                <persName>
+                  <forename>Carl</forename>
                   <surname>Vogt</surname>
-                  <forename>Karl</forename>
                </persName>
                <birth>
-                  <date>1817-07-05</date>
-                  <placeName type="wikidata" ref="Q3874">Gießen</placeName>
+                  <date when-iso="1817-07-05">1817-07-05</date>
+                  <settlement key="112551">
+                     <placeName type="pref">Gießen</placeName>
+                     <location>
+                        <geo>50,583329 8,65</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1895-05-05</date>
-                  <placeName type="wikidata" ref="Q71">Genf</placeName>
+                  <date when-iso="1895-05-05">1895-05-05</date>
+                  <settlement key="562">
+                     <placeName type="pref">Genf</placeName>
+                     <location>
+                        <geo>46,20222 6,14569</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_3446_p4</idno>
-               <idno type="wikidata">Q76513</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118769014</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150936.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/150936/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q76513</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118769014</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3446_p4</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4607</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Carl_Vogt</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb149844">
                <persName>
-                  <surname>Settegast</surname>
                   <forename>Hermann</forename>
+                  <surname>Hermann Settegast</surname>
                </persName>
                <birth>
-                  <date>1819-04-30</date>
-                  <placeName type="wikidata" ref="Q4120832">Königsberg</placeName>
+                  <date when-iso="1819-04-30">1819-04-30</date>
+                  <settlement key="42605">
+                     <placeName type="pref">Kaliningrad</placeName>
+                     <location>
+                        <geo>54,70649 20,51095</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1908-08-11</date>
-                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+                  <date when-iso="1908-08-11">1908-08-11</date>
+                  <settlement key="168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_4863_p17</idno>
-               <idno type="wikidata">Q214172</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/117470635</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149844.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/149844/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q214172</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/117470635</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4863_p17</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hermann_Settegast</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb152456">
                <persName>
-                  <surname>Lehmann-Hohenberg</surname>
                   <forename>Johannes</forename>
+                  <surname>Johannes Lehmann-Hohenberg</surname>
                </persName>
                <birth>
-                  <date>1851-04-11</date>
-                  <placeName type="wikidata" ref="Q4120832">Königsberg</placeName>
+                  <date when-iso="1851-04-11">1851-04-11</date>
+                  <settlement key="42605">
+                     <placeName type="pref">Kaliningrad</placeName>
+                     <location>
+                        <geo>54,70649 20,51095</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1925-04-12</date>
-                  <placeName type="wikidata" ref="Q3955">Weimar</placeName>
+                  <date when-iso="1925-04-12">1925-04-12</date>
+                  <settlement key="197">
+                     <placeName type="pref">Weimar</placeName>
+                     <location>
+                        <geo>50,97361 11,33806</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2728_p6</idno>
-               <idno type="wikidata">Q1697940</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/116873027</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152456.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/152456/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1697940</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116873027</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2728_p6</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Johannes_Lehmann-Hohenberg</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb115013">
                <persName>
+                  <forename>Gotthardt</forename>
                   <surname>Kuehl</surname>
-                  <forename>Gotthard</forename>
                </persName>
                <birth>
-                  <date>1850-11-28</date>
-                  <placeName type="wikidata" ref="Q2843">Lübeck</placeName>
+                  <date when-iso="1850-11-28">1850-11-28</date>
                </birth>
                <death>
-                  <date>1915-01-09</date>
-                  <placeName type="wikidata" ref="Q1731">Dresden</placeName>
+                  <date when-iso="1915-01-10">1915-01-10</date>
                </death>
-               <idno type="HB-tv">HB-tv_3615_p1</idno>
-               <idno type="wikidata">Q879198</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118934783</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb115013.html</idno>
+               <occupation key="110">Maler/Malerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/115013/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118934783</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp48338</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q879198</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gotthardt_Kuehl</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3615_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2728_p7</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb151838">
                <persName>
-                  <surname>Firle</surname>
                   <forename>Walter</forename>
+                  <surname>Firle</surname>
                </persName>
                <birth>
-                  <date>1859-08-22</date>
-                  <placeName type="wikidata" ref="Q1799">Breslau</placeName>
+                  <date when-iso="1859-08-22">1859-08-22</date>
+                  <settlement key="677">
+                     <placeName type="pref">Breslau</placeName>
+                     <location>
+                        <geo>51,10773 17,03533</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1929-11-20</date>
-                  <placeName type="wikidata" ref="Q1726">München</placeName>
+                  <date when-iso="1929-11-20">1929-11-20</date>
+                  <settlement key="45258">
+                     <placeName type="pref">München</placeName>
+                     <location>
+                        <geo>48,13743 11,57549</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_715_p9</idno>
-               <idno type="wikidata">Q2547164</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/116532327</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151838.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/151838/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2547164</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116532327</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_715_p9</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2728_p8</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Walther_Firle</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb152459">
                <persName>
-                  <surname>Hitz</surname>
                   <forename>Dora</forename>
+                  <surname>Hitz</surname>
                </persName>
                <birth>
-                  <date>1856-03-30</date>
-                  <placeName type="wikidata" ref="Q435295">Altdorf bei Nürnberg</placeName>
+                  <date when-iso="1856-03-30">1856-03-30</date>
+                  <settlement key="152460">
+                     <placeName type="pref">Altdorf bei Nürnberg</placeName>
+                     <location>
+                        <geo>49,3875 11,356944444444</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1924-11-20</date>
-                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+                  <date when-iso="1924-11-20">1924-11-20</date>
+                  <settlement key="168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2728_p9</idno>
-               <idno type="wikidata">Q113144</idno>
                <sex value="female"/>
-               <idno type="gnd">https://d-nb.info/gnd/11691727X</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152459.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/152459/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q113144</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/11691727X</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2728_p9</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Dora_Hitz</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb155159">
                <persName>
-                  <surname>Gizycki</surname>
                   <forename>Georg von</forename>
+                  <surname>Gizycki</surname>
                </persName>
                <birth>
-                  <date when="1851">1851</date>
+                  <date notBefore-iso="1851-01-01"
+                        when-iso="1851-07-02"
+                        notAfter-iso="1851-12-31">1851</date>
                </birth>
                <death>
-                  <date when="1895">1895</date>
+                  <date when-iso="1895-07-02" notAfter-iso="1895-12-31">1895</date>
                </death>
-               <idno type="HB-tv">HB-tv_4863_p15</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155159.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155159/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4863_p15</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb155160">
                <persName>
-                  <surname>Polenz</surname>
                   <forename>Wilhelm von</forename>
+                  <surname>Polenz</surname>
                </persName>
+               <persName type="legacy-name-merge">Polenz, Wilhelm von</persName>
                <birth>
-                  <date when="1861">1861</date>
+                  <date when-iso="1861-01-14">1861-01-14</date>
                </birth>
                <death>
-                  <date when="1903">1903</date>
+                  <date when-iso="1903-11-13">1903-11-13</date>
                </death>
-               <idno type="HB-tv">HB-tv_4863_p16</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155160.html</idno>
+               <sex value="male"/>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64873/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb64873.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155160/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4863_p16</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

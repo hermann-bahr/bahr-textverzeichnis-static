@@ -96,6 +96,7 @@
                <persName type="namensvariante">Léon</persName>
                <persName type="legacy-name-merge">Hirschfeld, Victor</persName>
                <persName type="legacy-name-merge">Léon, Victor</persName>
+               <persName type="legacy-name-merge">Léon, Victor</persName>
                <birth>
                   <date when-iso="1858-01-04">4.1.1858</date>
                   <settlement key="18315">
@@ -134,6 +135,8 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Victor_L%C3%A9on</idno>
                <idno type="URL" subtype="oeml">https://dx.doi.org/10.1553/0x0001d75c</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2337.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161140/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2670</idno>
                <listEvent>
                   <event key="89146" when-iso="1891-03-17">
                      <desc n="1370">teilgenommen an</desc>
@@ -154,7 +157,9 @@
                <listBibl>
                   <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Victor%20Leon%201894%20Vilimek.jpg"/>
                </figure>
@@ -164,12 +169,19 @@
                   <forename>Louis</forename>
                   <surname>Varney</surname>
                </persName>
+               <persName type="legacy-name-merge">Varney, Louis</persName>
                <birth>
                   <date when-iso="1844-05-30">30.05.1844</date>
                   <settlement key="62089">
                      <placeName type="pref">New Orleans</placeName>
                      <location>
                         <geo>29,95465 -90,07507</geo>
+                     </location>
+                  </settlement>
+                  <settlement key="119783">
+                     <placeName type="pref">New Orleans, La.</placeName>
+                     <location>
+                        <geo>29,95465 -90,075069</geo>
                      </location>
                   </settlement>
                </birth>
@@ -181,11 +193,25 @@
                         <geo>42,8892 -0,11412</geo>
                      </location>
                   </settlement>
+                  <settlement key="47045">
+                     <placeName type="pref">Cauterets</placeName>
+                     <location>
+                        <geo>42,8892 -0,11412</geo>
+                     </location>
+                  </settlement>
                </death>
                <sex value="male"/>
                <occupation key="129">Komponist/Komponistin</occupation>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20928</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/26407/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/158954/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q445083</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/11735015X</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4551</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references"> </note>
             </person>
             <person xml:id="pmb12179">
                <persName>
@@ -193,6 +219,7 @@
                   <surname>Maran</surname>
                </persName>
                <persName type="namensvariante">Dolezal</persName>
+               <persName type="legacy-name-merge">Maran, Gustav</persName>
                <birth>
                   <date when-iso="1854-01-08">08.01.1854</date>
                   <settlement key="50">
@@ -220,6 +247,8 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49591</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1556180</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gustav_Maran</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161182/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2731</idno>
                <listEvent>
                   <event key="45067" when-iso="1904-10-05">
                      <desc n="1256">ist Arbeitskraft bei</desc>
@@ -229,7 +258,9 @@
                </listEvent>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustav%20Maran%20wenige%20Wochen%20vor%20seinem%20Tode%201917%20Charles%20Scolik.png"/>
                </figure>
@@ -277,43 +308,66 @@
             </person>
             <person xml:id="pmb148983">
                <persName>
-                  <surname>Clairville</surname>
                   <forename>Charles</forename>
+                  <surname>Clairville</surname>
                </persName>
                <birth>
-                  <date>1855-11-27</date>
-                  <placeName type="wikidata" ref="Q2845756"/>
+                  <date when-iso="1855-11-27">1855-11-27</date>
+                  <settlement key="148984">
+                     <placeName type="pref">former 5th arrondissement of Paris</placeName>
+                     <location>
+                        <geo>48,87197 2,357461</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1918-03-26</date>
-                  <placeName type="wikidata" ref="Q3452301"/>
+                  <date when-iso="1918-03-26">1918-03-26</date>
+                  <settlement key="148986">
+                     <placeName type="pref">rue du Faubourg-Saint-Denis</placeName>
+                     <location>
+                        <geo>48,873055555556 2,3544444444444</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2360_p1</idno>
-               <idno type="wikidata">Q55876570</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/116524987</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148983.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148983/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q55876570</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116524987</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2360_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+                  <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb114112">
                <persName>
-                  <surname>Gavarni</surname>
                   <forename>Paul</forename>
+                  <surname>Gavarni</surname>
                </persName>
-               <persName type="namensvariante">Sulpice-Guillaume Chevalier</persName>
                <birth>
-                  <date>1804-01-13</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1804-01-13">1804-01-13</date>
                </birth>
                <death>
-                  <date>1866-11-23</date>
-                  <placeName type="wikidata" ref="Q194420">16. Arrondissement von
-                        Paris</placeName>
+                  <date when-iso="1866-11-23">1866-11-23</date>
                </death>
-               <idno type="HB-tv">HB-tv_3665_p10</idno>
-               <idno type="wikidata">Q1074290</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118537903</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114112.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation key="110">Maler/Malerin</occupation>
+               <occupation key="136">Grafiker/Grafikerin</occupation>
+               <occupation key="331">Zeichner/Zeichnerin</occupation>
+               <occupation key="332">Karikaturist/Karikaturistin</occupation>
+               <occupation key="361">Künstler/Künstlerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/114112/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118537903</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp44235</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1074290</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Paul_Gavarni</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3665_p10</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1436</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

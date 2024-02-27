@@ -132,6 +132,7 @@
                   <forename>Hans</forename>
                   <surname>Makart</surname>
                </persName>
+               <persName type="legacy-name-merge">Makart, Hans</persName>
                <birth>
                   <date when-iso="1840-05-28">28.05.1840</date>
                   <settlement key="30">
@@ -160,8 +161,11 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q511444</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hans_Makart</idno>
                <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x002832c7</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161171/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2714</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Makart%20hans%20selbstportrat.jpg"/>
@@ -244,6 +248,7 @@
                   <forename>Édouard</forename>
                   <surname>Manet</surname>
                </persName>
+               <persName type="legacy-name-merge">Manet, Édouard</persName>
                <birth>
                   <date notBefore-iso="1832-01-01"
                         when-iso="1832-07-01"
@@ -268,12 +273,19 @@
                <occupation key="110">Maler/Malerin</occupation>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb28664.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/28664/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161177/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2723</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
             </person>
             <person xml:id="pmb9554">
                <persName>
                   <forename>Auguste</forename>
                   <surname>Rodin</surname>
                </persName>
+               <persName type="legacy-name-merge">Rodin, Auguste</persName>
                <birth>
                   <date when-iso="1840-11-12">12.11.1840</date>
                   <settlement key="182">
@@ -302,9 +314,13 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q30755</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Auguste_Rodin</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb9554.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161906/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3656</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Auguste%20Rodin%20fotografato%20da%20Nadar%20nel%201891.jpg"/>
                </figure>
@@ -402,41 +418,82 @@
             </person>
             <person xml:id="pmb13194">
                <persName>
+                  <forename>Émile</forename>
                   <surname>Zola</surname>
-                  <forename>Emile</forename>
                </persName>
+               <persName type="legacy-name-merge">Zola, Émile</persName>
                <birth>
-                  <date>1840-04-02</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1840-04-02">02.04.1840</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1902-09-29</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1902-09-29">29.09.1902</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2691_p2</idno>
-               <idno type="wikidata">Q504</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118637223</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb13194.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation key="99">Journalist/Journalistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21578</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118637223</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13194/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13194.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp42655</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q504</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/%C3%89mile_Zola</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb13194.html</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb13194.html</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2691_p2</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162935/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4927</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emile%20Zola%201902.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb113159">
                <persName>
-                  <surname>Courbet</surname>
                   <forename>Gustave</forename>
+                  <surname>Courbet</surname>
                </persName>
+               <persName type="legacy-name-merge">Courbet, Gustave</persName>
                <birth>
-                  <date>1819-06-10</date>
-                  <placeName type="wikidata" ref="Q28427657">Ornans</placeName>
+                  <date when-iso="1819-06-10">1819-06-10</date>
                </birth>
                <death>
-                  <date>1877-12-31</date>
-                  <placeName type="wikidata" ref="Q69721">La Tour-de-Peilz</placeName>
+                  <date when-iso="1877-12-31">1877-12-31</date>
                </death>
-               <idno type="HB-tv">HB-tv_562_p4</idno>
-               <idno type="wikidata">Q34618</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118522450</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113159.html</idno>
+               <occupation key="110">Maler/Malerin</occupation>
+               <occupation key="150">Bildhauer/Bildhauerin</occupation>
+               <occupation key="331">Zeichner/Zeichnerin</occupation>
+               <occupation key="361">Künstler/Künstlerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/113159/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118522450</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp40134</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q34618</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gustave_Courbet</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_562_p4</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3466_p3</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159697/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_830</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
             </person>
          </listPerson>
       </back>

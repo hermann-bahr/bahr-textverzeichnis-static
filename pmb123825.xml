@@ -220,8 +220,7 @@
                   </event>
                   <event key="144203" when-iso="1901-11-16">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Eröffnungsveranstaltung Jung-Wiener-Theater »Zum lieben Augustin«,
-                           16.11.1901</label>
+                     <label>Eröffnungsveranstaltung Jung-Wiener-Theater »Zum lieben Augustin«, 16.11.1901</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/144203/</idno>
                   </event>
                </listEvent>
@@ -244,35 +243,55 @@
             </person>
             <person xml:id="pmb98456">
                <persName>
-                  <surname>Krägel</surname>
                   <forename>Josef</forename>
+                  <surname>Krägel</surname>
                </persName>
                <birth>
-                  <date>1853-01-09</date>
-                  <placeName type="wikidata" ref="Q556312">Oettingen in Bayern</placeName>
+                  <date notBefore-iso="1853-01-01"
+                        when-iso="1853-07-02"
+                        notAfter-iso="1853-12-31">1853</date>
                </birth>
                <death>
-                  <date when-custom="um 1930">um 1930</date>
+                  <date when-iso="1930-07-02" notAfter-iso="1930-12-31">1930</date>
                </death>
-               <idno type="HB-tv">HB-tv_2305_p1</idno>
-               <idno type="wikidata">Q1705070</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/10391269X</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb98456.html</idno>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <occupation key="107">Sänger/Sängerin</occupation>
+               <occupation key="129">Komponist/Komponistin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/98456/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/10391269X</idno>
+               <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x0028240e</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1705070</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Josef_Kr%C3%A4gel</idno>
+               <idno type="URL" subtype="oeml">https://dx.doi.org/10.1553/0x0001d5b9</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2305_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Josef%20Kr%C3%A4gel-1896.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb154479">
                <persName>
-                  <surname>Fröden</surname>
                   <forename>d.i. Adolf Meyer</forename>
+                  <surname>Fröden</surname>
                </persName>
                <birth>
-                  <date when="1861">1861</date>
+                  <date notBefore-iso="1861-01-01"
+                        when-iso="1861-07-02"
+                        notAfter-iso="1861-12-31">1861</date>
                </birth>
                <death>
-                  <date when="1932">1932</date>
+                  <date when-iso="1932-07-01" notAfter-iso="1932-12-31">1932</date>
                </death>
-               <idno type="HB-tv">HB-tv_2319_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154479.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154479/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2319_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

@@ -124,16 +124,14 @@
                <listEvent>
                   <event key="35479" when-iso="1899-03-01">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Uraufführung von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei
-                           Einakter, 1.3.1899</label>
+                     <label>Uraufführung von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei Einakter, 1.3.1899</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35479/</idno>
                   </event>
                </listEvent>
                <listBibl>
                   <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
-                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag
-                        gefunden</bibl>
+                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag gefunden</bibl>
                   <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
                </listBibl>
             </person>
@@ -142,9 +140,10 @@
                   <forename>Lotte</forename>
                   <surname>Medelsky</surname>
                </persName>
-               <persName type="person_geburtsname-vorname">Karoline</persName>
+               <persName type="person_geburtsname_vorname">Karoline</persName>
                <persName type="person_ehename_nachname">Frank</persName>
                <persName type="namensvariante">Krauspe Charlotte Caroline</persName>
+               <persName type="legacy-name-merge">Medelsky, Lotte</persName>
                <persName type="legacy-name-merge">Medelsky, Lotte</persName>
                <birth>
                   <date when-iso="1880-05-18">18.05.1880</date>
@@ -174,6 +173,8 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49167</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1871159</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Lotte_Medelsky</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161268/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2842</idno>
                <listEvent>
                   <event key="143121" when-iso="1898-05-03">
                      <desc n="1256">ist Arbeitskraft bei</desc>
@@ -192,8 +193,7 @@
                   </event>
                   <event key="45154" when-iso="1899-03-18">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Wiener Uraufführung Der Abenteurer und die Sängerin und Die Hochzeit
-                           der Sobeide, 18.3.1899</label>
+                     <label>Wiener Uraufführung Der Abenteurer und die Sängerin und Die Hochzeit der Sobeide, 18.3.1899</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45154/</idno>
                   </event>
                   <event key="141446" when-iso="1899-12-01">
@@ -224,7 +224,9 @@
                </listEvent>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Karoline%20Medelsky%201900.jpg"/>
                </figure>
@@ -338,73 +340,137 @@
             </person>
             <person xml:id="pmb148844">
                <persName>
-                  <surname>Mondthal</surname>
                   <forename>Camilla</forename>
+                  <surname>Camilla Mondthal</surname>
                </persName>
-               <persName type="namensvariante">Camilla Sockl</persName>
                <birth>
-                  <date>1860</date>
+                  <date notBefore-iso="1860-01-01"
+                        when-iso="1860-07-01"
+                        notAfter-iso="1860-12-31">1860</date>
                </birth>
                <death>
-                  <date>1923</date>
+                  <date when-iso="1923-07-02" notAfter-iso="1923-12-31">1923</date>
                </death>
-               <idno type="HB-tv">HB-tv_2173_p4</idno>
-               <idno type="wikidata">Q94751615</idno>
                <sex value="female"/>
-               <idno type="gnd">https://d-nb.info/gnd/117125865</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148844.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148844/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94751615</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/117125865</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2173_p4</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+                  <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb148845">
                <persName>
-                  <surname>Wittels</surname>
                   <forename>Auguste</forename>
+                  <surname>Auguste Wittels</surname>
                </persName>
                <birth>
-                  <date>1871-12-28</date>
-                  <placeName type="wikidata" ref="Q393426">Žatec</placeName>
+                  <date when-iso="1871-12-28">1871-12-28</date>
+                  <settlement key="94591">
+                     <placeName type="pref">Saaz</placeName>
+                     <location>
+                        <geo>50,32717 13,545769</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1918</date>
-                  <placeName type="wikidata" ref="Q250984">Bad Ischl</placeName>
+                  <date when-iso="1918-07-02" notAfter-iso="1918-12-31">1918</date>
+                  <settlement key="213">
+                     <placeName type="pref">Bad Ischl</placeName>
+                     <location>
+                        <geo>47,71109 13,61893</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2168_p2</idno>
-               <idno type="wikidata">Q94761450</idno>
                <sex value="female"/>
-               <idno type="gnd">https://d-nb.info/gnd/116654066</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148845.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148845/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q94761450</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116654066</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2168_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+                  <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb153989">
                <persName>
-                  <surname>Löwe</surname>
                   <forename>Konrad</forename>
+                  <surname>Löwe</surname>
                </persName>
+               <persName type="legacy-name-merge">Löwe, Konrad</persName>
                <birth>
-                  <date when="1856">1856</date>
+                  <date notBefore-iso="1856-01-01"
+                        when-iso="1856-07-01"
+                        notAfter-iso="1856-12-31">1856</date>
                </birth>
                <death>
-                  <date when="1912">1912</date>
+                  <date when-iso="1912-07-01" notAfter-iso="1912-12-31">1912</date>
                </death>
-               <idno type="HB-tv">HB-tv_2283_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153989.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153989/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2283_p1</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161143/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2675</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
             </person>
             <person xml:id="pmb8330">
                <persName>
+                  <forename>Fritz</forename>
                   <surname>Krastel</surname>
-                  <forename>Friedrich</forename>
                </persName>
                <birth>
-                  <date>1839-04-06</date>
-                  <placeName type="wikidata" ref="Q2119">Mannheim</placeName>
+                  <date when-iso="1839-04-06">06.04.1839</date>
+                  <settlement key="881">
+                     <placeName type="pref">Mannheim</placeName>
+                     <location>
+                        <geo>49,4891 8,46694</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1908-02-12</date>
-                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+                  <date when-iso="1908-02-12">12.02.1908</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2168_p4</idno>
-               <idno type="wikidata">Q1440717</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/116383011</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb8330.html</idno>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17094</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116383011</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/8330/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43933</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1440717</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Friedrich_Krastel</idno>
+               <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x0028246b</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2168_p4</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2339</idno>
+               <listEvent>
+                  <event key="94354" when-iso="1895-05-02">
+                     <desc n="1256">ist Arbeitskraft bei</desc>
+                     <label>Premiere von Tabarin und Verbotene Früchte, 2.5.1895</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/94354/</idno>
+                  </event>
+                  <event key="35479" when-iso="1899-03-01">
+                     <desc n="1256">ist Arbeitskraft bei</desc>
+                     <label>Uraufführung von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei Einakter, 1.3.1899</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35479/</idno>
+                  </event>
+               </listEvent>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Friedrich%20Krastel.jpg"/>
+               </figure>
             </person>
          </listPerson>
       </back>

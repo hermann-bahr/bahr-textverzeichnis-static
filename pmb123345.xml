@@ -98,7 +98,7 @@
                   <forename>Ilka</forename>
                   <surname>Pálmay</surname>
                </persName>
-               <persName type="person_geburtsname-vorname">Ilona</persName>
+               <persName type="person_geburtsname_vorname">Ilona</persName>
                <persName type="person_geburtsname_nachname">Petráss</persName>
                <persName type="person_ehename_nachname">Szigligeti</persName>
                <persName type="person_ehename_nachname">Kinsky</persName>
@@ -147,8 +147,7 @@
                <listBibl>
                   <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
-                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag
-                        gefunden</bibl>
+                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag gefunden</bibl>
                   <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
                </listBibl>
                <figure>
@@ -214,6 +213,7 @@
                   <forename>Richard</forename>
                   <surname>Dehmel</surname>
                </persName>
+               <persName type="legacy-name-merge">Dehmel, Richard</persName>
                <birth>
                   <date when-iso="1863-11-18">18.11.1863</date>
                   <settlement key="61014">
@@ -245,6 +245,8 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q76590</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Richard_Dehmel</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11148.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159748/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_900</idno>
                <affiliation notBefore-iso="1918-11-01"
                             when-iso="1918-11-15"
                             notAfter-iso="1918-11-30">
@@ -262,7 +264,9 @@
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Rudolf%20D%C3%BChrkoop%20-%20Richard%20Dehmel%20%28HMuF%2C%201905%29.jpg"/>
                </figure>
@@ -272,6 +276,7 @@
                   <forename>Otto Julius</forename>
                   <surname>Bierbaum</surname>
                </persName>
+               <persName type="legacy-name-merge">Bierbaum, Otto Julius</persName>
                <birth>
                   <date when-iso="1865-06-28">28.06.1865</date>
                   <settlement key="59992">
@@ -300,6 +305,8 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Otto_Julius_Bierbaum</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb10928.html</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118510762</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159397/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_435</idno>
                <affiliation notBefore-iso="1901-01-01"
                             when-iso="1901-07-02"
                             notAfter-iso="1901-12-31">
@@ -318,7 +325,9 @@
                </affiliation>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Otto%20Julius%20Bierbaum%20-%20Radierung%20von%20Johann%20Lindner%2C%201899%20%28cropped%29.jpg"/>
                </figure>
@@ -362,8 +371,7 @@
                <listEvent>
                   <event key="63396" when-iso="1893-03-29">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Vorstellung zu Gunsten der Rettungsgesellschaft (Gläubiger, Die
-                           Statue des Kommandeurs), 29.3.1893</label>
+                     <label>Vorstellung zu Gunsten der Rettungsgesellschaft (Gläubiger, Die Statue des Kommandeurs), 29.3.1893</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63396/</idno>
                   </event>
                   <event key="35068" when-iso="1893-12-01">
@@ -426,67 +434,149 @@
             </person>
             <person xml:id="pmb153627">
                <persName>
-                  <surname>Carré</surname>
-                  <forename>Michael</forename>
+                  <forename>Michiel</forename>
+                  <surname>Michiel Carree</surname>
                </persName>
-               <idno type="HB-tv">HB-tv_1326_p1</idno>
-               <idno type="wikidata">Q6837381</idno>
+               <birth>
+                  <date notBefore-iso="1657-01-01"
+                        when-iso="1657-07-02"
+                        notAfter-iso="1657-12-31">1657</date>
+                  <settlement key="58810">
+                     <placeName type="pref">Den Haag</placeName>
+                     <location>
+                        <geo>52,07667 4,29861</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when-iso="1727-10-03">1727-10-03</date>
+                  <settlement key="152522">
+                     <placeName type="pref">Alkmaar</placeName>
+                     <location>
+                        <geo>52,6289 4,74403</geo>
+                     </location>
+                  </settlement>
+               </death>
                <sex value="male"/>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153627.html</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1326_p1</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153627/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q6837381</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Michiel_Carr%C3%A9e</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154327">
                <persName>
-                  <surname>Worms</surname>
                   <forename>André</forename>
+                  <surname>Worms</surname>
                </persName>
-               <idno type="HB-tv">HB-tv_1326_p2</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154327.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154327/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1326_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb92789">
                <persName>
+                  <forename>Adolphe Léon</forename>
                   <surname>Willette</surname>
-                  <forename>Adolphe</forename>
                </persName>
+               <persName type="legacy-name-merge">Willette, Adolphe Léon</persName>
                <birth>
-                  <date>1857-07-30</date>
-                  <placeName type="wikidata" ref="Q47135">Châlons-en-Champagne</placeName>
+                  <date when-iso="1857-07-30">1857-07-30</date>
+                  <settlement key="92790">
+                     <placeName type="pref">Châlons-sur-Marne</placeName>
+                  </settlement>
                </birth>
                <death>
-                  <date>1926-02-04</date>
-                  <placeName type="wikidata" ref="Q3448711"/>
+                  <date when-iso="1926-02-04">1926-02-04</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1326_p3</idno>
-               <idno type="wikidata">Q365874</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/130184497</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb92789.html</idno>
+               <occupation key="110">Maler/Malerin</occupation>
+               <occupation key="332">Karikaturist/Karikaturistin</occupation>
+               <occupation key="415">Illustrator/Illustratorin</occupation>
+               <occupation key="422">Lithograf/Lithografin</occupation>
+               <occupation key="1329">Plakatkünstler/Plakatkünstlerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92789/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/130184497</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q365874</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Adolphe_Willette</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1326_p3</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162834/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4806</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references"> </note>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Adolphe%20Willette%201913.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb3368">
                <persName>
+                  <forename>Joseph Maria</forename>
                   <surname>Olbrich</surname>
-                  <forename>Josef Maria</forename>
                </persName>
+               <persName type="legacy-name-merge">Olbrich, Joseph Maria</persName>
                <birth>
-                  <date>1867-12-22</date>
-                  <placeName type="wikidata" ref="Q156080">Opava</placeName>
+                  <date when-iso="1867-12-22">1867-12-22</date>
+                  <settlement key="36539">
+                     <placeName type="pref">Opava</placeName>
+                     <location>
+                        <geo>49,93866 17,90257</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1908-08-08</date>
-                  <placeName type="wikidata" ref="Q1718">Düsseldorf</placeName>
+                  <date when-iso="1908-08-08">1908-08-08</date>
+                  <settlement key="863">
+                     <placeName type="pref">Düsseldorf</placeName>
+                     <location>
+                        <geo>51,22172 6,77616</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1326_p4</idno>
-               <idno type="wikidata">Q44911</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118589768</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3368.html</idno>
+               <occupation key="185">Architekt/Architektin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118589768</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3368.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3368/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50807</idno>
+               <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x002837ad</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44911</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Joseph_Maria_Olbrich</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb3368.html</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1326_p4</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161535/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3181</idno>
+               <listBibl>
+                  <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Joseph%20Maria%20Olbrich%201908.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb154328">
                <persName>
                   <surname>Schuster</surname>
                </persName>
-               <occupation>Schauspielerin</occupation>
-               <idno type="HB-tv">HB-tv_1326_p5</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154328.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154328/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1326_p5</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

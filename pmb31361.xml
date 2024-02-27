@@ -145,17 +145,23 @@
             </person>
             <person xml:id="pmb155402">
                <persName>
-                  <surname>Portinari</surname>
                   <forename>Beatrice</forename>
+                  <surname>Portinari</surname>
                </persName>
                <birth>
-                  <date when="1266">1266</date>
+                  <date notBefore-iso="1266-01-01"
+                        when-iso="1266-07-02"
+                        notAfter-iso="1266-12-31">1266</date>
                </birth>
                <death>
-                  <date when="1290">1290</date>
+                  <date when-iso="1290-07-02" notAfter-iso="1290-12-31">1290</date>
                </death>
-               <idno type="HB-tv">HB-tv_3369_p34</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155402.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155402/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3369_p34</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

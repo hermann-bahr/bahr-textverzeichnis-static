@@ -96,6 +96,7 @@
                   <forename>Fabrice</forename>
                   <surname>Carré</surname>
                </persName>
+               <persName type="legacy-name-merge">Carré, Fabrice</persName>
                <birth>
                   <date when-iso="1855-07-09">09.07.1855</date>
                   <settlement key="182">
@@ -119,6 +120,12 @@
                <occupation key="106">Rechtsanwalt/Rechtsanwältin</occupation>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14142</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14879/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159584/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_681</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
             </person>
             <person xml:id="pmb2337">
                <persName>
@@ -128,6 +135,7 @@
                <persName type="person_geburtsname_nachname">Hirschfeld</persName>
                <persName type="namensvariante">Léon</persName>
                <persName type="legacy-name-merge">Hirschfeld, Victor</persName>
+               <persName type="legacy-name-merge">Léon, Victor</persName>
                <persName type="legacy-name-merge">Léon, Victor</persName>
                <birth>
                   <date when-iso="1858-01-04">4.1.1858</date>
@@ -167,6 +175,8 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Victor_L%C3%A9on</idno>
                <idno type="URL" subtype="oeml">https://dx.doi.org/10.1553/0x0001d75c</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2337.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161140/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2670</idno>
                <listEvent>
                   <event key="89146" when-iso="1891-03-17">
                      <desc n="1370">teilgenommen an</desc>
@@ -187,7 +197,9 @@
                <listBibl>
                   <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Victor%20Leon%201894%20Vilimek.jpg"/>
                </figure>
@@ -264,6 +276,7 @@
                   <surname>Maran</surname>
                </persName>
                <persName type="namensvariante">Dolezal</persName>
+               <persName type="legacy-name-merge">Maran, Gustav</persName>
                <birth>
                   <date when-iso="1854-01-08">08.01.1854</date>
                   <settlement key="50">
@@ -291,6 +304,8 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49591</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1556180</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gustav_Maran</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161182/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2731</idno>
                <listEvent>
                   <event key="45067" when-iso="1904-10-05">
                      <desc n="1256">ist Arbeitskraft bei</desc>
@@ -300,60 +315,116 @@
                </listEvent>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustav%20Maran%20wenige%20Wochen%20vor%20seinem%20Tode%201917%20Charles%20Scolik.png"/>
                </figure>
             </person>
             <person xml:id="pmb22666">
                <persName>
+                  <forename>Victoria</forename>
                   <surname>Pohl-Meiser</surname>
-                  <forename>Viktoria</forename>
                </persName>
+               <persName type="person_geburtsname_nachname">Meiser</persName>
+               <persName type="legacy-name-merge">Pohl-Meiser, Viktoria</persName>
+               <persName type="legacy-name-merge">Pohl-Meiser, Victoria</persName>
                <birth>
-                  <date>1858-11-28</date>
-                  <placeName type="wikidata" ref="Q1726">München</placeName>
+                  <date when-iso="1858-11-28">28.11.1858</date>
+                  <settlement key="45258">
+                     <placeName type="pref">München</placeName>
+                     <location>
+                        <geo>48,13743 11,57549</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1936-06-17</date>
+                  <date when-iso="1936-06-16">16.06.1936</date>
+                  <settlement key="968">
+                     <placeName type="pref">Mödling</placeName>
+                     <location>
+                        <geo>48,08605 16,28921</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_4829_p6</idno>
-               <idno type="wikidata">Q58011561</idno>
                <sex value="female"/>
-               <idno type="gnd">https://d-nb.info/gnd/116260653</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb22666.html</idno>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <occupation key="107">Sänger/Sängerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18850</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb22666.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/22666/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp51573</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/101692/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116260653</idno>
+               <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x0028390a</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q58011561</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Viktoria_Pohl-Meiser</idno>
+               <idno type="URL" subtype="oeml">https://dx.doi.org/10.1553/0x0001dd5c</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4829_p6</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161713/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3404</idno>
+               <listEvent>
+                  <event key="45952" when-iso="1898-01-16">
+                     <desc n="1256">ist Arbeitskraft bei</desc>
+                     <label>Premiere von Abschiedssouper, Uraufführung Weihnachtseinkäufe, 16.1.1898</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45952/</idno>
+                  </event>
+               </listEvent>
+               <listBibl>
+                  <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references"> </note>
             </person>
             <person xml:id="pmb154469">
                <persName>
                   <surname>Léon</surname>
                </persName>
-               <occupation>Schauspielerin</occupation>
-               <idno type="HB-tv">HB-tv_2365_p2</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154469.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154469/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2365_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154470">
                <persName>
                   <surname>Dworak</surname>
                </persName>
-               <occupation>Schauspielerin</occupation>
-               <idno type="HB-tv">HB-tv_2365_p3</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154470.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154470/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2365_p3</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154471">
                <persName>
                   <surname>Rauch</surname>
                </persName>
-               <occupation>Schauspieler</occupation>
-               <idno type="HB-tv">HB-tv_2365_p4</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154471.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154471/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2365_p4</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154472">
                <persName>
                   <surname>Virag</surname>
                </persName>
-               <occupation>Schauspielerin</occupation>
-               <idno type="HB-tv">HB-tv_2365_p5</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154472.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154472/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2365_p5</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

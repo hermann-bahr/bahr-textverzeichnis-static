@@ -89,17 +89,27 @@
          <listPerson>
             <person xml:id="pmb157234">
                <persName>
-                  <surname>Wisnowska</surname>
                   <forename>Maria</forename>
+                  <surname>Wisnowska</surname>
                </persName>
+               <persName type="legacy-name-merge">Wisnowska, Maria</persName>
                <birth>
-                  <date when="1860">1860</date>
+                  <date notBefore-iso="1860-01-01"
+                        when-iso="1860-07-01"
+                        notAfter-iso="1860-12-31">1860</date>
                </birth>
                <death>
-                  <date when="1890">1890</date>
+                  <date when-iso="1890-07-02" notAfter-iso="1890-12-31">1890</date>
                </death>
-               <idno type="HB-tv">HB-tv_2675_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157234.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/157234/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2675_p1</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162856/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4830</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
             </person>
          </listPerson>
       </back>

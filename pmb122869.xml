@@ -94,8 +94,9 @@
                   <forename>Lucie</forename>
                   <surname>Höflich</surname>
                </persName>
-               <persName type="person_geburtsname-vorname">Helene Lucie</persName>
+               <persName type="person_geburtsname_vorname">Helene Lucie</persName>
                <persName type="person_geburtsname_nachname">von Holwede</persName>
+               <persName type="legacy-name-merge">Höflich, Lucie</persName>
                <birth>
                   <date when-iso="1883-02-20">20.02.1883</date>
                   <settlement key="890">
@@ -126,6 +127,8 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Lucie_H%C3%B6flich</idno>
                <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11791.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11791.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160618/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2005</idno>
                <listEvent>
                   <event key="45403" when-iso="1905-06-03">
                      <desc n="1256">ist Arbeitskraft bei</desc>
@@ -150,7 +153,9 @@
                </listEvent>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bundesarchiv%20Bild%20183-U0920-507%2C%20Lucie%20H%C3%B6flich.jpg"/>
                </figure>
@@ -222,8 +227,7 @@
                   </event>
                   <event key="35113" when-iso="1904-12-12">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Premiere von Literatur, Die letzten Masken, Der Puppenspieler,
-                           12.12.1904</label>
+                     <label>Premiere von Literatur, Die letzten Masken, Der Puppenspieler, 12.12.1904</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35113/</idno>
                   </event>
                   <event key="35361" when-iso="1924-10-11">
@@ -296,70 +300,115 @@
             </person>
             <person xml:id="pmb148793">
                <persName>
-                  <surname>Chatrian</surname>
                   <forename>Alexandre</forename>
+                  <surname>Chatrian</surname>
                </persName>
+               <persName type="legacy-name-merge">Chatrian, Alexandre</persName>
                <birth>
-                  <date>1826-12-18</date>
-                  <placeName type="wikidata" ref="Q24936374"/>
+                  <date when-iso="1826-12-18">1826-12-18</date>
+                  <settlement key="148794">
+                     <placeName type="pref">Grand Soldat</placeName>
+                     <location>
+                        <geo>48,621083 7,140735</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1890-09-03</date>
-                  <placeName type="wikidata" ref="Q244716">Villemomble</placeName>
+                  <date when-iso="1890-09-03">1890-09-03</date>
+                  <settlement key="148796">
+                     <placeName type="pref">Villemomble</placeName>
+                     <location>
+                        <geo>48,890277777778 2,5111111111111</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1968_p1</idno>
-               <idno type="wikidata">Q2833544</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118815024</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148793.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148793/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2833544</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118815024</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1968_p1</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159619/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_727</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alexandre_Chatrian</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
             </person>
             <person xml:id="pmb148798">
                <persName>
-                  <surname>Erckmann</surname>
                   <forename>Émile</forename>
+                  <surname>Erckmann</surname>
                </persName>
                <birth>
-                  <date>1822-05-20</date>
-                  <placeName type="wikidata" ref="Q22160">Phalsbourg</placeName>
+                  <date when-iso="1822-05-20">1822-05-20</date>
+                  <settlement key="148799">
+                     <placeName type="pref">Phalsbourg</placeName>
+                     <location>
+                        <geo>48,767777777778 7,2583333333333</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1899-03-14</date>
-                  <placeName type="wikidata" ref="Q208794">Lunéville</placeName>
+                  <date when-iso="1899-03-14">1899-03-14</date>
+                  <settlement key="91175">
+                     <placeName type="pref">Lunéville</placeName>
+                     <location>
+                        <geo>48,59273 6,49383</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1968_p2</idno>
-               <idno type="wikidata">Q3246593</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118812890</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148798.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148798/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q3246593</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118812890</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1968_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1146</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Emile_Erckmann</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154097">
                <persName>
-                  <surname>Got</surname>
                   <forename>François Jules Edmond</forename>
+                  <surname>Got</surname>
                </persName>
-               <occupation>Schauspieler</occupation>
                <birth>
-                  <date when="1822">1822</date>
+                  <date notBefore-iso="1822-01-01"
+                        when-iso="1822-07-02"
+                        notAfter-iso="1822-12-31">1822</date>
                </birth>
                <death>
-                  <date when="1901">1901</date>
+                  <date when-iso="1901-07-02" notAfter-iso="1901-12-31">1901</date>
                </death>
-               <idno type="HB-tv">HB-tv_1968_p3</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154097.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154097/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1968_p3</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154098">
                <persName>
-                  <surname>Lobe</surname>
                   <forename>Theodor</forename>
+                  <surname>Lobe</surname>
                </persName>
                <birth>
-                  <date when="1833">1833</date>
+                  <date notBefore-iso="1833-01-01"
+                        when-iso="1833-07-02"
+                        notAfter-iso="1833-12-31">1833</date>
                </birth>
                <death>
-                  <date when="1905">1905</date>
+                  <date when-iso="1905-07-02" notAfter-iso="1905-12-31">1905</date>
                </death>
-               <idno type="HB-tv">HB-tv_1968_p4</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154098.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154098/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1968_p4</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

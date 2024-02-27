@@ -82,7 +82,7 @@
                   <forename>Anna</forename>
                   <surname>Bahr-Mildenburg</surname>
                </persName>
-               <persName type="person_geburtsname-vorname">Bellschan</persName>
+               <persName type="person_geburtsname_vorname">Bellschan</persName>
                <persName type="person_geburtsname_nachname">von Mildenburg</persName>
                <persName type="legacy-name-merge">Bahr-Mildenburg, Anna</persName>
                <birth>
@@ -150,8 +150,7 @@
                   </event>
                   <event key="48822" when-iso="1915-12-13">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Wohltätigkeitskonzert von Carreno und Bahr-Mildenburg,
-                           13.12.1915</label>
+                     <label>Wohltätigkeitskonzert von Carreno und Bahr-Mildenburg, 13.12.1915</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/48822/</idno>
                   </event>
                </listEvent>
@@ -166,22 +165,30 @@
             </person>
             <person xml:id="pmb95711">
                <persName>
-                  <surname>Faltis</surname>
                   <forename>Evelyn</forename>
+                  <surname>Faltis</surname>
                </persName>
                <birth>
-                  <date>1887-02-20</date>
-                  <placeName type="wikidata" ref="Q320950">Trutnov</placeName>
+                  <date when-iso="1887-02-20">1887-02-20</date>
                </birth>
                <death>
-                  <date>1937-05-13</date>
-                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+                  <date when-iso="1937-05-13">1937-05-13</date>
                </death>
-               <idno type="HB-tv">HB-tv_6057_p1</idno>
-               <idno type="wikidata">Q5416317</idno>
                <sex value="female"/>
-               <idno type="gnd">https://d-nb.info/gnd/130533696</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb95711.html</idno>
+               <occupation key="129">Komponist/Komponistin</occupation>
+               <occupation key="181">Pianist/Pianistin</occupation>
+               <occupation key="457">Korrepetitor/Korrepetitorin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/95711/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/130533696</idno>
+               <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x002814fd</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q5416317</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Evelyn_Faltis</idno>
+               <idno type="URL" subtype="oeml">https://dx.doi.org/10.1553/0x0001cd11</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_6057_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

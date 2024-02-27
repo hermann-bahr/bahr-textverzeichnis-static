@@ -196,6 +196,7 @@
                   <forename>Ernst</forename>
                   <surname>Mach</surname>
                </persName>
+               <persName type="legacy-name-merge">Mach, Ernst</persName>
                <birth>
                   <date when-iso="1838-02-18">18.02.1838</date>
                   <settlement key="59934">
@@ -228,9 +229,13 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ernst_Mach</idno>
                <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x00282f0b</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12147.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161158/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2694</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ernstmach.jpg"/>
                </figure>
@@ -252,61 +257,91 @@
                <persName>
                   <surname>Anaxagoras</surname>
                </persName>
+               <persName type="legacy-name-merge">Anaxagoras</persName>
+               <persName type="legacy-name-merge">Anaxagoras</persName>
                <birth>
-                  <date when="0499">499</date>
+                  <date notBefore-iso="0499-01-01"
+                        when-iso="0499-07-02"
+                        notAfter-iso="0499-12-31">499</date>
                </birth>
                <death>
-                  <date when-custom="428 v.u.Z.">428 v.u.Z.</date>
+                  <date>428 v.u.Z.</date>
                </death>
-               <idno type="HB-tv">HB-tv_5272_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155697.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155697/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5272_p1</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155860/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/157389/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2615_p17</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5414_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb150563">
                <persName>
-                  <surname>Averroës</surname>
+                  <forename>Mohammed</forename>
+                  <surname>Averroes</surname>
                </persName>
-               <birth>
-                  <date>1126-04-14</date>
-                  <placeName type="wikidata" ref="Q5818">Córdoba</placeName>
-               </birth>
-               <death>
-                  <date>1198-12-10</date>
-                  <placeName type="wikidata" ref="Q101625">Marrakesch</placeName>
-               </death>
-               <idno type="HB-tv">HB-tv_5272_p2</idno>
-               <idno type="wikidata">Q39837</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118505238</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150563.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/150563/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q39837</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118505238</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5272_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5414_p2</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Averroes</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb43790">
                <persName>
-                  <surname>Friedlaender</surname>
                   <forename>Salomo</forename>
+                  <surname>Friedlaender</surname>
                </persName>
+               <persName type="person_pseudonym">Mynona</persName>
                <birth>
-                  <date>1871-05-04</date>
-                  <placeName type="wikidata" ref="Q52828">Gołańcz</placeName>
+                  <date when-iso="1871-05-04">1871-05-04</date>
                </birth>
                <death>
-                  <date>1946-09-09</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1946-09-09">1946-09-09</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_3364_p13</idno>
-               <idno type="wikidata">Q978324</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118586076</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb43790.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation key="154">Philosoph/Philosophin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118586076</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43790/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp40660</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q978324</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Salomo_Friedlaender</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3364_p13</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Salomo%20friedlaender.png"/>
+               </figure>
             </person>
             <person xml:id="pmb155698">
                <persName>
                   <surname>Empedokles</surname>
                </persName>
                <death>
-                  <date when-custom="um 434 v.u.Z.">um 434 v.u.Z.</date>
+                  <date>um 434 v.u.Z.</date>
                </death>
-               <idno type="HB-tv">HB-tv_5272_p4</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155698.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155698/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5272_p4</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

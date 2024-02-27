@@ -116,8 +116,7 @@
                   </event>
                   <event key="35482" when-iso="1899-04-29">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Premiere von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei
-                           Einakter, 29.4.1899</label>
+                     <label>Premiere von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei Einakter, 29.4.1899</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35482/</idno>
                   </event>
                </listEvent>
@@ -127,6 +126,7 @@
                   <forename>Alexander</forename>
                   <surname>Römpler</surname>
                </persName>
+               <persName type="legacy-name-merge">Römpler, Alexander</persName>
                <birth>
                   <date when-iso="1860-03-12">12.03.1860</date>
                   <settlement key="168">
@@ -157,6 +157,8 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q55683725</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alexander_R%C3%B6mpler</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12595.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161981/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3753</idno>
                <listEvent>
                   <event key="94377" when-iso="1895-05-07">
                      <desc n="1256">ist Arbeitskraft bei</desc>
@@ -170,8 +172,7 @@
                   </event>
                   <event key="35479" when-iso="1899-03-01">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Uraufführung von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei
-                           Einakter, 1.3.1899</label>
+                     <label>Uraufführung von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei Einakter, 1.3.1899</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35479/</idno>
                   </event>
                   <event key="53022" when-iso="1908-11-18">
@@ -182,7 +183,9 @@
                </listEvent>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
             </person>
             <person xml:id="pmb21727">
                <persName>
@@ -222,18 +225,23 @@
             </person>
             <person xml:id="pmb153967">
                <persName>
-                  <surname>l’Arronge</surname>
                   <forename>Adolph</forename>
+                  <surname>l’Arronge</surname>
                </persName>
-               <persName type="namensvariante">Adolf Aaronsohn</persName>
                <birth>
-                  <date when="1838">1838</date>
+                  <date notBefore-iso="1838-01-01"
+                        when-iso="1838-07-02"
+                        notAfter-iso="1838-12-31">1838</date>
                </birth>
                <death>
-                  <date when="1908">1908</date>
+                  <date when-iso="1908-07-01" notAfter-iso="1908-12-31">1908</date>
                </death>
-               <idno type="HB-tv">HB-tv_4465_p9</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153967.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153967/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4465_p9</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

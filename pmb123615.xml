@@ -100,7 +100,7 @@
                   <surname>Judic</surname>
                </persName>
                <persName type="person_geburtsname_nachname">Damiens</persName>
-               <persName type="person_geburtsname-vorname">Anne</persName>
+               <persName type="person_geburtsname_vorname">Anne</persName>
                <birth>
                   <date when-iso="1849-07-19">19.07.1849</date>
                   <settlement key="45858">
@@ -160,6 +160,7 @@
                   <forename>Raoul</forename>
                   <surname>Toché</surname>
                </persName>
+               <persName type="legacy-name-merge">Toché, Raoul</persName>
                <birth>
                   <date when-iso="1850-10-02">02.10.1850</date>
                   <settlement key="54909">
@@ -182,6 +183,11 @@
                <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20762</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/26088/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162542/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4444</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb12179">
                <persName>
@@ -189,6 +195,7 @@
                   <surname>Maran</surname>
                </persName>
                <persName type="namensvariante">Dolezal</persName>
+               <persName type="legacy-name-merge">Maran, Gustav</persName>
                <birth>
                   <date when-iso="1854-01-08">08.01.1854</date>
                   <settlement key="50">
@@ -216,6 +223,8 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49591</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1556180</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gustav_Maran</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161182/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2731</idno>
                <listEvent>
                   <event key="45067" when-iso="1904-10-05">
                      <desc n="1256">ist Arbeitskraft bei</desc>
@@ -225,7 +234,9 @@
                </listEvent>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustav%20Maran%20wenige%20Wochen%20vor%20seinem%20Tode%201917%20Charles%20Scolik.png"/>
                </figure>
@@ -313,18 +324,23 @@
             </person>
             <person xml:id="pmb154473">
                <persName>
-                  <surname>Grunert-Paulick</surname>
                   <forename>Therese</forename>
-                  <surname type="birthname"> Grunert</surname>
+                  <surname>Grunert-Paulick</surname>
                </persName>
                <birth>
-                  <date when="1857">1857</date>
+                  <date notBefore-iso="1857-01-01"
+                        when-iso="1857-07-02"
+                        notAfter-iso="1857-12-31">1857</date>
                </birth>
                <death>
-                  <date when="1918">1918</date>
+                  <date when-iso="1918-07-02" notAfter-iso="1918-12-31">1918</date>
                </death>
-               <idno type="HB-tv">HB-tv_2364_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154473.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154473/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2364_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

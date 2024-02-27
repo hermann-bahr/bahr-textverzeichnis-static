@@ -146,6 +146,7 @@
                   <forename>Walt</forename>
                   <surname>Whitman</surname>
                </persName>
+               <persName type="legacy-name-merge">Whitman, Walt</persName>
                <birth>
                   <date when-iso="1819-05-31">31.05.1819</date>
                   <settlement key="64734">
@@ -170,9 +171,13 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp55211</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q81438</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Walt_Whitman</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162800/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4770</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Walt%20Whitman%20-%20George%20Collins%20Cox.jpg"/>
                </figure>
@@ -182,27 +187,37 @@
                   <surname>Zhuangzi</surname>
                </persName>
                <birth>
-                  <date when-custom="um 365 v.u.Z.">um 365 v.u.Z.</date>
+                  <date>um 365 v.u.Z.</date>
                </birth>
                <death>
-                  <date when-custom="290 v.u.Z.">290 v.u.Z.</date>
+                  <date>290 v.u.Z.</date>
                </death>
-               <idno type="HB-tv">HB-tv_5276_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155690.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155690/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5276_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb155691">
                <persName>
-                  <surname>Wilhelm</surname>
                   <forename>Richard</forename>
+                  <surname>Wilhelm</surname>
                </persName>
                <birth>
-                  <date when="1873">1873</date>
+                  <date notBefore-iso="1873-01-01"
+                        when-iso="1873-07-02"
+                        notAfter-iso="1873-12-31">1873</date>
                </birth>
                <death>
-                  <date when="1930">1930</date>
+                  <date when-iso="1930-07-02" notAfter-iso="1930-12-31">1930</date>
                </death>
-               <idno type="HB-tv">HB-tv_5276_p2</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155691.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155691/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5276_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

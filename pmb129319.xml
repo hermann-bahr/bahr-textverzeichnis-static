@@ -141,9 +141,10 @@
                   <forename>Peter</forename>
                   <surname>Altenberg</surname>
                </persName>
-               <persName type="person_geburtsname-vorname">Richard</persName>
+               <persName type="person_geburtsname_vorname">Richard</persName>
                <persName type="person_geburtsname_nachname">Engländer</persName>
                <persName type="person_pseudonym">Peter Altenberg</persName>
+               <persName type="legacy-name-merge">Altenberg, Peter</persName>
                <birth>
                   <date when-iso="1859-03-09">09.03.1859</date>
                   <settlement key="50">
@@ -179,6 +180,8 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Peter_Altenberg</idno>
                <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2147.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2147.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159103/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_70</idno>
                <affiliation>
                   <term key="3415">Lernender/Lernende an</term>
                   <orgName key="46027">Akademisches Gymnasium Wien</orgName>
@@ -199,7 +202,9 @@
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
                   <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Scolik%20-%20Peter%20Altenberg.jpg"/>
                </figure>
@@ -263,6 +268,7 @@
                   <forename>Walt</forename>
                   <surname>Whitman</surname>
                </persName>
+               <persName type="legacy-name-merge">Whitman, Walt</persName>
                <birth>
                   <date when-iso="1819-05-31">31.05.1819</date>
                   <settlement key="64734">
@@ -287,26 +293,36 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp55211</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q81438</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Walt_Whitman</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162800/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4770</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Walt%20Whitman%20-%20George%20Collins%20Cox.jpg"/>
                </figure>
             </person>
             <person xml:id="pmb155922">
                <persName>
-                  <surname>Fox</surname>
                   <forename>George</forename>
+                  <surname>Fox</surname>
                </persName>
                <birth>
-                  <date when="1624">1624</date>
+                  <date notBefore-iso="1624-01-01"
+                        when-iso="1624-07-01"
+                        notAfter-iso="1624-12-31">1624</date>
                </birth>
                <death>
-                  <date when="1690">1690</date>
+                  <date when-iso="1690-07-02" notAfter-iso="1690-12-31">1690</date>
                </death>
-               <idno type="HB-tv">HB-tv_2215_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155922.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155922/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2215_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

@@ -332,6 +332,7 @@
                   <forename>Immanuel</forename>
                   <surname>Kant</surname>
                </persName>
+               <persName type="legacy-name-merge">Kant, Immanuel</persName>
                <birth>
                   <date when-iso="1724-04-22">22.04.1724</date>
                   <settlement key="42605">
@@ -363,11 +364,15 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q9312</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Immanuel_Kant</idno>
                <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/kant-immanuel.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160740/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2161</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Kant%20foto.jpg"/>
                </figure>
@@ -377,31 +382,53 @@
                   <surname>Karl der Große</surname>
                </persName>
                <birth>
-                  <date when-custom="747/748">747/748</date>
+                  <date>747/748</date>
                </birth>
                <death>
-                  <date when="0814">814</date>
+                  <date when-iso="0814-07-02" notAfter-iso="0814-12-31">814</date>
                </death>
-               <idno type="HB-tv">HB-tv_5234_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155726.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155726/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5234_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb43719">
                <persName>
-                  <surname>Cusanus</surname>
+                  <surname>Nikolaus von Kues</surname>
                </persName>
                <birth>
-                  <date>1401</date>
-                  <placeName type="wikidata" ref="Q155622">Bernkastel-Kues</placeName>
+                  <date notBefore-iso="1401-01-01"
+                        when-iso="1401-07-02"
+                        notAfter-iso="1401-12-31">1401</date>
                </birth>
                <death>
-                  <date>1464-08-11</date>
-                  <placeName type="wikidata" ref="Q20579">Todi</placeName>
+                  <date when-iso="1464-08-11">1464-08-11</date>
                </death>
-               <idno type="HB-tv">HB-tv_3524_p11</idno>
-               <idno type="wikidata">Q154751</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118588095</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb43719.html</idno>
+               <occupation key="154">Philosoph/Philosophin</occupation>
+               <occupation key="259">Theologe/Theologin</occupation>
+               <occupation key="264">Bischof/Bischöfin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118588095</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43719/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q154751</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Nikolaus_von_Kues</idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/hutten-ulrich.html</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3524_p11</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3523_p10</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4521_p7</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3364_p14</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3359_p37</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5234_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_6837_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5369_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Nicholas%20of%20Cusa.jpg"/>
+               </figure>
             </person>
          </listPerson>
       </back>

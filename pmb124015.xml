@@ -212,20 +212,17 @@
                   </event>
                   <event key="35479" when-iso="1899-03-01">
                      <desc n="1370">teilgenommen an</desc>
-                     <label>Uraufführung von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei
-                           Einakter, 1.3.1899</label>
+                     <label>Uraufführung von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei Einakter, 1.3.1899</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35479/</idno>
                   </event>
                   <event key="43926" when-iso="1899-03-18">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Berliner Uraufführung Der Abenteurer und die Sängerin und Die
-                           Hochzeit der Sobeide, 18.3.1899</label>
+                     <label>Berliner Uraufführung Der Abenteurer und die Sängerin und Die Hochzeit der Sobeide, 18.3.1899</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43926/</idno>
                   </event>
                   <event key="35482" when-iso="1899-04-29">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Premiere von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei
-                           Einakter, 29.4.1899</label>
+                     <label>Premiere von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei Einakter, 29.4.1899</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35482/</idno>
                   </event>
                   <event key="141501" when-iso="1899-10-07">
@@ -393,6 +390,7 @@
                   <forename>Siegfried</forename>
                   <surname>Jacobsohn</surname>
                </persName>
+               <persName type="legacy-name-merge">Jacobsohn, Siegfried</persName>
                <birth>
                   <date when-iso="1881-01-28">28.01.1881</date>
                   <settlement key="168">
@@ -425,10 +423,14 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q66477</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Siegfried_Jacobsohn</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11813.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160646/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2042</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Siegfried%20Jacobsohn.jpg"/>
                </figure>
@@ -483,22 +485,55 @@
             </person>
             <person xml:id="pmb2404">
                <persName>
+                  <forename>Friedrich</forename>
                   <surname>Hebbel</surname>
-                  <forename>Christian Friedrich</forename>
                </persName>
+               <persName type="legacy-name-merge">Hebbel, Friedrich</persName>
+               <persName type="legacy-name-merge">Hebbel, Friedrich</persName>
                <birth>
-                  <date>1813-03-18</date>
-                  <placeName type="wikidata" ref="Q518460">Wesselburen</placeName>
+                  <date when-iso="1813-03-18">18.03.1813</date>
+                  <settlement key="53806">
+                     <placeName type="pref">Wesselburen</placeName>
+                     <location>
+                        <geo>54,21217 8,92419</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1863-12-13</date>
-                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+                  <date when-iso="1863-12-13">13.12.1863</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_6576_p3</idno>
-               <idno type="wikidata">Q57182</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118547445</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2404.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118547445</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2404.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2404/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16009</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2404.html</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2404.html</idno>
+               <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/personen/pmb2404</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43835</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q57182</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Friedrich_Hebbel</idno>
+               <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x00281cdc</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2404.html</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_6576_p3</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160426/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1766</idno>
+               <listBibl>
+                  <bibl type="collections" n="5">legalkraus</bibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references"> </note>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Bezirksmuseum%20Josefstadt%2C%20Friedrich%20Hebbel.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb8552">
                <persName>
@@ -691,8 +726,7 @@
                   </event>
                   <event key="141507" when-iso="1900-03-28">
                      <desc n="1370">teilgenommen an</desc>
-                     <label>Vortrag von Adele Schreiber über Arthur Schnitzler, 28. 3.
-                           1900</label>
+                     <label>Vortrag von Adele Schreiber über Arthur Schnitzler, 28. 3. 1900</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/141507/</idno>
                   </event>
                   <event key="141542" when-iso="1900-04-06">
@@ -732,8 +766,7 @@
                   </event>
                   <event key="55527" when-iso="1928-01-05">
                      <desc n="1370">teilgenommen an</desc>
-                     <label>Uraufführung von Es ist mein Wille, Aufführung von Amphytrion,
-                           5.1.1928</label>
+                     <label>Uraufführung von Es ist mein Wille, Aufführung von Amphytrion, 5.1.1928</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/55527/</idno>
                   </event>
                   <event key="55542" when-iso="1928-01-08">
@@ -753,6 +786,7 @@
                   <forename>Georg</forename>
                   <surname>Hirschfeld</surname>
                </persName>
+               <persName type="legacy-name-merge">Hirschfeld, Georg</persName>
                <birth>
                   <date when-iso="1873-02-11">11.02.1873</date>
                   <settlement key="168">
@@ -784,6 +818,8 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Georg_Hirschfeld</idno>
                <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11701.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11701.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160532/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1899</idno>
                <listEvent>
                   <event key="35206" when-iso="1896-02-04">
                      <desc n="1370">teilgenommen an</desc>
@@ -807,8 +843,7 @@
                   </event>
                   <event key="59292" when-iso="1897-03-28">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Lesung von Hirschfeld, Hofmannsthal, Schnitzler und Bahr,
-                           28.3.1897</label>
+                     <label>Lesung von Hirschfeld, Hofmannsthal, Schnitzler und Bahr, 28.3.1897</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/59292/</idno>
                   </event>
                   <event key="48949" when-iso="1898-12-19">
@@ -824,7 +859,9 @@
                </listEvent>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Corinth%20Georg%20Hirschfeld%20and%20his%20wife.jpg"/>
                </figure>
@@ -835,6 +872,7 @@
                   <surname>Reinhardt</surname>
                </persName>
                <persName type="person_geburtsname_nachname">Goldmann</persName>
+               <persName type="legacy-name-merge">Reinhardt, Max</persName>
                <birth>
                   <date when-iso="1873-09-09">09.09.1873</date>
                   <settlement key="662">
@@ -871,6 +909,8 @@
                <idno type="URL" subtype="oeml">https://dx.doi.org/10.1553/0x0001decb</idno>
                <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12504.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12504.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161833/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3562</idno>
                <affiliation notBefore-iso="1902-01-01"
                             when-iso="1902-07-02"
                             notAfter-iso="1902-12-31">
@@ -927,8 +967,7 @@
                   </event>
                   <event key="35482" when-iso="1899-04-29">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Premiere von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei
-                           Einakter, 29.4.1899</label>
+                     <label>Premiere von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei Einakter, 29.4.1899</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35482/</idno>
                   </event>
                   <event key="144171" when-iso="1901-11-27">
@@ -997,7 +1036,9 @@
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
                   <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Max%20Reinhardt.jpg"/>
                </figure>
@@ -1065,8 +1106,7 @@
                   </event>
                   <event key="35116" when-iso="1903-09-12">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Uraufführung von Der Puppenspieler, Premiere von Das Trugbild,
-                           12.9.1903</label>
+                     <label>Uraufführung von Der Puppenspieler, Premiere von Das Trugbild, 12.9.1903</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35116/</idno>
                   </event>
                   <event key="35272" when-iso="1904-02-03">

@@ -91,6 +91,7 @@
                   <forename>Theodor</forename>
                   <surname>Herzl</surname>
                </persName>
+               <persName type="legacy-name-merge">Herzl, Theodor</persName>
                <birth>
                   <date when-iso="1860-05-02">1860-05-02</date>
                   <settlement key="43471">
@@ -124,6 +125,8 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44003</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Theodor_Herzl</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11673.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160507/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1869</idno>
                <affiliation notBefore-iso="1881-01-01"
                             when-iso="1881-07-02"
                             notAfter-iso="1881-12-31">
@@ -158,25 +161,32 @@
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Theodor%20Herzl.jpg"/>
                </figure>
             </person>
             <person xml:id="pmb154713">
                <persName>
-                  <surname>Hichler</surname>
                   <forename>Leopold</forename>
+                  <surname>Hichler</surname>
                </persName>
-               <persName type="namensvariante">L. Ehrlich</persName>
                <birth>
-                  <date when="1877">1877</date>
+                  <date notBefore-iso="1877-01-01"
+                        when-iso="1877-07-02"
+                        notAfter-iso="1877-12-31">1877</date>
                </birth>
                <death>
-                  <date when="1972">1972</date>
+                  <date when-iso="1972-07-01" notAfter-iso="1972-12-31">1972</date>
                </death>
-               <idno type="HB-tv">HB-tv_6718_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154713.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154713/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_6718_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

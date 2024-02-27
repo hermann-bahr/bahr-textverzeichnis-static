@@ -147,6 +147,7 @@
                   <forename>Gottfried</forename>
                   <surname>Traub</surname>
                </persName>
+               <persName type="legacy-name-merge">Traub, Gottfried</persName>
                <birth>
                   <date when-iso="1869-01-11">1869-01-11</date>
                   <settlement key="51073">
@@ -174,15 +175,20 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp54243</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1354113</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gottfried_Traub</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162552/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4460</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
             </person>
             <person xml:id="pmb11161">
                <persName>
                   <forename>Eugen</forename>
                   <surname>Diederichs</surname>
                </persName>
+               <persName type="legacy-name-merge">Diederichs, Eugen</persName>
                <birth>
                   <date when-iso="1867-06-22">22.06.1867</date>
                   <settlement key="49538">
@@ -211,6 +217,8 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp57858</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q214581</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Eugen_Diederichs</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159780/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_947</idno>
                <affiliation>
                   <term key="1409">besitzt</term>
                   <orgName key="65754">Eugen Diederichs Verlag</orgName>
@@ -219,6 +227,10 @@
                   <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q64485054</idno>
                   <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Diederichs_Verlag</idno>
                </affiliation>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Diederichs%2CEugen%201867-1930.jpg"/>
                </figure>
@@ -228,7 +240,7 @@
                   <forename>H. G.</forename>
                   <surname>Wells</surname>
                </persName>
-               <persName type="person_geburtsname-vorname">Herbert George</persName>
+               <persName type="person_geburtsname_vorname">Herbert George</persName>
                <persName type="legacy-name-merge">Wells, Herbert George</persName>
                <birth>
                   <date when-iso="1866-09-21">21.09.1866</date>
@@ -264,76 +276,120 @@
             </person>
             <person xml:id="pmb156111">
                <persName>
-                  <surname>Campbell</surname>
                   <forename>Reginald John</forename>
+                  <surname>Campbell</surname>
                </persName>
                <birth>
-                  <date when="1867">1867</date>
+                  <date notBefore-iso="1867-01-01"
+                        when-iso="1867-07-02"
+                        notAfter-iso="1867-12-31">1867</date>
                </birth>
                <death>
-                  <date when="1956">1956</date>
+                  <date when-iso="1956-07-01" notAfter-iso="1956-12-31">1956</date>
                </death>
-               <idno type="HB-tv">HB-tv_2585_p26</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156111.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156111/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2585_p26</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb149778">
                <persName>
-                  <surname>Besant</surname>
                   <forename>Annie</forename>
+                  <surname>Wood</surname>
                </persName>
                <birth>
-                  <date>1847-10-01</date>
-                  <placeName type="wikidata" ref="Q146659">Clapham</placeName>
+                  <date when-iso="1847-10-01">1847-10-01</date>
+                  <settlement key="149779">
+                     <placeName type="pref">Clapham</placeName>
+                     <location>
+                        <geo>51,463230555556 -0,13393888888889</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1933-09-20</date>
-                  <placeName type="wikidata" ref="Q380144">Adyar</placeName>
+                  <date when-iso="1933-09-20">1933-09-20</date>
+                  <settlement key="149781">
+                     <placeName type="pref">Adyar</placeName>
+                     <location>
+                        <geo>13,0063 80,2574</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1157_p3</idno>
-               <idno type="wikidata">Q464318</idno>
                <sex value="female"/>
-               <idno type="gnd">https://d-nb.info/gnd/118877453</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149778.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/149778/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q464318</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118877453</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1157_p3</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Annie_Besant</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb156139">
                <persName>
-                  <surname>George</surname>
                   <forename>David Lloyd</forename>
+                  <surname>George</surname>
                </persName>
                <birth>
-                  <date when="1863">1863</date>
+                  <date notBefore-iso="1863-01-01"
+                        when-iso="1863-07-02"
+                        notAfter-iso="1863-12-31">1863</date>
                </birth>
                <death>
-                  <date when="1945">1945</date>
+                  <date when-iso="1945-07-02" notAfter-iso="1945-12-31">1945</date>
                </death>
-               <idno type="HB-tv">HB-tv_3449_p3</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156139.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156139/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3449_p3</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb150905">
                <persName>
+                  <forename>Keir</forename>
                   <surname>Hardie</surname>
-                  <forename>James Keir d.Ä.</forename>
                </persName>
                <birth>
-                  <date>1856-08-15</date>
-                  <placeName type="wikidata" ref="Q13130404"/>
+                  <date when-iso="1856-08-15">1856-08-15</date>
+                  <settlement key="150906">
+                     <placeName type="pref">Newhouse</placeName>
+                     <location>
+                        <geo>55,8317 -3,92804</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1915-09-26</date>
-                  <placeName type="wikidata" ref="Q4093">Glasgow</placeName>
+                  <date when-iso="1915-09-26">1915-09-26</date>
+                  <settlement key="94132">
+                     <placeName type="pref">Glasgow</placeName>
+                     <location>
+                        <geo>55,865149 -4,257629</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_3449_p4</idno>
-               <idno type="wikidata">Q332460</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118720341</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150905.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/150905/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q332460</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118720341</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3449_p4</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Keir_Hardie</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb156140">
                <persName>
                   <surname>Johannes</surname>
                </persName>
-               <idno type="HB-tv">HB-tv_3449_p5</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156140.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156140/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3449_p5</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

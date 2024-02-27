@@ -136,6 +136,7 @@
                   <forename>Ludwig van</forename>
                   <surname>Beethoven</surname>
                </persName>
+               <persName type="legacy-name-merge">Beethoven, Ludwig van</persName>
                <birth>
                   <date when-iso="1770-12-17">17.12.1770</date>
                   <settlement key="913">
@@ -167,6 +168,8 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ludwig_van_Beethoven</idno>
                <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x00280f9a</idno>
                <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_29.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159312/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_328</idno>
                <affiliation>
                   <term key="1153">in Bezug zu</term>
                   <orgName key="89961">Deutscher Quartettverein in Paris</orgName>
@@ -175,7 +178,9 @@
                <listBibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Beethoven.jpg"/>
                </figure>
@@ -185,6 +190,7 @@
                   <forename>Johann Peter</forename>
                   <surname>Eckermann</surname>
                </persName>
+               <persName type="legacy-name-merge">Eckermann, Johann Peter</persName>
                <birth>
                   <date when-iso="1792-09-21">21.09.1792</date>
                   <settlement key="58547">
@@ -214,10 +220,14 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q58018</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Johann_Peter_Eckermann</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11220.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159884/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1080</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Johann%20Peter%20Eckermann.jpg"/>
                </figure>
@@ -226,52 +236,98 @@
                <persName>
                   <surname>Protagoras</surname>
                </persName>
+               <persName type="legacy-name-merge">Protagoras</persName>
+               <persName type="legacy-name-merge">Protagoras</persName>
+               <persName type="legacy-name-merge">Protagoras</persName>
+               <persName type="legacy-name-merge">Protagoras</persName>
                <birth>
-                  <date when="0490">490</date>
+                  <date notBefore-iso="0490-01-01"
+                        when-iso="0490-07-02"
+                        notAfter-iso="0490-12-31">490</date>
                </birth>
                <death>
-                  <date when-custom="411 v.u.Z.">411 v.u.Z.</date>
+                  <date>411 v.u.Z.</date>
                </death>
-               <idno type="HB-tv">HB-tv_585_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156594.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155443/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1021_p3</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155730/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5230_p1</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155889/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5365_p1</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156469/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1361_p35</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156594/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_585_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb149323">
                <persName>
-                  <surname>Blake</surname>
                   <forename>William</forename>
+                  <surname>Blake</surname>
                </persName>
                <birth>
-                  <date>1757-11-28</date>
-                  <placeName type="wikidata" ref="Q84">London</placeName>
+                  <date when-iso="1757-11-28">1757-11-28</date>
+                  <settlement key="224">
+                     <placeName type="pref">London</placeName>
+                     <location>
+                        <geo>51,50853 -0,12574</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1827-08-12</date>
-                  <placeName type="wikidata" ref="Q216185">Charing Cross</placeName>
+                  <date when-iso="1827-08-12">1827-08-12</date>
+                  <settlement key="224">
+                     <placeName type="pref">London</placeName>
+                     <location>
+                        <geo>51,50853 -0,12574</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_3517_p3</idno>
-               <idno type="wikidata">Q41513</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118511513</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149323.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/149323/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q41513</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118511513</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3517_p3</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/William_Blake</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb151556">
                <persName>
-                  <surname>Schuppanzigh</surname>
                   <forename>Ignaz</forename>
+                  <surname>Ignaz Schuppanzigh</surname>
                </persName>
                <birth>
-                  <date>1776-07-20</date>
-                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+                  <date when-iso="1776-07-20">1776-07-20</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1830-03-02</date>
-                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+                  <date when-iso="1830-03-02">1830-03-02</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_585_p3</idno>
-               <idno type="wikidata">Q522907</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/103946292</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151556.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/151556/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q522907</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/103946292</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_585_p3</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ignaz_Schuppanzigh</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

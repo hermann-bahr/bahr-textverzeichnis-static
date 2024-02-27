@@ -113,8 +113,7 @@
                <listEvent>
                   <event key="35482" when-iso="1899-04-29">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Premiere von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei
-                           Einakter, 29.4.1899</label>
+                     <label>Premiere von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei Einakter, 29.4.1899</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35482/</idno>
                   </event>
                </listEvent>
@@ -186,8 +185,7 @@
                   </event>
                   <event key="35113" when-iso="1904-12-12">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Premiere von Literatur, Die letzten Masken, Der Puppenspieler,
-                           12.12.1904</label>
+                     <label>Premiere von Literatur, Die letzten Masken, Der Puppenspieler, 12.12.1904</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35113/</idno>
                   </event>
                   <event key="35361" when-iso="1924-10-11">
@@ -210,8 +208,9 @@
                </persName>
                <persName type="namensvariante">Stegmüller Reinhold</persName>
                <persName type="namensvariante">Nhilson</persName>
-               <persName type="person_geburtsname-vorname">Gustav</persName>
+               <persName type="person_geburtsname_vorname">Gustav</persName>
                <persName type="person_geburtsname_nachname">Steegmüller</persName>
+               <persName type="legacy-name-merge">Nhil, Robert</persName>
                <birth>
                   <date when-iso="1858-07-18">18.07.1858</date>
                   <settlement key="506">
@@ -240,6 +239,8 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp52363</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2158355</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Robert_Nhil</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161491/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3126</idno>
                <listEvent>
                   <event key="35068" when-iso="1893-12-01">
                      <desc n="1256">ist Arbeitskraft bei</desc>
@@ -254,7 +255,9 @@
                </listEvent>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Robert%20Nhil%201892%20Vilimek.jpg"/>
                </figure>
@@ -333,23 +336,33 @@
                <persName>
                   <surname>Bauer</surname>
                </persName>
-               <occupation>Schauspielerin</occupation>
-               <idno type="HB-tv">HB-tv_2490_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154515.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154515/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2490_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154281">
                <persName>
-                  <surname>Retty</surname>
                   <forename>Rudolf</forename>
+                  <surname>Retty</surname>
                </persName>
                <birth>
-                  <date when="1846">1846</date>
+                  <date notBefore-iso="1846-01-01"
+                        when-iso="1846-07-02"
+                        notAfter-iso="1846-12-31">1846</date>
                </birth>
                <death>
-                  <date when="1913">1913</date>
+                  <date when-iso="1913-07-02" notAfter-iso="1913-12-31">1913</date>
                </death>
-               <idno type="HB-tv">HB-tv_4645_p4</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154281.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154281/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4645_p4</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

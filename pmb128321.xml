@@ -100,17 +100,23 @@
          <listPerson>
             <person xml:id="pmb155657">
                <persName>
-                  <surname>Ude</surname>
                   <forename>Johann</forename>
+                  <surname>Ude</surname>
                </persName>
                <birth>
-                  <date when="1874">1874</date>
+                  <date notBefore-iso="1874-01-01"
+                        when-iso="1874-07-02"
+                        notAfter-iso="1874-12-31">1874</date>
                </birth>
                <death>
-                  <date when="1965">1965</date>
+                  <date when-iso="1965-07-02" notAfter-iso="1965-12-31">1965</date>
                </death>
-               <idno type="HB-tv">HB-tv_5328_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155657.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155657/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5328_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

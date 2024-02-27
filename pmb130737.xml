@@ -107,22 +107,57 @@
          <listPerson>
             <person xml:id="pmb3892">
                <persName>
-                  <surname>Barrés</surname>
                   <forename>Maurice</forename>
+                  <surname>Barrès</surname>
                </persName>
+               <persName type="legacy-name-merge">Barrès, Maurice</persName>
+               <persName type="legacy-name-merge">Barrès, Maurice</persName>
                <birth>
-                  <date>1862-08-19</date>
-                  <placeName type="wikidata" ref="Q206523">Charmes</placeName>
+                  <date when-iso="1862-08-19">1862-08-19</date>
+                  <settlement key="48614">
+                     <placeName type="pref">Charmes</placeName>
+                     <location>
+                        <geo>48,3722 6,29117</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1923-12-04</date>
-                  <placeName type="wikidata" ref="Q48958">Neuilly-sur-Seine</placeName>
+                  <date when-iso="1923-12-04">1923-12-04</date>
+                  <settlement key="36749">
+                     <placeName type="pref">Neuilly-sur-Seine</placeName>
+                     <location>
+                        <geo>48,8846 2,26965</geo>
+                     </location>
+                  </settlement>
+                  <settlement key="36749">
+                     <placeName type="pref">Neuilly-sur-Seine</placeName>
+                     <location>
+                        <geo>48,8846 2,26965</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2720_p1</idno>
-               <idno type="wikidata">Q314957</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118506684</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3892.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118506684</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3892.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3892/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb3892.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64928/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3892.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49888</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q314957</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Maurice_Barr%C3%A8s</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2720_p1</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159239/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_238</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references"> </note>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/1918%20Maurice%20Barr%C3%A8s.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb11461">
                <persName>
@@ -259,17 +294,23 @@
             </person>
             <person xml:id="pmb156165">
                <persName>
-                  <surname>Charpentier</surname>
                   <forename>Gervais</forename>
+                  <surname>Charpentier</surname>
                </persName>
                <birth>
-                  <date when="1805">1805</date>
+                  <date notBefore-iso="1805-01-01"
+                        when-iso="1805-07-02"
+                        notAfter-iso="1805-12-31">1805</date>
                </birth>
                <death>
-                  <date when="1871">1871</date>
+                  <date when-iso="1871-07-02" notAfter-iso="1871-12-31">1871</date>
                </death>
-               <idno type="HB-tv">HB-tv_3432_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156165.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156165/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3432_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

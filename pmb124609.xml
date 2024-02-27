@@ -193,6 +193,7 @@
                   <forename>Franz</forename>
                   <surname>Grillparzer</surname>
                </persName>
+               <persName type="legacy-name-merge">Grillparzer, Franz</persName>
                <birth>
                   <date when-iso="1791-01-15">15.01.1791</date>
                   <settlement key="50">
@@ -230,11 +231,15 @@
                <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x002818d2</idno>
                <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_65.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11518.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160293/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1597</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Grillparzer%20cropped.jpg"/>
                </figure>
@@ -308,109 +313,152 @@
             </person>
             <person xml:id="pmb114560">
                <persName>
+                  <forename>Adolf</forename>
                   <surname>Hildebrand</surname>
-                  <forename>Adolf von</forename>
                </persName>
                <birth>
-                  <date>1847-10-06</date>
-                  <placeName type="wikidata" ref="Q3869">Marburg</placeName>
+                  <date when-iso="1847-10-06">1847-10-06</date>
                </birth>
                <death>
-                  <date>1921-01-18</date>
-                  <placeName type="wikidata" ref="Q1726">München</placeName>
+                  <date when-iso="1921-01-18">1921-01-18</date>
                </death>
-               <idno type="HB-tv">HB-tv_3517_p1</idno>
-               <idno type="wikidata">Q364808</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118550934</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114560.html</idno>
+               <occupation key="150">Bildhauer/Bildhauerin</occupation>
+               <occupation key="185">Architekt/Architektin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/114560/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118550934</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46091</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q364808</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Adolf_von_Hildebrand</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3517_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154799">
                <persName>
-                  <surname>Braig</surname>
                   <forename>Friedrich</forename>
+                  <surname>Braig</surname>
                </persName>
                <birth>
-                  <date when="1889">1889</date>
+                  <date notBefore-iso="1889-01-01"
+                        when-iso="1889-07-02"
+                        notAfter-iso="1889-12-31">1889</date>
                </birth>
                <death>
-                  <date when="1968">1968</date>
+                  <date when-iso="1968-07-01" notAfter-iso="1968-12-31">1968</date>
                </death>
-               <idno type="HB-tv">HB-tv_3517_p2</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154799.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154799/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3517_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb149323">
                <persName>
-                  <surname>Blake</surname>
                   <forename>William</forename>
+                  <surname>Blake</surname>
                </persName>
                <birth>
-                  <date>1757-11-28</date>
-                  <placeName type="wikidata" ref="Q84">London</placeName>
+                  <date when-iso="1757-11-28">1757-11-28</date>
+                  <settlement key="224">
+                     <placeName type="pref">London</placeName>
+                     <location>
+                        <geo>51,50853 -0,12574</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1827-08-12</date>
-                  <placeName type="wikidata" ref="Q216185">Charing Cross</placeName>
+                  <date when-iso="1827-08-12">1827-08-12</date>
+                  <settlement key="224">
+                     <placeName type="pref">London</placeName>
+                     <location>
+                        <geo>51,50853 -0,12574</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_3517_p3</idno>
-               <idno type="wikidata">Q41513</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118511513</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149323.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/149323/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q41513</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118511513</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3517_p3</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/William_Blake</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154800">
                <persName>
                   <surname>Platon</surname>
                </persName>
                <birth>
-                  <date when-custom="428/427">428/427</date>
+                  <date>428/427</date>
                </birth>
                <death>
-                  <date when-custom="348/347 v.u.Z.">348/347 v.u.Z.</date>
+                  <date>348/347 v.u.Z.</date>
                </death>
-               <idno type="HB-tv">HB-tv_3517_p4</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154800.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154800/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3517_p4</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154801">
                <persName>
                   <surname>Demokrit</surname>
                </persName>
                <birth>
-                  <date when-custom="um 460">um 460</date>
+                  <date>um 460</date>
                </birth>
                <death>
-                  <date when-custom="um 370 v.u.Z.">um 370 v.u.Z.</date>
+                  <date>um 370 v.u.Z.</date>
                </death>
-               <idno type="HB-tv">HB-tv_3517_p5</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154801.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154801/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3517_p5</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154802">
                <persName>
-                  <surname>Lenz</surname>
                   <forename>Desiderius</forename>
+                  <surname>Lenz</surname>
                </persName>
-               <persName type="namensvariante">Peter Lenz</persName>
                <birth>
-                  <date when="1832">1832</date>
+                  <date notBefore-iso="1832-01-01"
+                        when-iso="1832-07-01"
+                        notAfter-iso="1832-12-31">1832</date>
                </birth>
                <death>
-                  <date when="1928">1928</date>
+                  <date when-iso="1928-07-01" notAfter-iso="1928-12-31">1928</date>
                </death>
-               <idno type="HB-tv">HB-tv_3517_p6</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154802.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154802/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3517_p6</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154803">
                <persName>
                   <surname>Thomas von Aquin</surname>
                </persName>
                <birth>
-                  <date when-custom="um 1225">um 1225</date>
+                  <date>um 1225</date>
                </birth>
                <death>
-                  <date when="1274">1274</date>
+                  <date when-iso="1274-07-02" notAfter-iso="1274-12-31">1274</date>
                </death>
-               <idno type="HB-tv">HB-tv_3517_p7</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154803.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154803/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3517_p7</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

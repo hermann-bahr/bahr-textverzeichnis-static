@@ -89,6 +89,7 @@
                   <forename>Ludwig</forename>
                   <surname>Anzengruber</surname>
                </persName>
+               <persName type="legacy-name-merge">Anzengruber, Ludwig</persName>
                <birth>
                   <date when-iso="1839-11-29">29.11.1839</date>
                   <settlement key="50">
@@ -121,9 +122,13 @@
                <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x00280e6b</idno>
                <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb10772.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb10772.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159135/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_112</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ludwig%20Anzengruber.jpg"/>
                </figure>
@@ -171,18 +176,23 @@
             </person>
             <person xml:id="pmb154174">
                <persName>
-                  <surname>Müller</surname>
                   <forename>Adolf senior</forename>
+                  <surname>Müller</surname>
                </persName>
-               <persName type="namensvariante">Matthias Schmidt</persName>
                <birth>
-                  <date when="1801">1801</date>
+                  <date notBefore-iso="1801-01-01"
+                        when-iso="1801-07-02"
+                        notAfter-iso="1801-12-31">1801</date>
                </birth>
                <death>
-                  <date when="1886">1886</date>
+                  <date when-iso="1886-07-02" notAfter-iso="1886-12-31">1886</date>
                </death>
-               <idno type="HB-tv">HB-tv_2540_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154174.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154174/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2540_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

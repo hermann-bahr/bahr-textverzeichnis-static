@@ -174,6 +174,7 @@
                   <forename>Oliver</forename>
                   <surname>Cromwell</surname>
                </persName>
+               <persName type="legacy-name-merge">Cromwell, Oliver</persName>
                <birth>
                   <date when-iso="1599-04-25">25.04.1599</date>
                   <settlement key="62135">
@@ -201,9 +202,13 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp40149</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44279</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Oliver_Cromwell</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159707/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_845</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Oliver%20Cromwell%20by%20Samuel%20Cooper.jpg"/>
                </figure>
@@ -231,7 +236,6 @@
                <occupation key="338">Minister/Ministerin</occupation>
                <occupation key="1316">Autor/Autorin</occupation>
                <occupation key="1639">Jurist/Juristin</occupation>
-               <occupation key="2088">Politiker/Politikerin</occupation>
                <occupation key="2105">Abgeordneter/Abgeordnete</occupation>
                <occupation key="2109">Regierungschef/Regierungschefin</occupation>
                <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17605</idno>
@@ -349,73 +353,90 @@
             </person>
             <person xml:id="pmb155517">
                <persName>
-                  <surname>Bach</surname>
                   <forename>Alexander von</forename>
+                  <surname>Bach</surname>
                </persName>
                <birth>
-                  <date when="1813">1813</date>
+                  <date notBefore-iso="1813-01-01"
+                        when-iso="1813-07-02"
+                        notAfter-iso="1813-12-31">1813</date>
                </birth>
                <death>
-                  <date when="1893">1893</date>
+                  <date when-iso="1893-07-02" notAfter-iso="1893-12-31">1893</date>
                </death>
-               <idno type="HB-tv">HB-tv_3366_p29</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155517.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155517/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3366_p29</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb150628">
                <persName>
+                  <forename>George</forename>
                   <surname>Savile</surname>
-                  <forename>Georges</forename>
                </persName>
-               <occupation>Marquess of Halifax</occupation>
                <birth>
-                  <date>1633-11-11</date>
-                  <placeName type="wikidata" ref="Q163">Yorkshire</placeName>
+                  <date when-iso="1633-11-11">1633-11-11</date>
+                  <settlement key="150103">
+                     <placeName type="pref">Yorkshire</placeName>
+                     <location>
+                        <geo>53,958333333333 -1,0833333333333</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1695-04-05</date>
-                  <placeName type="wikidata" ref="Q84">London</placeName>
+                  <date when-iso="1695-04-05">1695-04-05</date>
+                  <settlement key="224">
+                     <placeName type="pref">London</placeName>
+                     <location>
+                        <geo>51,50853 -0,12574</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_5182_p2</idno>
-               <idno type="wikidata">Q335280</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/133979482</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150628.html</idno>
+               <occupation key="3480">Marquis/Marquise</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/150628/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q335280</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/133979482</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5182_p2</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/George_Savile,_1._Marquess_of_Halifax</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb150631">
                <persName>
-                  <surname>Charles II. von England</surname>
+                  <forename>Charles</forename>
+                  <surname>Stuart</surname>
                </persName>
-               <birth>
-                  <date>1630-05-29</date>
-                  <placeName type="wikidata" ref="Q84">London</placeName>
-               </birth>
-               <death>
-                  <date>1685-02-06</date>
-                  <placeName type="wikidata" ref="Q84">London</placeName>
-               </death>
-               <idno type="HB-tv">HB-tv_5182_p3</idno>
-               <idno type="wikidata">Q122553</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118560042</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150631.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/150631/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q122553</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118560042</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5182_p3</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5380_p3</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2173</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Karl_II._(England)</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb150634">
                <persName>
-                  <surname>Wilhelm III. von Oranien</surname>
+                  <forename>Willem</forename>
+                  <surname>William III of England</surname>
                </persName>
-               <birth>
-                  <date>1650-11-14</date>
-                  <placeName type="wikidata" ref="Q36600">Den Haag</placeName>
-               </birth>
-               <death>
-                  <date>1702-03-08</date>
-                  <placeName type="wikidata" ref="Q207385">Kensington Palace</placeName>
-               </death>
-               <idno type="HB-tv">HB-tv_5182_p4</idno>
-               <idno type="wikidata">Q129987</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118643355</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150634.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/150634/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q129987</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118643355</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5182_p4</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5380_p4</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wilhelm_III._(Oranien)</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

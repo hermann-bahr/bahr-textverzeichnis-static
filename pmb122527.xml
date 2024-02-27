@@ -84,17 +84,23 @@
          <listPerson>
             <person xml:id="pmb153940">
                <persName>
-                  <surname>Mensch</surname>
                   <forename>Ella</forename>
+                  <surname>Mensch</surname>
                </persName>
                <birth>
-                  <date when="1859">1859</date>
+                  <date notBefore-iso="1859-01-01"
+                        when-iso="1859-07-02"
+                        notAfter-iso="1859-12-31">1859</date>
                </birth>
                <death>
-                  <date when="1935">1935</date>
+                  <date when-iso="1935-07-02" notAfter-iso="1935-12-31">1935</date>
                </death>
-               <idno type="HB-tv">HB-tv_3844_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153940.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153940/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3844_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

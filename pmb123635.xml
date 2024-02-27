@@ -81,9 +81,10 @@
                   <forename>Lotte</forename>
                   <surname>Medelsky</surname>
                </persName>
-               <persName type="person_geburtsname-vorname">Karoline</persName>
+               <persName type="person_geburtsname_vorname">Karoline</persName>
                <persName type="person_ehename_nachname">Frank</persName>
                <persName type="namensvariante">Krauspe Charlotte Caroline</persName>
+               <persName type="legacy-name-merge">Medelsky, Lotte</persName>
                <persName type="legacy-name-merge">Medelsky, Lotte</persName>
                <birth>
                   <date when-iso="1880-05-18">18.05.1880</date>
@@ -113,6 +114,8 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49167</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1871159</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Lotte_Medelsky</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161268/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2842</idno>
                <listEvent>
                   <event key="143121" when-iso="1898-05-03">
                      <desc n="1256">ist Arbeitskraft bei</desc>
@@ -131,8 +134,7 @@
                   </event>
                   <event key="45154" when-iso="1899-03-18">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Wiener Uraufführung Der Abenteurer und die Sängerin und Die Hochzeit
-                           der Sobeide, 18.3.1899</label>
+                     <label>Wiener Uraufführung Der Abenteurer und die Sängerin und Die Hochzeit der Sobeide, 18.3.1899</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45154/</idno>
                   </event>
                   <event key="141446" when-iso="1899-12-01">
@@ -163,59 +165,89 @@
                </listEvent>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Karoline%20Medelsky%201900.jpg"/>
                </figure>
             </person>
             <person xml:id="pmb154384">
                <persName>
-                  <surname>Brion</surname>
                   <forename>Louise</forename>
+                  <surname>Brion</surname>
                </persName>
                <birth>
-                  <date when="1870">1870</date>
+                  <date notBefore-iso="1870-01-01"
+                        when-iso="1870-07-02"
+                        notAfter-iso="1870-12-31">1870</date>
                </birth>
                <death>
-                  <date when="1942">1942</date>
+                  <date when-iso="1942-07-02" notAfter-iso="1942-12-31">1942</date>
                </death>
-               <idno type="HB-tv">HB-tv_3874_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154384.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154384/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3874_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154485">
                <persName>
-                  <surname>Alexander</surname>
                   <forename>Richard</forename>
+                  <surname>Alexander</surname>
                </persName>
-               <idno type="HB-tv">HB-tv_2134_p2</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154485.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154485/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2134_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb148968">
                <persName>
-                  <surname>Brion</surname>
                   <forename>Friederike</forename>
+                  <surname>Brion</surname>
                </persName>
                <birth>
-                  <date>1752-04-19</date>
-                  <placeName type="wikidata" ref="Q21590">Niederrœdern</placeName>
+                  <date when-iso="1752-04-19">1752-04-19</date>
+                  <settlement key="148969">
+                     <placeName type="pref">Niederrœdern</placeName>
+                     <location>
+                        <geo>48,906111111111 8,0477777777778</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1813-04-03</date>
-                  <placeName type="wikidata" ref="Q550767">Meißenheim</placeName>
+                  <date when-iso="1813-04-03">1813-04-03</date>
+                  <settlement key="148971">
+                     <placeName type="pref">Meißenheim</placeName>
+                     <location>
+                        <geo>48,41 7,7736111111111</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2134_p3</idno>
-               <idno type="wikidata">Q464027</idno>
                <sex value="female"/>
-               <idno type="gnd">https://d-nb.info/gnd/118515500</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148968.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148968/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q464027</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118515500</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2134_p3</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Friederike_Brion</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154486">
                <persName>
-                  <surname>Gabriel</surname>
                   <forename>Erzengel</forename>
+                  <surname>Gabriel</surname>
                </persName>
-               <idno type="HB-tv">HB-tv_2134_p4</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154486.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154486/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2134_p4</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

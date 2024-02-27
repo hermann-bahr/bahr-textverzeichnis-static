@@ -111,7 +111,7 @@
                   <forename>Heinrich</forename>
                   <surname>Heine</surname>
                </persName>
-               <persName type="person_geburtsname-vorname">Harry</persName>
+               <persName type="person_geburtsname_vorname">Harry</persName>
                <persName type="legacy-name-merge">Heine, Heinrich</persName>
                <birth>
                   <date when-iso="1797-12-13">13.12.1797</date>
@@ -216,6 +216,7 @@
                   <forename>William</forename>
                   <surname>Shakespeare</surname>
                </persName>
+               <persName type="legacy-name-merge">Shakespeare, William</persName>
                <birth>
                   <date when-iso="1564-04-23">23.4.1564?&lt;1564-04-23&gt;</date>
                   <settlement key="49870">
@@ -251,11 +252,15 @@
                <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/shakespeare-william.html</idno>
                <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_10.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2412.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162255/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4086</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Shakespeare.jpg"/>
                </figure>
@@ -356,88 +361,149 @@
             </person>
             <person xml:id="pmb12424">
                <persName>
-                  <surname>Platen-Hallermünde</surname>
                   <forename>August von</forename>
+                  <surname>Platen</surname>
                </persName>
                <birth>
-                  <date>1796-10-24</date>
-                  <placeName type="wikidata" ref="Q14859">Ansbach</placeName>
+                  <date when-iso="1796-10-24">24.10.1796</date>
+                  <settlement key="45618">
+                     <placeName type="pref">Ansbach</placeName>
+                     <location>
+                        <geo>49,30481 10,5931</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1835-12-05</date>
-                  <placeName type="wikidata" ref="Q13670">Syrakus</placeName>
+                  <date when-iso="1835-12-05">05.12.1835</date>
+                  <settlement key="48769">
+                     <placeName type="pref">Syrakus</placeName>
+                     <location>
+                        <geo>37,07542 15,28664</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1157_p1</idno>
-               <idno type="wikidata">Q62432</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118594869</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb12424.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18827</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118594869</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12424.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12424/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12424.html</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12424.html</idno>
+               <idno type="URL" subtype="dritte-walpurgisnacht">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=P#DWpers0187</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp44744</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q62432</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/August_von_Platen-Hallerm%C3%BCnde</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1157_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/August%20von%20Platen%20by%20Moritz%20Rugendas.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb151795">
                <persName>
-                  <surname>Laubmann</surname>
-                  <forename>Georg von</forename>
+                  <forename>Georg</forename>
+                  <surname>Georg von Laubmann</surname>
                </persName>
                <birth>
-                  <date>1843-10-03</date>
-                  <placeName type="wikidata" ref="Q6938">Hof</placeName>
+                  <date when-iso="1843-10-03">1843-10-03</date>
+                  <settlement key="151796">
+                     <placeName type="pref">Hof</placeName>
+                     <location>
+                        <geo>50,31666666666667 11,916666666666666</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1909-06-05</date>
-                  <placeName type="wikidata" ref="Q1726">München</placeName>
+                  <date when-iso="1909-06-05">1909-06-05</date>
+                  <settlement key="45258">
+                     <placeName type="pref">München</placeName>
+                     <location>
+                        <geo>48,13743 11,57549</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2931_p2</idno>
-               <idno type="wikidata">Q1506620</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/102183201</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151795.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/151795/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1506620</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/102183201</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2931_p2</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Georg_von_Laubmann</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb156723">
                <persName>
-                  <surname>Scheffler</surname>
                   <forename>Johann Ludwig von</forename>
+                  <surname>Scheffler</surname>
                </persName>
                <birth>
-                  <date when="1852">1852</date>
+                  <date notBefore-iso="1852-01-01"
+                        when-iso="1852-07-01"
+                        notAfter-iso="1852-12-31">1852</date>
                </birth>
                <death>
-                  <date when="1925">1925</date>
+                  <date when-iso="1925-07-02" notAfter-iso="1925-12-31">1925</date>
                </death>
-               <idno type="HB-tv">HB-tv_2931_p3</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156723.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156723/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2931_p3</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb156708">
                <persName>
-                  <surname>Cotta</surname>
                   <forename>Johann Georg</forename>
+                  <surname>Cotta</surname>
                </persName>
                <birth>
-                  <date when="1796">1796</date>
+                  <date notBefore-iso="1796-01-01"
+                        when-iso="1796-07-01"
+                        notAfter-iso="1796-12-31">1796</date>
                </birth>
                <death>
-                  <date when="1863">1863</date>
+                  <date when-iso="1863-07-02" notAfter-iso="1863-12-31">1863</date>
                </death>
-               <idno type="HB-tv">HB-tv_2941_p7</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156708.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156708/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2941_p7</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb113213">
                <persName>
-                  <surname>Motte Fouqué</surname>
-                  <forename>Friedrich de la</forename>
+                  <forename>Friedrich de La Motte-</forename>
+                  <surname>Fouqué</surname>
                </persName>
                <birth>
-                  <date>1777-02-12</date>
-                  <placeName type="wikidata" ref="Q3931">Brandenburg an der Havel</placeName>
+                  <date when-iso="1777-02-12">1777-02-12</date>
                </birth>
                <death>
-                  <date>1843-01-23</date>
-                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+                  <date when-iso="1843-01-23">1843-01-23</date>
                </death>
-               <idno type="HB-tv">HB-tv_154_p5</idno>
-               <idno type="wikidata">Q77371</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118534556</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113213.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation key="116">Übersetzer/Übersetzerin</occupation>
+               <occupation key="727">Dramatiker/Dramatikerin</occupation>
+               <occupation key="1535">Librettist/Librettistin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/113213/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118534556</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp40307</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q77371</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Friedrich_de_La_Motte_Fouqu%C3%A9</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_154_p5</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2931_p5</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

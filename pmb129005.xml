@@ -89,18 +89,24 @@
          <listPerson>
             <person xml:id="pmb155724">
                <persName>
-                  <surname>Golfar</surname>
                   <forename>Alfred</forename>
+                  <surname>Golfar</surname>
                </persName>
-               <occupation>Autor</occupation>
                <birth>
-                  <date when="1891">1891</date>
+                  <date notBefore-iso="1891-01-01"
+                        when-iso="1891-07-02"
+                        notAfter-iso="1891-12-31">1891</date>
                </birth>
                <death>
-                  <date when-custom="nach 1930">nach 1930</date>
+                  <date>nach 1930</date>
                </death>
-               <idno type="HB-tv">HB-tv_5237_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155724.html</idno>
+               <sex value="not-set"/>
+               <occupation key="1316">Autor/Autorin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155724/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5237_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

@@ -91,22 +91,36 @@
          <listPerson>
             <person xml:id="pmb149092">
                <persName>
-                  <surname>List</surname>
                   <forename>Friedrich</forename>
+                  <surname>List</surname>
                </persName>
                <birth>
-                  <date>1789-08-06</date>
-                  <placeName type="wikidata" ref="Q3085">Reutlingen</placeName>
+                  <date when-iso="1789-08-06">1789-08-06</date>
+                  <settlement key="117350">
+                     <placeName type="pref">Reutlingen</placeName>
+                     <location>
+                        <geo>48,491439 9,204269</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1846-11-30</date>
-                  <placeName type="wikidata" ref="Q486341">Kufstein</placeName>
+                  <date when-iso="1846-11-30">1846-11-30</date>
+                  <settlement key="1012">
+                     <placeName type="pref">Kufstein</placeName>
+                     <location>
+                        <geo>47,58333 12,16667</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1437_p1</idno>
-               <idno type="wikidata">Q159917</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118573489</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149092.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/149092/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q159917</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118573489</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1437_p1</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Friedrich_List</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

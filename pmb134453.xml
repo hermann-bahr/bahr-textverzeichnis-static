@@ -147,28 +147,54 @@
             </person>
             <person xml:id="pmb2181">
                <persName>
-                  <surname>Velàzquez</surname>
-                  <forename>Diego Rodrìguez de Silva y</forename>
+                  <forename>Diego Rodríguez de Silva y</forename>
+                  <surname>Velázquez</surname>
                </persName>
                <birth>
-                  <date>1599-06-06</date>
-                  <placeName type="wikidata" ref="Q8717">Sevilla</placeName>
+                  <date when-iso="1599-06-06">06.06.1599</date>
+                  <settlement key="49183">
+                     <placeName type="pref">Sevilla</placeName>
+                     <location>
+                        <geo>37,38283 -5,97317</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1660-08-06</date>
-                  <placeName type="wikidata" ref="Q2807">Madrid</placeName>
+                  <date when-iso="1660-08-06">06.08.1660</date>
+                  <settlement key="914">
+                     <placeName type="pref">Madrid</placeName>
+                     <location>
+                        <geo>40,4165 -3,70256</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1387_p91</idno>
-               <idno type="wikidata">Q297</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118626426</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2181.html</idno>
+               <occupation key="110">Maler/Malerin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118626426</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2181.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2181/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2181.html</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q297</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Diego_Vel%C3%A1zquez</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp54832</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1387_p91</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4865_p11</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_742_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_323_p3</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Diego%20Vel%C3%A1zquez%20Autorretrato%2045%20x%2038%20cm%20-%20Colecci%C3%B3n%20Real%20Academia%20de%20Bellas%20Artes%20de%20San%20Carlos%20-%20Museo%20de%20Bellas%20Artes%20de%20Valencia.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb14434">
                <persName>
                   <forename>Sandro</forename>
                   <surname>Botticelli</surname>
                </persName>
+               <persName type="legacy-name-merge">Botticelli, Sandro</persName>
                <persName type="legacy-name-merge">Botticelli, Sandro</persName>
                <birth>
                   <date when-iso="1445-03-01">1445-03-01</date>
@@ -198,9 +224,13 @@
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118514008</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q5669</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Sandro_Botticelli</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159451/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_510</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Sandro%20Botticelli%20083.jpg"/>
                </figure>
@@ -359,547 +389,908 @@
             </person>
             <person xml:id="pmb153790">
                <persName>
-                  <surname>Orlovsky</surname>
-                  <forename>Boris Ivanovich</forename>
+                  <forename>Boris</forename>
+                  <surname>Orłowski</surname>
                </persName>
                <birth>
-                  <date>1792</date>
-                  <placeName type="wikidata" ref="Q111287348"/>
+                  <date notBefore-iso="1792-01-01"
+                        when-iso="1792-07-01"
+                        notAfter-iso="1792-12-31">1792</date>
+                  <settlement key="153791">
+                     <placeName type="pref">Stolbetskoye</placeName>
+                     <location>
+                        <geo>52,62306 36,60028</geo>
+                     </location>
+                  </settlement>
                </birth>
-               <death>
-                  <date>1837-12-16</date>
-                  <placeName type="wikidata" ref="Q656">Sankt Petersburg</placeName>
-               </death>
-               <idno type="HB-tv">HB-tv_2560_p3</idno>
-               <idno type="wikidata">Q2365620</idno>
                <sex value="male"/>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153790.html</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2560_p3</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153790/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2365620</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb152685">
                <persName>
-                  <surname>Mikeschin</surname>
-                  <forename>Michail Ossipowitsch</forename>
+                  <forename>Mikhail</forename>
+                  <surname>Mikhail Mikeshin</surname>
                </persName>
-               <birth>
-                  <date>1835-02-09</date>
-                  <placeName type="wikidata" ref="Q4440300"/>
-               </birth>
-               <death>
-                  <date>1896-01-19</date>
-                  <placeName type="wikidata" ref="Q656">Sankt Petersburg</placeName>
-               </death>
-               <idno type="HB-tv">HB-tv_2560_p5</idno>
-               <idno type="wikidata">Q1392445</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/13025567X</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152685.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/152685/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1392445</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/13025567X</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2560_p5</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Michail_Ossipowitsch_Mikeschin</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb152689">
                <persName>
-                  <surname>Opekusin</surname>
-                  <forename>Aleksandr Mikhailovic</forename>
+                  <forename>Aleksandr</forename>
+                  <surname>Alexander Opekushin</surname>
                </persName>
-               <birth>
-                  <date>1838-11-16</date>
-                  <placeName type="wikidata" ref="Q4154776"/>
-               </birth>
                <death>
-                  <date>1923-03-04</date>
-                  <placeName type="wikidata" ref="Q4401634"/>
+                  <date when-iso="1923-03-04">1923-03-04</date>
+                  <settlement key="152692">
+                     <placeName type="pref">Rybnitsy</placeName>
+                     <location>
+                        <geo>57,733613888889 40,3787</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2560_p6</idno>
-               <idno type="wikidata">Q31885</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/119143445</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152689.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/152689/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q31885</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/119143445</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2560_p6</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alexander_Michailowitsch_Opekuschin</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb152694">
                <persName>
-                  <surname>Clodt von Jürgensburg</surname>
                   <forename>Peter</forename>
+                  <surname>Peter Clodt Von Jürgensburg</surname>
                </persName>
                <birth>
-                  <date>1805-06-05</date>
-                  <placeName type="wikidata" ref="Q656">Sankt Petersburg</placeName>
+                  <date when-iso="1805-06-05">1805-06-05</date>
+                  <settlement key="433">
+                     <placeName type="pref">Sankt Petersburg</placeName>
+                     <location>
+                        <geo>59,93863 30,31413</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1867-11-20</date>
-                  <placeName type="wikidata" ref="Q62633">Großfürstentum Finnland</placeName>
+                  <date when-iso="1867-11-20">1867-11-20</date>
+                  <settlement key="152696">
+                     <placeName type="pref">Grand Principality of Finland</placeName>
+                     <location>
+                        <geo>64,0 26,0</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2560_p7</idno>
-               <idno type="wikidata">Q155856</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/124968651</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152694.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/152694/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q155856</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/124968651</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2560_p7</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Peter_Clodt_von_J%C3%BCrgensburg</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb157268">
                <persName>
                   <surname>Paveretzky ?</surname>
                </persName>
-               <idno type="HB-tv">HB-tv_197_p5</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157268.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/157268/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_197_p5</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb153794">
                <persName>
+                  <forename>Fyodor</forename>
                   <surname>Kamensky</surname>
-                  <forename>Fyodor Fyodorovich</forename>
                </persName>
-               <birth>
-                  <date>1836-08-21</date>
-                  <placeName type="wikidata" ref="Q656">Sankt Petersburg</placeName>
-               </birth>
                <death>
-                  <date>1913-08-26</date>
-                  <placeName type="wikidata" ref="Q244146">Clearwater</placeName>
+                  <date when-iso="1913-08-26">1913-08-26</date>
+                  <settlement key="153796">
+                     <placeName type="pref">Clearwater</placeName>
+                     <location>
+                        <geo>27,973611111111 -82,764166666667</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_197_p6</idno>
-               <idno type="wikidata">Q4211381</idno>
                <sex value="male"/>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153794.html</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_197_p6</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153794/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q4211381</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb152705">
                <persName>
-                  <surname>Falconet</surname>
-                  <forename>Etienne-Maurice</forename>
+                  <forename>Étienne</forename>
+                  <surname>Étienne Maurice Falconet</surname>
                </persName>
                <birth>
-                  <date>1716-12-01</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1716-12-01">1716-12-01</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </birth>
-               <death>
-                  <date>1791-01-24</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
-               </death>
-               <idno type="HB-tv">HB-tv_2560_p13</idno>
-               <idno type="wikidata">Q289246</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118685872</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152705.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/152705/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q289246</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118685872</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2560_p13</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/%C3%89tienne-Maurice_Falconet</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb157269">
                <persName>
-                  <surname>Ugryumov</surname>
                   <forename>Grigory Ivanovich</forename>
+                  <surname>Ugryumov</surname>
                </persName>
                <birth>
-                  <date when="1764">1764</date>
+                  <date notBefore-iso="1764-01-01"
+                        when-iso="1764-07-01"
+                        notAfter-iso="1764-12-31">1764</date>
                </birth>
                <death>
-                  <date when="1823">1823</date>
+                  <date when-iso="1823-07-02" notAfter-iso="1823-12-31">1823</date>
                </death>
-               <idno type="HB-tv">HB-tv_197_p8</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157269.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/157269/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_197_p8</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb152763">
                <persName>
-                  <surname>Brjullow</surname>
-                  <forename>Karl Pawlowitsch</forename>
+                  <forename>Karl</forename>
+                  <surname>Bryullov</surname>
                </persName>
                <birth>
-                  <date>1799-12-12</date>
-                  <placeName type="wikidata" ref="Q656">Sankt Petersburg</placeName>
+                  <date when-iso="1799-12-12">1799-12-12</date>
+                  <settlement key="433">
+                     <placeName type="pref">Sankt Petersburg</placeName>
+                     <location>
+                        <geo>59,93863 30,31413</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1852-06-11</date>
-                  <placeName type="wikidata" ref="Q242893">Manziana</placeName>
+                  <date when-iso="1852-06-11">1852-06-11</date>
+                  <settlement key="152765">
+                     <placeName type="pref">Manziana</placeName>
+                     <location>
+                        <geo>42,133333333333 12,133333333333</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_197_p9</idno>
-               <idno type="wikidata">Q4768</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/119521482</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152763.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/152763/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q4768</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/119521482</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_197_p9</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Karl_Pawlowitsch_Brjullow</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb152767">
                <persName>
+                  <forename>Fyodor</forename>
                   <surname>Bruni</surname>
-                  <forename>Fjodor Antonowitsch</forename>
                </persName>
-               <birth>
-                  <date>1799-06-10</date>
-                  <placeName type="wikidata" ref="Q490">Mailand</placeName>
-               </birth>
-               <death>
-                  <date>1875-09-11</date>
-                  <placeName type="wikidata" ref="Q656">Sankt Petersburg</placeName>
-               </death>
-               <idno type="HB-tv">HB-tv_197_p10</idno>
-               <idno type="wikidata">Q983223</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/1193579279</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152767.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/152767/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q983223</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1193579279</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_197_p10</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Fjodor_Antonowitsch_Bruni</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb157270">
                <persName>
-                  <surname>Jegorow</surname>
                   <forename>Alexei Jegorowitsch</forename>
+                  <surname>Jegorow</surname>
                </persName>
                <birth>
-                  <date when="1776">1776</date>
+                  <date notBefore-iso="1776-01-01"
+                        when-iso="1776-07-01"
+                        notAfter-iso="1776-12-31">1776</date>
                </birth>
                <death>
-                  <date when="1851">1851</date>
+                  <date when-iso="1851-07-02" notAfter-iso="1851-12-31">1851</date>
                </death>
-               <idno type="HB-tv">HB-tv_197_p11</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157270.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/157270/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_197_p11</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb152770">
                <persName>
-                  <surname>Shchedrin</surname>
-                  <forename>Silvestr Fedosievich</forename>
+                  <forename>Sylvester</forename>
+                  <surname>Schedrin</surname>
                </persName>
                <birth>
-                  <date>1791-02-13</date>
-                  <placeName type="wikidata" ref="Q656">Sankt Petersburg</placeName>
+                  <date when-iso="1791-02-13">1791-02-13</date>
+                  <settlement key="433">
+                     <placeName type="pref">Sankt Petersburg</placeName>
+                     <location>
+                        <geo>59,93863 30,31413</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1830-11-08</date>
-                  <placeName type="wikidata" ref="Q72672">Sorrent</placeName>
+                  <date when-iso="1830-11-08">1830-11-08</date>
+                  <settlement key="116655">
+                     <placeName type="pref">Sorrent</placeName>
+                     <location>
+                        <geo>40,62601 14,374409</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_197_p12</idno>
-               <idno type="wikidata">Q1861382</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/120865661</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152770.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/152770/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1861382</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/120865661</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_197_p12</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Sylvester_Feodossijewitsch_Schtschedrin</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb152753">
                <persName>
-                  <surname>Aiwasowski</surname>
-                  <forename>Iwan Konstantinowitsch</forename>
+                  <forename>Ivan</forename>
+                  <surname>Aivazovsky</surname>
                </persName>
-               <birth>
-                  <date>1817-07-17</date>
-                  <placeName type="wikidata" ref="Q158491">Feodossija</placeName>
-               </birth>
-               <death>
-                  <date>1900-04-19</date>
-                  <placeName type="wikidata" ref="Q158491">Feodossija</placeName>
-               </death>
-               <idno type="HB-tv">HB-tv_1351_p45</idno>
-               <idno type="wikidata">Q181568</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118501267</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152753.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/152753/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q181568</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118501267</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1351_p45</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Iwan_Konstantinowitsch_Aiwasowski</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb157263">
                <persName>
-                  <surname>Makowski</surname>
                   <forename>Wladimir Jegorowitsch</forename>
+                  <surname>Makowski</surname>
                </persName>
                <birth>
-                  <date when="1846">1846</date>
+                  <date notBefore-iso="1846-01-01"
+                        when-iso="1846-07-02"
+                        notAfter-iso="1846-12-31">1846</date>
                </birth>
                <death>
-                  <date when="1920">1920</date>
+                  <date when-iso="1920-07-01" notAfter-iso="1920-12-31">1920</date>
                </death>
-               <idno type="HB-tv">HB-tv_1351_p46</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157263.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/157263/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1351_p46</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb152773">
                <persName>
-                  <surname>Poussin</surname>
                   <forename>Nicolas</forename>
+                  <surname>Poussin</surname>
                </persName>
-               <birth>
-                  <date>1594-06-00</date>
-                  <placeName type="wikidata" ref="Q209770">Les Andelys</placeName>
-               </birth>
                <death>
-                  <date>1665-11-19</date>
-                  <placeName type="wikidata" ref="Q220">Rom</placeName>
+                  <date when-iso="1665-11-19">1665-11-19</date>
+                  <settlement key="445">
+                     <placeName type="pref">Rom</placeName>
+                     <location>
+                        <geo>41,89193 12,51133</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_197_p15</idno>
-               <idno type="wikidata">Q41554</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118596047</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152773.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/152773/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q41554</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118596047</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_197_p15</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Nicolas_Poussin</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb156971">
                <persName>
-                  <surname>Goya y Lucientes</surname>
                   <forename>Francisco José de</forename>
+                  <surname>Goya y Lucientes</surname>
                </persName>
                <birth>
-                  <date when="1746">1746</date>
+                  <date notBefore-iso="1746-01-01"
+                        when-iso="1746-07-02"
+                        notAfter-iso="1746-12-31">1746</date>
                </birth>
                <death>
-                  <date when="1828">1828</date>
+                  <date when-iso="1828-07-01" notAfter-iso="1828-12-31">1828</date>
                </death>
-               <idno type="HB-tv">HB-tv_333_p8</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156971.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156971/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_333_p8</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb149875">
                <persName>
-                  <surname>Ribera</surname>
-                  <forename>José de</forename>
+                  <forename>José</forename>
+                  <surname>de Ribera</surname>
                </persName>
                <birth>
-                  <date>1591-01-12</date>
-                  <placeName type="wikidata" ref="Q738013">Xàtiva</placeName>
+                  <date when-iso="1591-01-12">1591-01-12</date>
+                  <settlement key="116805">
+                     <placeName type="pref">Játiva</placeName>
+                     <location>
+                        <geo>38,990277 -0,518333</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1652-09-03</date>
-                  <placeName type="wikidata" ref="Q2634">Neapel</placeName>
+                  <date when-iso="1652-09-03">1652-09-03</date>
+                  <settlement key="595">
+                     <placeName type="pref">Neapel</placeName>
+                     <location>
+                        <geo>40,85216 14,26811</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_4862_p18</idno>
-               <idno type="wikidata">Q297838</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118788604</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149875.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/149875/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q297838</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118788604</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4862_p18</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Jusepe_de_Ribera</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb157160">
                <persName>
-                  <surname>Murillo</surname>
                   <forename>Bartolomé Esteban</forename>
+                  <surname>Murillo</surname>
                </persName>
                <birth>
-                  <date when-custom="um 1618">um 1618</date>
+                  <date>um 1618</date>
                </birth>
                <death>
-                  <date when="1682">1682</date>
+                  <date when-iso="1682-07-02" notAfter-iso="1682-12-31">1682</date>
                </death>
-               <idno type="HB-tv">HB-tv_208_p3</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157160.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/157160/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_208_p3</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb152712">
                <persName>
-                  <surname>Cano</surname>
                   <forename>Alonso</forename>
+                  <surname>Cano</surname>
                </persName>
+               <persName type="legacy-name-merge">Cano, Alonso</persName>
                <birth>
-                  <date>1601-03-19</date>
-                  <placeName type="wikidata" ref="Q8810">Granada</placeName>
+                  <date when-iso="1601-03-19">1601-03-19</date>
+                  <settlement key="147487">
+                     <placeName type="pref">Granada</placeName>
+                     <location>
+                        <geo>37,18863 -3,59078</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1667-09-03</date>
-                  <placeName type="wikidata" ref="Q8810">Granada</placeName>
+                  <date when-iso="1667-09-03">1667-09-03</date>
+                  <settlement key="147487">
+                     <placeName type="pref">Granada</placeName>
+                     <location>
+                        <geo>37,18863 -3,59078</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1351_p14</idno>
-               <idno type="wikidata">Q378783</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/122041119</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152712.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/152712/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q378783</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/122041119</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1351_p14</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159568/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_659</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Alonso_Cano</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
             </person>
             <person xml:id="pmb157260">
                <persName>
-                  <surname>Coello</surname>
                   <forename>Alonso Sánchez</forename>
+                  <surname>Coello</surname>
                </persName>
                <birth>
-                  <date when-custom="1531/1532">1531/1532</date>
+                  <date>1531/1532</date>
                </birth>
                <death>
-                  <date when="1588">1588</date>
+                  <date when-iso="1588-07-01" notAfter-iso="1588-12-31">1588</date>
                </death>
-               <idno type="HB-tv">HB-tv_1351_p15</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157260.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/157260/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1351_p15</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb152204">
                <persName>
-                  <surname>Lorrain</surname>
                   <forename>Claude</forename>
+                  <surname>Lorrain</surname>
                </persName>
                <birth>
-                  <date>1600-01-01</date>
-                  <placeName type="wikidata" ref="Q205859">Chamagne</placeName>
+                  <date notBefore-iso="1600-01-01"
+                        when-iso="1600-07-01"
+                        notAfter-iso="1600-12-31">1600</date>
+                  <settlement key="152205">
+                     <placeName type="pref">Chamagne</placeName>
+                     <location>
+                        <geo>48,408333333333 6,28</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1682-11-23</date>
-                  <placeName type="wikidata" ref="Q220">Rom</placeName>
+                  <date when-iso="1682-11-23">1682-11-23</date>
+                  <settlement key="445">
+                     <placeName type="pref">Rom</placeName>
+                     <location>
+                        <geo>41,89193 12,51133</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2782_p9</idno>
-               <idno type="wikidata">Q214074</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118574450</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152204.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/152204/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q214074</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118574450</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2643_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2782_p9</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Claude_Lorrain</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb152776">
                <persName>
+                  <forename>Jean</forename>
                   <surname>Chardin</surname>
-                  <forename>Jean Siméon</forename>
                </persName>
                <birth>
-                  <date>1699-11-02</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1699-11-02">1699-11-02</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1779-12-06</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1779-12-06">1779-12-06</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_197_p22</idno>
-               <idno type="wikidata">Q207447</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118520121</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152776.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/152776/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q207447</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118520121</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_197_p22</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_718</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Jean_Sim%C3%A9on_Chardin</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb152123">
                <persName>
-                  <surname>Greuze</surname>
                   <forename>Jean-Baptiste</forename>
+                  <surname>Greuze</surname>
                </persName>
                <birth>
-                  <date>1725-08-21</date>
-                  <placeName type="wikidata" ref="Q501900">Tournus</placeName>
+                  <date when-iso="1725-08-21">1725-08-21</date>
+                  <settlement key="152124">
+                     <placeName type="pref">Tournus</placeName>
+                     <location>
+                        <geo>46,561666666667 4,9122222222222</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1805-03-21</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1805-03-21">1805-03-21</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2810_p3</idno>
-               <idno type="wikidata">Q347139</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118718789</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152123.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/152123/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q347139</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118718789</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2810_p3</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Jean-Baptiste_Greuze</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb113918">
                <persName>
+                  <forename>Jean Honoré</forename>
                   <surname>Fragonard</surname>
-                  <forename>Jean-Honoré</forename>
                </persName>
+               <persName type="legacy-name-merge">Fragonard, Jean Honoré</persName>
                <birth>
-                  <date>1732-04-05</date>
-                  <placeName type="wikidata" ref="Q173705">Grasse</placeName>
+                  <date when-iso="1732-05-05">1732-05-05</date>
                </birth>
                <death>
-                  <date>1806-08-22</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1806-08-22">1806-08-22</date>
                </death>
-               <idno type="HB-tv">HB-tv_2771_p7</idno>
-               <idno type="wikidata">Q127171</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118692437</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113918.html</idno>
+               <occupation key="110">Maler/Malerin</occupation>
+               <occupation key="140">Radierer/Radiererin</occupation>
+               <occupation key="361">Künstler/Künstlerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/113918/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118692437</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43415</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q127171</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Jean-Honor%C3%A9_Fragonard</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2771_p7</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160066/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1295</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
             </person>
             <person xml:id="pmb20315">
                <persName>
                   <surname>Leonardo da Vinci</surname>
                </persName>
+               <persName type="legacy-name-merge">da Vinci, Leonardo</persName>
+               <persName type="legacy-name-merge">Leonardo da Vinci</persName>
+               <persName type="legacy-name-merge">Leonardo da Vinci</persName>
                <birth>
-                  <date>1452-04-15</date>
-                  <placeName type="wikidata" ref="Q154184">Anchiano</placeName>
+                  <date when-iso="1452-04-15">15.04.1452</date>
+                  <settlement key="49641">
+                     <placeName type="pref">Vinci</placeName>
+                     <location>
+                        <geo>43,78133 10,92365</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1519-05-02</date>
-                  <placeName type="wikidata" ref="Q205116">Amboise</placeName>
+                  <date when-iso="1519-05-02">02.05.1519</date>
+                  <settlement key="20318">
+                     <placeName type="pref">Schloss Clos Lucé</placeName>
+                     <location>
+                        <geo>47,41 0,991389</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1930_p1</idno>
-               <idno type="wikidata">Q762</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118640445</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb20315.html</idno>
+               <occupation key="110">Maler/Malerin</occupation>
+               <occupation key="150">Bildhauer/Bildhauerin</occupation>
+               <occupation key="272">Erfinder/Erfinderin</occupation>
+               <occupation key="409">Naturforscher/Naturforscherin</occupation>
+               <occupation key="429">Techniker/Technikerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17452</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb20315.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20315/</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb20315.html</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118640445</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q762</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Leonardo_da_Vinci</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp48776</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1930_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3523_p5</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3497_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_977_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4864_p7</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4860_p19</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3370_p11</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3370_p12</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3369_p49</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3361_p8</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3355_p4</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3354_p8</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1491_p10</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5304_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5280_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5446_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5422_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3465_p7</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2185_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_41_p4</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3687_p3</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3427_p8</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3426_p3</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3414_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3411_p3</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3406_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3887_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3300_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1361_p44</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3185_p3</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_777_p5</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_644_p11</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_620_p4</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_584_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_572_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2962_p6</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2944_p3</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2941_p18</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2845_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2842_p34</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2837_p10</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_438_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_323_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2724_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_121_p24</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2694_p34</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2691_p12</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1351_p26</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_197_p25</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2614_p8</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3183_p9</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1847_p3</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161033/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2535</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161034/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2536</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+                  <bibl type="collections" n="20">Händisch importiert</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Francesco%20Melzi%20-%20Portrait%20of%20Leonardo.png"/>
+               </figure>
             </person>
             <person xml:id="pmb113150">
                <persName>
+                  <forename>Antonio Allegri</forename>
                   <surname>Correggio</surname>
-                  <forename>Antonio da</forename>
                </persName>
                <birth>
-                  <date>1489-08-30</date>
-                  <placeName type="wikidata" ref="Q111176">Correggio</placeName>
+                  <date when-iso="1489-08-30">1489-08-30</date>
                </birth>
                <death>
-                  <date>1534-03-04</date>
-                  <placeName type="wikidata" ref="Q111176">Correggio</placeName>
+                  <date when-iso="1534-07-02" notAfter-iso="1534-12-31">1534</date>
                </death>
-               <idno type="HB-tv">HB-tv_3427_p10</idno>
-               <idno type="wikidata">Q8457</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/11867692X</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113150.html</idno>
+               <occupation key="110">Maler/Malerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/113150/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/11867692X</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp40116</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q8457</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Antonio_da_Correggio</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3427_p10</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2614_p9</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb157271">
                <persName>
-                  <surname>Piombo</surname>
                   <forename>Sebastiano del</forename>
+                  <surname>Piombo</surname>
                </persName>
                <birth>
-                  <date when-custom="um 1485">um 1485</date>
+                  <date>um 1485</date>
                </birth>
                <death>
-                  <date when="1547">1547</date>
+                  <date when-iso="1547-07-02" notAfter-iso="1547-12-31">1547</date>
                </death>
-               <idno type="HB-tv">HB-tv_197_p27</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157271.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/157271/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_197_p27</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb157272">
                <persName>
                   <surname>Kleopatra</surname>
                </persName>
-               <idno type="HB-tv">HB-tv_197_p28</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb157272.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/157272/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_197_p28</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb149859">
                <persName>
+                  <forename>Peter</forename>
                   <surname>Rubens</surname>
-                  <forename>Peter Paul</forename>
                </persName>
-               <birth>
-                  <date>1577-06-28</date>
-                  <placeName type="wikidata" ref="Q3167">Siegen</placeName>
-               </birth>
                <death>
-                  <date>1640-05-30</date>
-                  <placeName type="wikidata" ref="Q12892">Antwerpen</placeName>
+                  <date when-iso="1640-05-30">1640-05-30</date>
+                  <settlement key="995">
+                     <placeName type="pref">Antwerpen</placeName>
+                     <location>
+                        <geo>51,2663 4,37077</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_4862_p6</idno>
-               <idno type="wikidata">Q5599</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/11860354X</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb149859.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/149859/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q5599</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/11860354X</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4862_p6</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Peter_Paul_Rubens</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb117731">
                <persName>
-                  <surname>van Dyck</surname>
-                  <forename>Anthonis</forename>
+                  <forename>Anton</forename>
+                  <surname>Dyck</surname>
                </persName>
                <birth>
-                  <date>1599-03-22</date>
-                  <placeName type="wikidata" ref="Q12892">Antwerpen</placeName>
+                  <date when-iso="1599-03-22">1599-03-22</date>
                </birth>
                <death>
-                  <date>1641-12-09</date>
-                  <placeName type="wikidata" ref="Q84">London</placeName>
+                  <date when-iso="1641-12-09">1641-12-09</date>
                </death>
-               <idno type="HB-tv">HB-tv_2998_p9</idno>
-               <idno type="wikidata">Q150679</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118528386</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb117731.html</idno>
+               <occupation key="110">Maler/Malerin</occupation>
+               <occupation key="136">Grafiker/Grafikerin</occupation>
+               <occupation key="140">Radierer/Radiererin</occupation>
+               <occupation key="361">Künstler/Künstlerin</occupation>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp54796</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/117731/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118528386</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q150679</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Anthonis_van_Dyck</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2998_p9</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb5428">
                <persName>
-                  <surname>Rembrandt Harmenszoon van Rijn</surname>
+                  <surname>Rembrandt van Rijn</surname>
                </persName>
+               <persName type="legacy-name-merge">Rembrandt, None</persName>
                <birth>
-                  <date>1606-07-15</date>
-                  <placeName type="wikidata" ref="Q43631">Leiden</placeName>
+                  <date when-iso="1606-07-15">15.07.1606</date>
+                  <settlement key="947">
+                     <placeName type="pref">Leiden</placeName>
+                     <location>
+                        <geo>52,15274 4,4836</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1669-10-04</date>
-                  <placeName type="wikidata" ref="Q727">Amsterdam</placeName>
+                  <date when-iso="1669-10-04">04.10.1669</date>
+                  <settlement key="40709">
+                     <placeName type="pref">Amsterdam</placeName>
+                     <location>
+                        <geo>52,37403 4,88969</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1050_p6</idno>
-               <idno type="wikidata">Q5598</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/11859964X</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb5428.html</idno>
+               <occupation key="110">Maler/Malerin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/11859964X</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19181</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5428/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/23259/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb5428.html</idno>
+               <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/personen/pmb5428</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q5598</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Rembrandt_van_Rijn</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp52114</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1050_p6</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3496_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1217_p3</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_161_p6</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4863_p19</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3377_p11</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3371_p10</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3370_p13</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_158_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3364_p8</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3354_p9</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1491_p11</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5251_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5221_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5206_p7</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_148_p6</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5450_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5355_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5340_p7</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3465_p8</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3463_p4</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_41_p5</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4885_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3427_p14</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_737_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2980_p9</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2762_p3</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2729_p4</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2698_p7</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1351_p37</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_197_p31</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2626_p32</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2614_p25</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3862_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2987_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="5">legalkraus</bibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Rembrandt%20van%20Rijn%20-%20Self-Portrait%20-%20Google%20Art%20Project.jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb117546">
                <persName>
-                  <surname>Katharina II. von Russland</surname>
+                  <forename>-</forename>
+                  <surname>Katharina II., Russland, Zarin</surname>
                </persName>
                <birth>
-                  <date>1729-04-21</date>
-                  <placeName type="wikidata" ref="Q393">Stettin</placeName>
+                  <date when-iso="1729-05-02">1729-05-02</date>
                </birth>
                <death>
-                  <date>1796-11-17</date>
-                  <placeName type="wikidata" ref="Q656">Sankt Petersburg</placeName>
+                  <date when-iso="1796-11-17">1796-11-17</date>
                </death>
-               <idno type="HB-tv">HB-tv_2560_p4</idno>
-               <idno type="wikidata">Q36450</idno>
                <sex value="female"/>
-               <idno type="gnd">https://d-nb.info/gnd/118560565</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb117546.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47715</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/117546/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118560565</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q36450</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Katharina_II.</idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/katharina-II.html</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2560_p4</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1351_p62</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_197_p32</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

@@ -138,6 +138,7 @@
                   <forename>Ludwig van</forename>
                   <surname>Beethoven</surname>
                </persName>
+               <persName type="legacy-name-merge">Beethoven, Ludwig van</persName>
                <birth>
                   <date when-iso="1770-12-17">17.12.1770</date>
                   <settlement key="913">
@@ -169,6 +170,8 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ludwig_van_Beethoven</idno>
                <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x00280f9a</idno>
                <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_29.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159312/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_328</idno>
                <affiliation>
                   <term key="1153">in Bezug zu</term>
                   <orgName key="89961">Deutscher Quartettverein in Paris</orgName>
@@ -177,7 +180,9 @@
                <listBibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Beethoven.jpg"/>
                </figure>
@@ -256,6 +261,7 @@
                   <forename>Franz</forename>
                   <surname>Grillparzer</surname>
                </persName>
+               <persName type="legacy-name-merge">Grillparzer, Franz</persName>
                <birth>
                   <date when-iso="1791-01-15">15.01.1791</date>
                   <settlement key="50">
@@ -293,28 +299,38 @@
                <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x002818d2</idno>
                <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_65.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11518.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160293/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1597</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Grillparzer%20cropped.jpg"/>
                </figure>
             </person>
             <person xml:id="pmb155765">
                <persName>
-                  <surname>Hauer</surname>
                   <forename>Josef Matthias</forename>
+                  <surname>Hauer</surname>
                </persName>
                <birth>
-                  <date when="1883">1883</date>
+                  <date notBefore-iso="1883-01-01"
+                        when-iso="1883-07-02"
+                        notAfter-iso="1883-12-31">1883</date>
                </birth>
                <death>
-                  <date when="1859">1859</date>
+                  <date when-iso="1859-07-02" notAfter-iso="1859-12-31">1859</date>
                </death>
-               <idno type="HB-tv">HB-tv_5199_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155765.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155765/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5199_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

@@ -103,9 +103,10 @@
                   <forename>Sarah</forename>
                   <surname>Bernhardt</surname>
                </persName>
-               <persName type="person_geburtsname-vorname">Sara Marie Henriette-Rosine</persName>
+               <persName type="person_geburtsname_vorname">Sara Marie Henriette-Rosine</persName>
                <persName type="person_geburtsname_nachname">Bernardt</persName>
                <persName type="person_verwitwet">Damala</persName>
+               <persName type="legacy-name-merge">Bernhardt, Sarah</persName>
                <birth>
                   <date when-iso="1844-10-22">22.10.1844</date>
                   <settlement key="182">
@@ -136,6 +137,8 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Sarah_Bernhardt</idno>
                <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb10899.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb10899.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159364/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_391</idno>
                <affiliation>
                   <term key="1182">arbeitet für</term>
                   <orgName key="87981">Théâtre de la Renaissance</orgName>
@@ -164,7 +167,9 @@
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="15">Schnitzler-Kino</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Sarah%20Bernhardt%20by%20Paul%20Nadar%20%28crop%29.jpg"/>
                </figure>
@@ -393,8 +398,7 @@
                   </event>
                   <event key="35203" when-iso="1895-10-09">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Uraufführung von Liebelei, Premiere von Rechte der Seele,
-                           9.10.1895</label>
+                     <label>Uraufführung von Liebelei, Premiere von Rechte der Seele, 9.10.1895</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35203/</idno>
                   </event>
                   <event key="42426" when-iso="1895-10-10">
@@ -409,8 +413,7 @@
                   </event>
                   <event key="45952" when-iso="1898-01-16">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Premiere von Abschiedssouper, Uraufführung Weihnachtseinkäufe,
-                           16.1.1898</label>
+                     <label>Premiere von Abschiedssouper, Uraufführung Weihnachtseinkäufe, 16.1.1898</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45952/</idno>
                   </event>
                   <event key="35406" when-iso="1898-11-18">
@@ -440,131 +443,197 @@
             </person>
             <person xml:id="pmb115517">
                <persName>
-                  <surname>Raabe</surname>
                   <forename>Hedwig</forename>
+                  <surname>Niemann</surname>
                </persName>
-               <occupation>verh. Niemann-Raabe, Schauspielerin</occupation>
+               <persName type="person_ehename_nachname">Niemann-Raabe</persName>
                <birth>
-                  <date>1844-12-03</date>
-                  <placeName type="wikidata" ref="Q1733">Magdeburg</placeName>
+                  <date when-iso="1844-12-03">1844-12-03</date>
                </birth>
                <death>
-                  <date>1905-04-21</date>
-                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+                  <date when-iso="1905-04-20">1905-04-20</date>
                </death>
-               <idno type="HB-tv">HB-tv_2235_p1</idno>
-               <idno type="wikidata">Q96769</idno>
                <sex value="female"/>
-               <idno type="gnd">https://d-nb.info/gnd/117004324</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb115517.html</idno>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/115517/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/117004324</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50644</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q96769</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hedwig_Raabe</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2235_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154597">
                <persName>
-                  <surname>Angelo</surname>
                   <forename>Jean</forename>
+                  <surname>Angelo</surname>
                </persName>
-               <occupation>Schauspieler</occupation>
-               <idno type="HB-tv">HB-tv_2235_p2</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154597.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154597/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2235_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154598">
                <persName>
-                  <surname>Andò</surname>
                   <forename>Flavio</forename>
+                  <surname>Andò</surname>
                </persName>
-               <occupation>Schauspieler</occupation>
                <birth>
-                  <date when="1851">1851</date>
+                  <date notBefore-iso="1851-01-01"
+                        when-iso="1851-07-02"
+                        notAfter-iso="1851-12-31">1851</date>
                </birth>
                <death>
-                  <date when="1915">1915</date>
+                  <date when-iso="1915-07-02" notAfter-iso="1915-12-31">1915</date>
                </death>
-               <idno type="HB-tv">HB-tv_2235_p3</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154598.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2235_p3</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154598/</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154599">
                <persName>
-                  <surname>Fleury</surname>
                   <forename>Gilberte</forename>
+                  <surname>Fleury</surname>
                </persName>
-               <occupation>Schauspielerin</occupation>
-               <idno type="HB-tv">HB-tv_2235_p4</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154599.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154599/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2235_p4</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154600">
                <persName>
                   <surname>Fleury</surname>
                </persName>
-               <occupation>Schauspieler</occupation>
-               <idno type="HB-tv">HB-tv_2235_p5</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154600.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154600/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2235_p5</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb153644">
                <persName>
-                  <surname>Darmont</surname>
                   <forename>Albert</forename>
+                  <surname>Darmont</surname>
                </persName>
-               <persName type="namensvariante">Eugène-Alphonse Petit, Schauspieler</persName>
                <birth>
-                  <date>1863-05-01</date>
-                  <placeName type="wikidata" ref="Q192378">Champigny-sur-Marne</placeName>
+                  <date when-iso="1863-05-01">1863-05-01</date>
+                  <settlement key="152252">
+                     <placeName type="pref">Champigny-sur-Marne</placeName>
+                     <location>
+                        <geo>48,817222222222 2,5155555555556</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1913-03-11</date>
-                  <placeName type="wikidata" ref="Q192378">Champigny-sur-Marne</placeName>
+                  <date when-iso="1913-03-11">1913-03-11</date>
+                  <settlement key="152252">
+                     <placeName type="pref">Champigny-sur-Marne</placeName>
+                     <location>
+                        <geo>48,817222222222 2,5155555555556</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2235_p6</idno>
-               <idno type="wikidata">Q55672827</idno>
                <sex value="male"/>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153644.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153644/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q55672827</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2235_p6</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+                  <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154601">
                <persName>
-                  <surname>Deneubourg</surname>
                   <forename>Georges Francois</forename>
+                  <surname>Deneubourg</surname>
                </persName>
-               <occupation>Schauspieler</occupation>
                <birth>
-                  <date when-custom="um 1866">um 1866</date>
+                  <date>um 1866</date>
                </birth>
-               <idno type="HB-tv">HB-tv_2235_p7</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154601.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154601/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2235_p7</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154602">
                <persName>
                   <surname>Gartereau</surname>
                </persName>
-               <occupation>Schauspieler</occupation>
-               <idno type="HB-tv">HB-tv_2235_p8</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154602.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154602/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2235_p8</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb112447">
                <persName>
-                  <surname>Forain</surname>
                   <forename>Jean-Louis</forename>
+                  <surname>Forain</surname>
                </persName>
                <birth>
-                  <date>1852-10-23</date>
-                  <placeName type="wikidata" ref="Q41876">Reims</placeName>
+                  <date when-iso="1852-10-23">1852-10-23</date>
+                  <settlement key="60494">
+                     <placeName type="pref">Reims</placeName>
+                     <location>
+                        <geo>49,26526 4,02853</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1931-07-11</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1931-07-11">1931-07-11</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_4835_p2</idno>
-               <idno type="wikidata">Q719614</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118684191</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb112447.html</idno>
+               <occupation key="110">Maler/Malerin</occupation>
+               <occupation key="136">Grafiker/Grafikerin</occupation>
+               <occupation key="332">Karikaturist/Karikaturistin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/112447/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q719614</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Jean-Louis_Forain</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118684191</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4835_p2</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2666_p4</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154603">
                <persName>
-                  <surname>Méa</surname>
                   <forename>Jane</forename>
+                  <surname>Méa</surname>
                </persName>
-               <occupation>Schauspielerin</occupation>
-               <idno type="HB-tv">HB-tv_2235_p10</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154603.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154603/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2235_p10</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

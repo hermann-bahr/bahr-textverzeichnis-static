@@ -98,22 +98,36 @@
          <listPerson>
             <person xml:id="pmb152306">
                <persName>
-                  <surname>Buls</surname>
                   <forename>Karel</forename>
+                  <surname>Buls</surname>
                </persName>
                <birth>
-                  <date>1837-10-13</date>
-                  <placeName type="wikidata" ref="Q239">Stadt Brüssel</placeName>
+                  <date when-iso="1837-10-13">1837-10-13</date>
+                  <settlement key="862">
+                     <placeName type="pref">Brüssel</placeName>
+                     <location>
+                        <geo>50,85045 4,34878</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1914-07-13</date>
-                  <placeName type="wikidata" ref="Q208713">Ixelles/Elsene</placeName>
+                  <date when-iso="1914-07-13">1914-07-13</date>
+                  <settlement key="55286">
+                     <placeName type="pref">Ixelles</placeName>
+                     <location>
+                        <geo>50,82157 4,37389</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2756_p1</idno>
-               <idno type="wikidata">Q716382</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/119042770</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb152306.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/152306/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q716382</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/119042770</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2756_p1</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Karel_Buls</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

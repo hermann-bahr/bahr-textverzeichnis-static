@@ -95,6 +95,7 @@
                   <forename>Wilhelm</forename>
                   <surname>Singer</surname>
                </persName>
+               <persName type="legacy-name-merge">Singer, Wilhelm</persName>
                <birth>
                   <date when-iso="1847-11-26">26.11.1847</date>
                   <settlement key="53794">
@@ -125,6 +126,8 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q60481786</idno>
                <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x00284ab1</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2202.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162288/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4125</idno>
                <affiliation notBefore-iso="1880-01-01"
                             when-iso="1880-07-01"
                             notAfter-iso="1880-12-31">
@@ -155,10 +158,11 @@
                </affiliation>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
-                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag
-                        gefunden</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag gefunden</bibl>
                   <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
                </listBibl>
+               <note type="references">None </note>
             </person>
             <person xml:id="pmb11461">
                <persName>
@@ -220,6 +224,7 @@
                   <surname>Stein</surname>
                </persName>
                <persName type="namensvariante">Diplomaticus</persName>
+               <persName type="legacy-name-merge">Stein, Ludwig</persName>
                <birth>
                   <date when-iso="1859-11-12">12.11.1859</date>
                   <settlement key="12830">
@@ -241,6 +246,8 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49333</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q3839175</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ludwig_Stein_(Philosoph)</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162367/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4230</idno>
                <affiliation notBefore-iso="1901-01-01"
                             when-iso="1901-07-02"
                             notAfter-iso="1901-12-31">
@@ -262,92 +269,152 @@
                </affiliation>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Stein-ludwig-philosoph-50-jahre-ullstein-1877-1927-berlin-ullstein-1927-s209.jpg"/>
                </figure>
             </person>
             <person xml:id="pmb151471">
                <persName>
-                  <surname>Giron</surname>
                   <forename>Charles</forename>
+                  <surname>Giron</surname>
                </persName>
                <birth>
-                  <date>1850-04-02</date>
-                  <placeName type="wikidata" ref="Q71">Genf</placeName>
+                  <date when-iso="1850-04-02">1850-04-02</date>
+                  <settlement key="562">
+                     <placeName type="pref">Genf</placeName>
+                     <location>
+                        <geo>46,20222 6,14569</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1914-06-09</date>
-                  <placeName type="wikidata" ref="Q48923">Genthod</placeName>
+                  <date when-iso="1914-06-09">1914-06-09</date>
+                  <settlement key="151473">
+                     <placeName type="pref">Genthod</placeName>
+                     <location>
+                        <geo>46,266666666667 6,15</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_625_p1</idno>
-               <idno type="wikidata">Q1064549</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/116647620</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151471.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/151471/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1064549</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116647620</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_625_p1</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Charles_Giron</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb151475">
                <persName>
-                  <surname>Secretan</surname>
                   <forename>Édouard</forename>
+                  <surname>Secrétan</surname>
                </persName>
                <birth>
-                  <date>1848-09-04</date>
-                  <placeName type="wikidata" ref="Q36600">Den Haag</placeName>
+                  <date when-iso="1848-09-04">1848-09-04</date>
+                  <settlement key="58810">
+                     <placeName type="pref">Den Haag</placeName>
+                     <location>
+                        <geo>52,07667 4,29861</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1917-10-12</date>
-                  <placeName type="wikidata" ref="Q807">Lausanne</placeName>
+                  <date when-iso="1917-10-12">1917-10-12</date>
+                  <settlement key="151477">
+                     <placeName type="pref">Lausanne</placeName>
+                     <location>
+                        <geo>46,533333333333 6,6333333333333</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_625_p2</idno>
-               <idno type="wikidata">Q3580032</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/121534472</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151475.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/151475/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q3580032</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/121534472</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_625_p2</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/%C3%89douard_Secretan</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb151479">
                <persName>
-                  <surname>Hörth</surname>
                   <forename>Otto</forename>
+                  <surname>Otto Hörth</surname>
                </persName>
                <birth>
-                  <date>1842-11-24</date>
-                  <placeName type="wikidata" ref="Q373824">Achern</placeName>
+                  <date when-iso="1842-11-24">1842-11-24</date>
+                  <settlement key="151480">
+                     <placeName type="pref">Achern</placeName>
+                     <location>
+                        <geo>48,631388888889 8,0738888888889</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1935</date>
+                  <date when-iso="1935-07-02" notAfter-iso="1935-12-31">1935</date>
                </death>
-               <idno type="HB-tv">HB-tv_625_p3</idno>
-               <idno type="wikidata">Q19223034</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/116932961</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151479.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/151479/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q19223034</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116932961</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_625_p3</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Otto_H%C3%B6rth</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb151482">
                <persName>
-                  <surname>Séverine</surname>
+                  <forename>Carolin</forename>
+                  <surname>Séverine</surname>
                </persName>
                <birth>
-                  <date>1855-04-27</date>
-                  <placeName type="wikidata" ref="Q90">Paris</placeName>
+                  <date when-iso="1855-04-27">1855-04-27</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1929-04-24</date>
-                  <placeName type="wikidata" ref="Q818715">Pierrefonds</placeName>
+                  <date when-iso="1929-04-24">1929-04-24</date>
+                  <settlement key="151484">
+                     <placeName type="pref">Pierrefonds</placeName>
+                     <location>
+                        <geo>49,351111111111 2,9802777777778</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_625_p4</idno>
-               <idno type="wikidata">Q453679</idno>
                <sex value="female"/>
-               <idno type="gnd">https://d-nb.info/gnd/118642367</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb151482.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/151482/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q453679</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118642367</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_625_p4</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2742_p1</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2684_p2</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Caroline_R%C3%A9my_de_Guebhard</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb156546">
                <persName>
-                  <surname>Taunay</surname>
                   <forename>Victor</forename>
+                  <surname>Taunay</surname>
                </persName>
-               <idno type="HB-tv">HB-tv_625_p5</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156546.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156546/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_625_p5</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

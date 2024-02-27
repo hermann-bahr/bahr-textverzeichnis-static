@@ -107,6 +107,7 @@
                   <forename>William</forename>
                   <surname>Shakespeare</surname>
                </persName>
+               <persName type="legacy-name-merge">Shakespeare, William</persName>
                <birth>
                   <date when-iso="1564-04-23">23.4.1564?&lt;1564-04-23&gt;</date>
                   <settlement key="49870">
@@ -142,11 +143,15 @@
                <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/shakespeare-william.html</idno>
                <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_10.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2412.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162255/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4086</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Shakespeare.jpg"/>
                </figure>
@@ -198,6 +203,7 @@
                   <forename>Emanuel</forename>
                   <surname>Reicher</surname>
                </persName>
+               <persName type="legacy-name-merge">Reicher, Emanuel</persName>
                <birth>
                   <date when-iso="1849-06-18">18.06.1849</date>
                   <settlement key="59412">
@@ -228,6 +234,8 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Emanuel_Reicher</idno>
                <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x002840d0</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12491.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161823/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3549</idno>
                <listEvent>
                   <event key="144147" when-iso="1891-01-11">
                      <desc n="1256">ist Arbeitskraft bei</desc>
@@ -277,7 +285,9 @@
                </listEvent>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emanuel%20Reicher.jpg"/>
                </figure>
@@ -361,36 +371,84 @@
             </person>
             <person xml:id="pmb154087">
                <persName>
-                  <surname>Scholz</surname>
                   <forename>August</forename>
+                  <surname>Scholz</surname>
                </persName>
+               <persName type="legacy-name-merge">Scholz, August</persName>
                <birth>
-                  <date when="1857">1857</date>
+                  <date notBefore-iso="1857-01-01"
+                        when-iso="1857-07-02"
+                        notAfter-iso="1857-12-31">1857</date>
                </birth>
                <death>
-                  <date when="1923">1923</date>
+                  <date when-iso="1923-07-02" notAfter-iso="1923-12-31">1923</date>
                </death>
-               <idno type="HB-tv">HB-tv_1931_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154087.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154087/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1931_p1</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162156/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3968</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
             </person>
             <person xml:id="pmb13061">
                <persName>
-                  <surname>Wassmann</surname>
                   <forename>Hans</forename>
+                  <surname>Waßmann</surname>
                </persName>
+               <persName type="legacy-name-merge">Waßmann, Hans</persName>
                <birth>
-                  <date>1873-01-01</date>
-                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+                  <date when-iso="1873-01-01">01.01.1873</date>
+                  <settlement key="168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1932-04-05</date>
-                  <placeName type="wikidata" ref="Q64">Berlin</placeName>
+                  <date when-iso="1932-04-05">05.04.1932</date>
+                  <settlement key="168">
+                     <placeName type="pref">Berlin</placeName>
+                     <location>
+                        <geo>52,52437 13,41053</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1932_p3</idno>
-               <idno type="wikidata">Q1582982</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/117149853</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb13061.html</idno>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21114</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/117149853</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb13061.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13061/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp55275</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1582982</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hans_Wassmann</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1932_p3</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162740/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4691</idno>
+               <listEvent>
+                  <event key="118597" when-iso="1902-02-21">
+                     <desc n="1256">ist Arbeitskraft bei</desc>
+                     <label>Aufführung von Abschiedssouper, 21.2.1902</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/118597/</idno>
+                  </event>
+                  <event key="45403" when-iso="1905-06-03">
+                     <desc n="1256">ist Arbeitskraft bei</desc>
+                     <label>Aufführung von Ein Sommernachtstraum, 3.6.1905</label>
+                     <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45403/</idno>
+                  </event>
+               </listEvent>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references">None </note>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Hans%20Wassmann.%20Photographie%20von%20Wilhelm%20H%C3%B6ffert.png"/>
+               </figure>
             </person>
          </listPerson>
       </back>

@@ -88,6 +88,7 @@
                   <forename>Leopold</forename>
                   <surname>Krenn</surname>
                </persName>
+               <persName type="legacy-name-merge">Krenn, Leopold</persName>
                <birth>
                   <date when-iso="1850-12-06">06.12.1850</date>
                   <settlement key="50">
@@ -119,13 +120,16 @@
                <idno type="URL" subtype="oeml">https://dx.doi.org/10.1553/0x0001d606</idno>
                <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11999.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11999.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160888/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2347</idno>
                <listBibl>
                   <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
-                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag
-                        gefunden</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag gefunden</bibl>
                   <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
                </listBibl>
+               <note type="references"> </note>
             </person>
             <person xml:id="pmb11441">
                <persName>
@@ -210,23 +214,53 @@
             </person>
             <person xml:id="pmb20456">
                <persName>
+                  <forename>Karl Borromäus</forename>
                   <surname>Lindau</surname>
-                  <forename>Carl</forename>
                </persName>
-               <persName type="namensvariante">Karl Gemperle</persName>
+               <persName type="person_geburtsname_nachname">Gemperle</persName>
+               <persName type="legacy-name-merge">Lindau, Karl</persName>
+               <persName type="legacy-name-merge">Lindau, Karl</persName>
                <birth>
-                  <date>1853-11-26</date>
-                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+                  <date when-iso="1853-11-26">26.11.1853</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1934-01-15</date>
-                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+                  <date when-iso="1934-01-15">15.01.1934</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_4555_p2</idno>
-               <idno type="wikidata">Q1554967</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/12106428X</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb20456.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <occupation key="1535">Librettist/Librettistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17557</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20456/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47580</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/99252/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/12106428X</idno>
+               <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x00282eec</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1554967</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Karl_Lindau</idno>
+               <idno type="URL" subtype="oeml">https://dx.doi.org/10.1553/0x0001d7cf</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb20456.html</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4555_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Karl%20Lindau%201886%20Eigner.jpg"/>
+               </figure>
             </person>
          </listPerson>
       </back>

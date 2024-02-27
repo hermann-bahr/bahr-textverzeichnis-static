@@ -90,6 +90,7 @@
                   <forename>Heinrich</forename>
                   <surname>Laube</surname>
                </persName>
+               <persName type="legacy-name-merge">Laube, Heinrich</persName>
                <birth>
                   <date when-iso="1806-09-18">1806-09-18</date>
                   <settlement key="1004">
@@ -135,9 +136,13 @@
                <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/laube-heinrich.html</idno>
                <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x00282cbd</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118570080</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160985/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2469</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/H%20Laube%20Portrait.jpg"/>
                </figure>
@@ -201,6 +206,7 @@
                   <forename>August von</forename>
                   <surname>Kotzebue</surname>
                </persName>
+               <persName type="legacy-name-merge">Kotzebue, August von</persName>
                <birth>
                   <date when-iso="1761-05-03">03.05.1761</date>
                   <settlement key="197">
@@ -229,9 +235,13 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp38573</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q57242</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/August_von_Kotzebue</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160869/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2326</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/AugustvonKotzebue1818%20%28crop%29.jpg"/>
                </figure>
@@ -241,6 +251,7 @@
                   <forename>Friedrich Gustav</forename>
                   <surname>Triesch</surname>
                </persName>
+               <persName type="legacy-name-merge">Triesch, Friedrich Gustav</persName>
                <birth>
                   <date when-iso="1845-06-16">16.06.1845</date>
                   <settlement key="50">
@@ -268,6 +279,8 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43832</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q55675343</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12974.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162565/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4475</idno>
                <affiliation>
                   <term key="1182">arbeitet für</term>
                   <orgName key="29634">Verein der Literaturfreunde</orgName>
@@ -290,10 +303,11 @@
                </listEvent>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
-                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag
-                        gefunden</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag gefunden</bibl>
                   <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Otto%20Friedrich%20Portrait%20of%20Friedrich%20Gustav%20Triesch%201897.jpg"/>
                </figure>
@@ -417,18 +431,24 @@
             </person>
             <person xml:id="pmb154288">
                <persName>
-                  <surname>Klein</surname>
                   <forename>Joseph</forename>
+                  <surname>Klein</surname>
                </persName>
-               <occupation>Schauspieler</occupation>
                <birth>
-                  <date when="1862">1862</date>
+                  <date notBefore-iso="1862-01-01"
+                        when-iso="1862-07-02"
+                        notAfter-iso="1862-12-31">1862</date>
                </birth>
                <death>
-                  <date when="1927">1927</date>
+                  <date when-iso="1927-07-02" notAfter-iso="1927-12-31">1927</date>
                </death>
-               <idno type="HB-tv">HB-tv_4068_p3</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154288.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154288/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4068_p3</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

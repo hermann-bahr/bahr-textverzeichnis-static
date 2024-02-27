@@ -119,8 +119,7 @@
                <listEvent>
                   <event key="35482" when-iso="1899-04-29">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Premiere von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei
-                           Einakter, 29.4.1899</label>
+                     <label>Premiere von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei Einakter, 29.4.1899</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35482/</idno>
                   </event>
                </listEvent>
@@ -182,8 +181,7 @@
                   </event>
                   <event key="45952" when-iso="1898-01-16">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Premiere von Abschiedssouper, Uraufführung Weihnachtseinkäufe,
-                           16.1.1898</label>
+                     <label>Premiere von Abschiedssouper, Uraufführung Weihnachtseinkäufe, 16.1.1898</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45952/</idno>
                   </event>
                   <event key="143045" when-iso="1898-10-08">
@@ -232,64 +230,93 @@
                <persName>
                   <surname>Hannemann</surname>
                </persName>
-               <occupation>Schauspieler</occupation>
-               <idno type="HB-tv">HB-tv_2438_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153985.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153985/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2438_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb153972">
                <persName>
-                  <surname>Galafrés</surname>
                   <forename>Elsa</forename>
+                  <surname>Galafrés</surname>
                </persName>
-               <occupation>Schauspielerin</occupation>
                <birth>
-                  <date when="1880">1880</date>
+                  <date notBefore-iso="1880-01-01"
+                        when-iso="1880-07-01"
+                        notAfter-iso="1880-12-31">1880</date>
                </birth>
                <death>
-                  <date when="1977">1977</date>
+                  <date when-iso="1977-07-02" notAfter-iso="1977-12-31">1977</date>
                </death>
-               <idno type="HB-tv">HB-tv_2450_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153972.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153972/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2450_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb148750">
                <persName>
-                  <surname>Romanowsky</surname>
                   <forename>Richard</forename>
+                  <surname>Romanowsky</surname>
                </persName>
-               <occupation>Schauspieler</occupation>
                <birth>
-                  <date>1883-04-21</date>
-                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+                  <date when-iso="1883-04-21">1883-04-21</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1968-07-22</date>
-                  <placeName type="wikidata" ref="Q260320">Steyr</placeName>
+                  <date when-iso="1968-07-22">1968-07-22</date>
+                  <settlement key="16143">
+                     <placeName type="pref">Steyr</placeName>
+                     <location>
+                        <geo>48,05019716653718 14,417148411804263</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_2438_p3</idno>
-               <idno type="wikidata">Q2150458</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/1021267783</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148750.html</idno>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148750/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2150458</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1021267783</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2438_p3</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Richard_Romanowsky</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb114944">
                <persName>
-                  <surname>Knaack</surname>
                   <forename>Wilhelm</forename>
+                  <surname>Knaack</surname>
                </persName>
-               <occupation>Schauspieler</occupation>
                <birth>
-                  <date>1829-02-13</date>
-                  <placeName type="wikidata" ref="Q2861">Rostock</placeName>
+                  <date when-iso="1829-02-13">1829-02-13</date>
                </birth>
                <death>
-                  <date>1894-10-29</date>
-                  <placeName type="wikidata" ref="Q1741">Wien</placeName>
+                  <date when-iso="1894-10-29">1894-10-29</date>
                </death>
-               <idno type="HB-tv">HB-tv_2438_p4</idno>
-               <idno type="wikidata">Q1691737</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/116243252</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114944.html</idno>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/114944/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116243252</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47901</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1691737</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wilhelm_Knaack</idno>
+               <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x0028213a</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2438_p4</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

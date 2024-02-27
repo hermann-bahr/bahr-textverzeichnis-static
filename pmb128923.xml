@@ -280,7 +280,7 @@
                   <forename>Rosa</forename>
                   <surname>Luxemburg</surname>
                </persName>
-               <persName type="person_geburtsname-vorname">Rozalia</persName>
+               <persName type="person_geburtsname_vorname">Rozalia</persName>
                <persName type="person_geburtsname_nachname">Luksenburg</persName>
                <birth>
                   <date when-iso="1871-03-05">05.03.1871</date>
@@ -330,6 +330,7 @@
                   <forename>Gustav</forename>
                   <surname>Landauer</surname>
                </persName>
+               <persName type="legacy-name-merge">Landauer, Gustav</persName>
                <birth>
                   <date when-iso="1870-04-07">07.04.1870</date>
                   <settlement key="871">
@@ -359,10 +360,14 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp45197</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q61723</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gustav_Landauer</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160957/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2436</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Gustav%20Landauer%20189x.png"/>
                </figure>
@@ -473,22 +478,43 @@
             </person>
             <person xml:id="pmb64840">
                <persName>
-                  <surname>Körner</surname>
                   <forename>Theodor</forename>
+                  <surname>Körner</surname>
                </persName>
+               <persName type="legacy-name-merge">Körner, Theodor</persName>
                <birth>
-                  <date>1791-09-23</date>
-                  <placeName type="wikidata" ref="Q1731">Dresden</placeName>
+                  <date when-iso="1791-09-23">1791-09-23</date>
                </birth>
                <death>
-                  <date>1813-08-26</date>
-                  <placeName type="wikidata" ref="Q1561056">Rosenow</placeName>
+                  <date when-iso="1813-08-26">1813-08-26</date>
                </death>
-               <idno type="HB-tv">HB-tv_4452_p7</idno>
-               <idno type="wikidata">Q62344</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118713507</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb64840.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation key="727">Dramatiker/Dramatikerin</occupation>
+               <occupation key="1275">Lyriker/Lyrikerin</occupation>
+               <occupation key="1279">Erzähler/Erzählerin</occupation>
+               <occupation key="1324">Soldat/Soldatin</occupation>
+               <occupation key="1535">Librettist/Librettistin</occupation>
+               <occupation key="1886">Bergarbeiter/Bergarbeiterin</occupation>
+               <occupation key="2156">Bergmann/Bergfrau</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/64840/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb64840.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp54036</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/94167/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118713507</idno>
+               <idno type="URL" subtype="dritte-walpurgisnacht">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=K#DWpers0134</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q62344</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Theodor_K%C3%B6rner_(Schriftsteller)</idno>
+               <idno type="URL" subtype="oeml">https://dx.doi.org/10.1553/0x0001d523</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4452_p7</idno>
+               <listBibl>
+                  <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Emma%20Sophie%20K%C3%B6rner%20Halbbildnis%20Theodor%20K%C3%B6rner.jpg"/>
+               </figure>
             </person>
          </listPerson>
       </back>

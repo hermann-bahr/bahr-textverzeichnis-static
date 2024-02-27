@@ -138,17 +138,23 @@
             </person>
             <person xml:id="pmb155771">
                <persName>
-                  <surname>Rochlitz</surname>
                   <forename>Johann Friedrich</forename>
+                  <surname>Rochlitz</surname>
                </persName>
                <birth>
-                  <date when="1769">1769</date>
+                  <date notBefore-iso="1769-01-01"
+                        when-iso="1769-07-02"
+                        notAfter-iso="1769-12-31">1769</date>
                </birth>
                <death>
-                  <date when="1842">1842</date>
+                  <date when-iso="1842-07-02" notAfter-iso="1842-12-31">1842</date>
                </death>
-               <idno type="HB-tv">HB-tv_5193_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155771.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155771/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5193_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

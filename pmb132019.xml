@@ -91,6 +91,7 @@
                   <forename>Wolfgang Amadeus</forename>
                   <surname>Mozart</surname>
                </persName>
+               <persName type="legacy-name-merge">Mozart, Wolfgang Amadeus</persName>
                <birth>
                   <date when-iso="1756-01-27">27.01.1756</date>
                   <settlement key="30">
@@ -122,6 +123,8 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart</idno>
                <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_13.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12303.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161409/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3028</idno>
                <affiliation notBefore-iso="1843-01-01"
                             when-iso="1843-07-02"
                             notAfter-iso="1843-12-31">
@@ -132,7 +135,9 @@
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Mozart%20Portrait%20Croce.jpg"/>
                </figure>
@@ -142,6 +147,7 @@
                   <forename>Max</forename>
                   <surname>Kalbeck</surname>
                </persName>
+               <persName type="legacy-name-merge">Kalbeck, Max</persName>
                <birth>
                   <date when-iso="1850-01-04">1850-01-04</date>
                   <settlement key="677">
@@ -174,6 +180,8 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Max_Kalbeck</idno>
                <idno type="URL" subtype="oeml">https://dx.doi.org/10.1553/0x0001d38b</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11857.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160725/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2141</idno>
                <affiliation>
                   <term key="1182">arbeitet für</term>
                   <orgName key="29312">Wiener Tagblatt</orgName>
@@ -185,25 +193,33 @@
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Max%20Kalbeck.jpg"/>
                </figure>
             </person>
             <person xml:id="pmb156477">
                <persName>
-                  <surname>Wallner-Basté</surname>
                   <forename>Charlotte</forename>
+                  <surname>Wallner-Basté</surname>
                </persName>
-               <occupation>Schauspielerin</occupation>
                <birth>
-                  <date when="1867">1867</date>
+                  <date notBefore-iso="1867-01-01"
+                        when-iso="1867-07-02"
+                        notAfter-iso="1867-12-31">1867</date>
                </birth>
                <death>
-                  <date when="1928">1928</date>
+                  <date when-iso="1928-07-01" notAfter-iso="1928-12-31">1928</date>
                </death>
-               <idno type="HB-tv">HB-tv_4830_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156477.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156477/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4830_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

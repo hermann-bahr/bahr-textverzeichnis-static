@@ -93,6 +93,7 @@
                   <forename>William</forename>
                   <surname>Shakespeare</surname>
                </persName>
+               <persName type="legacy-name-merge">Shakespeare, William</persName>
                <birth>
                   <date when-iso="1564-04-23">23.4.1564?&lt;1564-04-23&gt;</date>
                   <settlement key="49870">
@@ -128,11 +129,15 @@
                <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/shakespeare-william.html</idno>
                <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_10.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2412.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162255/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4086</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Shakespeare.jpg"/>
                </figure>
@@ -159,84 +164,176 @@
             </person>
             <person xml:id="pmb156159">
                <persName>
-                  <surname>Jenny</surname>
                   <forename>Rudolf Christoph</forename>
+                  <surname>Jenny</surname>
                </persName>
                <birth>
-                  <date when="1858">1858</date>
+                  <date notBefore-iso="1858-01-01"
+                        when-iso="1858-07-02"
+                        notAfter-iso="1858-12-31">1858</date>
                </birth>
                <death>
-                  <date when="1917">1917</date>
+                  <date when-iso="1917-07-02" notAfter-iso="1917-12-31">1917</date>
                </death>
-               <idno type="HB-tv">HB-tv_3441_p2</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156159.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156159/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3441_p2</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb13999">
                <persName>
+                  <forename>Julius Roderich</forename>
                   <surname>Benedix</surname>
-                  <forename>Roderich</forename>
                </persName>
+               <persName type="legacy-name-merge">Benedix, Roderich</persName>
                <birth>
-                  <date>1811-01-21</date>
-                  <placeName type="wikidata" ref="Q2079">Leipzig</placeName>
+                  <date when-iso="1811-01-21">21.01.1811</date>
+                  <settlement key="864">
+                     <placeName type="pref">Leipzig</placeName>
+                     <location>
+                        <geo>51,33962 12,37129</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date>1873-09-26</date>
-                  <placeName type="wikidata" ref="Q2079">Leipzig</placeName>
+                  <date when-iso="1873-09-26">26.09.1873</date>
+                  <settlement key="864">
+                     <placeName type="pref">Leipzig</placeName>
+                     <location>
+                        <geo>51,33962 12,37129</geo>
+                     </location>
+                  </settlement>
                </death>
-               <idno type="HB-tv">HB-tv_1966_p1</idno>
-               <idno type="wikidata">Q87176</idno>
                <sex value="male"/>
-               <idno type="gnd">https://d-nb.info/gnd/118658166</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb13999.html</idno>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation key="103">Theaterleiter/Theaterleiterin</occupation>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <occupation key="715">Theaterdirektor/Theaterdirektorin</occupation>
+               <occupation key="727">Dramatiker/Dramatikerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13596</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13999/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118658166/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13999.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp39058</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/112864/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118658166</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q87176</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Roderich_Benedix</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1966_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Roderich%20Benedix..jpg"/>
+               </figure>
             </person>
             <person xml:id="pmb154288">
                <persName>
-                  <surname>Klein</surname>
                   <forename>Joseph</forename>
+                  <surname>Klein</surname>
                </persName>
-               <occupation>Schauspieler</occupation>
                <birth>
-                  <date when="1862">1862</date>
+                  <date notBefore-iso="1862-01-01"
+                        when-iso="1862-07-02"
+                        notAfter-iso="1862-12-31">1862</date>
                </birth>
                <death>
-                  <date when="1927">1927</date>
+                  <date when-iso="1927-07-02" notAfter-iso="1927-12-31">1927</date>
                </death>
-               <idno type="HB-tv">HB-tv_4068_p3</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154288.html</idno>
+               <sex value="not-set"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154288/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4068_p3</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb154036">
                <persName>
-                  <surname>Niese</surname>
                   <forename>Johanna »Hansi«</forename>
+                  <surname>Niese</surname>
                </persName>
                <birth>
-                  <date when="1875">1875</date>
+                  <date notBefore-iso="1875-01-01"
+                        when-iso="1875-07-02"
+                        notAfter-iso="1875-12-31">1875</date>
                </birth>
                <death>
-                  <date when="1934">1934</date>
+                  <date when-iso="1934-07-02" notAfter-iso="1934-12-31">1934</date>
                </death>
-               <idno type="HB-tv">HB-tv_2336_p1</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154036.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154036/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2336_p1</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb156929">
                <persName>
+                  <forename>Julie</forename>
                   <surname>Laska</surname>
                </persName>
-               <occupation>Schauspielerin</occupation>
-               <idno type="HB-tv">HB-tv_389_p5</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156929.html</idno>
+               <persName type="legacy-name-merge">Laska</persName>
+               <birth>
+                  <date when-iso="1860-06-13">13.06.1860</date>
+                  <settlement key="39615">
+                     <placeName type="pref">Bratislava</placeName>
+                     <location>
+                        <geo>48,14816 17,10674</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when-iso="1917-05-17">17.05.1917</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17336</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20132/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156929/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_389_p5</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q20752161</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
             <person xml:id="pmb156930">
                <persName>
-                  <surname>Godai</surname>
                   <forename>Richard</forename>
+                  <surname>Godai</surname>
                </persName>
+               <persName type="legacy-name-merge">Godai, Richard</persName>
+               <persName type="legacy-name-merge">Godai, Richard</persName>
+               <persName type="legacy-name-merge">Godai, Richard</persName>
+               <persName type="legacy-name-merge">Godai, Richard</persName>
                <birth>
-                  <date when="1864">1864</date>
+                  <date notBefore-iso="1864-01-01"
+                        when-iso="1864-07-01"
+                        notAfter-iso="1864-12-31">1864</date>
                </birth>
-               <idno type="HB-tv">HB-tv_389_p6</idno>
-               <idno type="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156930.html</idno>
+               <sex value="not-set"/>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154052/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2233_p2</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154397/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2323_p6</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154480/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2319_p2</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154545/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2313_p2</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156930/</idno>
+               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_389_p6</idno>
+               <listBibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>
