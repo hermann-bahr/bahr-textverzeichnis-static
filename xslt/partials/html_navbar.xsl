@@ -55,6 +55,9 @@
                             <a class="nav-link" href="tocs.html">Periodika</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="listperson.html">Personenindex</a>
+                        </li>
+                        <li class="nav-item">
                             <a title="Suche" class="nav-link" href="search.html"><svg
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor"

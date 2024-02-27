@@ -26,6 +26,9 @@
                                 <h1>
                                     <xsl:value-of select="$doc_title"/>
                                 </h1>
+                                <p>Dieser Index wurde nie fertiggestellt. Es wurden auch nicht alle Texte indiziert,
+                                sondern das Vorhaben bestand darin, zumindest eine Fassung eines Textes zu erfassen.</p>
+                                
                             </div>
                             <div class="w-100 text-center">
                                 <div class="spinner-grow table-loader" role="status">
