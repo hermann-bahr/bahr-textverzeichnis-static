@@ -26,8 +26,9 @@
                                 <h1>
                                     <xsl:value-of select="$doc_title"/>
                                 </h1>
-                                <p>Dieser Index wurde nie fertiggestellt. Es wurden auch nicht alle Texte indiziert,
-                                sondern das Vorhaben bestand darin, zumindest eine Fassung eines Textes zu erfassen.</p>
+                                <p>Dieser Index umfasst nur Teile des Textverzeichnisses. Nicht alle Texte wurden indiziert,
+                                    sondern von jedem Text nur jeweils eine Fassung. Trotzdem dürfte damit weitgehend das
+                                Gesamtwerk abgedeckt sein, da Bahr seine Text selten umarbeitete.</p>
                                 
                             </div>
                             <div class="w-100 text-center">
