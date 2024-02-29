@@ -27,7 +27,8 @@
                                 <h1><xsl:value-of select="$doc_title"/></h1>
                             </div>
                             <div class="card-body">
-                                <xsl:for-each select=".//div">
+                                <xsl:text>SEX</xsl:text>
+                                <xsl:for-each select=".//root">
                                     <xsl:copy>
                                         <xsl:copy-of select="."/>
                                     </xsl:copy>
