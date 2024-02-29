@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:mam="whatever" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0"
+    exclude-result-prefixes="xsl tei xs">
+    <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes"
+        omit-xml-declaration="yes"/>
+    <xsl:import href="./partials/html_navbar.xsl"/>
+    <xsl:import href="./partials/html_head.xsl"/>
+    <xsl:import href="partials/html_footer.xsl"/>
+    <xsl:import href="partials/shared.xsl"/>
+    <!--<xsl:import href="partials/tei-facsimile.xsl"/>-->
+    <xsl:template match="/">
+        <xsl:variable name="doc_title">
+            <xsl:value-of select="descendant::tei:titleStmt/tei:title[@level = 'a'][1]/text()"/>
+        </xsl:variable>
+        <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
+        <html lang="de" style="hyphens: auto;" xml:lang="de">
+            <xsl:call-template name="html_head">
+                <xsl:with-param name="html_title" select="$doc_title"/>
+            </xsl:call-template>
+            <body class="page">
+                <div class="hfeed site" id="page">
+                    <xsl:call-template name="nav_bar"/>
+                    <div class="container-fluid">
+                        <div class="card">
+                            <div class="card-header">
+                                <h2 align="center">Tagebücher, Skizzenbücher, Notizhefte. Personen-
+                                    und Werkverzeichnis</h2>
+                            </div>
+                            <div class="card-body-index">
+                                <ul>
+                                    <li>
+                                        <span class="fett"><strong>I</strong> 1885—1890. Bearbeitet
+                                            von Lottelis Moser und Helene Zand, 1994.</span>
+                                    </li>
+                                    <li>
+                                        <span class="fett"><strong>II</strong> 1890–1900. Bearbeitet
+                                            von Helene Zand, Lukas Mayerhofer und Lottelis Moser,
+                                            1996.</span>
+                                    </li>
+                                    <li>
+                                        <span class="fett"><strong>III</strong> 1901–1903.
+                                            Bearbeitet von Helene Zand und Lukas Mayerhofer,
+                                            1997.</span>
+                                    </li>
+                                    <li>
+                                        <span class="fett"><strong>IV</strong> 1904–1905. Bearbeitet
+                                            von Lukas Mayerhofer und Helene Zand, 2000.</span>
+                                    </li>
+                                    <li>
+                                        <span class="fett"><strong>V</strong> 1906–1908. Bearbeitet
+                                            von Kurt Ifkovits und Lukas Mayerhofer, 2003.</span>
+                                    </li>
+                                </ul>
+                                <p>Das vorliegende Verzeichnis bringt ein Generalregister der fünf
+                                    erschienenen Bände. Personennamen, Werktitel und Lebensdaten
+                                    wurden mit den Einträgen der <a
+                                        href="https://pmb.acdh.oeaw.ac.at/">PMB – Personen der
+                                        Moderne Basis</a> abgeglichen, so dass es zu Abweichungen zu
+                                    den Formen der gedruckten Indices kommen kann.</p>
+                                <ul>
+                                    <xsl:apply-templates
+                                        select="descendant::tei:body/tei:listPerson/tei:person">
+                                        <xsl:sort lang="de" select="tei:persName[1]/tei:surname[1]"
+                                        />
+                                    </xsl:apply-templates>
+                                </ul>
+                            </div>
+                            <xsl:if test="descendant::tei:note[@type = 'footnote']">
+                                <div class="card-body-index">
+                                    <p/>
+                                    <h3>Fussnoten</h3>
+                                    <xsl:element name="ol">
+                                        <xsl:attribute name="class">
+                                            <xsl:text>list-for-footnotes-meta</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:apply-templates
+                                            select="descendant::tei:note[@type = 'footnote']"
+                                            mode="footnote"/>
+                                    </xsl:element>
+                                </div>
+                            </xsl:if>
+                        </div>
+                    </div>
+                    <xsl:call-template name="html_footer"/>
+                </div>
+            </body>
+        </html>
+    </xsl:template>
+    <xsl:template match="tei:body">
+        <xsl:if test="descendant::tei:div[starts-with(@type, 'level')]">
+            <xsl:element name="nav">
+                <xsl:attribute name="style">
+                    <xsl:text>z-index: 0;</xsl:text>
+                    <xsl:text>margin: 3em;</xsl:text>
+                </xsl:attribute>
+                <xsl:attribute name="id">
+                    <xsl:text>page-toc</xsl:text>
+                </xsl:attribute>
+                <xsl:attribute name="class">
+                    <xsl:text>navbar navbar-light</xsl:text>
+                </xsl:attribute>
+                <div class="container">
+                    <a class="navbar-brand" href="#">Inhaltsverzeichnis</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#verticalNavbar" aria-controls="verticalNavbar"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"/>
+                    </button>
+                    <div class="collapse navbar-collapse" id="verticalNavbar">
+                        <!-- Wenn es divs mit level gibt, Inhaltsverzeichnis am Anfang der Seite -->
+                        <xsl:element name="ul">
+                            <xsl:attribute name="class">
+                                <xsl:text>navbar-nav</xsl:text>
+                            </xsl:attribute>
+                            <xsl:apply-templates select="child::tei:div[@type = 'level1']"
+                                mode="nav"/>
+                        </xsl:element>
+                    </div>
+                </div>
+            </xsl:element>
+        </xsl:if>
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="tei:div[@type = 'level1']" mode="nav">
+        <xsl:apply-templates select="child::tei:head" mode="nav"/>
+        <xsl:if test="child::tei:div">
+            <xsl:element name="li">
+                <xsl:attribute name="class">
+                    <xsl:text>nav-item</xsl:text>
+                </xsl:attribute>
+                <xsl:apply-templates select="child::tei:div" mode="nav"/>
+            </xsl:element>
+        </xsl:if>
+    </xsl:template>
+    <xsl:template match="tei:div[not(@type = 'level1')]" mode="nav">
+        <xsl:element name="ul">
+            <xsl:attribute name="class">
+                <xsl:text>navbar-nav</xsl:text>
+            </xsl:attribute>
+            <xsl:apply-templates select="child::tei:head" mode="nav"/>
+            <xsl:if test="child::tei:div">
+                <xsl:element name="li">
+                    <xsl:attribute name="class">
+                        <xsl:text>nav-item</xsl:text>
+                    </xsl:attribute>
+                    <xsl:apply-templates select="child::tei:div" mode="nav"/>
+                </xsl:element>
+            </xsl:if>
+        </xsl:element>
+    </xsl:template>
+    <!-- Match the head element -->
+    <xsl:template match="tei:head" mode="nav">
+        <xsl:variable name="linktarget" select="concat('#', @xml:id)"/>
+        <li>
+            <xsl:attribute name="class">
+                <xsl:text>nav-item</xsl:text>
+            </xsl:attribute>
+            <a href="{$linktarget}">
+                <xsl:value-of select="normalize-space(.)"/>
+            </a>
+        </li>
+    </xsl:template>
+    <xsl:template match="tei:p[@rend = 'center']">
+        <p align="center">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    <xsl:template match="tei:p">
+        <p id="{generate-id()}">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    <xsl:template match="tei:div">
+        <div id="{generate-id()}">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    <xsl:template match="tei:lb">
+        <br/>
+    </xsl:template>
+    <xsl:template match="tei:unclear">
+        <xsl:element name="span">
+            <xsl:attribute name="class">
+                <xsl:text>unclear</xsl:text>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:del">
+        <del>
+            <xsl:apply-templates/>
+        </del>
+    </xsl:template>
+    <xsl:template match="tei:table">
+        <xsl:element name="table">
+            <xsl:if test="@xml:id">
+                <xsl:attribute name="id">
+                    <xsl:value-of select="data(@xml:id)"/>
+                </xsl:attribute>
+            </xsl:if>
+            <xsl:attribute name="class">
+                <xsl:text>table</xsl:text>
+            </xsl:attribute>
+            <xsl:element name="tbody">
+                <xsl:apply-templates/>
+            </xsl:element>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:row">
+        <xsl:element name="tr">
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:cell">
+        <xsl:element name="td">
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:head[not(@type = 'sub')]">
+        <h2>
+            <xsl:if test="@xml:id">
+                <xsl:attribute name="id">
+                    <xsl:value-of select="@xml:id"/>
+                </xsl:attribute>
+            </xsl:if>
+            <xsl:apply-templates/>
+        </h2>
+    </xsl:template>
+    <xsl:template match="tei:head[(@type = 'sub')]">
+        <h3>
+            <xsl:if test="@xml:id">
+                <xsl:attribute name="id">
+                    <xsl:value-of select="@xml:id"/>
+                </xsl:attribute>
+            </xsl:if>
+            <xsl:apply-templates/>
+        </h3>
+    </xsl:template>
+    <xsl:template match="tei:note[@type = 'footnote']">
+        <!--<xsl:if test="preceding-sibling::*[1][self::tei:note and @type = 'footnote']">
+            <!-\- Sonderregel für zwei Fußnoten in Folge -\->
+            <sup>
+                <xsl:text>,</xsl:text>
+            </sup>
+        </xsl:if>-->
+        <xsl:variable name="fussnotennummer">
+            <xsl:number level="any" count="tei:note[@type = 'footnote']" format="1"/>
+        </xsl:variable>
+        <xsl:element name="a">
+            <xsl:attribute name="class">
+                <xsl:text>reference-black</xsl:text>
+            </xsl:attribute>
+            <xsl:attribute name="href">
+                <xsl:value-of select="concat('#footnote', $fussnotennummer)"/>
+            </xsl:attribute>
+            <sup>
+                <xsl:attribute name="id">
+                    <xsl:value-of select="concat('fussnote-im-text', $fussnotennummer)"/>
+                </xsl:attribute>
+                <xsl:value-of select="$fussnotennummer"/>
+            </sup>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:note[@type = 'footnote']" mode="footnote">
+        <xsl:variable name="fussnotennummer" as="xs:integer">
+            <xsl:number level="any" count="tei:note[@type = 'footnote']" format="1"/>
+        </xsl:variable>
+        <xsl:element name="li">
+            <xsl:attribute name="id">
+                <xsl:value-of select="concat('footnote', $fussnotennummer)"/>
+            </xsl:attribute>
+            <xsl:attribute name="class">
+                <xsl:text>footnote</xsl:text>
+            </xsl:attribute>
+            <sup>
+                <xsl:element name="a">
+                    <xsl:attribute name="href">
+                        <xsl:value-of select="concat('#fussnote-im-text', $fussnotennummer)"/>
+                    </xsl:attribute>
+                    <xsl:value-of select="$fussnotennummer"/>
+                </xsl:element>
+            </sup>
+            <xsl:text> </xsl:text>
+            <xsl:apply-templates mode="footnote"/>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:p" mode="footnote">
+        <xsl:choose>
+            <xsl:when test="not(preceding-sibling::*[1][self::tei:p])">
+                <xsl:apply-templates mode="footnote"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <p>
+                    <xsl:apply-templates mode="footnote"/>
+                </p>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="tei:bibl" mode="footnote">
+        <xsl:value-of select="."/>
+    </xsl:template>
+    <xsl:template match="tei:ref">
+        <xsl:element name="a">
+            <xsl:attribute name="href">
+                <xsl:value-of select="@target"/>
+            </xsl:attribute>
+            <xsl:value-of select="."/>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="tei:rs[@type = 'work']/text()">
+        <i>
+            <xsl:value-of select="."/>
+        </i>
+    </xsl:template>
+    <xsl:template match="tei:supplied">
+        <xsl:text>[</xsl:text>
+        <xsl:value-of select="."/>
+        <xsl:text>]</xsl:text>
+    </xsl:template>
+    <xsl:template match="tei:ptr">
+        <xsl:variable name="targett">
+            <xsl:choose>
+                <xsl:when
+                    test="starts-with(@target, 'D041') or starts-with(@target, 'L041') or starts-with(@target, 'T03') or starts-with(@target, 'I041')">
+                    <xsl:value-of select="concat(@target, '.html')"/>
+                </xsl:when>
+                <xsl:when test="starts-with(@target, 'LD')">
+                    <xsl:variable name="dateiname"
+                        select="substring-before(substring(@target, 3), '-')"/>
+                    <xsl:value-of select="concat('D041', $dateiname, '.html/#', @target)"/>
+                </xsl:when>
+                <xsl:when test="starts-with(@target, 'LL')">
+                    <xsl:variable name="dateiname"
+                        select="substring-before(substring(@target, 3), '-')"/>
+                    <xsl:value-of select="concat('L041', $dateiname, '.html/#', @target)"/>
+                </xsl:when>
+                <xsl:when test="starts-with(@target, 'LI')">
+                    <xsl:variable name="dateiname"
+                        select="substring-before(substring(@target, 3), '-')"/>
+                    <xsl:value-of select="concat('I041', $dateiname, '.html/#', @target)"/>
+                </xsl:when>
+                <xsl:when test="starts-with(@target, 'LT')">
+                    <xsl:variable name="dateiname"
+                        select="substring-before(substring(@target, 3), '-')"/>
+                    <xsl:value-of select="concat('T003', $dateiname, '.html/#', @target)"/>
+                </xsl:when>
+                <xsl:when test="starts-with(@target, 'KD')">
+                    <xsl:variable name="dateiname"
+                        select="substring-before(substring(@target, 3), '-')"/>
+                    <xsl:value-of select="concat('D041', $dateiname, '.html/#bottom')"/>
+                </xsl:when>
+                <xsl:when test="starts-with(@target, 'KK')">
+                    <xsl:variable name="dateiname"
+                        select="substring-before(substring(@target, 3), '-')"/>
+                    <xsl:value-of select="concat('L041', $dateiname, '.html/#bottom')"/>
+                </xsl:when>
+                <xsl:when test="starts-with(@target, 'KI')">
+                    <xsl:variable name="dateiname"
+                        select="substring-before(substring(@target, 3), '-')"/>
+                    <xsl:value-of select="concat('I041', $dateiname, '.html/#bottom')"/>
+                </xsl:when>
+                <xsl:when test="starts-with(@target, 'KT')">
+                    <xsl:variable name="dateiname"
+                        select="substring-before(substring(@target, 3), '-')"/>
+                    <xsl:value-of select="concat('T003', $dateiname, '.html/#bottom')"/>
+                </xsl:when>
+            </xsl:choose>
+        </xsl:variable>
+        <a href="{$targett}" class="fas fa-link"/>
+    </xsl:template>
+    <xsl:template match="tei:list[@type = 'simple-gloss']">
+        <ul class="list list_simple-gloss">
+            <xsl:variable name="listinhalt" select="." as="node()"/>
+            <xsl:for-each select="child::tei:label">
+                <xsl:variable name="postion" select="position()"/>
+                <li>
+                    <span class="tei_label">
+                        <xsl:apply-templates/>
+                    </span>
+                    <span class="item">
+                        <xsl:apply-templates select="$listinhalt/tei:item[$postion]"/>
+                    </span>
+                </li>
+            </xsl:for-each>
+        </ul>
+    </xsl:template>
+    <xsl:template match="tei:label[parent::tei:list[@type = 'simple-gloss']]">
+        <li>
+            <span class="list_simple-gloss">
+                <xsl:apply-templates/>
+            </span>
+        </li>
+    </xsl:template>
+    <xsl:template match="tei:item[parent::tei:list[@type = 'simple-gloss']]">
+        <li>
+            <span class="list_simple-gloss">
+                <xsl:apply-templates/>
+            </span>
+        </li>
+    </xsl:template>
+    <xsl:template match="tei:list[not(child::tei:item[tei:term and tei:note])]">
+        <ul>
+            <xsl:apply-templates/>
+        </ul>
+    </xsl:template>
+    <xsl:template match="tei:note[parent::tei:item/tei:term]">
+        <dd>
+            <xsl:apply-templates/>
+        </dd>
+    </xsl:template>
+    <xsl:template match="tei:term[parent::tei:item/tei:note]">
+        <dt>
+            <xsl:apply-templates/>
+        </dt>
+    </xsl:template>
+    <xsl:template match="tei:list[(child::tei:item[tei:term and tei:note])]">
+        <dl>
+            <xsl:apply-templates/>
+        </dl>
+    </xsl:template>
+    <xsl:template match="tei:item">
+        <li>
+            <xsl:apply-templates/>
+        </li>
+    </xsl:template>
+    <!-- LISTPLACE -->
+    <xsl:template match="tei:listPlace">
+        <ul>
+            <xsl:apply-templates select="tei:place" mode="listPlace"/>
+        </ul>
+    </xsl:template>
+    <xsl:template match="tei:place" mode="listPlace">
+        <li>
+            <xsl:apply-templates select="tei:placeName" mode="listTitle"/>
+            <table>
+                <xsl:apply-templates select="tei:*[not(self::tei:placeName)]" mode="tabelle"/>
+            </table>
+        </li>
+    </xsl:template>
+    <xsl:template match="tei:placeName | tei:orgName | tei:persName | tei:title" mode="listTitle">
+        <b>
+            <xsl:apply-templates/>
+        </b>
+        <br/>
+    </xsl:template>
+    <!-- LISTORG -->
+    <xsl:template match="tei:listOrg">
+        <ul>
+            <xsl:apply-templates mode="listOrg"/>
+        </ul>
+    </xsl:template>
+    <xsl:template match="tei:org" mode="listOrg">
+        <li>
+            <xsl:apply-templates select="tei:orgName" mode="listTitle"/>
+            <table>
+                <xsl:apply-templates select="tei:*[not(self::tei:orgName)]" mode="tabelle"/>
+            </table>
+        </li>
+    </xsl:template>
+    <xsl:template match="tei:org/tei:place" mode="tabelle">
+        <tr>
+            <th>Ort</th>
+            <td>
+                <xsl:apply-templates select="tei:placeName" mode="tabelle"/>
+            </td>
+        </tr>
+        <tr>
+            <th/>
+            <td>
+                <xsl:apply-templates select="tei:location" mode="tabelle"/>
+            </td>
+        </tr>
+    </xsl:template>
+    <!-- LISTPERS -->
+    <xsl:template match="tei:listPerson">
+        <ul>
+            <xsl:apply-templates mode="listPerson"/>
+        </ul>
+    </xsl:template>
+    <xsl:template match="tei:person" mode="listPerson">
+        <li>
+            <xsl:apply-templates select="tei:persName" mode="listTitle"/>
+            <table>
+                <xsl:choose>
+                    <xsl:when test="tei:birth and tei:death">
+                        <tr>
+                            <xsl:choose>
+                                <xsl:when test="tei:birth = tei:death">
+                                    <th>Vorkommen</th>
+                                    <td>
+                                        <xsl:value-of select="tei:birth"/>
+                                    </td>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <th>Lebensdaten</th>
+                                    <td>
+                                        <xsl:value-of select="concat(tei:birth, '–', tei:death)"/>
+                                    </td>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </tr>
+                    </xsl:when>
+                    <xsl:when test="tei:birth">
+                        <tr>
+                            <th>Geburt</th>
+                            <td>
+                                <xsl:value-of select="tei:birth"/>
+                            </td>
+                        </tr>
+                    </xsl:when>
+                    <xsl:when test="tei:death">
+                        <tr>
+                            <th>Tod</th>
+                            <td>
+                                <xsl:value-of select="tei:death"/>
+                            </td>
+                        </tr>
+                    </xsl:when>
+                </xsl:choose>
+                <xsl:apply-templates
+                    select="tei:*[not(self::tei:persName or self::tei:birth or self::tei:death)]"
+                    mode="tabelle"/>
+            </table>
+        </li>
+    </xsl:template>
+    <xsl:template match="tei:occupation" mode="tabelle">
+        <tr>
+            <th>Beruf</th>
+            <td>
+                <xsl:value-of select="."/>
+            </td>
+        </tr>
+    </xsl:template>
+    <!-- LISTWORK -->
+    <xsl:template match="tei:listBibl">
+        <ul>
+            <xsl:apply-templates mode="list"/>
+        </ul>
+    </xsl:template>
+    <xsl:template match="tei:bibl" mode="list">
+        <li>
+            <xsl:apply-templates select="tei:title" mode="listTitle"/>
+        </li>
+        <table>
+            <xsl:apply-templates select="tei:*[not(self::tei:title)]" mode="tabelle"/>
+        </table>
+    </xsl:template>
+    <xsl:template match="tei:author" mode="tabelle">
+        <tr>
+            <th>Von</th>
+            <td>
+                <xsl:value-of select="." separator=", "/>
+            </td>
+        </tr>
+    </xsl:template>
+    <xsl:template match="tei:profileDesc">
+        <xsl:if test="descendant::tei:correspDesc[10]">
+            <xsl:apply-templates select="tei:correspDesc"/>
+        </xsl:if>
+    </xsl:template>
+    <xsl:template match="tei:correspDesc">
+        <li style="margin: 2em 0;">
+            <xsl:element name="a">
+                <xsl:attribute name="href">
+                    <xsl:value-of select="@ref"/>
+                </xsl:attribute>
+                <xsl:value-of select="@ref"/>
+            </xsl:element>
+            <br/>
+            <xsl:for-each select="tei:correspAction">
+                <table>
+                    <tr>
+                        <th style="padding-left: 0;">
+                            <xsl:choose>
+                                <xsl:when test="@type = 'sent'">
+                                    <xsl:text>Sendung</xsl:text>
+                                </xsl:when>
+                                <xsl:when test="@type = 'received'">
+                                    <xsl:text>Empfang</xsl:text>
+                                </xsl:when>
+                                <xsl:when test="@type = 'forwarded'">
+                                    <xsl:text>Weiterleitung</xsl:text>
+                                </xsl:when>
+                                <xsl:when test="@type = 'redirected'">
+                                    <xsl:text>Umleitung</xsl:text>
+                                </xsl:when>
+                                <xsl:when test="@type = 'transmitted'">
+                                    <xsl:text>Aufgabe</xsl:text>
+                                </xsl:when>
+                            </xsl:choose>
+                        </th>
+                    </tr>
+                    <xsl:apply-templates select="tei:date | tei:persName | tei:placeName"
+                        mode="cmif"/>
+                </table>
+            </xsl:for-each>
+        </li>
+    </xsl:template>
+    <xsl:template mode="cmif" match="tei:date">
+        <tr>
+            <td>Datum:</td>
+            <td>
+                <xsl:value-of select="normalize-space(.)"/>
+            </td>
+        </tr>
+    </xsl:template>
+    <xsl:template mode="cmif" match="tei:persName">
+        <tr>
+            <td>Akteur:</td>
+            <td>
+                <xsl:choose>
+                    <xsl:when test="@ref">
+                        <xsl:element name="a">
+                            <xsl:attribute name="href">
+                                <xsl:value-of select="@ref"/>
+                            </xsl:attribute>
+                            <xsl:value-of select="normalize-space(.)"/>
+                        </xsl:element>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="normalize-space(.)"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </td>
+        </tr>
+    </xsl:template>
+    <xsl:template mode="cmif" match="tei:placeName">
+        <tr>
+            <td>Ort:</td>
+            <td>
+                <xsl:choose>
+                    <xsl:when test="@ref">
+                        <xsl:element name="a">
+                            <xsl:attribute name="href">
+                                <xsl:value-of select="@ref"/>
+                            </xsl:attribute>
+                            <xsl:value-of select="normalize-space(.)"/>
+                        </xsl:element>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="normalize-space(.)"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </td>
+        </tr>
+    </xsl:template>
+    <!-- TABELLENZEILEN -->
+    <xsl:template match="tei:desc" mode="tabelle">
+        <xsl:apply-templates select="tei:*" mode="tabelle"/>
+    </xsl:template>
+    <xsl:template match="tei:gloss" mode="tabelle">
+        <th>Typ</th>
+        <td>
+            <xsl:value-of select="."/>
+        </td>
+    </xsl:template>
+    <xsl:template match="tei:date" mode="tabelle">
+        <xsl:variable name="datum-von">
+            <xsl:choose>
+                <xsl:when test="contains(@from-custom, '|')">
+                    <xsl:value-of select="substring-before(@from-custom, '|')"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="@from-custom"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <xsl:variable name="datum-bis">
+            <xsl:choose>
+                <xsl:when test="contains(@to-custom, '|')">
+                    <xsl:value-of select="substring-before(@to-custom, '|')"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="@to-custom"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <tr>
+            <xsl:choose>
+                <xsl:when test="(@from-custom and @to-custom) and not(@from-custom = @to-custom)">
+                    <th>Zeit</th>
+                    <td>
+                        <xsl:value-of select="$datum-von"/>
+                        <xsl:text>–</xsl:text>
+                        <xsl:value-of select="$datum-bis"/>
+                    </td>
+                </xsl:when>
+                <xsl:when test="(@from-custom and not(@to-custom)) or (@from-custom = @to-custom)">
+                    <th>Datum</th>
+                    <td>
+                        <xsl:value-of select="$datum-von"/>
+                    </td>
+                </xsl:when>
+                <xsl:when test="@to-custom and not(@from-custom)">
+                    <th>Bis</th>
+                    <td>
+                        <xsl:value-of select="$datum-von"/>
+                    </td>
+                </xsl:when>
+            </xsl:choose>
+        </tr>
+    </xsl:template>
+    <xsl:template match="tei:location" mode="tabelle">
+        <xsl:variable name="lat" select="tokenize(tei:geo, ' ')[1]"/>
+        <xsl:variable name="long" select="tokenize(tei:geo, ' ')[2]"/>
+        <tr>
+            <th>Länge/Breite</th>
+            <td>
+                <xsl:element name="a">
+                    <xsl:attribute name="href">
+                        <xsl:value-of
+                            select="concat('https://www.openstreetmap.org/?mlat=', $lat, '&amp;mlon=', $long)"
+                        />
+                    </xsl:attribute>
+                    <xsl:value-of select="concat($lat, '/', $long)"/>
+                </xsl:element>
+            </td>
+        </tr>
+    </xsl:template>
+    <xsl:template match="tei:code">
+        <code>
+            <xsl:apply-templates/>
+        </code>
+    </xsl:template>
+    <xsl:param name="listwerk" select="document('../data/TSN/TSN-listwork.xml')"/>
+    <xsl:key name="werke-nachschlagen" match="tei:body/tei:listBibl/tei:bibl" use="tei:author/@ref"/>
+    <!-- Diese Datei, auf listPerson_TSN .xml angewandt,
+    macht das Drupal-HTML draus-->
+    <xsl:template match="tei:listPerson/tei:person">
+        <xsl:variable name="current" as="node()" select="."/>
+        <li>
+            <xsl:attribute name="id">
+                <xsl:value-of select="@xml:id"/>
+            </xsl:attribute>
+            <xsl:variable name="lemma-name" select="tei:persName[(position() = 1)]" as="node()"/>
+            <xsl:variable name="namensformen" as="node()">
+                <xsl:element name="listPerson">
+                    <xsl:for-each select="descendant::tei:persName[not(position() = 1)]">
+                        <xsl:copy-of select="."/>
+                    </xsl:for-each>
+                </xsl:element>
+            </xsl:variable>
+            <strong>
+                <xsl:choose>
+                    <xsl:when test="$lemma-name/tei:forename and $lemma-name/tei:surname">
+                        <xsl:value-of
+                            select="concat($lemma-name/tei:surname[1], ', ', $lemma-name/tei:forename[1])"
+                        />
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="$lemma-name/tei:forename"/>
+                        <xsl:value-of select="$lemma-name/tei:surname"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </strong>
+            <xsl:choose>
+                <xsl:when test="$namensformen/descendant::tei:persName[1]">
+                    <xsl:text>, </xsl:text>
+                    <xsl:for-each select="$namensformen/descendant::tei:persName">
+                        <xsl:choose>
+                            <xsl:when test="descendant::*">
+                                <xsl:text> </xsl:text>
+                                <!-- den Fall dürfte es eh nicht geben, aber löschen braucht man auch nicht -->
+                                <xsl:choose>
+                                    <xsl:when test="./tei:forename/text() and ./tei:surname/text()">
+                                        <xsl:value-of
+                                            select="concat(./tei:forename/text(), ' ', ./tei:surname/text())"
+                                        />
+                                    </xsl:when>
+                                    <xsl:when test="./tei:forename/text()">
+                                        <xsl:value-of select="./tei:forename/text()"/>
+                                    </xsl:when>
+                                    <xsl:when test="./tei:surname/text()">
+                                        <xsl:value-of select="./tei:surname/text()"/>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="."/>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:text> </xsl:text>
+                                <xsl:choose>
+                                    <xsl:when
+                                        test="@type = 'person_geburtsname_vorname' and $namensformen/descendant::tei:persName[@type = 'person_geburtsname_nachname']">
+                                        <xsl:text>geboren </xsl:text>
+                                        <xsl:value-of
+                                            select="concat(., ' ', $namensformen/descendant::tei:persName[@type = 'person_geburtsname_nachname'][1])"
+                                        />
+                                    </xsl:when>
+                                    <xsl:when
+                                        test="@type = 'person_geburtsname_nachname' and $namensformen/descendant::tei:persName[@type = 'person_geburtsname_vorname'][1]"/>
+                                    <xsl:when test="@type = 'person_geburtsname_nachname'">
+                                        <xsl:text>geboren </xsl:text>
+                                        <xsl:value-of select="."/>
+                                    </xsl:when>
+                                    <xsl:when test="@type = 'person_geburtsname_vorname'">
+                                        <xsl:text>geboren </xsl:text>
+                                        <xsl:value-of
+                                            select="concat(., ' ', $lemma-name//tei:surname)"/>
+                                    </xsl:when>
+                                    <xsl:when test="@type = 'person_adoptierter-nachname'">
+                                        <xsl:text>Nachname durch Adoption </xsl:text>
+                                        <xsl:value-of select="."/>
+                                    </xsl:when>
+                                    <xsl:when test="@type = 'person_variante-nachname_vorname'">
+                                        <xsl:text>Namensvariante </xsl:text>
+                                        <xsl:value-of select="."/>
+                                    </xsl:when>
+                                    <xsl:when test="@type = 'person_namensvariante'">
+                                        <xsl:text>Namensvariante </xsl:text>
+                                        <xsl:value-of select="."/>
+                                    </xsl:when>
+                                    <xsl:when test="@type = 'person_rufname'">
+                                        <xsl:text>Rufname </xsl:text>
+                                        <xsl:value-of select="."/>
+                                    </xsl:when>
+                                    <xsl:when test="@type = 'person_pseudonym'">
+                                        <xsl:text>Pseudonym </xsl:text>
+                                        <xsl:value-of select="."/>
+                                    </xsl:when>
+                                    <xsl:when test="@type = 'person_ehename'">
+                                        <xsl:text>Ehename </xsl:text>
+                                        <xsl:value-of select="."/>
+                                    </xsl:when>
+                                    <xsl:when test="@type = 'person_geschieden'">
+                                        <xsl:text>geschieden </xsl:text>
+                                        <xsl:value-of select="."/>
+                                    </xsl:when>
+                                    <xsl:when test="@type = 'person_verwitwet'">
+                                        <xsl:text>verwitwet </xsl:text>
+                                        <xsl:value-of select="."/>
+                                    </xsl:when>
+                                </xsl:choose>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:for-each>
+                </xsl:when>
+                <xsl:otherwise/>
+            </xsl:choose>
+            <xsl:text> </xsl:text>
+            <xsl:if test="$current/tei:birth or $current/tei:death">
+                <xsl:value-of select="concat('(', mam:lebensdaten($current[1]), ')')"/>
+            </xsl:if>
+            <xsl:if test="$current//tei:occupation">
+                <xsl:variable name="entity" select="$current"/>
+                <xsl:text>, </xsl:text>
+                <xsl:if test="$entity/descendant::tei:occupation">
+                    <em>
+                        <xsl:for-each select="$entity/descendant::tei:occupation">
+                            <xsl:variable name="beruf" as="xs:string">
+                                <xsl:choose>
+                                    <xsl:when test="contains(., '&gt;&gt;')">
+                                        <xsl:value-of select="tokenize(., '&gt;&gt;')[last()]"/>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="."/>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:variable>
+                            <xsl:choose>
+                                <xsl:when test="$entity/tei:sex/@value = 'male'">
+                                    <xsl:value-of select="tokenize($beruf, '/')[1]"/>
+                                </xsl:when>
+                                <xsl:when test="$entity/tei:sex/@value = 'female'">
+                                    <xsl:value-of select="tokenize($beruf, '/')[2]"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="$beruf"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                            <xsl:if test="not(position() = last())">
+                                <xsl:text>, </xsl:text>
+                            </xsl:if>
+                        </xsl:for-each>
+                    </em>
+                </xsl:if>
+            </xsl:if>
+            <xsl:if test="tei:note">
+                <xsl:text>, </xsl:text>
+                <em>
+                    <xsl:value-of select="tei:note"/>
+                </em>
+            </xsl:if>
+            <xsl:variable name="listBibl" select="tei:listBibl[not(tei:bibl/@type)]" as="node()?"/>
+            <xsl:if test="$listBibl/child::*[1]">
+                <ul>
+                    <xsl:for-each
+                        select="distinct-values(tei:listBibl[not(tei:bibl/@type)]/tei:bibl/tei:biblScope[@unit = 'volume'])">
+                        <xsl:sort select="."/>
+                        <xsl:variable name="volume" select="."/>
+                        <li>
+                            <strong><xsl:value-of select="mam:bandLatein($volume)"/></strong>,
+                                <xsl:for-each
+                                select="$listBibl/tei:bibl[tei:biblScope[@unit = 'volume'] = $volume]">
+                                <xsl:value-of select="tei:biblScope[@unit = 'page']"/>
+                                <xsl:if test="not(position() = last())">
+                                    <xsl:text>, </xsl:text>
+                                </xsl:if>
+                            </xsl:for-each>
+                        </li>
+                    </xsl:for-each>
+                </ul>
+            </xsl:if>
+            <xsl:variable name="autor-id" select="concat('#', @xml:id)"/>
+            <xsl:if test="key('werke-nachschlagen', $autor-id, $listwerk)[1]/child::*">
+                <ul>
+                    <xsl:for-each select="key('werke-nachschlagen', $autor-id, $listwerk)">
+                        <li>
+                            <xsl:attribute name="id">
+                                <xsl:value-of select="@xml:id"/>
+                            </xsl:attribute>
+                            <xsl:if test="tei:author[2]">
+                                <xsl:text>(mit </xsl:text>
+                                <xsl:for-each
+                                    select="tei:author[not(replace(@ref, '#', '') = replace($autor-id, '#', ''))]">
+                                    <span>
+                                        <xsl:value-of
+                                            select="concat(tei:persName/tei:forename, ' ', tei:persName/tei:surname)"
+                                        />
+                                    </span>
+                                    <xsl:if test="not(position() = last())">
+                                        <xsl:text>, </xsl:text>
+                                    </xsl:if>
+                                </xsl:for-each>
+                                <xsl:text>)</xsl:text>
+                            </xsl:if>
+                            <strong>
+                                <em>
+                                    <xsl:value-of select="tei:title"/>
+                                </em>
+                            </strong>
+                            <xsl:variable name="listBibl" select="tei:listBibl" as="node()?"/>
+                            <xsl:if test="$listBibl/child::*[1]">
+                                <ul>
+                                    <xsl:for-each
+                                        select="distinct-values(tei:listBibl[not(tei:bibl/@type)]/tei:bibl/tei:biblScope[@unit = 'volume'])">
+                                        <xsl:sort select="."/>
+                                        <xsl:variable name="volume" select="."/>
+                                        <li>
+                                            <strong><xsl:value-of select="mam:bandLatein($volume)"
+                                                /></strong>, <xsl:for-each
+                                                select="$listBibl/tei:bibl[tei:biblScope[@unit = 'volume'] = $volume]">
+                                                <xsl:value-of select="tei:biblScope[@unit = 'page']"/>
+                                                <xsl:if test="not(position() = last())">
+                                                  <xsl:text>, </xsl:text>
+                                                </xsl:if>
+                                            </xsl:for-each>
+                                        </li>
+                                    </xsl:for-each>
+                                </ul>
+                            </xsl:if>
+                        </li>
+                    </xsl:for-each>
+                </ul>
+            </xsl:if>
+        </li>
+    </xsl:template>
+    <xsl:function name="mam:lebensdaten">
+        <xsl:param name="entity" as="node()"/>
+        <xsl:variable name="geburtsort" as="xs:string?"
+            select="$entity/tei:birth[1]/tei:settlement[1]/tei:placeName[1]"/>
+        <xsl:variable name="geburtsdatum" as="xs:string?"
+            select="mam:normalize-date($entity/tei:birth[1]/tei:date[1]/text())[1]"/>
+        <xsl:variable name="todessort" as="xs:string?"
+            select="$entity/tei:death[1]/tei:settlement[1]/tei:placeName[1]"/>
+        <xsl:variable name="todesdatum" as="xs:string?"
+            select="mam:normalize-date($entity/tei:death[1]/tei:date[1]/text())[1]"/>
+        <xsl:variable name="geburtsstring" as="xs:string?">
+            <xsl:choose>
+                <xsl:when test="$geburtsort != ''">
+                    <xsl:value-of select="concat($geburtsdatum, ' ', $geburtsort)"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="$geburtsdatum"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <xsl:variable name="todesstring" as="xs:string?">
+            <xsl:choose>
+                <xsl:when test="$todessort != ''">
+                    <xsl:value-of select="concat($todesdatum, ' ', $todessort)"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="$todesdatum"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <xsl:choose>
+            <xsl:when
+                test="normalize-space($geburtsstring) != '' and normalize-space($todesstring) != ''">
+                <xsl:value-of select="concat($geburtsstring, ' – ', $todesstring)"/>
+            </xsl:when>
+            <xsl:when test="normalize-space($geburtsstring) != ''">
+                <xsl:value-of select="concat('* ', $geburtsstring)"/>
+            </xsl:when>
+            <xsl:when test="normalize-space($todesstring) != ''">
+                <xsl:value-of select="concat('† ', $todesstring)"/>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:function>
+    <xsl:function name="mam:normalize-date">
+        <xsl:param name="date-string-mit-spitze" as="xs:string?"/>
+        <xsl:variable name="date-string" as="xs:string">
+            <xsl:choose>
+                <xsl:when test="contains($date-string-mit-spitze, '&lt;')">
+                    <xsl:value-of select="substring-before($date-string-mit-spitze, '&lt;')"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="$date-string-mit-spitze"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <xsl:analyze-string select="$date-string" regex="^(\d{{4}})-(\d{{2}})-(\d{{2}})$">
+            <xsl:matching-substring>
+                <xsl:variable name="year" select="xs:integer(regex-group(1))"/>
+                <xsl:variable name="month">
+                    <xsl:choose>
+                        <xsl:when test="starts-with(regex-group(2), '0')">
+                            <xsl:value-of select="substring(regex-group(2), 2)"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="regex-group(2)"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:variable>
+                <xsl:variable name="day">
+                    <xsl:choose>
+                        <xsl:when test="starts-with(regex-group(3), '0')">
+                            <xsl:value-of select="substring(regex-group(3), 2)"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="regex-group(3)"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:variable>
+                <xsl:value-of select="concat($day, '. ', $month, '. ', $year)"/>
+            </xsl:matching-substring>
+            <xsl:non-matching-substring>
+                <xsl:analyze-string select="." regex="^(\d{{2}}).(\d{{2}}).(\d{{4}})$">
+                    <xsl:matching-substring>
+                        <xsl:variable name="year" select="xs:integer(regex-group(3))"/>
+                        <xsl:variable name="month">
+                            <xsl:choose>
+                                <xsl:when test="starts-with(regex-group(2), '0')">
+                                    <xsl:value-of select="substring(regex-group(2), 2)"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="regex-group(2)"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:variable>
+                        <xsl:variable name="day">
+                            <xsl:choose>
+                                <xsl:when test="starts-with(regex-group(1), '0')">
+                                    <xsl:value-of select="substring(regex-group(1), 2)"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="regex-group(1)"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:variable>
+                        <xsl:value-of select="concat($day, '. ', $month, '. ', $year)"/>
+                    </xsl:matching-substring>
+                    <xsl:non-matching-substring>
+                        <xsl:value-of select="."/>
+                    </xsl:non-matching-substring>
+                </xsl:analyze-string>
+            </xsl:non-matching-substring>
+        </xsl:analyze-string>
+    </xsl:function>
+    <xsl:function name="mam:bandLatein">
+        <xsl:param name="input" as="xs:string"/>
+        <xsl:choose>
+            <xsl:when test="$input = '1'">
+                <xsl:text>I</xsl:text>
+            </xsl:when>
+            <xsl:when test="$input = '2'">
+                <xsl:text>II</xsl:text>
+            </xsl:when>
+            <xsl:when test="$input = '3'">
+                <xsl:text>III</xsl:text>
+            </xsl:when>
+            <xsl:when test="$input = '4'">
+                <xsl:text>IV</xsl:text>
+            </xsl:when>
+            <xsl:when test="$input = '5'">
+                <xsl:text>V</xsl:text>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:function>
+</xsl:stylesheet>

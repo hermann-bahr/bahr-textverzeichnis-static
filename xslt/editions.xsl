@@ -665,13 +665,14 @@
                 <xsl:value-of select="$lemma-name/tei:forename"/>
                 <xsl:value-of select="$lemma-name/tei:surname"/>
             </xsl:otherwise>
-        </xsl:choose></b><xsl:text> </xsl:text>
+        </xsl:choose></b>
         <xsl:choose>
             <xsl:when test="$namensformen/descendant::tei:persName[1]">
                 <xsl:text>, </xsl:text>
                 <xsl:for-each select="$namensformen/descendant::tei:persName">
                     <xsl:choose>
                         <xsl:when test="descendant::*">
+                        <xsl:text> </xsl:text>
                             <!-- den Fall dürfte es eh nicht geben, aber löschen braucht man auch nicht -->
                             <xsl:choose>
                                 <xsl:when test="./tei:forename/text() and ./tei:surname/text()">
@@ -691,6 +692,7 @@
                             </xsl:choose>
                         </xsl:when>
                         <xsl:otherwise>
+                        <xsl:text> </xsl:text>
                             <xsl:choose>
                                 <xsl:when
                                     test="@type = 'person_geburtsname_vorname' and $namensformen/descendant::tei:persName[@type = 'person_geburtsname_nachname']">

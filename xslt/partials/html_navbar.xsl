@@ -35,6 +35,10 @@
                                         target="_blank">Projektwebsite</a>
                                 </li>
                                 <li class="nav-item dropdown-submenu">
+                                    <a class="nav-link" href="TSN-listperson.html"
+                                        >Personenindex Tagebücher, Skizzenbücher, Notizhefte</a>
+                                </li>
+                                <li class="nav-item dropdown-submenu">
                                     <a title="Schnitzler am ACDH-CH"
                                         href="https://schnitzler.acdh.oeaw.ac.at" class="nav-link"
                                         target="_blank">Schnitzler am ACDH-CH</a>
