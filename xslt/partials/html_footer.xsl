@@ -19,31 +19,6 @@
                         </div>
                     </div>
                     <!-- .footer-widget -->
-                    <div class="footer-widget col-lg-4 col-md-3 col-sm-3">
-                        <div class="textwidget custom-html-widget">
-                            <p> ACDH-CH <br/> Austrian Centre for Digital Humanities <br/> and
-                                Cultural Heritage <br/> Österreichische Akademie der Wissenschaften </p>
-                            <p> Bäckerstraße 13 <br/> 1010 Wien </p>
-                            <p> T: +43 1 51581-2200 <br/> E: <a
-                                href="mailto:acdh-ch-helpdesk@oeaw.ac.at
-                                "
-                                >acdh-ch-helpdesk(at)oeaw.ac.at</a>
-                            </p>
-                        </div>
-                    </div>
-                    <!-- .footer-widget -->      
-                    <!--<div class="footer-widget col-lg-4 col-md-3 col-sm-4">
-                        <div class="textwidget custom-html-widget">
-                            <h6 class="font-weight-bold">PROJEKTPARTNER</h6>
-                            <a href="https://www.wienbibliothek.at/" target="_blank">Wienbibliothek</a><br/>
-                            Rathaus
-                            <br/>
-                            Stiege 6, 1. Stock
-                            <br/>
-                            1082 Wien
-                        </div>
-                    </div>-->
-                    <!-- .footer-widget -->
                     <div class="footer-widget col-lg-4 col-md-4 col-sm-6 col-9">
                         <div class="textwidget custom-html-widget">
                             <p>
