@@ -58,14 +58,13 @@
                                     target="_blank">Druckfassung</a> erschien 2014 im Verlag VDG
                                 Weimar.</p>
                             <p/>
-                            <p class="mt-3">
-                                Diese Seite befindet sich im Aufbau, die fehlenden Funktionen
-                                    sind hier: <a
+                            <p class="mt-3">Die Seite wurde 2023/2024 neu aufgesetzt. Fehler und fehlende Funktionen
+                                    sind hier verzeichnet: <a
                                         href="https://github.com/hermann-bahr/bahr-textverzeichnis-static/issues"
-                                        target="_blank">gitHub</a> gelistet.
+                                        target="_blank">gitHub</a>. Anregungen und Kritik bitte an den Herausgeber.
                             </p>
                             <p class="mt-3" style="padding-bottom: 50px;">
-                                <i>Wien, November 2023</i>
+                                <i>Wien, 29. Februar 2024</i>
                             </p>
                             
                             
