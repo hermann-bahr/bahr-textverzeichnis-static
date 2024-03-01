@@ -245,7 +245,9 @@
                 </xsl:choose>
             </th>
             <td>
+                <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
                 <xsl:apply-templates select="child::tei:bibl[not(@type='obsolete')]"/>
+                </ul>
             </td>
         </tr>
     </xsl:template>
@@ -265,7 +267,7 @@
     <xsl:template match="tei:note/tei:bibl[not(@type='obsolete')]">
         <xsl:choose>
             <xsl:when test=".[normalize-space()]">
-                <p>
+                <li>
                     <xsl:choose>
                         <xsl:when test="child::tei:title[@level = 'a'] and child::tei:author">
                             <xsl:value-of select="tei:author" separator=", "/>
@@ -385,12 +387,12 @@
                         <xsl:text>)</xsl:text>
                     </xsl:if>
                     <xsl:apply-templates select="child::tei:note"/>
-                </p>
+                </li>
             </xsl:when>
             <xsl:otherwise>
-                <p>
+                <li>
                     <xsl:apply-templates mode="nochNichtFormatiert"/>
-                </p>
+                </li>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
@@ -470,12 +472,20 @@
             <tr>
                 <th>Verfasser:in</th>
                 <td>
-                    <xsl:for-each select="tei:author">
-                        <xsl:value-of select="."/>
-                        <xsl:if test="not(position() = last())">
-                            <br/>
-                        </xsl:if>
-                    </xsl:for-each>
+                    <xsl:choose>
+                        <xsl:when test="tei:author[2]">
+                            <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
+                                <xsl:for-each select="tei:author">
+                                    <li>
+                                    <xsl:value-of select="."/>
+                                    </li>
+                                </xsl:for-each>
+                            </ul>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="tei:author"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </td>
             </tr>
         </xsl:if>
@@ -504,12 +514,20 @@
             <tr>
                 <th>Gesamtverfasser:in</th>
                 <td>
-                    <xsl:for-each select="tei:author">
-                        <xsl:value-of select="."/>
-                        <xsl:if test="not(position() = last())">
-                            <br/>
-                        </xsl:if>
-                    </xsl:for-each>
+                    <xsl:choose>
+                        <xsl:when test="tei:author[2]">
+                            <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
+                                <xsl:for-each select="tei:author">
+                                    <li>
+                                        <xsl:value-of select="."/>
+                                    </li>
+                                </xsl:for-each>
+                            </ul>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="tei:author"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </td>
             </tr>
         </xsl:if>
@@ -517,12 +535,20 @@
             <tr>
                 <th>Verfasser:in</th>
                 <td>
-                    <xsl:for-each select="tei:author">
-                        <xsl:value-of select="."/>
-                        <xsl:if test="not(position() = last())">
-                            <br/>
-                        </xsl:if>
-                    </xsl:for-each>
+                    <xsl:choose>
+                        <xsl:when test="tei:author[2]">
+                            <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
+                                <xsl:for-each select="tei:author">
+                                    <li>
+                                        <xsl:value-of select="."/>
+                                    </li>
+                                </xsl:for-each>
+                            </ul>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="tei:author"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </td>
             </tr>
         </xsl:if>
@@ -569,12 +595,20 @@
             <tr>
                 <th>Gesamtherausgeber:in</th>
                 <td>
-                    <xsl:for-each select="tei:editor">
-                        <xsl:value-of select="."/>
-                        <xsl:if test="not(position() = last())">
-                            <br/>
-                        </xsl:if>
-                    </xsl:for-each>
+                    <xsl:choose>
+                        <xsl:when test="tei:editor[2]">
+                            <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
+                                <xsl:for-each select="tei:editor">
+                                    <li>
+                                        <xsl:value-of select="."/>
+                                    </li>
+                                </xsl:for-each>
+                            </ul>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="tei:editor"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </td>
             </tr>
         </xsl:if>
@@ -582,41 +616,36 @@
             <tr>
                 <th>Erschienen</th>
                 <td>
+                    <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
                     <xsl:if test="tei:imprint/tei:pubPlace">
-                        <xsl:value-of select="tei:imprint/tei:pubPlace" separator=", "/>
-                        <br/>
+                        <li><xsl:value-of select="tei:imprint/tei:pubPlace" separator=", "/></li>
                     </xsl:if>
                     <xsl:if test="tei:imprint/tei:publisher">
-                        <xsl:value-of select="tei:imprint/tei:publisher" separator=", "/>
-                        <br/>
+                        <li><xsl:value-of select="tei:imprint/tei:publisher" separator=", "/></li>
                     </xsl:if>
                     <xsl:if test="tei:imprint/tei:date">
-                        <xsl:value-of select="tei:imprint/tei:date"/>
-                        <br/>
+                        <li><xsl:value-of select="tei:imprint/tei:date"/></li>
                     </xsl:if>
                     <xsl:if test="tei:imprint/tei:biblScope[@unit = 'jg']">
-                        <xsl:value-of
-                            select="concat('Jahrgang ', tei:imprint/tei:biblScope[@unit = 'jg'])"/>
-                        <br/>
+                        <li><xsl:value-of
+                            select="concat('Jahrgang ', tei:imprint/tei:biblScope[@unit = 'jg'])"/></li>
                     </xsl:if>
                     <xsl:if test="tei:imprint/tei:biblScope[@unit = 'volume']">
-                        <xsl:value-of
-                            select="concat('Band ', tei:imprint/tei:biblScope[@unit = 'volume'])"/>
-                        <br/>
+                        <li><xsl:value-of
+                            select="concat('Band ', tei:imprint/tei:biblScope[@unit = 'volume'])"/></li>
                     </xsl:if>
                     <xsl:if test="tei:imprint/tei:biblScope[@unit = 'issue']">
-                        <xsl:value-of
-                            select="concat('Nummer ', tei:imprint/tei:biblScope[@unit = 'issue'])"/>
-                        <br/>
+                        <li><xsl:value-of
+                            select="concat('Nummer ', tei:imprint/tei:biblScope[@unit = 'issue'])"/></li>
                     </xsl:if>
                     <xsl:if test="tei:imprint/tei:biblScope[@unit = 'page']">
-                        <xsl:value-of
-                            select="concat('Seite ', tei:imprint/tei:biblScope[@unit = 'page'])"/>
-                        <br/>
+                        <li><xsl:value-of
+                            select="concat('Seite ', tei:imprint/tei:biblScope[@unit = 'page'])"/></li>
                     </xsl:if>
                     <xsl:if test="tei:imprint/tei:extent">
-                        <xsl:value-of select="tei:imprint/tei:extent"/>
+                        <li><xsl:value-of select="tei:imprint/tei:extent"/></li>
                     </xsl:if>
+                    </ul>
                 </td>
             </tr>
         </xsl:if>
@@ -626,12 +655,20 @@
             <tr>
                 <th>Reihenherausgeber:in</th>
                 <td>
-                    <xsl:for-each select="tei:editor">
-                        <xsl:value-of select="."/>
-                        <xsl:if test="not(position() = last())">
-                            <br/>
-                        </xsl:if>
-                    </xsl:for-each>
+                    <xsl:choose>
+                        <xsl:when test="tei:editor[2]">
+                            <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
+                                <xsl:for-each select="tei:editor">
+                                    <li>
+                                        <xsl:value-of select="."/>
+                                    </li>
+                                </xsl:for-each>
+                            </ul>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="tei:editor"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </td>
             </tr>
         </xsl:if>
@@ -657,15 +694,19 @@
                 </xsl:for-each>
             </xsl:element>
         </xsl:variable>
-        <b><xsl:choose>
+        <b><a>
+            <xsl:attribute name="href">
+                <xsl:value-of select="concat($current/@xml:id, '.html')"/>
+            </xsl:attribute>
+            <xsl:choose>
             <xsl:when test="$lemma-name/tei:forename and $lemma-name/tei:surname">
                 <xsl:value-of select="concat($lemma-name/tei:forename[1], ' ', $lemma-name/tei:surname[1])"/>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:value-of select="$lemma-name/tei:forename"/>
+                <xsl:value-of select="$lemma-name/tei:forename"/>   
                 <xsl:value-of select="$lemma-name/tei:surname"/>
             </xsl:otherwise>
-        </xsl:choose></b>
+        </xsl:choose></a></b>
         <xsl:choose>
             <xsl:when test="$namensformen/descendant::tei:persName[1]">
                 <xsl:text>, </xsl:text>
@@ -746,6 +787,9 @@
                             </xsl:choose>
                         </xsl:otherwise>
                     </xsl:choose>
+                    <xsl:if test="not(position()=last())">
+                        <xsl:text>, </xsl:text>
+                    </xsl:if>
                 </xsl:for-each>
             </xsl:when>
             <xsl:otherwise/>

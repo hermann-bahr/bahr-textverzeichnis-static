@@ -14,24 +14,15 @@
         <meta name="msapplication-TileColor" content="#ffffff"/>
         <meta name="msapplication-TileImage" content="{$project_logo}"/>
         <link rel="icon" type="image/svg+xml" href="{$project_logo}" sizes="any"/>
-        <link rel="shortcut icon" href="data/images/symbole/favicon.png"/>
-        <link rel="shortcut icon" href="../img/favicon/favicon.png"/>
-        <link rel="icon" href="./img/favicon/favicon.png"/>
-        <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png"/>
-        <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png"/>
-        <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png"/>
-        <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png"/>
-        <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png"/>
-        <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png"/>
-        <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png"/>
-        <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png"/>
-        <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png"/>
-        <link rel="icon" type="image/png" sizes="192x192"
-            href="./img/favicon/android-icon-192x192.png"/>
-        <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png"/>
-        <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png"/>
-        <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png"/>
-        <link rel="profile" href="http://gmpg.org/xfn/11"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png"/>
+        <link rel="manifest" href="/img/site.webmanifest"/>
+        <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5"/>
+        <link rel="shortcut icon" href="/img/favicon.ico"/>
+        <meta name="msapplication-TileColor" content="#da532c"/>
+        <meta name="msapplication-config" content="/img/browserconfig.xml"/>
+        <meta name="theme-color" content="#ffffff"/>
         <title>bahr-textverzeichnis</title>
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -58,9 +49,9 @@
             _paq.push([ 'trackPageView']);
             _paq.push([ 'enableLinkTracking']);
             (function () {
-            var u = "https://matomo.acdh.oeaw.ac.at/";
-            _paq.push([ 'setTrackerUrl', u + 'piwik.php']);
-            _paq.push([ 'setSiteId', '246']);<!--
+                var u = "https://matomo.acdh.oeaw.ac.at/";
+                _paq.push([ 'setTrackerUrl', u + 'piwik.php']);
+                _paq.push([ 'setSiteId', '246']);<!--
                 171 is Matomo Code schnitzler - briefe//-->
             var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
             g.type = 'text/javascript';
@@ -68,7 +59,7 @@
             g.defer = true;
             g.src = u + 'piwik.js';
             s.parentNode.insertBefore(g, s);
-            })();</script>
+        })();</script>
         <!-- End Matomo Code -->
     </xsl:template>
 </xsl:stylesheet>
