@@ -138,9 +138,10 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>
+    <xsl:template match="tei:note[not(@type='bibliographical-statement')]"/>
     <xsl:template match="tei:biblStruct">
         <xsl:element name="h2">
-            <xsl:value-of select="tei:note[@type = 'bibliographical-statement']"/>
+            <xsl:value-of select="tei:note[@type = 'bibliographical-statement'][1]"/>
         </xsl:element>
         <table class="table table-striped">
             <tbody>

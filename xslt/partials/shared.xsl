@@ -14,7 +14,7 @@
         <xsl:value-of select="concat(name($currentNode), '__', $nodeCurrNr)"/>
     </xsl:function>
     
-    <xsl:template match="tei:note">
+    <xsl:template match="tei:note[not(@type='bibliographical-statement')]">
         <xsl:element name="a">
             <xsl:attribute name="name">
                 <xsl:text>fna_</xsl:text>
