@@ -8,23 +8,15 @@
    <meta name="msapplication-TileColor" content="#ffffff" />
    <meta name="msapplication-TileImage" content="dist/fundament/images/fundament_logo.svg" />
    <link rel="icon" type="image/svg+xml" href="dist/fundament/images/fundament_logo.svg" sizes="any" />
-   <link rel="shortcut icon" href="data/images/symbole/favicon.png" />
-   <link rel="shortcut icon" href="../img/favicon/favicon.png" />
-   <link rel="icon" href="./img/favicon/favicon.png" />
-   <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png" />
-   <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png" />
-   <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png" />
-   <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png" />
-   <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png" />
-   <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png" />
-   <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png" />
-   <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png" />
-   <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png" />
-   <link rel="icon" type="image/png" sizes="192x192" href="./img/favicon/android-icon-192x192.png" />
-   <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png" />
-   <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png" />
-   <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png" />
-   <link rel="profile" href="http://gmpg.org/xfn/11" />
+   <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
+   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
+   <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png" />
+   <link rel="manifest" href="/img/site.webmanifest" />
+   <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5" />
+   <link rel="shortcut icon" href="/img/favicon.ico" />
+   <meta name="msapplication-TileColor" content="#da532c" />
+   <meta name="msapplication-config" content="/img/browserconfig.xml" />
+   <meta name="theme-color" content="#ffffff" />
    <title>bahr-textverzeichnis</title>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" />
@@ -35,16 +27,16 @@
             _paq.push([ 'trackPageView']);
             _paq.push([ 'enableLinkTracking']);
             (function () {
-            var u = "https://matomo.acdh.oeaw.ac.at/";
-            _paq.push([ 'setTrackerUrl', u + 'piwik.php']);
-            _paq.push([ 'setSiteId', '246']);
+                var u = "https://matomo.acdh.oeaw.ac.at/";
+                _paq.push([ 'setTrackerUrl', u + 'piwik.php']);
+                _paq.push([ 'setSiteId', '246']);
             var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
             g.type = 'text/javascript';
             g. async = true;
             g.defer = true;
             g.src = u + 'piwik.js';
             s.parentNode.insertBefore(g, s);
-            })();</script><body class="page">
+        })();</script><body class="page">
       <div class="hfeed site" id="page">
          <nav class="navbar navbar-expand-md" style="padding-top:1px;">
             <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="img/bahr-textverzeichnis.svg" class="img-fluid" title="Bahr: Textverzeichnis" alt="Bahr: Textverzeichnis" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border: none;"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse " id="navbarNav">
@@ -114,7 +106,14 @@
                            </tr>
                            <tr>
                               <th>Erschienen</th>
-                              <td>Frankfurt am Main<br />Literarische Anstalt Rütten &amp; Loening<br />1894<br />Seite 206–212<br /></td>
+                              <td>
+                                 <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
+                                    <li>Frankfurt am Main</li>
+                                    <li>Literarische Anstalt Rütten &amp; Loening</li>
+                                    <li>1894</li>
+                                    <li>Seite 206–212</li>
+                                 </ul>
+                              </td>
                            </tr>
                            <tr>
                               <th>Textanfang</th>
@@ -131,15 +130,17 @@
                            <tr>
                               <th>Weitere Drucke (Periodika)</th>
                               <td>
-                                 <p>Als »<span style="text-style:italic">Вопросы Искусства [Voprosy iskusstva]. II. Искуссмво и академиа.</span>« in: Мир иску́сства [Mir iskusstva], Jg. 2 (1899) #7–8, S. 72–74
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                     [Russisch] </p>
+                                 <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
+                                    <li>Als »<span style="text-style:italic">Вопросы Искусства [Voprosy iskusstva]. II. Искуссмво и академиа.</span>« in: Мир иску́сства [Mir iskusstva], Jg. 2 (1899) #7–8, S. 72–74
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                        [Russisch] </li>
+                                 </ul>
                               </td>
                            </tr>
                            <tr>
@@ -163,58 +164,58 @@
                <div class="card-footer">
                   <h3>Erwähnte Personen</h3>
                   <ul>
-                     <li><b>Heinrich von Angeli</b> (8. 7. 1840 Sopron – 21. 10. 1925 Wien), <i>Maler</i><div id="mentions">
+                     <li><b><a href="pmb5998.html">Heinrich von Angeli</a></b> (8. 7. 1840 Sopron – 21. 10. 1925 Wien), <i>Maler</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13204" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp54988" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Heinrich von Angeli" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x00280e49" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/5998/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/119067501" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Marie Bashkirtseff</b> (23. 11. 1860 Havrontsi – 31. 10. 1884 Paris), <i>Malerin</i><div id="mentions">
+                     <li><b><a href="pmb13797.html">Marie Bashkirtseff</a></b> (23. 11. 1860 Havrontsi – 31. 10. 1884 Paris), <i>Malerin</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13455" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13797.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp49689" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Marie Bashkirtseff" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/13797/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118653350" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Gyula Benczúr</b> (28. 1. 1844 Nyíregyháza – 16. 7. 1920 Benczúrfalva)
+                     <li><b><a href="pmb152145.html">Gyula Benczúr</a></b> (28. 1. 1844 Nyíregyháza – 16. 7. 1920 Benczúrfalva)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Gyula Bencz%C3%BAr" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152145/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/11611763X" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Paul Bourget</b> (2. 9. 1852 Amiens – 25. 12. 1935 Paris), <i>Schriftsteller</i><div id="mentions">
+                     <li><b><a href="pmb4026.html">Paul Bourget</a></b> (2. 9. 1852 Amiens – 25. 12. 1935 Paris), <i>Schriftsteller</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb4026.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13897" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4026.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb4026.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4026.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp39440" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Paul Bourget" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/4026/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118659561" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Franz Defregger</b> (30. 4. 1835 Stronach – 2. 1. 1921 München), <i>Maler, Künstler</i><div id="mentions">
+                     <li><b><a href="pmb113222.html">Franz Defregger</a></b> (30. 4. 1835 Stronach – 2. 1. 1921 München), <i>Maler, Künstler</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp40328" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Franz Defregger (Maler)" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x0028129e" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/113222/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118524283" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Alexandre père Dumas</b> (24. 7. 1802 Villers-Cotterêts – 5. 12. 1870 Puys), <i>Schriftsteller</i><div id="mentions">
+                     <li><b><a href="pmb11190.html">Alexandre père Dumas</a></b> (24. 7. 1802 Villers-Cotterêts – 5. 12. 1870 Puys), <i>Schriftsteller</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11190.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14547" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11190.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11190.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://de.wikipedia.org/wiki/Alexandre Dumas der %C3%84ltere" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/11190/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118528068" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Rodolphe Julian</b> (1840 – 1907)
+                     <li><b><a href="pmb156994.html">Rodolphe Julian</a></b> (1840 – 1907)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/156994/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Hans Makart</b> (28. 5. 1840 Salzburg – 3. 10. 1884 Wien), <i>Maler</i><div id="mentions">
+                     <li><b><a href="pmb12167.html">Hans Makart</a></b> (28. 5. 1840 Salzburg – 3. 10. 1884 Wien), <i>Maler</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17796" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12167.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp49544" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Hans Makart" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x002832c7" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12167/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118730347" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Gabriel Max</b> (23. 8. 1840 – 24. 11. 1915), <i>Maler, Anthropologe, Hochschullehrer</i><div id="mentions">
+                     <li><b><a href="pmb117415.html">Gabriel Max</a></b> (23. 8. 1840 – 24. 11. 1915), <i>Maler, Anthropologe, Hochschullehrer</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp44158" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Gabriel von Max" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x0028346a" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/117415/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118887262" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Mihály Munkácsy</b> (20. 2. 1844 – 1. 5. 1900), <i>Maler, Künstler</i><div id="mentions">
+                     <li><b><a href="pmb115444.html">Mihály Munkácsy</a></b> (20. 2. 1844 – 1. 5. 1900), <i>Maler, Künstler</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp50149" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Mih%C3%A1ly von Munk%C3%A1csy" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x002831e6" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/115444/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118735268" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Leopold Müller</b> (5. 9. 1848 Neuleiningen – 25. 5. 1912 Wien), <i>Theaterleiter, Sänger, Theatersekretär, Theateragent, Theaterdirektor</i><div id="mentions">
+                     <li><b><a href="pmb2353.html">Leopold Müller</a></b> (5. 9. 1848 Neuleiningen – 25. 5. 1912 Wien), <i>Theaterleiter, Sänger, Theatersekretär, Theateragent, Theaterdirektor</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2353.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18302" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2353.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp48826" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="http://www.wikidata.org/entity/Q73546767" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikidata</span></a> <a href="https://doi.org/10.1553/0x002831b1" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/2353/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/131918885" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Karl Piloty</b> (1. 10. 1826 München – 21. 7. 1886 Münsing)
+                     <li><b><a href="pmb148681.html">Karl Piloty</a></b> (1. 10. 1826 München – 21. 7. 1886 Münsing)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Carl Theodor von Piloty" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/148681/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118641662" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Émile Zola</b> (2. 4. 1840 Paris – 29. 9. 1902 Paris), <i>Schriftsteller, Journalist</i><div id="mentions">
+                     <li><b><a href="pmb13194.html">Émile Zola</a></b> (2. 4. 1840 Paris – 29. 9. 1902 Paris), <i>Schriftsteller, Journalist</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21578" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13194.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb13194.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp42655" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/%C3%89mile Zola" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/13194/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118637223" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>

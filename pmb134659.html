@@ -8,23 +8,15 @@
    <meta name="msapplication-TileColor" content="#ffffff" />
    <meta name="msapplication-TileImage" content="dist/fundament/images/fundament_logo.svg" />
    <link rel="icon" type="image/svg+xml" href="dist/fundament/images/fundament_logo.svg" sizes="any" />
-   <link rel="shortcut icon" href="data/images/symbole/favicon.png" />
-   <link rel="shortcut icon" href="../img/favicon/favicon.png" />
-   <link rel="icon" href="./img/favicon/favicon.png" />
-   <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png" />
-   <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png" />
-   <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png" />
-   <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png" />
-   <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png" />
-   <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png" />
-   <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png" />
-   <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png" />
-   <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png" />
-   <link rel="icon" type="image/png" sizes="192x192" href="./img/favicon/android-icon-192x192.png" />
-   <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png" />
-   <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png" />
-   <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png" />
-   <link rel="profile" href="http://gmpg.org/xfn/11" />
+   <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
+   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
+   <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png" />
+   <link rel="manifest" href="/img/site.webmanifest" />
+   <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5" />
+   <link rel="shortcut icon" href="/img/favicon.ico" />
+   <meta name="msapplication-TileColor" content="#da532c" />
+   <meta name="msapplication-config" content="/img/browserconfig.xml" />
+   <meta name="theme-color" content="#ffffff" />
    <title>bahr-textverzeichnis</title>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" />
@@ -35,16 +27,16 @@
             _paq.push([ 'trackPageView']);
             _paq.push([ 'enableLinkTracking']);
             (function () {
-            var u = "https://matomo.acdh.oeaw.ac.at/";
-            _paq.push([ 'setTrackerUrl', u + 'piwik.php']);
-            _paq.push([ 'setSiteId', '246']);
+                var u = "https://matomo.acdh.oeaw.ac.at/";
+                _paq.push([ 'setTrackerUrl', u + 'piwik.php']);
+                _paq.push([ 'setSiteId', '246']);
             var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
             g.type = 'text/javascript';
             g. async = true;
             g.defer = true;
             g.src = u + 'piwik.js';
             s.parentNode.insertBefore(g, s);
-            })();</script><body class="page">
+        })();</script><body class="page">
       <div class="hfeed site" id="page">
          <nav class="navbar navbar-expand-md" style="padding-top:1px;">
             <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="img/bahr-textverzeichnis.svg" class="img-fluid" title="Bahr: Textverzeichnis" alt="Bahr: Textverzeichnis" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border: none;"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse " id="navbarNav">
@@ -109,7 +101,14 @@
                            </tr>
                            <tr>
                               <th>Erschienen</th>
-                              <td>3.3.1889<br />Jahrgang 20<br />Nummer 9<br />Seite 2–3<br /></td>
+                              <td>
+                                 <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
+                                    <li>3.3.1889</li>
+                                    <li>Jahrgang 20</li>
+                                    <li>Nummer 9</li>
+                                    <li>Seite 2–3</li>
+                                 </ul>
+                              </td>
                            </tr>
                            <tr>
                               <th>Allgemein</th>
@@ -139,84 +138,84 @@
                <div class="card-footer">
                   <h3>Erwähnte Personen</h3>
                   <ul>
-                     <li><b>Émile Augier</b> (17. 9. 1820 Valence – 25. 10. 1889 Croissy-sur-Seine), <i>Schriftsteller</i><div id="mentions">
+                     <li><b><a href="pmb2815.html">Émile Augier</a></b> (17. 9. 1820 Valence – 25. 10. 1889 Croissy-sur-Seine), <i>Schriftsteller</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13310" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2815.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2815.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp38561" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/%C3%89mile Augier" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/2815/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/119493020" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Théodore Barrière</b> (16.4.1821 Paris – 16. 10. 1877 Paris), <i>Schriftsteller</i><div id="mentions">
+                     <li><b><a href="pmb13763.html">Théodore Barrière</a></b> (16.4.1821 Paris – 16. 10. 1877 Paris), <i>Schriftsteller</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb13763.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13434" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://de.wikipedia.org/wiki/Th%C3%A9odore Barri%C3%A8re" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/13763/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Hélène Bibescu</b> 
+                     <li><b><a href="pmb157430.html">Hélène Bibescu</a></b> 
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157430/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Henriette Conneau</b> 
+                     <li><b><a href="pmb157431.html">Henriette Conneau</a></b> 
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157431/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>E. Cornellier</b> 
+                     <li><b><a href="pmb157432.html">E. Cornellier</a></b> 
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157432/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Alexandre père Dumas</b> (24. 7. 1802 Villers-Cotterêts – 5. 12. 1870 Puys), <i>Schriftsteller</i><div id="mentions">
+                     <li><b><a href="pmb11190.html">Alexandre père Dumas</a></b> (24. 7. 1802 Villers-Cotterêts – 5. 12. 1870 Puys), <i>Schriftsteller</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11190.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14547" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11190.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11190.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://de.wikipedia.org/wiki/Alexandre Dumas der %C3%84ltere" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/11190/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118528068" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Alexandre fils Dumas</b> (28. 7. 1824 Paris – 27. 11. 1895 Marly-le-Roi), <i>Schriftsteller</i><div id="mentions">
+                     <li><b><a href="pmb15512.html">Alexandre fils Dumas</a></b> (28. 7. 1824 Paris – 27. 11. 1895 Marly-le-Roi), <i>Schriftsteller</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb15512.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14546" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb15512.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb15512.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp47292" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Alexandre Dumas der J%C3%BCngere" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/15512/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/11852805X" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Philipp Fahrbach</b> (16. 12. 1843 Wien – 15. 2. 1894 Wien), <i>Komponist</i><div id="mentions">
+                     <li><b><a href="pmb7065.html">Philipp Fahrbach</a></b> (16. 12. 1843 Wien – 15. 2. 1894 Wien), <i>Komponist</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14855" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://de.wikipedia.org/wiki/Philipp Fahrbach der J%C3%BCngere" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x00329345" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/7065/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/123055784" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Berthe Gallet</b> (1870 – 1951)
+                     <li><b><a href="pmb157427.html">Berthe Gallet</a></b> (1870 – 1951)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157427/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Guichard ?</b> 
+                     <li><b><a href="pmb157433.html">Guichard ?</a></b> 
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157433/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Ludovic Halévy</b> (1. 1. 1834 Paris – 7. 5. 1908 Paris), <i>Schriftsteller</i><div id="mentions">
+                     <li><b><a href="pmb4197.html">Ludovic Halévy</a></b> (1. 1. 1834 Paris – 7. 5. 1908 Paris), <i>Schriftsteller</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15864" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4197.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4197.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp49270" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus.wienbibliothek.at/register/personen/pmb4197" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://de.wikipedia.org/wiki/Ludovic Hal%C3%A9vy" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/4197/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118919660" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Céline Isabeau Jameson</b> (* 1842)
+                     <li><b><a href="pmb157428.html">Céline Isabeau Jameson</a></b> (* 1842)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157428/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Amalie Marterna</b> (1844 – 1918)
+                     <li><b><a href="pmb157434.html">Amalie Marterna</a></b> (1844 – 1918)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157434/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Jules Massenet</b> (12. 5. 1842 Saint-Etienne – 13. 8. 1912 Paris), <i>Komponist</i><div id="mentions">
+                     <li><b><a href="pmb2467.html">Jules Massenet</a></b> (12. 5. 1842 Saint-Etienne – 13. 8. 1912 Paris), <i>Komponist</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17964" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2467.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp49836" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Jules Massenet" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/2467/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118578723" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Henri Meilhac</b> (21. 2. 1831 Paris – 6. 6. 1897 Paris), <i>Schriftsteller</i><div id="mentions">
+                     <li><b><a href="pmb12222.html">Henri Meilhac</a></b> (21. 2. 1831 Paris – 6. 6. 1897 Paris), <i>Schriftsteller</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18045" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp45865" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus.wienbibliothek.at/register/personen/pmb12222" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://de.wikipedia.org/wiki/Henri Meilhac" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12222/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118919652" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Anna-Élisabeth de Noailles</b> (1876 – 1933)
+                     <li><b><a href="pmb157429.html">Anna-Élisabeth de Noailles</a></b> (1876 – 1933)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157429/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Victorien Sardou</b> (7. 9. 1831 Paris – 8. 11. 1908 Paris), <i>Schriftsteller</i><div id="mentions">
+                     <li><b><a href="pmb12624.html">Victorien Sardou</a></b> (7. 9. 1831 Paris – 8. 11. 1908 Paris), <i>Schriftsteller</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12624.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19577" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12624.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12624.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12624.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp52775" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Victorien Sardou" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12624/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118794566" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Richard Wagner</b> (22. 5. 1813 Leipzig – 13. 2. 1883 Venedig), <i>Komponist</i><div id="mentions">
-                           <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb13024.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21034" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb13024.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb13024.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp52212" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus.wienbibliothek.at/register/personen/pmb13024" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://de.wikipedia.org/wiki/Richard Wagner" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/13024/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118594117" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
+                     <li><b><a href="pmb13024.html">Richard Wagner</a></b> (22. 5. 1813 Leipzig – 13. 2. 1883 Venedig), <i>Komponist</i><div id="mentions">
+                           <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb13024.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21034" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb13024.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb13024.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp52212" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus.wienbibliothek.at/register/personen/pmb13024" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=W#DWpers0247" target="_blank"><span class="badge rounded-pill" style="background-color: #a21a17; color: white; margin-top: 4px;">Dritte Walpurgisnacht</span></a> <a href="https://de.wikipedia.org/wiki/Richard Wagner" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/13024/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118594117" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
                   </ul>

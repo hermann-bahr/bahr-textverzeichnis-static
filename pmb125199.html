@@ -8,23 +8,15 @@
    <meta name="msapplication-TileColor" content="#ffffff" />
    <meta name="msapplication-TileImage" content="dist/fundament/images/fundament_logo.svg" />
    <link rel="icon" type="image/svg+xml" href="dist/fundament/images/fundament_logo.svg" sizes="any" />
-   <link rel="shortcut icon" href="data/images/symbole/favicon.png" />
-   <link rel="shortcut icon" href="../img/favicon/favicon.png" />
-   <link rel="icon" href="./img/favicon/favicon.png" />
-   <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png" />
-   <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png" />
-   <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png" />
-   <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png" />
-   <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png" />
-   <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png" />
-   <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png" />
-   <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png" />
-   <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png" />
-   <link rel="icon" type="image/png" sizes="192x192" href="./img/favicon/android-icon-192x192.png" />
-   <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png" />
-   <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png" />
-   <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png" />
-   <link rel="profile" href="http://gmpg.org/xfn/11" />
+   <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
+   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
+   <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png" />
+   <link rel="manifest" href="/img/site.webmanifest" />
+   <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5" />
+   <link rel="shortcut icon" href="/img/favicon.ico" />
+   <meta name="msapplication-TileColor" content="#da532c" />
+   <meta name="msapplication-config" content="/img/browserconfig.xml" />
+   <meta name="theme-color" content="#ffffff" />
    <title>bahr-textverzeichnis</title>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" />
@@ -35,16 +27,16 @@
             _paq.push([ 'trackPageView']);
             _paq.push([ 'enableLinkTracking']);
             (function () {
-            var u = "https://matomo.acdh.oeaw.ac.at/";
-            _paq.push([ 'setTrackerUrl', u + 'piwik.php']);
-            _paq.push([ 'setSiteId', '246']);
+                var u = "https://matomo.acdh.oeaw.ac.at/";
+                _paq.push([ 'setTrackerUrl', u + 'piwik.php']);
+                _paq.push([ 'setSiteId', '246']);
             var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
             g.type = 'text/javascript';
             g. async = true;
             g.defer = true;
             g.src = u + 'piwik.js';
             s.parentNode.insertBefore(g, s);
-            })();</script><body class="page">
+        })();</script><body class="page">
       <div class="hfeed site" id="page">
          <nav class="navbar navbar-expand-md" style="padding-top:1px;">
             <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="img/bahr-textverzeichnis.svg" class="img-fluid" title="Bahr: Textverzeichnis" alt="Bahr: Textverzeichnis" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border: none;"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse " id="navbarNav">
@@ -114,7 +106,14 @@
                            </tr>
                            <tr>
                               <th>Erschienen</th>
-                              <td>Leipzig<br />Insel<br />1927<br />Seite 52–62<br /></td>
+                              <td>
+                                 <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
+                                    <li>Leipzig</li>
+                                    <li>Insel</li>
+                                    <li>1927</li>
+                                    <li>Seite 52–62</li>
+                                 </ul>
+                              </td>
                            </tr>
                            <tr>
                               <th>Reihe</th>
@@ -138,13 +137,15 @@
                            <tr>
                               <th>Weitere Drucke (Periodika)</th>
                               <td>
-                                 <p><a href="toc_pmb122136.html">Hochland</a>, Jg. 24 (1927) #6 (März), S. 675–680
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    </p>
+                                 <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
+                                    <li><a href="toc_pmb122136.html">Hochland</a>, Jg. 24 (1927) #6 (März), S. 675–680
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       </li>
+                                 </ul>
                               </td>
                            </tr>
                            <tr>
@@ -162,81 +163,81 @@
                <div class="card-footer">
                   <h3>Erwähnte Personen</h3>
                   <ul>
-                     <li><b>Augustinus von Hippo</b> , <i>Kirchenschriftsteller</i><div id="mentions">
+                     <li><b><a href="pmb148590.html">Augustinus von Hippo</a></b> , <i>Kirchenschriftsteller</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Augustinus von Hippo" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/148590/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118505114" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Léon Bloy</b> (11. 7. 1846 – 3. 11. 1917), <i>Schriftsteller</i><div id="mentions">
+                     <li><b><a href="pmb115128.html">Léon Bloy</a></b> (11. 7. 1846 – 3. 11. 1917), <i>Schriftsteller</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp48767" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/L%C3%A9on Bloy" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/115128/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118511866" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Franziskus von Assisi</b> (1181/1182 – 1226)
+                     <li><b><a href="pmb154937.html">Franziskus von Assisi</a></b> (1181/1182 – 1226)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/154937/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Johann Wolfgang von Goethe</b> (28. 8. 1749 Frankfurt am Main – 22. 3. 1832 Weimar), <i>Schriftsteller</i><div id="mentions">
-                           <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11461.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15499" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11461.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11461.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11461.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp46960" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus.wienbibliothek.at/register/personen/pmb11461" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://de.wikipedia.org/wiki/Johann Wolfgang von Goethe" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/11461/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118540238" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
+                     <li><b><a href="pmb11461.html">Johann Wolfgang von Goethe</a></b> (28. 8. 1749 Frankfurt am Main – 22. 3. 1832 Weimar), <i>Schriftsteller</i><div id="mentions">
+                           <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11461.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15499" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11461.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11461.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11461.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp46960" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus.wienbibliothek.at/register/personen/pmb11461" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=G#DWpers0080" target="_blank"><span class="badge rounded-pill" style="background-color: #a21a17; color: white; margin-top: 4px;">Dritte Walpurgisnacht</span></a> <a href="https://de.wikipedia.org/wiki/Johann Wolfgang von Goethe" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/11461/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118540238" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Ernest Hello</b> (4. 11. 1828 Lorient – 15. 4. 1885 Lorient), <i>Schriftsteller, Rechtswissenschaftler</i><div id="mentions">
+                     <li><b><a href="pmb11650.html">Ernest Hello</a></b> (4. 11. 1828 Lorient – 15. 4. 1885 Lorient), <i>Schriftsteller, Rechtswissenschaftler</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16080" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11650.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://de.wikipedia.org/wiki/Ernest Hello" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/11650/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/119205823" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Ignatius Ignatius of Antioch</b> 
+                     <li><b><a href="pmb149519.html">Ignatius Ignatius of Antioch</a></b> 
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Ignatius von Antiochien" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/149519/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118555340" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Íñigo Ignatius of Loyola</b> 
+                     <li><b><a href="pmb149523.html">Íñigo Ignatius of Loyola</a></b> 
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Ignatius von Loyola" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/149523/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118555359" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>- Marie Antoinette, Frankreich, Königin</b> (2. 11. 1755 – 16. 10. 1793)
+                     <li><b><a href="pmb146490.html">- Marie Antoinette, Frankreich, Königin</a></b> (2. 11. 1755 – 16. 10. 1793)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp48083" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Marie-Antoinette von %C3%96sterreich-Lothringen" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/146490/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118577905" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Paulus von Tarsus</b> († nach 60)
+                     <li><b><a href="pmb154936.html">Paulus von Tarsus</a></b> († nach 60)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/154936/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Petrus</b> 
+                     <li><b><a href="pmb154935.html">Petrus</a></b> 
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/154935/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Ernest Renan</b> (27. 2. 1823 Tréguier – 2. 10. 1892 Paris), <i>Schriftsteller, Orientalist</i><div id="mentions">
+                     <li><b><a href="pmb9484.html">Ernest Renan</a></b> (27. 2. 1823 Tréguier – 2. 10. 1892 Paris), <i>Schriftsteller, Orientalist</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19183" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9484.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp52117" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Ernest Renan" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/9484/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118744496" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Jean-Jacques Rousseau</b> (28. 6. 1712 Genf – 2. 7. 1778 Ermenonville), <i>Philosoph</i><div id="mentions">
+                     <li><b><a href="pmb12582.html">Jean-Jacques Rousseau</a></b> (28. 6. 1712 Genf – 2. 7. 1778 Ermenonville), <i>Philosoph</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19439" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12582.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12582.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp46781" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus.wienbibliothek.at/register/personen/pmb12582" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://de.wikipedia.org/wiki/Jean-Jacques Rousseau" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12582/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118603426" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Thomas von Aquin</b> (um 1225 – 1274)
+                     <li><b><a href="pmb154939.html">Thomas von Aquin</a></b> (um 1225 – 1274)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/154939/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Thomas von Kempen</b> (um 1380 – 1471)
+                     <li><b><a href="pmb154938.html">Thomas von Kempen</a></b> (um 1380 – 1471)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/154938/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Louis Veuillot</b> 
+                     <li><b><a href="pmb154934.html">Louis Veuillot</a></b> 
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/154934/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>François de Sales</b> († 28. 12. 1622 Lyon)
+                     <li><b><a href="pmb149103.html">François de Sales</a></b> († 28. 12. 1622 Lyon)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Franz von Sales" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/149103/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118534971" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Johannes van Ruusbroec</b> (* 1293 Ruisbroek)
+                     <li><b><a href="pmb149527.html">Johannes van Ruusbroec</a></b> (* 1293 Ruisbroek)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Jan van Ruusbroec" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/149527/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118750496" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>

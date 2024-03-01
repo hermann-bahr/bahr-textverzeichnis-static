@@ -8,23 +8,15 @@
    <meta name="msapplication-TileColor" content="#ffffff" />
    <meta name="msapplication-TileImage" content="dist/fundament/images/fundament_logo.svg" />
    <link rel="icon" type="image/svg+xml" href="dist/fundament/images/fundament_logo.svg" sizes="any" />
-   <link rel="shortcut icon" href="data/images/symbole/favicon.png" />
-   <link rel="shortcut icon" href="../img/favicon/favicon.png" />
-   <link rel="icon" href="./img/favicon/favicon.png" />
-   <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png" />
-   <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png" />
-   <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png" />
-   <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png" />
-   <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png" />
-   <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png" />
-   <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png" />
-   <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png" />
-   <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png" />
-   <link rel="icon" type="image/png" sizes="192x192" href="./img/favicon/android-icon-192x192.png" />
-   <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png" />
-   <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png" />
-   <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png" />
-   <link rel="profile" href="http://gmpg.org/xfn/11" />
+   <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
+   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
+   <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png" />
+   <link rel="manifest" href="/img/site.webmanifest" />
+   <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5" />
+   <link rel="shortcut icon" href="/img/favicon.ico" />
+   <meta name="msapplication-TileColor" content="#da532c" />
+   <meta name="msapplication-config" content="/img/browserconfig.xml" />
+   <meta name="theme-color" content="#ffffff" />
    <title>bahr-textverzeichnis</title>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" />
@@ -35,16 +27,16 @@
             _paq.push([ 'trackPageView']);
             _paq.push([ 'enableLinkTracking']);
             (function () {
-            var u = "https://matomo.acdh.oeaw.ac.at/";
-            _paq.push([ 'setTrackerUrl', u + 'piwik.php']);
-            _paq.push([ 'setSiteId', '246']);
+                var u = "https://matomo.acdh.oeaw.ac.at/";
+                _paq.push([ 'setTrackerUrl', u + 'piwik.php']);
+                _paq.push([ 'setSiteId', '246']);
             var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
             g.type = 'text/javascript';
             g. async = true;
             g.defer = true;
             g.src = u + 'piwik.js';
             s.parentNode.insertBefore(g, s);
-            })();</script><body class="page">
+        })();</script><body class="page">
       <div class="hfeed site" id="page">
          <nav class="navbar navbar-expand-md" style="padding-top:1px;">
             <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="img/bahr-textverzeichnis.svg" class="img-fluid" title="Bahr: Textverzeichnis" alt="Bahr: Textverzeichnis" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border: none;"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse " id="navbarNav">
@@ -112,7 +104,14 @@
                            </tr>
                            <tr>
                               <th>Erschienen</th>
-                              <td>Zürich<br />Verlags-Magazin (J. Schabelitz)<br />1890<br />Seite 224–232<br /></td>
+                              <td>
+                                 <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
+                                    <li>Zürich</li>
+                                    <li>Verlags-Magazin (J. Schabelitz)</li>
+                                    <li>1890</li>
+                                    <li>Seite 224–232</li>
+                                 </ul>
+                              </td>
                            </tr>
                            <tr>
                               <th>Textanfang</th>
@@ -129,30 +128,32 @@
                            <tr>
                               <th>Weitere Drucke (Periodika)</th>
                               <td>
-                                 <p>Als »<a href="pmb134699.html"><span style="text-style:italic">Pariser Kunstbriefe. III</span></a>« in: <a href="toc_pmb53069.html">Der Kunstwart</a>, Jg. 2 (1889) #20, S. 314–315
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    </p>
-                                 <p>Als »<a href="pmb134643.html"><span style="text-style:italic">Pariser Kunstbriefe. IV. Die »Exposition des artistes étrangers«</span></a>« in: <a href="toc_pmb53069.html">Der Kunstwart</a>, Jg. 2 (1889) #22, S. 347–348
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    </p>
-                                 <p>Als »<a href="pmb134697.html"><span style="text-style:italic">Pariser Kunstbriefe. V. Die »Exposition des artistes étrangers« (Fortsetzung)</span></a>« in: <a href="toc_pmb53069.html">Der Kunstwart</a>, Jg. 2 (1889) #23, S. 362–363
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    </p>
+                                 <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
+                                    <li>Als »<a href="pmb134699.html"><span style="text-style:italic">Pariser Kunstbriefe. III</span></a>« in: <a href="toc_pmb53069.html">Der Kunstwart</a>, Jg. 2 (1889) #20, S. 314–315
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       </li>
+                                    <li>Als »<a href="pmb134643.html"><span style="text-style:italic">Pariser Kunstbriefe. IV. Die »Exposition des artistes étrangers«</span></a>« in: <a href="toc_pmb53069.html">Der Kunstwart</a>, Jg. 2 (1889) #22, S. 347–348
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       </li>
+                                    <li>Als »<a href="pmb134697.html"><span style="text-style:italic">Pariser Kunstbriefe. V. Die »Exposition des artistes étrangers« (Fortsetzung)</span></a>« in: <a href="toc_pmb53069.html">Der Kunstwart</a>, Jg. 2 (1889) #23, S. 362–363
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       </li>
+                                 </ul>
                               </td>
                            </tr>
                            <tr>
@@ -170,859 +171,859 @@
                <div class="card-footer">
                   <h3>Erwähnte Personen</h3>
                   <ul>
-                     <li><b>Lawrence Alma-Tadema</b> (8. 1. 1836 Dronryp – 25. 6. 1912 Wiesbaden)
+                     <li><b><a href="pmb151817.html">Lawrence Alma-Tadema</a></b> (8. 1. 1836 Dronryp – 25. 6. 1912 Wiesbaden)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Lawrence Alma-Tadema" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/151817/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/119004305" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Anna Ancher</b> (18. 8. 1859 Skagen – 15. 4. 1935 Skagen)
+                     <li><b><a href="pmb152189.html">Anna Ancher</a></b> (18. 8. 1859 Skagen – 15. 4. 1935 Skagen)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Anna Ancher" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152189/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118847414" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Michael Ancher</b> (9. 6. 1849 Bornholm – 19. 9. 1927 Skagen)
+                     <li><b><a href="pmb152197.html">Michael Ancher</a></b> (9. 6. 1849 Bornholm – 19. 9. 1927 Skagen)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Michael Ancher" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152197/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/12183140X" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Abraham Archibald Anderson</b> (1846 – 1940)
+                     <li><b><a href="pmb157304.html">Abraham Archibald Anderson</a></b> (1846 – 1940)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157304/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Antoine Antoine Duclaux</b> (26. 7. 1783 Lyon – 21. 3. 1868 Sainte-Foy-lès-Lyon)
+                     <li><b><a href="pmb153827.html">Antoine Antoine Duclaux</a></b> (26. 7. 1783 Lyon – 21. 3. 1868 Sainte-Foy-lès-Lyon)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/Antoine Duclaux" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153827/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Louis Apol</b> (6. 9. 1850 Den Haag – 22. 11. 1936 Den Haag)
+                     <li><b><a href="pmb153001.html">Louis Apol</a></b> (6. 9. 1850 Den Haag – 22. 11. 1936 Den Haag)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/Louis Apol" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153001/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/117763225" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Elisabeth Armstrong</b> (1859 – 1912)
+                     <li><b><a href="pmb157295.html">Elisabeth Armstrong</a></b> (1859 – 1912)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157295/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Alphonse Asselbergs</b> (19. 6. 1839 Brussels metropolitan area – 4. 10. 1916 Uccle)
+                     <li><b><a href="pmb152945.html">Alphonse Asselbergs</a></b> (19. 6. 1839 Brussels metropolitan area – 4. 10. 1916 Uccle)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Alphonse Asselbergs" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152945/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/17417781X" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>August August Hagborg</b> (26. 5. 1852 Domkyrkoförsamlingen in Göteborg – 30. 4. 1921 Paris)
+                     <li><b><a href="pmb152887.html">August August Hagborg</a></b> (26. 5. 1852 Domkyrkoförsamlingen in Göteborg – 30. 4. 1921 Paris)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/August Hagborg" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152887/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1081036486" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Harriet Backer</b> (21. 1. 1845 Holmestrand Municipality – 25. 3. 1932 Oslo)
+                     <li><b><a href="pmb152870.html">Harriet Backer</a></b> (21. 1. 1845 Holmestrand Municipality – 25. 3. 1932 Oslo)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Harriet Backer" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152870/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/11951611X" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Marie Bashkirtseff</b> (23. 11. 1860 Havrontsi – 31. 10. 1884 Paris), <i>Malerin</i><div id="mentions">
+                     <li><b><a href="pmb13797.html">Marie Bashkirtseff</a></b> (23. 11. 1860 Havrontsi – 31. 10. 1884 Paris), <i>Malerin</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13455" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13797.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp49689" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Marie Bashkirtseff" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/13797/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118653350" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Nicolaas Bastert</b> (7. 1. 1854 Maarsseveen – 18. 4. 1939 Loenen aan de Vecht)
+                     <li><b><a href="pmb153004.html">Nicolaas Bastert</a></b> (7. 1. 1854 Maarsseveen – 18. 4. 1939 Loenen aan de Vecht)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Nicolaas Bastert" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153004/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1038826470" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Jules Bastien-Lepage</b> (1. 11. 1848 – 10. 12. 1884), <i>Maler, Grafiker, Zeichner, Künstler</i><div id="mentions">
+                     <li><b><a href="pmb112828.html">Jules Bastien-Lepage</a></b> (1. 11. 1848 – 10. 12. 1884), <i>Maler, Grafiker, Zeichner, Künstler</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp38924" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Jules Bastien-Lepage" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/112828/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/122105338" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Auguste Baud</b> (13. 2. 1848 Genf – 3. 6. 1899 Davos)
+                     <li><b><a href="pmb153035.html">Auguste Baud</a></b> (13. 2. 1848 Genf – 3. 6. 1899 Davos)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Auguste Baud-Bovy" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153035/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/119139723" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Charles Baudelaire</b> (9. 4. 1821 Paris – 31. 8. 1867 Paris), <i>Schriftsteller</i><div id="mentions">
+                     <li><b><a href="pmb4950.html">Charles Baudelaire</a></b> (9. 4. 1821 Paris – 31. 8. 1867 Paris), <i>Schriftsteller</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb4950.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4950.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp39885" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus.wienbibliothek.at/register/personen/pmb4950" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://de.wikipedia.org/wiki/Charles Baudelaire" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/4950/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118507184" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Paul Baudry</b> (7. 11. 1828 La Roche-sur-Yon – 17. 1. 1886 Paris)
+                     <li><b><a href="pmb152814.html">Paul Baudry</a></b> (7. 11. 1828 La Roche-sur-Yon – 17. 1. 1886 Paris)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Paul Baudry" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152814/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/119460882" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Leonardo Bazzaro</b> (13. 12. 1853 Mailand – 2. 11. 1937 Mailand)
+                     <li><b><a href="pmb153056.html">Leonardo Bazzaro</a></b> (13. 12. 1853 Mailand – 2. 11. 1937 Mailand)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Leonardo Bazzaro" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153056/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/120595095" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Julia Augusta Lovisa Beck</b> (1853 – 1935)
+                     <li><b><a href="pmb157292.html">Julia Augusta Lovisa Beck</a></b> (1853 – 1935)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157292/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>James Beckwith</b> (23. 9. 1852 Hannibal – 24. 10. 1917 New York City)
+                     <li><b><a href="pmb152962.html">James Beckwith</a></b> (23. 9. 1852 Hannibal – 24. 10. 1917 New York City)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/James Carroll Beckwith" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152962/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/122847520" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Richard Bergh</b> (28. 12. 1858 Stockholm City – 29. 1. 1919 Nacka församling)
+                     <li><b><a href="pmb152192.html">Richard Bergh</a></b> (28. 12. 1858 Stockholm City – 29. 1. 1919 Nacka församling)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Richard Bergh" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152192/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/119196921" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Émile Bernard</b> (28. 4. 1868 Lille – 16. 4. 1941 Paris)
+                     <li><b><a href="pmb152854.html">Émile Bernard</a></b> (28. 4. 1868 Lille – 16. 4. 1941 Paris)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/%C3%89mile Bernard (Maler)" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152854/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118924648" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>James Bertrand</b> (25. 3. 1823 Lyon – 27. 9. 1887 Orsay)
+                     <li><b><a href="pmb152817.html">James Bertrand</a></b> (25. 3. 1823 Lyon – 27. 9. 1887 Orsay)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/Jean-Baptiste Bertrand" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152817/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1038498961" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Ernest Bieler</b> (31. 7. 1863 Rolle – 25. 6. 1948 Lausanne)
+                     <li><b><a href="pmb153028.html">Ernest Bieler</a></b> (31. 7. 1863 Rolle – 25. 6. 1948 Lausanne)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Ernest Bi%C3%A9ler" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153028/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/121644227" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Hugo Birger</b> (12. 1. 1854 Stockholm – 17. 6. 1887 Helsingborg)
+                     <li><b><a href="pmb152902.html">Hugo Birger</a></b> (12. 1. 1854 Stockholm – 17. 6. 1887 Helsingborg)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/Hugo Birger" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152902/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/140374531" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Giovanni Boldini</b> (31. 12. 1842 Ferrara – 11. 1. 1931 Paris)
+                     <li><b><a href="pmb151933.html">Giovanni Boldini</a></b> (31. 12. 1842 Ferrara – 11. 1. 1931 Paris)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Giovanni Boldini" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/151933/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118852361" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Louise Breslau</b> (6. 12. 1856 München – 12. 5. 1927 16. Arrondissement (Passy))
+                     <li><b><a href="pmb151848.html">Louise Breslau</a></b> (6. 12. 1856 München – 12. 5. 1927 16. Arrondissement (Passy))
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Louise-Cath%C3%A9rine Breslau" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/151848/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/119107791" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Frederick Arthur Bridgman</b> (1847 –  1927)
+                     <li><b><a href="pmb157300.html">Frederick Arthur Bridgman</a></b> (1847 –  1927)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157300/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>John Brown</b> (11. 11. 1831 Durham – 8. 2. 1913 New York City)
+                     <li><b><a href="pmb152979.html">John Brown</a></b> (11. 11. 1831 Durham – 8. 2. 1913 New York City)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/John George Brown" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152979/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1038066123" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Brunzos</b> , <i>Maler/Malerin</i><div id="mentions">
+                     <li><b><a href="pmb157312.html">Brunzos</a></b> , <i>Maler/Malerin</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157312/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Jean Béraud</b> (12. 1. 1849 Sankt Petersburg – 4. 10. 1935 rue du Boccador)
+                     <li><b><a href="pmb152517.html">Jean Béraud</a></b> (12. 1. 1849 Sankt Petersburg – 4. 10. 1935 rue du Boccador)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Jean B%C3%A9raud" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152517/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/116124717" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Camiel Camiel Wauters</b> (13. 11. 1856 – 10. 9. 1919)
+                     <li><b><a href="pmb153734.html">Camiel Camiel Wauters</a></b> (13. 11. 1856 – 10. 9. 1919)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/Camille Wauters" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153734/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Eugène Carrière</b> (16. 1. 1849 Gournay-sur-Marne – 27. 3. 1906 Paris)
+                     <li><b><a href="pmb150952.html">Eugène Carrière</a></b> (16. 1. 1849 Gournay-sur-Marne – 27. 3. 1906 Paris)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Eug%C3%A8ne Carri%C3%A8re" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/150952/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118668595" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Jean Charles Cazin</b> (25. 5. 1841 – 1901), <i>Maler, Radierer, Keramiker</i><div id="mentions">
+                     <li><b><a href="pmb113079.html">Jean Charles Cazin</a></b> (25. 5. 1841 – 1901), <i>Maler, Radierer, Keramiker</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp39844" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Jean-Charles Cazin" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/113079/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/116479566" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Charles Spencer Chaplin</b> (16. 4. 1889 London – 24. 12. 1977 Vevey), <i>Schauspieler, Filmproduzent</i><div id="mentions">
+                     <li><b><a href="pmb14920.html">Charles Spencer Chaplin</a></b> (16. 4. 1889 London – 24. 12. 1977 Vevey), <i>Schauspieler, Filmproduzent</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14179" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/14920/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Frantz Charlet</b> († 8. 8. 1928 Paris)
+                     <li><b><a href="pmb153823.html">Frantz Charlet</a></b> († 8. 8. 1928 Paris)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Frantz Charlet" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153823/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Émile Claus</b> (27. 9. 1849 Sint-Eloois-Vijve – 14. 6. 1924 Astene)
+                     <li><b><a href="pmb152954.html">Émile Claus</a></b> (27. 9. 1849 Sint-Eloois-Vijve – 14. 6. 1924 Astene)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Emile Claus" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152954/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118871307" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Raphaël Collin</b> (17. 6. 1850 Paris – 19. 10. 1916 Brionne)
+                     <li><b><a href="pmb152823.html">Raphaël Collin</a></b> (17. 6. 1850 Paris – 19. 10. 1916 Brionne)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Rapha%C3%ABl Collin" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152823/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/116638729" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Jean-Joseph Constant</b> (10. 6. 1845 Paris – 26. 5. 1902 Paris)
+                     <li><b><a href="pmb152820.html">Jean-Joseph Constant</a></b> (10. 6. 1845 Paris – 26. 5. 1902 Paris)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Jean-Joseph Benjamin-Constant" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152820/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/116656468" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Peter Cornelius</b> (24. 12. 1824 Mainz – 26. 10. 1874 Mainz), <i>Komponist</i><div id="mentions">
+                     <li><b><a href="pmb6704.html">Peter Cornelius</a></b> (24. 12. 1824 Mainz – 26. 10. 1874 Mainz), <i>Komponist</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14281" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://de.wikipedia.org/wiki/Peter Cornelius (Komponist)" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/6704/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118522213" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Jean-Baptiste Corot</b> (16. 7. 1796 Paris – 22. 2. 1875 Paris)
+                     <li><b><a href="pmb152208.html">Jean-Baptiste Corot</a></b> (16. 7. 1796 Paris – 22. 2. 1875 Paris)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Jean-Baptiste Camille Corot" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152208/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118522256" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Gustave Courbet</b> (10. 6. 1819 – 31. 12. 1877), <i>Maler, Bildhauer, Zeichner, Künstler</i><div id="mentions">
+                     <li><b><a href="pmb113159.html">Gustave Courbet</a></b> (10. 6. 1819 – 31. 12. 1877), <i>Maler, Bildhauer, Zeichner, Künstler</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp40134" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Gustave Courbet" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/113159/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118522450" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Pascal Dagnan</b> (7. 1. 1852 Paris – 3. 7. 1929 Quincey)
+                     <li><b><a href="pmb151806.html">Pascal Dagnan</a></b> (7. 1. 1852 Paris – 3. 7. 1929 Quincey)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Pascal Adolphe Dagnan-Bouveret" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/151806/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/122964314" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Angelo Dall'Oca Bianca</b> (31. 3. 1858 Verona – 18. 5. 1942 Verona)
+                     <li><b><a href="pmb153053.html">Angelo Dall'Oca Bianca</a></b> (31. 3. 1858 Verona – 18. 5. 1942 Verona)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/Angelo Dall'Oca Bianca" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153053/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/123740274" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Alexandre Decamps</b> (3. 3. 1803 Paris – 22. 8. 1860 Fontainebleau)
+                     <li><b><a href="pmb152830.html">Alexandre Decamps</a></b> (3. 3. 1803 Paris – 22. 8. 1860 Fontainebleau)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Alexandre-Gabriel Decamps" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152830/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/122905040" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Cesare A. Detti</b> (1847 – 1914)
+                     <li><b><a href="pmb157310.html">Cesare A. Detti</a></b> (1847 – 1914)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157310/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Jekaterina Michajlowna Dolgoruckij</b> (1847 – 1922)
+                     <li><b><a href="pmb157287.html">Jekaterina Michajlowna Dolgoruckij</a></b> (1847 – 1922)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157287/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Francisco Domingo</b> (12. 2. 1842 Valencia – 1. 1. 1920 Madrid)
+                     <li><b><a href="pmb153050.html">Francisco Domingo</a></b> (12. 2. 1842 Valencia – 1. 1. 1920 Madrid)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Francisco Domingo" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153050/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1050803272" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Fjodor Mihajlovič Dostojevskij</b> (11. 11. 1821 Moskau – 9. 2. 1881 Sankt Petersburg), <i>Schriftsteller</i><div id="mentions">
-                           <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb4006.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14500" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4006.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb4006.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp43055" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus.wienbibliothek.at/register/personen/pmb4006" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://de.wikipedia.org/wiki/Fjodor Michailowitsch Dostojewski" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/4006/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118527053" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
+                     <li><b><a href="pmb4006.html">Fjodor Mihajlovič Dostojevskij</a></b> (11. 11. 1821 Moskau – 9. 2. 1881 Sankt Petersburg), <i>Schriftsteller</i><div id="mentions">
+                           <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb4006.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14500" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb4006.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb4006.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp43055" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus.wienbibliothek.at/register/personen/pmb4006" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=D#DWpers0047" target="_blank"><span class="badge rounded-pill" style="background-color: #a21a17; color: white; margin-top: 4px;">Dritte Walpurgisnacht</span></a> <a href="https://de.wikipedia.org/wiki/Fjodor Michailowitsch Dostojewski" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/4006/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118527053" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Henri Doucet</b> (23. 8. 1856 Paris – 30. 12. 1895 16. Arrondissement (Passy))
+                     <li><b><a href="pmb152841.html">Henri Doucet</a></b> (23. 8. 1856 Paris – 30. 12. 1895 16. Arrondissement (Passy))
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/Henri Lucien Doucet" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152841/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1136887202" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Albert Edelfelt</b> (21. 7. 1854 Kiala manor – 18. 8. 1905 Haiko)
+                     <li><b><a href="pmb153069.html">Albert Edelfelt</a></b> (21. 7. 1854 Kiala manor – 18. 8. 1905 Haiko)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Albert Edelfelt" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153069/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/121778231" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Per Ekström</b> (26. 2. 1844 Сегерстад – 21. 1. 1935 Мёрбюлонга)
+                     <li><b><a href="pmb152865.html">Per Ekström</a></b> (26. 2. 1844 Сегерстад – 21. 1. 1935 Мёрбюлонга)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/Per Ekstr%C3%B6m" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152865/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1246405660" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Ernst Ernst Stückelberg</b> (21. 2. 1831 Basel – 14. 9. 1903 Basel)
+                     <li><b><a href="pmb153032.html">Ernst Ernst Stückelberg</a></b> (21. 2. 1831 Basel – 14. 9. 1903 Basel)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Ernst St%C3%BCckelberg" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153032/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118756206" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Edgard Farasyn</b> (1858 – 1899)
+                     <li><b><a href="pmb157299.html">Edgard Farasyn</a></b> (1858 – 1899)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157299/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Léon Fauché</b> (1868 Moselle – 15. 2. 1950 Paris)
+                     <li><b><a href="pmb153801.html">Léon Fauché</a></b> (1868 Moselle – 15. 2. 1950 Paris)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/L%C3%A9on Fauch%C3%A9" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153801/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Ferdinand Ferdinand Ernst Lintz</b> (2. 3. 1833 Den Haag – 31. 1. 1909 Den Haag)
+                     <li><b><a href="pmb153812.html">Ferdinand Ferdinand Ernst Lintz</a></b> (2. 3. 1833 Den Haag – 31. 1. 1909 Den Haag)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://.wikipedia.org/wiki/Category:Ferdinand Ernst Lintz" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">.w:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153812/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Stanhope Forbes</b> (18. 11. 1857 Dublin – 2. 3. 1947 Newlyn)
+                     <li><b><a href="pmb152934.html">Stanhope Forbes</a></b> (18. 11. 1857 Dublin – 2. 3. 1947 Newlyn)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Stanhope Forbes" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152934/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/119366134" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Jean Honoré Fragonard</b> (5. 5. 1732 – 22. 8. 1806), <i>Maler, Radierer, Künstler</i><div id="mentions">
+                     <li><b><a href="pmb113918.html">Jean Honoré Fragonard</a></b> (5. 5. 1732 – 22. 8. 1806), <i>Maler, Radierer, Künstler</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp43415" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Jean-Honor%C3%A9 Fragonard" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/113918/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118692437" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Franz Franz Courtens</b> (4. 2. 1854 Dendermonde – 2. 1. 1943 Saint-Josse-ten-Noode)
+                     <li><b><a href="pmb151844.html">Franz Franz Courtens</a></b> (4. 2. 1854 Dendermonde – 2. 1. 1943 Saint-Josse-ten-Noode)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Franz Courtens" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/151844/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/116696745" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>François François Furet</b> (24. 1. 1842 Genf – 16. 3. 1919 Genf)
+                     <li><b><a href="pmb153038.html">François François Furet</a></b> (24. 1. 1842 Genf – 16. 3. 1919 Genf)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Fran%C3%A7ois Furet (Maler)" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153038/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1072100371" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Émile Friant</b> (16. 4. 1863 Dieuze – 9. 6. 1932 9th arrondissement of Paris)
+                     <li><b><a href="pmb152844.html">Émile Friant</a></b> (16. 4. 1863 Dieuze – 9. 6. 1932 9th arrondissement of Paris)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/%C3%89mile Friant" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152844/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/11678864X" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Aksel Gallen-Kalleda</b> (1865 – 1931)
+                     <li><b><a href="pmb157313.html">Aksel Gallen-Kalleda</a></b> (1865 – 1931)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157313/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Élisabeth Gardner</b> (4. 10. 1837 Exeter – 28. 1. 1922 Saint-Cloud)
+                     <li><b><a href="pmb152969.html">Élisabeth Gardner</a></b> (4. 10. 1837 Exeter – 28. 1. 1922 Saint-Cloud)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Elizabeth Jane Gardner" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152969/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/122980018" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Paul Gauguin</b> (7. 6. 1848 Paris – 8. 5. 1903 Atuona), <i>Maler</i><div id="mentions">
+                     <li><b><a href="pmb7352.html">Paul Gauguin</a></b> (7. 6. 1848 Paris – 8. 5. 1903 Atuona), <i>Maler</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15358" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp44231" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Paul Gauguin" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/7352/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118537822" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Walter Gay</b> (22. 1. 1856 Boston, Mass. – 15. 7. 1937 Paris)
+                     <li><b><a href="pmb152983.html">Walter Gay</a></b> (22. 1. 1856 Boston, Mass. – 15. 7. 1937 Paris)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Walter Gay" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152983/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/122731735" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Sir Alfred Gilbert</b> (1854 – 1934)
+                     <li><b><a href="pmb157286.html">Sir Alfred Gilbert</a></b> (1854 – 1934)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157286/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Charles Giron</b> (2. 4. 1850 Genf – 9. 6. 1914 Genthod)
+                     <li><b><a href="pmb151471.html">Charles Giron</a></b> (2. 4. 1850 Genf – 9. 6. 1914 Genthod)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Charles Giron" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/151471/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/116647620" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Laurent Lucien Gsell</b> (1860 – 1944)
+                     <li><b><a href="pmb157308.html">Laurent Lucien Gsell</a></b> (1860 – 1944)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157308/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Gustave Gustave Den Duyts</b> (22. 10. 1850 Ghent – 13. 2. 1897 Brüssel)
+                     <li><b><a href="pmb152951.html">Gustave Gustave Den Duyts</a></b> (22. 10. 1850 Ghent – 13. 2. 1897 Brüssel)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/Gustave Den Duyts" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152951/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/174299362" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Lowell Birge Harrison</b> (1854 – 1929)
+                     <li><b><a href="pmb157001.html">Lowell Birge Harrison</a></b> (1854 – 1929)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157001/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>George Healy</b> (15. 7. 1813 Boston, Mass. – 24. 6. 1894 Chicago)
+                     <li><b><a href="pmb152966.html">George Healy</a></b> (15. 7. 1813 Boston, Mass. – 24. 6. 1894 Chicago)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/George Peter Alexander Healy" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152966/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/129158100" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Ferdinand Heilbuth</b> (27. 6. 1826 Hamburg – 19. 11. 1889 Paris)
+                     <li><b><a href="pmb151926.html">Ferdinand Heilbuth</a></b> (27. 6. 1826 Hamburg – 19. 11. 1889 Paris)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Ferdinand Heilbuth" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/151926/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1038083508" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Frants Henningsen</b> (22. 6. 1850 Kopenhagen – 20. 3. 1908 Kopenhagen)
+                     <li><b><a href="pmb153809.html">Frants Henningsen</a></b> (22. 6. 1850 Kopenhagen – 20. 3. 1908 Kopenhagen)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/Frants Henningsen" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153809/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Henri Henri Gervex</b> (10. 9. 1852 Paris 18 Buttes-Montmartre – 7. 6. 1929 17th arrondissement of Paris)
+                     <li><b><a href="pmb152942.html">Henri Henri Gervex</a></b> (10. 9. 1852 Paris 18 Buttes-Montmartre – 7. 6. 1929 17th arrondissement of Paris)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Henri Gervex" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152942/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/119120364" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Léon Herbo</b> (8. 10. 1850 Templeuve – 19. 6. 1907 Ixelles)
+                     <li><b><a href="pmb153815.html">Léon Herbo</a></b> (8. 10. 1850 Templeuve – 19. 6. 1907 Ixelles)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/L%C3%A9on Herbo" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153815/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Hubert von Herkomer</b> (26. 5. 1849 Waal – 31. 3. 1914 Budleigh), <i>Maler</i><div id="mentions">
+                     <li><b><a href="pmb18149.html">Hubert von Herkomer</a></b> (26. 5. 1849 Waal – 31. 3. 1914 Budleigh), <i>Maler</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16105" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/18149/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Jean de la Hoese</b> (1846 – 1917)
+                     <li><b><a href="pmb157297.html">Jean de la Hoese</a></b> (1846 – 1917)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157297/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Edmund Theodor van Hove</b> (1853 – 1913)
+                     <li><b><a href="pmb157298.html">Edmund Theodor van Hove</a></b> (1853 – 1913)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157298/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Victor Hugo</b> (26. 2. 1802 Besançon – 22. 5. 1885 Paris), <i>Schriftsteller</i><div id="mentions">
+                     <li><b><a href="pmb5359.html">Victor Hugo</a></b> (26. 2. 1802 Besançon – 22. 5. 1885 Paris), <i>Schriftsteller</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb5359.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb5359.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp54881" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Victor Hugo" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/5359/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118554654" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Ernest Hébert</b> (3. 11. 1817 Grenoble – 5. 12. 1908 La Tronche)
+                     <li><b><a href="pmb152850.html">Ernest Hébert</a></b> (3. 11. 1817 Grenoble – 5. 12. 1908 La Tronche)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Ernest H%C3%A9bert" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152850/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/123315646" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Henrik Ibsen</b> (20. 3. 1828 Skien – 23. 5. 1906 Oslo), <i>Schriftsteller</i><div id="mentions">
+                     <li><b><a href="pmb11798.html">Henrik Ibsen</a></b> (20. 3. 1828 Skien – 23. 5. 1906 Oslo), <i>Schriftsteller</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11798.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16432" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11798.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11798.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11798.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp45852" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus.wienbibliothek.at/register/personen/pmb11798" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://de.wikipedia.org/wiki/Henrik Ibsen" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/11798/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118555286" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Daniel Israel</b> (1859 – 1901), <i>Maler, Landschaftsmaler</i><div id="mentions">
+                     <li><b><a href="pmb157307.html">Daniel Israel</a></b> (1859 – 1901), <i>Maler, Landschaftsmaler</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Daniel Israel" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x00281f1b" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/97301/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1012601595" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>François Jean Pierre François Lamorinière</b> († 3. 1. 1911 Antwerpen)
+                     <li><b><a href="pmb152948.html">François Jean Pierre François Lamorinière</a></b> († 3. 1. 1911 Antwerpen)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Fran%C3%A7ois Lamorini%C3%A8re" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152948/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/174235453" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Jean-François Jean-François Raffaëlli</b> (20. 4. 1850 Paris – 11. 2. 1924 Paris)
+                     <li><b><a href="pmb151756.html">Jean-François Jean-François Raffaëlli</a></b> (20. 4. 1850 Paris – 11. 2. 1924 Paris)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Jean-Fran%C3%A7ois Raffa%C3%ABlli" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/151756/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118787675" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>José Jiménez</b> (7. 2. 1837 Sevilla – 6. 5. 1903 Sevilla)
+                     <li><b><a href="pmb153063.html">José Jiménez</a></b> (7. 2. 1837 Sevilla – 6. 5. 1903 Sevilla)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/Jos%C3%A9 Jim%C3%A9nez Aranda" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153063/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118639900" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Viggo Johansen</b> (3. 1. 1851 Kopenhagen – 18. 12. 1935 Kopenhagen)
+                     <li><b><a href="pmb152896.html">Viggo Johansen</a></b> (3. 1. 1851 Kopenhagen – 18. 12. 1935 Kopenhagen)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Viggo Johansen" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152896/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1151139734" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Hilda Elisabeth Keyser</b> (1851 – 1898)
+                     <li><b><a href="pmb157291.html">Hilda Elisabeth Keyser</a></b> (1851 – 1898)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157291/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Fernand Khnopff</b> (12. 9. 1858 – 12. 11. 1921), <i>Maler, Bildhauer, Künstler</i><div id="mentions">
+                     <li><b><a href="pmb113850.html">Fernand Khnopff</a></b> (12. 9. 1858 – 12. 11. 1921), <i>Maler, Bildhauer, Künstler</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp43216" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Fernand Khnopff" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/113850/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118561871" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Kitty Kielland</b> (8. 10. 1843 Stavanger Municipality – 1. 10. 1914 Oslo)
+                     <li><b><a href="pmb152905.html">Kitty Kielland</a></b> (8. 10. 1843 Stavanger Municipality – 1. 10. 1914 Oslo)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Kitty Kielland" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152905/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1160507422" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Christian Krohg</b> (1852 – 1925), <i>Bürgermeister</i><div id="mentions">
+                     <li><b><a href="pmb157290.html">Christian Krohg</a></b> (1852 – 1925), <i>Bürgermeister</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb65079.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/65079/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Johan Krouthén</b> (2. 11. 1858 Linköping Cathedral Congregation – 19. 12. 1932 Oscar Parish)
+                     <li><b><a href="pmb152908.html">Johan Krouthén</a></b> (2. 11. 1858 Linköping Cathedral Congregation – 19. 12. 1932 Oscar Parish)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/Johan Krouth%C3%A9n" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152908/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/119284774" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Peder Krøyer</b> (23. 7. 1851 Stavanger Municipality – 21. 11. 1909 Skagen)
+                     <li><b><a href="pmb151821.html">Peder Krøyer</a></b> (23. 7. 1851 Stavanger Municipality – 21. 11. 1909 Skagen)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Peder Severin Kr%C3%B8yer" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/151821/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118987534" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Robert Kämmerer</b> (26. 1. 1870 – 1950)
+                     <li><b><a href="pmb153826.html">Robert Kämmerer</a></b> (26. 1. 1870 – 1950)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://.wikipedia.org/wiki/Category:Robert K%C3%A4mmerer" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">.w:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153826/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Walter Langley</b> (1852 – 1922)
+                     <li><b><a href="pmb157294.html">Walter Langley</a></b> (1852 – 1922)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157294/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Carl Olof Larsson</b> (28. 5. 1853 Stockholm – 22. 1. 1919 Sundborn), <i>Maler, Illustrator</i><div id="mentions">
+                     <li><b><a href="pmb8485.html">Carl Olof Larsson</a></b> (28. 5. 1853 Stockholm – 22. 1. 1919 Sundborn), <i>Maler, Illustrator</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17333" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://de.wikipedia.org/wiki/Carl Larsson" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/8485/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118569821" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Charles Laval</b> (1862 – 1894)
+                     <li><b><a href="pmb157288.html">Charles Laval</a></b> (1862 – 1894)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157288/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Grégoire Jakowlewitsch Lehmann</b> (1834 – 1901)
+                     <li><b><a href="pmb157314.html">Grégoire Jakowlewitsch Lehmann</a></b> (1834 – 1901)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157314/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Frederic Leighton</b> (3. 12. 1830 Scarborough – 25. 1. 1896 London)
+                     <li><b><a href="pmb152938.html">Frederic Leighton</a></b> (3. 12. 1830 Scarborough – 25. 1. 1896 London)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Frederic Leighton, 1. Baron Leighton" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152938/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/119423863" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Léon Lhermitte</b> (31. 7. 1844 Mont-Saint-Père – 28. 7. 1925 Paris)
+                     <li><b><a href="pmb152810.html">Léon Lhermitte</a></b> (31. 7. 1844 Mont-Saint-Père – 28. 7. 1925 Paris)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/L%C3%A9on Augustin Lhermitte" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152810/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118953532" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Max Liebermann</b> (20. 7. 1847 Berlin – 8. 2. 1935 Berlin), <i>Maler</i><div id="mentions">
-                           <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12068.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17517" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12068.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12068.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp49942" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Max Liebermann" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12068/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118572695" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
+                     <li><b><a href="pmb12068.html">Max Liebermann</a></b> (20. 7. 1847 Berlin – 8. 2. 1935 Berlin), <i>Maler</i><div id="mentions">
+                           <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12068.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17517" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12068.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12068.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp49942" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=L#DWpers0152" target="_blank"><span class="badge rounded-pill" style="background-color: #a21a17; color: white; margin-top: 4px;">Dritte Walpurgisnacht</span></a> <a href="https://de.wikipedia.org/wiki/Max Liebermann" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12068/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118572695" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Berndt Lindholm</b> (20. 8. 1841 Loviisa – 15. 5. 1914 Vasa parish)
+                     <li><b><a href="pmb153074.html">Berndt Lindholm</a></b> (20. 8. 1841 Loviisa – 15. 5. 1914 Vasa parish)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Berndt Lindholm" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153074/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1238166016" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Claude Lorrain</b> (1600 Chamagne – 23. 11. 1682 Rom)
+                     <li><b><a href="pmb152204.html">Claude Lorrain</a></b> (1600 Chamagne – 23. 11. 1682 Rom)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Claude Lorrain" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152204/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118574450" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Juan Luna y Novicio</b> (1857 – 1900)
+                     <li><b><a href="pmb157311.html">Juan Luna y Novicio</a></b> (1857 – 1900)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157311/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Henry Luyten</b> (21. 5. 1859 Roermond – 21. 1. 1945 Brasschaat)
+                     <li><b><a href="pmb153012.html">Henry Luyten</a></b> (21. 5. 1859 Roermond – 21. 1. 1945 Brasschaat)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Henry Luyten" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153012/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/117332259" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Léon Léon Germain Pelouse</b> (1. 10. 1838 Pierrelaye – 31. 7. 1891 17th arrondissement of Paris)
+                     <li><b><a href="pmb152837.html">Léon Léon Germain Pelouse</a></b> (1. 10. 1838 Pierrelaye – 31. 7. 1891 17th arrondissement of Paris)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/L%C3%A9on Germain Pelouse" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152837/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1017337470" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Walter MacEwen</b> (13. 2. 1860 Chicago – 20. 3. 1943 New York City)
+                     <li><b><a href="pmb151923.html">Walter MacEwen</a></b> (13. 2. 1860 Chicago – 20. 3. 1943 New York City)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/Walter MacEwen" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/151923/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1050965388" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Federico Madrazo</b> (9. 2. 1815 Spanien – 10. 6. 1894 Madrid)
+                     <li><b><a href="pmb153044.html">Federico Madrazo</a></b> (9. 2. 1815 Spanien – 10. 6. 1894 Madrid)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Federico de Madrazo y Kuntz" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153044/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/119424517" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Wladimir Jegorowitsch Makowski</b> (1846 – 1920)
+                     <li><b><a href="pmb157263.html">Wladimir Jegorowitsch Makowski</a></b> (1846 – 1920)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157263/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Edouard Manet</b> (25. 1. 1832 – 30. 4. 1883), <i>Maler, Radierer, Lithograf</i><div id="mentions">
+                     <li><b><a href="pmb115309.html">Edouard Manet</a></b> (25. 1. 1832 – 30. 4. 1883), <i>Maler, Radierer, Lithograf</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp49567" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/%C3%89douard Manet" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/115309/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/11857700X" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Willy Martens</b> (1. 12. 1856 Semarang City – 24. 1. 1927 Den Haag)
+                     <li><b><a href="pmb153017.html">Willy Martens</a></b> (1. 12. 1856 Semarang City – 24. 1. 1927 Den Haag)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://nl.wikipedia.org/wiki/Category:Willy Martens" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">nl:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153017/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1038079926" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Anton Mauve</b> (18. 9. 1838 Zaandam – 5. 2. 1888 Arnheim)
+                     <li><b><a href="pmb153009.html">Anton Mauve</a></b> (18. 9. 1838 Zaandam – 5. 2. 1888 Arnheim)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Anton Mauve" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153009/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118782681" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Julius Melchers</b> (11. 8. 1860 Detroit, Mich. – 30. 11. 1932 Fredericksburg)
+                     <li><b><a href="pmb152994.html">Julius Melchers</a></b> (11. 8. 1860 Detroit, Mich. – 30. 11. 1932 Fredericksburg)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Gari Melchers" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152994/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/121517896" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Catulle Mendès</b> (20. 5. 1841 Bordeaux – 8. 2. 1909 Saint-Germain-en-Laye), <i>Schriftsteller</i><div id="mentions">
+                     <li><b><a href="pmb21317.html">Catulle Mendès</a></b> (20. 5. 1841 Bordeaux – 8. 2. 1909 Saint-Germain-en-Laye), <i>Schriftsteller</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18067" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb21317.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://de.wikipedia.org/wiki/Catulle Mend%C3%A8s" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/21317/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118783203" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Constantin Meunier</b> (12. 4. 1831 Etterbeek – 4. 4. 1905 Ixelles), <i>Maler, Bildhauer</i><div id="mentions">
+                     <li><b><a href="pmb115432.html">Constantin Meunier</a></b> (12. 4. 1831 Etterbeek – 4. 4. 1905 Ixelles), <i>Maler, Bildhauer</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp50123" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Constantin Meunier" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/115432/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118733222" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>John Millais</b> (8. 6. 1829 Southampton – 13. 8. 1896 Palace Gate)
+                     <li><b><a href="pmb152165.html">John Millais</a></b> (8. 6. 1829 Southampton – 13. 8. 1896 Palace Gate)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/John Everett Millais" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152165/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118783971" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Jean-François Millet</b> (4. 10. 1814 – 20. 1. 1875), <i>Maler</i><div id="mentions">
+                     <li><b><a href="pmb115459.html">Jean-François Millet</a></b> (4. 10. 1814 – 20. 1. 1875), <i>Maler</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp50216" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Jean-Fran%C3%A7ois Millet" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/115459/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118582550" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Louis Moeller</b> (5. 8. 1855 New York City – 1930 Weehawken)
+                     <li><b><a href="pmb152986.html">Louis Moeller</a></b> (5. 8. 1855 New York City – 1930 Weehawken)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/Louis Moeller" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152986/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1078043418" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Claude Monet</b> (14. 11. 1840 – 5. 12. 1926), <i>Maler</i><div id="mentions">
+                     <li><b><a href="pmb115473.html">Claude Monet</a></b> (14. 11. 1840 – 5. 12. 1926), <i>Maler</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp50309" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Claude Monet" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/115473/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/11858345X" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Luigi Monteverde</b> (10. 9. 1841 Lugano – 2. 1. 1923 Lugano)
+                     <li><b><a href="pmb153041.html">Luigi Monteverde</a></b> (10. 9. 1841 Lugano – 2. 1. 1923 Lugano)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://.wikipedia.org/wiki/Category:Luigi Monteverde" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">.w:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153041/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1020052708" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Harry Humphrey Moore</b> (1844 – 1926)
+                     <li><b><a href="pmb157301.html">Harry Humphrey Moore</a></b> (1844 – 1926)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157301/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Henry Mosler</b> (6. 6. 1841 Opawica – 21. 4. 1920 New York City)
+                     <li><b><a href="pmb152990.html">Henry Mosler</a></b> (6. 6. 1841 Opawica – 21. 4. 1920 New York City)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Henry Mosler" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152990/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/117604089" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Gerhard Munthe</b> (1840 – 1929)
+                     <li><b><a href="pmb156736.html">Gerhard Munthe</a></b> (1840 – 1929)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/156736/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Enrique Mélida</b> (6. 4. 1838 Madrid – 28. 4. 1892 Paris)
+                     <li><b><a href="pmb153831.html">Enrique Mélida</a></b> (6. 4. 1838 Madrid – 28. 4. 1892 Paris)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Enrique M%C3%A9lida" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153831/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Narcisse Narcisse Virgilio Díaz</b> (20. 8. 1807 Spanish Empire – 18. 11. 1876 Menton)
+                     <li><b><a href="pmb152833.html">Narcisse Narcisse Virgilio Díaz</a></b> (20. 8. 1807 Spanish Empire – 18. 11. 1876 Menton)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Narcisso Virgilio D%C3%ADaz de la Pe%C3%B1a" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152833/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/130150495" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Luigi Nono</b> (8. 12. 1850 Terminal Fusina – 17. 10. 1918 Venedig)
+                     <li><b><a href="pmb153059.html">Luigi Nono</a></b> (8. 12. 1850 Terminal Fusina – 17. 10. 1918 Venedig)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/Luigi Nono (painter)" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153059/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118982362" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Norbert Norbert Goeneutte</b> (23. 7. 1854 Paris – 9. 10. 1894 Auvers-sur-Oise)
+                     <li><b><a href="pmb152847.html">Norbert Norbert Goeneutte</a></b> (23. 7. 1854 Paris – 9. 10. 1894 Auvers-sur-Oise)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Norbert Goeneutte" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152847/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/161106099" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Karl Nordström</b> (11. 7. 1855 parròquia de Stenkyrka – 16. 8. 1923 Drottningholm Palace)
+                     <li><b><a href="pmb152857.html">Karl Nordström</a></b> (11. 7. 1855 parròquia de Stenkyrka – 16. 8. 1923 Drottningholm Palace)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Karl Nordstr%C3%B6m" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152857/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/119197006" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Eilert Normann</b> (1. 5. 1848 Bodin Municipality – 26. 12. 1918 Oslo)
+                     <li><b><a href="pmb152913.html">Eilert Normann</a></b> (1. 5. 1848 Bodin Municipality – 26. 12. 1918 Oslo)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Adelsteen Normann" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152913/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/117587206" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Federico Olaría</b> (1849 – 1898)
+                     <li><b><a href="pmb157309.html">Federico Olaría</a></b> (1849 – 1898)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157309/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Hanna Pauli</b> (13. 1. 1864 Stockholm – 29. 12. 1940 Nacka församling)
+                     <li><b><a href="pmb152862.html">Hanna Pauli</a></b> (13. 1. 1864 Stockholm – 29. 12. 1940 Nacka församling)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Hanna Pauli" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152862/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/120724162" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Georg Vilhelm Pauli</b> (2. 7. 1855 Jönköpings Kristina församling – 28. 11. 1935 Botkyrka parish)
+                     <li><b><a href="pmb152891.html">Georg Vilhelm Pauli</a></b> (2. 7. 1855 Jönköpings Kristina församling – 28. 11. 1935 Botkyrka parish)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Georg Pauli" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152891/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/119255766" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Charles Pearce</b> (13. 10. 1851 Boston, Mass. – 18. 5. 1914 Auvers-sur-Oise)
+                     <li><b><a href="pmb151916.html">Charles Pearce</a></b> (13. 10. 1851 Boston, Mass. – 18. 5. 1914 Auvers-sur-Oise)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Charles Sprague Pearce" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/151916/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1223634639" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Anna Sofie Petersen</b> (1845 – 1910)
+                     <li><b><a href="pmb157293.html">Anna Sofie Petersen</a></b> (1845 – 1910)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157293/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Benjamin Curtis Porter</b> (1845 – 1908)
+                     <li><b><a href="pmb157305.html">Benjamin Curtis Porter</a></b> (1845 – 1908)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157305/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Nicolas Poussin</b> († 19. 11. 1665 Rom)
+                     <li><b><a href="pmb152773.html">Nicolas Poussin</a></b> († 19. 11. 1665 Rom)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Nicolas Poussin" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152773/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118596047" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Pierre Puvis de Chavannes</b> (14. 12. 1824 – 24. 10. 1898), <i>Maler</i><div id="mentions">
+                     <li><b><a href="pmb115790.html">Pierre Puvis de Chavannes</a></b> (14. 12. 1824 – 24. 10. 1898), <i>Maler</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp51899" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Pierre Puvis de Chavannes" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/115790/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118846027" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Théodore Ralli</b> (16. 2. 1852 Istanbul – 2. 10. 1909 Lausanne)
+                     <li><b><a href="pmb153066.html">Théodore Ralli</a></b> (16. 2. 1852 Istanbul – 2. 10. 1909 Lausanne)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Th%C3%A9odore Jacques Ralli" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153066/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1075387752" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Alexandre Rapin</b> (21. 6. 1839 Noroy-le-Bourg – 21. 11. 1889 7. Arrondissement (Palais-Bourbon))
+                     <li><b><a href="pmb153783.html">Alexandre Rapin</a></b> (21. 6. 1839 Noroy-le-Bourg – 21. 11. 1889 7. Arrondissement (Palais-Bourbon))
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://fr.wikipedia.org/wiki/Alexandre Rapin" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">fr:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153783/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>John Reid</b> , <i>Herausgeber</i><div id="mentions">
+                     <li><b><a href="pmb28466.html">John Reid</a></b> , <i>Herausgeber</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb28466.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp47009" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/28466/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Benjamin Franklin Reinhart</b> (1829 –  1885)
+                     <li><b><a href="pmb157302.html">Benjamin Franklin Reinhart</a></b> (1829 –  1885)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157302/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Henri Rivière</b> (11. 3. 1864 Paris – 24. 8. 1951 Sucy-en-Brie), <i>Maler, Radierer, Künstler, Lithograf, Holzschneider</i><div id="mentions">
+                     <li><b><a href="pmb154143.html">Henri Rivière</a></b> (11. 3. 1864 Paris – 24. 8. 1951 Sucy-en-Brie), <i>Maler, Radierer, Künstler, Lithograf, Holzschneider</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp52313" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Henri Rivi%C3%A8re (Maler)" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/115853/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/119322919" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Jean-Jacques Rousseau</b> (28. 6. 1712 Genf – 2. 7. 1778 Ermenonville), <i>Philosoph</i><div id="mentions">
+                     <li><b><a href="pmb12582.html">Jean-Jacques Rousseau</a></b> (28. 6. 1712 Genf – 2. 7. 1778 Ermenonville), <i>Philosoph</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19439" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12582.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12582.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp46781" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus.wienbibliothek.at/register/personen/pmb12582" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://de.wikipedia.org/wiki/Jean-Jacques Rousseau" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12582/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118603426" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Louis George Eénor Roy</b> (1862 – 1907)
+                     <li><b><a href="pmb157289.html">Louis George Eénor Roy</a></b> (1862 – 1907)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157289/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Hugo Salmson</b> (7. 7. 1843 Storkyrkoförsamlingen – 1. 8. 1894 Lund Cathedral parish)
+                     <li><b><a href="pmb152878.html">Hugo Salmson</a></b> (7. 7. 1843 Storkyrkoförsamlingen – 1. 8. 1894 Lund Cathedral parish)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Hugo Salmson" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152878/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1089650345" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>John Singer Sargent</b> (1. 12. 1856 – 15. 4. 1925), <i>Maler, Grafiker, Bildhauer, Künstler, Lithograf</i><div id="mentions">
+                     <li><b><a href="pmb117066.html">John Singer Sargent</a></b> (1. 12. 1856 – 15. 4. 1925), <i>Maler, Grafiker, Bildhauer, Künstler, Lithograf</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp58873" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/John Singer Sargent" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/117066/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118794582" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Thérèse Schwartze</b> (20. 12. 1851 Amsterdam – 23. 12. 1918 Amsterdam)
+                     <li><b><a href="pmb152998.html">Thérèse Schwartze</a></b> (20. 12. 1851 Amsterdam – 23. 12. 1918 Amsterdam)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Th%C3%A9r%C3%A8se Schwartze" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152998/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/123038448" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Giovanni Segantini</b> (15. 1. 1858 Arco – 28. 9. 1899 Schafberg (Pontresina)), <i>Maler</i><div id="mentions">
+                     <li><b><a href="pmb9845.html">Giovanni Segantini</a></b> (15. 1. 1858 Arco – 28. 9. 1899 Schafberg (Pontresina)), <i>Maler</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20020" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp53162" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Giovanni Segantini" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x002848f8" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/9845/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118612700" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Charles Shannon</b> (26. 4. 1863 Sleaford – 18. 3. 1937 Kew)
+                     <li><b><a href="pmb152930.html">Charles Shannon</a></b> (26. 4. 1863 Sleaford – 18. 3. 1937 Kew)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/Charles Haslewood Shannon" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152930/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/122124057" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Otto Sinding</b> (20. 12. 1842 Kongsberg Municipality – 22. 11. 1909 München)
+                     <li><b><a href="pmb152921.html">Otto Sinding</a></b> (20. 12. 1842 Kongsberg Municipality – 22. 11. 1909 München)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Otto Sinding" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152921/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/117401285" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Christian Skredsvig</b> (12. 3. 1854 Modum – 19. 1. 1924 Eggedal)
+                     <li><b><a href="pmb152925.html">Christian Skredsvig</a></b> (12. 3. 1854 Modum – 19. 1. 1924 Eggedal)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/Christian Skredsvig" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152925/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/141108533" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Alfred Stevens</b> (11. 5. 1823 Brüssel – 24. 8. 1906 9th arrondissement of Paris)
+                     <li><b><a href="pmb151713.html">Alfred Stevens</a></b> (11. 5. 1823 Brüssel – 24. 8. 1906 9th arrondissement of Paris)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Alfred Stevens" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/151713/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118798790" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Julius Stewart</b> (6. 9. 1855 Philadelphia – 5. 1. 1919 Paris)
+                     <li><b><a href="pmb153735.html">Julius Stewart</a></b> (6. 9. 1855 Philadelphia – 5. 1. 1919 Paris)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Julius Stewart" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153735/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Hippolyte Taine</b> (21. 4. 1828 Vouziers – 5. 3. 1893 Paris), <i>Philosoph, Geschichtsschreiber</i><div id="mentions">
+                     <li><b><a href="pmb12913.html">Hippolyte Taine</a></b> (21. 4. 1828 Vouziers – 5. 3. 1893 Paris), <i>Philosoph, Geschichtsschreiber</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12913.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20622" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12913.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12913.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp53911" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Hippolyte Taine" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12913/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/11862055X" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Carl Christian Thomsen</b> (6. 4. 1847 Kopenhagen – 4. 10. 1912 Kopenhagen)
+                     <li><b><a href="pmb152899.html">Carl Christian Thomsen</a></b> (6. 4. 1847 Kopenhagen – 4. 10. 1912 Kopenhagen)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/Carl Thomsen" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152899/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/120628157X" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Tizian</b>,   (zwischen 1488 und 1490 Pieve di Cadore – 27. 8. 1576 Venedig), <i>Maler</i><div id="mentions">
+                     <li><b><a href="pmb26079.html">Tizian</a></b>,   (zwischen 1488 und 1490 Pieve di Cadore – 27. 8. 1576 Venedig), <i>Maler</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb26079.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20759" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb26079.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp54156" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus.wienbibliothek.at/register/personen/pmb26079" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/26079/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Constant Troyon</b> (28. 8. 1810 – 20. 3. 1865), <i>Maler</i><div id="mentions">
+                     <li><b><a href="pmb116297.html">Constant Troyon</a></b> (28. 8. 1810 – 20. 3. 1865), <i>Maler</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp54275" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Constant Troyon" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/116297/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/12357353X" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Auguste Joseph Tryphème</b> (1836 – 1898)
+                     <li><b><a href="pmb157285.html">Auguste Joseph Tryphème</a></b> (1836 – 1898)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157285/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Ivan Sergeevič Turgenev</b> (9. 11. 1818 Oryol – 3. 9. 1883 Bougival), <i>Schriftsteller</i><div id="mentions">
+                     <li><b><a href="pmb26238.html">Ivan Sergeevič Turgenev</a></b> (9. 11. 1818 Oryol – 3. 9. 1883 Bougival), <i>Schriftsteller</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20837" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb26238.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp54319" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Iwan Sergejewitsch Turgenew" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/26238/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118643010" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Louis Tytgadt</b> (27. 4. 1841 Lovendegem – 9. 5. 1918 Ghent)
+                     <li><b><a href="pmb153819.html">Louis Tytgadt</a></b> (27. 4. 1841 Lovendegem – 9. 5. 1918 Ghent)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/Louis Tytgadt" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153819/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Fritz von Uhde</b>,  geboren Friedrich Uhde (22. 5. 1848 Limbach-Oberfrohna – 25. 2. 1911 München), <i>Maler</i><div id="mentions">
+                     <li><b><a href="pmb5776.html">Fritz von Uhde</a></b>,  geboren Friedrich Uhde (22. 5. 1848 Limbach-Oberfrohna – 25. 2. 1911 München), <i>Maler</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb5776.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://de.wikipedia.org/wiki/Fritz von Uhde" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/5776/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118816632" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Charles Ulrich</b> (18. 10. 1858 New York City – 15. 5. 1908 Berlin)
+                     <li><b><a href="pmb152976.html">Charles Ulrich</a></b> (18. 10. 1858 New York City – 15. 5. 1908 Berlin)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Charles Frederic Ulrich" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152976/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1043227024" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Eugène Laurent Vail</b> (1857 – 1934)
+                     <li><b><a href="pmb157303.html">Eugène Laurent Vail</a></b> (1857 – 1934)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157303/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Alfred Verhaeren</b> (1849 – 1924)
+                     <li><b><a href="pmb157296.html">Alfred Verhaeren</a></b> (1849 – 1924)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157296/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Jan Verhas</b> (9. 1. 1834 Dendermonde – 31. 10. 1896 Brüssel)
+                     <li><b><a href="pmb153798.html">Jan Verhas</a></b> (9. 1. 1834 Dendermonde – 31. 10. 1896 Brüssel)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Jan Verhas" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153798/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Hubert Vos</b> (15. 2. 1855 Maastricht – 8. 1. 1935 New York City)
+                     <li><b><a href="pmb153021.html">Hubert Vos</a></b> (15. 2. 1855 Maastricht – 8. 1. 1935 New York City)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Hubert Vos" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153021/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1034461907" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Alfred Wahlberg</b> (13. 2. 1834 Stockholm – 4. 10. 1906 Tranås)
+                     <li><b><a href="pmb152917.html">Alfred Wahlberg</a></b> (13. 2. 1834 Stockholm – 4. 10. 1906 Tranås)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Alfred Wahlberg" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152917/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1043030387" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Edgar Melville Ward</b> (1839 – 1915)
+                     <li><b><a href="pmb157306.html">Edgar Melville Ward</a></b> (1839 – 1915)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/157306/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>George Watts</b> (23. 2. 1817 London – 1. 7. 1904 Compton)
+                     <li><b><a href="pmb151949.html">George Watts</a></b> (23. 2. 1817 London – 1. 7. 1904 Compton)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/George Frederic Watts" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/151949/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118806351" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Edwin Weeks</b> (1849 Boston, Mass. – 17. 11. 1903 Paris)
+                     <li><b><a href="pmb152959.html">Edwin Weeks</a></b> (1849 Boston, Mass. – 17. 11. 1903 Paris)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Edwin Lord Weeks" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152959/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1017151601" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Julian Weir</b> (30. 8. 1852 West Point, NY – 8. 12. 1919 New York City)
+                     <li><b><a href="pmb152973.html">Julian Weir</a></b> (30. 8. 1852 West Point, NY – 8. 12. 1919 New York City)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Julian Alden Weir" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152973/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/130865389" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Gustav Wentzel</b> (7. 10. 1859 Oslo – 10. 2. 1927 Lillehammer Municipality)
+                     <li><b><a href="pmb153805.html">Gustav Wentzel</a></b> (7. 10. 1859 Oslo – 10. 2. 1927 Lillehammer Municipality)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/Gustav Wentzel" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153805/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Erik Werenskiold</b> (11. 2. 1855 Eidskog Municipality – 23. 11. 1938 Oslo)
+                     <li><b><a href="pmb152883.html">Erik Werenskiold</a></b> (11. 2. 1855 Eidskog Municipality – 23. 11. 1938 Oslo)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Erik Werenskiold" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152883/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/119429071" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>James McNeill Whistler</b> (11. 7. 1834 Lowell – 17. 7. 1903 Chelsea), <i>Maler</i><div id="mentions">
+                     <li><b><a href="pmb88079.html">James McNeill Whistler</a></b> (11. 7. 1834 Lowell – 17. 7. 1903 Chelsea), <i>Maler</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp55433" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/James McNeill Whistler" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/88079/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118632124" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Willem Willem Bastiaan Tholen</b> (13. 2. 1860 Amsterdam – 5. 12. 1931 Den Haag)
+                     <li><b><a href="pmb153025.html">Willem Willem Bastiaan Tholen</a></b> (13. 2. 1860 Amsterdam – 5. 12. 1931 Den Haag)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Willem Bastiaan Tholen" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153025/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/129567256" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>William William Turner Dannat</b> (9. 7. 1853 Hempstead – 12. 3. 1929 Monte Carlo)
+                     <li><b><a href="pmb151720.html">William William Turner Dannat</a></b> (9. 7. 1853 Hempstead – 12. 3. 1929 Monte Carlo)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/William Turner Dannat" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/151720/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1078266131" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Federico Zandomeneghi</b> (2. 6. 1841 Venedig – 31. 12. 1917 Paris)
+                     <li><b><a href="pmb153047.html">Federico Zandomeneghi</a></b> (2. 6. 1841 Venedig – 31. 12. 1917 Paris)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Federico Zandomeneghi" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/153047/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118881728" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Émile Zola</b> (2. 4. 1840 Paris – 29. 9. 1902 Paris), <i>Schriftsteller, Journalist</i><div id="mentions">
+                     <li><b><a href="pmb13194.html">Émile Zola</a></b> (2. 4. 1840 Paris – 29. 9. 1902 Paris), <i>Schriftsteller, Journalist</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21578" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13194.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb13194.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp42655" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/%C3%89mile Zola" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/13194/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118637223" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Anders Zorn</b> (18. 2. 1860 – 22. 8. 1920), <i>Maler, Grafiker, Bildhauer, Künstler, Stifter</i><div id="mentions">
+                     <li><b><a href="pmb116646.html">Anders Zorn</a></b> (18. 2. 1860 – 22. 8. 1920), <i>Maler, Grafiker, Bildhauer, Künstler, Stifter</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp55895" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Anders Zorn" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/116646/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118773178" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Jan van Beers</b> (27. 3. 1852 Lier – 17. 11. 1927 Loiret)
+                     <li><b><a href="pmb151911.html">Jan van Beers</a></b> (27. 3. 1852 Lier – 17. 11. 1927 Loiret)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Jan Van Beers (Maler)" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/151911/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/132884569" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Allan Österlind</b> (2. 11. 1855 Stockholm – 23. 6. 1938 Juvisy-sur-Orge)
+                     <li><b><a href="pmb152874.html">Allan Österlind</a></b> (2. 11. 1855 Stockholm – 23. 6. 1938 Juvisy-sur-Orge)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://en.wikipedia.org/wiki/Allan %C3%96sterlind" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">en:Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/152874/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/1111680663" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>

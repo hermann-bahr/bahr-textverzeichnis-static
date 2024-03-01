@@ -8,23 +8,15 @@
    <meta name="msapplication-TileColor" content="#ffffff" />
    <meta name="msapplication-TileImage" content="dist/fundament/images/fundament_logo.svg" />
    <link rel="icon" type="image/svg+xml" href="dist/fundament/images/fundament_logo.svg" sizes="any" />
-   <link rel="shortcut icon" href="data/images/symbole/favicon.png" />
-   <link rel="shortcut icon" href="../img/favicon/favicon.png" />
-   <link rel="icon" href="./img/favicon/favicon.png" />
-   <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png" />
-   <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png" />
-   <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png" />
-   <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png" />
-   <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png" />
-   <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png" />
-   <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png" />
-   <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png" />
-   <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png" />
-   <link rel="icon" type="image/png" sizes="192x192" href="./img/favicon/android-icon-192x192.png" />
-   <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png" />
-   <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png" />
-   <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png" />
-   <link rel="profile" href="http://gmpg.org/xfn/11" />
+   <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
+   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
+   <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png" />
+   <link rel="manifest" href="/img/site.webmanifest" />
+   <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5" />
+   <link rel="shortcut icon" href="/img/favicon.ico" />
+   <meta name="msapplication-TileColor" content="#da532c" />
+   <meta name="msapplication-config" content="/img/browserconfig.xml" />
+   <meta name="theme-color" content="#ffffff" />
    <title>bahr-textverzeichnis</title>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" />
@@ -35,16 +27,16 @@
             _paq.push([ 'trackPageView']);
             _paq.push([ 'enableLinkTracking']);
             (function () {
-            var u = "https://matomo.acdh.oeaw.ac.at/";
-            _paq.push([ 'setTrackerUrl', u + 'piwik.php']);
-            _paq.push([ 'setSiteId', '246']);
+                var u = "https://matomo.acdh.oeaw.ac.at/";
+                _paq.push([ 'setTrackerUrl', u + 'piwik.php']);
+                _paq.push([ 'setSiteId', '246']);
             var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
             g.type = 'text/javascript';
             g. async = true;
             g.defer = true;
             g.src = u + 'piwik.js';
             s.parentNode.insertBefore(g, s);
-            })();</script><body class="page">
+        })();</script><body class="page">
       <div class="hfeed site" id="page">
          <nav class="navbar navbar-expand-md" style="padding-top:1px;">
             <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="img/bahr-textverzeichnis.svg" class="img-fluid" title="Bahr: Textverzeichnis" alt="Bahr: Textverzeichnis" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border: none;"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse " id="navbarNav">
@@ -115,7 +107,14 @@
                            </tr>
                            <tr>
                               <th>Erschienen</th>
-                              <td>11.4.1902<br />Jahrgang 36<br />Nummer 99<br />Seite 1–3<br /></td>
+                              <td>
+                                 <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
+                                    <li>11.4.1902</li>
+                                    <li>Jahrgang 36</li>
+                                    <li>Nummer 99</li>
+                                    <li>Seite 1–3</li>
+                                 </ul>
+                              </td>
                            </tr>
                            <tr>
                               <th>Textanfang</th>
@@ -145,43 +144,43 @@
                <div class="card-footer">
                   <h3>Erwähnte Personen</h3>
                   <ul>
-                     <li><b>Henrik Ibsen</b> (20. 3. 1828 Skien – 23. 5. 1906 Oslo), <i>Schriftsteller</i><div id="mentions">
+                     <li><b><a href="pmb11798.html">Henrik Ibsen</a></b> (20. 3. 1828 Skien – 23. 5. 1906 Oslo), <i>Schriftsteller</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11798.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16432" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11798.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11798.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11798.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp45852" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus.wienbibliothek.at/register/personen/pmb11798" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://de.wikipedia.org/wiki/Henrik Ibsen" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/11798/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118555286" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Heinrich Keppler</b> (1857 – 1896)
+                     <li><b><a href="pmb156557.html">Heinrich Keppler</a></b> (1857 – 1896)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/156557/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Rudolf Lothar</b>,  geboren Rudolph Lothar Spitzer  (23.2.1865 Budapest – 2.10.1943 Budapest), <i>Schriftsteller, Journalist, Theaterdirektor</i><div id="mentions">
+                     <li><b><a href="pmb2570.html">Rudolf Lothar</a></b>,  geboren Rudolph Lothar Spitzer,   (23.2.1865 Budapest – 2.10.1943 Budapest), <i>Schriftsteller, Journalist, Theaterdirektor</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2570.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17696" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2570.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2570.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2570.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp52589" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Rudolf Lothar" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x00284ceb" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/2570/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/119545063" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>B. Ording</b> 
+                     <li><b><a href="pmb156555.html">B. Ording</a></b> 
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/156555/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Emil Reich</b> (29. 10. 1864 Korycany – 13. 12. 1940 Wien)
+                     <li><b><a href="pmb9449.html">Emil Reich</a></b> (29. 10. 1864 Korycany – 13. 12. 1940 Wien)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19115" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb9449.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp40926" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Emil Reich (Literaturwissenschaftler)" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x002840bc" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/9449/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/116394382" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Peter Rosegger</b> (31. 7. 1843 Alpl – 26. 6. 1918 Krieglach), <i>Schriftsteller</i><div id="mentions">
+                     <li><b><a href="pmb12551.html">Peter Rosegger</a></b> (31. 7. 1843 Alpl – 26. 6. 1918 Krieglach), <i>Schriftsteller</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12551.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19354" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12551.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12551.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12551.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp52473" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Peter Rosegger" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x00284301" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12551/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118602667" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Friedrich von Schiller</b> (10. 11. 1759 Marbach am Neckar – 9. 5. 1805 Weimar), <i>Schriftsteller, Historiker, Philosoph</i><div id="mentions">
-                           <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12654.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19694" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12654.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12654.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12654.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp43876" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus.wienbibliothek.at/register/personen/pmb12654" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://de.wikipedia.org/wiki/Friedrich Schiller" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12654/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118607626" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
+                     <li><b><a href="pmb12654.html">Friedrich von Schiller</a></b> (10. 11. 1759 Marbach am Neckar – 9. 5. 1805 Weimar), <i>Schriftsteller, Historiker, Philosoph</i><div id="mentions">
+                           <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12654.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19694" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12654.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12654.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12654.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp43876" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus.wienbibliothek.at/register/personen/pmb12654" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=S#DWpers0207" target="_blank"><span class="badge rounded-pill" style="background-color: #a21a17; color: white; margin-top: 4px;">Dritte Walpurgisnacht</span></a> <a href="https://de.wikipedia.org/wiki/Friedrich Schiller" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12654/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118607626" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Wilhelm Schneider</b> (1847 – 1903)
+                     <li><b><a href="pmb156556.html">Wilhelm Schneider</a></b> (1847 – 1903)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/156556/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Adolf von Wilbrandt</b> (24. 8. 1837 Rostock – 10. 6. 1911 Rostock), <i>Schriftsteller, Theaterleiter, Schauspieler, Theaterintendant</i><div id="mentions">
+                     <li><b><a href="pmb5208.html">Adolf von Wilbrandt</a></b> (24. 8. 1837 Rostock – 10. 6. 1911 Rostock), <i>Schriftsteller, Theaterleiter, Schauspieler, Theaterintendant</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21319" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb5208.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb5208.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp37851" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Adolf von Wilbrandt" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/5208/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118807250" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>

@@ -8,23 +8,15 @@
    <meta name="msapplication-TileColor" content="#ffffff" />
    <meta name="msapplication-TileImage" content="dist/fundament/images/fundament_logo.svg" />
    <link rel="icon" type="image/svg+xml" href="dist/fundament/images/fundament_logo.svg" sizes="any" />
-   <link rel="shortcut icon" href="data/images/symbole/favicon.png" />
-   <link rel="shortcut icon" href="../img/favicon/favicon.png" />
-   <link rel="icon" href="./img/favicon/favicon.png" />
-   <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png" />
-   <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png" />
-   <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png" />
-   <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png" />
-   <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png" />
-   <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png" />
-   <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png" />
-   <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png" />
-   <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png" />
-   <link rel="icon" type="image/png" sizes="192x192" href="./img/favicon/android-icon-192x192.png" />
-   <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png" />
-   <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png" />
-   <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png" />
-   <link rel="profile" href="http://gmpg.org/xfn/11" />
+   <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
+   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
+   <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png" />
+   <link rel="manifest" href="/img/site.webmanifest" />
+   <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5" />
+   <link rel="shortcut icon" href="/img/favicon.ico" />
+   <meta name="msapplication-TileColor" content="#da532c" />
+   <meta name="msapplication-config" content="/img/browserconfig.xml" />
+   <meta name="theme-color" content="#ffffff" />
    <title>bahr-textverzeichnis</title>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" />
@@ -35,16 +27,16 @@
             _paq.push([ 'trackPageView']);
             _paq.push([ 'enableLinkTracking']);
             (function () {
-            var u = "https://matomo.acdh.oeaw.ac.at/";
-            _paq.push([ 'setTrackerUrl', u + 'piwik.php']);
-            _paq.push([ 'setSiteId', '246']);
+                var u = "https://matomo.acdh.oeaw.ac.at/";
+                _paq.push([ 'setTrackerUrl', u + 'piwik.php']);
+                _paq.push([ 'setSiteId', '246']);
             var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
             g.type = 'text/javascript';
             g. async = true;
             g.defer = true;
             g.src = u + 'piwik.js';
             s.parentNode.insertBefore(g, s);
-            })();</script><body class="page">
+        })();</script><body class="page">
       <div class="hfeed site" id="page">
          <nav class="navbar navbar-expand-md" style="padding-top:1px;">
             <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="img/bahr-textverzeichnis.svg" class="img-fluid" title="Bahr: Textverzeichnis" alt="Bahr: Textverzeichnis" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border: none;"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse " id="navbarNav">
@@ -109,7 +101,14 @@
                            </tr>
                            <tr>
                               <th>Erschienen</th>
-                              <td>Leipzig<br />Insel<br />1921<br />Seite 185–202<br /></td>
+                              <td>
+                                 <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
+                                    <li>Leipzig</li>
+                                    <li>Insel</li>
+                                    <li>1921</li>
+                                    <li>Seite 185–202</li>
+                                 </ul>
+                              </td>
                            </tr>
                            <tr>
                               <th>Textanfang</th>
@@ -129,14 +128,16 @@
                            <tr>
                               <th>Weitere Drucke (Periodika)</th>
                               <td>
-                                 <p>Als »<a href="pmb128047.html"><span style="text-style:italic">Das österreichische Staats- und Reichsproblem. I</span></a>« in: <a href="toc_pmb122111.html">Preußische Jahrbücher</a>, Jg. 183 (1921) #1, S. 1–13
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    </p>
+                                 <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
+                                    <li>Als »<a href="pmb128047.html"><span style="text-style:italic">Das österreichische Staats- und Reichsproblem. I</span></a>« in: <a href="toc_pmb122111.html">Preußische Jahrbücher</a>, Jg. 183 (1921) #1, S. 1–13
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       </li>
+                                 </ul>
                               </td>
                            </tr>
                            <tr>
@@ -159,207 +160,207 @@
                <div class="card-footer">
                   <h3>Erwähnte Personen</h3>
                   <ul>
-                     <li><b>Albert A. V. Dicey</b> (4. 2. 1835 Claybrooke Magna – 7. 4. 1922 Oxford)
+                     <li><b><a href="pmb150232.html">Albert A. V. Dicey</a></b> (4. 2. 1835 Claybrooke Magna – 7. 4. 1922 Oxford)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Albert Venn Dicey" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/150232/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/11557607X" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Alexander von Bach</b> (1813 – 1893)
+                     <li><b><a href="pmb155517.html">Alexander von Bach</a></b> (1813 – 1893)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/155517/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Hilaire Belloc</b> (27. 7. 1870 – 16. 7. 1953), <i>Schriftsteller</i><div id="mentions">
+                     <li><b><a href="pmb114555.html">Hilaire Belloc</a></b> (27. 7. 1870 – 16. 7. 1953), <i>Schriftsteller</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp46082" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Hilaire Belloc" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/114555/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118658077" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Otto von Bismarck</b> (1. 4. 1815 Schönhausen – 30. 7. 1898 Friedrichsruh), <i>Politiker</i><div id="mentions">
-                           <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13749" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10943.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp39266" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus.wienbibliothek.at/register/personen/pmb10943" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://de.wikipedia.org/wiki/Otto von Bismarck" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/10943/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/11851136X" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
+                     <li><b><a href="pmb10943.html">Otto von Bismarck</a></b> (1. 4. 1815 Schönhausen – 30. 7. 1898 Friedrichsruh), <i>Politiker</i><div id="mentions">
+                           <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13749" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10943.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp39266" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus.wienbibliothek.at/register/personen/pmb10943" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=B#DWpers0021" target="_blank"><span class="badge rounded-pill" style="background-color: #a21a17; color: white; margin-top: 4px;">Dritte Walpurgisnacht</span></a> <a href="https://de.wikipedia.org/wiki/Otto von Bismarck" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/10943/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/11851136X" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Carl Friedrich Wilhelm Duncker</b> (1781 – 1869)
+                     <li><b><a href="pmb155513.html">Carl Friedrich Wilhelm Duncker</a></b> (1781 – 1869)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/155513/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Francis Edgeworth</b> (8. 2. 1845 County Longford – 13. 2. 1926 Oxford)
+                     <li><b><a href="pmb150236.html">Francis Edgeworth</a></b> (8. 2. 1845 County Longford – 13. 2. 1926 Oxford)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Francis Ysidro Edgeworth" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/150236/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/119111411" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Charles William Eliot</b> (1834 – 1926)
+                     <li><b><a href="pmb155515.html">Charles William Eliot</a></b> (1834 – 1926)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/155515/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Adolf Exner</b> (5. 2. 1841 – 10. 9. 1894), <i>Jurist</i><div id="mentions">
+                     <li><b><a href="pmb117220.html">Adolf Exner</a></b> (5. 2. 1841 – 10. 9. 1894), <i>Jurist</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp37807" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Adolf Exner" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x002814c8" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/117220/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/11896061X" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>- Ferdinand I., Österreich, Kaiser</b> (19. 4. 1793 – 29. 6. 1875)
+                     <li><b><a href="pmb114844.html">- Ferdinand I., Österreich, Kaiser</a></b> (19. 4. 1793 – 29. 6. 1875)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp47372" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Ferdinand I. (%C3%96sterreich)" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x00281545" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/114844/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118686747" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Ferdinand Ferdinand II, Holy Roman Emperor</b> (9. 7. 1578 Graz – 15. 2. 1637 Wien)
+                     <li><b><a href="pmb149277.html">Ferdinand Ferdinand II, Holy Roman Emperor</a></b> (9. 7. 1578 Graz – 15. 2. 1637 Wien)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Ferdinand II. (HRR)" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/149277/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118532510" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>- Franz II., Heiliges Römisches Reich, Kaiser</b> (12. 2. 1768 – 2. 3. 1835)
+                     <li><b><a href="pmb146302.html">- Franz II., Heiliges Römisches Reich, Kaiser</a></b> (12. 2. 1768 – 2. 3. 1835)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp43506" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Franz II. (HRR)" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/146302/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118534955" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Franz Joseph I. von Österreich-Ungarn</b> (18. 8. 1830 Wien – 21. 11. 1916 Wien), <i>Kaiser</i><div id="mentions">
+                     <li><b><a href="pmb2513.html">Franz Joseph I. von Österreich-Ungarn</a></b> (18. 8. 1830 Wien – 21. 11. 1916 Wien), <i>Kaiser</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2513.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15150" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2513.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2513.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp43514" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus.wienbibliothek.at/register/personen/pmb2513" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://de.wikipedia.org/wiki/Franz Joseph I." target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x0028162d" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/2513/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118535013" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Heinrich Friedjung</b> (18. 1. 1851 Roštín – 14. 7. 1920 Wien), <i>Historiker</i><div id="mentions">
+                     <li><b><a href="pmb11384.html">Heinrich Friedjung</a></b> (18. 1. 1851 Roštín – 14. 7. 1920 Wien), <i>Historiker</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15212" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11384.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11384.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11384.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp41165" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus.wienbibliothek.at/register/personen/pmb11384" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://de.wikipedia.org/wiki/Heinrich Friedjung" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x00281665" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/11384/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/119480700" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Otto Gierke</b> (11. 1. 1841 – 10. 10. 1921), <i>Historiker, Richter, Jurist, Hochschullehrer</i><div id="mentions">
+                     <li><b><a href="pmb115589.html">Otto Gierke</a></b> (11. 1. 1841 – 10. 10. 1921), <i>Historiker, Richter, Jurist, Hochschullehrer</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp51005" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Otto von Gierke" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/115589/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118539205" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Franz Grillparzer</b> (15. 1. 1791 Wien – 21. 1. 1872 Wien), <i>Schriftsteller, Beamter</i><div id="mentions">
-                           <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11518.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15661" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11518.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11518.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11518.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp43482" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus.wienbibliothek.at/register/personen/pmb11518" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://de.wikipedia.org/wiki/Franz Grillparzer" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x002818d2" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/11518/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118542192" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
+                     <li><b><a href="pmb11518.html">Franz Grillparzer</a></b> (15. 1. 1791 Wien – 21. 1. 1872 Wien), <i>Schriftsteller, Beamter</i><div id="mentions">
+                           <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11518.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15661" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11518.html" target="_blank"><span class="badge rounded-pill" style="background-color: #022954; color: white; margin-top: 4px;">Leseliste</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11518.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11518.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp43482" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus.wienbibliothek.at/register/personen/pmb11518" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=G#DWpers1208" target="_blank"><span class="badge rounded-pill" style="background-color: #a21a17; color: white; margin-top: 4px;">Dritte Walpurgisnacht</span></a> <a href="https://de.wikipedia.org/wiki/Franz Grillparzer" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x002818d2" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/11518/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118542192" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>John Lawrence Le Breton Hammond</b> (1872 – 1949)
+                     <li><b><a href="pmb155514.html">John Lawrence Le Breton Hammond</a></b> (1872 – 1949)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/155514/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Peter Humblot</b> (13. 3. 1779 Berlin – 11. 12. 1828 Berlin)
+                     <li><b><a href="pmb150226.html">Peter Humblot</a></b> (13. 3. 1779 Berlin – 11. 12. 1828 Berlin)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Peter Humblot" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/150226/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/137741154" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Josef II.</b> (13. 3. 1741 Wien – 20. 2. 1790 Wien), <i>Kaiser</i><div id="mentions">
+                     <li><b><a href="pmb3084.html">Josef II.</a></b> (13. 3. 1741 Wien – 20. 2. 1790 Wien), <i>Kaiser</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16586" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb3084.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3084.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp47097" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Joseph II." target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/3084/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118558404" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Joseph Joseph Hormayr, Baron zu Hortenburg</b> (20. 1. 1781 Innsbruck – 5. 10. 1848 München)
+                     <li><b><a href="pmb150220.html">Joseph Joseph Hormayr, Baron zu Hortenburg</a></b> (20. 1. 1781 Innsbruck – 5. 10. 1848 München)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Joseph von Hormayr" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/150220/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118707078" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Erich  Kahler</b>,   (14. 10. 1885 Prag – 28. 6. 1970 Princeton), <i>Schriftsteller</i><div id="mentions">
+                     <li><b><a href="pmb5830.html">Erich  Kahler</a></b>,   (14. 10. 1885 Prag – 28. 6. 1970 Princeton), <i>Schriftsteller</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb5830.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://de.wikipedia.org/wiki/Erich von Kahler" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/5830/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118891634" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>- Karl I., Österreich, Kaiser</b> (17. 8. 1887 – 1. 4. 1922), <i>Offizier</i><div id="mentions">
+                     <li><b><a href="pmb97693.html">- Karl I., Österreich, Kaiser</a></b> (17. 8. 1887 – 1. 4. 1922), <i>Offizier</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp47385" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Karl (%C3%96sterreich-Ungarn)" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x00282721" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/97693/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118560077" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>František Kolovrat</b> (31. 1. 1778 Prag – 4. 4. 1861 Wien)
+                     <li><b><a href="pmb150249.html">František Kolovrat</a></b> (31. 1. 1778 Prag – 4. 4. 1861 Wien)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Franz Anton von Kolowrat-Liebsteinsky" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/150249/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/116330422" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Richard Kralik</b> (1. 10. 1852 Lenora – 4. 2. 1934 Wien), <i>Schriftsteller</i><div id="mentions">
+                     <li><b><a href="pmb3731.html">Richard Kralik</a></b> (1. 10. 1852 Lenora – 4. 2. 1934 Wien), <i>Schriftsteller</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17081" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb3731.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3731.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp52206" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Richard von Kralik" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x0028243c" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/3731/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118777920" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Carl Friedrich Kübeck von Kübau</b> (1780 – 1855)
+                     <li><b><a href="pmb155498.html">Carl Friedrich Kübeck von Kübau</a></b> (1780 – 1855)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/155498/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>John d.J. Lowell</b> (1799 – 1836)
+                     <li><b><a href="pmb155516.html">John d.J. Lowell</a></b> (1799 – 1836)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/155516/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Ludwig von Löhner</b> (1812 – 1852)
+                     <li><b><a href="pmb155518.html">Ludwig von Löhner</a></b> (1812 – 1852)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/155518/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Maria Theresia von Österreich</b> (13. 5. 1717 Wien – 29. 11. 1780 Wien), <i>Königin, Kaiserin</i><div id="mentions">
-                           <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17880" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb4255.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4255.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp49668" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Maria Theresia" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/4255/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118577867" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
+                     <li><b><a href="pmb4255.html">Maria Theresia von Österreich</a></b> (13. 5. 1717 Wien – 29. 11. 1780 Wien), <i>Königin, Kaiserin</i><div id="mentions">
+                           <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17880" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb4255.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4255.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp49668" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=M#DWpers0162" target="_blank"><span class="badge rounded-pill" style="background-color: #a21a17; color: white; margin-top: 4px;">Dritte Walpurgisnacht</span></a> <a href="https://de.wikipedia.org/wiki/Maria Theresia" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/4255/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118577867" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Wilhelm Maurenbrecher</b> (21. 12. 1838 Bonn – 6. 11. 1892 Leipzig)
+                     <li><b><a href="pmb150223.html">Wilhelm Maurenbrecher</a></b> (21. 12. 1838 Bonn – 6. 11. 1892 Leipzig)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Wilhelm Maurenbrecher" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/150223/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/116854731" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Clemens Wenzel von Metternich-Winneburg</b> (15. 5. 1773 Koblenz – 11. 6. 1859 Wien), <i>Politiker</i><div id="mentions">
+                     <li><b><a href="pmb114068.html">Clemens Wenzel von Metternich-Winneburg</a></b> (15. 5. 1773 Koblenz – 11. 6. 1859 Wien), <i>Politiker</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18098" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb28462.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp44072" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Klemens Wenzel Lothar von Metternich" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x00282f8b" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/21352/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118581465" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>František Palacký</b> (4. 6. 1798 – 26. 5. 1876), <i>Schriftsteller, Politiker, Historiker, Linguist</i><div id="mentions">
+                     <li><b><a href="pmb115608.html">František Palacký</a></b> (4. 6. 1798 – 26. 5. 1876), <i>Schriftsteller, Politiker, Historiker, Linguist</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp51080" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Franti%C5%A1ek Palack%C3%BD" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x00283873" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/115608/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118789260" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Perikles</b> (um 490 – 429 v.u.Z.)
+                     <li><b><a href="pmb155510.html">Perikles</a></b> (um 490 – 429 v.u.Z.)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/155510/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Beatrice Potter</b> (22. 1. 1858 Gloucestershire – 30. 4. 1943 Liphook)
+                     <li><b><a href="pmb150244.html">Beatrice Potter</a></b> (22. 1. 1858 Gloucestershire – 30. 4. 1943 Liphook)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Beatrice Webb" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/150244/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118806378" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Hugo Preuß</b> (28. 10. 1860 Berlin – 9. 10. 1925 Berlin)
+                     <li><b><a href="pmb150229.html">Hugo Preuß</a></b> (28. 10. 1860 Berlin – 9. 10. 1925 Berlin)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Hugo Preu%C3%9F" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/150229/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118596403" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Johann Joseph Wenzel Radetzky von Radetz</b> (2. 11. 1766 – 5. 1. 1858), <i>Feldmarschall</i><div id="mentions">
+                     <li><b><a href="pmb115805.html">Johann Joseph Wenzel Radetzky von Radetz</a></b> (2. 11. 1766 – 5. 1. 1858), <i>Feldmarschall</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp51970" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Josef Wenzel Radetzky von Radetz" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x00283e9e" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/115805/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118597647" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Josef Redlich</b> (18. 6. 1869 Hodonín – 11. 11. 1936 Wien), <i>Politiker, Rechtswissenschaftler</i><div id="mentions">
+                     <li><b><a href="pmb12481.html">Josef Redlich</a></b> (18. 6. 1869 Hodonín – 11. 11. 1936 Wien), <i>Politiker, Rechtswissenschaftler</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12481.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19096" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12481.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12481.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp47140" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Josef Redlich" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x00284096" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/12481/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118743724" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Carl Rotteck</b> (18. 7. 1775 – 26. 11. 1840), <i>Politiker, Historiker, Jurist, Staatsrechtslehrer</i><div id="mentions">
+                     <li><b><a href="pmb117063.html">Carl Rotteck</a></b> (18. 7. 1775 – 26. 11. 1840), <i>Politiker, Historiker, Jurist, Staatsrechtslehrer</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp58838" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Karl von Rotteck" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/117063/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118603329" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Anton von Schmerling</b> (23. 8. 1805 Wien – 1893 Wien), <i>Politiker</i><div id="mentions">
+                     <li><b><a href="pmb4657.html">Anton von Schmerling</a></b> (23. 8. 1805 Wien – 1893 Wien), <i>Politiker</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4657.html" target="_blank"><span class="badge rounded-pill" style="background-color: #F9BD63; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp52952" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Anton von Schmerling" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x00285227" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/4657/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/119233460" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Dietrich Schäfer</b> (16. 5. 1845 – 12. 1. 1929), <i>Historiker, Publizist, Hochschullehrer</i><div id="mentions">
+                     <li><b><a href="pmb155511.html">Dietrich Schäfer</a></b> (16. 5. 1845 – 12. 1. 1929), <i>Historiker, Publizist, Hochschullehrer</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp40441" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Dietrich Sch%C3%A4fer" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/113243/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118794841" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Anton Heinrich Springer</b> (1825 – 1891)
+                     <li><b><a href="pmb155509.html">Anton Heinrich Springer</a></b> (1825 – 1891)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/155509/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Franz Seraph von Stadion</b> (1806 – 1853)
+                     <li><b><a href="pmb155297.html">Franz Seraph von Stadion</a></b> (1806 – 1853)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/155297/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Eduard Taaffe</b> (24. 2. 1833 – 29. 11. 1895), <i>Politiker, Regierungschef</i><div id="mentions">
+                     <li><b><a href="pmb114256.html">Eduard Taaffe</a></b> (24. 2. 1833 – 29. 11. 1895), <i>Politiker, Regierungschef</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp44822" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Eduard Taaffe" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://doi.org/10.1553/0x002f7acc" target="_blank"><span class="badge rounded-pill" style="background-color: #a50021; color: white; margin-top: 4px;">ÖBL</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/114256/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118620428" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Sidney Webb</b> (13. 7. 1859 London – 13. 10. 1947 Hampshire)
+                     <li><b><a href="pmb150240.html">Sidney Webb</a></b> (13. 7. 1859 London – 13. 10. 1947 Hampshire)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Sidney Webb, 1. Baron Passfield" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/150240/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118806394" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Carl Theodor Georg Philipp Welcker</b> (1790 – 1869)
+                     <li><b><a href="pmb155512.html">Carl Theodor Georg Philipp Welcker</a></b> (1790 – 1869)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/155512/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Willem William the Silent</b> († 10. 7. 1584 Delft)
+                     <li><b><a href="pmb150163.html">Willem William the Silent</a></b> († 10. 7. 1584 Delft)
                         <div id="mentions">
                            <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Wilhelm I. (Oranien)" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/150163/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118738062" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
-                     <li><b>Bernhard Windscheid</b> (26. 6. 1817 – 26. 10. 1892), <i>Jurist, Hochschullehrer</i><div id="mentions">
+                     <li><b><a href="pmb116596.html">Bernhard Windscheid</a></b> (26. 6. 1817 – 26. 10. 1892), <i>Jurist, Hochschullehrer</i><div id="mentions">
                            <p class="buttonreihe"><a href="https://fackel.oeaw.ac.at/?p=fackelp55622" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://de.wikipedia.org/wiki/Bernhard Windscheid" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/116596/detail" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/11880751X" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> </p>
                         </div>
                      </li>
