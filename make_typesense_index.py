@@ -50,7 +50,7 @@ for x in tqdm(files, total=len(files)):
     cfts_record["id"] = record["id"]
     cfts_record[
         "resolver"
-    ] = f"https://hermann-bahr.github.io/hbtv-static/{record['id']}.html"
+    ] = f"https://bahr-textverzeichnis.acdh.oeaw.ac.at/{record['id']}.html"
     record["rec_id"] = os.path.split(x)[-1]
     types = []
     for a in doc.any_xpath(".//tei:biblStruct[@type]"):
