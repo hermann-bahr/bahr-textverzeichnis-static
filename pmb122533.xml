@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2024-02-27+01:00</date>
+            <date>2024-03-19+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122533.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,7 +69,7 @@
                      <ptr type="pmb" target="pmb153942"/>
                      <ptr type="pmb" target="pmb153943"/>
                      <ptr type="pmb" target="pmb148659"/>
-                     <ptr type="pmb" target="pmb146470"/>
+                     <ptr type="pmb" target="pmb23858"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/2-28.pdf</ref>
@@ -91,7 +91,7 @@
                </persName>
                <sex value="not-set"/>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153942/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3841_p1</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153942.html</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
@@ -103,15 +103,15 @@
                </persName>
                <birth>
                   <date notBefore-iso="1834-01-01"
-                        when-iso="1834-07-02"
+                        when-iso="1834-01-01"
                         notAfter-iso="1834-12-31">1834</date>
                </birth>
                <death>
-                  <date when-iso="1879-07-02" notAfter-iso="1879-12-31">1879</date>
+                  <date when-iso="1879-01-01" notAfter-iso="1879-12-31">1879</date>
                </death>
                <sex value="not-set"/>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153943/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3841_p2</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153943.html</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
@@ -122,40 +122,55 @@
                   <surname>Stefan Stambolov</surname>
                </persName>
                <sex value="male"/>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148659.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148659/</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q313833</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/11875260X</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3841_p3</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Stefan_Stambolow</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
             </person>
-            <person xml:id="pmb146470">
+            <person xml:id="pmb23858">
                <persName>
-                  <forename>-</forename>
-                  <surname>Ferdinand I., Bulgarien, König</surname>
+                  <forename>Ferdinand von</forename>
+                  <surname>Sachsen-Coburg-Gotha</surname>
                </persName>
+               <persName type="legacy-name-merge">Ferdinand I., Bulgarien, König, -</persName>
                <birth>
-                  <date when-iso="1861-02-26">1861-02-26</date>
+                  <date when-iso="1861-02-26">26.02.1861</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date when-iso="1948-09-10">1948-09-10</date>
+                  <date when-iso="1948-09-10">10.09.1948</date>
+                  <settlement key="55076">
+                     <placeName type="pref">Coburg</placeName>
+                     <location>
+                        <geo>50,25937 10,96384</geo>
+                     </location>
+                  </settlement>
                </death>
-               <sex value="not-set"/>
+               <sex value="male"/>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_19512.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/23858/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/146470/</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118686720</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp48012</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q151667</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ferdinand_I._(Bulgarien)</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3841_p4</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3403_p3</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1223</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb146470</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb146470.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                   <bibl type="collections" n="19">Standardimport</bibl>
                </listBibl>
+               <note type="references">None </note>
             </person>
          </listPerson>
       </back>

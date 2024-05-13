@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2024-02-27+01:00</date>
+            <date>2024-03-19+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123719.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -79,7 +79,7 @@
                      <ptr type="pmb" target="pmb22666"/>
                      <ptr type="pmb" target="pmb154528"/>
                      <ptr type="pmb" target="pmb154529"/>
-                     <ptr type="pmb" target="pmb154126"/>
+                     <ptr type="pmb" target="pmb162572"/>
                   </listRef>
                </ref>
                <ref type="URL">https://bahr.univie.ac.at/sites/all/txt/die-zeit/15-29.pdf</ref>
@@ -102,12 +102,6 @@
                <persName type="legacy-name-merge">Valabrègue, Albin</persName>
                <birth>
                   <date when-iso="1853-12-17">17.12.1853</date>
-                  <settlement key="48732">
-                     <placeName type="pref">Carpentras</placeName>
-                     <location>
-                        <geo>44,05507 5,04813</geo>
-                     </location>
-                  </settlement>
                   <settlement key="113187">
                      <placeName type="pref">Carpentras</placeName>
                      <location>
@@ -116,7 +110,7 @@
                   </settlement>
                </birth>
                <death>
-                  <date when-iso="1937-01-01">1937&lt;1937-01-01&gt;</date>
+                  <date when-iso="1937-01-01">1937</date>
                   <settlement key="182">
                      <placeName type="pref">Paris</placeName>
                      <location>
@@ -127,14 +121,16 @@
                <sex value="male"/>
                <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
                <occupation key="99">Journalist/Journalistin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20902</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_20902.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/26355/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/158938/</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q18117924</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/117325589</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4535</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb26355</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb26355.html</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+                  <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
                </listBibl>
                <note type="references">None </note>
             </person>
@@ -165,15 +161,16 @@
                </death>
                <sex value="male"/>
                <occupation key="105">Schauspieler/Schauspielerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17849</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/130141283</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_17849.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12179.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12179/</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49591</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1556180</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gustav_Maran</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb12179.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161182/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2731</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb12179</idno>
                <listEvent>
                   <event key="45067" when-iso="1904-10-05">
                      <desc n="1256">ist Arbeitskraft bei</desc>
@@ -214,18 +211,12 @@
                         <geo>48,2066 16,37341</geo>
                      </location>
                   </settlement>
-                  <settlement key="50">
-                     <placeName type="pref">Wien</placeName>
-                     <location>
-                        <geo>48,2066 16,37341</geo>
-                     </location>
-                  </settlement>
                </death>
                <sex value="male"/>
                <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
                <occupation key="115">Dramaturg/Dramaturgin</occupation>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/115460608</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17448</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_17448.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2337.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2337/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/18314/</idno>
@@ -238,8 +229,10 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Victor_L%C3%A9on</idno>
                <idno type="URL" subtype="oeml">https://dx.doi.org/10.1553/0x0001d75c</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2337.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2337.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161140/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2670</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb2337</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_2011.html</idno>
                <listEvent>
                   <event key="89146" when-iso="1891-03-17">
                      <desc n="1370">teilgenommen an</desc>
@@ -292,14 +285,15 @@
                </death>
                <sex value="male"/>
                <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18264</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116937807</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_18264.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12296.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12296/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12296.html</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp56655</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q214573</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gustav_von_Moser</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb12296.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                </listBibl>
@@ -336,7 +330,7 @@
                <sex value="female"/>
                <occupation key="105">Schauspieler/Schauspielerin</occupation>
                <occupation key="107">Sänger/Sängerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18850</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_18850.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb22666.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/22666/</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp51573</idno>
@@ -346,13 +340,14 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q58011561</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Viktoria_Pohl-Meiser</idno>
                <idno type="URL" subtype="oeml">https://dx.doi.org/10.1553/0x0001dd5c</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4829_p6</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161713/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3404</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb22666</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb22666.html</idno>
                <listEvent>
                   <event key="45952" when-iso="1898-01-16">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Premiere von Abschiedssouper, Uraufführung Weihnachtseinkäufe, 16.1.1898</label>
+                     <label>Premiere von Abschiedssouper, Uraufführung Weihnachtseinkäufe,
+                           16.1.1898</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45952/</idno>
                   </event>
                </listEvent>
@@ -369,8 +364,8 @@
                </persName>
                <sex value="not-set"/>
                <occupation key="105">Schauspieler/Schauspielerin</occupation>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2363_p2</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154528/</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154528.html</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
@@ -382,27 +377,30 @@
                <sex value="not-set"/>
                <occupation key="105">Schauspieler/Schauspielerin</occupation>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154529/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2363_p3</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154529.html</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
             </person>
-            <person xml:id="pmb154126">
+            <person xml:id="pmb162572">
                <persName>
                   <forename>Thilo von</forename>
                   <surname>Trotha</surname>
                </persName>
+               <persName type="legacy-name-merge">Trotha, Thilo von</persName>
                <birth>
                   <date notBefore-iso="1851-01-01"
-                        when-iso="1851-07-02"
+                        when-iso="1851-01-01"
                         notAfter-iso="1851-12-31">1851</date>
                </birth>
                <death>
-                  <date when-iso="1906-07-02" notAfter-iso="1906-12-31">1906</date>
+                  <date when-iso="1905-01-01" notAfter-iso="1905-12-31">1905</date>
                </death>
                <sex value="not-set"/>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154126/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1891_p1</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162572/</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb162572</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154126.html</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>

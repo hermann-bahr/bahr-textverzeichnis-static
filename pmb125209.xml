@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2024-02-27+01:00</date>
+            <date>2024-03-19+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb125209.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -66,7 +66,7 @@
                <note type="incipit">Als richtiger Spanier ist Unamuno geborerener Quijotist</note>
                <ref type="personenindex">
                   <listRef>
-                     <ptr type="pmb" target="pmb14905"/>
+                     <ptr type="pmb" target="pmb2980"/>
                      <ptr type="pmb" target="pmb116321"/>
                      <ptr type="pmb" target="pmb154742"/>
                   </listRef>
@@ -99,6 +99,61 @@
       </body>
       <back>
          <listPerson>
+            <person xml:id="pmb2980">
+               <persName>
+                  <forename>Miguel de</forename>
+                  <surname>Cervantes Saavedra</surname>
+               </persName>
+               <persName type="legacy-name-merge">Cervantes Saavedra, Miguel de</persName>
+               <persName type="legacy-name-merge">Cervantes Saavedra, Miguel de</persName>
+               <birth>
+                  <date when-iso="1547-09-29">29.09.1547</date>
+                  <settlement key="45658">
+                     <placeName type="pref">Alcalá de Henares</placeName>
+                     <location>
+                        <geo>40,48205 -3,35996</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when-iso="1616-04-22">22.04.1616</date>
+                  <settlement key="914">
+                     <placeName type="pref">Madrid</placeName>
+                     <location>
+                        <geo>40,4165 -3,70256</geo>
+                     </location>
+                  </settlement>
+                  <settlement key="914">
+                     <placeName type="pref">Madrid</placeName>
+                     <location>
+                        <geo>40,4165 -3,70256</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/11851993X</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_14169.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2980.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2980/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14905/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2980.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb14905.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp39852</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q5682</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Miguel_de_Cervantes</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159605/</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb2980</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_1950.html</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references"> </note>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Cervantes%20J%C3%A1uregui.jpg"/>
+               </figure>
+            </person>
             <person xml:id="pmb116321">
                <persName>
                   <forename>Miguel</forename>
@@ -119,7 +174,7 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp54392</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q185085</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Miguel_de_Unamuno</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1418_p1</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116321.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
@@ -132,15 +187,15 @@
                </persName>
                <birth>
                   <date notBefore-iso="1235-01-01"
-                        when-iso="1235-07-02"
+                        when-iso="1235-01-01"
                         notAfter-iso="1235-12-31">1235</date>
                </birth>
                <death>
-                  <date when-iso="1315-07-02" notAfter-iso="1315-12-31">1315</date>
+                  <date when-iso="1315-01-01" notAfter-iso="1315-12-31">1315</date>
                </death>
                <sex value="not-set"/>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154742/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1418_p2</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154742.html</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>

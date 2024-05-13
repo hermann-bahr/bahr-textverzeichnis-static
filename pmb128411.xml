@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2024-02-27+01:00</date>
+            <date>2024-03-19+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb128411.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -62,7 +62,7 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb5291"/>
-                     <ptr type="pmb" target="pmb155686"/>
+                     <ptr type="pmb" target="pmb16030"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -115,6 +115,7 @@
                <occupation key="154">Philosoph/Philosophin</occupation>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118591843</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5291/</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb5291.html</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp51144</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1290</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Blaise_Pascal</idno>
@@ -125,16 +126,29 @@
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/FR-631136102%20GRA%206025%20Portrait%20de%20Blaise%20Pascal%20par%20Edelinck%20%28cropped%29.jpg"/>
                </figure>
             </person>
-            <person xml:id="pmb155686">
+            <person xml:id="pmb16030">
                <persName>
-                  <surname>Euklid von Alexandria</surname>
+                  <surname>Euklid</surname>
                </persName>
+               <persName type="legacy-name-merge">Euklid von Alexandria</persName>
+               <persName type="legacy-name-merge">Euklid von Alexandria</persName>
                <birth>
-                  <date>um 360 bis um 280 v.u.Z.</date>
+                  <date when-iso="0001-01-01">0450? v. Chr.</date>
                </birth>
+               <death>
+                  <date when-iso="0001-01-01">0380? v. Chr.</date>
+               </death>
                <sex value="not-set"/>
+               <occupation key="154">Philosoph/Philosophin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_14820.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/16030/</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp42997</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q8747</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Euklid</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155686/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5283_p1</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155855/</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155686.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155855.html</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>

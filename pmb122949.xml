@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2024-02-27+01:00</date>
+            <date>2024-03-19+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122949.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -71,7 +71,7 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb7597"/>
-                     <ptr type="pmb" target="pmb148813"/>
+                     <ptr type="pmb" target="pmb65007"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19020123&amp;seite=9</ref>
@@ -116,14 +116,15 @@
                <sex value="female"/>
                <occupation key="105">Schauspieler/Schauspielerin</occupation>
                <occupation key="107">Sänger/Sängerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15741</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118543466</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_15741.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/7597/</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp55787</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q239838</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Yvette_Guilbert</idno>
                <idno type="URL" subtype="freud">https://freud.acdh-dev.oeaw.ac.at/frd_person_30.html</idno>
                <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb7597.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb7597.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                </listBibl>
@@ -131,11 +132,12 @@
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/YvetteGuilbert.jpg"/>
                </figure>
             </person>
-            <person xml:id="pmb148813">
+            <person xml:id="pmb65007">
                <persName>
-                  <forename>Auguste</forename>
-                  <surname>de Villiers</surname>
+                  <forename>Philippe-Auguste, Comte de</forename>
+                  <surname>Villiers de l’Isle-Adam</surname>
                </persName>
+               <persName type="legacy-name-merge">de Villiers, Auguste</persName>
                <birth>
                   <date when-iso="1838-11-07">1838-11-07</date>
                   <settlement key="148814">
@@ -155,10 +157,14 @@
                   </settlement>
                </death>
                <sex value="male"/>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation key="727">Dramatiker/Dramatikerin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65007/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb65007.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148813.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148813/</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q366285</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118627058</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1881_p1</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Auguste_de_Villiers_de_L%E2%80%99Isle-Adam</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>

@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2024-02-27+01:00</date>
+            <date>2024-03-19+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb126231.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -69,7 +69,7 @@
                <ref type="personenindex">
                   <listRef>
                      <ptr type="pmb" target="pmb11518"/>
-                     <ptr type="pmb" target="pmb14905"/>
+                     <ptr type="pmb" target="pmb2980"/>
                      <ptr type="pmb" target="pmb11640"/>
                      <ptr type="pmb" target="pmb9987"/>
                      <ptr type="pmb" target="pmb2437"/>
@@ -78,7 +78,7 @@
                      <ptr type="pmb" target="pmb12463"/>
                      <ptr type="pmb" target="pmb11461"/>
                      <ptr type="pmb" target="pmb5071"/>
-                     <ptr type="pmb" target="pmb114068"/>
+                     <ptr type="pmb" target="pmb28462"/>
                      <ptr type="pmb" target="pmb113097"/>
                      <ptr type="pmb" target="pmb12231"/>
                      <ptr type="pmb" target="pmb105946"/>
@@ -88,7 +88,7 @@
                      <ptr type="pmb" target="pmb3124"/>
                      <ptr type="pmb" target="pmb117164"/>
                      <ptr type="pmb" target="pmb146452"/>
-                     <ptr type="pmb" target="pmb146302"/>
+                     <ptr type="pmb" target="pmb16514"/>
                      <ptr type="pmb" target="pmb116040"/>
                      <ptr type="pmb" target="pmb155059"/>
                      <ptr type="pmb" target="pmb155060"/>
@@ -150,8 +150,8 @@
                <sex value="male"/>
                <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
                <occupation key="1472">Beamter/Beamte</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15661</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118542192</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_15661.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11518.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11518/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11518.html</idno>
@@ -164,10 +164,12 @@
                <idno type="URL" subtype="oeml">https://dx.doi.org/10.1553/0x0001cfa1</idno>
                <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/grillparzer-franz.html</idno>
                <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x002818d2</idno>
-               <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_65.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11518.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160293/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1597</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb11518</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11518.html</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_721.html</idno>
+               <idno type="URL" subtype="auden-musulin-papers">https://amp.acdh.oeaw.ac.at/amp_person_65.html</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
@@ -177,6 +179,61 @@
                <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Grillparzer%20cropped.jpg"/>
+               </figure>
+            </person>
+            <person xml:id="pmb2980">
+               <persName>
+                  <forename>Miguel de</forename>
+                  <surname>Cervantes Saavedra</surname>
+               </persName>
+               <persName type="legacy-name-merge">Cervantes Saavedra, Miguel de</persName>
+               <persName type="legacy-name-merge">Cervantes Saavedra, Miguel de</persName>
+               <birth>
+                  <date when-iso="1547-09-29">29.09.1547</date>
+                  <settlement key="45658">
+                     <placeName type="pref">Alcalá de Henares</placeName>
+                     <location>
+                        <geo>40,48205 -3,35996</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when-iso="1616-04-22">22.04.1616</date>
+                  <settlement key="914">
+                     <placeName type="pref">Madrid</placeName>
+                     <location>
+                        <geo>40,4165 -3,70256</geo>
+                     </location>
+                  </settlement>
+                  <settlement key="914">
+                     <placeName type="pref">Madrid</placeName>
+                     <location>
+                        <geo>40,4165 -3,70256</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/11851993X</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_14169.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2980.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2980/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14905/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2980.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb14905.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp39852</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q5682</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Miguel_de_Cervantes</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159605/</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb2980</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_1950.html</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <note type="references"> </note>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Cervantes%20J%C3%A1uregui.jpg"/>
                </figure>
             </person>
             <person xml:id="pmb11640">
@@ -206,20 +263,22 @@
                </death>
                <sex value="male"/>
                <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16047</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118548018</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_16047.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11640.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11640/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11640.html</idno>
                <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11640.html</idno>
                <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/personen/pmb11640</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11640.html</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp45715</idno>
                <idno type="URL" subtype="dritte-walpurgisnacht">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=H#DWpers0100</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q44403</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Heinrich_Heine</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11640.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160448/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1793</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb11640</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_116.html</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
@@ -256,12 +315,13 @@
                <sex value="male"/>
                <occupation key="95">Politiker/Politikerin</occupation>
                <occupation key="134">Historiker/Historikerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20299</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118616471</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_20299.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/9987/</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp53517</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q112227</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Heinrich_Srbik</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb9987.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                </listBibl>
@@ -274,6 +334,7 @@
                   <forename>Stefan</forename>
                   <surname>George</surname>
                </persName>
+               <persName type="legacy-name-merge">George, Stephan</persName>
                <birth>
                   <date when-iso="1868-07-17">17.07.1868</date>
                   <settlement key="53808">
@@ -296,7 +357,7 @@
                <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
                <occupation key="116">Übersetzer/Übersetzerin</occupation>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/11853856X</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15394</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_15394.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2437.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2437/</idno>
                <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/personen/pmb2437</idno>
@@ -304,11 +365,16 @@
                <idno type="URL" subtype="dritte-walpurgisnacht">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=G#DWpers0076</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q57187</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Stefan_George</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2437.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160197/</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb160197</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Stefan%20George%201910%20Foto%20Jakob%20Hilsdorf.jpg"/>
                </figure>
@@ -341,8 +407,9 @@
                <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
                <occupation key="134">Historiker/Historikerin</occupation>
                <occupation key="154">Philosoph/Philosophin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19694</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118607626</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_19694.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb12654.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12654.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12654/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12654.html</idno>
@@ -353,9 +420,10 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q22670</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Friedrich_Schiller</idno>
                <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/schiller-friedrich.html</idno>
-               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12654.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162088/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3892</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb12654</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12654.html</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_248.html</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
@@ -392,12 +460,13 @@
                </death>
                <sex value="male"/>
                <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13396</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_13396.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10825.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10825/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb10825.html</idno>
                <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10825.html</idno>
                <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/personen/pmb10825</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb10825.html</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46252</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q9711</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Honor%C3%A9_de_Balzac</idno>
@@ -405,7 +474,8 @@
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb10825.html</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118506358</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159220/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_216</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb10825</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_3522.html</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
@@ -440,13 +510,14 @@
                </death>
                <sex value="male"/>
                <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18991</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118597019</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_18991.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12463.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12463/</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp44040</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q61797</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hermann_von_P%C3%BCckler-Muskau</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb12463.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                </listBibl>
@@ -480,8 +551,9 @@
                </death>
                <sex value="male"/>
                <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15499</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118540238</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_15499.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11461.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11461.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11461/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11461.html</idno>
@@ -492,12 +564,13 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q5879</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe</idno>
                <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/goethe-johann-wolfgang.html</idno>
-               <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_11.html</idno>
                <idno type="URL" subtype="freud">https://freud.acdh-dev.oeaw.ac.at/frd_person_24.html</idno>
                <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb11461.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11461.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160235/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1519</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb11461</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_100.html</idno>
+               <idno type="URL" subtype="auden-musulin-papers">https://amp.acdh.oeaw.ac.at/amp_person_11.html</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
@@ -513,6 +586,7 @@
                   <surname>Eugen von Savoyen</surname>
                </persName>
                <persName type="legacy-name-merge">Eugen</persName>
+               <persName type="legacy-name-merge">Savoyen, Eugen, Prinz von</persName>
                <birth>
                   <date when-iso="1663-10-18">1663-10-18</date>
                   <settlement key="182">
@@ -536,7 +610,7 @@
                <occupation key="574">Heerführer/Heerführerin</occupation>
                <occupation key="619">Militär/Militärin</occupation>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118605941</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14818</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_14818.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb5071.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5071/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/16026/</idno>
@@ -544,21 +618,29 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Eugen_von_Savoyen</idno>
                <idno type="URL" subtype="oeml">https://dx.doi.org/10.1553/0x0001fe00</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp51702</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162056/</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb5071.html</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb162056</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Godfrey%20Kneller%20Eugen%20von%20Savoyen%201712.jpg"/>
                </figure>
             </person>
-            <person xml:id="pmb114068">
+            <person xml:id="pmb28462">
                <persName>
                   <forename>Clemens Wenzel von</forename>
                   <surname>Metternich-Winneburg</surname>
                </persName>
-               <persName type="legacy-name-merge">Metternich-Winneburg, Clemens Lothar Wenzel von</persName>
-               <persName type="legacy-name-merge">Metternich-Winneburg, Clemens Lothar, Fürst</persName>
-               <persName type="legacy-name-merge">Metternich, Klemens Wenzel Nepomuk Lothar</persName>
+               <persName type="legacy-name-merge">Metternich-Winneburg, Clemens Lothar Wenzel
+                     von</persName>
+               <persName type="legacy-name-merge">Metternich-Winneburg, Clemens Lothar,
+                     Fürst</persName>
+               <persName type="legacy-name-merge">Metternich, Klemens Wenzel Nepomuk
+                     Lothar</persName>
                <birth>
                   <date when-iso="1773-05-15">1773-05-15</date>
                   <settlement key="58556">
@@ -579,21 +661,22 @@
                </death>
                <sex value="male"/>
                <occupation key="95">Politiker/Politikerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18098</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_18098.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb28462.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/21352/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/28462/</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114068.html</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118581465</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q45662</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4451_p4</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2894</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161303/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2893</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/114068/</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp44072</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Klemens_Wenzel_Lothar_von_Metternich</idno>
                <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/metternich-klemens-wenzel-lothar.html</idno>
                <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x00282f8b</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb28462</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_2537.html</idno>
+               <idno type="URL" subtype="auden-musulin-papers">https://amp.acdh.oeaw.ac.at/amp_person_178.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
@@ -604,6 +687,8 @@
                   <forename>François-René</forename>
                   <surname>Chateaubriand</surname>
                </persName>
+               <persName type="legacy-name-merge">Chateaubriand, François-René, Vicomte
+                     de</persName>
                <birth>
                   <date when-iso="1768-09-14">1768-09-14</date>
                </birth>
@@ -614,17 +699,20 @@
                <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
                <occupation key="95">Politiker/Politikerin</occupation>
                <occupation key="267">Diplomat/Diplomatin</occupation>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113097.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/113097/</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118520237</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp39918</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q49767</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Fran%C3%A7ois-Ren%C3%A9_de_Chateaubriand</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4824_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2615_p47</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159618/</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb159618</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_999.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
             </person>
             <person xml:id="pmb12231">
                <persName>
@@ -652,20 +740,19 @@
                   </settlement>
                </death>
                <sex value="female"/>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18097</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118581481</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12231.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12231/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12231.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb12231.html</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp44108</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q79171</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Pauline_von_Metternich</idno>
                <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x00282f8a</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4824_p3</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1401_p8</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2895</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161302/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2892</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_18097.html</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb12231</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_1767.html</idno>
                <listEvent>
                   <event key="57793">
                      <desc n="1256">ist Arbeitskraft bei</desc>
@@ -699,11 +786,12 @@
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/104821351X</idno>
                <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x00285092</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q98834804</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4824_p4</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb105946.html</idno>
                <listBibl>
                   <bibl type="collections" n="11">ÖBL nach 1850 geboren</bibl>
+                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag
+                        gefunden</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
-                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag gefunden</bibl>
                   <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
                </listBibl>
             </person>
@@ -714,6 +802,10 @@
                </persName>
                <persName type="person_geburtsname_nachname">Buonaparte</persName>
                <persName type="person_namensvariante_nachname">Napoleon I.</persName>
+               <persName type="legacy-name-merge">Napoleon I. von Frankreich</persName>
+               <persName type="legacy-name-merge">Napoleon, -</persName>
+               <persName type="legacy-name-merge">Napoleon</persName>
+               <persName type="legacy-name-merge">Napoleon I. Bonaparte</persName>
                <birth>
                   <date when-iso="1769-08-15">15.08.1769</date>
                   <settlement key="847">
@@ -734,7 +826,7 @@
                </death>
                <sex value="male"/>
                <occupation key="167">Kaiser/Kaiserin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18356</idno>
+               <occupation key="344">Musiker/Musikerin</occupation>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4769.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4769/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/21792/</idno>
@@ -746,112 +838,22 @@
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb4769.html</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50524</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118586408</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1891_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2306_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4452_p6</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5933_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_6720_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4873_p8</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3726_p8</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4482_p3</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3523_p11</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3512_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3502_p4</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_927_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4824_p5</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1126_p10</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_161_p5</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_160_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4852_p11</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4848_p7</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3376_p24</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3369_p8</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1021_p6</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_6349_p7</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4197_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1402_p9</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3364_p19</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3363_p9</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3357_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3351_p13</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3334_p7</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1491_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_154_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_152_p6</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5318_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5269_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5262_p3</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5259_p4</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5250_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5233_p4</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5220_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5215_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5211_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5206_p18</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_148_p10</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5461_p3</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5458_p4</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5449_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5411_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5368_p4</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5354_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5349_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5345_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5340_p18</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5331_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_864_p4</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3457_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3321_p3</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4426_p3</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4081_p3</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2102_p3</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3639_p3</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3833_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3424_p15</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3880_p5</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_30_p4</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2465_p6</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1484_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_905_p6</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1365_p16</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3300_p3</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3293_p17</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1363_p26</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_6618_p3</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_188_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3183_p15</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2998_p5</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2940_p3</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_561_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_719_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_462_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5958_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2835_p11</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2834_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2833_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2830_p3</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2826_p4</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2818_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_441_p5</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_6616_p4</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_392_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_352_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_333_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2747_p7</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2700_p3</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2690_p4</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1351_p4</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2644_p6</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2635_p17</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2615_p16</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2613_p5</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_880_p3</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3294_p5</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161456/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161455/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161457/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/120107/</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb120107.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_18356.html</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb4769</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb4769.html</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_39.html</idno>
                <listBibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="15">Schnitzler-Kino</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Fran%C3%A7ois%20Gerard%20-%20Napoleon%20I%20in%20Coronation%20Robes.jpeg"/>
                </figure>
@@ -862,6 +864,7 @@
                </persName>
                <persName type="person_geburtsname_vorname">Johann Paul Friedrich</persName>
                <persName type="person_geburtsname_nachname">Richter</persName>
+               <persName type="legacy-name-merge">Jean Paul</persName>
                <birth>
                   <date when-iso="1763-03-21">1763-03-21</date>
                   <settlement key="43971">
@@ -889,7 +892,7 @@
                <sex value="male"/>
                <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118557211</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16524</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_16524.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb4332.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4332/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb4332.html</idno>
@@ -898,29 +901,17 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46784</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q77079</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Jean_Paul</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3726_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3492_p7</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1142_p9</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4824_p6</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1126_p12</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_81_p3</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3359_p15</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5288_p11</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5230_p6</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5430_p11</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5365_p6</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1280_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1722_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3438_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3416_p5</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3746_p8</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2817_p3</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2765_p3</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb4332.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160665/</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb160665</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_793.html</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_1984.html</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Jeanpaul.jpg"/>
                </figure>
@@ -950,16 +941,17 @@
                </death>
                <sex value="male"/>
                <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14101</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118518208</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_14101.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11057.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11057/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11057.html</idno>
                <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11057.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11057.html</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp39652</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q5679</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/George_Gordon_Byron</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4873_p10</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_1635.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
@@ -1000,56 +992,15 @@
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118627813</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3124.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3124/</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20987</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_20987.html</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb3124.html</idno>
                <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3124.html</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp54982</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q9068</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Voltaire</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb3124.html</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2182_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2181_p4</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1676_p3</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4881_p5</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4875_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1147_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1050_p7</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3491_p6</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_55_p6</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4824_p8</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4863_p11</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3373_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1426_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5493_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_157_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3360_p6</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3347_p4</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5982_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5230_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5206_p11</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5183_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_150_p5</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_148_p16</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5381_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5365_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5340_p11</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4818_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3469_p3</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3321_p7</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4426_p7</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4081_p7</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2102_p7</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3292_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1990_p4</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2836_p8</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_6616_p10</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2766_p4</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2762_p19</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2747_p5</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2724_p3</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_123_p7</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2676_p25</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2615_p39</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3124.html</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_1391.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
@@ -1080,7 +1031,7 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp60174</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q77148</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Carl_Schmitt</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1223_p9</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb117164.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
@@ -1103,59 +1054,49 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47549</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q155669</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Karl_IV._(HRR)</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3501_p7</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4824_p10</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_160_p3</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4846_p13</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_6349_p6</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3768_p1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1115_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3364_p17</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3363_p5</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3353_p5</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5322_p4</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5314_p8</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5243_p12</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5476_p8</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5378_p12</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2209_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5335_p4</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1631_p6</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_164_p8</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb146452.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                   <bibl type="collections" n="19">Standardimport</bibl>
                </listBibl>
             </person>
-            <person xml:id="pmb146302">
+            <person xml:id="pmb16514">
                <persName>
-                  <forename>-</forename>
-                  <surname>Franz II., Heiliges Römisches Reich, Kaiser</surname>
+                  <surname>Franz I.</surname>
                </persName>
+               <persName type="legacy-name-merge">Franz II., Heiliges Römisches Reich, Kaiser,
+                     -</persName>
                <birth>
-                  <date when-iso="1768-02-12">1768-02-12</date>
+                  <date when-iso="1768-02-12">12.02.1768</date>
+                  <settlement key="263">
+                     <placeName type="pref">Florenz</placeName>
+                     <location>
+                        <geo>43,77925 11,24626</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date when-iso="1835-03-02">1835-03-02</date>
+                  <date when-iso="1835-03-02">02.03.1835</date>
+                  <settlement key="50">
+                     <placeName type="pref">Wien</placeName>
+                     <location>
+                        <geo>48,2066 16,37341</geo>
+                     </location>
+                  </settlement>
                </death>
                <sex value="not-set"/>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/146302/</idno>
+               <occupation key="167">Kaiser/Kaiserin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_15148.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/16514/</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118534955</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb16514.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb146302.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/146302/</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp43506</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q130834</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Franz_II._(HRR)</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5932_p2</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4824_p11</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4864_p20</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3893_p6</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3366_p24</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1376_p59</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1625_p59</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3404_p4</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_905_p5</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1365_p78</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1363_p42</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_1183.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
@@ -1180,7 +1121,8 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp53152</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1706162</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Josef_von_Sedlnitzky</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4824_p12</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116040.html</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_285.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
@@ -1193,15 +1135,15 @@
                </persName>
                <birth>
                   <date notBefore-iso="1711-01-01"
-                        when-iso="1711-07-02"
+                        when-iso="1711-01-01"
                         notAfter-iso="1711-12-31">1711</date>
                </birth>
                <death>
-                  <date when-iso="1794-07-02" notAfter-iso="1794-12-31">1794</date>
+                  <date when-iso="1794-01-01" notAfter-iso="1794-12-31">1794</date>
                </death>
                <sex value="not-set"/>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155059/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4824_p13</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155059.html</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
@@ -1213,15 +1155,15 @@
                </persName>
                <birth>
                   <date notBefore-iso="1741-01-01"
-                        when-iso="1741-07-02"
+                        when-iso="1741-01-01"
                         notAfter-iso="1741-12-31">1741</date>
                </birth>
                <death>
-                  <date when-iso="1810-07-02" notAfter-iso="1810-12-31">1810</date>
+                  <date when-iso="1810-01-01" notAfter-iso="1810-12-31">1810</date>
                </death>
                <sex value="not-set"/>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155060/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4824_p14</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155060.html</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>

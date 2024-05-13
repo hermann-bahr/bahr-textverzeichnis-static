@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2024-02-27+01:00</date>
+            <date>2024-03-19+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122839.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -66,9 +66,9 @@
                   »Bajazzade«, die schon im Volkstheater gegeben worden ist.</note>
                <ref type="personenindex">
                   <listRef>
-                     <ptr type="pmb" target="pmb2844"/>
+                     <ptr type="pmb" target="pmb27074"/>
                      <ptr type="pmb" target="pmb19620"/>
-                     <ptr type="pmb" target="pmb26033"/>
+                     <ptr type="pmb" target="pmb3966"/>
                   </listRef>
                </ref>
                <ref type="URL">https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19021001&amp;seite=8</ref>
@@ -84,6 +84,62 @@
       </body>
       <back>
          <listPerson>
+            <person xml:id="pmb27074">
+               <persName>
+                  <forename>Charlotte</forename>
+                  <surname>Wiehe</surname>
+               </persName>
+               <persName type="person_geburtsname_nachname">Hansen</persName>
+               <persName type="person_ehename_nachname">Berény</persName>
+               <persName type="person_geschieden">Wiehe</persName>
+               <persName type="legacy-name-merge">Wiehe, Charlotte</persName>
+               <birth>
+                  <date when-iso="1865-08-28">28.08.1865</date>
+                  <settlement key="36300">
+                     <placeName type="pref">Kopenhagen</placeName>
+                     <location>
+                        <geo>55,67594 12,56553</geo>
+                     </location>
+                  </settlement>
+                  <settlement key="36300">
+                     <placeName type="pref">Kopenhagen</placeName>
+                     <location>
+                        <geo>55,67594 12,56553</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when-iso="1947-09-04">04.09.1947</date>
+                  <settlement key="958">
+                     <placeName type="pref">Skodsborg</placeName>
+                     <location>
+                        <geo>55,8225 12,57324</geo>
+                     </location>
+                  </settlement>
+                  <settlement key="44388">
+                     <placeName type="pref">Vedbæk</placeName>
+                     <location>
+                        <geo>55,84729 12,56886</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="female"/>
+               <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/117361402</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_21299.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2844/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/27074/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q4990482</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2844.html</idno>
+               <listBibl>
+                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag
+                        gefunden</bibl>
+                  <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Charlotte%20Wiehe.jpg"/>
+               </figure>
+            </person>
             <person xml:id="pmb19620">
                <persName>
                   <forename>Erich</forename>
@@ -100,8 +156,58 @@
                </birth>
                <sex value="male"/>
                <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17051</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_17051.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/19620/</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb19620.html</idno>
+            </person>
+            <person xml:id="pmb3966">
+               <persName>
+                  <forename>Jean</forename>
+                  <surname>Thorel</surname>
+               </persName>
+               <persName type="namensvariante">Bouthors Jules Raymond Virgile</persName>
+               <persName type="legacy-name-merge">Thorel, Jean</persName>
+               <birth>
+                  <date when-iso="1859-09-11">1859-09-11</date>
+                  <settlement key="47121">
+                     <placeName type="pref">Éragny</placeName>
+                     <location>
+                        <geo>49,01667 2,1</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when-iso="1916-08-20">1916-08-20</date>
+                  <settlement key="47123">
+                     <placeName type="pref">Enghien-les-Bains</placeName>
+                     <location>
+                        <geo>48,96667 2,31667</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation key="116">Übersetzer/Übersetzerin</occupation>
+               <occupation key="727">Dramatiker/Dramatikerin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/117353183</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_20726.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3966.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3966/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/26033/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q18117914</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb26033.html</idno>
+               <affiliation>
+                  <term key="1182">arbeitet für</term>
+                  <orgName key="92987">Théâtre du Vaudeville</orgName>
+                  <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/92987/</idno>
+                  <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1085979423</idno>
+                  <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q109936383</idno>
+                  <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Th%C3%A9%C3%A2tre_du_Vaudeville</idno>
+               </affiliation>
+               <listBibl>
+                  <bibl type="collections" n="14">Kein deutscher Wikipedia-Eintrag
+                        gefunden</bibl>
+                  <bibl type="collections" n="22">No german Wikipedia-Site found</bibl>
+               </listBibl>
             </person>
          </listPerson>
       </back>

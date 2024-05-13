@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2024-02-27+01:00</date>
+            <date>2024-03-19+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122787.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -70,7 +70,7 @@
                      <ptr type="pmb" target="pmb15137"/>
                      <ptr type="pmb" target="pmb2601"/>
                      <ptr type="pmb" target="pmb14989"/>
-                     <ptr type="pmb" target="pmb154073"/>
+                     <ptr type="pmb" target="pmb17366"/>
                      <ptr type="pmb" target="pmb153983"/>
                      <ptr type="pmb" target="pmb154074"/>
                   </listRef>
@@ -103,12 +103,6 @@
                         <geo>50,85045 4,34878</geo>
                      </location>
                   </settlement>
-                  <settlement key="862">
-                     <placeName type="pref">Brüssel</placeName>
-                     <location>
-                        <geo>50,85045 4,34878</geo>
-                     </location>
-                  </settlement>
                </birth>
                <death>
                   <date when-iso="1937-11-08">1937-11-08</date>
@@ -118,20 +112,15 @@
                         <geo>48,8846 2,26965</geo>
                      </location>
                   </settlement>
-                  <settlement key="182">
-                     <placeName type="pref">Paris</placeName>
-                     <location>
-                        <geo>48,85341 2,3488</geo>
-                     </location>
-                  </settlement>
                </death>
                <sex value="male"/>
                <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14300</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_14300.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/15137/</idno>
                <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb15137.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159706/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_843</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb15137.html</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb15137</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
@@ -170,7 +159,7 @@
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116653981</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2601.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2601/</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16517</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_16517.html</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2601.html</idno>
                <idno type="URL" subtype="legalkraus">https://kraus.wienbibliothek.at/register/personen/pmb2601</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47098</idno>
@@ -179,9 +168,10 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Josef_Jarno</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2601.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160663/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2061</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb2601</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2601.html</idno>
                <affiliation notBefore-iso="1893-01-01"
-                            when-iso="1893-07-02"
+                            when-iso="1893-01-01"
                             notAfter-iso="1893-12-31">
                   <term key="1182">arbeitet für</term>
                   <orgName key="42649">Saisontheater Ischl</orgName>
@@ -189,7 +179,7 @@
                   <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb42649.html</idno>
                </affiliation>
                <affiliation notBefore-iso="1899-01-01"
-                            when-iso="1899-07-02"
+                            when-iso="1899-01-01"
                             notAfter-iso="1899-12-31">
                   <term key="1182">arbeitet für</term>
                   <orgName key="39689">Theater in der Josefstadt</orgName>
@@ -203,7 +193,8 @@
                <listEvent>
                   <event key="63396" when-iso="1893-03-29">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Vorstellung zu Gunsten der Rettungsgesellschaft (Gläubiger, Die Statue des Kommandeurs), 29.3.1893</label>
+                     <label>Vorstellung zu Gunsten der Rettungsgesellschaft (Gläubiger, Die
+                           Statue des Kommandeurs), 29.3.1893</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63396/</idno>
                   </event>
                   <event key="35284" when-iso="1893-07-14">
@@ -218,7 +209,8 @@
                   </event>
                   <event key="63002" when-iso="1900-02-23">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Einakterabend (Bagatelle; Er, sie und er; Abschied vom Regiment, Abschiedssouper), 23.2.1900</label>
+                     <label>Einakterabend (Bagatelle; Er, sie und er; Abschied vom Regiment,
+                           Abschiedssouper), 23.2.1900</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63002/</idno>
                   </event>
                   <event key="143820" when-iso="1900-04-15">
@@ -228,7 +220,8 @@
                   </event>
                   <event key="35113" when-iso="1904-12-12">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Premiere von Literatur, Die letzten Masken, Der Puppenspieler, 12.12.1904</label>
+                     <label>Premiere von Literatur, Die letzten Masken, Der Puppenspieler,
+                           12.12.1904</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35113/</idno>
                   </event>
                </listEvent>
@@ -268,33 +261,65 @@
                </death>
                <sex value="male"/>
                <occupation key="105">Schauspieler/Schauspielerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14219</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14989/</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb14989.html</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_14219.html</idno>
                <listEvent>
                   <event key="35113" when-iso="1904-12-12">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Premiere von Literatur, Die letzten Masken, Der Puppenspieler, 12.12.1904</label>
+                     <label>Premiere von Literatur, Die letzten Masken, Der Puppenspieler,
+                           12.12.1904</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35113/</idno>
                   </event>
                </listEvent>
             </person>
-            <person xml:id="pmb154073">
+            <person xml:id="pmb17366">
                <persName>
-                  <forename>Fred de</forename>
-                  <surname>Grésac</surname>
+                  <forename>Frederique Rosine de</forename>
+                  <surname>Gresac</surname>
                </persName>
+               <persName type="person_ehename_nachname">Maurel</persName>
+               <persName type="person_geburtsname_vorname">Rosine</persName>
+               <persName type="legacy-name-merge">Grésac, Fred de</persName>
+               <persName type="legacy-name-merge">Grésac, Fred</persName>
+               <persName type="person_rufname">Fred</persName>
                <birth>
-                  <date>um 1867</date>
+                  <date when-iso="1866-01-01">1866?</date>
+                  <settlement key="54192">
+                     <placeName type="pref">Lamalou-les-Bains</placeName>
+                     <location>
+                        <geo>43,59758 3,07985</geo>
+                     </location>
+                  </settlement>
                </birth>
                <death>
-                  <date when-iso="1943-07-02" notAfter-iso="1943-12-31">1943</date>
+                  <date when-iso="1943-02-20">1943-02-20</date>
+                  <settlement key="37116">
+                     <placeName type="pref">Los Angeles</placeName>
+                     <location>
+                        <geo>34,05223 -118,24368</geo>
+                     </location>
+                  </settlement>
                </death>
-               <sex value="not-set"/>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1989_p1</idno>
+               <sex value="female"/>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <occupation key="391">Drehbuchautor/Drehbuchautorin</occupation>
+               <occupation key="1535">Librettist/Librettistin</occupation>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_15649.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/17366/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/119372/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/135581486</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154073/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160311/</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154073.html</idno>
+               <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb119372.html</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb17366</idno>
                <listBibl>
+                  <bibl type="collections" n="13">No WikiData-ID found</bibl>
+                  <bibl type="collections" n="15">Schnitzler-Kino</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> None None </note>
             </person>
             <person xml:id="pmb153983">
                <persName>
@@ -305,11 +330,11 @@
                   <date>1864/67</date>
                </birth>
                <death>
-                  <date when-iso="1915-07-02" notAfter-iso="1915-12-31">1915</date>
+                  <date when-iso="1915-01-01" notAfter-iso="1915-12-31">1915</date>
                </death>
                <sex value="not-set"/>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153983.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153983/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2545_p2</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
@@ -322,7 +347,7 @@
                <sex value="not-set"/>
                <occupation key="105">Schauspieler/Schauspielerin</occupation>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154074/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1989_p3</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154074.html</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>

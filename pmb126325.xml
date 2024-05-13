@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2024-02-27+01:00</date>
+            <date>2024-03-19+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb126325.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -63,7 +63,7 @@
                   benötigt: die katholische Kirche.</note>
                <ref type="personenindex">
                   <listRef>
-                     <ptr type="pmb" target="pmb155084"/>
+                     <ptr type="pmb" target="pmb116711"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -77,25 +77,32 @@
       </body>
       <back>
          <listPerson>
-            <person xml:id="pmb155084">
+            <person xml:id="pmb116711">
                <persName>
                   <surname>Gregor XIII.</surname>
                </persName>
                <persName type="legacy-name-merge">Gregor XIII.</persName>
+               <persName type="legacy-name-merge">Gregor XIII.</persName>
                <birth>
-                  <date notBefore-iso="1572-01-01"
-                        when-iso="1572-07-01"
-                        notAfter-iso="1572-12-31">1572</date>
+                  <date when-iso="1502-01-01">1502-01-01</date>
                </birth>
                <death>
-                  <date when-iso="1585-07-02" notAfter-iso="1585-12-31">1585</date>
+                  <date when-iso="1585-04-10">1585-04-10</date>
                </death>
-               <sex value="not-set"/>
+               <sex value="male"/>
+               <occupation key="551">Papst/Päpstin</occupation>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/116711/</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118697390</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp56175</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q83029</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gregor_XIII.</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154697/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1256_p5</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155084/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_983_p1</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155084.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154697.html</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_3813.html</idno>
                <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
             </person>

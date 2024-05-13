@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2024-02-27+01:00</date>
+            <date>2024-03-19+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb129733.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -118,8 +118,8 @@
                </death>
                <sex value="male"/>
                <occupation key="105">Schauspieler/Schauspielerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13457</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118653407</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_13457.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10844.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10844/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb10844.html</idno>
@@ -129,6 +129,7 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Albert_Bassermann</idno>
                <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb10844.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb10844.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb10844.html</idno>
                <affiliation>
                   <term key="1182">arbeitet für</term>
                   <orgName key="37214">Neue Wiener Bühne</orgName>
@@ -156,7 +157,8 @@
                   </event>
                   <event key="35116" when-iso="1903-09-12">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Uraufführung von Der Puppenspieler, Premiere von Das Trugbild, 12.9.1903</label>
+                     <label>Uraufführung von Der Puppenspieler, Premiere von Das Trugbild,
+                           12.9.1903</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35116/</idno>
                   </event>
                   <event key="35272" when-iso="1904-02-03">
@@ -215,15 +217,15 @@
                </persName>
                <birth>
                   <date notBefore-iso="1875-01-01"
-                        when-iso="1875-07-02"
+                        when-iso="1875-01-01"
                         notAfter-iso="1875-12-31">1875</date>
                </birth>
                <death>
-                  <date when-iso="1962-07-02" notAfter-iso="1962-12-31">1962</date>
+                  <date when-iso="1962-01-01" notAfter-iso="1962-12-31">1962</date>
                </death>
                <sex value="not-set"/>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155927/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3637_p1</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155927.html</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
@@ -233,20 +235,24 @@
                   <forename>Friedrich Ferdinand von</forename>
                   <surname>Beust</surname>
                </persName>
+               <persName type="legacy-name-merge">Beust, Friedrich Ferdinand, Graf</persName>
                <birth>
                   <date notBefore-iso="1809-01-01"
-                        when-iso="1809-07-02"
+                        when-iso="1809-01-01"
                         notAfter-iso="1809-12-31">1809</date>
                </birth>
                <death>
-                  <date when-iso="1886-07-02" notAfter-iso="1886-12-31">1886</date>
+                  <date when-iso="1886-01-01" notAfter-iso="1886-12-31">1886</date>
                </death>
                <sex value="not-set"/>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3637_p2</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/155928/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159382/</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb155928.html</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb159382</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
             </person>
          </listPerson>
       </back>

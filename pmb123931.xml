@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2024-02-27+01:00</date>
+            <date>2024-03-19+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123931.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -67,7 +67,7 @@
                      <ptr type="pmb" target="pmb60373"/>
                      <ptr type="pmb" target="pmb153605"/>
                      <ptr type="pmb" target="pmb154638"/>
-                     <ptr type="pmb" target="pmb114068"/>
+                     <ptr type="pmb" target="pmb28462"/>
                   </listRef>
                </ref>
                <noteGrp type="keywords">
@@ -107,14 +107,16 @@
                <sex value="male"/>
                <occupation key="225">Vereinspräsident/Vereinspräsidentin</occupation>
                <occupation key="419">Geologe/Geologin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20566</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118757709</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_20566.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12903/</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb12903.html</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp42328</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q156941</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Eduard_Suess</idno>
                <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x002cb02b</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12903.html</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_3639.html</idno>
                <listEvent>
                   <event key="143820" when-iso="1900-04-15">
                      <desc n="1370">teilgenommen an</desc>
@@ -161,7 +163,7 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q112005</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Georg_von_Sch%C3%B6nerer</idno>
                <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x002844c1</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1446_p3</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb60373.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
@@ -194,7 +196,7 @@
                   </settlement>
                </death>
                <sex value="male"/>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_1446_p4</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153605.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153605/</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1597295</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Heinrich_F%C3%BCrnkranz</idno>
@@ -209,27 +211,30 @@
                </persName>
                <birth>
                   <date notBefore-iso="1835-01-01"
-                        when-iso="1835-07-02"
+                        when-iso="1835-01-01"
                         notAfter-iso="1835-12-31">1835</date>
                </birth>
                <death>
-                  <date when-iso="1905-07-02" notAfter-iso="1905-12-31">1905</date>
+                  <date when-iso="1905-01-01" notAfter-iso="1905-12-31">1905</date>
                </death>
                <sex value="not-set"/>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154638.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154638/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4451_p3</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
             </person>
-            <person xml:id="pmb114068">
+            <person xml:id="pmb28462">
                <persName>
                   <forename>Clemens Wenzel von</forename>
                   <surname>Metternich-Winneburg</surname>
                </persName>
-               <persName type="legacy-name-merge">Metternich-Winneburg, Clemens Lothar Wenzel von</persName>
-               <persName type="legacy-name-merge">Metternich-Winneburg, Clemens Lothar, Fürst</persName>
-               <persName type="legacy-name-merge">Metternich, Klemens Wenzel Nepomuk Lothar</persName>
+               <persName type="legacy-name-merge">Metternich-Winneburg, Clemens Lothar Wenzel
+                     von</persName>
+               <persName type="legacy-name-merge">Metternich-Winneburg, Clemens Lothar,
+                     Fürst</persName>
+               <persName type="legacy-name-merge">Metternich, Klemens Wenzel Nepomuk
+                     Lothar</persName>
                <birth>
                   <date when-iso="1773-05-15">1773-05-15</date>
                   <settlement key="58556">
@@ -250,21 +255,22 @@
                </death>
                <sex value="male"/>
                <occupation key="95">Politiker/Politikerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18098</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_18098.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb28462.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/21352/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/28462/</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114068.html</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118581465</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q45662</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4451_p4</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2894</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161303/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2893</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/114068/</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp44072</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Klemens_Wenzel_Lothar_von_Metternich</idno>
                <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/metternich-klemens-wenzel-lothar.html</idno>
                <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x00282f8b</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb28462</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_2537.html</idno>
+               <idno type="URL" subtype="auden-musulin-papers">https://amp.acdh.oeaw.ac.at/amp_person_178.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>

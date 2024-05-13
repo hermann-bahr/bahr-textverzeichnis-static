@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2024-02-27+01:00</date>
+            <date>2024-03-19+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122567.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -68,7 +68,7 @@
                   weil zu starken Kaffee.</note>
                <ref type="personenindex">
                   <listRef>
-                     <ptr type="pmb" target="pmb18502"/>
+                     <ptr type="pmb" target="pmb3516"/>
                      <ptr type="pmb" target="pmb11209"/>
                      <ptr type="pmb" target="pmb12167"/>
                      <ptr type="pmb" target="pmb2412"/>
@@ -77,7 +77,7 @@
                      <ptr type="pmb" target="pmb94121"/>
                      <ptr type="pmb" target="pmb114473"/>
                      <ptr type="pmb" target="pmb148736"/>
-                     <ptr type="pmb" target="pmb115350"/>
+                     <ptr type="pmb" target="pmb18882"/>
                      <ptr type="pmb" target="pmb153969"/>
                   </listRef>
                </ref>
@@ -93,6 +93,42 @@
       </body>
       <back>
          <listPerson>
+            <person xml:id="pmb3516">
+               <persName>
+                  <surname>Horaz</surname>
+               </persName>
+               <persName type="person_geburtsname_vorname">Quintus</persName>
+               <persName type="person_geburtsname_nachname">Horatius Flaccus</persName>
+               <persName type="legacy-name-merge">Horaz</persName>
+               <birth>
+                  <date when-iso="0001-01-01">8.12.65 v. Chr.</date>
+               </birth>
+               <death>
+                  <date when-iso="0008-11-27">0008-11-27</date>
+               </death>
+               <sex value="male"/>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118553569</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_16352.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb18502.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3516.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3516/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/18502/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3516.html</idno>
+               <idno type="URL" subtype="dritte-walpurgisnacht">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=H#DWpers0115</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q6197</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Horaz</idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/horaz.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46262</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46265</idno>
+               <listBibl>
+                  <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Quintus%20Horatius%20Flaccus.jpg"/>
+               </figure>
+            </person>
             <person xml:id="pmb11209">
                <persName>
                   <forename>Albrecht</forename>
@@ -119,7 +155,8 @@
                </death>
                <sex value="male"/>
                <occupation key="110">Maler/Malerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14536</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_14536.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11209.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11209.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11209/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11209.html</idno>
@@ -128,7 +165,8 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Albrecht_D%C3%BCrer</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/11852786X</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/159868/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1062</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb11209</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_2510.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
@@ -164,8 +202,9 @@
                </death>
                <sex value="male"/>
                <occupation key="110">Maler/Malerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17796</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118730347</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_17796.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb12167.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12167.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12167/</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49544</idno>
@@ -173,7 +212,8 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Hans_Makart</idno>
                <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x002832c7</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161171/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2714</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb12167</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_3130.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
@@ -189,7 +229,7 @@
                </persName>
                <persName type="legacy-name-merge">Shakespeare, William</persName>
                <birth>
-                  <date when-iso="1564-04-23">23.4.1564?&lt;1564-04-23&gt;</date>
+                  <date when-iso="1564-04-23">23.4.1564?</date>
                   <settlement key="49870">
                      <placeName type="pref">Stratford-upon-Avon</placeName>
                      <location>
@@ -210,7 +250,7 @@
                <occupation key="105">Schauspieler/Schauspielerin</occupation>
                <occupation key="727">Dramatiker/Dramatikerin</occupation>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118613723</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20078</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2412.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2412.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2412/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2412.html</idno>
@@ -221,10 +261,12 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q692</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/William_Shakespeare</idno>
                <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/shakespeare-william.html</idno>
-               <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_10.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2412.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162255/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4086</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_20078.html</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb2412</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_287.html</idno>
+               <idno type="URL" subtype="auden-musulin-papers">https://amp.acdh.oeaw.ac.at/amp_person_10.html</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
@@ -244,7 +286,8 @@
                <sex value="male"/>
                <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/11855333X</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16341</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_16341.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb2495.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2495.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2495/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/18488/</idno>
@@ -256,6 +299,7 @@
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Homer</idno>
                <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb2495.html</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb2495.html</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_1733.html</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
@@ -276,7 +320,7 @@
                   <date>14 n. Chr.</date>
                </death>
                <sex value="not-set"/>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4464_p1</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153968.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153968/</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
@@ -296,6 +340,7 @@
                </death>
                <sex value="male"/>
                <occupation key="154">Philosoph/Philosophin</occupation>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb94121.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/94121/</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118547739</idno>
                <idno type="URL" subtype="dritte-walpurgisnacht">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=H#DWpers0098</idno>
@@ -303,9 +348,9 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q9235</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel</idno>
                <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/hegel-georg-wilhelm-friedrich.html</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4464_p2</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/160430/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_1772</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb94121</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_378.html</idno>
                <listBibl>
                   <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
@@ -332,13 +377,14 @@
                <occupation key="294">Pädagoge/Pädagogin</occupation>
                <occupation key="398">Psychologe/Psychologin</occupation>
                <occupation key="1658">Hochschullehrer/Hochschullehrerin</occupation>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb114473.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/114473/</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/11854943X</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp45874</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q76685</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Johann_Friedrich_Herbart</idno>
                <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/herbart-johann-friedrich.html</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4464_p3</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_795.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
@@ -349,6 +395,7 @@
                   <forename>Franz</forename>
                   <surname>Franz-Josef Rudigier</surname>
                </persName>
+               <persName type="legacy-name-merge">Rudigier, Franz Joseph</persName>
                <birth>
                   <date when-iso="1811-04-07">1811-04-07</date>
                   <settlement key="148737">
@@ -368,40 +415,54 @@
                   </settlement>
                </death>
                <sex value="male"/>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148736.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148736/</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q877406</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118750135</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4464_p4</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161955/</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Franz_Joseph_Rudigier</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb161955</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
             </person>
-            <person xml:id="pmb115350">
+            <person xml:id="pmb18882">
                <persName>
-                  <forename>E.</forename>
-                  <surname>Marlitt</surname>
+                  <forename>Eugenie</forename>
+                  <surname>John</surname>
                </persName>
+               <persName type="namensvariante">Marlitt E.</persName>
+               <persName type="legacy-name-merge">Marlitt, E.</persName>
                <birth>
-                  <date when-iso="1825-12-05">1825-12-05</date>
+                  <date when-iso="1825-12-05">05.12.1825</date>
+                  <settlement key="18883">
+                     <placeName type="pref">Arnstadt</placeName>
+                  </settlement>
                </birth>
                <death>
-                  <date when-iso="1887-06-22">1887-06-22</date>
+                  <date when-iso="1887-06-22">22.06.1887</date>
+                  <settlement key="18883">
+                     <placeName type="pref">Arnstadt</placeName>
+                  </settlement>
                </death>
                <sex value="female"/>
                <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
                <occupation key="107">Sänger/Sängerin</occupation>
-               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/115350/</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_17917.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb115350.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/18882/</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118731092</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49756</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q62950</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/E._Marlitt</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4464_p5</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2760</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb115350</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/115350/</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references">None </note>
             </person>
             <person xml:id="pmb153969">
                <persName>
@@ -410,15 +471,15 @@
                </persName>
                <birth>
                   <date notBefore-iso="1831-01-01"
-                        when-iso="1831-07-02"
+                        when-iso="1831-01-01"
                         notAfter-iso="1831-12-31">1831</date>
                </birth>
                <death>
-                  <date when-iso="1919-07-02" notAfter-iso="1919-12-31">1919</date>
+                  <date when-iso="1919-01-01" notAfter-iso="1919-12-31">1919</date>
                </death>
                <sex value="not-set"/>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb153969.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/153969/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4464_p6</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>

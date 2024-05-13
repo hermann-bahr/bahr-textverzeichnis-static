@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2024-02-27+01:00</date>
+            <date>2024-03-19+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123701.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -108,12 +108,14 @@
                <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
                <occupation key="105">Schauspieler/Schauspielerin</occupation>
                <occupation key="706">Garderobier/Garderobière</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18558</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_18558.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/19923/</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb19923.html</idno>
                <listEvent>
                   <event key="35482" when-iso="1899-04-29">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Premiere von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei Einakter, 29.4.1899</label>
+                     <label>Premiere von Der grüne Kakadu – Paracelsus – Die Gefährtin. Drei
+                           Einakter, 29.4.1899</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35482/</idno>
                   </event>
                </listEvent>
@@ -124,6 +126,7 @@
                   <surname>Albach-Retty</surname>
                </persName>
                <persName type="person_ehename_nachname">Albach</persName>
+               <persName type="legacy-name-merge">Retty, Rosa</persName>
                <birth>
                   <date when-iso="1874-12-26">26.12.1874</date>
                   <settlement key="63754">
@@ -144,16 +147,19 @@
                </death>
                <sex value="female"/>
                <occupation key="105">Schauspieler/Schauspielerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13123</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118501356</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_13123.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10752.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10752/</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp52446</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q78870</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Rosa_Albach-Retty</idno>
                <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb10752.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb10752.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161852/</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb161852</idno>
                <affiliation notBefore-iso="1895-01-01"
-                            when-iso="1895-07-02"
+                            when-iso="1895-01-01"
                             notAfter-iso="1895-12-31">
                   <term key="1182">arbeitet für</term>
                   <orgName key="36430">Volkstheater</orgName>
@@ -165,7 +171,7 @@
                   <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb36430.html</idno>
                </affiliation>
                <affiliation notBefore-iso="1903-01-01"
-                            when-iso="1903-07-02"
+                            when-iso="1903-01-01"
                             notAfter-iso="1903-12-31">
                   <term key="1182">arbeitet für</term>
                   <orgName key="36247">Burgtheater</orgName>
@@ -185,7 +191,8 @@
                   </event>
                   <event key="35113" when-iso="1904-12-12">
                      <desc n="1256">ist Arbeitskraft bei</desc>
-                     <label>Premiere von Literatur, Die letzten Masken, Der Puppenspieler, 12.12.1904</label>
+                     <label>Premiere von Literatur, Die letzten Masken, Der Puppenspieler,
+                           12.12.1904</label>
                      <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/35113/</idno>
                   </event>
                   <event key="35361" when-iso="1924-10-11">
@@ -196,7 +203,9 @@
                </listEvent>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
+               <note type="references"> </note>
                <figure>
                   <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Rosa%20Albach-Retty.jpg"/>
                </figure>
@@ -231,16 +240,17 @@
                </death>
                <sex value="male"/>
                <occupation key="105">Schauspieler/Schauspielerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18438</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116993359</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_18438.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12355.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12355/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12355.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb12355.html</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp52363</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q2158355</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Robert_Nhil</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161491/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3126</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb12355</idno>
                <listEvent>
                   <event key="35068" when-iso="1893-12-01">
                      <desc n="1256">ist Arbeitskraft bei</desc>
@@ -289,8 +299,8 @@
                <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
                <occupation key="104">Regisseur/Regisseurin</occupation>
                <occupation key="105">Schauspieler/Schauspielerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16621</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116012242</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_16621.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11848.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11848/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11848.html</idno>
@@ -298,8 +308,9 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q18625374</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Heinrich_Kadelburg</idno>
                <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb11848.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb11848.html</idno>
                <affiliation notBefore-iso="1889-01-01"
-                            when-iso="1889-07-02"
+                            when-iso="1889-01-01"
                             notAfter-iso="1889-12-31">
                   <term key="1182">arbeitet für</term>
                   <orgName key="36430">Volkstheater</orgName>
@@ -311,7 +322,7 @@
                   <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb36430.html</idno>
                </affiliation>
                <affiliation notBefore-iso="1908-01-01"
-                            when-iso="1908-07-01"
+                            when-iso="1908-01-01"
                             notAfter-iso="1908-12-31">
                   <term key="1182">arbeitet für</term>
                   <orgName key="63031">Carl-Theater</orgName>
@@ -338,8 +349,8 @@
                </persName>
                <sex value="not-set"/>
                <occupation key="105">Schauspieler/Schauspielerin</occupation>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154515.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154515/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2490_p1</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
@@ -351,15 +362,15 @@
                </persName>
                <birth>
                   <date notBefore-iso="1846-01-01"
-                        when-iso="1846-07-02"
+                        when-iso="1846-01-01"
                         notAfter-iso="1846-12-31">1846</date>
                </birth>
                <death>
-                  <date when-iso="1913-07-02" notAfter-iso="1913-12-31">1913</date>
+                  <date when-iso="1913-01-01" notAfter-iso="1913-12-31">1913</date>
                </death>
                <sex value="not-set"/>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154281.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154281/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4645_p4</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>

@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2024-02-27+01:00</date>
+            <date>2024-03-19+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb122563.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -60,7 +60,7 @@
                   Politiker.</note>
                <ref type="personenindex">
                   <listRef>
-                     <ptr type="pmb" target="pmb18502"/>
+                     <ptr type="pmb" target="pmb3516"/>
                      <ptr type="pmb" target="pmb12296"/>
                      <ptr type="pmb" target="pmb12136"/>
                      <ptr type="pmb" target="pmb9684"/>
@@ -84,6 +84,42 @@
       </body>
       <back>
          <listPerson>
+            <person xml:id="pmb3516">
+               <persName>
+                  <surname>Horaz</surname>
+               </persName>
+               <persName type="person_geburtsname_vorname">Quintus</persName>
+               <persName type="person_geburtsname_nachname">Horatius Flaccus</persName>
+               <persName type="legacy-name-merge">Horaz</persName>
+               <birth>
+                  <date when-iso="0001-01-01">8.12.65 v. Chr.</date>
+               </birth>
+               <death>
+                  <date when-iso="0008-11-27">0008-11-27</date>
+               </death>
+               <sex value="male"/>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118553569</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_16352.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb18502.html</idno>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3516.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3516/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/18502/</idno>
+               <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb3516.html</idno>
+               <idno type="URL" subtype="dritte-walpurgisnacht">https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=H#DWpers0115</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q6197</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Horaz</idno>
+               <idno type="URL" subtype="thun-korrespondenz">https://thun-korrespondenz.acdh.oeaw.ac.at/horaz.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46262</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46265</idno>
+               <listBibl>
+                  <bibl type="collections" n="10">Karl Kraus 1933: Dritte Walpurgisnacht</bibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Quintus%20Horatius%20Flaccus.jpg"/>
+               </figure>
+            </person>
             <person xml:id="pmb12296">
                <persName>
                   <forename>Gustav von</forename>
@@ -109,14 +145,15 @@
                </death>
                <sex value="male"/>
                <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18264</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/116937807</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_18264.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12296.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12296/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12296.html</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp56655</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q214573</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gustav_von_Moser</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb12296.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                </listBibl>
@@ -144,7 +181,6 @@
                </death>
                <sex value="male"/>
                <occupation key="511">Reformator/Reformatorin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17743</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118575449</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12136.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12136/</idno>
@@ -152,10 +188,13 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp49801</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q9554</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Martin_Luther</idno>
-               <idno type="URL" subtype="amp">https://amp.acdh.oeaw.ac.at/amp_person_102.html</idno>
                <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb12136.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161134/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_2664</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_17743.html</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb12136</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb12136.html</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_169.html</idno>
+               <idno type="URL" subtype="auden-musulin-papers">https://amp.acdh.oeaw.ac.at/amp_person_102.html</idno>
                <listBibl>
                   <bibl type="collections" n="5">legalkraus</bibl>
                   <bibl type="collections" n="12">Fackel</bibl>
@@ -190,14 +229,15 @@
                   </settlement>
                </death>
                <sex value="male"/>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19655</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118794957</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_19655.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/9684/</idno>
                <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb9684.html</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46982</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q67502</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Johannes_Scherr</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3883</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb9684</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb9684.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
@@ -214,7 +254,8 @@
                <persName type="person_geburtsname_vorname">Franz</persName>
                <persName type="person_geburtsname_nachname">Schönthan von Pernwaldt</persName>
                <persName type="legacy-name-merge">Schönthan, Franz von</persName>
-               <persName type="legacy-name-merge">Schönthan, Franz von, Edler von Pernwald</persName>
+               <persName type="legacy-name-merge">Schönthan, Franz von, Edler von
+                     Pernwald</persName>
                <persName type="legacy-name-merge">Schönthan, Franz von</persName>
                <persName type="legacy-name-merge">Schönthan, Franz, Edler von Pernwald</persName>
                <birth>
@@ -237,7 +278,8 @@
                </death>
                <sex value="male"/>
                <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19853</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_19853.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb24702.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb24702.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/24702/</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pmb24702.html</idno>
@@ -246,13 +288,11 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q114579</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Franz_von_Sch%C3%B6nthan</idno>
                <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x002844f5</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4466_p1</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154455.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154455/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2503_p1</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162219/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4042</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162220/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4043</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb24702</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
@@ -275,15 +315,16 @@
                </death>
                <sex value="male"/>
                <occupation key="185">Architekt/Architektin</occupation>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb117069.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/117069/</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118613154</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp58949</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q61342</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Gottfried_Semper</idno>
                <idno type="URL" subtype="oebl">https://doi.org/10.1553/0x00284974</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_3840_p5</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162236/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4063</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb117069</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_3644.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
@@ -296,11 +337,10 @@
                   <surname>Zwingli</surname>
                </persName>
                <sex value="male"/>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148722.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148722/</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q123034</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118637533</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4466_p3</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2697_p6</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Huldrych_Zwingli</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
@@ -325,8 +365,8 @@
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp39709</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q37577</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Johannes_Calvin</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4466_p4</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_651</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb113033</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb113033.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
@@ -338,10 +378,10 @@
                   <surname>Michael Servetus</surname>
                </persName>
                <sex value="male"/>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb148726.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/148726/</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q185914</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/11861343X</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4466_p5</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Michael_Servetus</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
@@ -362,12 +402,13 @@
                <occupation key="95">Politiker/Politikerin</occupation>
                <occupation key="237">Publizist/Publizistin</occupation>
                <occupation key="2976">Humanist/Humanistin</occupation>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb116314.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/116314/</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118555049</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp54377</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q77107</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Ulrich_von_Hutten</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_4466_p6</idno>
+               <idno type="URL" subtype="hanslick-online">https://hanslick.acdh.oeaw.ac.at/hsl_person_id_2856.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>

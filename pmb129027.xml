@@ -22,7 +22,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2024-02-27+01:00</date>
+            <date>2024-03-19+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb129027.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -61,7 +61,7 @@
                   sich keine von den Menschen geschaffene Kirche vorstellen kann.</note>
                <ref type="personenindex">
                   <listRef>
-                     <ptr type="pmb" target="pmb21342"/>
+                     <ptr type="pmb" target="pmb3422"/>
                      <ptr type="pmb" target="pmb3849"/>
                      <ptr type="pmb" target="pmb150603"/>
                   </listRef>
@@ -83,6 +83,51 @@
       </body>
       <back>
          <listPerson>
+            <person xml:id="pmb3422">
+               <persName>
+                  <forename>Dimitrij S.</forename>
+                  <surname>Merežkovskij</surname>
+               </persName>
+               <persName type="legacy-name-merge">Mereschkowski, Dmitri S.</persName>
+               <birth>
+                  <date when-iso="1865-08-14">1865-08-14</date>
+                  <settlement key="433">
+                     <placeName type="pref">Sankt Petersburg</placeName>
+                     <location>
+                        <geo>59,93863 30,31413</geo>
+                     </location>
+                  </settlement>
+               </birth>
+               <death>
+                  <date when-iso="1941-12-09">1941-12-09</date>
+                  <settlement key="182">
+                     <placeName type="pref">Paris</placeName>
+                     <location>
+                        <geo>48,85341 2,3488</geo>
+                     </location>
+                  </settlement>
+               </death>
+               <sex value="male"/>
+               <occupation key="90">Schriftsteller/Schriftstellerin</occupation>
+               <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3422.html</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3422/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/21342/</idno>
+               <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q326459</idno>
+               <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Dmitri_Sergejewitsch_Mereschkowski</idno>
+               <idno type="URL" subtype="schnitzler-interviews">https://schnitzler-interviews.acdh.oeaw.ac.at/pmb3422.html</idno>
+               <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp50096</idno>
+               <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118733001</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_18086.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb21342.html</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb3422</idno>
+               <listBibl>
+                  <bibl type="collections" n="12">Fackel</bibl>
+                  <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
+               </listBibl>
+               <figure>
+                  <graphic url="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Merezhkovskiy%20in%20NNovgorod.jpg"/>
+               </figure>
+            </person>
             <person xml:id="pmb3849">
                <persName>
                   <forename>Johannes</forename>
@@ -111,14 +156,15 @@
                <occupation key="154">Philosoph/Philosophin</occupation>
                <occupation key="259">Theologe/Theologin</occupation>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118585061</idno>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18300</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_18300.html</idno>
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb3849.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3849/</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp46980</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q119081</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Johannes_M%C3%BCller_(Theologe,_1864)</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb3849.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/161440/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_3066</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb3849</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
@@ -145,8 +191,8 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/150603/</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q1960400</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/103327835</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_5226_p1</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Anton_Wladimirowitsch_Kartaschow</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb150603.html</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>

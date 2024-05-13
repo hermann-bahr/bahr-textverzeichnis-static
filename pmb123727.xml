@@ -23,7 +23,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural
                                     Heritage (ACDH-CH)</publisher>
-            <date>2024-02-27+01:00</date>
+            <date>2024-03-19+01:00</date>
             <idno type="URI">https://id.acdh.oeaw.ac.at/bahr-textverzeichnis/pmb123727.xml</idno>
          </publicationStmt>
          <sourceDesc>
@@ -109,8 +109,9 @@
                <sex value="female"/>
                <occupation key="105">Schauspieler/Schauspielerin</occupation>
                <occupation key="107">Sänger/Sängerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16592</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_16592.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/18926/</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb18926.html</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp47197</idno>
             </person>
             <person xml:id="pmb25935">
@@ -142,7 +143,8 @@
                <occupation key="110">Maler/Malerin</occupation>
                <occupation key="361">Künstler/Künstlerin</occupation>
                <occupation key="442">Kupferstecher/Kupferstecherin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20667</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_20667.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb25935.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/25935/</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp54012</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/116225/</idno>
@@ -150,7 +152,7 @@
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q335022</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/David_Teniers_der_J%C3%BCngere</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/162494/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-TSN_4383</idno>
+               <idno type="URL" subtype="bahr-tsn">https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb25935</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
@@ -167,7 +169,7 @@
                <persName type="person_ehename_nachname">Decsenyi</persName>
                <birth>
                   <date notBefore-iso="1875-01-01"
-                        when-iso="1875-07-02"
+                        when-iso="1875-01-01"
                         notAfter-iso="1875-12-31">1875</date>
                   <settlement key="36300">
                      <placeName type="pref">Kopenhagen</placeName>
@@ -183,7 +185,7 @@
                   </settlement>
                </birth>
                <death>
-                  <date when-iso="1929-01-01">nach 1929&lt;1929-01-01&gt;</date>
+                  <date when-iso="1929-01-01">nach 1929</date>
                </death>
                <sex value="female"/>
                <occupation key="107">Sänger/Sängerin</occupation>
@@ -191,6 +193,7 @@
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/1167444132</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10718/</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp60762</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb10718.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="13">No WikiData-ID found</bibl>
@@ -205,7 +208,9 @@
                <persName type="person_geburtsname_vorname">Sofie Kathrine Theodora</persName>
                <persName type="person_ehename_nachname">De Lisser</persName>
                <birth>
-                  <date when-iso="1877-01-01">1877</date>
+                  <date notBefore-iso="1877-01-01"
+                        when-iso="1877-01-01"
+                        notAfter-iso="1877-12-31">1877</date>
                   <settlement key="36300">
                      <placeName type="pref">Kopenhagen</placeName>
                      <location>
@@ -214,7 +219,7 @@
                   </settlement>
                </birth>
                <death>
-                  <date when-iso="1906-01-01">1906</date>
+                  <date when-iso="1906-01-01" notAfter-iso="1906-12-31">1906</date>
                </death>
                <sex value="female"/>
                <occupation key="107">Sänger/Sängerin</occupation>
@@ -223,6 +228,7 @@
                <idno type="URL" subtype="schnitzler-bahr">https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10716.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10716/</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp60760</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb10716.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                   <bibl type="collections" n="13">No WikiData-ID found</bibl>
@@ -254,14 +260,15 @@
                <sex value="female"/>
                <occupation key="105">Schauspieler/Schauspielerin</occupation>
                <occupation key="107">Sänger/Sängerin</occupation>
-               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15741</idno>
                <idno type="URL" subtype="gnd">https://d-nb.info/gnd/118543466</idno>
+               <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_15741.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/7597/</idno>
                <idno type="URL" subtype="fackel">https://fackel.oeaw.ac.at/?p=fackelp55787</idno>
                <idno type="URL" subtype="wikidata">http://www.wikidata.org/entity/Q239838</idno>
                <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Yvette_Guilbert</idno>
                <idno type="URL" subtype="freud">https://freud.acdh-dev.oeaw.ac.at/frd_person_30.html</idno>
                <idno type="URL" subtype="schnitzler-kino">https://schnitzler-kino.acdh.oeaw.ac.at/pmb7597.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb7597.html</idno>
                <listBibl>
                   <bibl type="collections" n="12">Fackel</bibl>
                </listBibl>
@@ -276,7 +283,7 @@
                </persName>
                <sex value="not-set"/>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154533/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2347_p1</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154533.html</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
@@ -287,8 +294,8 @@
                   <surname>Barrison</surname>
                </persName>
                <sex value="not-set"/>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154534.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154534/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2347_p2</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
@@ -298,9 +305,12 @@
                   <forename>Inger</forename>
                   <surname>Barrison</surname>
                </persName>
+               <persName type="legacy-name-merge">Barrison, Inger</persName>
                <sex value="not-set"/>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb154535.html</idno>
+               <idno type="URL" subtype="bahr-textverzeichnis">https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb156678.html</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/154535/</idno>
-               <idno type="URL" subtype="hermanbahrtextverzeichnis">https://hermanbahrtextverzeichnis/HB-tv_2347_p3</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/156678/</idno>
                <listBibl>
                   <bibl type="collections" n="16">Bahr Textverzeichnis</bibl>
                </listBibl>
