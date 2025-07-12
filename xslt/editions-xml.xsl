@@ -17,7 +17,6 @@
                 <xsl:call-template name="html_head">
                     <xsl:with-param name="html_title" select="concat($doc_title, ' TEI/XML Version')"></xsl:with-param>
                 </xsl:call-template>
-                <link rel="stylesheet" id="fundament-styles"  href="../dist/fundament/css/fundament.min.css" type="text/css"></link>
                 <link rel="stylesheet" href="../css/style.css" type="text/css"></link>
             </head>
             <body>

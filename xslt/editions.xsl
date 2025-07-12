@@ -14,7 +14,7 @@
     <xsl:import href="./partials/person.xsl"/>
     <xsl:import href="./partials/place.xsl"/>
     <xsl:import href="./partials/org.xsl"/>
-    <xsl:param name="relevant-uris" select="document('./utils/list-of-relevant-uris.xml')"/>
+    <xsl:param name="relevant-uris" select="document('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-static/refs/heads/main/xslt/export/list-of-relevant-uris.xml')"/>
     <xsl:key name="only-relevant-uris" match="item" use="abbr"/>
     <xsl:variable name="prev">
         <xsl:choose>
