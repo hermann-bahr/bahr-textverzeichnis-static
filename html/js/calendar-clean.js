@@ -1,12 +1,11 @@
 // Calendar initialization for bahr-textverzeichnis-static
-// Uses SimpleCalendar instead of js-year-calendar
+// Clean version without any old code references
 
 let calendar;
 let data = [];
-let years = [];
 
 // Convert calendarData format to SimpleCalendar format
-let activeFilters = new Set(['Journal-Article', 'Book', 'Book_Section', 'Tagebuch', 'Pamphlet', 'Unveröffentlicht']); // All active by default
+let activeFilters = new Set(['artikel', 'buchbeitrag', 'rezension', 'sonstiges']); // All active by default
 window.activeFilters = activeFilters; // Make globally available for SimpleCalendar
 
 function processCalendarData() {
@@ -15,21 +14,10 @@ function processCalendarData() {
     endDate: r.startDate, // Same day event
     name: r.name,
     linkId: r.id,
-    category: r.category || 'Sonstiges',
+    category: r.category || 'sonstiges',
     tageszaehler: r.tageszaehler
   }));
-  
-  // Get available years
-  years = Array.from(new Set(calendarData.map(r => 
-    r.startDate.split('-')[0]
-  ))).sort();
 }
-
-// Filter data based on active categories
-function getFilteredData() {
-  return data.filter(event => activeFilters.has(event.category));
-}
-
 
 // Day click handler - preserves original functionality
 function handleDayClick(e) {
@@ -64,13 +52,10 @@ function showEventsModal(events, date) {
   
   // Category colors mapping
   const categoryColors = {
-    'Journal-Article': '#A63437',    // Journal articles (red)
-    'Book': '#1C6E8C',              // Books (blue)
-    'Book_Section': '#68825b',       // Book sections (green)
-    'Tagebuch': '#28a745',          // Diary entries (bright green)
-    'Pamphlet': 'rgb(101, 67, 33)', // Pamphlets (brown)
-    'Unveröffentlicht': '#6c757d',  // Unpublished (gray)
-    'Sonstiges': '#999999'          // Others (gray)
+    'artikel': '#A63437',    // Articles (red)
+    'buchbeitrag': '#1C6E8C', // Book contributions (blue)
+    'rezension': '#68825b',   // Reviews (green)
+    'sonstiges': 'rgb(101, 67, 33)'  // Other texts (brown)
   };
   
   // Sort events by tageszaehler (preserving original sorting logic)
@@ -114,16 +99,36 @@ function showEventsModal(events, date) {
 
 // Initialize calendar when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
+  console.log('Initializing calendar...');
+  
+  // Check if calendar container exists
+  if (!document.getElementById('calendar')) {
+    console.error('Calendar container not found');
+    return;
+  }
+  
+  // Check if calendarData exists
+  if (typeof calendarData === 'undefined') {
+    console.error('calendarData not found');
+    return;
+  }
+  
   // Process calendar data
   processCalendarData();
+  console.log('Processed calendar data:', data.length, 'events');
   
   // Make functions globally available for simple-calendar.js
   window.showEventsModal = showEventsModal;
   
   // Initialize SimpleCalendar
-  calendar = new SimpleCalendar('calendar', {
-    startYear: 1890,
-    dataSource: data,  // Use all data, filtering is handled inside SimpleCalendar
-    clickDay: handleDayClick
-  });
+  try {
+    calendar = new SimpleCalendar('calendar', {
+      startYear: 1890,
+      dataSource: data,  // Use all data, filtering is handled inside SimpleCalendar
+      clickDay: handleDayClick
+    });
+    console.log('Calendar initialized successfully');
+  } catch (error) {
+    console.error('Error initializing calendar:', error);
+  }
 });

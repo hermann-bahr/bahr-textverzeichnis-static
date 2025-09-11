@@ -17,17 +17,21 @@ class SimpleCalendar {
     
     // Event type categories and colors for texts
     this.eventCategories = {
-      'artikel': '#A63437',    // Articles (red)
-      'buchbeitrag': '#1C6E8C', // Book contributions (blue)
-      'rezension': '#68825b',   // Reviews (green)
-      'sonstiges': 'rgb(101, 67, 33)'  // Other texts (brown)
+      'Journal-Article': '#A63437',    // Journal articles (red)
+      'Book': '#1C6E8C',              // Books (blue)  
+      'Book_Section': '#68825b',       // Book sections (green)
+      'Tagebuch': '#28a745',          // Diary entries (bright green)
+      'Pamphlet': 'rgb(101, 67, 33)', // Pamphlets (brown)
+      'Unveröffentlicht': '#6c757d'   // Unpublished (gray)
     };
     
     this.categoryLabels = {
-      'artikel': 'Artikel',
-      'buchbeitrag': 'Buchbeiträge', 
-      'rezension': 'Rezensionen',
-      'sonstiges': 'Sonstige Texte'
+      'Journal-Article': 'Zeitschriftenartikel',
+      'Book': 'Bücher', 
+      'Book_Section': 'Buchbeiträge',
+      'Tagebuch': 'Tagebuch',
+      'Pamphlet': 'Broschüren',
+      'Unveröffentlicht': 'Unveröffentlicht'
     };
     
     
@@ -113,21 +117,29 @@ class SimpleCalendar {
                   <button class="view-btn" data-view="month">Monat</button>
                 </div>
                 <div class="category-filters">
-                  <button class="filter-toggle active" data-category="artikel" title="Artikel">
+                  <button class="filter-toggle active" data-category="Journal-Article" title="Zeitschriftenartikel">
                     <span class="filter-dot"></span>
-                    Artikel
+                    Zeitschriftenartikel
                   </button>
-                  <button class="filter-toggle active" data-category="buchbeitrag" title="Buchbeiträge">
+                  <button class="filter-toggle active" data-category="Book" title="Bücher">
+                    <span class="filter-dot"></span>
+                    Bücher
+                  </button>
+                  <button class="filter-toggle active" data-category="Book_Section" title="Buchbeiträge">
                     <span class="filter-dot"></span>
                     Buchbeiträge
                   </button>
-                  <button class="filter-toggle active" data-category="rezension" title="Rezensionen">
+                  <button class="filter-toggle active" data-category="Tagebuch" title="Tagebuch">
                     <span class="filter-dot"></span>
-                    Rezensionen
+                    Tagebuch
                   </button>
-                  <button class="filter-toggle active" data-category="sonstiges" title="Sonstige Texte">
+                  <button class="filter-toggle active" data-category="Pamphlet" title="Broschüren">
                     <span class="filter-dot"></span>
-                    Sonstige Texte
+                    Broschüren
+                  </button>
+                  <button class="filter-toggle active" data-category="Unveröffentlicht" title="Unveröffentlicht">
+                    <span class="filter-dot"></span>
+                    Unveröffentlicht
                   </button>
                 </div>
               </div>
@@ -319,44 +331,64 @@ class SimpleCalendar {
           border: 2px solid #ddd;
         }
         
-        .filter-toggle[data-category="artikel"] .filter-dot {
+        .filter-toggle[data-category="Journal-Article"] .filter-dot {
           border-color: #A63437;
         }
         
-        .filter-toggle[data-category="buchbeitrag"] .filter-dot {
+        .filter-toggle[data-category="Book"] .filter-dot {
           border-color: #1C6E8C;
         }
         
-        .filter-toggle[data-category="rezension"] .filter-dot {
+        .filter-toggle[data-category="Book_Section"] .filter-dot {
           border-color: #68825b;
         }
         
-        .filter-toggle[data-category="sonstiges"] .filter-dot {
+        .filter-toggle[data-category="Tagebuch"] .filter-dot {
+          border-color: #28a745;
+        }
+        
+        .filter-toggle[data-category="Pamphlet"] .filter-dot {
           border-color: rgb(101, 67, 33);
         }
         
-        .filter-toggle.active[data-category="artikel"] {
+        .filter-toggle[data-category="Unveröffentlicht"] .filter-dot {
+          border-color: #6c757d;
+        }
+        
+        .filter-toggle.active[data-category="Journal-Article"] {
           background: #A63437;
           color: white;
           border-color: #A63437;
         }
         
-        .filter-toggle.active[data-category="buchbeitrag"] {
+        .filter-toggle.active[data-category="Book"] {
           background: #1C6E8C;
           color: white;
           border-color: #1C6E8C;
         }
         
-        .filter-toggle.active[data-category="rezension"] {
+        .filter-toggle.active[data-category="Book_Section"] {
           background: #68825b;
           color: white;
           border-color: #68825b;
         }
         
-        .filter-toggle.active[data-category="sonstiges"] {
+        .filter-toggle.active[data-category="Tagebuch"] {
+          background: #28a745;
+          color: white;
+          border-color: #28a745;
+        }
+        
+        .filter-toggle.active[data-category="Pamphlet"] {
           background: rgb(101, 67, 33);
           color: white;
           border-color: rgb(101, 67, 33);
+        }
+        
+        .filter-toggle.active[data-category="Unveröffentlicht"] {
+          background: #6c757d;
+          color: white;
+          border-color: #6c757d;
         }
         
         .filter-toggle:not(.active) {

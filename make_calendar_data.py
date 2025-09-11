@@ -19,6 +19,22 @@ for x in tqdm(files, total=len(files)):
         'descendant::tei:titleStmt/tei:title[@type="iso-date"]/text()'
     )[0]
     item["id"] = tail.replace(".xml", ".html")
+    # Extract biblStruct type and subtype for categorization
+    try:
+        biblstruct_type = doc.any_xpath('descendant::tei:biblStruct/@type')
+        biblstruct_subtype = doc.any_xpath('descendant::tei:biblStruct/@subtype')
+        
+        # Check if it's a diary entry (subtype contains "Tagebuch")
+        if biblstruct_subtype and 'Tagebuch' in biblstruct_subtype[0]:
+            item["category"] = "Tagebuch"
+        elif biblstruct_type:
+            item["category"] = biblstruct_type[0]
+        else:
+            item["category"] = "Sonstiges"
+    except:
+        item["category"] = "Sonstiges"
+    # Add tageszaehler for sorting (use index if no specific order available)
+    item["tageszaehler"] = len(data) + 1
     data.append(item)
 
 print(f"writing calendar data to {out_file}")
