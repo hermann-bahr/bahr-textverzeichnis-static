@@ -6,7 +6,7 @@ let data = [];
 let years = [];
 
 // Convert calendarData format to SimpleCalendar format
-let activeFilters = new Set(['artikel', 'buchbeitrag', 'rezension', 'sonstiges']); // All active by default
+let activeFilters = new Set(['Journal-Article', 'Book', 'Book_Section', 'Tagebuch', 'Pamphlet', 'Unveröffentlicht']); // All active by default
 window.activeFilters = activeFilters; // Make globally available for SimpleCalendar
 
 function processCalendarData() {
@@ -15,7 +15,7 @@ function processCalendarData() {
     endDate: r.startDate, // Same day event
     name: r.name,
     linkId: r.id,
-    category: r.category || 'sonstiges',
+    category: r.category || 'Sonstiges',
     tageszaehler: r.tageszaehler
   }));
   
@@ -64,10 +64,13 @@ function showEventsModal(events, date) {
   
   // Category colors mapping
   const categoryColors = {
-    'artikel': '#A63437',    // Articles (red)
-    'buchbeitrag': '#1C6E8C', // Book contributions (blue)
-    'rezension': '#68825b',   // Reviews (green)
-    'sonstiges': 'rgb(101, 67, 33)'  // Other texts (brown)
+    'Journal-Article': '#A63437',    // Journal articles (red)
+    'Book': '#1C6E8C',              // Books (blue)
+    'Book_Section': '#68825b',       // Book sections (green)
+    'Tagebuch': '#28a745',          // Diary entries (bright green)
+    'Pamphlet': 'rgb(101, 67, 33)', // Pamphlets (brown)
+    'Unveröffentlicht': '#6c757d',  // Unpublished (gray)
+    'Sonstiges': '#999999'          // Others (gray)
   };
   
   // Sort events by tageszaehler (preserving original sorting logic)
