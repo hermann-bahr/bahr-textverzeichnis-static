@@ -1,10 +1,10 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="de">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" style="hyphens: auto;" lang="de" xml:lang="de">
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
    <meta name="mobile-web-app-capable" content="yes" />
    <meta name="apple-mobile-web-app-capable" content="yes" />
-   <meta name="apple-mobile-web-app-title" content="" />
+   <meta name="apple-mobile-web-app-title" content="Hermann Bahr Textverzeichnis" />
    <meta name="msapplication-TileColor" content="#ffffff" />
    <meta name="msapplication-TileImage" content="bahr-textverzeichnis.svg" />
    <link rel="icon" type="image/svg+xml" href="bahr-textverzeichnis.svg" sizes="any" />
@@ -36,7 +36,7 @@
             g.defer = true;
             g.src = u + 'piwik.js';
             s.parentNode.insertBefore(g, s);
-        })();</script><body class="page"><script src="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.js"></script><script src="https://unpkg.com/js-year-calendar@latest/locales/js-year-calendar.de.js"></script><link rel="stylesheet" type="text/css" href="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.css" /><script src="js-data/calendarData.js"></script><div class="hfeed site" id="page">
+        })();</script><body class="page"><script src="js-data/calendarData.js"></script><script src="js/simple-calendar.js"></script><div class="hfeed site" id="page">
          <nav class="navbar navbar-expand-md" style="padding-top:1px;">
             <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="img/bahr-textverzeichnis.svg" class="img-fluid" title="Bahr: Textverzeichnis" alt="Bahr: Textverzeichnis" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border: none;"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse " id="navbarNav">
                   <ul class="navbar-nav ms-auto">
@@ -66,18 +66,10 @@
             <div class="card">
                <div class="card-header" style="text-align:center">
                   <h1 style="display:inline-block;margin-bottom:0;padding-right:5px;">
-                     Kalender</h1><a><i class="fas fa-info" title="Info" data-toggle="modal" data-target="#exampleModal"></i></a><a style="padding-left:5px;" href="js-data/calendarData.js"><i class="fas fa-download" title="Data"></i></a></div>
+                     Kalender</h1><a><i class="fas fa-info" title="Textverzeichnis nach Tagen suchen" data-bs-toggle="modal" data-bs-target="#exampleModal"></i></a><a style="padding-left:5px;" href="js-data/calendarData.js"><i class="fas fa-download" title="Kalenderdaten herunterladen"></i></a></div>
                <div class="card-body containingloader">
-                  <div class="row">
-                     <div class="col-sm-2 yearscol">
-                        <div class="row">
-                           <div class="col-sm-12">
-                              <p style="text-align:center;font-weight:bold;margin-bottom:0;">Jahr</p>
-                           </div>
-                        </div>
-                        <div class="row justify-content-md-center" id="years-table"></div>
-                     </div>
-                     <div class="col-sm-10">
+                  <div class="row" id="calendar-row">
+                     <div class="col-12" id="calendar-col">
                         <div id="calendar"></div>
                      </div>
                   </div>
@@ -88,16 +80,17 @@
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Die Einträge in Kalenderansicht</h5>
+                     <h5 class="modal-title">Die Texte in Kalenderansicht</h5>
                   </div>
                   <div class="modal-body">
-                     <p>Einträge eines bestimmten Tages suchen.
-                        </p>
+                     <p>Dieser Kalender zeigt alle Texte der vorliegenden Edition. Sie
+                        sind aufgeteilt in die Farben rot (Artikel), blau (Buchbeiträge), 
+                        grün (Rezensionen) und braun (sonstige Texte).</p>
                   </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button></div>
                </div>
             </div>
-         </div><script type="text/javascript" src="./js/calendar.js" charset="UTF-8"></script><div id="loadModal"></div>
+         </div><script type="text/javascript" src="js/calendar.js" charset="UTF-8"></script><div id="loadModal"></div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
             <div class="container" id="footer-full-content" tabindex="-1">
                <div class="footer-separator">
