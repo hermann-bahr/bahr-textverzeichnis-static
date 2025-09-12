@@ -98,8 +98,9 @@ class SimpleCalendar {
         button.classList.add('active');
       }
       
-      // Update calendar display
+      // Update calendar display and dropdown navigation
       this.renderCalendar();
+      this.createDropdownNavigation();
     }
   }
   
@@ -723,12 +724,19 @@ class SimpleCalendar {
     const yearSelect = document.createElement('select');
     yearSelect.className = 'period-dropdown year-dropdown';
     
-    // Get available years from events
-    const availableYears = [...new Set(this.events.map(event => 
+    // Get available years from events, filtered by active categories
+    const filteredEvents = this.events.filter(event => this.isEventVisible(event));
+    const availableYears = [...new Set(filteredEvents.map(event => 
       new Date(event.startDate).getFullYear()
     ))].sort();
     
-    availableYears.forEach(year => {
+    // If no years have entries with current filters, show all years
+    const yearsToShow = availableYears.length > 0 ? availableYears : 
+      [...new Set(this.events.map(event => 
+        new Date(event.startDate).getFullYear()
+      ))].sort();
+    
+    yearsToShow.forEach(year => {
       const option = document.createElement('option');
       option.value = year;
       option.textContent = year;
