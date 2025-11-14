@@ -24,7 +24,7 @@
                             <p>
                                 ACDH
                                 <br/>
-                                Austrian Centre for Digital Humanities and Cultural Heritage
+                                Austrian Centre for Digital Humanities
                                 <br/>
                                 Österreichische Akademie der Wissenschaften
                             </p>
