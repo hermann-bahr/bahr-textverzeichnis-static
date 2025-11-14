@@ -15,14 +15,27 @@ from tqdm import tqdm
 
 files = glob.glob("./data/editions/*.xml")
 
+COLLECTION_NAME = "hbtv"
 
+# Delete existing collection
 try:
-    client.collections["hbtv"].delete()
+    result = client.collections[COLLECTION_NAME].delete()
+    print(f"Deleted existing collection '{COLLECTION_NAME}'")
 except ObjectNotFound:
-    pass
+    print(f"Collection '{COLLECTION_NAME}' does not exist yet, creating new one")
+except Exception as e:
+    print(f"Error deleting collection: {e}")
+    # Try to force delete
+    import time
+    time.sleep(2)
+    try:
+        client.collections[COLLECTION_NAME].delete()
+        print(f"Retry: Successfully deleted '{COLLECTION_NAME}'")
+    except:
+        pass
 
 current_schema = {
-    "name": "hbtv",
+    "name": COLLECTION_NAME,
     "enable_nested_fields": True,
     "fields": [
         {"name": "id", "type": "string"},
@@ -64,7 +77,10 @@ current_schema = {
     ],
 }
 
-client.collections.create(current_schema)
+# Create new collection with updated schema
+created = client.collections.create(current_schema)
+print(f"Created collection 'hbtv' with schema: {list(current_schema['fields'][0].keys())}")
+print(f"Total fields in schema: {len(current_schema['fields'])}")
 
 records = []
 cfts_records = []
@@ -154,10 +170,10 @@ for x in tqdm(files, total=len(files)):
     records.append(record)
     cfts_records.append(cfts_record)
 
-make_index = client.collections["hbtv"].documents.import_(records)
+make_index = client.collections[COLLECTION_NAME].documents.import_(records)
 print(make_index)
-print("done with indexing hbtv")
+print(f"done with indexing {COLLECTION_NAME}")
 
 make_index = CFTS_COLLECTION.documents.import_(cfts_records, {"action": "upsert"})
 print(make_index)
-print("done with cfts-index hbtv")
+print(f"done with cfts-index {COLLECTION_NAME}")

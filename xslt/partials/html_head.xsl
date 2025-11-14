@@ -17,7 +17,6 @@
 
         <!-- Google Site Verification - Must be early in head -->
         <meta name="google-site-verification" content="dc888ZmCroA0_VKEB86Vss7wy4Jbkaro0j2QfM8GOak"/>
-
         <meta name="mobile-web-app-capable" content="yes"/>
         <meta name="apple-mobile-web-app-capable" content="yes"/>
         <meta name="apple-mobile-web-app-title" content="{$html_title}"/>
