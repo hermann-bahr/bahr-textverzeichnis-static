@@ -44,13 +44,21 @@ search.addWidgets([
     templates: {
       empty: "Keine Resultate für <q>{{ query }}</q>",
       item(hit, { html, components }) {
+        // Helper function to truncate label
+        const truncateLabel = (label) => label.length > 115 ? label.substring(0, 112) + '…' : label;
+
         var bibl_type = `${hit.type}`.replace("_", " ")
-        return html` 
+        return html`
       <h3><a href='${hit.id}.html'>${hit.title}</a></h3>
       <p>${hit._snippetResult.full_text.matchedWords.length > 0 ? components.Snippet({ hit, attribute: 'full_text' }) : ''}</p>
+      <p>
       ${hit.type.map((item) => html`<span class="badge rounded-pill m-1 bg-info">${item.replace("_", " ")}</span>`)}
       ${hit.authors.map((item) => html`<a href='https://pmb.acdh.oeaw.ac.at/entity/${item.id.replace("pmb", "")}'><span class="badge rounded-pill m-1 bg-warning">${item.name}</span></a>`)}
-      
+      ${hit.persons && hit.persons.map((item) => html`<a href='${item.id}.html'><span class="badge rounded-pill m-1" style="background-color: #e74c3c; color: white;">${truncateLabel(item.label)}</span></a>`)}
+      ${hit.places && hit.places.map((item) => html`<a href='${item.id}.html'><span class="badge rounded-pill m-1" style="background-color: #3498db; color: white;">${truncateLabel(item.label)}</span></a>`)}
+      ${hit.orgs && hit.orgs.map((item) => html`<a href='${item.id}.html'><span class="badge rounded-pill m-1" style="background-color: #9b59b6; color: white;">${truncateLabel(item.label)}</span></a>`)}
+      ${hit.works && hit.works.map((item) => html`<a href='${item.id}.html'><span class="badge rounded-pill m-1" style="background-color: #f39c12; color: white;">${truncateLabel(item.label)}</span></a>`)}
+      </p>
       `;
       },
     },
@@ -118,6 +126,70 @@ search.addWidgets([
       form: "form-inline",
       input: "form-control",
       submit: "btn",
+    },
+  }),
+
+  instantsearch.widgets.refinementList({
+    container: "#refinement-list-persons",
+    attribute: "persons.label",
+    searchable: true,
+    showMore: true,
+    showMoreLimit: 50,
+    searchablePlaceholder: "Suche",
+    cssClasses: {
+      showMore: "btn btn-secondary btn-sm align-content-center",
+      list: "list-unstyled",
+      count: "badge m-2 badge-secondary hideme",
+      label: "d-flex align-items-center",
+      checkbox: "m-2",
+    },
+  }),
+
+  instantsearch.widgets.refinementList({
+    container: "#refinement-list-places",
+    attribute: "places.label",
+    searchable: true,
+    showMore: true,
+    showMoreLimit: 50,
+    searchablePlaceholder: "Suche",
+    cssClasses: {
+      showMore: "btn btn-secondary btn-sm align-content-center",
+      list: "list-unstyled",
+      count: "badge m-2 badge-secondary hideme",
+      label: "d-flex align-items-center",
+      checkbox: "m-2",
+    },
+  }),
+
+  instantsearch.widgets.refinementList({
+    container: "#refinement-list-orgs",
+    attribute: "orgs.label",
+    searchable: true,
+    showMore: true,
+    showMoreLimit: 50,
+    searchablePlaceholder: "Suche",
+    cssClasses: {
+      showMore: "btn btn-secondary btn-sm align-content-center",
+      list: "list-unstyled",
+      count: "badge m-2 badge-secondary hideme",
+      label: "d-flex align-items-center",
+      checkbox: "m-2",
+    },
+  }),
+
+  instantsearch.widgets.refinementList({
+    container: "#refinement-list-works",
+    attribute: "works.label",
+    searchable: true,
+    showMore: true,
+    showMoreLimit: 50,
+    searchablePlaceholder: "Suche",
+    cssClasses: {
+      showMore: "btn btn-secondary btn-sm align-content-center",
+      list: "list-unstyled",
+      count: "badge m-2 badge-secondary hideme",
+      label: "d-flex align-items-center",
+      checkbox: "m-2",
     },
   }),
 
