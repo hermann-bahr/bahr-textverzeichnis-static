@@ -1,4 +1,4 @@
-var project_collection_name = "hbtv-v2"
+var project_collection_name = "hbtv-v3"
 
 const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
   server: {
