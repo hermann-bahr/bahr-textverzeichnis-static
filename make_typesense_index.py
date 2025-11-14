@@ -15,7 +15,7 @@ from tqdm import tqdm
 
 files = glob.glob("./data/editions/*.xml")
 
-COLLECTION_NAME = "hbtv"
+COLLECTION_NAME = "hbtv-v2"
 
 # Delete existing collection
 try:
