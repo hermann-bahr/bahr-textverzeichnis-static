@@ -14,6 +14,10 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+        <!-- Google Site Verification - Must be early in head -->
+        <meta name="google-site-verification" content="dc888ZmCroA0_VKEB86Vss7wy4Jbkaro0j2QfM8GOak"/>
+
         <meta name="mobile-web-app-capable" content="yes"/>
         <meta name="apple-mobile-web-app-capable" content="yes"/>
         <meta name="apple-mobile-web-app-title" content="{$html_title}"/>
@@ -23,7 +27,7 @@
         <meta name="author" content="Martin Anton Müller"/>
         <meta name="keywords" content="Hermann Bahr, Textverzeichnis, Digitale Edition, Österreichische Literatur, 19. Jahrhundert, 20. Jahrhundert"/>
         <link rel="canonical" href="{$canonical_url}"/>
-<meta name="google-site-verification" content="dc888ZmCroA0_VKEB86Vss7wy4Jbkaro0j2QfM8GOak" />
+
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="{$canonical_url}"/>
