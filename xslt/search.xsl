@@ -40,6 +40,14 @@
                                             <div id="refinement-list-authors"></div>
                                             <h2>Bibliografische Kategorie</h2>
                                             <div id="refinement-list-type"></div>
+                                            <h2>Personen</h2>
+                                            <div id="refinement-list-persons"></div>
+                                            <h2>Orte</h2>
+                                            <div id="refinement-list-places"></div>
+                                            <h2>Organisationen</h2>
+                                            <div id="refinement-list-orgs"></div>
+                                            <h2>Werke</h2>
+                                            <div id="refinement-list-works"></div>
                                         </div>
                                         <div class="col-md-8">
                                             <div id="hits"></div>

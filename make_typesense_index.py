@@ -5,6 +5,11 @@ from typesense.api_call import ObjectNotFound
 from acdh_cfts_pyutils import TYPESENSE_CLIENT as client
 from acdh_cfts_pyutils import CFTS_COLLECTION
 from acdh_tei_pyutils.tei import TeiReader
+from acdh_tei_pyutils.utils import (
+    extract_fulltext,
+    get_xmlid,
+    make_entity_label,
+)
 from tqdm import tqdm
 
 
@@ -31,6 +36,30 @@ current_schema = {
             "type": "int32",
             "optional": True,
             "facet": True,
+        },
+        {
+            "name": "persons",
+            "type": "object[]",
+            "facet": True,
+            "optional": True,
+        },
+        {
+            "name": "places",
+            "type": "object[]",
+            "facet": True,
+            "optional": True,
+        },
+        {
+            "name": "orgs",
+            "type": "object[]",
+            "facet": True,
+            "optional": True,
+        },
+        {
+            "name": "works",
+            "type": "object[]",
+            "facet": True,
+            "optional": True,
         },
     ],
 }
@@ -84,6 +113,42 @@ for x in tqdm(files, total=len(files)):
         cfts_record["year"] = int(date_str[:4])
     except ValueError:
         pass
+
+    # Extract entities from back section
+    record["persons"] = []
+    for y in doc.any_xpath(".//tei:back//tei:person[@xml:id]"):
+        try:
+            item = {"id": get_xmlid(y), "label": make_entity_label(y.xpath("./*[1]")[0])[0]}
+            record["persons"].append(item)
+        except (IndexError, AttributeError):
+            pass
+    cfts_record["persons"] = [x["label"] for x in record["persons"]]
+
+    record["places"] = []
+    for y in doc.any_xpath(".//tei:back//tei:place[@xml:id]"):
+        try:
+            item = {"id": get_xmlid(y), "label": make_entity_label(y.xpath("./*[1]")[0])[0]}
+            record["places"].append(item)
+        except (IndexError, AttributeError):
+            pass
+    cfts_record["places"] = [x["label"] for x in record["places"]]
+
+    record["orgs"] = []
+    for y in doc.any_xpath(".//tei:back//tei:org[@xml:id]"):
+        try:
+            item = {"id": get_xmlid(y), "label": make_entity_label(y.xpath("./*[1]")[0])[0]}
+            record["orgs"].append(item)
+        except (IndexError, AttributeError):
+            pass
+
+    record["works"] = []
+    for y in doc.any_xpath(".//tei:back//tei:bibl[@xml:id]"):
+        try:
+            item = {"id": get_xmlid(y), "label": make_entity_label(y.xpath("./*[1]")[0])[0]}
+            record["works"].append(item)
+        except (IndexError, AttributeError):
+            pass
+
     record["full_text"] = " ".join("".join(body.itertext()).split())
     cfts_record["full_text"] = record["full_text"]
     records.append(record)
