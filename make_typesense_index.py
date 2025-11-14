@@ -15,7 +15,7 @@ from tqdm import tqdm
 
 files = glob.glob("./data/editions/*.xml")
 
-COLLECTION_NAME = "hbtv-v2"
+COLLECTION_NAME = "hbtv-v3"
 
 # Delete existing collection
 try:
@@ -134,35 +134,47 @@ for x in tqdm(files, total=len(files)):
     record["persons"] = []
     for y in doc.any_xpath(".//tei:back//tei:person[@xml:id]"):
         try:
-            item = {"id": get_xmlid(y), "label": make_entity_label(y.xpath("./*[1]")[0])[0]}
-            record["persons"].append(item)
-        except (IndexError, AttributeError):
+            entity_id = get_xmlid(y)
+            label_result = make_entity_label(y.xpath("./*[1]")[0])
+            if label_result and len(label_result) > 0:
+                item = {"id": entity_id, "label": label_result[0]}
+                record["persons"].append(item)
+        except (IndexError, AttributeError, TypeError) as e:
             pass
     cfts_record["persons"] = [x["label"] for x in record["persons"]]
 
     record["places"] = []
     for y in doc.any_xpath(".//tei:back//tei:place[@xml:id]"):
         try:
-            item = {"id": get_xmlid(y), "label": make_entity_label(y.xpath("./*[1]")[0])[0]}
-            record["places"].append(item)
-        except (IndexError, AttributeError):
+            entity_id = get_xmlid(y)
+            label_result = make_entity_label(y.xpath("./*[1]")[0])
+            if label_result and len(label_result) > 0:
+                item = {"id": entity_id, "label": label_result[0]}
+                record["places"].append(item)
+        except (IndexError, AttributeError, TypeError) as e:
             pass
     cfts_record["places"] = [x["label"] for x in record["places"]]
 
     record["orgs"] = []
     for y in doc.any_xpath(".//tei:back//tei:org[@xml:id]"):
         try:
-            item = {"id": get_xmlid(y), "label": make_entity_label(y.xpath("./*[1]")[0])[0]}
-            record["orgs"].append(item)
-        except (IndexError, AttributeError):
+            entity_id = get_xmlid(y)
+            label_result = make_entity_label(y.xpath("./*[1]")[0])
+            if label_result and len(label_result) > 0:
+                item = {"id": entity_id, "label": label_result[0]}
+                record["orgs"].append(item)
+        except (IndexError, AttributeError, TypeError) as e:
             pass
 
     record["works"] = []
     for y in doc.any_xpath(".//tei:back//tei:bibl[@xml:id]"):
         try:
-            item = {"id": get_xmlid(y), "label": make_entity_label(y.xpath("./*[1]")[0])[0]}
-            record["works"].append(item)
-        except (IndexError, AttributeError):
+            entity_id = get_xmlid(y)
+            label_result = make_entity_label(y.xpath("./*[1]")[0])
+            if label_result and len(label_result) > 0:
+                item = {"id": entity_id, "label": label_result[0]}
+                record["works"].append(item)
+        except (IndexError, AttributeError, TypeError) as e:
             pass
 
     record["full_text"] = " ".join("".join(body.itertext()).split())
