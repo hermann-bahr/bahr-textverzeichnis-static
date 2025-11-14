@@ -1,0 +1,20 @@
+# robots.txt for Hermann Bahr Textverzeichnis
+# https://bahr-textverzeichnis.acdh.oeaw.ac.at
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://bahr-textverzeichnis.acdh.oeaw.ac.at/sitemap.xml
+
+# Crawl-delay for polite crawlers
+Crawl-delay: 1
+
+# Disallow internal XML files if exposed
+Disallow: /*.xml$
+Allow: /sitemap.xml
+
+# Allow specific directories
+Allow: /css/
+Allow: /js/
+Allow: /img/

@@ -5,12 +5,41 @@
     <xsl:include href="./params.xsl"/>
     <xsl:template match="/" name="html_head">
         <xsl:param name="html_title" select="$project_short_title"/>
+        <xsl:param name="html_description">Hermann Bahr Textverzeichnis - Vollständiges Verzeichnis aller zu Lebzeiten veröffentlichten Texte von Hermann Bahr (1863-1934)</xsl:param>
+        <xsl:param name="canonical_url">
+            <xsl:text>https://</xsl:text>
+            <xsl:value-of select="$base_url"/>
+            <xsl:text>/</xsl:text>
+        </xsl:param>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <meta name="mobile-web-app-capable" content="yes"/>
         <meta name="apple-mobile-web-app-capable" content="yes"/>
         <meta name="apple-mobile-web-app-title" content="{$html_title}"/>
+
+        <!-- SEO Meta Tags -->
+        <meta name="description" content="{$html_description}"/>
+        <meta name="author" content="Martin Anton Müller"/>
+        <meta name="keywords" content="Hermann Bahr, Textverzeichnis, Digitale Edition, Österreichische Literatur, 19. Jahrhundert, 20. Jahrhundert"/>
+        <link rel="canonical" href="{$canonical_url}"/>
+<meta name="google-site-verification" content="dc888ZmCroA0_VKEB86Vss7wy4Jbkaro0j2QfM8GOak" />
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="{$canonical_url}"/>
+        <meta property="og:title" content="{$html_title}"/>
+        <meta property="og:description" content="{$html_description}"/>
+        <meta property="og:site_name" content="{$project_title}"/>
+        <meta property="og:image" content="https://{$base_url}/img/bahr-textverzeichnis.jpg"/>
+        <meta property="og:image:alt" content="Hermann Bahr Textverzeichnis"/>
+        <meta property="og:locale" content="de_AT"/>
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:title" content="{$html_title}"/>
+        <meta name="twitter:description" content="{$html_description}"/>
+        <meta name="twitter:image" content="https://{$base_url}/img/bahr-textverzeichnis.jpg"/>
+
         <meta name="msapplication-TileColor" content="#ffffff"/>
         <meta name="msapplication-TileImage" content="{$project_logo}"/>
         <link rel="icon" type="image/svg+xml" href="{$project_logo}" sizes="any"/>
@@ -23,7 +52,14 @@
         <meta name="msapplication-TileColor" content="#da532c"/>
         <meta name="msapplication-config" content="/img/browserconfig.xml"/>
         <meta name="theme-color" content="#ffffff"/>
-        <title>bahr-textverzeichnis</title>
+        <title><xsl:value-of select="$html_title"/></title>
+
+        <!-- Preconnect for performance -->
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com"/>
+        <link rel="preconnect" href="https://cdn.datatables.net"/>
+        <link rel="preconnect" href="https://code.jquery.com"/>
+        <link rel="preconnect" href="https://cdn.jsdelivr.net"/>
+        <link rel="preconnect" href="https://matomo.acdh.oeaw.ac.at"/>
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
             integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -42,6 +78,37 @@
         <script src="js/dt-panes.js"/>
         <link rel="stylesheet" href="css/style.css" type="text/css"/>
         <link rel="stylesheet" href="css/micro-editor.css" type="text/css"/>
+
+        <!-- Structured Data (Schema.org JSON-LD) -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "DigitalDocument",
+            "name": "<xsl:value-of select="$project_title"/>",
+            "description": "<xsl:value-of select="$html_description"/>",
+            "author": {
+                "@type": "Person",
+                "name": "Martin Anton Müller"
+            },
+            "about": {
+                "@type": "Person",
+                "name": "Hermann Bahr",
+                "birthDate": "1863",
+                "deathDate": "1934",
+                "nationality": "Austrian",
+                "description": "Österreichischer Schriftsteller und Kritiker"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Austrian Centre for Digital Humanities and Cultural Heritage",
+                "url": "https://www.oeaw.ac.at/acdh/"
+            },
+            "inLanguage": "de",
+            "url": "<xsl:value-of select="$canonical_url"/>",
+            "image": "https://<xsl:value-of select="$base_url"/>/img/bahr-textverzeichnis.jpg"
+        }
+        </script>
+
         <!-- Matomo -->
         <script type="text/javascript">
             var _paq = _paq ||[];

@@ -50,10 +50,21 @@
         <xsl:variable name="doc_title">
             <xsl:value-of select="descendant::tei:titleStmt/tei:title[@level = 'a'][1]/text()"/>
         </xsl:variable>
+        <xsl:variable name="doc_description">
+            <xsl:value-of select="substring(normalize-space(string-join(descendant::tei:body//text(), ' ')), 1, 200)"/>
+            <xsl:text>...</xsl:text>
+        </xsl:variable>
+        <xsl:variable name="canonical_url">
+            <xsl:text>https://</xsl:text>
+            <xsl:value-of select="$base_url"/>
+            <xsl:text>/</xsl:text>
+            <xsl:value-of select="$link"/>
+        </xsl:variable>
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
-        <html>
+        <html lang="de">
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"/>
+                <xsl:with-param name="html_description" select="$doc_description"/>
             </xsl:call-template>
             <body class="page">
                 <div class="hfeed site" id="page">
