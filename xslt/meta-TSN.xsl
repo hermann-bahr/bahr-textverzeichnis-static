@@ -14,10 +14,12 @@
         <xsl:variable name="doc_title">
             <xsl:value-of select="descendant::tei:titleStmt/tei:title[@level = 'a'][1]/text()"/>
         </xsl:variable>
+        <xsl:variable name="canonical_url" select="concat('https://', $base_url, '/', replace(tokenize(base-uri(/), '/')[last()], '\.xml$', '.html'))"/>
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
         <html lang="de" style="hyphens: auto;" xml:lang="de">
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"/>
+                <xsl:with-param name="canonical_url" select="$canonical_url"/>
             </xsl:call-template>
             <body class="page">
                 <div class="hfeed site" id="page">

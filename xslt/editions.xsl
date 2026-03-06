@@ -65,6 +65,7 @@
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"/>
                 <xsl:with-param name="html_description" select="$doc_description"/>
+                <xsl:with-param name="canonical_url" select="$canonical_url"/>
             </xsl:call-template>
             <body class="page">
                 <div class="hfeed site" id="page">

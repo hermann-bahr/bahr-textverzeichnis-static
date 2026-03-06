@@ -13,10 +13,12 @@
         <xsl:variable name="doc_title">
             <xsl:text>Hermann Bahr Textverzeichnis</xsl:text>
         </xsl:variable>
+        <xsl:variable name="canonical_url" select="concat('https://', $base_url, '/calendar.html')"/>
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
         <html xmlns="http://www.w3.org/1999/xhtml" style="hyphens: auto;" lang="de" xml:lang="de">
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"/>
+                <xsl:with-param name="canonical_url" select="$canonical_url"/>
             </xsl:call-template>
             <body class="page">
                 <script src="js-data/calendarData.js"/>

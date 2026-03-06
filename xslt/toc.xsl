@@ -9,10 +9,12 @@
     <xsl:import href="partials/html_footer.xsl"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title" select="'Textverzeichnis'"/>
+        <xsl:variable name="canonical_url" select="concat('https://', $base_url, '/toc.html')"/>
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
         <html xmlns="http://www.w3.org/1999/xhtml">
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"/>
+                <xsl:with-param name="canonical_url" select="$canonical_url"/>
             </xsl:call-template>
             <body class="page">
                 <div class="hfeed site" id="page">

@@ -12,10 +12,12 @@
         <xsl:variable name="doc_title">
             <xsl:value-of select="$project_short_title"/>
         </xsl:variable>
+        <xsl:variable name="canonical_url" select="concat('https://', $base_url, '/index.html')"/>
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
         <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"/>
+                <xsl:with-param name="canonical_url" select="$canonical_url"/>
             </xsl:call-template>
             <body class="page" style="background-color:#f1f1f1;">
                 <div class="hfeed site" id="page">

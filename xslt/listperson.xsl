@@ -12,10 +12,12 @@
     <xsl:variable name="teiSource" select="'listperson.xml'"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title" select="'Verzeichnis erwähnter Personen'"/>
+        <xsl:variable name="canonical_url" select="concat('https://', $base_url, '/listperson.html')"/>
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
         <html lang="de">
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"/>
+                <xsl:with-param name="canonical_url" select="$canonical_url"/>
             </xsl:call-template>
             <body class="page">
                 <div class="hfeed site" id="page">
@@ -174,10 +176,12 @@
                 </xsl:choose>
             </xsl:variable>
             <xsl:variable name="entity" select="." as="node()"/>
+            <xsl:variable name="person_canonical_url" select="concat('https://', $base_url, '/', $filename)"/>
             <xsl:result-document href="{$filename}">
                 <html xmlns="http://www.w3.org/1999/xhtml">
                     <xsl:call-template name="html_head">
                         <xsl:with-param name="html_title" select="$name"/>
+                        <xsl:with-param name="canonical_url" select="$person_canonical_url"/>
                     </xsl:call-template>
                     <body class="page">
                         <div class="hfeed site" id="page">
