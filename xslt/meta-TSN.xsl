@@ -29,18 +29,19 @@
                             position: sticky;
                             top: 56px;
                             z-index: 100;
-                            background: #fff;
-                            border-bottom: 1px solid rgba(0,0,0,.125);
+                            background: #8b1a1a;
+                            border-bottom: 2px solid #5c0f0f;
                             padding: 0.75rem 1.25rem;
                         }
                         .tsn-sticky-intro h2 {
                             margin-bottom: 0.4rem;
                             font-size: 1.2rem;
+                            color: #fff;
                         }
                         .tsn-sticky-intro p {
                             margin-bottom: 0;
                             font-size: 0.875rem;
-                            color: #555;
+                            color: #f0d0d0;
                         }
                         .tsn-back-to-top {
                             position: fixed;
@@ -92,6 +93,11 @@
                             border-color: #e5e5e5;
                             background: #fafafa;
                             cursor: default;
+                        }
+                        .alpha-nav-sonder {
+                            border-color: #aaa;
+                            color: #555;
+                            background: #efefef;
                         }
                         .alpha-anchor-item {
                             list-style: none;
@@ -150,8 +156,9 @@
                                 
                                 <xsl:variable name="personen" select="descendant::tei:body/tei:listPerson/tei:person"/>
                                 <xsl:variable name="vorhandene-buchstaben" select="distinct-values(for $p in $personen return upper-case(substring($p/tei:persName[1]/tei:surname[1], 1, 1)))"/>
+                                <xsl:variable name="az" select="('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z')"/>
                                 <div class="alpha-nav">
-                                    <xsl:for-each select="('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z')">
+                                    <xsl:for-each select="$az">
                                         <xsl:variable name="buch" select="."/>
                                         <xsl:choose>
                                             <xsl:when test="$buch = $vorhandene-buchstaben">
@@ -161,6 +168,10 @@
                                                 <span class="alpha-nav-link alpha-nav-inactive"><xsl:value-of select="$buch"/></span>
                                             </xsl:otherwise>
                                         </xsl:choose>
+                                    </xsl:for-each>
+                                    <xsl:for-each select="$vorhandene-buchstaben[not(. = $az)]">
+                                        <xsl:sort select="."/>
+                                        <a href="#alpha-{.}" class="alpha-nav-link alpha-nav-sonder" title="Sonderzeichen"><xsl:value-of select="."/></a>
                                     </xsl:for-each>
                                 </div>
                                 <ul>
