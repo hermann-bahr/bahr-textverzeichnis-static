@@ -24,13 +24,105 @@
             <body class="page">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
+                    <style>
+                        .tsn-sticky-intro {
+                            position: sticky;
+                            top: 56px;
+                            z-index: 100;
+                            background: #fff;
+                            border-bottom: 1px solid rgba(0,0,0,.125);
+                            padding: 0.75rem 1.25rem;
+                        }
+                        .tsn-sticky-intro h2 {
+                            margin-bottom: 0.4rem;
+                            font-size: 1.2rem;
+                        }
+                        .tsn-sticky-intro p {
+                            margin-bottom: 0;
+                            font-size: 0.875rem;
+                            color: #555;
+                        }
+                        .tsn-back-to-top {
+                            position: fixed;
+                            right: 1.2rem;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            z-index: 1050;
+                            background: rgba(80,80,80,0.55);
+                            color: #fff;
+                            border-radius: 50%;
+                            width: 2.2rem;
+                            height: 2.2rem;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            text-decoration: none;
+                            font-size: 0.9rem;
+                            transition: background 0.2s;
+                        }
+                        .tsn-back-to-top:hover {
+                            background: rgba(40,40,40,0.85);
+                            color: #fff;
+                        }
+                        .alpha-nav {
+                            display: flex;
+                            flex-wrap: wrap;
+                            gap: 0.25rem;
+                            margin: 0.75rem 0 1rem 0;
+                        }
+                        .alpha-nav-link {
+                            display: inline-block;
+                            min-width: 1.8rem;
+                            text-align: center;
+                            padding: 0.2rem 0.3rem;
+                            border: 1px solid #ccc;
+                            border-radius: 3px;
+                            font-size: 0.85rem;
+                            font-weight: bold;
+                            text-decoration: none;
+                            color: #333;
+                            background: #f8f8f8;
+                        }
+                        .alpha-nav-link:hover {
+                            background: #e0e0e0;
+                            color: #000;
+                        }
+                        .alpha-nav-inactive {
+                            color: #bbb;
+                            border-color: #e5e5e5;
+                            background: #fafafa;
+                            cursor: default;
+                        }
+                        .alpha-anchor-item {
+                            list-style: none;
+                            margin-top: 0.8rem;
+                            padding: 0.15rem 0.4rem;
+                            background: #f0f0f0;
+                            border-left: 3px solid #999;
+                            font-weight: bold;
+                            font-size: 1rem;
+                            color: #555;
+                        }
+                    </style>
+                    <a href="#list-top" class="tsn-back-to-top" title="Zum Anfang der Liste">
+                        <i class="fa fa-arrow-up"/>
+                    </a>
                     <div class="container-fluid">
-                        <div class="card">
-                            <div class="card-header">
-                                <h2 align="center">Tagebücher, Skizzenbücher, Notizhefte. Personen-
+                        <div class="card" id="list-top">
+                            <div class="tsn-sticky-intro">
+                                <h2 align="center">Hermann Bahr: Tagebücher, Skizzenbücher, Notizhefte. Personen-
                                     und Werkverzeichnis</h2>
+                                <p>Das vorliegende Verzeichnis verzeichnet die Register der fünf zwischen 1994 und 2003
+                                    im Druck erschienenen Bände. Es erlaubt einen schnellen Überblick,
+                                    in welchem Band eine Erwähnung vorkommt. Die Bände selbst sind
+                                    digital nicht verfügbar.</p>
                             </div>
                             <div class="card-body-index">
+                                <p>Die Personennamen, Werktitel und Lebensdaten
+                                    wurden mit den Einträgen der <a
+                                        href="https://pmb.acdh.oeaw.ac.at/">PMB – Personen der
+                                        Moderne Basis</a> abgeglichen, so dass es bei Namensschreibungen und Lebensdaten zu Abweichungen zu
+                                    den Formen der gedruckten Indizes kommt.</p>
                                 <ul>
                                     <li>
                                         <span class="fett"><strong>I</strong> 1885—1890. Bearbeitet
@@ -55,18 +147,33 @@
                                             von Kurt Ifkovits und Lukas Mayerhofer, 2003.</span>
                                     </li>
                                 </ul>
-                                <p>Das vorliegende Verzeichnis bringt ein Generalregister der fünf
-                                    erschienenen Bände. Personennamen, Werktitel und Lebensdaten
-                                    wurden mit den Einträgen der <a
-                                        href="https://pmb.acdh.oeaw.ac.at/">PMB – Personen der
-                                        Moderne Basis</a> abgeglichen, so dass es zu Abweichungen zu
-                                    den Formen der gedruckten Indices kommen kann.</p>
+                                
+                                <xsl:variable name="personen" select="descendant::tei:body/tei:listPerson/tei:person"/>
+                                <xsl:variable name="vorhandene-buchstaben" select="distinct-values(for $p in $personen return upper-case(substring($p/tei:persName[1]/tei:surname[1], 1, 1)))"/>
+                                <div class="alpha-nav">
+                                    <xsl:for-each select="('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z')">
+                                        <xsl:variable name="buch" select="."/>
+                                        <xsl:choose>
+                                            <xsl:when test="$buch = $vorhandene-buchstaben">
+                                                <a href="#alpha-{$buch}" class="alpha-nav-link"><xsl:value-of select="$buch"/></a>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <span class="alpha-nav-link alpha-nav-inactive"><xsl:value-of select="$buch"/></span>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </xsl:for-each>
+                                </div>
                                 <ul>
-                                    <xsl:apply-templates
-                                        select="descendant::tei:body/tei:listPerson/tei:person">
-                                        <xsl:sort lang="de" select="tei:persName[1]/tei:surname[1]"
-                                        />
-                                    </xsl:apply-templates>
+                                    <xsl:for-each-group select="$personen"
+                                        group-by="upper-case(substring(tei:persName[1]/tei:surname[1], 1, 1))">
+                                        <xsl:sort lang="de" select="current-grouping-key()"/>
+                                        <li id="alpha-{current-grouping-key()}" class="alpha-anchor-item">
+                                            <xsl:value-of select="current-grouping-key()"/>
+                                        </li>
+                                        <xsl:apply-templates select="current-group()">
+                                            <xsl:sort lang="de" select="tei:persName[1]/tei:surname[1]"/>
+                                        </xsl:apply-templates>
+                                    </xsl:for-each-group>
                                 </ul>
                             </div>
                             <xsl:if test="descendant::tei:note[@type = 'footnote']">
