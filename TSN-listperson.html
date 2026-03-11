@@ -114,13 +114,100 @@
                </div>
             </div>
          </nav>
-         <div class="container-fluid">
-            <div class="card">
-               <div class="card-header">
-                  <h2 align="center">Tagebücher, Skizzenbücher, Notizhefte. Personen-
+         <style>
+                        .tsn-sticky-intro {
+                            position: sticky;
+                            top: 56px;
+                            z-index: 100;
+                            background: #fff;
+                            border-bottom: 1px solid rgba(0,0,0,.125);
+                            padding: 0.75rem 1.25rem;
+                        }
+                        .tsn-sticky-intro h2 {
+                            margin-bottom: 0.4rem;
+                            font-size: 1.2rem;
+                        }
+                        .tsn-sticky-intro p {
+                            margin-bottom: 0;
+                            font-size: 0.875rem;
+                            color: #555;
+                        }
+                        .tsn-back-to-top {
+                            position: fixed;
+                            right: 1.2rem;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            z-index: 1050;
+                            background: rgba(80,80,80,0.55);
+                            color: #fff;
+                            border-radius: 50%;
+                            width: 2.2rem;
+                            height: 2.2rem;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            text-decoration: none;
+                            font-size: 0.9rem;
+                            transition: background 0.2s;
+                        }
+                        .tsn-back-to-top:hover {
+                            background: rgba(40,40,40,0.85);
+                            color: #fff;
+                        }
+                        .alpha-nav {
+                            display: flex;
+                            flex-wrap: wrap;
+                            gap: 0.25rem;
+                            margin: 0.75rem 0 1rem 0;
+                        }
+                        .alpha-nav-link {
+                            display: inline-block;
+                            min-width: 1.8rem;
+                            text-align: center;
+                            padding: 0.2rem 0.3rem;
+                            border: 1px solid #ccc;
+                            border-radius: 3px;
+                            font-size: 0.85rem;
+                            font-weight: bold;
+                            text-decoration: none;
+                            color: #333;
+                            background: #f8f8f8;
+                        }
+                        .alpha-nav-link:hover {
+                            background: #e0e0e0;
+                            color: #000;
+                        }
+                        .alpha-nav-inactive {
+                            color: #bbb;
+                            border-color: #e5e5e5;
+                            background: #fafafa;
+                            cursor: default;
+                        }
+                        .alpha-anchor-item {
+                            list-style: none;
+                            margin-top: 0.8rem;
+                            padding: 0.15rem 0.4rem;
+                            background: #f0f0f0;
+                            border-left: 3px solid #999;
+                            font-weight: bold;
+                            font-size: 1rem;
+                            color: #555;
+                        }
+                    </style><a href="#list-top" class="tsn-back-to-top" title="Zum Anfang der Liste"><i class="fa fa-arrow-up"></i></a><div class="container-fluid">
+            <div class="card" id="list-top">
+               <div class="tsn-sticky-intro">
+                  <h2 align="center">Hermann Bahr: Tagebücher, Skizzenbücher, Notizhefte. Personen-
                      und Werkverzeichnis</h2>
+                  <p>Das vorliegende Verzeichnis verzeichnet die Register der fünf zwischen 1994 und 2003
+                     im Druck erschienenen Bände. Es erlaubt einen schnellen Überblick,
+                     in welchem Band eine Erwähnung vorkommt. Die Bände selbst sind
+                     digital nicht verfügbar.</p>
                </div>
                <div class="card-body-index">
+                  <p>Die Personennamen, Werktitel und Lebensdaten
+                     wurden mit den Einträgen der <a href="https://pmb.acdh.oeaw.ac.at/">PMB – Personen der
+                        Moderne Basis</a> abgeglichen, so dass es bei Namensschreibungen und Lebensdaten zu Abweichungen zu
+                     den Formen der gedruckten Indizes kommt.</p>
                   <ul>
                      <li><span class="fett"><strong>I</strong> 1885—1890. Bearbeitet
                            von Lottelis Moser und Helene Zand, 1994.</span></li>
@@ -135,18 +222,23 @@
                      <li><span class="fett"><strong>V</strong> 1906–1908. Bearbeitet
                            von Kurt Ifkovits und Lukas Mayerhofer, 2003.</span></li>
                   </ul>
-                  <p>Das vorliegende Verzeichnis bringt ein Generalregister der fünf
-                     erschienenen Bände. Personennamen, Werktitel und Lebensdaten
-                     wurden mit den Einträgen der <a href="https://pmb.acdh.oeaw.ac.at/">PMB – Personen der
-                        Moderne Basis</a> abgeglichen, so dass es zu Abweichungen zu
-                     den Formen der gedruckten Indices kommen kann.</p>
+                  <div class="alpha-nav"><a href="#alpha-A" class="alpha-nav-link">A</a><a href="#alpha-B" class="alpha-nav-link">B</a><a href="#alpha-C" class="alpha-nav-link">C</a><a href="#alpha-D" class="alpha-nav-link">D</a><a href="#alpha-E" class="alpha-nav-link">E</a><a href="#alpha-F" class="alpha-nav-link">F</a><a href="#alpha-G" class="alpha-nav-link">G</a><a href="#alpha-H" class="alpha-nav-link">H</a><a href="#alpha-I" class="alpha-nav-link">I</a><a href="#alpha-J" class="alpha-nav-link">J</a><a href="#alpha-K" class="alpha-nav-link">K</a><a href="#alpha-L" class="alpha-nav-link">L</a><a href="#alpha-M" class="alpha-nav-link">M</a><a href="#alpha-N" class="alpha-nav-link">N</a><a href="#alpha-O" class="alpha-nav-link">O</a><a href="#alpha-P" class="alpha-nav-link">P</a><a href="#alpha-Q" class="alpha-nav-link">Q</a><a href="#alpha-R" class="alpha-nav-link">R</a><a href="#alpha-S" class="alpha-nav-link">S</a><a href="#alpha-T" class="alpha-nav-link">T</a><a href="#alpha-U" class="alpha-nav-link">U</a><a href="#alpha-V" class="alpha-nav-link">V</a><a href="#alpha-W" class="alpha-nav-link">W</a><a href="#alpha-X" class="alpha-nav-link">X</a><a href="#alpha-Y" class="alpha-nav-link">Y</a><a href="#alpha-Z" class="alpha-nav-link">Z</a></div>
                   <ul>
+                     <li id="alpha-" class="alpha-anchor-item"></li>
                      <li id="pmb159127"><strong>Anna</strong> 
                         <ul>
                            <li><strong>IV</strong>,
                               214</li>
                         </ul>
                      </li>
+                     <li id="alpha-–" class="alpha-anchor-item">–</li>
+                     <li id="pmb161779"><strong>–R.</strong> 
+                        <ul>
+                           <li><strong>II</strong>,
+                              210</li>
+                        </ul>
+                     </li>
+                     <li id="alpha-[" class="alpha-anchor-item">[</li>
                      <li id="pmb162950"><strong>[Baubel]</strong> 
                         <ul>
                            <li><strong>II</strong>,
@@ -350,12 +442,14 @@
                               2</li>
                         </ul>
                      </li>
+                     <li id="alpha-*" class="alpha-anchor-item">*</li>
                      <li id="pmb159046"><strong>********, Brounzos</strong> († um 1920)
                         <ul>
                            <li><strong>I</strong>,
                               215</li>
                         </ul>
                      </li>
+                     <li id="alpha-A" class="alpha-anchor-item">A</li>
                      <li id="pmb157575"><strong>Abdul Hamid II, 'Abd al-Hamid</strong> (21. 9. 1842 Istanbul – 10. 2. 1918 Beylerbeyi Palace), <em>Sultan</em><ul>
                            <li><strong>IV</strong>,
                               241</li>
@@ -1902,6 +1996,7 @@
                               339</li>
                         </ul>
                      </li>
+                     <li id="alpha-B" class="alpha-anchor-item">B</li>
                      <li id="pmb10799"><strong>Bab, Julius</strong>,   (11. 12. 1880 Berlin – 12. 2. 1955 Roslyn Heights), <em>Schriftsteller, Kritiker, Dramaturg</em><ul>
                            <li><strong>V</strong>,
                               6, 10, 61, 70, 205, 213</li>
@@ -6415,6 +6510,7 @@
                            </li>
                         </ul>
                      </li>
+                     <li id="alpha-C" class="alpha-anchor-item">C</li>
                      <li id="pmb152261"><strong>Cabanel, Alexandre</strong>,   (28. 9. 1823 Montpellier – 23. 1. 1889 Paris)
                         <ul>
                            <li><strong>I</strong>,
@@ -6862,20 +6958,6 @@
                         <ul>
                            <li><strong>I</strong>,
                               300 ff.</li>
-                        </ul>
-                     </li>
-                     <li id="pmb3603"><strong>Čechov, Anton Pavlovič</strong>,    (17. 1. 1860 Taganrog – 15. 7. 1904 Badenweiler), <em>Schriftsteller</em><ul>
-                           <li><strong>III</strong>,
-                              427</li>
-                           <li><strong>IV</strong>,
-                              282</li>
-                        </ul>
-                        <ul>
-                           <li id="pmb165017"><strong><em>Der Bär</em></strong><ul>
-                                 <li><strong>III</strong>, 405, 427</li>
-                                 <li><strong>IV</strong>, 282</li>
-                              </ul>
-                           </li>
                         </ul>
                      </li>
                      <li id="pmb158162"><strong>Cecil van Haanen, Cecil</strong> (3. 11. 1844 Wien – 24. 9. 1914 Wien)
@@ -8126,6 +8208,22 @@
                               391</li>
                         </ul>
                      </li>
+                     <li id="alpha-Č" class="alpha-anchor-item">Č</li>
+                     <li id="pmb3603"><strong>Čechov, Anton Pavlovič</strong>,    (17. 1. 1860 Taganrog – 15. 7. 1904 Badenweiler), <em>Schriftsteller</em><ul>
+                           <li><strong>III</strong>,
+                              427</li>
+                           <li><strong>IV</strong>,
+                              282</li>
+                        </ul>
+                        <ul>
+                           <li id="pmb165017"><strong><em>Der Bär</em></strong><ul>
+                                 <li><strong>III</strong>, 405, 427</li>
+                                 <li><strong>IV</strong>, 282</li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                     <li id="alpha-D" class="alpha-anchor-item">D</li>
                      <li id="pmb159722"><strong>Daffinger, Maria</strong> (1808 – 1880)
                         <ul>
                            <li><strong>V</strong>,
@@ -9906,6 +10004,7 @@
                            </li>
                         </ul>
                      </li>
+                     <li id="alpha-E" class="alpha-anchor-item">E</li>
                      <li id="pmb159872"><strong>E. A. B.</strong> 
                         <ul>
                            <li><strong>IV</strong>,
@@ -10071,12 +10170,6 @@
                                  <li><strong>I</strong>, 149</li>
                               </ul>
                            </li>
-                        </ul>
-                     </li>
-                     <li id="pmb153099"><strong>Édouard Toudouze, Édouard</strong> (24. 7. 1848 Paris – 14. 3. 1907 Paris)
-                        <ul>
-                           <li><strong>I</strong>,
-                              111?</li>
                         </ul>
                      </li>
                      <li id="pmb157629"><strong>Eduard Hermann Bach von Hansberg, Eduard</strong> (5. 5. 1835 – 30. 9. 1910)
@@ -10689,12 +10782,6 @@
                               340</li>
                         </ul>
                      </li>
-                     <li id="pmb162986"><strong>Ésope</strong> 
-                        <ul>
-                           <li><strong>IV</strong>,
-                              397</li>
-                        </ul>
-                     </li>
                      <li id="pmb159953"><strong>Esparbès, Georges d’</strong> (1863 – 1944)
                         <ul>
                            <li><strong>II</strong>,
@@ -10728,12 +10815,6 @@
                      <li id="pmb16014"><strong>Ethofer, Theodor Josef</strong>,   (29. 12. 1849 Wien – 24. 10. 1915 Baden bei Wien), <em>Maler</em><ul>
                            <li><strong>III</strong>,
                               340, 350</li>
-                        </ul>
-                     </li>
-                     <li id="pmb158068"><strong>Étienne Geoffroy Saint-Hilaire, Étienne</strong> (15. 4. 1772 Étampes – 19. 6. 1844 Paris)
-                        <ul>
-                           <li><strong>III</strong>,
-                              262</li>
                         </ul>
                      </li>
                      <li id="pmb159959"><strong>Eugen, Erzherzog von Österreich</strong> (1863 – 1954)
@@ -10953,6 +11034,26 @@
                               46</li>
                         </ul>
                      </li>
+                     <li id="alpha-É" class="alpha-anchor-item">É</li>
+                     <li id="pmb153099"><strong>Édouard Toudouze, Édouard</strong> (24. 7. 1848 Paris – 14. 3. 1907 Paris)
+                        <ul>
+                           <li><strong>I</strong>,
+                              111?</li>
+                        </ul>
+                     </li>
+                     <li id="pmb162986"><strong>Ésope</strong> 
+                        <ul>
+                           <li><strong>IV</strong>,
+                              397</li>
+                        </ul>
+                     </li>
+                     <li id="pmb158068"><strong>Étienne Geoffroy Saint-Hilaire, Étienne</strong> (15. 4. 1772 Étampes – 19. 6. 1844 Paris)
+                        <ul>
+                           <li><strong>III</strong>,
+                              262</li>
+                        </ul>
+                     </li>
+                     <li id="alpha-F" class="alpha-anchor-item">F</li>
                      <li id="pmb159976"><strong>Fabichler, Franz Xaver</strong> (* 1872?)
                         <ul>
                            <li><strong>III</strong>,
@@ -12620,6 +12721,7 @@
                               3, 32, 33, 48, 278, 435, 437</li>
                         </ul>
                      </li>
+                     <li id="alpha-G" class="alpha-anchor-item">G</li>
                      <li id="pmb160155"><strong>Gabillon, Ludwig</strong> (1828 – 1896)
                         <ul>
                            <li><strong>II</strong>,
@@ -15093,6 +15195,7 @@
                               39, 87</li>
                         </ul>
                      </li>
+                     <li id="alpha-H" class="alpha-anchor-item">H</li>
                      <li id="pmb160346"><strong>H.</strong> 
                         <ul>
                            <li><strong>I</strong>,
@@ -18368,6 +18471,7 @@
                               82</li>
                         </ul>
                      </li>
+                     <li id="alpha-I" class="alpha-anchor-item">I</li>
                      <li id="pmb160625"><strong>Ibsen, Hedvig Cathrine</strong> (* 1832?), <em>Frau von Henrik I.</em><ul>
                            <li><strong>III</strong>,
                               317</li>
@@ -18736,6 +18840,7 @@
                               41</li>
                         </ul>
                      </li>
+                     <li id="alpha-J" class="alpha-anchor-item">J</li>
                      <li id="pmb160644"><strong>Jaburek, Franz ?</strong> 
                         <ul>
                            <li><strong>II</strong>,
@@ -19499,6 +19604,7 @@
                               263</li>
                         </ul>
                      </li>
+                     <li id="alpha-K" class="alpha-anchor-item">K</li>
                      <li id="pmb11845"><strong>Kadelburg, Gustav</strong>,   (26. 7. 1851 Budapest – 11. 9. 1925 Berlin), <em>Schriftsteller, Schauspieler</em>, <em> </em><ul>
                            <li><strong>II</strong>,
                               482</li>
@@ -21546,6 +21652,7 @@
                               133</li>
                         </ul>
                      </li>
+                     <li id="alpha-L" class="alpha-anchor-item">L</li>
                      <li id="pmb160933"><strong>L.</strong> 
                         <ul>
                            <li><strong>III</strong>,
@@ -23929,6 +24036,7 @@
                               220</li>
                         </ul>
                      </li>
+                     <li id="alpha-M" class="alpha-anchor-item">M</li>
                      <li id="pmb3487"><strong>Macasy, Gustav</strong>,    (25. 4. 1871 Wien – 4. 6. 1905 Wien), <em>Schriftsteller, Journalist</em>, <em> </em><ul>
                            <li><strong>III</strong>,
                               345, 371, 392, 476</li>
@@ -27235,6 +27343,7 @@
                               57, 60, 69, 139, 151</li>
                         </ul>
                      </li>
+                     <li id="alpha-N" class="alpha-anchor-item">N</li>
                      <li id="pmb161454"><strong>Nadar</strong> (1820 – 1910)
                         <ul>
                            <li><strong>II</strong>,
@@ -27875,6 +27984,7 @@
                            </li>
                         </ul>
                      </li>
+                     <li id="alpha-O" class="alpha-anchor-item">O</li>
                      <li id="pmb161523"><strong>Oberholczer</strong> 
                         <ul>
                            <li><strong>III</strong>,
@@ -28351,6 +28461,7 @@
                               20</li>
                         </ul>
                      </li>
+                     <li id="alpha-P" class="alpha-anchor-item">P</li>
                      <li id="pmb161577"><strong>P., Anna</strong> 
                         <ul>
                            <li><strong>I</strong>,
@@ -30425,6 +30536,7 @@
                               82, 85, 86, 402</li>
                         </ul>
                      </li>
+                     <li id="alpha-Q" class="alpha-anchor-item">Q</li>
                      <li id="pmb158691"><strong>Queipo de Llano, José María</strong> (26. 11. 1786 Oviedo – 16. 9. 1843 Paris)
                         <ul>
                            <li><strong>I</strong>,
@@ -30437,12 +30549,7 @@
                               310</li>
                         </ul>
                      </li>
-                     <li id="pmb161779"><strong>–R.</strong> 
-                        <ul>
-                           <li><strong>II</strong>,
-                              210</li>
-                        </ul>
-                     </li>
+                     <li id="alpha-R" class="alpha-anchor-item">R</li>
                      <li id="pmb161780"><strong>Raab, Ferdinand</strong> 
                         <ul>
                            <li><strong>II</strong>,
@@ -32446,6 +32553,7 @@
                               82, 339</li>
                         </ul>
                      </li>
+                     <li id="alpha-S" class="alpha-anchor-item">S</li>
                      <li id="pmb12602"><strong>Saar, Ferdinand von</strong>,   (30. 9. 1833 Wien – 24. 7. 1906 Wien), <em>Schriftsteller</em>, <em> </em><ul>
                            <li><strong>II</strong>,
                               128, 211, 213, 251, 255, 284, 294, 297, 299</li>
@@ -37422,6 +37530,7 @@
                               263</li>
                         </ul>
                      </li>
+                     <li id="alpha-T" class="alpha-anchor-item">T</li>
                      <li id="pmb162471"><strong>Taaffe, Eduard Graf von</strong> (1833 – 1895)
                         <ul>
                            <li><strong>I</strong>,
@@ -38586,6 +38695,7 @@
                               64, 388, 397, 469</li>
                         </ul>
                      </li>
+                     <li id="alpha-U" class="alpha-anchor-item">U</li>
                      <li id="pmb158576"><strong>Ubaldo Pacchierotti, Ubaldo</strong> (30. 10. 1875 Cervarese Santa Croce – 18. 4. 1916 Mailand)
                         <ul>
                            <li id="pmb164555"><strong><em>Alt-Heidelberg</em></strong><ul>
@@ -38776,6 +38886,7 @@
                               88</li>
                         </ul>
                      </li>
+                     <li id="alpha-V" class="alpha-anchor-item">V</li>
                      <li id="pmb162613"><strong>Vaida, Alexandru</strong> (1873 – 1950)
                         <ul>
                            <li><strong>V</strong>,
@@ -39640,6 +39751,7 @@
                            </li>
                         </ul>
                      </li>
+                     <li id="alpha-W" class="alpha-anchor-item">W</li>
                      <li id="pmb162684"><strong>W.</strong> 
                         <ul>
                            <li><strong>III</strong>,
@@ -41862,6 +41974,7 @@
                            </li>
                         </ul>
                      </li>
+                     <li id="alpha-X" class="alpha-anchor-item">X</li>
                      <li id="pmb162902"><strong>Xenophon</strong> (430 – 355 v. Chr.)
                         <ul>
                            <li><strong>III</strong>,
@@ -41890,6 +42003,7 @@
                               182, 191, 330</li>
                         </ul>
                      </li>
+                     <li id="alpha-Y" class="alpha-anchor-item">Y</li>
                      <li id="pmb27407"><strong>York-Steiner, Heinrich</strong>,     (1. 8. 1859 Senica – 1934 Tel Aviv), <em>Schriftsteller, Journalist, Dramatiker, Tenor</em>, <em> </em><ul>
                            <li><strong>III</strong>,
                               219, 327</li>
@@ -41908,6 +42022,7 @@
                            </li>
                         </ul>
                      </li>
+                     <li id="alpha-Z" class="alpha-anchor-item">Z</li>
                      <li id="pmb10637"><strong>Zabel, Eugen</strong>,   (23. 12. 1851 Kaliningrad – 27. 2. 1924), <em>Schriftsteller, Journalist</em><ul>
                            <li><strong>II</strong>,
                               253</li>
