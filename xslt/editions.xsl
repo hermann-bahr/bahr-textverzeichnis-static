@@ -175,7 +175,7 @@
             </tbody>
         </table>
     </xsl:template>
-    <xsl:template match="tei:biblStruct/tei:note[not(child::tei:bibl) and not(@type = 'toc')]">
+    <xsl:template match="tei:biblStruct/tei:note[not(child::tei:bibl) and not(@type = 'toc')]" priority="1">
         <tr>
             <th>
                 <xsl:choose>
