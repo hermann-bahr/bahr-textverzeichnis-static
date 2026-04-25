@@ -8,4 +8,6 @@
     <xsl:param name="html_title">Bahr: Textverzeichnis</xsl:param>
     <xsl:param name="project_logo">bahr-textverzeichnis.svg</xsl:param>
     <xsl:param name="base_url">bahr-textverzeichnis.acdh.oeaw.ac.at</xsl:param>
+    <xsl:param name="current-edition" select="'bahr-textverzeichnis'"/>
+    <xsl:param name="current-colour" select="'#8E4162'"/>
 </xsl:stylesheet>
