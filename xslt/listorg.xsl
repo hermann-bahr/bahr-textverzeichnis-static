@@ -80,13 +80,9 @@
                         <div class="hfeed site" id="page">
                             <xsl:call-template name="nav_bar"/>
                             
-                            <div class="container-fluid">
+                            <div class="container">
                                 <div class="card">
-                                    <div class="card-header">
-                                        <h1>
-                                            <xsl:value-of select="$name"/>
-                                        </h1>
-                                    </div>
+                                    
                                     <div class="card-body">
                                         <small>Name</small>:  <xsl:value-of select=".//tei:orgName/text()"/>
                                     </div>

@@ -8,5 +8,8 @@ python add_mentions.py
 # echo "make calendar data"
 python make_calendar_data.py
 
+echo "fetch relations"
+python3 xslt/export/fetch_relations.py
+
 # echo "make typesense index"
 # python make_typesense_index.py

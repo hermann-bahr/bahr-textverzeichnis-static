@@ -81,6 +81,7 @@
         <script src="js/dt.js"/>
         <script src="js/dt-panes.js"/>
         <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="css/entities.css" type="text/css"/>
         <link rel="stylesheet" href="css/micro-editor.css" type="text/css"/>
 
         <!-- Structured Data (Schema.org JSON-LD) -->
@@ -132,6 +133,7 @@
             s.parentNode.insertBefore(g, s);
         })();</script>
         <!-- End Matomo Code -->
+        <script src="js/entity-tabs.js" defer="defer"></script>
         </head>
     </xsl:template>
 </xsl:stylesheet>
