@@ -44,6 +44,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" />
       <link rel="profile" href="http://gmpg.org/xfn/11" /><script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" /><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script><script src="js/listStopProp.js"></script><script src="js/dt.js"></script><script src="js/dt-panes.js"></script><link rel="stylesheet" href="css/style.css" type="text/css" />
+      <link rel="stylesheet" href="css/entities.css" type="text/css" />
       <link rel="stylesheet" href="css/micro-editor.css" type="text/css" /><script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -86,7 +87,7 @@
             g.defer = true;
             g.src = u + 'piwik.js';
             s.parentNode.insertBefore(g, s);
-        })();</script></head>
+        })();</script><script src="js/entity-tabs.js" defer="defer"></script></head>
    <body class="page">
       <div class="hfeed site" id="page">
          <nav class="navbar navbar-expand-md" style="padding-top:1px;">
@@ -114,97 +115,153 @@
                </div>
             </div>
          </nav>
-         <div class="container-fluid">
+         <div class="container">
             <div class="card">
-               <div class="card-header">
-                  <h2 align="center">Max Liebermann <span class="lebensdaten">(20. 7. 1847 Berlin – 8. 2. 1935 Berlin)</span></h2>
-               </div>
-               <div class="card-body-index">
-                  <div id="mentions">
-                     <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12068.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_17517.html" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12068.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12068.html" target="_blank"><span class="badge rounded-pill" style="background-color: #639FF9; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp49942" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=L#DWpers0152" target="_blank"><span class="badge rounded-pill" style="background-color: #a21a17; color: white; margin-top: 4px;">Dritte Walpurgisnacht</span></a> <a href="https://bahr-textverzeichnis.acdh.oeaw.ac.at/pmb12068.html" target="_blank"><span class="badge rounded-pill" style="background-color: #8E4162; color: white; margin-top: 4px;">Bahr Textverzeichnis</span></a> <a href="https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb12068" target="_blank"><span class="badge rounded-pill" style="background-color: #ce0000; color: white; margin-top: 4px;">Bahr Tagebücher</span></a> <a href="https://de.wikipedia.org/wiki/Max_Liebermann" target="_blank"><span class="badge rounded-pill" style="background-color: #36c; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="http://www.wikidata.org/entity/Q158062" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikidata</span></a> <a href="https://pmb.acdh.oeaw.ac.at/entity/12068/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/118572695" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> 
-                        <div  class="modal fade modal-sm" id="Mikroverfilmung des Nachlasses" tabindex="-1" focus="true" keyboard="true" aria-labelledby="Mikroverfilmung des Nachlasses" aria-hidden="true" data-bs-backdrop="true">
-                           <div class="modal-dialog">
-                              <div class="modal-content">
-                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Mehrfache Links</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button></div>
-                                 <div class="modal-body">
-                                    <p>Mehrfaches Vorkommen auf der angesteuerten Website: </p>
-                                    <ol style="list-style-type: none; padding: 0px;"></ol>
-                                 </div>
-                              </div>
+               <div class="entity-page" style="--project-color: #8E4162;">
+                  <div class="crumbs mt-1"><span class="type-pill">Person</span><span>Register</span><span class="sep">/</span><a href="listperson.html">Personen</a><span class="sep">/</span>Liebermann Max</div>
+                  <h1 class="entity-name">Max Liebermann</h1>
+                  <div class="life-dates">20. 7. 1847 Berlin – 8. 2. 1935 Berlin</div>
+                  <div class="card-body-index entity-layout">
+                     <div class="entity-sidebar">
+                        <div class="entity-portrait-card">
+                           <div class="entity-portrait-frame"><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Liebermann%2C%20Max%20-%20Selbstbildnis%20mit%20Pinsel%20-%201913%20-%20Stiftung%20Stadtmuseum%20Berlin.jpg" alt="Portrait"></img></div>
+                           <div class="entity-portrait-meta">
+                              <div class="meta-row prof">Maler</div>
                            </div>
                         </div>
-                        <div  class="modal fade modal-sm" id="Zeitungsausschnitte" tabindex="-1" focus="true" keyboard="true" aria-labelledby="Zeitungsausschnitte" aria-hidden="true" data-bs-backdrop="true">
-                           <div class="modal-dialog">
-                              <div class="modal-content">
-                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Mehrfache Links</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button></div>
-                                 <div class="modal-body">
-                                    <p>Mehrfaches Vorkommen auf der angesteuerten Website: </p>
-                                    <ol style="list-style-type: none; padding: 0px;"></ol>
-                                 </div>
-                              </div>
+                        <div class="side-block">
+                           <h3>Normdaten</h3>
+                           <div class="normdaten-list">
+                              <div class="meta-row"><span class="label">GND</span><a class="gnd-badge" target="_blank" href="https://d-nb.info/gnd/118572695">118572695</a></div>
+                              <div class="meta-row"><span class="label">Wikidata</span><a class="gnd-badge" target="_blank" href="http://www.wikidata.org/entity/Q158062">Q158062</a></div>
+                              <div class="meta-row"><span class="label">PMB</span><a class="gnd-badge" target="_blank" href="https://pmb.acdh.oeaw.ac.at/entity/12068/">12068</a></div>
                            </div>
                         </div>
-                        <div  class="modal fade modal-sm" id="Pollaczek: Schnitzler und ich" tabindex="-1" focus="true" keyboard="true" aria-labelledby="Pollaczek: Schnitzler und ich" aria-hidden="true" data-bs-backdrop="true">
-                           <div class="modal-dialog">
-                              <div class="modal-content">
-                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Mehrfache Links</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button></div>
-                                 <div class="modal-body">
-                                    <p>Mehrfaches Vorkommen auf der angesteuerten Website: </p>
-                                    <ol style="list-style-type: none; padding: 0px;"></ol>
+                        <div class="side-block">
+                           <h3>Ressourcen</h3>
+                           <p class="buttonreihe"><a href="https://de.wikipedia.org/wiki/Max_Liebermann" target="_blank"><span class="badge rounded-pill" style="background-color: #36c; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12068.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_17517.html" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb12068.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews</span></a> <a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12068.html" target="_blank"><span class="badge rounded-pill" style="background-color: #639FF9; color: white; margin-top: 4px;">Schnitzler/Bahr</span></a> <a href="https://fackel.oeaw.ac.at/?p=fackelp49942" target="_blank"><span class="badge rounded-pill" style="background-color: #CE0F0B; color: white; margin-top: 4px;">Fackel</span></a> <a href="https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&amp;letter=L#DWpers0152" target="_blank"><span class="badge rounded-pill" style="background-color: #a21a17; color: white; margin-top: 4px;">Dritte Walpurgisnacht</span></a> <a href="https://bahr-textverzeichnis.acdh.oeaw.ac.at/TSN-listperson.html#pmb12068" target="_blank"><span class="badge rounded-pill" style="background-color: #ce0000; color: white; margin-top: 4px;">Bahr Tagebücher</span></a> 
+                              <div  class="modal fade modal-sm" id="Mikroverfilmung des Nachlasses" tabindex="-1" focus="true" keyboard="true" aria-labelledby="Mikroverfilmung des Nachlasses" aria-hidden="true" data-bs-backdrop="true">
+                                 <div class="modal-dialog">
+                                    <div class="modal-content">
+                                       <div class="modal-header">
+                                          <h5 class="modal-title" id="exampleModalLabel">Mehrfache Links</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button></div>
+                                       <div class="modal-body">
+                                          <p>Mehrfaches Vorkommen auf der angesteuerten Website: </p>
+                                          <ol style="list-style-type: none; padding: 0px;"></ol>
+                                       </div>
+                                    </div>
                                  </div>
                               </div>
-                           </div>
+                              <div  class="modal fade modal-sm" id="Zeitungsausschnitte" tabindex="-1" focus="true" keyboard="true" aria-labelledby="Zeitungsausschnitte" aria-hidden="true" data-bs-backdrop="true">
+                                 <div class="modal-dialog">
+                                    <div class="modal-content">
+                                       <div class="modal-header">
+                                          <h5 class="modal-title" id="exampleModalLabel">Mehrfache Links</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button></div>
+                                       <div class="modal-body">
+                                          <p>Mehrfaches Vorkommen auf der angesteuerten Website: </p>
+                                          <ol style="list-style-type: none; padding: 0px;"></ol>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div  class="modal fade modal-sm" id="Pollaczek: Schnitzler und ich" tabindex="-1" focus="true" keyboard="true" aria-labelledby="Pollaczek: Schnitzler und ich" aria-hidden="true" data-bs-backdrop="true">
+                                 <div class="modal-dialog">
+                                    <div class="modal-content">
+                                       <div class="modal-header">
+                                          <h5 class="modal-title" id="exampleModalLabel">Mehrfache Links</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button></div>
+                                       <div class="modal-body">
+                                          <p>Mehrfaches Vorkommen auf der angesteuerten Website: </p>
+                                          <ol style="list-style-type: none; padding: 0px;"></ol>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </p>
                         </div>
-                     </p>
-                  </div>
-                  <div class="WikimediaContainer">
-                     <div class="WikimediaLeft-div">
-                        <p class="personenname"></p>
-                        <p><i>Maler</i></p>
                      </div>
-                     <div class="WikimediaRight-div">
-                        <figure><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Liebermann%2C%20Max%20-%20Selbstbildnis%20mit%20Pinsel%20-%201913%20-%20Stiftung%20Stadtmuseum%20Berlin.jpg" alt="Image" width="200px;"></img></figure>
+                     <div class="entity-main me-auto" style="max-width: 1400px;">
+                        <div class="entity-tabs"><button class="entity-tab-btn active" data-tab="tab-erwaehnungen">Erwähnungen <span class="tab-count">24</span></button><button class="entity-tab-btn" data-tab="tab-relationen">Relationen</button><details class="relationen-info-popup">
+                              <summary class="relationen-info-btn" title="Info zu Relationen" aria-label="Info zu Relationen">ⓘ</summary>
+                              <div class="relationen-info-content">
+                                 <p>Hier sind jene Beziehungen zu Entitäten (Personen, Werken, Orten, Organisationen,
+                                    Ereignissen) abgebildet, die in der vorliegenden Edition vorkommen.</p>
+                                 <p>Bei Geburts- und Sterbeorten führt das dazu, dass nur jene Orte als Beziehung dargestellt
+                                    werden, die auch unmittelbar vorkommen. </p>
+                                 <p>Alle Beziehungen können im Webservice PMB <a href="https://pmb.acdh.oeaw.ac.at/" target="_blank">studiert werden</a>.</p>
+                              </div>
+                           </details>
+                        </div>
+                        <div id="tab-erwaehnungen" class="entity-tab-panel active">
+                           <div id="mentions"><span class="infodesc mr-2">
+                                 <legend>Erwähnungen</legend>
+                                 <div class="mentions-toolbar"><span class="mentions-summary"><span class="ms-mentions"><b>24</b> Erwähnungen</span> · <span class="ms-years"><b class="neutral">1</b> Jahr</span></span></div>
+                                 <div id="mentions-chart">
+                                    <div class="chart-head">
+                                       <div class="legend"><span><span class="dot"></span>Erwähnungen</span></div><span>1879–1931</span></div><button type="button" class="mentions-chart-fs-btn" aria-label="Diagramm im Vollbild anzeigen" title="Vollbild (Klick auf Diagramm schließt)">⤢</button><svg viewBox="0 0 600 200" preserveAspectRatio="xMidYMid meet" aria-label="Balkendiagramm der Erwähnungen pro Jahr" role="img">
+                                       <line x1="50" y1="10" x2="50" y2="160" stroke="black" stroke-width="2"></line>
+                                       <line x1="50" y1="160" x2="580" y2="160" stroke="black" stroke-width="2"></line>
+                                       <text x="30" y="165" font-size="10" text-anchor="end">0</text>
+                                       <text x="30" y="115" font-size="10" text-anchor="end">10</text>
+                                       <text x="30" y="65" font-size="10" text-anchor="end">20</text>
+                                       <text x="30" y="15" font-size="10" text-anchor="end">30</text>
+                                       <text x="60" y="175" font-size="10" text-anchor="middle">1880</text>
+                                       <text x="160" y="175" font-size="10" text-anchor="middle">1890</text>
+                                       <text x="260" y="175" font-size="10" text-anchor="middle">1900</text>
+                                       <text x="360" y="175" font-size="10" text-anchor="middle">1910</text>
+                                       <text x="460" y="175" font-size="10" text-anchor="middle">1920</text>
+                                       <text x="560" y="175" font-size="10" text-anchor="middle">1930</text></svg></div>
+                                 <div id="mentions-liste">
+                                    <div class="mentions-by-year">
+                                       <details class="year-details" open="open">
+                                          <summary><span class="year-chevron"></span><span class="year-label"></span><span class="year-entries">24 Einträge</span><span class="year-bar"><i style="width: 100%;"></i></span><span class="year-count">24</span></summary>
+                                          <div class="year-content">
+                                             <details class="month-details" open="open">
+                                                <summary class="month-summary"></summary>
+                                                <div class="month-content py-2">
+                                                   <ul class="dashed">
+                                                      <li class=""><a href="pmb131551.html">Was wünschen Sie dem Deutschen Kaiser zum
+                                                            Geburtstag?</a></li>
+                                                      <li class=""><a href="pmb134531.html">Die Jubelausstellung im Wiener Künstlerhause. 3.
+                                                            Berühmte Namen</a></li>
+                                                      <li class=""><a href="pmb127979.html">Berliner Kultur</a></li>
+                                                      <li class=""><a href="pmb134841.html">Aufruf</a></li>
+                                                      <li class=""><a href="pmb126587.html">Publikum und Gesellschaft</a></li>
+                                                      <li class=""><a href="pmb132831.html">Graphische Ausstellung. I</a></li>
+                                                      <li class=""><a href="pmb124861.html">A Letter from Germany. Munich: October,
+                                                            1928</a></li>
+                                                      <li class=""><a href="pmb134497.html">Die Kunst auf der Pariser Weltausstellung 1889.
+                                                            III. L’exposition des artistes étrangers</a></li>
+                                                      <li class=""><a href="HB-tv_3742.html">Aufruf für Arno Holz</a></li>
+                                                      <li class=""><a href="pmb132773.html">Grazer Kunst</a></li>
+                                                      <li class=""><a href="pmb134839.html">Aufruf</a></li>
+                                                      <li class=""><a href="pmb130095.html">Schwindler</a></li>
+                                                      <li class=""><a href="pmb133425.html">Malerei 1894</a></li>
+                                                      <li class=""><a href="pmb134835.html">Aufruf</a></li>
+                                                      <li class=""><a href="pmb134837.html">Aufruf</a></li>
+                                                      <li class=""><a href="pmb133829.html">Die dritte Wiener Internationale. (März
+                                                            1894)</a></li>
+                                                      <li class=""><a href="pmb31003.html">Die Kunst des Kindes</a></li>
+                                                      <li class=""><a href="pmb134493.html">Die Kunst auf der Pariser Weltausstellung 1889.
+                                                            V. Österreichische und deutsche Kunst</a></li>
+                                                      <li class=""><a href="pmb125283.html">Tagebuch. 15. November</a></li>
+                                                      <li class=""><a href="pmb133415.html">Graphische Künstler</a></li>
+                                                      <li class=""><a href="pmb134635.html">Pariser Kunstbriefe. [Schluß]</a></li>
+                                                      <li class=""><a href="pmb130403.html">Maler und Dichter. Beiträge zur Psychologie der
+                                                            Kunst. Die Dichter</a></li>
+                                                      <li class=""><a href="pmb134485.html">Die 62. Berliner akademische Kunstausstellung.
+                                                            II</a></li>
+                                                      <li class=""><a href="pmb127997.html">Holz</a></li>
+                                                   </ul>
+                                                </div>
+                                             </details>
+                                          </div>
+                                       </details>
+                                    </div>
+                                 </div></span></div>
+                        </div>
+                        <div id="tab-relationen" class="entity-tab-panel"></div>
                      </div>
                   </div>
-                  <div id="mentions" class="mt-2"><span class="infodesc mr-2">
-                        <ul>
-                           <legend>Erwähnungen</legend>
-                           <li>Holz <a href="pmb127997.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>Schwindler <a href="pmb130095.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>Aufruf für Arno Holz <a href="HB-tv_3742.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>Was wünschen Sie dem Deutschen Kaiser zum
-                              Geburtstag? <a href="pmb131551.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>A Letter from Germany. Munich: October,
-                              1928 <a href="pmb124861.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>Publikum und Gesellschaft <a href="pmb126587.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>Tagebuch. 15. November <a href="pmb125283.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>Die Kunst des Kindes <a href="pmb31003.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>Die dritte Wiener Internationale. (März
-                              1894) <a href="pmb133829.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>Graphische Ausstellung. I <a href="pmb132831.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>Aufruf <a href="pmb134841.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>Graphische Künstler <a href="pmb133415.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>Berliner Kultur <a href="pmb127979.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>Malerei 1894 <a href="pmb133425.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>Aufruf <a href="pmb134839.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>Die Jubelausstellung im Wiener Künstlerhause. 3.
-                              Berühmte Namen <a href="pmb134531.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>Maler und Dichter. Beiträge zur Psychologie der
-                              Kunst. Die Dichter <a href="pmb130403.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>Pariser Kunstbriefe. [Schluß] <a href="pmb134635.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>Aufruf <a href="pmb134835.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>Die Kunst auf der Pariser Weltausstellung 1889.
-                              III. L’exposition des artistes étrangers <a href="pmb134497.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>Grazer Kunst <a href="pmb132773.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>Aufruf <a href="pmb134837.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>Die 62. Berliner akademische Kunstausstellung.
-                              II <a href="pmb134485.html"><i class="fas fa-external-link-alt"></i></a></li>
-                           <li>Die Kunst auf der Pariser Weltausstellung 1889.
-                              V. Österreichische und deutsche Kunst <a href="pmb134493.html"><i class="fas fa-external-link-alt"></i></a></li>
-                        </ul></span></div>
                </div>
             </div>
          </div>
