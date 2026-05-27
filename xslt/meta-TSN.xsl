@@ -108,6 +108,15 @@
                             font-weight: bold;
                             font-size: 1rem;
                             color: #555;
+                            scroll-margin-top: 9rem;
+                        }
+                        @keyframes alpha-highlight {
+                            0%   { background: #8b1a1a; color: #fff; border-left-color: #5c0f0f; }
+                            70%  { background: #8b1a1a; color: #fff; border-left-color: #5c0f0f; }
+                            100% { background: #f0f0f0; color: #555; border-left-color: #999; }
+                        }
+                        .alpha-anchor-item--highlight {
+                            animation: alpha-highlight 1.4s ease-out forwards;
                         }
                     </style>
                     <a href="#list-top" class="tsn-back-to-top" title="Zum Anfang der Liste">
@@ -203,6 +212,21 @@
                             </xsl:if>
                         </div>
                     </div>
+                    <script>
+                        document.querySelectorAll('.alpha-nav-link[href^="#alpha-"]').forEach(function(link) {
+                            link.addEventListener('click', function() {
+                                var id = this.getAttribute('href').slice(1);
+                                var target = document.getElementById(id);
+                                if (!target) return;
+                                target.classList.remove('alpha-anchor-item--highlight');
+                                void target.offsetWidth;
+                                target.classList.add('alpha-anchor-item--highlight');
+                                target.addEventListener('animationend', function() {
+                                    target.classList.remove('alpha-anchor-item--highlight');
+                                }, { once: true });
+                            });
+                        });
+                    </script>
                     <xsl:call-template name="html_footer"/>
                 </div>
             </body>
