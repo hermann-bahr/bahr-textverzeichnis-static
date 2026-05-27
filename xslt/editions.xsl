@@ -150,7 +150,7 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>
-    <xsl:template match="tei:note[not(@type='bibliographical-statement')]"/>
+    <xsl:template match="tei:note[not(@type='bibliographical-statement')]" priority="-1"/>
     <xsl:template match="tei:biblStruct">
         <xsl:element name="h2">
             <xsl:value-of select="tei:note[@type = 'bibliographical-statement'][1]"/>
@@ -233,7 +233,7 @@
             </tr>
         </xsl:for-each>
     </xsl:template>
-    <xsl:template match="tei:biblStruct/tei:note[child::tei:bibl[not(@type='obsolete')]]">
+    <xsl:template match="tei:biblStruct/tei:note[child::tei:bibl[not(@type='obsolete')]]" priority="2">
         <tr>
             <th>
                 <xsl:choose>
@@ -413,7 +413,7 @@
         <xsl:text> </xsl:text>
         <xsl:apply-templates/>
     </xsl:template>
-    <xsl:template match="tei:note[not(parent::tei:biblStruct)]">
+    <xsl:template match="tei:note[not(parent::tei:biblStruct)]" priority="1">
         <xsl:text> [</xsl:text>
         <xsl:apply-templates/>
         <xsl:text>] </xsl:text>
