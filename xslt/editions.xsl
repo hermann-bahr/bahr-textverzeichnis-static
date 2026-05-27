@@ -460,7 +460,7 @@
                             <xsl:value-of select="concat(., '.html')"/>
                         </xsl:attribute>
                         <xsl:value-of
-                            select="document(concat('https://raw.githubusercontent.com/hermann-bahr/bahr-textverzeichnis-data/main/data/editions/', ., '.xml'))/tei:TEI/tei:text[1]/tei:body[1]/tei:div[1]/tei:biblStruct[1]/tei:note[@type = 'bibliographical-statement']"
+                            select="document(concat('../data/editions/', ., '.xml'))/tei:TEI/tei:text[1]/tei:body[1]/tei:div[1]/tei:biblStruct[1]/tei:note[@type = 'bibliographical-statement']"
                         />
                     </xsl:element>
                 </td>
