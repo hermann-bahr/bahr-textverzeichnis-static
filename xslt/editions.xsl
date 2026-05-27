@@ -991,16 +991,6 @@
                     select="$idnos-of-current/descendant::tei:idno[@subtype = $abbr][1]"/>
                 <xsl:element name="a">
                     <xsl:choose>
-                        <xsl:when test="$abbr = 'wikidata'">
-                            <xsl:variable name="wikipediaVSdata"
-                                select="mam:wikidata2wikipedia($current-idno)" as="xs:string"/>
-                            <xsl:attribute name="href">
-                                <xsl:value-of select="$wikipediaVSdata"/>
-                            </xsl:attribute>
-                            <xsl:attribute name="target">
-                                <xsl:text>_blank</xsl:text>
-                            </xsl:attribute>
-                        </xsl:when>
                         <xsl:when test="$abbr = 'pmb'">
                             <xsl:variable name="pmb-entitytype" as="xs:string">
                                 <xsl:choose>
@@ -1059,32 +1049,7 @@
                             </xsl:choose>
                             <xsl:text> color: white; margin-top: 4px;</xsl:text>
                         </xsl:attribute>
-                        <xsl:choose>
-                            <xsl:when test="$abbr = 'wikidata'">
-                                <xsl:variable name="wikipediaVSdata"
-                                    select="mam:wikidata2wikipedia($current-idno)" as="xs:string"/>
-                                <xsl:variable name="lang-code"
-                                    select="substring(substring-after($wikipediaVSdata, 'https://'), 1, 2)"/>
-                                <xsl:choose>
-                                    <xsl:when test="contains($wikipediaVSdata, 'wikipedia')">
-                                        <xsl:choose>
-                                            <xsl:when test="$lang-code = 'de'"/>
-                                            <xsl:otherwise>
-                                                <xsl:value-of select="$lang-code"/>
-                                                <xsl:text>:</xsl:text>
-                                            </xsl:otherwise>
-                                        </xsl:choose>
-                                        <xsl:text>Wikipedia</xsl:text>
-                                    </xsl:when>
-                                    <xsl:otherwise>
-                                        <xsl:text>Wikidata</xsl:text>
-                                    </xsl:otherwise>
-                                </xsl:choose>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <xsl:value-of select="./caption"/>
-                            </xsl:otherwise>
-                        </xsl:choose>
+                        <xsl:value-of select="./caption"/>
                     </xsl:element>
                 </xsl:element>
                 <xsl:text> </xsl:text>
@@ -1127,72 +1092,4 @@
             </xsl:if>
         </xsl:for-each>
     </xsl:template>
-    <xsl:function name="mam:wikidata2wikipedia">
-        <xsl:param name="wikidata-entry" as="xs:string"/>
-        <xsl:variable name="wikidata-entity">
-            <xsl:choose>
-                <xsl:when test="starts-with($wikidata-entry, 'Q')">
-                    <xsl:value-of select="normalize-space($wikidata-entry)"/>
-                </xsl:when>
-                <xsl:when test="starts-with($wikidata-entry, 'https://www.wikidata.org/entity/')">
-                    <xsl:value-of
-                        select="normalize-space(substring-after($wikidata-entry, 'https://www.wikidata.org/entity/'))"
-                    />
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:value-of
-                        select="normalize-space(concat('Q', tokenize($wikidata-entry, 'Q')[last()]))"
-                    />
-                </xsl:otherwise>
-            </xsl:choose>
-        </xsl:variable>
-        <xsl:variable name="get-string" as="xs:string"> 
-            <xsl:value-of
-                select="concat('https://www.wikidata.org/w/api.php?action=wbgetentities&amp;format=xml&amp;props=sitelinks&amp;ids=', $wikidata-entity,'')"
-            />
-        </xsl:variable>
-        <xsl:choose>
-            <xsl:when test="doc-available($get-string) and document($get-string)/api[descendant::sitelink]/@success = '1'">
-                <xsl:variable name="sitelinks"
-                    select="document($get-string)/descendant::sitelinks[1]" as="node()"/>
-                <xsl:choose>
-                    <xsl:when test="$sitelinks/sitelink[@site = 'dewiki']">
-                        <xsl:value-of
-                            select="concat('https://de.wikipedia.org/wiki/', $sitelinks/sitelink[@site = 'dewiki']/@title)"
-                        />
-                    </xsl:when>
-                    <xsl:when test="$sitelinks/sitelink[@site = 'enwiki']">
-                        <xsl:value-of
-                            select="concat('https://en.wikipedia.org/wiki/', $sitelinks/sitelink[@site = 'enwiki']/@title)"
-                        />
-                    </xsl:when>
-                    <xsl:when test="$sitelinks/sitelink[@site = 'frwiki']">
-                        <xsl:value-of
-                            select="concat('https://fr.wikipedia.org/wiki/', $sitelinks/sitelink[@site = 'frwiki']/@title)"
-                        />
-                    </xsl:when>
-                    <xsl:when test="$sitelinks/sitelink[@site = 'itwiki']">
-                        <xsl:value-of
-                            select="concat('https://it.wikipedia.org/wiki/', $sitelinks/sitelink[@site = 'frwiki']/@title)"
-                        />
-                    </xsl:when>
-                    <xsl:when test="$sitelinks/sitelink[@site = 'eswiki']">
-                        <xsl:value-of
-                            select="concat('https://es.wikipedia.org/wiki/', $sitelinks/sitelink[@site = 'eswiki']/@title)"
-                        />
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:variable name="lang-code"
-                            select="substring($sitelinks/sitelink[not(@site='commonswiki')][1]/@site, 1, 2)"/>
-                        <xsl:value-of
-                            select="concat('https://', $lang-code, '.wikipedia.org/wiki/', $sitelinks/sitelink[1]/@title)"
-                        />
-                    </xsl:otherwise>
-                </xsl:choose>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:value-of select="$wikidata-entry"/>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:function>
 </xsl:stylesheet>
