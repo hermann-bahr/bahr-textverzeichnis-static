@@ -214,10 +214,17 @@
                     </div>
                     <script>
                         document.querySelectorAll('.alpha-nav-link[href^="#alpha-"]').forEach(function(link) {
-                            link.addEventListener('click', function() {
+                            link.addEventListener('click', function(e) {
+                                e.preventDefault();
                                 var id = this.getAttribute('href').slice(1);
                                 var target = document.getElementById(id);
                                 if (!target) return;
+                                var navbar = document.querySelector('.navbar');
+                                var stickyIntro = document.querySelector('.tsn-sticky-intro');
+                                var offset = (navbar ? navbar.offsetHeight : 56)
+                                           + (stickyIntro ? stickyIntro.offsetHeight : 80);
+                                var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+                                window.scrollTo({ top: top, behavior: 'smooth' });
                                 target.classList.remove('alpha-anchor-item--highlight');
                                 void target.offsetWidth;
                                 target.classList.add('alpha-anchor-item--highlight');
