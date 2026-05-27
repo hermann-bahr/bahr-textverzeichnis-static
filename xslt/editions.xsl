@@ -447,7 +447,7 @@
     </xsl:template>
     <xsl:template match="tei:ref[@type = 'abdrucke']">
         <xsl:for-each
-            select="distinct-values(descendant::tei:ptr[@type = 'textref' and @target != ancestor::tei:TEI/@xml:id]/@target)">
+            select="distinct-values(descendant::tei:ptr[@type = 'textref' and @target != ancestor::tei:TEI/@xml:id]/@target)[normalize-space(.) != '']">
             <tr>
                 <th>
                     <xsl:if test="position() = 1">
@@ -459,9 +459,12 @@
                         <xsl:attribute name="href">
                             <xsl:value-of select="concat(., '.html')"/>
                         </xsl:attribute>
-                        <xsl:value-of
-                            select="document(concat('../data/editions/', ., '.xml'))/tei:TEI/tei:text[1]/tei:body[1]/tei:div[1]/tei:biblStruct[1]/tei:note[@type = 'bibliographical-statement']"
-                        />
+                        <xsl:variable name="local-path" select="concat('../data/editions/', ., '.xml')"/>
+                        <xsl:if test="doc-available($local-path)">
+                            <xsl:value-of
+                                select="document($local-path)/tei:TEI/tei:text[1]/tei:body[1]/tei:div[1]/tei:biblStruct[1]/tei:note[@type = 'bibliographical-statement']"
+                            />
+                        </xsl:if>
                     </xsl:element>
                 </td>
             </tr>
