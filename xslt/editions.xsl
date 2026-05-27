@@ -1152,7 +1152,7 @@
             />
         </xsl:variable>
         <xsl:choose>
-            <xsl:when test="document($get-string)/api[descendant::sitelink]/@success = '1'">
+            <xsl:when test="doc-available($get-string) and document($get-string)/api[descendant::sitelink]/@success = '1'">
                 <xsl:variable name="sitelinks"
                     select="document($get-string)/descendant::sitelinks[1]" as="node()"/>
                 <xsl:choose>
