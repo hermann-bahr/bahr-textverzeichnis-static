@@ -209,6 +209,17 @@
                         .alpha-anchor-item--highlight {
                             animation: alpha-highlight 1.4s ease-out forwards;
                         }
+                        li[id^="pmb"] {
+                            scroll-margin-top: 9rem;
+                        }
+                        @keyframes tsn-item-highlight {
+                            0%   { background: #ffe066; }
+                            70%  { background: #ffe066; }
+                            100% { background: transparent; }
+                        }
+                        .tsn-highlight {
+                            animation: tsn-item-highlight 1.8s ease-out forwards;
+                        }
                     </style><a href="#list-top" class="tsn-back-to-top" title="Zum Anfang der Liste"><i class="fa fa-arrow-up"></i></a><div class="container-fluid">
             <div class="card" id="list-top">
                <div class="tsn-sticky-intro">
@@ -42540,26 +42551,63 @@
                </div>
             </div>
          </div><script>
-                        document.querySelectorAll('.alpha-nav-link[href^="#alpha-"]').forEach(function(link) {
-                            link.addEventListener('click', function(e) {
-                                e.preventDefault();
-                                var id = this.getAttribute('href').slice(1);
-                                var target = document.getElementById(id);
-                                if (!target) return;
+                        (function() {
+                            function getStickyOffset() {
                                 var navbar = document.querySelector('.navbar');
                                 var stickyIntro = document.querySelector('.tsn-sticky-intro');
-                                var offset = (navbar ? navbar.offsetHeight : 56)
-                                           + (stickyIntro ? stickyIntro.offsetHeight : 80);
+                                return (navbar ? navbar.offsetHeight : 56)
+                                     + (stickyIntro ? stickyIntro.offsetHeight : 80);
+                            }
+
+                            function scrollToTarget(target, smooth) {
+                                var offset = getStickyOffset();
                                 var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
-                                window.scrollTo({ top: top, behavior: 'smooth' });
-                                target.classList.remove('alpha-anchor-item--highlight');
+                                window.scrollTo({ top: top, behavior: smooth ? 'smooth' : 'instant' });
+                            }
+
+                            function highlightTarget(target) {
+                                var isAlpha = target.classList.contains('alpha-anchor-item');
+                                var cls = isAlpha ? 'alpha-anchor-item--highlight' : 'tsn-highlight';
+                                target.classList.remove(cls);
                                 void target.offsetWidth;
-                                target.classList.add('alpha-anchor-item--highlight');
+                                target.classList.add(cls);
                                 target.addEventListener('animationend', function() {
-                                    target.classList.remove('alpha-anchor-item--highlight');
+                                    target.classList.remove(cls);
                                 }, { once: true });
+                            }
+
+                            function handleHash(smooth) {
+                                var hash = window.location.hash;
+                                if (!hash) return;
+                                var target = document.getElementById(hash.slice(1));
+                                if (!target) return;
+                                scrollToTarget(target, smooth);
+                                highlightTarget(target);
+                            }
+
+                            document.querySelectorAll('.alpha-nav-link[href^="#alpha-"]').forEach(function(link) {
+                                link.addEventListener('click', function(e) {
+                                    e.preventDefault();
+                                    var id = this.getAttribute('href').slice(1);
+                                    var target = document.getElementById(id);
+                                    if (!target) return;
+                                    scrollToTarget(target, true);
+                                    highlightTarget(target);
+                                });
                             });
-                        });
+
+                            if (window.location.hash) {
+                                if (document.readyState === 'loading') {
+                                    document.addEventListener('DOMContentLoaded', function() {
+                                        setTimeout(function() { handleHash(false); }, 50);
+                                    });
+                                } else {
+                                    setTimeout(function() { handleHash(false); }, 50);
+                                }
+                            }
+
+                            window.addEventListener('hashchange', function() { handleHash(true); });
+                        })();
                     </script><div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
             <div class="container" id="footer-full-content" tabindex="-1">
                <div class="footer-separator">
