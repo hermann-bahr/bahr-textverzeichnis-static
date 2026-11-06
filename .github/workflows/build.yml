@@ -15,7 +15,7 @@ jobs:
       TYPESENSE_API_KEY: ${{secrets.TYPESENSE_API_KEY}}
     steps:
     - name: Perform Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
     - name: Install Saxon, Ant, Fundament and acdh-tei-pyutils
       run: |
         ./script.sh
