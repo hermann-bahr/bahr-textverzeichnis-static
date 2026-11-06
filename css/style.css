@@ -914,6 +914,12 @@ nav {
     border-width: 3px;
 }
 
+/* Die Navbar nutzt die volle Fensterbreite: Logo links, Menü rechtsbündig.
+   Die Textbreite (max-width) gilt erst unterhalb des Strichs. */
+.navbar > .container-fluid {
+    max-width: none;
+}
+
 .navbar .navbar-brand {
     padding-right: 0px;
 }
