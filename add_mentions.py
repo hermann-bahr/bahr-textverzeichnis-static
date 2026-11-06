@@ -13,8 +13,8 @@ for x in tqdm(sorted(files), total=len(files)):
     doc = TeiReader(x)
     file_name = os.path.split(x)[1]
     doc_title = doc.any_xpath('.//tei:titleStmt/tei:title[@level="a"]/text()')[0]
-    doc_date = doc.any_xpath('.//tei:titleStmt/tei:title[@type="iso-date"]/@when-iso')
-    doc_date = doc_date[0] if doc_date else ""
+    doc_date = doc.any_xpath('.//tei:titleStmt/tei:title[@type="iso-date"]/text()')
+    doc_date = doc_date[0].strip() if doc_date else ""
     for entity in doc.any_xpath('.//tei:back//*[@xml:id]/@xml:id'):
         d[entity].add(f"{file_name}_____{doc_title}_____{doc_date}")
 
