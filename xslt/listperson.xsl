@@ -186,12 +186,7 @@
                     <body class="page">
                         <div class="hfeed site" id="page">
                             <xsl:call-template name="nav_bar"/>
-                            <div class="container">
-                                <div class="card">
-                                   
-                                    <xsl:call-template name="person_detail"/>
-                                </div>
-                            </div>
+                            <xsl:call-template name="person_detail"/>
                             <xsl:call-template name="html_footer"/>
                         </div>
                     </body>
